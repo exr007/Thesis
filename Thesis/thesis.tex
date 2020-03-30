@@ -1,0 +1,144 @@
+%Thomas North University of Birmingham Thesis
+%A thesis normally consists of the following elements:
+%• Author’s Declaration Form (Library deposit copy only)
+%• Preliminaries
+%- title page
+%- abstract
+%- dedication
+%- acknowledgements
+%- contents listings
+%- table of contents
+%- list of illustrations
+%- list of tables
+%- list of definitions and/or
+% abbreviations
+%• Text
+%• End Pages
+%- appendices
+%- list of references/bibliography
+
+%%%%%%%%%PACKAGES%%%%%%%%%%%%%%
+\documentclass[a4paper, 12pt, oneside]{report}
+\usepackage[doublespacing]{setspace}
+
+\usepackage[top=3cm, bottom=3cm,inner=3cm,outer=3cm]{geometry}
+\usepackage{aas_macros}
+\usepackage{amsmath,amssymb,graphicx,natbib}
+\usepackage{enumerate,relsize,float}
+\usepackage[compact]{titlesec}
+\usepackage{comment}
+\usepackage{threeparttable}
+\usepackage[hidelinks]{hyperref}	% Hyperlinks
+%\hypersetup{colorlinks=True,linkcolor=blue,citecolor=blue,filecolor=blue,urlcolor=blue}
+\usepackage{xspace}
+\usepackage{longtable}
+\usepackage{bm}
+\usepackage{subfig}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\graphicspath{{Title/}{Chapters/Intro/}{Chapters/HiSPARC/}{Chapters/HS_14008/}}%Add more folders here for graphics for each chapter. 
+
+%%%%%%%%%%%%%%COMMANDS%%%%%%%%%%%%
+\newcommand{\Ms}{\ensuremath{\textrm{M}_{\odot}}\xspace}
+\newcommand{\Me}{\ensuremath{\textrm{M}_{\oplus}}\xspace}
+\newcommand{\Mj}{\ensuremath{\textrm{M}_{\textrm{J}}}\xspace}
+\newcommand{\Rs}{\ensuremath{\textrm{R}_{\odot}}\xspace}
+\renewcommand{\Re}{\ensuremath{\textrm{R}_{\oplus}}\xspace}
+\newcommand{\Rj}{\ensuremath{\textrm{R}_{\textrm{J}}}\xspace}
+\newcommand{\Ls}{\ensuremath{\textrm{L}_{\odot}}\xspace}
+\newcommand{\e}[1]{\ensuremath{\times 10^{#1}}}
+\newcommand{\numax}{\ensuremath{\nu_{\textrm{max}}}\xspace}
+\newcommand{\delnu}{\ensuremath{\Delta\nu}\xspace}
+\newcommand{\teff}{\ensuremath{T_{\textrm{eff}}}\xspace}
+\newcommand{\logg}{\ensuremath{\log{g}}\xspace}
+\newcommand{\feh}{\ensuremath{\textrm{[Fe/H]}}\xspace}
+\newcommand{\mdash}{\xspace{---}\xspace}
+\newcommand{\ndash}{\xspace{--}\xspace}
+\newcommand{\Kepler}{\ensuremath{\emph{Kepler}}\xspace}
+\newcommand{\tabgap}{\noalign{\vskip 1mm}}
+
+\setcounter{secnumdepth}{3}
+%\renewcommand{\thechapter}{\Roman{chapter}}
+%%%%%%%%%%%%%TWEAKS%%%%%%%%%%%%%%%%%
+% Tweak chapter headings
+%\titleformat{\chapter}[display]{\Huge\center}{\chaptername\,\,\thechapter}{0pt}{}{}
+\titleformat{\chapter}[hang]{\Huge\center}{\thechapter}{1em}{}{}
+\titleformat*{\section}{\Large\bfseries}
+\usepackage[font=small]{caption}
+\setcounter{tocdepth}{1}
+
+
+\begin{document}
+\doublespacing
+\pagenumbering{Roman} 
+
+%TITLE PAGE
+\input{Title/title_page.tex}
+%  Abstract 
+\input{Chapters/Other/abstract.tex}
+%Acknowledgements
+\input{Chapters/Other/ackno.tex}
+%  C O N T E N T S ,   T A B L E S  ,   F I G U R E S ,   N O T A T I O N
+\newpage
+\pagestyle{plain}
+\begin{singlespace} %Optional singlespacing
+\tableofcontents
+\thispagestyle{plain}
+\addtocontents{toc}{\protect\thispagestyle{plain}}
+% Uncomment the following four lines to include a list of figures
+\listoffigures
+\thispagestyle{plain}
+\addtocontents{lof}{\protect\thispagestyle{plain}}
+\thispagestyle{plain}
+%add tables too
+\listoftables
+\thispagestyle{plain}
+\addtocontents{lot}{\protect\thispagestyle{plain}}
+\thispagestyle{plain}
+
+%\addcontentsline{toc}{chapter}{List of Abbreviations}
+\end{singlespace}
+
+%Structure and collaboration
+\input{Chapters/Other/struct.tex}
+\thispagestyle{plain}
+\clearpage
+
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+%  C H A P T E R S
+% Each chapter is in its own file that starts
+%\input{Chapters/Intro/intro.tex}
+
+%\input{Chapters/Conc/conc.tex}
+%Blow this joint...
+
+%HiSPARC
+\input{Chapters/HiSPARC/HiSPARC.tex}
+
+%HiSPARC 14008
+\input{Chapters/HS_14008/HS_14008.tex}
+
+%  A P P E N D I C E S
+\appendix
+\def\chaptername{Appendix}
+\begin{singlespace}
+% Include any appendix files without their .tex extensions
+% No, I have no idea why.
+%\include{appendix}
+\end{singlespace}
+
+
+%  R E F E R E N C E S
+\addcontentsline{toc}{chapter}{Bibliography}
+\begin{singlespace}
+{\small
+\bibliographystyle{mnras}
+% Include the bibliography file without its .bib extension
+\bibliography{library}
+}
+\end{singlespace}
+\end{document}

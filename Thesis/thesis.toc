@@ -1,0 +1,26 @@
+\thispagestyle {plain}
+\contentsline {chapter}{\numberline {1}HiSPARC as a Space Weather Detector}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}HiSPARC Project}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}HiSPARC Detector}{1}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Aims}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}HiSPARC Properties}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}HiSPARC Observations}{3}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}HiSPARC Observations of Ground Level Enhancements}{3}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}HiSPARC Observations of Forbush Decreases}{4}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}Air Shower Simulations}{5}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Air Shower Footprints}{8}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Muon Flux}{9}{subsection.1.5.2}
+\contentsline {section}{\numberline {1.6}Standardisation of HiSPARC Data}{9}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Motivation}{9}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Barometric Correction}{9}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}Temperature Correction}{12}{subsection.1.6.3}
+\contentsline {chapter}{\numberline {2}HiSPARC Station 14008}{13}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{13}{section.2.1}
+\contentsline {section}{\numberline {2.2}Aims}{13}{section.2.2}
+\contentsline {section}{\numberline {2.3}HiSPARC 14008 Detector Set-up}{13}{section.2.3}
+\contentsline {section}{\numberline {2.4}Calibration}{13}{section.2.4}
+\contentsline {section}{\numberline {2.5}Observations}{13}{section.2.5}
+\contentsline {section}{\numberline {2.6}Observations}{13}{section.2.6}
+\contentsline {section}{\numberline {2.7}Conclusions}{13}{section.2.7}
+\contentsline {chapter}{Bibliography}{13}{section.2.7}
