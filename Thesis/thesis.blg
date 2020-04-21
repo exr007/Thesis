@@ -7,46 +7,47 @@ Warning--I didn't find a database entry for "2017North_reta"
 Warning--I didn't find a database entry for "2017North"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty booktitle in desorgher_planetocosmics_2006
 Warning--empty institution in heck_extensive_2017
-You've used 2 entries,
+You've used 9 entries,
             2881 wiz_defined-function locations,
-            736 strings with 6393 characters,
-and the built_in function-call counts, 1078 in all, are:
-= -- 68
-> -- 94
-< -- 7
-+ -- 38
-- -- 18
-* -- 124
-:= -- 183
+            791 strings with 8555 characters,
+and the built_in function-call counts, 4419 in all, are:
+= -- 324
+> -- 347
+< -- 24
++ -- 153
+- -- 56
+* -- 514
+:= -- 722
 add.period$ -- 0
-call.type$ -- 2
-change.case$ -- 4
-chr.to.int$ -- 2
-cite$ -- 3
-duplicate$ -- 50
-empty$ -- 51
-format.name$ -- 26
-if$ -- 177
+call.type$ -- 9
+change.case$ -- 19
+chr.to.int$ -- 9
+cite$ -- 11
+duplicate$ -- 222
+empty$ -- 224
+format.name$ -- 80
+if$ -- 754
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 1
-newline$ -- 19
-num.names$ -- 16
-pop$ -- 14
+missing$ -- 6
+newline$ -- 41
+num.names$ -- 64
+pop$ -- 62
 preamble$ -- 1
-purify$ -- 8
+purify$ -- 36
 quote$ -- 0
-skip$ -- 28
+skip$ -- 130
 stack$ -- 0
-substring$ -- 39
-swap$ -- 29
-text.length$ -- 9
+substring$ -- 211
+swap$ -- 110
+text.length$ -- 38
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 18
-warning$ -- 1
-while$ -- 15
+type$ -- 81
+warning$ -- 2
+while$ -- 65
 width$ -- 0
-write$ -- 32
-(There were 3 warnings)
+write$ -- 103
+(There were 4 warnings)

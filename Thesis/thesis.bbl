@@ -17,10 +17,42 @@
   {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
   mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
+\bibitem[\protect\citeauthoryear{Bartels}{Bartels}{2012}]{bartels_hisparc_2012}
+Bartels R.~T.,  2012, Technical report, The {HiSPARC} {Experiment}: {An}
+  {Analysis} of the {MPV} and the {Number} of {Events} per {Unit} {Time}.
+University College Utrecht
+
+\bibitem[\protect\citeauthoryear{Berkova, Belov, Eroshenko  \& Yanke}{Berkova
+  et~al.}{2011}]{berkova_temperature_2011}
+Berkova M.~D.,  Belov A.~V.,  Eroshenko E.~A.,   Yanke V.~G.,  2011, \mn@doi
+  [Bulletin of the Russian Academy of Sciences: Physics]
+  {10.3103/S1062873811060086}, 75, 820
+
+\bibitem[\protect\citeauthoryear{Desorgher, Flückiger  \& Gurtner}{Desorgher
+  et~al.}{2006}]{desorgher_planetocosmics_2006}
+Desorgher L.,  Flückiger E.~O.,   Gurtner M.,  2006. p.~2361, \url
+  {http://adsabs.harvard.edu/abs/2006cosp...36.2361D}
+
+\bibitem[\protect\citeauthoryear{Fokkema}{Fokkema}{2019}]{fokkema_hisparc_2019}
+Fokkema D. B. R.~A.,  2019, {HiSPARC} station software en hardware documentatie
+  — {HiSPARC} software 6.11 documentation, \url
+  {https://docs.hisparc.nl/station-software/doc/index.html}
+
 \bibitem[\protect\citeauthoryear{Heck \& Pierog}{Heck \&
   Pierog}{2017}]{heck_extensive_2017}
 Heck D.,  Pierog T.,  2017, Technical Report 7.6400, Extensive {Air} {Shower}
   {Simulation} with {CORSIKA}: {A} {User}’s {Guide}
+
+\bibitem[\protect\citeauthoryear{Herbst, Kopp  \& Heber}{Herbst
+  et~al.}{2013}]{herbst_influence_2013}
+Herbst K.,  Kopp A.,   Heber B.,  2013, \mn@doi [Annales Geophysicae]
+  {10.5194/angeo-31-1637-2013}, 31, 1637
+
+\bibitem[\protect\citeauthoryear{Mendon\{{\textbackslash}c\{c\}\}a
+  et~al.,}{Mendon\{{\textbackslash}c\{c\}\}a
+  et~al.}{2016}]{mendoncca_temperature_2016}
+Mendon\{{\textbackslash}c\{c\}\}a R. R. S.~d.,  et~al., 2016, \mn@doi [The
+  Astrophysical Journal] {10.3847/0004-637X/830/2/88}, 830, 88
 
 \bibitem[\protect\citeauthoryear{Paschalis, Mavromichalaki, Yanke, Belov,
   Eroshenko, Gerontidou  \& Koutroumpi}{Paschalis
@@ -28,6 +60,12 @@ Heck D.,  Pierog T.,  2017, Technical Report 7.6400, Extensive {Air} {Shower}
 Paschalis P.,  Mavromichalaki H.,  Yanke V.,  Belov A.,  Eroshenko E.,
   Gerontidou M.,   Koutroumpi I.,  2013, \mn@doi [New Astronomy]
   {10.1016/j.newast.2012.08.003}, 19, 10
+
+\bibitem[\protect\citeauthoryear{Savić, Maletić, Joković, Veselinović,
+  Banjanac, Udovičić  \& Dragić}{Savić et~al.}{2015}]{savic_pressure_2015}
+Savić M.,  Maletić D.,  Joković D.,  Veselinović N.,  Banjanac R.,
+  Udovičić V.,   Dragić A.,  2015, \mn@doi [Journal of Physics: Conference
+  Series] {10.1088/1742-6596/632/1/012059}, 632, 012059
 
 \makeatother
 \end{thebibliography}

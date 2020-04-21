@@ -4,6 +4,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}\label{sec:HS_intro}
 
+... [on daily variations (DV)] Dr. Rolf Butikofer (in a reply from Danislav Sapundjiev, dasapund@meteo.be) said:
+
+\textit{"The daily cosmic ray variation near Earth is caused by the anisotropy of the cosmic ray intensity in the interplanetary space. Cosmic ray particles follow the field lines of the interplanetary magnetic field when they travel towards the interior of the heliosphere. Because of the rotation of the Earth, the angle between the asymptotic cone of acceptance of various energies at the location of ground-based cosmic ray detectors (neutron monitors) and the direction of the interplanetary magnetic field varies with a time period of 24 hours. As a consequence cosmic ray detectors look in different directions in the course of a day and observe therefore a diurnal variation. The daily variations of neutron monitors is mainly seen by high latitude stations which have asymptotic directions at low energies (rigidities) near the equator."}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{HiSPARC Project}
 
@@ -31,27 +36,25 @@ The principle aim of the project was to determine whether the existing HiSPARC n
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{HiSPARC Properties}\label{sec:HS_properties}
+ - Selected HS stations
  - Locations of stations
+ - PLANETOCOSMICS simulations (explain)
  - Rigidities
  - Asymptotic viewing directions
  
- 
-\begin{figure}[ht]
-	\centering
-	\subfloat[ Azimuth variation with fixed zenith at  $20^\circ$ ]{
-		{\includegraphics[width=0.46\columnwidth]{azm.png} }}
-	
-	\qquad
-	
-	\subfloat[ Zenith variation with fixed azimuth at  $0^\circ$ ]{
-		{\includegraphics[width=0.46\columnwidth]{zen.png} }}
-	
-	\caption{ Azimuthal and zenth variations in the allowed and forbidden trajectories for HiSPARC station 501 on January 20th 2005 }
-	\label{fig:R_C}
-\end{figure}
 
+To understand the PCR spectrum that the HiSPARC stations are capable of observing, PCR transport simulations were performed using the PLANETOCOSMICS software. PLANETOCOSMICS performs Geant4 Monte Carlo simulations of charged particle transport through Earth's magnetosphere based on St\o rmers transport equation for charged particles \citep{desorgher_planetocosmics_2006}. PLANETOCOSMICS simulates backward trajectories of charged particles from a given location (latitude, longitude, and altitude) out to the magnetopause for a set of PCR rigidites. 
 
-From the results of the PLANETOCOSMICS simulations it was possible to calculate the rigidity cut-off for each HiSPARC station using equation~(\ref{eq:cut_off}). The cut-off rigidity calculated for the six HiSPARC stations for a vertical incidence upon the atmosphere (i.e. $0^\circ$ zenith angle) are shown in Table~\ref{tab:HS_stns} which show that there is little variation in $R_C$ between the HiSPARC stations and that they observe protons with rigidities in excess of $\sim 3$ GV. 
+For each trajectory there are two possible outcomes: (i) the particles trace out to the magnetopause where they escape Earth's magnetosphere, an allowed trajectory; (ii) the particles are sufficiently bent by the effect of the Earth's magnetosphere that they do not reach the magnetopause and cannot escape the Earth's magnetosphere, a forbidden trajectory \citep{desorgher_planetocosmics_2006}. The coordinates of the asymptotic direction at the magnetosphere are provided as an output to the simluations projected back down to the Earth's surface. In this work PLANETOCOSMICS was configured with the Tsyganenko-89 model for the external magnetospheric magnetic field and the IGRF internal field model.
+
+For each rigidity simulated, whether it was an allowed or forbidden trajectory was stored, which was used to provide an insight into the rigidity spectrum for a given station. From the allowed trajectories the effective cut-off rigidity ($R_C$) for the stations was computed using equation~(\ref{eq:cut_off}), where $R_U$ is the upper rigidity (the last allowed trajectory before the first forbidden trajectory); $R_L$ is the lower rigidity (the last allowed trajectory before which all other trajectories with a lower rigidity are forbidden); $\Delta R$ is the rigidity step size in the simulation \citep{desorgher_planetocosmics_2006, herbst_influence_2013}.
+
+\begin{equation}
+\label{eq:cut_off}
+R_C = R_U - \sum_{i = R_L}^{R_U} \Delta R_i
+\end{equation}
+
+The rigidity spectrum for each of the HiSPARC stations were investigated to determine $R_C$ for each station. The cut-off rigidity calculated for the six HiSPARC stations for a vertical incidence upon the atmosphere (i.e. $0^\circ$ zenith angle) are shown in Table~\ref{tab:HS_stns} which show that there is little variation in $R_C$ between the HiSPARC stations and that they observe protons with rigidities in excess of $\sim 3$ GV. This analysis was initially carried out for the vertical direction (i.e. azimuth = $0^\circ$, zenith = $0^\circ$); however further trajectories were simulated for different azimuth and zenith angles to determine the dependence of the rigidity spectrum on the detector acceptance angle. The analysis for the azimuthal dependence was carried out at a zenith angle of $20^\circ$ as this is around the most probably angle for HiSPARC events, and the analysis of the zenith dependence was carried out at an azimuth angle of $0^\circ$.
 
 
 \begin{table}
@@ -74,8 +77,32 @@ From the results of the PLANETOCOSMICS simulations it was possible to calculate 
 	\end{center}
 \end{table}
 
+\begin{figure}[h]
+	\centering
+	\subfloat[Azimuth variation (fixed zenith = $20^\circ$)]{
+		\includegraphics[width=0.48\columnwidth]{azm.png}
+		\label{fig:azm1}}
+	%\qquad
+	\subfloat[Zenith variation (fixed azimuth = $0^\circ$)]{
+		\includegraphics[width=0.48\columnwidth]{zen.png}
+		\label{fig:zen1}}
+	
+	\caption{Azimuthal and zenith angle variations in the allowed and forbidden rigidity trajectories for HiSPARC station 501.}
+	\label{fig:R_C2}
+\end{figure}
+
 The small variation between HiSPARC stations is due to their close proximity in geographic latitude and longitude. The values of $R_C$ calculated for the HiSPARC stations suggest that they should be able to observe higher energy SCRs, but may not be as susceptible as the higher latitude NMs where the effects of GLEs are highly observable.
 
+As a results of the PLANETOCOSMICS simulations it is possible to understand the trajectories of particles that enter the Earth's magnetosphere prior to arrival at the muon detector.
+
+Figre~\ref{fig:HS_AVD}...
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.6]{HS_AVDs.png}
+	\caption{The vertical asymptotic viewing directions of 5 HiSPARC stations. The rigidity range of the simulations were from $1.0$~GV $<$ R $<20.0$~GV, and the results are plotted in geographic coordinates on January 20th 2005. The diamonds correspond to the HS ground location and the circles correspond to the AVD for a specific rigidity value.}
+	\label{fig:HS_AVD}
+\end{figure}
 
 
  
@@ -344,37 +371,206 @@ From the air shower simulations it is possible to gain an estimate of the muon f
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Motivation}
+- HiSPARC stations are individually managed and guidlines aren't stringent
+- Variability between stations exists and also apparently between detectors within a station (i.e. see singles during GLE 72)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Barometric Correction}\label{sec:HS_P_corr}
 
-It is understood that observations made by ground-based CR detectors are susceptible to atmospheric conditions. Atmospheric pressure effects the CR travel path due to the expansion and contraction of the atmosphere with varying pressure; hence the CR counts are observed to be negatively correlated to atmospheric pressure [add example plot to show].
+It is understood that observations made by ground-based CR detectors are susceptible to atmospheric conditions. Atmospheric pressure effects the CR travel path due to the expansion and contraction of the atmosphere with varying pressure; hence the CR counts are observed to be negatively correlated to atmospheric pressure as shown for both NMs and MDs in Figure~\ref{fig:CR_V_P}. A correction for this barometric effect is routinely applied as part of the data calibration for all NM stations within the NMDB NEST, but there is no such process in the HiSPARC network.
 
-The method of correcting for the barometric effect is discussed widely in the neutron monitor literature and is shown to depend on the barometric coefficient. If the cosmic ray flux is constant, $N$, CR variations depend on the local atmospheric pressure as described by equation~(\ref{eq:presscorr1}), where $\Delta N$ is the change in count rate, $\beta$ is the barometric coefficient, and $\Delta P = P - P_0$ is the deviation in pressure from the average ($P_0$) in the given time-period \citep{paschalis_online_2013}:
+
+\begin{figure}[ht]
+	\centering
+	\subfloat[NM Station]{
+		\includegraphics[width=0.48\columnwidth]{SOPO_CRvP.png}
+		\label{fig:SOPO_CRvP}}
+	%\qquad
+	\subfloat[HS 501 (Nikhef)]{
+		\includegraphics[width=0.48\columnwidth]{501_CRvP.png}
+		\label{fig:HS_501_CRvP}} \\
+	
+	\caption{...}
+	\label{fig:CR_V_P}
+\end{figure}
+
+
+The method of correcting for the barometric effect is discussed widely in the literature regarding NMs and is shown to depend on the barometric coefficient. Assuming the cosmic ray flux variation, absent of the atmospheric effects, is reaonably stable, then a simple corrected can be made. The CR variations ($N$) that depend on the local atmospheric pressure are described by equation~(\ref{eq:presscorr1}), where $\Delta N$ is the change in count rate, $\beta$ is the barometric coefficient, and $\Delta P = P - P_0$ is the deviation in pressure from the average ($P_0$) in the given time-period \citep{paschalis_online_2013}:
 
 \begin{equation}
 \Delta N = - \beta \, N \, \Delta P
 \label{eq:presscorr1}
 \end{equation}
 
-Through the integration of equation~(\ref{eq:presscorr1}), the solution shows the dependence of cosmic ray intensity on pressure as in equation~(\ref{eq:presscorr2}). 
+Through the integration of equation~(\ref{eq:presscorr1}), the solution shows the dependence of cosmic ray intensity on pressure as given in equation~(\ref{eq:presscorr2}). 
 
 \begin{equation}
 N = N_{0} \, e^{-\beta \, \Delta P}
 \label{eq:presscorr2}
 \end{equation}
 
-Therefore by taking the natural logarithm of equation~(\ref{eq:presscorr2}), one can obtain the barometric coefficient through fitting the straight line in equation~(\ref{eq:presscorr3}) to the observed data, where $N_0$ may be assumed as the average count rate over the given time-period. 
+Therefore by taking the logarithm of equation~(\ref{eq:presscorr2}), one can obtain the barometric coefficient by fitting the straight line given by equation~(\ref{eq:presscorr3}) to the observed data, where $N_0$ may be assumed as the mean count rate over the given time-period of observations considered.
 
 \begin{equation}
-\mathrm{ln} \left( \frac{\Delta N}{N} \right) = - \beta \, \Delta P
+\mathrm{ln} \left( \frac{N}{N_0} \right) = - \beta \, \Delta P
 \label{eq:presscorr3}
 \end{equation}
+
+A demonstration of the barometric correction method of fitting a straight line to the data described by equation~(\ref{eq:presscorr3}) is shown for both a NM and a HiSPARC station in Figure~\ref{fig:barometric_fit}.
+
+\begin{figure}[ht]
+	\centering
+	\subfloat[SOPO NM Station]{
+		\includegraphics[width=0.48\columnwidth]{SOPO_beta.png}
+		\label{fig:SOPO_beta}}
+	%\qquad
+	\subfloat[HS 501 (Nikhef)]{
+		\includegraphics[width=0.48\columnwidth]{501_beta.png}
+		\label{fig:HS_501_beta}} \\
+	
+	\caption{The barometric coefficient calculation: (a) during November 2017 for the South Pole (SOPO) NM station, (b) during November 2019 for HiSPARC station 501 at Nikhef.}
+	\label{fig:barometric_fit}
+\end{figure}
+
+
+An online barometric coefficient tool is available which allows user to perform the barometric correction for a given station over a user-defiend epoch (\url{http://cosray.phys.uoa.gr/index.php/data/nm-barometric-coefficient}). Using this tool, it was possible to provide a comparison between the method used in this work to that of the online NM barometric correction tool which is used for the correction of the NMDB stations. This is provided in Figure~\ref{fig:NM_beta_variation} for monthly corrections throughout 2017 for the NM station at the South Pole (SOPO).
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.65\columnwidth]{SOPO_beta_2017.png}
+	\caption{A comparison between the monthly barometric coefficient computed in this work and using the online barometric coefficient tool throughout the year 2017 for the SOPO NM station.}
+	\label{fig:NM_beta_variation}
+\end{figure}
+
+
+Figure~\ref{fig:NM_beta_variation} shows a close agreement between the barometric coefficient calculated in this work and those acquired from the online tool for the SOPO NM. This was also true for other stations tested (APTY and ROME), thus providing confidence that the method used in this work was suitable for application on the HiSPARC data. The barometric correction was perfoemed on the stations where sufficient pressure data and count rates exist, and were re-investigated to determine whether the space weather events were observed in the HiSPARC data. These results are provided in Section \ref{sec:HS_obs_Pcorr}.
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Temperature Correction}\label{sec:HS_T_corr}
 
+It has been discussed in the literature that the effect of atmospheric temperature on muon intensity has to be treated differently to the pressure effect \citep{berkova_temperature_2011}, as the temperature influences both the creation and disintegration processes for muons, such that there is a positive effect and a negative effect on muon intensity as a consequence of temperature variations \citep{mendoncca_temperature_2016}. 
+
+The positive effect is related to pion decay and its dependence on temperature variation. The higher the temperature, the lower the atmospheric pion absorption, which implies a higher generation rate of muons \citep{mendoncca_temperature_2016}.
+
+The negative effect corresponds to the decrease of muon intensity at ground level as the muon average path length varies with temperature. Due to the heating and the expansion of the atmosphere during summer periods muons are produced higher in the atmosphere; hence the muon propagation path increases meaning more atmosphere for muons to traverse before reaching the ground, and an increased decay probability and ionisation losses \citep{savic_pressure_2015, mendoncca_temperature_2016}.
+
+Due to the difference in decay probability, the negative effects dominate for low energy muons (i.e. those detected by ground-level MDs), and the positive effect dominates for high energy muons (i.e. those detected by underground MDs) \citep{berkova_temperature_2011}; therefore it is expected that the negative effect should dominate for the HiSPARC network. Temperature effects are also observed by NMs; however the effect is less significant than for MDs hence temperature corrections are not widely applied for NMs \citep{mendoncca_temperature_2016}.
+
+This is in contradiction with the observations of diurnal variation with the HiSPARC detector, as one can quite clearly see that the HiSPARC stations register higher count rates during local noon.
+
+Several methods of correcting for the negative temperature effect are summarised by \cite{berkova_temperature_2011} which utilise different measures of atmospheric temperature when performing the temperature correction. \cite{mendoncca_temperature_2016} provides a comparative summary of these methods applied to correct for atmospheric temperature variations observed by GMDN detectors. The methods discussed here however are typically applied over long timescales of years with low temporal resolution rather than to account for short timescale variations with periods of less than a day; hence the suitability of these methods is uncertain.
+
+\cite{mendoncca_temperature_2016} concludes that correcting for temperature using the atmospheric mass weighted temperature is one of the most suitable methods for the GMDN as it allows for the highest correlation between long-term CR variations and temperature. The mass weighted method is an approximation for integrating over the vertical atmospheric temperature as is given in Eq. (\ref{eq:tempcorr}):
+
+\begin{equation}
+\left( \frac{\Delta N}{N} \right)_T = \, \bar{\alpha}  \int^{h_0}_{0}  \, \delta \, T(h) \, dh = \sum_{i=0}^{n} \frac{x(h_i) - x(h_{i+1})}{x(h_0)} T(h_i)  = \alpha_{\mathrm{MSS}} \delta T_{\mathrm{MSS}}
+\label{eq:tempcorr}
+\end{equation}
+
+where $h_0$ is the closest to ground altitude; $\delta T_{\mathrm{MSS}}$ is the deviation of the mass weighted atmospheric temperature; $T(h_i)$ is the temperature in degrees kelvin observed at the altitude $h_i$; $x(h_ i)$ is the atmospheric depth at the altitude $h_i$ which is given by Eq. \ref{eq:atmos_depth}:
+
+\begin{equation}
+x(h) = \int^{\infty}_{h}  \, \rho (h) \, dh  \, \rho (h) = \frac{P(h)}{T(h)} \frac{M_{mol}}{R} 
+\label{eq:atmos_depth}
+\end{equation}
+
+where $P(h)$ is the atmospheric pressure profile as a function of depth; $T(h)$ is the atmospheric temperature; $\rho(h)$ is the air density at a given altitude $h$; $M_{mol}$ is the molar mass of air; $R$ is the universal gas constant.
+
+The temperature correction is therefore used in a formalism the same as Eq. (\ref{eq:presscorr3}), replacing replacing $\beta$ for $\alpha$ and $\Delta P$ for $\Delta T$.
+
+In addition it is discussed by \cite{berkova_temperature_2011} and \cite{mendoncca_temperature_2016} that the effective generation level temperature is a suitable assumption for this purpose. This method is based on the assumption that muons are mostly generated at a certain isobaric level, taken as 100 mbar, and therefore the temperature at 100 mbar in the atmospheric pressure profile is used, $T_{\mathrm{100 \, mbar}}$.
+
+As discussed above, \cite{mendoncca_temperature_2016} provide this as a method for correcting for the long-term variation in atmospheric temperature which varies seasonally rather than to correct for diurnal variations; therefore it is unsure how relevant this method of atmospheric temperature correction will be to the diurnal variations observed in the HiSPARC data.
 
 
 
+ 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{HiSPARC Observations After Pressure Corrections}\label{sec:HS_obs_Pcorr}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Pressure Corrected Observations of Ground Level Enhancements}
+
+
+\begin{figure}[ht]
+	\centering
+	\subfloat[...]{
+		\includegraphics[width=0.48\columnwidth]{GLE71_3001_Pcorr.png}
+		\label{fig:GLE71_3001_Pcorr}}
+	%\qquad
+	\subfloat[...]{
+		\includegraphics[width=0.48\columnwidth]{GLE71_8001_Pcorr.png}
+		\label{fig:GLE71_8001_Pcorr}} \\
+	
+	
+	\caption{Pressure corrected HiSPARC data for 2 stations around the epoch of GLE 71. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical red, dashed line depicts the approximate onset time of the GLE.}
+	\label{fig:GLE_71_Pcorr}
+\end{figure}
+
+
+\begin{figure}[ht]
+	\centering
+	\subfloat[HS 501 (Nikhef)]{
+		\includegraphics[width=0.48\columnwidth]{GLE72_501_Pcorr.png}
+		\label{fig:GLE72_501_Pcorr}}
+	%\qquad
+	\subfloat[HS 203 (College Hageveld)]{
+		\includegraphics[width=0.48\columnwidth]{GLE72_203_Pcorr.png}
+		\label{fig:GLE72_203_Pcorr}} \\
+	
+	
+	\caption{Pressure corrected HiSPARC data for 2 stations around the epoch of GLE 72. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical red, dashed line depicts the approximate onset time of the GLE.}
+	\label{fig:GLE_72_Pcorr}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Pressure Corrected Observations of Forbush Decreases}
+
+
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.65\columnwidth]{FD_201207_8001_Pcorr.png}
+	\caption{...}
+	\label{fig:FD_201207_8001_Pcorr}
+\end{figure}
+
+
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.65\columnwidth]{FD_201412_501_Pcorr.png}
+	\caption{...}
+	\label{fig:FD_201412_501_Pcorr}
+\end{figure}
+
+
+
+\begin{figure}[ht]
+	\centering
+	\subfloat[HS 501 (Nikhef)]{
+		\includegraphics[width=0.48\columnwidth]{FD_GLE72_501_Pcorr.png}
+		\label{fig:FD_GLE72_501_Pcorr}}
+	%\qquad
+	\subfloat[HS 203 (College Hageveld)]{
+		\includegraphics[width=0.48\columnwidth]{FD_GLE72_203_Pcorr.png}
+		\label{fig:FD_GLE72_203_Pcorr}} \\
+	
+	
+	\caption{Pressure corrected HiSPARC data for [n] stations around the epoch in which there were several FDs close to the onset of GLE 72. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical blue-dashed lines show the approximate onset-times of the two FDs observed around this epoch and the red-dashed line depicts the approximate onset time of the GLE.}
+	\label{fig:FD_GLE72_Pcorr}
+\end{figure}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Discussion}\label{sec:HS_discussion}
+
+Throughout this chapter the feasibility of using the HiSPARC network of muon detectors has been analysed. This has involved performing cosmic ray air shower simluations using CORSIKA and performing backwards
