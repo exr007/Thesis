@@ -1,11 +1,70 @@
 \thispagestyle {plain}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces An example of the BiSON ratios data over a 30-minute period. The separation between the two ratios is due to the solar mean magnetic field.\relax }}{8}{figure.caption.7}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces (a) 40-second cadence observations of the SMMF from the Sutherland BiSON station between 1992 and 2012. The sense of the field was chosen to match the \citet {chaplin_studies_2003} and the WSO observations, where positive is for a field pointing outwards from the Sun. (b) Power spectrum of the SMMF on a 40-second cadence truncated to $10 \mu \mathrm {Hz}$, however the nyquist frequency is 12.5 mHz.\relax }}{10}{figure.caption.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {BiSON SMMF 40-second cadence time series }}}{10}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Power spectral density of the BiSON SMMF }}}{10}{subfigure.2.2}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Daily averaged SMMF measured by WSO (blue) and by the Sutherland BiSON station (black).\relax }}{11}{figure.caption.9}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Correlation between the daily SMMF measured by WSO and by the Sutherland BiSON station. The green line provides the fit to the data, while the red line shows a 1:1 relation for comparison.\relax }}{11}{figure.caption.10}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Full power spectrum of the BiSON SMMF on a logarithmic scale up to the Nyquist frequency.\relax }}{12}{figure.caption.11}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Locations of aliased power in side-band peaks. The orange dotted-lines show the locations of frequencies at multiples of 1/day. The green dashed-lines show the location of the side-band peaks -- harmonic frequencies reflected around multiples of 1/day. The inset shows a zoom of one set of side-band peaks around 1/day.\relax }}{16}{figure.caption.12}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Shows the effects of the window function on the power spectrum. Black line: BiSON SMMF PSD; dark orange line: power spectrum of the window function; blue and light orange lines: the power spectrum of the artificial data without and with gaps, respectively; pink line: the input peak used to generate the artificial data.\relax }}{18}{figure.caption.13}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Azimuthal and zenith angle variations in the allowed and forbidden rigidity trajectories for HiSPARC station 501.\relax }}{4}{figure.caption.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Azimuth variation (fixed zenith = $20^\circ $)}}}{4}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zenith variation (fixed azimuth = $0^\circ $)}}}{4}{subfigure.1.2}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces The vertical asymptotic viewing directions of 5 HiSPARC stations. The rigidity range of the simulations were from $1.0$\nobreakspace {}GV $<$ R $<20.0$\nobreakspace {}GV, and the results are plotted in geographic coordinates on January 20th 2005. The diamonds correspond to the HS ground location and the circles correspond to the AVD for a specific rigidity value.\relax }}{5}{figure.caption.9}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces HiSPARC data for stations 501 and 3001 around the epoch of GLE 70. The plot shows the minute-averaged and 5-minute-averaged trigger events between detectors within the station. The vertical red, dashed line depicts the approximate onset time of the GLE.\relax }}{6}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{6}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 3001 (Universiteit Leiden)}}}{6}{subfigure.3.2}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces HiSPARC data for stations 8001 and 3001 around the epoch of GLE 71. The plot shows the minute-averaged and 5-minute-averaged trigger events between detectors within the station. The vertical red, dashed line depicts the approximate onset time of the GLE.\relax }}{7}{figure.caption.12}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 8001 (Eindhoven)}}}{7}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 3001 (Universiteit Leiden)}}}{7}{subfigure.4.2}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces HiSPARC data for 4 stations around the epoch of GLE 72. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical red, dashed line depicts the approximate onset time of the GLE.\relax }}{8}{figure.caption.13}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{8}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{8}{subfigure.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {HS 8001 (Eindhoven)}}}{8}{subfigure.5.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {HS 14001 (Birmingham University)}}}{8}{subfigure.5.4}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces HiSPARC data for stations 501 and 8001 around the epoch of the FD in March 2012. The plot shows the minute-averaged and hourly-averaged trigger events between detectors within the station. The vertical blue-dashed line shows the approximate onset-time of the FD.\relax }}{10}{figure.caption.14}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{10}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 8001 (Eindhoven)}}}{10}{subfigure.6.2}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces HiSPARC data for stations 501 and 8001 around the epoch of the FD in July 2012. The plot shows the minute-averaged and hourly-averaged trigger events between detectors within the station. The vertical blue-dashed line shows the approximate onset-time of the FD.\relax }}{10}{figure.caption.15}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{10}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 8001 (Eindhoven)}}}{10}{subfigure.7.2}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces HiSPARC data for 4 stations around the epoch of the FD in December 2014. The plot shows the minute-averaged and hourly-averaged trigger events between detectors within the station. The vertical blue-dashed line shows the approximate onset-time of the FD.\relax }}{11}{figure.caption.16}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{11}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{11}{subfigure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {HS 3001 (Leiden)}}}{11}{subfigure.8.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {HS 14001 (Birmingham University)}}}{11}{subfigure.8.4}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces HiSPARC data for [n] stations around the epoch in which there were several FDs close to the onset of GLE 72. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical blue-dashed lines show the approximate onset-times of the two FDs observed around this epoch and the red-dashed line depicts the approximate onset time of the GLE.\relax }}{12}{figure.caption.17}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{12}{subfigure.9.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{12}{subfigure.9.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {HS 8001 (Eindhoven)}}}{12}{subfigure.9.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {HS 14001 (Birmingham University)}}}{12}{subfigure.9.4}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Mean muon density footprints for (a) proton-initiated air showers and (b) $\alpha $-particle-initiated air showers with intial PCR trajectories with zenith angles $\theta =0^{\circ }$ and various PCR energies. The error bars given represent 1$\sigma $.\relax }}{13}{figure.caption.19}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Proton initiated air shower. }}}{13}{subfigure.10.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\alpha $-particle initiated air shower. }}}{13}{subfigure.10.2}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Mean number of muons produced at ground level by the PCR for (a) proton-initiated air showers and (b) $\alpha $-particle-initiated air showers, for various PCR energy. The uncertainty bars given represent 1$\sigma $.\relax }}{13}{figure.caption.20}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Proton initiated air shower. }}}{13}{subfigure.11.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\alpha $-particle initiated air shower. }}}{13}{subfigure.11.2}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces ...\relax }}{14}{figure.caption.21}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {NM Station}}}{14}{subfigure.12.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 501 (Nikhef)}}}{14}{subfigure.12.2}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces The barometric coefficient calculation: (a) during November 2017 for the South Pole (SOPO) NM station, (b) during November 2019 for HiSPARC station 501 at Nikhef.\relax }}{15}{figure.caption.22}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {SOPO NM Station}}}{15}{subfigure.13.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 501 (Nikhef)}}}{15}{subfigure.13.2}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces A comparison between the monthly barometric coefficient computed in this work and using the online barometric coefficient tool throughout the year 2017 for the SOPO NM station.\relax }}{16}{figure.caption.23}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Pressure corrected HiSPARC data for 2 stations around the epoch of GLE 71. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical red, dashed line depicts the approximate onset time of the GLE.\relax }}{19}{figure.caption.24}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {...}}}{19}{subfigure.15.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {...}}}{19}{subfigure.15.2}
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Pressure corrected HiSPARC data for 2 stations around the epoch of GLE 72. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical red, dashed line depicts the approximate onset time of the GLE.\relax }}{19}{figure.caption.25}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{19}{subfigure.16.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{19}{subfigure.16.2}
+\contentsline {figure}{\numberline {1.17}{\ignorespaces ...\relax }}{20}{figure.caption.26}
+\contentsline {figure}{\numberline {1.18}{\ignorespaces ...\relax }}{20}{figure.caption.27}
+\contentsline {figure}{\numberline {1.19}{\ignorespaces Pressure corrected HiSPARC data for [n] stations around the epoch in which there were several FDs close to the onset of GLE 72. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical blue-dashed lines show the approximate onset-times of the two FDs observed around this epoch and the red-dashed line depicts the approximate onset time of the GLE.\relax }}{21}{figure.caption.28}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{21}{subfigure.19.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{21}{subfigure.19.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces SSN (top), with vertical lines showing the beginning of each solar cycle. Cosmic ray intensity recorded by NMs (bottom), with vertical lines showing the approximate epochs of solar magnetic field polarity reversals. (MCMD = McMurdo, NEWK = Newark, SOPO = South Pole, THUL = Thule).\relax }}{24}{figure.caption.29}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Hysteresis plots between yearly averaged SSN and yearly averaged GCR intensity for each of the 4 main NM stations over cycles 19-24.\relax }}{26}{figure.caption.30}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Variation in the correlation coefficient with time-lag NM station GCR intensity and SSN during solar cycles 20-23.\relax }}{31}{figure.caption.32}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Variation in the correlation coefficient with time-lag between NM GCR intensity and SSN during solar cycle 24.\relax }}{32}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Variation in the correlation coefficient with time-lag between NM GCR intensity and SSN between 2000-2012.\relax }}{34}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Variation in time-lag plotted against NM station rigidity cut-off for the 16 NM stations detailed in Table \ref {tab:NM_stns}.\relax }}{35}{figure.caption.34}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The hysteresis plots for even solar cycles 20 and 22 and the linear regression fit to the data.\relax }}{38}{figure.caption.36}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces The hysteresis plots for odd solar cycles 21 and 23 and the linear regression fit to the data.\relax }}{39}{figure.caption.37}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces The hysteresis plots for odd solar cycles 21 and 23 and the ellipse fit to the data.\relax }}{39}{figure.caption.38}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces The hysteresis plot for solar cycle 24, and the linear regression fit to the data (left) and ellipse fit to the data (right).\relax }}{41}{figure.caption.40}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces The monthly-mean CR-induced muon count rate recorded by HiSPARC (blue), and the SSN (black) between 2008 -- 2019.\relax }}{44}{figure.caption.41}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces \relax }}{45}{figure.caption.42}

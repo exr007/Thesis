@@ -1,0 +1,26 @@
+\thispagestyle {plain}
+\contentsline {chapter}{\numberline {1}Investigations into the Morphology of the Solar Mean Magnetic Field}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Aims}{5}{section.1.2}
+\contentsline {section}{\numberline {1.3}Data}{5}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Summary of the Data Set}{5}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Obtaining the SMMF from BiSON}{6}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Comparison between WSO and BiSON}{11}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Methodology}{12}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Identifying Features in the SMMF Power Spectrum}{12}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Parameterisation of the SMMF Power Spectrum}{14}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Comparison with the WSO SMMF}{16}{subsection.1.4.3}
+\contentsline {section}{\numberline {1.5}Results}{16}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Investigation of the Window Function}{16}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Modelling the BiSON Power Spectrum}{20}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.3}Comparison to the WSO Power Spectrum}{23}{subsection.1.5.3}
+\contentsline {section}{\numberline {1.6}Discussion}{24}{section.1.6}
+\contentsline {section}{\numberline {1.7}Summary}{24}{section.1.7}
+\contentsline {chapter}{\numberline {2}Rossby Modes in the Solar Mean Magnetic Field}{25}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{25}{section.2.1}
+\contentsline {section}{\numberline {2.2}Aims}{26}{section.2.2}
+\contentsline {section}{\numberline {2.3}Theory}{27}{section.2.3}
+\contentsline {section}{\numberline {2.4}Methodology}{28}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Testing the Residual Spectrum}{28}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Modelling {\it r} mode Profiles}{29}{subsection.2.4.2}
+\contentsline {chapter}{Bibliography}{29}{equation.2.4.5}

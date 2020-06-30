@@ -1,4 +1,4 @@
-\chapter{Investigations of the Solar Mean Magnetic Field}\label{chap:SMMF}
+\chapter{Investigations into the Morphology of the Solar Mean Magnetic Field}\label{chap:SMMF}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -59,9 +59,9 @@ BiSON is a six-station, ground-based, global network of telescopes attempting to
 
 In this study we focus on the data collected by the Sutherland node, in South Africa, which was also used by \cite{chaplin_studies_2003}. Data are sampled on a 40-second cadence, and the SMMF data collected by the Sutherland station pertains the epochs from 01/1992 -- 12/2012. Over this period, the duty cycle of solar observation is low because of the single-site observations, and averages to be $\sim 15.6\%$ of the total epoch.
 
-A comparison to the SMMF observations made by the Wilcox Solar Observatory (WSO) is given in \citep{chaplin_studies_2003}.
+As a comparison to the BiSON data, SMMF observations were also acquired from the Wilcox Solar Observatory (WSO) (\url{http://wso.stanford.edu/}) \citep{scherrer_mean_1977-1}. The WSO SMMF data are sampled daily from 16/05/1975 -- present day, but for comparison with the BiSON SMMF, we used data over the same temporal range.
 
-%As a comparison to the BiSON data, SMMF observations were also acquired from the Wilcox Solar Observatory (WSO) (\url{http://wso.stanford.edu/}) \citep{scherrer_mean_1977-1}. The WSO SMMF data are sampled daily from 16/05/1975 -- present day, but for comparison with the BiSON SMMF, we used data over the same temporal range.
+The WSO also measures the LOS SMMF Sun using a Babcock-type magnetograph, which allows the measurement of amount and sense of circular polarisation in the wings in an absorption line \citep{scherrer_mean_1977}. WSO uses two absorption lines for measurement of the field: the Fe I at 5250 \AA ($\lambda 5250$) is used for measurement of the field, and FE I at 5124 \AA ($\lambda 5124$) is used to determine the instrument's zero offset, as this line is magnetically insensitive. \cite{scherrer_mean_1977} describes that a single, complete observation takes $\sim$20 minutes, consisting of four 3-minute integrations. The data provided by WSO is a daily weighted mean of the observations, where the weighting used is the statistical uncertainty and the magnitude of the zero offset measured with the $\lambda 5124$ line.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -165,14 +165,25 @@ The relationship between the SMMF measured by the Sutherland BiSON station and t
     \label{fig:BiSON_and_WSO}
 \end{figure}
 
-Fig.~\ref{fig:BiSON_vs_WSO} shows the correlation between the two data sets. The gradient of the line is $0.4999\pm0.0001$ and informs us that the BiSON SMMF is half of the magnitude of that observed by WSO. This discrepancy may be due to the measurements of the SMMF using different spectral lines, hence their levels of formation in the solar atmosphere, and the divergence of magnetic field lines with altitude; an altitude difference of 100--200 km could lead to a difference of 30--50$\%$.
+Fig.~\ref{fig:BiSON_vs_WSO} shows the correlation between the two data sets, and also a comparison of their power spectra at low frequencies. The gradient of the line in Fig.~\ref{fig:BiSON_vs_WSO_TS} is $0.4999\pm0.0001$ and informs us that the BiSON SMMF is half of the magnitude of that observed by WSO. ??...[This discrepancy may be due to the measurements of the SMMF using different spectral lines, hence their levels of formation in the solar atmosphere, and the divergence of magnetic field lines with altitude; an altitude difference of 100--200 km could lead to a difference of 30--50$\%$.]...??
+
+In addition, we can see quite clearly that the two power spectra align very closely, as shown in Fig.~\ref{fig:BiSON_vs_WSO_PSD}, and that both spectra appear to display an asymmetric peak shape, with a negative asymmetry.
 
 \begin{figure}[ht!]
-    \centering
-	\includegraphics[width=0.75\columnwidth]{BiSON_vs_WSO.png}
-    \caption{Correlation between the daily SMMF measured by WSO and by the Sutherland BiSON station. The green line provides the fit to the data, while the red line shows a 1:1 relation for comparison.}
-    \label{fig:BiSON_vs_WSO}
+	\centering
+	\subfloat[BiSON vs WSO correlation \label{fig:BiSON_vs_WSO_TS}]
+	{\includegraphics[width=0.47\columnwidth]{BiSON_vs_WSO.png}} 
+	\qquad
+	\subfloat[BiSON vs WSO PSDs \label{fig:BiSON_WSO_PSDs}]{\includegraphics[width=0.47\columnwidth]{BiSON_PSD_vs_WSO_PSD.png}}
+	\caption{Comparisons between the BiSON SMMF data and the WSO SMMF data. (a) shows the correlation between daily averaged BiSON SMMF and the WSO SMMF. The green line provides the fit to the data, while the red line shows a 1:1 relation for comparison. (b) shows a comparison between the power spectra of BiSON and SMMF.} \label{fig:BiSON_vs_WSO}
 \end{figure}
+
+%\begin{figure}[ht!]
+%    \centering
+%	\includegraphics[width=0.75\columnwidth]{BiSON_vs_WSO.png}
+%    \caption{Correlation between the daily SMMF measured by WSO and by the Sutherland BiSON station. }
+%    \label{fig:BiSON_vs_WSO}
+%\end{figure}
 
 %Interestingly \citet{chaplin_studies_2003} stated that the SMMF observed by the Sutherland BiSON station was roughly twice that of WSO... [not sure how to handle this...?]
 
@@ -237,7 +248,7 @@ X(\nu) = (\nu - \nu_n)/\Gamma(\nu)
 \end{equation}
 
 \begin{equation}
-\Gamma(\nu) = 2\Gamma / [1 + \exp^{\alpha(\nu - \nu_n)}] .
+\Gamma(\nu) = 2\Gamma / [1 + \exp^{-\alpha(\nu - \nu_n)}] .
 \label{eq:asymm_width}
 \end{equation}
 
@@ -245,10 +256,10 @@ In the limit where $\alpha \rightarrow 0$, we see that the asymmetric expression
 
 The model function used to describe the RM signal in the power spectrum is given by equation~(\ref{eq:lorentzian_fit}); the sum of $N$ Lorentzian-peaks. The subscript, $n$, describes a single peak in the power spectrum; in implementing the model we constrain the mode frequencies such that they must be integer values of $\nu_0$: $\nu_n \, = \, n \nu_0$. This means that we define a single rotation frequency only, and subsequent peaks are harmonics. It is worth noting explicitly that this function assumes the line width of each Lorentzian peak is the same, only their amplitudes and central frequency differ.
 
-When modelling the power spectrum we attempt with both the symmetric and asymmetric Lorentzian expressions, to determine whether there is a necessity for the extra parameter.
+When modelling the power spectrum we attempted with both the symmetric and asymmetric Lorentzian expressions, independently, to determine whether there is a necessity for the extra asymmetry parameter.
 
 \begin{equation}
-P(\nu) = \sum_{n=0}^{N} L_n(\nu; \Gamma, A_n, \nu_n)
+P(\nu) = \sum_{n=1}^{N} L_n(\nu; \Gamma, A_n, \nu_n)
 \label{eq:lorentzian_fit}
 \end{equation}
 
@@ -276,7 +287,9 @@ The high frequency power is accounted for by the inclusion of a constant offset 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Comparison with the WSO SMMF}
 
-To provide comparative results on the inferences from the BiSON SMMF, we repeated the analysis on the power spectrum of the WSO SMMF...
+To provide comparative results on the inferences from the BiSON SMMF, we repeated the analysis on the power spectrum of the WSO SMMF. The WSO data is however only sampled daily, hence the Nyquist frequency is lower than for BiSON, meaning a slightly different approach was taken.
+
+The same parametrisation as outlined above was relevant to the modelling of the features in the WSO PSD, and the RM peak were fit using a model with symmetric Lorentzian peaks and separately with asymmetric Lorentzian peaks.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -349,7 +362,7 @@ Therefore to model the observed power spectrum in a robust manner, which takes i
 
 
 \begin{equation}
-P(\nu; \,{\bf a}) = \sum_{n=0}^{N} L_n(\nu; \Gamma, A_n, \nu_n) \, + \, H(\nu; \sigma, \tau) \, + \, c \, .
+P(\nu; \,{\bf a}) = \sum_{n=1}^{N} L_n(\nu; \Gamma, A_n, \nu_n) \, + \, H(\nu; \sigma, \tau) \, + \, c \, .
 \label{eq:PSD_model}
 \end{equation}
 
@@ -360,7 +373,7 @@ Care was taken to ensure Parseval's theorem was obeyed, and no power was lost or
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{BiSON Results}\label{sec:BiSON_reults}
+\subsection{Modelling the BiSON Power Spectrum}\label{sec:BiSON_reults}
 
 As there were many data points in the power spectrum, each likelihood computation was computationally expensive. In order to reduce the required computation, the power spectrum was mean re-binned by a factor of 3. As the power spectrum contained independent frequency bins, the $\chi^2$ 2-D.O.F likelihood function was used and we normalised the uncertainty in the model parameters from the posterior distributions, by dividing them by $\sqrt{3}$ \citep{appourchaux_maximum_2003}. 
 
@@ -399,7 +412,7 @@ In Table~\ref{tab:PSD_fit_params} the median values of marginalised posterior di
 
 \begin{table}[ht!]
 	\begin{center}
-		\caption{Median values of the marginalised posterior distributions for each model parameter. Numbers in brackets denote uncertainties on the last 2 digits, and all uncertainties correspond to the $68 \%$ credible intervals either side of the median.}
+		\caption{Median values of the marginalised posterior distributions for each model parameter in the fit to the BiSON power spectrum. Numbers in brackets denote uncertainties on the last 2 digits, and all uncertainties correspond to the $68 \%$ credible intervals either side of the median.}
 		\label{tab:PSD_fit_params}
 		\begin{tabular}{l c c r}
 			\hline
@@ -422,7 +435,7 @@ In Table~\ref{tab:PSD_fit_params} the median values of marginalised posterior di
 			
 			{$\sigma$} & {200.8$\pm 3.2$} & {183.3$\pm 3.4$} &  {$\mathrm{mG}$} \\	
 			
-			{$bgnd$} & {1.3411$\left(_{-10}^{+10}\right)$} & {1.3399$\left(_{-10}^{+10}\right)$}  & {$\mathrm{G}^2\mathrm{Hz}^{-1}$} \\	
+			{$c$} & {1.3411$\left(_{-10}^{+10}\right)$} & {1.3399$\left(_{-10}^{+10}\right)$}  & {$\mathrm{G}^2\mathrm{Hz}^{-1}$} \\	
 			
 			{$\alpha$} & {--} & {-134.6$_{-5.5}^{+5.4}$} & {--} \\	
 			\hline
@@ -436,23 +449,67 @@ The central frequency of this model, $\nu_0$ implies a rotation period of $27.10
 
 According to the model for differential rotation given by \citet{snodgrass_magnetic_1983} and \citet{brown_inferring_1989}, the measured rotation period implies the RM component of the SMMF is sensitive to a time-averaged latitude of around $12^{\circ}$. This latitude is consistent with the latitudes spanned by sunspots and ARs over the solar activity cycle \citep{maunder_note_1904, mcintosh_deciphering_2014, thomas_asteroseismic_2019}, and particularly during the declining phase of the solar cycle. This strongly implies that the origin of the RM component of the SMMF is linked to active regions of magnetic field.
 
-Furthermore, from the measured line-width of the Lorentzian peaks, we have calculated the lifetime of the RM component using equation~(\ref{eq:mode_lifetime}). The line-width suggests a RM lifetime of $78.2_{-1.7}^{+1.8}$~days, which is in the range 11~--~11.5~weeks. The typical lifetime of active magnetic regions and sunspots is usually on the order of weeks to months \citep{zwaan_solar_1981, howard_sunspot_2001, hathaway_sunspot_2008}, therefore the observations of the SMMF by BiSON measure a lifetime of the RM component which is consistent with the lifetime of ARs and sunspot, suggesting them as a possible source of the signal.
+Furthermore, from the measured line-width of the Lorentzian peaks, we have calculated the lifetime of the RM component using equation~(\ref{eq:mode_lifetime}). The line-width suggests a RM lifetime of $78.2_{-1.7}^{+1.8}$~days, which is in the range 11~--~11.5~weeks. The typical lifetime of active magnetic regions and sunspots is usually on the order of weeks to months \citep{zwaan_solar_1981, howard_sunspot_2001, hathaway_sunspot_2008}, therefore the observations of the SMMF by BiSON measure a lifetime of the RM component which is consistent with the lifetime of ARs and sunspots. This again suggests that the source of the signal is linked to active regions of magnetic field.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{WSO Results}\label{sec:WSO_reults}
+\subsection{Comparison to the WSO Power Spectrum}\label{sec:WSO_reults}
 
+A slightly different approach was taken when modelling the WSO power spectrum, compared to that applied to the BiSON PSD, due to the much lower Nyquist frequency. The duty cycle of the WSO observations over the same epoch as BiSON observations is $\sim 78\%$, therefore it was deduced that there is likely to be significantly less of a window effect in the observations; however despite this, a second Harvey function was introduced in order to account for any slight spreading out of power up to the Nyquist frequency.
+
+The WSO PSD was modelled using equation~\ref{eq:WSO_PSD_model}, with $N=3$, and $I=2$
+
+\begin{equation}
+P(\nu; \,{\bf a}) = \sum_{n=1}^{N} L_n(\nu; \Gamma, A_n, \nu_n) \, + \, \sum_{i=1}^{I} H_i(\nu; \sigma_i, \tau_i) \, + \, c \, .
+\label{eq:WSO_PSD_model}
+\end{equation}
+
+
+In Table~\ref{tab:WSO_SMMF_fit_params} the median values of marginalised posterior distributions for each of the model parameters are displayed. Reported uncertainties on the parameters correspond to the $1\sigma$ ($68 \%$) credible intervals either side of the median. 
+
+\begin{table}[ht!]
+	\begin{center}
+		\caption{Median values of the marginalised posterior distributions for each model parameter in the fit to the WSO power spectrum. Numbers in brackets denote uncertainties on the last 2 digits, and all uncertainties correspond to the $68 \%$ credible intervals either side of the median.}\label{tab:WSO_SMMF_fit_params}
+		\begin{tabular}{l c c c c r}
+			\hline
+			{Parameter} & {24-hr symm.} & {24-hr asymm.} & {Unit} \\
+			\hline
+			
+			{$\nu_0$} & {0.42463$\left(_{-44}^{+44}\right)$} & {0.42736$\left(_{-64}^{+62}\right)$} & {$\mu\mathrm{Hz} $}\\
+			
+			{$\Gamma$} & {0.0212$\left(_{-16}^{+16}\right)$} & {0.0198$\left(_{-16}^{+17}\right)$} & {$\mathrm{mG}$} \\
+			
+			{$A_1$} & {232.6$_{-8.9}^{+9.3}$} & {231.9${\pm .}$} & {$\mathrm{mG}$} \\
+			
+			{$A_2$} & {219.4$_{-9.0}^{+9.9}$} & {228.1${\pm .}$} & {$\mathrm{mG}$} \\
+			
+			{$A_3$} & {123.4$_{-6.0}^{+6.2}$} & {124.3$_{-2.2}^{+2.3}$} & {$\mathrm{mG}$} \\
+			
+			{$\tau_1$} & {0.0725$\left(_{-67}^{+70}\right)$} & {0.0780$\left(_{-62}^{+63}\right)$} & {$10^6 \mathrm{s}$} \\	
+			
+			{$\sigma_1$} & {197.4$_{-6.4}^{+6.8}$} & {206.0$_{-5.3}^{+5.6}$} & {$\mathrm{mG}$} \\	
+			
+			{$\tau_2$} & {7.5$_{-1.4}^{+1.8}$} & {10.0$_{-1.9}^{+2.4}$} & {$10^6 \mathrm{s}$} \\	
+			
+			{$\sigma_2$} & {84.9$_{-5.5}^{+5.9}$} & {79.7$_{-5.7}^{+6.4}$} & {$\mathrm{mG}$} \\	
+			
+			{$c$} & {2740.8$_{-283.7}^{+249.4}$} & {2662.2$_{-240.0}^{+224.9}$} & {$\mathrm{G}^2\mathrm{Hz}^{-1}$} \\	
+			
+			{$\alpha$} & {--} & {-22.1$_{-5.5}^{+4.8}$} & {--} \\	
+			\hline
+		\end{tabular}
+	\end{center}
+\end{table}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Simulations}\label{sec:SMMF_artificial}
+\section{Discussion}\label{sec:SMMF_artificial}
+
+[To be included in here: discussion around the peak smearing affecting our ability to deduce the width and the source of peak asymmetry. This should be backed up by simulation results.]
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Investigations on the Presence of Rossby Modes}\label{sec:SMMF_rmode}
 
 
 

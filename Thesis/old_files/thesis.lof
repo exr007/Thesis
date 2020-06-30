@@ -1,0 +1,15 @@
+\thispagestyle {plain}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces An example of the BiSON ratios data over a 30-minute period. The separation between the two ratios is due to the solar mean magnetic field.\relax }}{8}{figure.caption.7}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces (a) 40-second cadence observations of the SMMF from the Sutherland BiSON station between 1992 and 2012. The sense of the field was chosen to match the \citet {chaplin_studies_2003} and the WSO observations, where positive is for a field pointing outwards from the Sun. (b) Power spectrum of the SMMF on a 40-second cadence truncated to $10 \mu \mathrm {Hz}$, however the nyquist frequency is 12.5 mHz.\relax }}{10}{figure.caption.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {BiSON SMMF 40-second cadence time series }}}{10}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Power spectral density of the BiSON SMMF }}}{10}{subfigure.2.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Daily averaged SMMF measured by WSO (blue) and by the Sutherland BiSON station (black).\relax }}{11}{figure.caption.9}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Comparisons between the BiSON SMMF data and the WSO SMMF data. (a) shows the correlation between daily averaged BiSON SMMF and the WSO SMMF. The green line provides the fit to the data, while the red line shows a 1:1 relation for comparison. (b) shows a comparison between the power spectra of BiSON and SMMF.\relax }}{12}{figure.caption.10}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {BiSON vs WSO correlation }}}{12}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {BiSON vs WSO PSDs }}}{12}{subfigure.4.2}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Full power spectrum of the BiSON SMMF on a logarithmic scale up to the Nyquist frequency.\relax }}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Locations of aliased power in side-band peaks. The orange dotted-lines show the locations of frequencies at multiples of 1/day. The green dashed-lines show the location of the side-band peaks -- harmonic frequencies reflected around multiples of 1/day. The inset shows a zoom of one set of side-band peaks around 1/day.\relax }}{17}{figure.caption.12}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Shows the effects of the window function on the power spectrum. Black line: BiSON SMMF PSD; dark orange line: power spectrum of the window function; blue and light orange lines: the power spectrum of the artificial data without and with gaps, respectively; pink line: the input peak used to generate the artificial data.\relax }}{19}{figure.caption.13}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Model fit to the full BiSON SMMF PSD.\relax }}{26}{figure.caption.16}

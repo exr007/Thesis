@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: thesis.aux
+The style file: mnras.bst
+Database file #1: library.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty booktitle in desorgher_planetocosmics_2006
+Warning--empty booktitle in elsworth_performance_1995
+Warning--empty institution in heck_extensive_2017
+Warning--empty year in nmdb_nmdb_nodate
+You've used 83 entries,
+            2881 wiz_defined-function locations,
+            1341 strings with 34923 characters,
+and the built_in function-call counts, 39668 in all, are:
+= -- 3103
+> -- 3074
+< -- 232
++ -- 1350
+- -- 484
+* -- 4716
+:= -- 6445
+add.period$ -- 0
+call.type$ -- 83
+change.case$ -- 167
+chr.to.int$ -- 79
+cite$ -- 87
+duplicate$ -- 1911
+empty$ -- 1926
+format.name$ -- 728
+if$ -- 6821
+int.to.chr$ -- 5
+int.to.str$ -- 0
+missing$ -- 78
+newline$ -- 266
+num.names$ -- 598
+pop$ -- 392
+preamble$ -- 1
+purify$ -- 332
+quote$ -- 0
+skip$ -- 1178
+stack$ -- 0
+substring$ -- 2078
+swap$ -- 960
+text.length$ -- 337
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 747
+warning$ -- 4
+while$ -- 636
+width$ -- 0
+write$ -- 850
+(There were 4 warnings)
