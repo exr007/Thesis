@@ -33,17 +33,20 @@
 % Hyperlinks
 %\hypersetup{colorlinks=True,linkcolor=blue,citecolor=blue,filecolor=blue,urlcolor=blue}
 \usepackage{xspace}
+\usepackage{xcolor}
 \usepackage{longtable}
+\usepackage{float}
 \usepackage{bm}
 \usepackage{subfig}
 
 \usepackage{caption}
 \usepackage{soul}
-\usepackage{array, multirow}
+\usepackage{array}
+\usepackage{multirow}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
-\graphicspath{{Title/}{Chapters/Intro/}{Chapters/HiSPARC/}{Chapters/HS_14008/}{Chapters/SMMF/}{Chapters/r-mode/}{Chapters/GCR_SSN/}}%Add more folders here for graphics for each chapter. 
+\graphicspath{{Title/}{Chapters/Intro/}{Chapters/HiSPARC/}{Chapters/HS_14008/}{Chapters/SMMF/}{Chapters/r-mode/}{Chapters/GCR_SSN/}{Appendices/SMMF-sims/}}%Add more folders here for graphics for each chapter. 
 
 %%%%%%%%%%%%%%COMMANDS%%%%%%%%%%%%
 \newcommand{\Ms}{\ensuremath{\textrm{M}_{\odot}}\xspace}
@@ -127,29 +130,29 @@
 %Blow this joint...
 
 %HiSPARC
-\input{Chapters/HiSPARC/HiSPARC.tex}
+%\input{Chapters/HiSPARC/HiSPARC.tex}
 
 %HiSPARC 14008
 %\input{Chapters/HS_14008/HS_14008.tex}
 
 %GCR_SSN
-\input{Chapters/GCR_SSN/GCR_SSN.tex}
+%\input{Chapters/GCR_SSN/GCR_SSN.tex}
 
 %SMMF
-%\input{Chapters/SMMF/SMMF.tex}
+\input{Chapters/SMMF/SMMF.tex}
 
 %r-mode
-%\input{Chapters/r-mode/r-mode.tex}
+\input{Chapters/r-mode/r-mode.tex}
 
 
 %  A P P E N D I C E S
 \appendix
-\def\chaptername{Appendix}
-\begin{singlespace}
+%\def\chaptername{Appendix}
+%\begin{singlespace}
 % Include any appendix files without their .tex extensions
 % No, I have no idea why.
-%\include{appendix}
-\end{singlespace}
+\include{Appendices/SMMF-sims/SMMF_sims}
+%\end{singlespace}
 
 
 %  R E F E R E N C E S

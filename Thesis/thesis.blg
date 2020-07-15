@@ -1,58 +1,51 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: Appendices/SMMF-sims/SMMF_sims.aux
 The style file: mnras.bst
 Database file #1: library.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--empty booktitle in desorgher_planetocosmics_2006
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry fan_analysis_2018
-while executing---line 1822 of file mnras.bst
-Warning--empty journal in fan_analysis_2018
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry fan_analysis_2018
-while executing---line 1822 of file mnras.bst
-Warning--empty institution in heck_extensive_2017
-You've used 36 entries,
+Warning--empty booktitle in elsworth_performance_1995
+You've used 57 entries,
             2881 wiz_defined-function locations,
-            996 strings with 22268 characters,
-and the built_in function-call counts, 17471 in all, are:
-= -- 1414
-> -- 1281
-< -- 111
-+ -- 559
-- -- 196
-* -- 2039
-:= -- 2793
+            1148 strings with 21625 characters,
+and the built_in function-call counts, 27285 in all, are:
+= -- 2144
+> -- 2153
+< -- 147
++ -- 938
+- -- 346
+* -- 3282
+:= -- 4442
 add.period$ -- 0
-call.type$ -- 36
-change.case$ -- 72
-chr.to.int$ -- 35
-cite$ -- 39
-duplicate$ -- 846
-empty$ -- 860
-format.name$ -- 312
-if$ -- 3047
-int.to.chr$ -- 2
+call.type$ -- 57
+change.case$ -- 114
+chr.to.int$ -- 53
+cite$ -- 58
+duplicate$ -- 1291
+empty$ -- 1280
+format.name$ -- 516
+if$ -- 4668
+int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 34
-newline$ -- 123
-num.names$ -- 266
-pop$ -- 163
+missing$ -- 55
+newline$ -- 185
+num.names$ -- 410
+pop$ -- 256
 preamble$ -- 1
-purify$ -- 144
+purify$ -- 228
 quote$ -- 0
-skip$ -- 541
+skip$ -- 787
 stack$ -- 0
-substring$ -- 982
-swap$ -- 441
-text.length$ -- 148
+substring$ -- 1454
+swap$ -- 657
+text.length$ -- 229
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 324
-warning$ -- 3
-while$ -- 282
+type$ -- 513
+warning$ -- 1
+while$ -- 432
 width$ -- 0
-write$ -- 377
-(There were 2 error messages)
+write$ -- 583
+(There was 1 warning)

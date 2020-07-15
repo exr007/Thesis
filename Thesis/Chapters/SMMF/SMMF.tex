@@ -145,9 +145,9 @@ Through the application of this methodology, one acquires the SMMF as shown in F
 
 \begin{figure}[ht!]
 	\centering
-	\subfloat[BiSON SMMF 40-second cadence time series \label{fig:SMMF_TS}]{\includegraphics[width=0.98\columnwidth]{BiSON_full_TS.png}} \\ 
+	\subfloat[BiSON SMMF 40-second cadence time series \label{fig:SMMF_TS}]{\includegraphics[width=0.98\columnwidth]{BiSON_full_TS_rescaled.png}} \\ 
 	\centering
-	\subfloat[Power spectral density of the BiSON SMMF \label{fig:SMMF_FT}]{\includegraphics[width=\columnwidth]{BiSON_lin_mu_PSD.png}}
+	\subfloat[Power spectral density of the BiSON SMMF \label{fig:SMMF_FT}]{\includegraphics[width=\columnwidth]{BiSON_lin_mu_PSD_rescaled.png}}
 	\caption{(a) 40-second cadence observations of the SMMF from the Sutherland BiSON station between 1992 and 2012. The sense of the field was chosen to match the \citet{chaplin_studies_2003} and the WSO observations, where positive is for a field pointing outwards from the Sun. (b) Power spectrum of the SMMF on a 40-second cadence truncated to $10 \mu\mathrm{Hz}$, however the nyquist frequency is 12.5 mHz.}  
 	\label{fig:BiSON_SMMF}
 \end{figure}
@@ -160,7 +160,7 @@ The relationship between the SMMF measured by the Sutherland BiSON station and t
 
 \begin{figure}[ht!]
     \centering
-	\includegraphics[width=\columnwidth]{BiSON_and_WSO.png}
+	\includegraphics[width=\columnwidth]{BiSON_and_WSO.pdf}
     \caption{Daily averaged SMMF measured by WSO (blue) and by the Sutherland BiSON station (black).}
     \label{fig:BiSON_and_WSO}
 \end{figure}
@@ -172,9 +172,9 @@ In addition, we can see quite clearly that the two power spectra align very clos
 \begin{figure}[ht!]
 	\centering
 	\subfloat[BiSON vs WSO correlation \label{fig:BiSON_vs_WSO_TS}]
-	{\includegraphics[width=0.47\columnwidth]{BiSON_vs_WSO.png}} 
+	{\includegraphics[width=0.47\columnwidth]{BiSON_vs_WSO_rescaled.png}} 
 	\qquad
-	\subfloat[BiSON vs WSO PSDs \label{fig:BiSON_WSO_PSDs}]{\includegraphics[width=0.47\columnwidth]{BiSON_PSD_vs_WSO_PSD.png}}
+	\subfloat[BiSON vs WSO PSDs \label{fig:BiSON_WSO_PSDs}]{\includegraphics[width=0.47\columnwidth]{BiSON_PSD_vs_WSO_PSD_rescaled.png}}
 	\caption{Comparisons between the BiSON SMMF data and the WSO SMMF data. (a) shows the correlation between daily averaged BiSON SMMF and the WSO SMMF. The green line provides the fit to the data, while the red line shows a 1:1 relation for comparison. (b) shows a comparison between the power spectra of BiSON and SMMF.} \label{fig:BiSON_vs_WSO}
 \end{figure}
 
@@ -203,7 +203,7 @@ The full power spectrum of the 40-second cadence SMMF is shown in Figure~\ref{fi
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[width=\columnwidth]{BiSON_SMMF_FT_full.png}
+	\includegraphics[width=\columnwidth]{BiSON_SMMF_FT_full_rescaled.png}
 	\caption{Full power spectrum of the BiSON SMMF on a logarithmic scale up to the Nyquist frequency.}
 	\label{fig:BiSON_FT_full}
 \end{figure}
@@ -300,13 +300,13 @@ The same parametrisation as outlined above was relevant to the modelling of the 
 \subsection{Investigation of the Window Function}\label{sec:window_fn}
 
 
-Daily gaps in the data cause some power from the RM component in the power spectrum to be aliased up to higher frequencies, specifically to harmonics of the gap frequency. In this case there are daily gaps, hence power is aliased to a frequency of 1/day $\sim$~11.57 $\mu$Hz and its harmonics.
+Daily gaps in the data cause some power from the low-frequency RM component in the power spectrum to be aliased to higher frequencies, specifically to harmonics of the frequency of the gaps in the data. In this case there are daily gaps, hence power is aliased to a frequency of 1/day $\sim$~11.57 $\mu$Hz and its harmonics.
 
 As the mode frequency (and harmonics) of the RM component are located near zero ($\nu_0 \sim \,0.4 \, \mu\mathrm{Hz}$) there are negative and positive side-bands in the complete power spectrum, however we are usually only interested in positive frequencies. When considering the aliased power, both the positive and negative side-bands must be taken into account. The aliased power is therefore located at frequencies defined in equation~(\ref{eq:sidebands}), where $i$ denotes the side-band number, and $n$ denotes the harmonic of the mode. The locations of side-bands are shown clearly to obey equation~(\ref{eq:sidebands}) in the SMMF power spectrum show in Fig.~\ref{fig:sideband_locations}.
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[width=\columnwidth]{sideband.png}
+	\includegraphics[width=\columnwidth]{sideband_rescaled.pdf}
 	\caption{Locations of aliased power in side-band peaks. The orange dotted-lines show the locations of frequencies at multiples of 1/day. The green dashed-lines show the location of the side-band peaks -- harmonic frequencies reflected around multiples of 1/day.  The inset shows a zoom of one set of side-band peaks around 1/day.}
 	\label{fig:sideband_locations}
 \end{figure}
@@ -329,20 +329,20 @@ g(t) =
 \label{eq:window}
 \end{equation}
 
-To further investigate the effects of the window function, an artificial power spectrum was simulated with a single Lorentzian peak which followed equation~(\ref{eq:lorentzian_fit}), with parameter values. By computing the inverse Fourier transform, an artificial time-series was generated over the same epoch as the BiSON SMMF observations. We were then able to examine the effects of injecting gaps into the data which were concurrent with the BiSON SMMF gaps. 
+To demonstrate the effect of the window function on the power spectrum, an artificial power spectrum was simulated with a single Lorentzian peak which followed equation~(\ref{eq:lorentzian_fit}), with parameter values. By computing the inverse Fourier transform, an artificial time-series was generated over the same epoch as the BiSON SMMF observations. We were then able to examine the effects of injecting gaps into the data which were concurrent with the BiSON SMMF gaps. 
 
 In Figure~\ref{fig:window_function_PSDs} the power spectrum of the window function is shown, as well as the noiseless input peak, and the output power spectra of the artificial data with and without the injected gaps. The power spectrum of the BiSON SMMF data is also plotted for comparison.
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[width=\columnwidth]{gap_test.png}
+	\includegraphics[width=\columnwidth]{gap_test_rescaled.pdf}
 	\caption{Shows the effects of the window function on the power spectrum. Black line: BiSON SMMF PSD; dark orange line: power spectrum of the window function; blue and light orange lines: the power spectrum of the artificial data without and with gaps, respectively; pink line: the input peak used to generate the artificial data.}
 	\label{fig:window_function_PSDs}
 \end{figure}
 
 It is strikingly clear from Figure~\ref{fig:window_function_PSDs} that the shape of the spectrum of the window function has a remarkable resemblance to the BiSON SMMF spectrum and the output of the artificial spectrum with gaps injected. This shows that the periodic window function has a dominating effect on the power spectrum of the input signal which not only produces the diurnal sidebands, but also a broadband spread of the power.
 
-Due to the broadband shape of the window function compared to the BiSON SMMF, it appears that there is actually no red-noise-like component in the SMMF and it is instead a manifestation of the gaps on the data.
+Due to the broadband shape of the window function compared to the BiSON SMMF, it appears that there is actually no red-noise-like component in the SMMF and it is instead a manifestation of the gaps on the data. There does however still appear to be a necessity for a low-frequency Harvey function to describe the power close to zero
 
 We can express the  time series data ($y(t)$) as a multiplication of the signal ($f(t)$) with the window function ($g(t)$), as given by equation~(\ref{eq:timeseries}).
 
@@ -358,7 +358,7 @@ P'(\nu; \,{\bf a}) \, = \, P(\nu; \,{\bf a}) * \left|\mathcal{F}\left[g(t)\right
 \label{eq:PSD_fit_conv}
 \end{equation}
 
-Therefore to model the observed power spectrum in a robust manner, which takes into account the intricacies caused by gaps in the data, we use a model which is formed of a model power spectrum, $P(\nu; \,{\bf a})$, convolved with the Fourier transform of the window function describing the duty cycle of observations (i.e. $\left|\mathcal{F}\left[g(t)\right]\right|^2$), i.e. equation~(\ref{eq:PSD_fit_conv}), where
+Therefore to model the observed power spectrum in a robust manner, which takes into account the intricacies caused by gaps in the data, we use a model which is formed of a model power spectrum, $P(\nu; \,{\bf a})$, convolved with the Fourier transform of the window function describing the duty cycle of observations ($\left|\mathcal{F}\left[g(t)\right]\right|^2$), i.e. a model described by equation~(\ref{eq:PSD_fit_conv}), where
 
 
 \begin{equation}
@@ -508,8 +508,245 @@ In Table~\ref{tab:WSO_SMMF_fit_params} the median values of marginalised posteri
 
 [To be included in here: discussion around the peak smearing affecting our ability to deduce the width and the source of peak asymmetry. This should be backed up by simulation results.]
 
+\subsection{Asymmetry in the Power Spectrum}
+\label{sec:asymmetry}
+
+We have shown that the BiSON and WSO SMMF power spectra are best modelled with asymmetric Lorentzian profiles. In this section, we investigate the cause of this asymmetry in the power spectrum. 
+
+An initial hypothesis on the origin of the asymmetry was the migration of active regions towards the equator with the progression of the solar cycle, this is illustrated by the clear asymmetry in the rotation frequency of latitudes sampled from a kernel density estimate of the SSN, in combination with models for the differential rotation \citep{snodgrass_magnetic_1983} and equatorial migration \citep{li_latitude_2001}, shown in Figure~\ref{fig:KDE_lats}. To investigate this as a source of the asymmetry, we used artificial data which was crated to simulate the differential rotation and migration of active regions during the solar cycle. The methodology involved with generating the simulated data is discussed in Appendix~\ref{app:SMMF_sims}, and here we discuss the outcomes of the simulations.
+
+\begin{figure}[ht!]
+	\centering
+	\subfloat[ \label{fig:kde}]
+	{\includegraphics[width=0.47\columnwidth]{monthly_SSN_KDE_rescaled.png}} 
+	\qquad
+	\subfloat[ \label{fig:lats}]{\includegraphics[width=0.47\columnwidth]{lat_hist_rescaled.png}}
+	\caption{...} 
+	\label{fig:KDE_lats}
+\end{figure}
+
+Three separate models for the migration of ARs towards the equator were used during the simulations and they are shown in Figure~\ref{fig:artificial_sim_lats}. The quadratic model was taken from \citet{li_latitude_2001}, which represents the `typical' migration of ARs, and the linear and exponential models were parametrised to provided opposite extremes for a slower and faster migration towards the equator, respectively. The equations for each are given in equations~(\ref{eq:quad_lats}), (\ref{eq:lin_lats}), and (\ref{eq:exp_lats}), where $t$ is the time since cycle start in years.
+
+\begin{equation}
+\lambda_{q} = 0.0893t^2 - 2.8t + 27.24
+\label{eq:quad_lats}
+\end{equation}
+
+\begin{equation}
+\lambda_{l} = -1.84t + 27.24
+\label{eq:lin_lats}
+\end{equation}
+
+\begin{equation}
+\lambda_{e} = 20.24 e^{-t/2} + 7
+\label{eq:exp_lats}
+\end{equation}
 
 
+\begin{figure}[!ht]
+	\centering
+	\subfloat[Migration models]{
+		\includegraphics[width=0.45\columnwidth]{lats_rescaled.png}
+		\label{fig:artificial_sim_lats}}
+	\qquad
+	\subfloat[Linear]{
+		\includegraphics[width=0.45\columnwidth]{lin_rescaled.png}
+		\label{fig:artificial_sim_lin}} \\
+	
+	\qquad
+	
+	\subfloat[Quadratic]{
+		\includegraphics[width=0.45\columnwidth]{quad_rescaled.png}
+		\label{fig:artificial_sim_quad}}
+	\qquad
+	\subfloat[Exponential]{
+		\includegraphics[width=0.45\columnwidth]{exp_rescaled.png}
+		\label{fig:artificial_sim_exp}}
+	
+	\caption{...}
+	\label{fig:artificial_sim_lats}
+\end{figure}
+
+The simulations were run with 15 configurations using the three migration models combined with models of sources (see Appendix~\ref{app:SMMF_sims}: cosine model), sign change model, and combinations of the cosine and sign change models in ratios of 5:95, 10:90, and 20:80). In each case, 250 simulations were run in order to produce a limit spectrum. Each limit spectrum was modelled with a series of Lorentzian peaks sharing a global asymmetry parameter, and the resultant asymmetries are shown in Figure~\ref{fig:artificial_asymm}.
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.85\columnwidth]{artificial_fit_asym_rescaled.png}
+	\caption{...}
+	\label{fig:artificial_asymm}
+\end{figure}
+
+It is immediately clear that the migration model has no significant effect on the asymmetry of the Lorentzian peaks, hence we are able to rule out AR migration as the origin of the asymmetry observed. This does however show an obvious difference between the way the different models of the sources have asymmetry manifested in their spectra.
+
+This links to a still-open debate in helioseismology, on the source of asymmetry of the modes in the power spectra, and the asymmetry reversal between the observations in intensity and Doppler velocity. Asymmetry is regularly observed in $p$ modes of oscillation in helioseismic data and we observe a difference in the sign of the asymmetry term which is negative for Doppler velocity observations (i.e. more power in the low-frequency wing of the mode) and positive for measurements made in intensity (i.e. more power in the high-frequency wing of the mode) \citep{duvall_asymmetries_1993, chaplin_depth_1999, howe_validation_2015, basu_asteroseismic_2017}.
+
+There are believed to be two main causes of asymmetry in acoustic modes:
+
+\begin{enumerate}
+	\item{The spatially localised nature of the excitation source of acoustic modes in the near-surface layers of the outer convection zone and the interference between concurrent waves that have been emitted by the an event but have traversed different paths before interfering, therefore accumulating phase difference between the waves. This source of asymmetry is believed to dominate in Doppler velocity observations.}
+	
+	\item{The correlation between the convective granulation (i.e. correlated noise) and the signal from the modes themselves, or the correlation between the excitations of one mode to another. This source of asymmetry is believed to dominate in intensity observations due to the lower signal-to-noise ratio.}
+\end{enumerate}
+
+We believe that some combination of phase difference between sources, and noise arising from some of the inevitable stochasticity in the simulations is responsible for the asymmetry difference observed between the cosine and sign change models, as they replicate the difference in the ways we observe the ARs, either by intensity (cosine model) or Doppler velocity (sign change model).
+
+In the case of the SMMF observations, we believe the asymmetry is explained by the first of the above explanations. Active magnetic regions are typically localised in the near-surface layers of the Sun and we see clear interference between different regions of magnetic flux which form the observed more prominent active regions, which we believe contribute strongly to the SMMF. The interference between smaller regions of flux will likely have accumulated a phase difference and therefore could contribute to the observed asymmetry. 
+
+On the second point, the SMMF is measured by the Zeeman splitting of an emission line due to the magnetic field, which is inherently a Doppler velocity method. There is no bleed through of $p$ mode power in the spectrum and we have shown that there is no red-noise-like signal or stochastic background in the power spectrum, therefore it is unlikely that we see a strong correlated noise contribution to the asymmetry in the SMMF RM component peaks.
+
+ 
+\subsection{Testing the Effects of Differential Rotation and Active Region Migration}
+\label{sec:smearing}
+
+As a result of solar differential rotation and the migration of ARs towards the solar equator during the activity cycle, we know that the rotation period of ARs varies throughout the solar cycle. 
+
+As we have inferred that the RM component of the SMMF is likely linked to ARs, we may therefore assume that the RM component is also sensitive to migration. Here we analyse the effect of migration and differential rotation on our ability to make inferences on the lifetime of the RM component.
+
+Several studies have modelled the the solar differential rotation, and its variation with latitude and radius of the Sun (see \citet{beck_comparison_2000} and \cite{howe_solar_2009} for an in depth review of the literature on solar differential rotation). Magnetic features have been shown to be sensitive to rotation deeper than the photosphere; therefore in general magnetic features can be seen to rotate with a shorter period than the surface plasma \citep{howe_solar_2009}.
+
+\citet{chaplin_distortion_2008} analysed the effects of differential rotation on the shape of asteroseismic low-$l$ $p$ modes of oscillation, and showed that the consequence of differential rotation is to broaden the observed line-width of a mode peak. The authors provide a model of the resultant profile of a $p$ mode whose frequency is shifted in time to be a time-average of several instantaneous Lorentzian profiles with central frequency $\nu(t)$, given by equation~(\ref{eq:stacked_lorentzians}). The angled brackets indicate an average over time, $H$ and $\Gamma$ are the mode height (maximum power spectral density) and line-width, respectively, and the full period of observation is given by $T$.
+
+\begin{equation}
+\langle P(\nu) \rangle \, = \, \frac{1}{T} \int^T_0 H \left( 1 \, + \, \left( \frac{\nu - \nu(t)}{\Gamma /2} \right)^2 \right)^{-1} dt
+\label{eq:stacked_lorentzians}
+\end{equation}
+
+\citet{chaplin_distortion_2008} also show that by assuming a simple, linear variation of the unperturbed frequency, $\nu_0$, from the start to the end of the time-series by a total frequency shift $\Delta\nu$ (see equation~(\ref{eq:linear_variation})),
+
+\begin{equation}
+\nu(t) \, = \, \nu_0 \, +  \Delta\nu \frac{t}{T}
+\label{eq:linear_variation}
+\end{equation}
+
+the resultant profile of a $p$ mode can analytically be modelled by equation~(\ref{eq:atan_lorentzians}):
+
+\begin{equation}
+\langle P(\nu) \rangle \, = \, \frac{H}{2\epsilon} \arctan \left( \frac{2 \epsilon}{1 - \epsilon^2 + X^2 } \right)
+\label{eq:atan_lorentzians}
+\end{equation}
+
+where $\epsilon$ and $X$ are defined in equation~\ref{eq:epsilon} and equation~\ref{eq:X}.
+
+\begin{equation}
+\epsilon \, = \, \frac{\Delta\nu}{\Gamma}
+\label{eq:epsilon}
+\end{equation}
+
+\begin{equation}
+X \, = \, \frac{\nu - [\nu_0 + (\Delta\nu/2)]}{\Gamma /2}
+\label{eq:X}
+\end{equation}
+
+As the mode line-widths are broadened, we evaluate whether our ability to revolve the true line-width of the RM, and hence the lifetime, is affected. In order to evaluate this we computed the broadened profiles given by both equation~(\ref{eq:stacked_lorentzians}) and equation~(\ref{eq:atan_lorentzians}), and fit the model for a single Lorentzian peak, to determine whether there is a notable difference in the line-width.
+
+In the first instance, we compute the broadened peak using equation~(\ref{eq:stacked_lorentzians}). Over the duration of the observations, we compute the daily instantaneous profile, $P(\nu(t))$. The time-averaged profile, $ 
+\langle P(\nu) \rangle$, is a weighted average of each instantaneous profile, where the weights are given by the squared-daily-SMMF, in order to allow a larger broadening contribution at times when the SMMF amplitude is greater.
+
+In the second instance, we compute the broadened peak using equation~(\ref{eq:atan_lorentzians}). Over the duration of the observations the daily frequency shift is computed, $\Delta\nu$. The time-averaged shift, $\Delta\nu$, is a weighted average, where again the weightings are given by the squared-daily-SMMF.
+
+To determine the shift in the rotation rate as the active bands migrate to the solar equator, we used the model of the solar differential rotation as traced by magnetic features ($\Omega_m$) given by equation~(\ref{eq:diff_rot_freq}), where $\mu \, = \, \cos \theta $ and $\theta$ is the co-latitude \citep{snodgrass_magnetic_1983, brown_inferring_1989}.
+
+\begin{equation}
+\frac{\Omega_m}{2 \pi} \, = \, 462 - 74 \mu^2 - 53 \mu^4 \, \mathrm{nHz}
+\label{eq:diff_rot_freq}
+\end{equation}
+
+The time-dependence on the latitude of the active regions used the best-fitting quadratic model by \cite{li_latitude_2001-1}.
+
+In both instances, the broadened peak was modelled as a single Lorentzian peak using the first part of equation~(\ref{eq:PSD_fit}), i.e. the summation with $N=0$. Again, we use {\verb emcee } \citep{foreman-mackey_emcee_2013} to explore the posterior parameter space, priors similar to the above full-fit on the relevant parameters.
+
+
+Over the entire duration of the SMMF observations, the time-averaged profile was calculated, using equation~(\ref{eq:stacked_lorentzians}), and this is shown in Fig.~\ref{fig:weighted_shift}. The broadened mode used the input parameters outlined in Table~\ref{tab:full_fit_params}, however with the background parameter set to zero.
+
+
+By eye the broadened profile does not appear to have a significantly larger line-width. The input line-width was $0.047 \pm 0.001 \, \mu\mathrm{Hz} $, and the fit to the time-averaged broadened peak produced a line-width of $0.047 \pm 0.005 \, \mu\mathrm{Hz} $. The line-width of the broadened peak under this method is rather unchanged from that of the true peak, and both line-widths are within uncertainties of each other.
+
+This result shows that numerically, the mode broadening effect of differential rotation and migration does not affect our ability to resolve the line-width of the peak, and hence the predicted lifetime of the RM component of the SMMF.
+
+
+\begin{figure}[ht!]
+	\centering
+	\subfloat[Weighted \label{fig:weighted_shift}]
+	{\includegraphics[width=0.47\columnwidth]{weighted_shifted_peak_rescaled.png}} 
+	\qquad
+	\subfloat[Analytic \label{fig:atan_shift}]{\includegraphics[width=0.47\columnwidth]{chaplin_shifted_peak_rescaled.png}}
+	\caption{(a) Shows the peak distribution before and after the time-averaged broadening, and the fit to the broadened peak. (b) Shows the peak distribution before and after the analytical broadening, and the fit to the broadened peak. In both plots the broadened peaks have been shifted by the relevant frequency to overlay them on top of the true $\nu_0$ for comparison.} \label{fig:shifted_peaks}
+\end{figure}
+
+
+
+The time-averaged frequency shift due to differential rotation was calculated, much in the same way as equation~(\ref{eq:stacked_lorentzians}), to be $\Delta\nu \, = \,0.01285 \, \mu\mathrm{Hz}$. This shift was used to generate the broadened profile using equation~(\ref{eq:atan_lorentzians}).  The broadened mode distribution also used the input parameters outlined in Table~\ref{tab:full_fit_params}, however with the background parameter set to zero.
+
+Similarly to the numerically broadened peak, by eye, the analytically broadened profile does not appear to have a significantly larger line-width and the resultant median parameters of the fitted Lorentzian profile are shown in Table~\ref{tab:shift_params}. The input line-width was $0.047 \pm 0.001 \, \mu\mathrm{Hz} $, and the line-width of the analytically broadened peak from the fit is $0.047 \pm 0.005 \, \mu\mathrm{Hz} $, which is within the uncertainties of the line-width of the input peak.
+
+This results shows that analytically, the mode broadening effect of differential rotation and migration does not affect our ability to resolve the line-width of the peak, and hence the lifetime of the RM component of the SMMF.
+
+Both broadening method applied have therefore been shown to have a negligible effect on the line-width of the profile, and our ability to resolve the true line-width of the peak remains unaffected. This result provides confidence that the measured line-width in Table~\ref{tab:full_fit_params} is the true line-width of the RM peaks, providing the correct life time for RM component, unaffected by migration and differential rotation.
+
+
+
+
+
+\subsection{Further Morphology of the SMMF}
+\label{sec:SMMF_morphology}
+
+Here we use SDO/HMI data to show how the SMMF is broken down into its hemispheric behaviour and how that affects the full-disc SMMF...
+
+
+
+\begin{figure}[!ht]
+	\centering
+	\subfloat[...]{
+		\includegraphics[width=0.9\columnwidth]{HMI_20140130_120000_rescaled.png}
+		\label{fig:20140130}}
+	
+	\qquad
+	
+	\subfloat[...]{
+		\includegraphics[width=0.9\columnwidth]{HMI_20140203_120000_rescaled.png}
+		\label{fig:20140203}} \\
+	
+	\qquad
+	
+	\subfloat[...]{
+		\includegraphics[width=0.9\columnwidth]{HMI_20140210_000000_rescaled.png}
+		\label{fig:20140210}}
+
+	
+	\caption{...}
+	\label{fig:HMI_frames_2014}
+\end{figure}
+
+
+
+\begin{figure}[!ht]
+	\centering
+	\subfloat[...]{
+		\includegraphics[width=0.9\columnwidth]{HMI_20110329_000000_rescaled.png}
+		\label{fig:20110329}}
+	
+	\qquad
+	
+	\subfloat[...]{
+		\includegraphics[width=0.9\columnwidth]{HMI_20110413_000000_rescaled.png}
+		\label{fig:20110413}} \\
+	
+	\qquad
+	
+	\subfloat[...]{
+		\includegraphics[width=0.9\columnwidth]{HMI_20110426_000000_rescaled.png}
+		\label{fig:20110426}}
+	
+	
+	\caption{...}
+	\label{fig:HMI_frames_2011}
+\end{figure}
+
+
+
+
+\subsection{Timescales in the SMMF}
+\label{sec:timescales}
 
 
 
@@ -517,4 +754,24 @@ In Table~\ref{tab:WSO_SMMF_fit_params} the median values of marginalised posteri
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Summary}\label{sec:SMMF_summary}
+\section{Conclusion}\label{sec:SMMF_conclusion}
+
+
+
+...
+...
+
+
+
+We leave the reader with the following points:
+
+\begin{enumerate}
+	\item{...}
+	
+	\item{...}
+	
+	\item{...}
+	
+	\item{...}
+\end{enumerate}
+
