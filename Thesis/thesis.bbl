@@ -17,10 +17,6 @@
   {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
   mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
-\bibitem[\protect\citeauthoryear{Appourchaux}{Appourchaux}{2003}]{appourchaux_maximum_2003}
-Appourchaux T.,  2003, \mn@doi [Astronomy and Astrophysics]
-  {10.1051/0004-6361:20034401}, 412, 903
-
 \bibitem[\protect\citeauthoryear{Barnes et~al.,}{Barnes
   et~al.}{2020}]{barnes_sunpy_2020}
 Barnes a. W.~T.,  et~al., 2020, \mn@doi [ApJ] {10.3847/1538-4357/ab4f7a}, 890,
@@ -256,6 +252,11 @@ Scherrer P.~H.,  Wilcox J.~M.,  Svalgaard L.,  Duvall Jr. T.~L.,  Dittmer
   P.~H.,   Gustafson E.~K.,  1977b, \mn@doi [Solar Physics]
   {10.1007/BF00159925}, 54, 353
 
+\bibitem[\protect\citeauthoryear{Schrijver \& Harvey}{Schrijver \&
+  Harvey}{1994}]{schrijver_photospheric_1994}
+Schrijver C.~J.,  Harvey K.~L.,  1994, \mn@doi [Solar Physics]
+  {10.1007/BF00712873}, 150, 1
+
 \bibitem[\protect\citeauthoryear{Severny}{Severny}{1971}]{severny_time_1971}
 Severny A.~B.,  1971, Quarterly Journal of the Royal Astronomical Society, 12,
   363
@@ -296,6 +297,11 @@ Xie J.~L.,  Shi X.~J.,   Xu J.~C.,  2017, \mn@doi [The Astronomical Journal]
 
 \bibitem[\protect\citeauthoryear{Zwaan}{Zwaan}{1981}]{zwaan_solar_1981}
 Zwaan C.,  1981, NASA Special Publication, 450
+
+\bibitem[\protect\citeauthoryear{van Driel-Gesztelyi \& Green}{van
+  Driel-Gesztelyi \& Green}{2015}]{van_driel-gesztelyi_evolution_2015}
+van Driel-Gesztelyi L.,  Green L.~M.,  2015, \mn@doi [Living Rev. Sol. Phys.]
+  {10.1007/lrsp-2015-1}, 12, 1
 
 \makeatother
 \end{thebibliography}

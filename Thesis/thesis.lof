@@ -1,69 +1,77 @@
 \thispagestyle {plain}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces An example of the BiSON ratios data over a 30-minute period. The separation between the two ratios is due to the solar mean magnetic field.\relax }}{8}{figure.caption.7}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces (a) 40-second cadence observations of the SMMF from the Sutherland BiSON station between 1992 and 2012. The sense of the field was chosen to match the \citet {chaplin_studies_2003} and the WSO observations, where positive is for a field pointing outwards from the Sun. (b) Power spectrum of the SMMF on a 40-second cadence truncated to $10 \mu \mathrm {Hz}$, however the nyquist frequency is 12.5 mHz.\relax }}{10}{figure.caption.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {BiSON SMMF 40-second cadence time series }}}{10}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Power spectral density of the BiSON SMMF }}}{10}{subfigure.2.2}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Daily averaged SMMF measured by WSO (blue) and by the Sutherland BiSON station (black).\relax }}{11}{figure.caption.9}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Comparisons between the BiSON SMMF data and the WSO SMMF data. (a) shows the correlation between daily averaged BiSON SMMF and the WSO SMMF. The green line provides the fit to the data, while the red line shows a 1:1 relation for comparison. (b) shows a comparison between the power spectra of BiSON and SMMF.\relax }}{12}{figure.caption.10}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces An example of the BiSON ratios data over a 30-minute period. The separation between the two ratios is due to the solar mean magnetic field.\relax }}{8}{figure.caption.5}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces (a) 40-second cadence observations of the SMMF from the Sutherland BiSON station between 1992 and 2012. The sense of the field was chosen to match the \citet {chaplin_studies_2003} and the WSO observations, where positive is for a field pointing outwards from the Sun. (b) Power spectrum of the SMMF on a 40-second cadence truncated to $10 \mu \mathrm {Hz}$, however, the nyquist frequency is 12.5 mHz.\relax }}{11}{figure.caption.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {BiSON SMMF 40-second cadence time series }}}{11}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Power spectral density of the BiSON SMMF }}}{11}{subfigure.2.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Daily averaged SMMF measured by WSO (blue) and by the Sutherland BiSON station (black).\relax }}{12}{figure.caption.7}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Comparisons between the BiSON SMMF data and the WSO SMMF data. (a) shows the correlation between daily averaged BiSON SMMF and the WSO SMMF. The green line provides the fit to the data, while the red line shows a 1:1 relation for comparison. (b) shows a comparison between the power spectra of BiSON and SMMF.\relax }}{12}{figure.caption.8}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {BiSON vs WSO correlation }}}{12}{subfigure.4.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {BiSON vs WSO PSDs }}}{12}{subfigure.4.2}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Full power spectrum of the BiSON SMMF on a logarithmic scale up to the Nyquist frequency.\relax }}{13}{figure.caption.11}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Locations of aliased power in side-band peaks. The orange dotted-lines show the locations of frequencies at multiples of 1/day. The green dashed-lines show the location of the side-band peaks -- harmonic frequencies reflected around multiples of 1/day. The inset shows a zoom of one set of side-band peaks around 1/day.\relax }}{17}{figure.caption.12}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Shows the effects of the window function on the power spectrum. Black line: BiSON SMMF PSD; dark orange line: power spectrum of the window function; blue and light orange lines: the power spectrum of the artificial data without and with gaps, respectively; pink line: the input peak used to generate the artificial data.\relax }}{19}{figure.caption.13}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces ...\relax }}{24}{figure.caption.16}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { }}}{24}{subfigure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { }}}{24}{subfigure.8.2}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces ...\relax }}{26}{figure.caption.17}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Migration models}}}{26}{subfigure.9.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Linear}}}{26}{subfigure.9.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Quadratic}}}{26}{subfigure.9.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Exponential}}}{26}{subfigure.9.4}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces ...\relax }}{27}{figure.caption.18}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces (a) Shows the peak distribution before and after the time-averaged broadening, and the fit to the broadened peak. (b) Shows the peak distribution before and after the analytical broadening, and the fit to the broadened peak. In both plots the broadened peaks have been shifted by the relevant frequency to overlay them on top of the true $\nu _0$ for comparison.\relax }}{31}{figure.caption.19}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Weighted }}}{31}{subfigure.11.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Analytic }}}{31}{subfigure.11.2}
-\contentsline {figure}{\numberline {1.12}{\ignorespaces ...\relax }}{33}{figure.caption.20}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {...}}}{33}{subfigure.12.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {...}}}{33}{subfigure.12.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {...}}}{33}{subfigure.12.3}
-\contentsline {figure}{\numberline {1.13}{\ignorespaces ...\relax }}{34}{figure.caption.21}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {...}}}{34}{subfigure.13.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {...}}}{34}{subfigure.13.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {...}}}{34}{subfigure.13.3}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Full power spectrum of the BiSON SMMF on a logarithmic scale up to the Nyquist frequency.\relax }}{13}{figure.caption.9}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Locations of aliased power in side-band peaks. The orange dotted-lines show the locations of frequencies at multiples of 1/day. The green dashed-lines show the location of the side-band peaks -- harmonic frequencies reflected around multiples of 1/day. The inset shows a zoom of one set of side-band peaks around 1/day.\relax }}{17}{figure.caption.10}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces (a) The effect on the power spectrum due to periodic gaps in the data. (b) The effect of the convolution between the the window function and the input power spectrum used to make the fake data, highlighting the need to adjust the power for the duty cycle.\relax }}{19}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Black line: BiSON SMMF PSD; blue line: power spectrum of the window function; green and dark-orange lines: the power spectrum of the artificial data without and with gaps, respectively; light orange line: the input peak used to generate the artificial data over-plotted. The lines have been offset for clarity.}}}{19}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Dark-orange line: the power spectrum of the artificial data with gaps; solid-grey line: input PSD convolved with the window function; dashed-black line: input PSD convolved with the power spectrum and adjusted for the duty cycle.}}}{19}{subfigure.7.2}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Full, modelled power spectrum of the BiSON SMMF on logarithmic axes. The data is displayed in black and the convolved model using asymmetric Lorentzian peaks is shown in green.\relax }}{23}{figure.caption.14}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Full, modelled power spectrum of the WSO SMMF on logarithmic axes. The data is displayed in black and the convolved model using asymmetric Lorentzian peaks is shown in blue.\relax }}{26}{figure.caption.16}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces (a) shows the KDE of the monthly averaged sunspot number used to draw samples of source seed times; (b) histogram of the rotation frequency of sources sampled from the KDE, after using the model for the migration and differential rotation.\relax }}{28}{figure.caption.17}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {KDE of SSN }}}{28}{subfigure.10.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Histogram of source rotation frequency }}}{28}{subfigure.10.2}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces (a) shows the latitudinal migration model as a function of time for each model; (b)-(d) shows the histogram of the rotation frequencies of sources sampled from the KDE for linear, quadratic, and exponential migration models, respectively.\relax }}{29}{figure.caption.18}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Migration Models}}}{29}{subfigure.11.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Linear Migration}}}{29}{subfigure.11.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Quadratic Migration}}}{29}{subfigure.11.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Exponential Migration}}}{29}{subfigure.11.4}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces The median value of the fitted global asymmetry parameter for several simulations of artificial data. The colour represents the migration model used: linear:blue; quadratic:orange; exponential: green. The marker represents the source model used: cosine:circle; sign change:cross; combinations of the cosine and sign change models in ratios of 5:95:downwards triangle; 10:90:plus; 20:80:upwards triangle.\relax }}{30}{figure.caption.19}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces (a) Shows the peak distribution before and after the time-averaged broadening, and the fit to the broadened peak. (b) Shows the peak distribution before and after the analytical broadening, and the fit to the broadened peak. In both plots the broadened peaks have been shifted by the relevant frequency to overlay them on top of the true $\nu _0$ for comparison.\relax }}{35}{figure.caption.21}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Weighted }}}{35}{subfigure.13.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Analytic }}}{35}{subfigure.13.2}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces ...\relax }}{37}{figure.caption.22}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {...}}}{37}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {...}}}{37}{subfigure.14.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {...}}}{37}{subfigure.14.3}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces ...\relax }}{38}{figure.caption.23}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {...}}}{38}{subfigure.15.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {...}}}{38}{subfigure.15.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {...}}}{38}{subfigure.15.3}
+\contentsline {figure}{\numberline {1.16}{\ignorespaces ...\relax }}{39}{figure.caption.24}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {2011}}}{39}{subfigure.16.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {2014}}}{39}{subfigure.16.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Model fit to the full BiSON SMMF PSD.\relax }}{37}{figure.caption.22}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Residual power spectrum of the BiSON SMMF. Over plotted in the green curve is the model of the main SMMF signal. Also over plotted as vertical solid lines are the expected locations of the 4 lowest-frequency sectoral $r$ modes and the dashed lines, the locations of the B$_0$ variation frequency splitting.\relax }}{42}{figure.caption.24}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Realisations of the statistics tests of BiSON data for different re-binning factors (n). The panels of each sub figure are: (top) the full PSD and fit, (second panel) the full and re-binned residuals, (third panel) the probability of statistical noise in each bin, (bottom) distribution of the residuals compared to a $\chi ^2$ 2n-DOF.\relax }}{44}{figure.caption.25}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {No re-binning}}}{44}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Re-binned by a factor of n=2}}}{44}{subfigure.3.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Re-binned by a factor of n=5}}}{44}{subfigure.3.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Re-binned by a factor of n=10}}}{44}{subfigure.3.4}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Model fit to the $r$ mode in the BiSON PSD residuals using the median from the parameter posterior distributions.\relax }}{46}{figure.caption.27}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Mode displacement schematic for an $l=m=2$ $r$ mode \citep {strohmayer_neutron_2014}\relax }}{47}{figure.caption.28}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Time series of the velocity and amplitude modulation toy model simulations. The blue curve shows the velocity modulation, i.e. modulating using a cosine with period of 1 year, whereas the orange curve shows the amplitude modulation, i.e. modulating using a rectified cosine with period 1 year.\relax }}{48}{figure.caption.29}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Power spectra for the two modulation methods, showing the difference in the way the modulation has changed the frequency of the observed mode.\relax }}{48}{figure.caption.30}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Velocity modulation}}}{48}{subfigure.7.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Amplitude modulation}}}{48}{subfigure.7.2}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces SDO/HMI SMMF split into hemispheres and compared to other SMMF sources during (a) 2011, and (b) 2014. The top panel in each figure shows the north (N), south (S), and total disk-averaged mean magnetic field, for both the full solar disk and from pixels within 99\% of solar radius. The bottom panels show a comparison between the SMMF, as observed BiSON, Wilcox Solar Observatory (WSO), and HMI (full disk and the 99\% disk).\relax }}{49}{figure.caption.31}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {2011}}}{49}{subfigure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {2014}}}{49}{subfigure.8.2}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Comparison of the power spectra for BiSON, WSO, and SDO/HMI. In both figures, the top panel shows the BiSON PSD and the bottom panel shows either the WSO or HMI PSD. The dashed, black line shows the location of theoretical $l=2=m$ $r$ mode frequency, and the red, solid line shows the location of the peak fit in the BiSON PSD residuals.\relax }}{51}{figure.caption.32}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {WSO}}}{51}{subfigure.9.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HMI}}}{51}{subfigure.9.2}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Model fit to the full BiSON SMMF PSD.\relax }}{43}{figure.caption.25}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Residual power spectrum of the BiSON SMMF. Over plotted in the green curve is the model of the main SMMF signal. Also over plotted as vertical solid lines are the expected locations of the 4 lowest-frequency sectoral $r$ modes and the dashed lines, the locations of the B$_0$ variation frequency splitting.\relax }}{48}{figure.caption.27}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Realisations of the statistics tests of BiSON data for different re-binning factors (n). The panels of each sub figure are: (top) the full PSD and fit, (second panel) the full and re-binned residuals, (third panel) the probability of statistical noise in each bin, (bottom) distribution of the residuals compared to a $\chi ^2$ 2n-DOF.\relax }}{50}{figure.caption.28}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {No re-binning}}}{50}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Re-binned by a factor of n=2}}}{50}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Re-binned by a factor of n=5}}}{50}{subfigure.3.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Re-binned by a factor of n=10}}}{50}{subfigure.3.4}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Model fit to the $r$ mode in the BiSON PSD residuals using the median from the parameter posterior distributions.\relax }}{51}{figure.caption.30}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Mode displacement schematic for an $l=m=2$ $r$ mode \citep {strohmayer_neutron_2014}\relax }}{53}{figure.caption.31}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Time series of the velocity and amplitude modulation toy model simulations. The blue curve shows the velocity modulation, i.e. modulating using a cosine with period of 1 year, whereas the orange curve shows the amplitude modulation, i.e. modulating using a rectified cosine with period 1 year.\relax }}{54}{figure.caption.32}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Power spectra for the two modulation methods, showing the difference in the way the modulation has changed the frequency of the observed mode.\relax }}{54}{figure.caption.33}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Velocity modulation}}}{54}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Amplitude modulation}}}{54}{subfigure.7.2}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces SDO/HMI SMMF split into hemispheres and compared to other SMMF sources during (a) 2011, and (b) 2014. The top panel in each figure shows the north (N), south (S), and total disk-averaged mean magnetic field, for both the full solar disk and from pixels within 99\% of solar radius. The bottom panels show a comparison between the SMMF, as observed BiSON, Wilcox Solar Observatory (WSO), and HMI (full disk and the 99\% disk).\relax }}{55}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {2011}}}{55}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {2014}}}{55}{subfigure.8.2}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Comparison of the power spectra for BiSON, WSO, and SDO/HMI. In both figures, the top panel shows the BiSON PSD and the bottom panel shows either the WSO or HMI PSD. The dashed, black line shows the location of theoretical $l=2=m$ $r$ mode frequency, and the red, solid line shows the location of the peak fit in the BiSON PSD residuals.\relax }}{57}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {WSO}}}{57}{subfigure.9.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HMI}}}{57}{subfigure.9.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Schematic representations of the two models of the artificial SMMF. (a) shows the cosine model with a single source of constant polarity transiting the visible disc. (b) shown the sign change model whereby there are 2 regions of opposite polarity transiting the disc, and their contribution to the SMMF changes during the transit.\relax }}{55}{figure.caption.33}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {`cosine' model }}}{55}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {`sign change' model }}}{55}{subfigure.1.2}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces A single realisation of (a) the cosine model, and (b) the sign change model.\relax }}{56}{figure.caption.34}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {`cosine' model }}}{56}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {`sign change' model }}}{56}{subfigure.2.2}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces ...\relax }}{57}{figure.caption.35}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces (a) the burn-in period required to ensure that the interference of sources stabilises. (b) histogram of the number of sources which remain in the simulation (out of the 20000 input), after the burn-in is removed. (c) \relax }}{58}{figure.caption.36}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Burn-in}}}{58}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Number of sources in the simulation after burn-in}}}{58}{subfigure.4.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Sources on the visible disc}}}{58}{subfigure.4.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Sunspot number}}}{58}{subfigure.4.4}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Limit spectrum from 100 realisations of the cosine model (a) and the sign change model (b) using a single source in each model.\relax }}{59}{figure.caption.37}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {`cosine' model }}}{59}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {`sign change' model }}}{59}{subfigure.5.2}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Schematic representations of the two models of the artificial SMMF. (a) shows the cosine model with a single source of constant polarity transiting the visible disk. (b) shown the sign change model whereby there are 2 regions of opposite polarity transiting the disk, and their contribution to the SMMF changes during the transit.\relax }}{61}{figure.caption.36}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {`cosine' model }}}{61}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {`sign change' model }}}{61}{subfigure.1.2}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces A single realisation of (a) the cosine model, and (b) the sign change model.\relax }}{62}{figure.caption.37}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {`cosine' model }}}{62}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {`sign change' model }}}{62}{subfigure.2.2}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Flowchart showing the step-by-step processes in the generation of the artificial SMMF time series data.\relax }}{63}{figure.caption.38}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces (a) the burn-in period required to ensure that the interference of sources stabilises. (b) histogram of the number of sources which remain in the simulation (out of the 20000 input), after the burn-in is removed. (c) \relax }}{64}{figure.caption.39}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Burn-in}}}{64}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Number of sources in the simulation after burn-in}}}{64}{subfigure.4.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Sources on the visible disk}}}{64}{subfigure.4.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Sunspot number}}}{64}{subfigure.4.4}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Artificial butterfly diagram generated from the simulations, allowing for the parameters to be drawn from distribution to add stochasticity into the simulation.\relax }}{65}{figure.caption.40}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Limit spectrum from 100 realisations of the cosine model (a) and the sign change model (b) using a single source in each model.\relax }}{66}{figure.caption.41}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {`cosine' model }}}{66}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {`sign change' model }}}{66}{subfigure.6.2}

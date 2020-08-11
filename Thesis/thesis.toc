@@ -1,41 +1,40 @@
 \thispagestyle {plain}
-\contentsline {chapter}{\numberline {1}Investigations into the Morphology of the Solar Mean Magnetic Field}{1}{chapter.1}
+\contentsline {chapter}{\numberline {1}A Frequency Domain Investigation on the Morphology of the Solar Mean Magnetic Field}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Aims}{5}{section.1.2}
 \contentsline {section}{\numberline {1.3}Data}{5}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Summary of the Data Set}{5}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Obtaining the SMMF from BiSON}{6}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Comparison between WSO and BiSON}{11}{subsection.1.3.3}
-\contentsline {section}{\numberline {1.4}Methodology}{12}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Identifying Features in the SMMF Power Spectrum}{12}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.3.2}Obtaining the SMMF from BiSON}{7}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Comparison between WSO and BiSON}{10}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Methodology}{10}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Identifying Features in the SMMF Power Spectrum}{10}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}Parameterisation of the SMMF Power Spectrum}{14}{subsection.1.4.2}
 \contentsline {subsection}{\numberline {1.4.3}Comparison with the WSO SMMF}{16}{subsection.1.4.3}
 \contentsline {section}{\numberline {1.5}Results}{16}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}Investigation of the Window Function}{16}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Modelling the BiSON Power Spectrum}{20}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Comparison to the WSO Power Spectrum}{23}{subsection.1.5.3}
-\contentsline {section}{\numberline {1.6}Discussion}{24}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}Asymmetry in the Power Spectrum}{24}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Testing the Effects of Differential Rotation and Active Region Migration}{28}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {1.6.3}Further Morphology of the SMMF}{32}{subsection.1.6.3}
-\contentsline {subsection}{\numberline {1.6.4}Timescales in the SMMF}{32}{subsection.1.6.4}
-\contentsline {section}{\numberline {1.7}Conclusion}{32}{section.1.7}
-\contentsline {chapter}{\numberline {2}Rossby Modes in the Solar Mean Magnetic Field}{35}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{35}{section.2.1}
-\contentsline {section}{\numberline {2.2}Aims}{37}{section.2.2}
-\contentsline {section}{\numberline {2.3}Theory}{38}{section.2.3}
-\contentsline {section}{\numberline {2.4}Methodology}{39}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Testing the Residual Spectrum}{39}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Modelling {\it r} mode Profiles}{41}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Results}{42}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Testing the Residual Spectrum}{42}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Modelling {\it r} mode Profiles}{43}{subsection.2.5.2}
-\contentsline {section}{\numberline {2.6}Discussion}{45}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Manifestation of Rossby Waves in the Power Spectrum}{46}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Rossby Modes in Other Sources of SMMF Data}{50}{subsection.2.6.2}
-\contentsline {section}{\numberline {2.7}Conclusion}{51}{section.2.7}
-\contentsline {chapter}{\numberline {A}Simulations of the Artificial SMMF}{54}{appendix.A}
-\contentsline {section}{\numberline {A.1}Model}{54}{section.A.1}
-\contentsline {section}{\numberline {A.2}Configuration of the Simulations}{56}{section.A.2}
-\contentsline {section}{\numberline {A.3}Outputs}{59}{section.A.3}
-\contentsline {chapter}{Bibliography}{60}{figure.caption.37}
+\contentsline {subsection}{\numberline {1.5.2}Modelling the BiSON Power Spectrum}{21}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.3}Comparison to the WSO Power Spectrum}{25}{subsection.1.5.3}
+\contentsline {section}{\numberline {1.6}Discussion}{27}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Asymmetry in the Power Spectrum}{27}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Testing the Effects of Differential Rotation and Active Region Migration}{32}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}Further Morphology of the SMMF using SDO/HMI Data}{36}{subsection.1.6.3}
+\contentsline {section}{\numberline {1.7}Conclusion}{39}{section.1.7}
+\contentsline {chapter}{\numberline {2}Rossby Modes in the Solar Mean Magnetic Field}{41}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{41}{section.2.1}
+\contentsline {section}{\numberline {2.2}Aims}{43}{section.2.2}
+\contentsline {section}{\numberline {2.3}Theory}{44}{section.2.3}
+\contentsline {section}{\numberline {2.4}Methodology}{45}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Testing the Residual Spectrum}{45}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Modelling {\it r} mode Profiles}{47}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Results}{48}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Testing the Residual Spectrum}{48}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Modelling {\it r} mode Profiles}{49}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Discussion}{52}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Manifestation of Rossby Waves in the Power Spectrum}{52}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Rossby Modes in Other Sources of SMMF Data}{56}{subsection.2.6.2}
+\contentsline {section}{\numberline {2.7}Conclusion}{58}{section.2.7}
+\contentsline {chapter}{\numberline {A}Simulations of the Artificial SMMF}{60}{appendix.A}
+\contentsline {section}{\numberline {A.1}Model}{60}{section.A.1}
+\contentsline {section}{\numberline {A.2}Configuration of the Simulations}{62}{section.A.2}
+\contentsline {section}{\numberline {A.3}Outputs}{65}{section.A.3}
+\contentsline {chapter}{Bibliography}{67}{figure.caption.41}

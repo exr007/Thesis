@@ -23,9 +23,11 @@ https://intranet.birmingham.ac.uk/as/libraryservices/library/research/thesis/ind
 
 https://intranet.birmingham.ac.uk/as/studentservices/graduateschool/rsa/presentingyourthesis.aspx
 
-**Word count:**
+**Word count/size limit:**
 
 Maximum 50,000 words, excluding tables, diagrams, appendices, references, footnotes and endnotes, bibliography, and bound published material.
+
+Maximum 20 MB for canvas submission, otherwise needs to be separated into chunks.
 
 **Questions:**
 

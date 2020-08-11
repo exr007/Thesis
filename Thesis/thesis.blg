@@ -7,45 +7,45 @@ Database file #1: library.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty booktitle in elsworth_performance_1995
-You've used 57 entries,
+You've used 58 entries,
             2881 wiz_defined-function locations,
-            1148 strings with 21625 characters,
-and the built_in function-call counts, 27285 in all, are:
-= -- 2144
-> -- 2153
-< -- 147
-+ -- 938
-- -- 346
-* -- 3282
-:= -- 4442
+            1154 strings with 21786 characters,
+and the built_in function-call counts, 27766 in all, are:
+= -- 2174
+> -- 2197
+< -- 151
++ -- 959
+- -- 352
+* -- 3341
+:= -- 4517
 add.period$ -- 0
-call.type$ -- 57
-change.case$ -- 114
-chr.to.int$ -- 53
-cite$ -- 58
-duplicate$ -- 1291
-empty$ -- 1280
-format.name$ -- 516
-if$ -- 4668
+call.type$ -- 58
+change.case$ -- 116
+chr.to.int$ -- 54
+cite$ -- 59
+duplicate$ -- 1316
+empty$ -- 1302
+format.name$ -- 532
+if$ -- 4748
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 55
-newline$ -- 185
-num.names$ -- 410
+missing$ -- 56
+newline$ -- 188
+num.names$ -- 420
 pop$ -- 256
 preamble$ -- 1
-purify$ -- 228
+purify$ -- 232
 quote$ -- 0
-skip$ -- 787
+skip$ -- 805
 stack$ -- 0
-substring$ -- 1454
-swap$ -- 657
-text.length$ -- 229
+substring$ -- 1459
+swap$ -- 679
+text.length$ -- 233
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 513
+type$ -- 522
 warning$ -- 1
-while$ -- 432
+while$ -- 440
 width$ -- 0
-write$ -- 583
+write$ -- 593
 (There was 1 warning)
