@@ -156,7 +156,7 @@ Through the application of this methodology, one acquires the SMMF as shown in F
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Comparison between WSO and BiSON}
 
-The relationship between the SMMF measured by the Sutherland BiSON station and the SMMF measured by the Stanford WSO was examined. The daily SMMF measured by the Stanford WSO and Sutherland BiSON station are plotted in Fig~\ref{fig:BiSON_and_WSO}.
+The relationship between the SMMF measured by the Sutherland BiSON station and the SMMF measured by Stanford WSO was examined. The daily SMMF measured by the Stanford WSO and Sutherland BiSON station are plotted in Fig~\ref{fig:BiSON_and_WSO}.
 
 \begin{figure}[ht!]
     \centering
@@ -165,16 +165,50 @@ The relationship between the SMMF measured by the Sutherland BiSON station and t
     \label{fig:BiSON_and_WSO}
 \end{figure}
 
-Fig.~\ref{fig:BiSON_vs_WSO} shows the correlation between the two data sets, and also a comparison of their power spectra at low frequencies. The gradient of the line in Fig.~\ref{fig:BiSON_vs_WSO_TS} is $0.4999\pm0.0001$ and informs us that the BiSON SMMF is half of the magnitude of that observed by WSO. ??...[This discrepancy may be due to the measurements of the SMMF using different spectral lines, hence their levels of formation in the solar atmosphere, and the divergence of magnetic field lines with altitude; an altitude difference of 100--200 km could lead to a difference of 30--50$\%$.]...??
+Fig.~\ref{fig:BiSON_vs_WSO} shows the correlation between the two data sets, and also a comparison of their power spectra at low frequencies. The gradient of the line in Fig.~\ref{fig:BiSON_vs_WSO_TS} is $0.4999\pm0.0001$ and informs us that the BiSON SMMF is half of the magnitude of that observed by WSO. Interestingly \citet{chaplin_studies_2003} stated that the SMMF observed by the Sutherland BiSON station was roughly twice that of WSO, which means there is a self-consistency problem with the calibration of the BiSON SMMF and suggests that there is a factor of 4 difference between the measurements of the SMMF by \citet{chaplin_studies_2003} and in this work.
 
-In addition, we can see quite clearly that the two power spectra align very closely, as shown in Fig.~\ref{fig:BiSON_vs_WSO_PSD}, and that both spectra appear to display an asymmetric peak shape, with a negative asymmetry.
+A possible reason for the differences between the WSO observations and the BiSON observations may be explained by the formation heights of the lines. 
+
+Assuming that at each level of the solar atmosphere, regions threaded by magnetic field are in pressure equilibrium with those without any field, then the pressure balance can be expressed by equation~(\ref{eq:magnetic_pressure_balance}), where $P_\mathrm{with}$ is the gas pressure in regions with field, $P_\mathrm{without}$ in those without, and $B^2/2\mu_0$ is the magnetic pressure ($\mu_0$ = magnetic permeability of free space). This implies that the observed magnetic field scales like $\sqrt{P}$.
+
+\begin{equation}
+P_\mathrm{with} + \frac{B^2}{2\mu_0} = P_\mathrm{without}
+\label{eq:magnetic_pressure_balance}
+\end{equation}
+
+Pressure changes exponentially with the scale height, H ($\sim 135$ km for the photosphere [CITE]), such as described by equation~(\ref{eq:pressure_scale}). Therefore combining both equation~(\ref{eq:magnetic_pressure_balance}) and equation~(\ref{eq:pressure_scale}), we arrive at equation~(\ref{eq:magnetic_scale}).
+
+\begin{equation}
+P_2 = P_1 e^{ - (h_2-h_1)/H}
+\label{eq:pressure_scale}
+\end{equation}
+
+\begin{equation}
+B_2 = B_1 e^{ - (h_2-h_1)/(2H)}
+\label{eq:magnetic_scale}
+\end{equation} 
+
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.85\columnwidth]{fheight_high_res.eps}
+	\caption{Formation heights of emission lines over the wavelength range used for WSO observations (top) and for BiSON observations (bottom). The vertical lines show the wavelengths of the emission lines used for observations in air (dashed) and in vacuum (solid). This plot was provided in private communication courtesy of Rinat Tagirov using the NESSY code.}
+	\label{fig:formation_height}
+\end{figure}
+
+Using a non-local thermal equilibrium (NLTE) simulation to model the spectrum of solar magnetic features (see Figure~\ref{fig:formation_height}, and assuming for some slight calibration issues and Doppler shifting, we might suppose that the formation height of the BiSON line (in vacuum) is around 50km, and for the WSO line (in vacuum), around 150km. This would mean that $B_\mathrm{WSO} \approx 0.6\, B_\mathrm{BiSON} - 0.7 \, B_\mathrm{BiSON}$ which disagrees with our observations and the comparison in Figure~\ref{fig:BiSON_vs_WSO}, but agrees more favourably with \citet{chaplin_studies_2003}.
+
+[Need to decide still how to neatly handle the discrepancy between old paper, this work, and WSO...]
+
+
+Finally, we can see quite clearly that the two power spectra align very closely, as shown in Fig.~\ref{fig:BiSON_vs_WSO_PSDs}, and that both spectra appear to display an asymmetric peak shape, with a negative asymmetry. The WSO power spectrum does also appear to display a lower degree of noise compared to BiSON.
 
 \begin{figure}[ht!]
 	\centering
 	\subfloat[BiSON vs WSO correlation \label{fig:BiSON_vs_WSO_TS}]
 	{\includegraphics[width=0.47\columnwidth]{BiSON_vs_WSO.pdf}} 
 	\qquad
-	\subfloat[BiSON vs WSO PSDs \label{fig:BiSON_WSO_PSDs}]{\includegraphics[width=0.47\columnwidth]{BiSON_PSD_vs_WSO_PSD.pdf}}
+	\subfloat[BiSON vs WSO PSDs \label{fig:BiSON_vs_WSO_PSDs}]{\includegraphics[width=0.47\columnwidth]{BiSON_PSD_vs_WSO_PSD.pdf}}
 	\caption{Comparisons between the BiSON SMMF data and the WSO SMMF data. (a) shows the correlation between daily averaged BiSON SMMF and the WSO SMMF. The green line provides the fit to the data, while the red line shows a 1:1 relation for comparison. (b) shows a comparison between the power spectra of BiSON and SMMF.} \label{fig:BiSON_vs_WSO}
 \end{figure}
 
@@ -185,9 +219,7 @@ In addition, we can see quite clearly that the two power spectra align very clos
 %    \label{fig:BiSON_vs_WSO}
 %\end{figure}
 
-%Interestingly \citet{chaplin_studies_2003} stated that the SMMF observed by the Sutherland BiSON station was roughly twice that of WSO... [not sure how to handle this...?]
 
-%This suggests that there is a factor of 4 difference between the measurements of the SMMF by \citet{chaplin_studies_2003} and in this work. A factor of 2 could be explained due to the factor of a half that is necessary in equation~\ref{eq:B(t)}, but a factor of 4 is not understood. 
 
 
 
@@ -210,15 +242,15 @@ The full power spectrum of the 40-second cadence SMMF is shown in Figure~\ref{fi
 
 There are a number of features in the power spectrum. First, the peaks between 0.1 -- 2.0 $\mu\mathrm{Hz}$ are a manifestation of a persistent rotational signal the SMMF. The distinct set of peaks indicates the existence of a long-lived, inhomogeneous, rotationally-modulated (RM) source. The SMMF signal exhibits a quasi-coherent nature in the time domain, and based on the comparatively short timescales for the emergence of magnetic features compared to their slow decay \citep{zwaan_solar_1981, harvey_properties_1993, hathaway_sunspot_2008}, we assume the evolution of the RM component with time is a sudden appearance and a long, exponential decay.
 
-As we have 40-second cadence observations of the SMMF, we were able to investigate the power spectrum up to a high Nyquist frequency. This was critical to uncovering a red-noise-like component in the power spectrum. This component could arise from continuously evolving, short-lived regions of magnetic field linked to magneto-convection, akin to a random walk, which we will dub the stochastic background (SB) component. Analogous to the SB is the granulation signal observed in the Doppler-velocity measurements of the solar surface \citep{basu_asteroseismic_2017}. 
+As we have 40-second cadence observations of the SMMF, we were able to investigate the power spectrum up to a high Nyquist frequency. This was critical in uncovering a red-noise-like component in the power spectrum. This component could arise from continuously evolving, short-lived regions of magnetic field linked to magneto-convection, akin to a random walk, which we will dub the stochastic background (SB) component. Analogous to the SB is the granulation signal observed in the Doppler-velocity measurements of the solar surface \citep{basu_asteroseismic_2017}. 
 
 In addition, at low-frequency, there is power associated instrumental noise and activity. At very-high frequency shot-noise is captured and sets the lower limit in power in the spectrum. 
 
 There are also side-band features in the power spectrum at multiples of $1/\mathrm{day} \sim 11.57 \, \mu\mathrm{Hz}$. The side-bands are a well-known phenomena in ground-based helioseismology. They arise from gaps in the data which are a consequence of making single-site, ground-based observations of the Sun.
 
-The duty cycle of observations is very low, at around 15\%, therefore it is also important to take into consideration the effect that gaps in the data have on the power spectrum. Gaps in the data cause an aliasing of power from actual signal frequencies spread to other frequencies in the spectrum, and the nature of the aliasing depends on the properties of the window function of the observations. Hence before modelling the power spectrum the window function was well-characterised.
+The duty cycle of observations is very low, at around 15\%, therefore it is also important to take into consideration the effect that gaps in the data have on the power spectrum. Gaps in the data cause an aliasing of power from actual signal frequencies spread to other frequencies in the spectrum, and the nature of the aliasing depends on the properties of the window function of the observations. It is also possible that the SB component is actually an effect of power aliasing due to the low duty cycle of the data. Hence before modelling the power spectrum the window function was well-characterised.
 
-Understanding how the duty cycle of the observations affects the power spectrum we achieve will inform the way we parametrise the full model of the power spectrum.
+Through understanding how the duty cycle of the observations affects the power spectrum informed the way we finally parametrised the full model of the power spectrum.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -571,7 +603,6 @@ The line-width suggests a RM lifetime of $175 \pm 13$~days, which is in the regi
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion}\label{sec:SMMF_artificial}
 
-[To be included in here: discussion around the peak smearing affecting our ability to deduce the width and the source of peak asymmetry. This should be backed up by simulation results.]
 
 \subsection{Asymmetry in the Power Spectrum}
 \label{sec:asymmetry}
