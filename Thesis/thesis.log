@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.30)  12 AUG 2020 09:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.30)  18 AUG 2020 15:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -537,7 +537,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
  (./Title/title_page.tex
-<Title/onlyunilogo.png, id=88, 255.95625pt x 255.95625pt>
+<Title/onlyunilogo.png, id=176, 255.95625pt x 255.95625pt>
 File: Title/onlyunilogo.png Graphic file (type png)
 <use Title/onlyunilogo.png>
 Package pdftex.def Info: Title/onlyunilogo.png  used on input line 13.
@@ -545,31 +545,38 @@ Package pdftex.def Info: Title/onlyunilogo.png  used on input line 13.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Title/onlyunilogo.png>])
- (./thesis.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+
+(./Chapters/Other/abstract.tex) (./Chapters/Other/ackno.texpdfTeX warning (ext4
+): destination with the same identifier (name{page.i}) has been already used, d
+uplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            *{Acknowledgements} [1
+
+]) [2
+
+] (./thesis.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [3
+
+])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.99 \listoffigures
-                    [1
+ [4]
+(./thesis.lof [5
 
-] (./thesis.lof [2
-
-] [3]
-Overfull \hbox (7.16553pt too wide) in paragraph at lines 56--56
+] [6]
+Overfull \hbox (7.16553pt too wide) in paragraph at lines 48--48
  [][] [][]\OT1/cmr/m/n/12 SDO/HMI SMMF split into hemi-spheres and com-pared to
  other SMMF 
  []
@@ -578,15 +585,15 @@ Overfull \hbox (7.16553pt too wide) in paragraph at lines 56--56
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
- [4] (./thesis.lot)
+ [7] [8] (./thesis.lot)
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
- (./Chapters/Other/abbrev.tex [5
+ (./Chapters/Other/abbrev.tex [9
 
-]) [6
+]) [10
 
-] [7]
+] [11]
 (./Chapters/SMMF/SMMF.tex
 Chapter 1.
 Missing character: There is no Ã in font cmr12!
@@ -594,7 +601,13 @@ Missing character: There is no ­ in font cmr12!
 [1
 
 
-] [2] [3] [4]
+]
+Overfull \hbox (0.8808pt too wide) in paragraph at lines 15--16
+\OT1/cmr/m/n/12 ap-proach to un-der-stand-ing the SMMF whereby they de-com-pose
+d the SMMF through
+ []
+
+[2] [3] [4]
 Overfull \hbox (3.53336pt too wide) in paragraph at lines 38--39
 \OT1/cmr/m/n/12 In this work an in-ves-ti-ga-tion of high-cadence (sub-minute) 
 ob-ser-va-tions of the SMMF,
@@ -617,7 +630,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/SMMF/Fred_ratio_zoom-eps-con
 verted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.
 5> allowed
-<Chapters/SMMF/Fred_ratio_zoom-eps-converted-to.pdf, id=536, 650.43pt x 332.241
+<Chapters/SMMF/Fred_ratio_zoom-eps-converted-to.pdf, id=672, 650.43pt x 332.241
 26pt>
 File: Chapters/SMMF/Fred_ratio_zoom-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -626,29 +639,46 @@ Package pdftex.def Info: Chapters/SMMF/Fred_ratio_zoom-eps-converted-to.pdf  us
 ed on input line 96.
 (pdftex.def)             Requested size: 426.79135pt x 218.0125pt.
 [8 <./Chapters/SMMF/Fred_ratio_zoom-eps-converted-to.pdf>] [9]
-<Chapters/SMMF/BiSON_full_TS.pdf, id=597, 511.77448pt x 279.17174pt>
+<Chapters/SMMF/BiSON_full_TS.pdf, id=731, 511.77448pt x 279.17174pt>
 File: Chapters/SMMF/BiSON_full_TS.pdf Graphic file (type pdf)
 <use Chapters/SMMF/BiSON_full_TS.pdf>
 Package pdftex.def Info: Chapters/SMMF/BiSON_full_TS.pdf  used on input line 14
-8.
-(pdftex.def)             Requested size: 418.2537pt x 228.16405pt.
-<Chapters/SMMF/BiSON_lin_mu_PSD.pdf, id=598, 516.99712pt x 279.75203pt>
+4.
+(pdftex.def)             Requested size: 422.52577pt x 230.49416pt.
+<Chapters/SMMF/BiSON_lin_mu_PSD.pdf, id=732, 516.99712pt x 279.75203pt>
 File: Chapters/SMMF/BiSON_lin_mu_PSD.pdf Graphic file (type pdf)
 <use Chapters/SMMF/BiSON_lin_mu_PSD.pdf>
 Package pdftex.def Info: Chapters/SMMF/BiSON_lin_mu_PSD.pdf  used on input line
- 150.
+ 146.
 (pdftex.def)             Requested size: 426.79135pt x 230.95192pt.
-<Chapters/SMMF/BiSON_and_WSO.pdf, id=604, 541.82056pt x 284.512pt>
-File: Chapters/SMMF/BiSON_and_WSO.pdf Graphic file (type pdf)
-<use Chapters/SMMF/BiSON_and_WSO.pdf>
-Package pdftex.def Info: Chapters/SMMF/BiSON_and_WSO.pdf  used on input line 16
-3.
-(pdftex.def)             Requested size: 426.79135pt x 224.11081pt.
- [10] [11 <./Chapters/SMMF/BiSON_full_TS.pdf> <./Chapters/SMMF/BiSON_lin_mu_PSD
-.pdf
+ [10 <./Chapters/SMMF/BiSON_full_TS.pdf> <./Chapters/SMMF/BiSON_lin_mu_PSD.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/SMMF/BiSON_lin_mu_PSD.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Chapters/SMMF/BiSON_and_WSO.pdf, id=810, 541.82056pt x 284.512pt>
+File: Chapters/SMMF/BiSON_and_WSO.pdf Graphic file (type pdf)
+<use Chapters/SMMF/BiSON_and_WSO.pdf>
+Package pdftex.def Info: Chapters/SMMF/BiSON_and_WSO.pdf  used on input line 16
+6.
+(pdftex.def)             Requested size: 426.79135pt x 224.11081pt.
+<Chapters/SMMF/BiSON_vs_WSO.pdf, id=817, 430.18529pt x 318.68303pt>
+File: Chapters/SMMF/BiSON_vs_WSO.pdf Graphic file (type pdf)
+<use Chapters/SMMF/BiSON_vs_WSO.pdf>
+Package pdftex.def Info: Chapters/SMMF/BiSON_vs_WSO.pdf  used on input line 176
+.
+(pdftex.def)             Requested size: 200.59245pt x 148.5994pt.
+<Chapters/SMMF/BiSON_PSD_vs_WSO_PSD.pdf, id=818, 441.74829pt x 324.27034pt>
+File: Chapters/SMMF/BiSON_PSD_vs_WSO_PSD.pdf Graphic file (type pdf)
+<use Chapters/SMMF/BiSON_PSD_vs_WSO_PSD.pdf>
+Package pdftex.def Info: Chapters/SMMF/BiSON_PSD_vs_WSO_PSD.pdf  used on input 
+line 178.
+(pdftex.def)             Requested size: 200.59245pt x 147.2513pt.
+ [11 <./Chapters/SMMF/BiSON_and_WSO.pdf>] [12 <./Chapters/SMMF/BiSON_vs_WSO.pdf
+> <./Chapters/SMMF/BiSON_PSD_vs_WSO_PSD.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/SMMF/BiSON_PSD_vs_WSO_PSD.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 Package epstopdf Info: Source file: <Chapters/SMMF/fheight_high_res.eps>
 (epstopdf)                    date: 2020-03-04 14:26:53
@@ -659,63 +689,45 @@ ed-to.pdf>
 (epstopdf)                    size: 39961 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapters/SMMF/fheight_high
 _res-eps-converted-to.pdf Chapters/SMMF/fheight_high_res.eps>
-(epstopdf)             \includegraphics on input line 194.
+(epstopdf)             \includegraphics on input line 214.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/SMMF/fheight_high_res-eps-co
 nverted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
-<Chapters/SMMF/fheight_high_res-eps-converted-to.pdf, id=696, 410.01181pt x 444
+<Chapters/SMMF/fheight_high_res-eps-converted-to.pdf, id=951, 410.01181pt x 444
 .87202pt>
 File: Chapters/SMMF/fheight_high_res-eps-converted-to.pdf Graphic file (type pd
 f)
 <use Chapters/SMMF/fheight_high_res-eps-converted-to.pdf>
 Package pdftex.def Info: Chapters/SMMF/fheight_high_res-eps-converted-to.pdf  u
-sed on input line 194.
+sed on input line 214.
 (pdftex.def)             Requested size: 362.77525pt x 393.62688pt.
-<Chapters/SMMF/BiSON_vs_WSO.pdf, id=701, 430.18529pt x 318.68303pt>
-File: Chapters/SMMF/BiSON_vs_WSO.pdf Graphic file (type pdf)
-<use Chapters/SMMF/BiSON_vs_WSO.pdf>
-Package pdftex.def Info: Chapters/SMMF/BiSON_vs_WSO.pdf  used on input line 209
-.
-(pdftex.def)             Requested size: 200.59245pt x 148.5994pt.
-<Chapters/SMMF/BiSON_PSD_vs_WSO_PSD.pdf, id=702, 441.74829pt x 324.27034pt>
-File: Chapters/SMMF/BiSON_PSD_vs_WSO_PSD.pdf Graphic file (type pdf)
-<use Chapters/SMMF/BiSON_PSD_vs_WSO_PSD.pdf>
-Package pdftex.def Info: Chapters/SMMF/BiSON_PSD_vs_WSO_PSD.pdf  used on input 
-line 211.
-(pdftex.def)             Requested size: 200.59245pt x 147.2513pt.
-[12 <./Chapters/SMMF/BiSON_and_WSO.pdf>] [13 <./Chapters/SMMF/fheight_high_res-
-eps-converted-to.pdf>]
-<Chapters/SMMF/BiSON_SMMF_FT_full.pdf, id=827, 526.76799pt x 391.50266pt>
+[13 <./Chapters/SMMF/fheight_high_res-eps-converted-to.pdf>]
+<Chapters/SMMF/BiSON_SMMF_FT_full.pdf, id=1044, 526.76799pt x 391.50266pt>
 File: Chapters/SMMF/BiSON_SMMF_FT_full.pdf Graphic file (type pdf)
 <use Chapters/SMMF/BiSON_SMMF_FT_full.pdf>
 Package pdftex.def Info: Chapters/SMMF/BiSON_SMMF_FT_full.pdf  used on input li
-ne 238.
+ne 243.
 (pdftex.def)             Requested size: 426.79135pt x 317.205pt.
- [14 <./Chapters/SMMF/BiSON_vs_WSO.pdf> <./Chapters/SMMF/BiSON_PSD_vs_WSO_PSD.p
-df
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/SMMF/BiSON_PSD_vs_WSO_PSD.pd
-f): PDF inclusion: multiple pdfs with page group included in a single page
->] [15 <./Chapters/SMMF/BiSON_SMMF_FT_full.pdf>] [16] [17] [18]
-<Chapters/SMMF/sideband.pdf, id=1005, 525.93675pt x 285.0923pt>
+ [14] [15 <./Chapters/SMMF/BiSON_SMMF_FT_full.pdf>] [16] [17] [18]
+<Chapters/SMMF/sideband.pdf, id=1138, 525.93675pt x 285.0923pt>
 File: Chapters/SMMF/sideband.pdf Graphic file (type pdf)
 <use Chapters/SMMF/sideband.pdf>
-Package pdftex.def Info: Chapters/SMMF/sideband.pdf  used on input line 341.
+Package pdftex.def Info: Chapters/SMMF/sideband.pdf  used on input line 346.
 (pdftex.def)             Requested size: 426.79135pt x 231.3585pt.
  [19 <./Chapters/SMMF/sideband.pdf>]
-<Chapters/SMMF/gap_test.pdf, id=1052, 531.20645pt x 391.50266pt>
+<Chapters/SMMF/gap_test.pdf, id=1186, 531.20645pt x 391.50266pt>
 File: Chapters/SMMF/gap_test.pdf Graphic file (type pdf)
 <use Chapters/SMMF/gap_test.pdf>
-Package pdftex.def Info: Chapters/SMMF/gap_test.pdf  used on input line 379.
+Package pdftex.def Info: Chapters/SMMF/gap_test.pdf  used on input line 384.
 (pdftex.def)             Requested size: 320.0935pt x 235.91296pt.
-<Chapters/SMMF/gap_test_conv.pdf, id=1053, 526.76799pt x 391.50266pt>
+<Chapters/SMMF/gap_test_conv.pdf, id=1187, 526.76799pt x 391.50266pt>
 File: Chapters/SMMF/gap_test_conv.pdf Graphic file (type pdf)
 <use Chapters/SMMF/gap_test_conv.pdf>
 Package pdftex.def Info: Chapters/SMMF/gap_test_conv.pdf  used on input line 38
-1.
+6.
 (pdftex.def)             Requested size: 320.0935pt x 237.90225pt.
  [20]
 
@@ -730,244 +742,177 @@ Overfull \vbox (5.2849pt too high) has occurred while \output is active []
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/SMMF/gap_test_conv.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
 >] [22] [23] [24]
-<Chapters/SMMF/BiSON_PSD_model.pdf, id=1202, 533.79424pt x 390.0171pt>
+<Chapters/SMMF/BiSON_PSD_model.pdf, id=1338, 533.79424pt x 390.0171pt>
 File: Chapters/SMMF/BiSON_PSD_model.pdf Graphic file (type pdf)
 <use Chapters/SMMF/BiSON_PSD_model.pdf>
 Package pdftex.def Info: Chapters/SMMF/BiSON_PSD_model.pdf  used on input line 
-521.
+565.
 (pdftex.def)             Requested size: 426.79135pt x 311.8415pt.
 
-Overfull \hbox (3.00206pt too wide) in paragraph at lines 527--528
+Overfull \hbox (3.00206pt too wide) in paragraph at lines 571--572
 []\OT1/cmr/m/n/12 The cen-tral fre-quency of this model, $\OML/cmm/m/it/12 ^^W[
 ]$ \OT1/cmr/m/n/12 im-plies a ro-ta-tion pe-riod of $27\OML/cmm/m/it/12 :\OT1/c
 mr/m/n/12 06[]$ days,
  []
 
-[25 <./Chapters/SMMF/BiSON_PSD_model.pdf>] [26]
-<Chapters/SMMF/WSO_PSD_model.pdf, id=1298, 524.76048pt x 396.52141pt>
+[25] [26 <./Chapters/SMMF/BiSON_PSD_model.pdf>] [27]
+<Chapters/SMMF/WSO_PSD_model.pdf, id=1441, 524.76048pt x 396.52141pt>
 File: Chapters/SMMF/WSO_PSD_model.pdf Graphic file (type pdf)
 <use Chapters/SMMF/WSO_PSD_model.pdf>
-Package pdftex.def Info: Chapters/SMMF/WSO_PSD_model.pdf  used on input line 58
-8.
+Package pdftex.def Info: Chapters/SMMF/WSO_PSD_model.pdf  used on input line 63
+2.
 (pdftex.def)             Requested size: 426.79135pt x 322.49352pt.
- [27] [28 <./Chapters/SMMF/WSO_PSD_model.pdf>]
-<Chapters/SMMF/monthly_SSN_KDE.pdf, id=1365, 547.2978pt x 392.41231pt>
+ [28] [29 <./Chapters/SMMF/WSO_PSD_model.pdf>]
+<Chapters/SMMF/monthly_SSN_KDE.pdf, id=1507, 547.2978pt x 392.41231pt>
 File: Chapters/SMMF/monthly_SSN_KDE.pdf Graphic file (type pdf)
 <use Chapters/SMMF/monthly_SSN_KDE.pdf>
 Package pdftex.def Info: Chapters/SMMF/monthly_SSN_KDE.pdf  used on input line 
-620.
+663.
 (pdftex.def)             Requested size: 200.59245pt x 143.82507pt.
-<Chapters/SMMF/lat_hist.pdf, id=1366, 453.92043pt x 327.57957pt>
+<Chapters/SMMF/lat_hist.pdf, id=1508, 453.92043pt x 327.57957pt>
 File: Chapters/SMMF/lat_hist.pdf Graphic file (type pdf)
 <use Chapters/SMMF/lat_hist.pdf>
-Package pdftex.def Info: Chapters/SMMF/lat_hist.pdf  used on input line 622.
+Package pdftex.def Info: Chapters/SMMF/lat_hist.pdf  used on input line 665.
 (pdftex.def)             Requested size: 200.59245pt x 144.76025pt.
- [29] [30 <./Chapters/SMMF/monthly_SSN_KDE.pdf> <./Chapters/SMMF/lat_hist.pdf
+ [30]
+<Chapters/SMMF/lats.pdf, id=1521, 423.83781pt x 327.57957pt>
+File: Chapters/SMMF/lats.pdf Graphic file (type pdf)
+<use Chapters/SMMF/lats.pdf>
+Package pdftex.def Info: Chapters/SMMF/lats.pdf  used on input line 693.
+(pdftex.def)             Requested size: 192.0548pt x 148.43912pt.
+<Chapters/SMMF/lin_rescaled.png, id=1522, 222.3507pt x 164.0529pt>
+File: Chapters/SMMF/lin_rescaled.png Graphic file (type png)
+<use Chapters/SMMF/lin_rescaled.png>
+Package pdftex.def Info: Chapters/SMMF/lin_rescaled.png  used on input line 697
+.
+(pdftex.def)             Requested size: 192.0548pt x 141.70354pt.
+<Chapters/SMMF/quad_rescaled.png, id=1524, 226.9278pt x 164.0529pt>
+File: Chapters/SMMF/quad_rescaled.png Graphic file (type png)
+<use Chapters/SMMF/quad_rescaled.png>
+Package pdftex.def Info: Chapters/SMMF/quad_rescaled.png  used on input line 70
+3.
+(pdftex.def)             Requested size: 192.0548pt x 138.84483pt.
+<Chapters/SMMF/exp_rescaled.png, id=1525, 234.8775pt x 164.0529pt>
+File: Chapters/SMMF/exp_rescaled.png Graphic file (type png)
+<use Chapters/SMMF/exp_rescaled.png>
+Package pdftex.def Info: Chapters/SMMF/exp_rescaled.png  used on input line 707
+.
+(pdftex.def)             Requested size: 192.0548pt x 134.14374pt.
+ [31 <./Chapters/SMMF/monthly_SSN_KDE.pdf> <./Chapters/SMMF/lat_hist.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/SMMF/lat_hist.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
 >]
-<Chapters/SMMF/lats.pdf, id=1445, 423.83781pt x 327.57957pt>
-File: Chapters/SMMF/lats.pdf Graphic file (type pdf)
-<use Chapters/SMMF/lats.pdf>
-Package pdftex.def Info: Chapters/SMMF/lats.pdf  used on input line 650.
-(pdftex.def)             Requested size: 192.0548pt x 148.43912pt.
-<Chapters/SMMF/lin_rescaled.png, id=1446, 222.3507pt x 164.0529pt>
-File: Chapters/SMMF/lin_rescaled.png Graphic file (type png)
-<use Chapters/SMMF/lin_rescaled.png>
-Package pdftex.def Info: Chapters/SMMF/lin_rescaled.png  used on input line 654
-.
-(pdftex.def)             Requested size: 192.0548pt x 141.70354pt.
-<Chapters/SMMF/quad_rescaled.png, id=1448, 226.9278pt x 164.0529pt>
-File: Chapters/SMMF/quad_rescaled.png Graphic file (type png)
-<use Chapters/SMMF/quad_rescaled.png>
-Package pdftex.def Info: Chapters/SMMF/quad_rescaled.png  used on input line 66
-0.
-(pdftex.def)             Requested size: 192.0548pt x 138.84483pt.
-<Chapters/SMMF/exp_rescaled.png, id=1449, 234.8775pt x 164.0529pt>
-File: Chapters/SMMF/exp_rescaled.png Graphic file (type png)
-<use Chapters/SMMF/exp_rescaled.png>
-Package pdftex.def Info: Chapters/SMMF/exp_rescaled.png  used on input line 664
-.
-(pdftex.def)             Requested size: 192.0548pt x 134.14374pt.
-<Chapters/SMMF/artificial_fit_asym.pdf, id=1452, 514.73868pt x 394.27486pt>
+<Chapters/SMMF/artificial_fit_asym.pdf, id=1593, 514.73868pt x 394.27486pt>
 File: Chapters/SMMF/artificial_fit_asym.pdf Graphic file (type pdf)
 <use Chapters/SMMF/artificial_fit_asym.pdf>
 Package pdftex.def Info: Chapters/SMMF/artificial_fit_asym.pdf  used on input l
-ine 674.
+ine 717.
 (pdftex.def)             Requested size: 362.77525pt x 277.87958pt.
- [31 <./Chapters/SMMF/lats.pdf> <./Chapters/SMMF/lin_rescaled.png> <./Chapters/
-SMMF/quad_rescaled.png> <./Chapters/SMMF/exp_rescaled.png>] [32 <./Chapters/SMM
-F/artificial_fit_asym.pdf>] [33] [34] [35]
-<Chapters/SMMF/weighted_shifted_peak.pdf, id=1611, 544.49829pt x 519.87787pt>
+ [32 <./Chapters/SMMF/lats.pdf> <./Chapters/SMMF/lin_rescaled.png> <./Chapters/
+SMMF/quad_rescaled.png> <./Chapters/SMMF/exp_rescaled.png>] [33 <./Chapters/SMM
+F/artificial_fit_asym.pdf>] [34] [35] [36]
+<Chapters/SMMF/weighted_shifted_peak.pdf, id=1750, 544.49829pt x 519.87787pt>
 File: Chapters/SMMF/weighted_shifted_peak.pdf Graphic file (type pdf)
 <use Chapters/SMMF/weighted_shifted_peak.pdf>
 Package pdftex.def Info: Chapters/SMMF/weighted_shifted_peak.pdf  used on input
- line 784.
+ line 827.
 (pdftex.def)             Requested size: 200.59245pt x 191.51886pt.
-<Chapters/SMMF/chaplin_shifted_peak.pdf, id=1612, 544.49829pt x 519.87787pt>
+<Chapters/SMMF/chaplin_shifted_peak.pdf, id=1751, 544.49829pt x 519.87787pt>
 File: Chapters/SMMF/chaplin_shifted_peak.pdf Graphic file (type pdf)
 <use Chapters/SMMF/chaplin_shifted_peak.pdf>
 Package pdftex.def Info: Chapters/SMMF/chaplin_shifted_peak.pdf  used on input 
-line 786.
+line 829.
 (pdftex.def)             Requested size: 200.59245pt x 191.51886pt.
- [36] [37 <./Chapters/SMMF/weighted_shifted_peak.pdf> <./Chapters/SMMF/chaplin_
+ [37] [38 <./Chapters/SMMF/weighted_shifted_peak.pdf> <./Chapters/SMMF/chaplin_
 shifted_peak.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/SMMF/chaplin_shifted_peak.pd
 f): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<Chapters/SMMF/HMI_20140130_120000_rescaled.png, id=1723, 269.5671pt x 128.6406
-pt>
-File: Chapters/SMMF/HMI_20140130_120000_rescaled.png Graphic file (type png)
-<use Chapters/SMMF/HMI_20140130_120000_rescaled.png>
-Package pdftex.def Info: Chapters/SMMF/HMI_20140130_120000_rescaled.png  used o
-n input line 812.
-(pdftex.def)             Requested size: 384.1096pt x 183.30296pt.
-<Chapters/SMMF/HMI_20140203_120000_rescaled.png, id=1724, 215.6055pt x 102.8643
-pt>
-File: Chapters/SMMF/HMI_20140203_120000_rescaled.png Graphic file (type png)
-<use Chapters/SMMF/HMI_20140203_120000_rescaled.png>
-Package pdftex.def Info: Chapters/SMMF/HMI_20140203_120000_rescaled.png  used o
-n input line 818.
-(pdftex.def)             Requested size: 384.1096pt x 183.26581pt.
-<Chapters/SMMF/HMI_20140210_000000_rescaled.png, id=1725, 215.6055pt x 102.8643
-pt>
-File: Chapters/SMMF/HMI_20140210_000000_rescaled.png Graphic file (type png)
-<use Chapters/SMMF/HMI_20140210_000000_rescaled.png>
-Package pdftex.def Info: Chapters/SMMF/HMI_20140210_000000_rescaled.png  used o
-n input line 824.
-(pdftex.def)             Requested size: 384.1096pt x 183.26581pt.
-<Chapters/SMMF/HMI_20110329_000000_rescaled.png, id=1726, 216.0873pt x 102.8643
-pt>
-File: Chapters/SMMF/HMI_20110329_000000_rescaled.png Graphic file (type png)
-<use Chapters/SMMF/HMI_20110329_000000_rescaled.png>
-Package pdftex.def Info: Chapters/SMMF/HMI_20110329_000000_rescaled.png  used o
-n input line 837.
-(pdftex.def)             Requested size: 384.1096pt x 182.86714pt.
-<Chapters/SMMF/HMI_20110413_000000_rescaled.png, id=1727, 216.0873pt x 102.8643
-pt>
-File: Chapters/SMMF/HMI_20110413_000000_rescaled.png Graphic file (type png)
-<use Chapters/SMMF/HMI_20110413_000000_rescaled.png>
-Package pdftex.def Info: Chapters/SMMF/HMI_20110413_000000_rescaled.png  used o
-n input line 843.
-(pdftex.def)             Requested size: 384.1096pt x 182.86714pt.
-<Chapters/SMMF/HMI_20110426_000000_rescaled.png, id=1728, 216.0873pt x 102.8643
-pt>
-File: Chapters/SMMF/HMI_20110426_000000_rescaled.png Graphic file (type png)
-<use Chapters/SMMF/HMI_20110426_000000_rescaled.png>
-Package pdftex.def Info: Chapters/SMMF/HMI_20110426_000000_rescaled.png  used o
-n input line 849.
-(pdftex.def)             Requested size: 384.1096pt x 182.86714pt.
- [38]
+Overfull \hbox (2.1213pt too wide) in paragraph at lines 848--849
+\OT1/cmr/m/n/12 Im-ager (SDO/HMI) full-disk mag-ne-tograms, us-ing the [][]\OT1
+/cmtt/m/n/12 SunPy []\OT1/cmr/m/n/12 python mod-ule ([]Barnes
+ []
 
-LaTeX Warning: Text page 39 contains only floats.
-
-[39 <./Chapters/SMMF/HMI_20140130_120000_rescaled.png> <./Chapters/SMMF/HMI_201
-40203_120000_rescaled.png> <./Chapters/SMMF/HMI_20140210_000000_rescaled.png>]
-
-LaTeX Warning: Text page 40 contains only floats.
-
-[40 <./Chapters/SMMF/HMI_20110329_000000_rescaled.png> <./Chapters/SMMF/HMI_201
-10413_000000_rescaled.png> <./Chapters/SMMF/HMI_20110426_000000_rescaled.png>]
-<Chapters/SMMF/HMI_MF_vs_synoptic_2011_rescaled.png, id=1756, 163.5711pt x 121.
+<Chapters/SMMF/HMI_MF_vs_synoptic_2011_rescaled.png, id=1867, 163.5711pt x 121.
 4136pt>
 File: Chapters/SMMF/HMI_MF_vs_synoptic_2011_rescaled.png Graphic file (type png
 )
 <use Chapters/SMMF/HMI_MF_vs_synoptic_2011_rescaled.png>
 Package pdftex.def Info: Chapters/SMMF/HMI_MF_vs_synoptic_2011_rescaled.png  us
-ed on input line 876.
+ed on input line 920.
 (pdftex.def)             Requested size: 200.59245pt x 148.90062pt.
-<Chapters/SMMF/HMI_MF_vs_synoptic_2014_rescaled.png, id=1757, 163.5711pt x 121.
+<Chapters/SMMF/HMI_MF_vs_synoptic_2014_rescaled.png, id=1868, 163.5711pt x 121.
 4136pt>
 File: Chapters/SMMF/HMI_MF_vs_synoptic_2014_rescaled.png Graphic file (type png
 )
 <use Chapters/SMMF/HMI_MF_vs_synoptic_2014_rescaled.png>
 Package pdftex.def Info: Chapters/SMMF/HMI_MF_vs_synoptic_2014_rescaled.png  us
-ed on input line 878.
+ed on input line 922.
 (pdftex.def)             Requested size: 200.59245pt x 148.90062pt.
-
-[41 <./Chapters/SMMF/HMI_MF_vs_synoptic_2011_rescaled.png> <./Chapters/SMMF/HMI
-_MF_vs_synoptic_2014_rescaled.png>]) (./Chapters/r-mode/r-mode.tex [42]
+[39] [40 <./Chapters/SMMF/HMI_MF_vs_synoptic_2011_rescaled.png> <./Chapters/SMM
+F/HMI_MF_vs_synoptic_2014_rescaled.png>] [41]) (./Chapters/r-mode/r-mode.tex
+[42]
 Chapter 2.
 [43
 
 ]
-Package epstopdf Info: Source file: <Chapters/r-mode/SMMF_PSD_fit.eps>
-(epstopdf)                    date: 2020-04-18 06:16:37
-(epstopdf)                    size: 247590 bytes
-(epstopdf)             Output file: <Chapters/r-mode/SMMF_PSD_fit-eps-converted
--to.pdf>
-(epstopdf)                    date: 2020-05-29 09:17:10
-(epstopdf)                    size: 71095 bytes
-(epstopdf)             Command: <repstopdf --outfile=Chapters/r-mode/SMMF_PSD_f
-it-eps-converted-to.pdf Chapters/r-mode/SMMF_PSD_fit.eps>
-(epstopdf)             \includegraphics on input line 22.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/r-mode/SMMF_PSD_fit-eps-conv
-erted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5
-> allowed
-<Chapters/r-mode/SMMF_PSD_fit-eps-converted-to.pdf, id=1813, 430.4381pt x 318.7
-0067pt>
-File: Chapters/r-mode/SMMF_PSD_fit-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Chapters/r-mode/SMMF_PSD_fit-eps-converted-to.pdf>
-Package pdftex.def Info: Chapters/r-mode/SMMF_PSD_fit-eps-converted-to.pdf  use
-d on input line 22.
-(pdftex.def)             Requested size: 298.75264pt x 221.21184pt.
-[44] [45 <./Chapters/r-mode/SMMF_PSD_fit-eps-converted-to.pdf>]
-Overfull \hbox (1.41484pt too wide) in paragraph at lines 78--108
+File: Chapters/SMMF/BiSON_PSD_model.pdf Graphic file (type pdf)
+<use Chapters/SMMF/BiSON_PSD_model.pdf>
+Package pdftex.def Info: Chapters/SMMF/BiSON_PSD_model.pdf  used on input line 
+30.
+(pdftex.def)             Requested size: 426.79135pt x 311.8415pt.
+ [44] [45] [46]
+Overfull \hbox (1.41484pt too wide) in paragraph at lines 86--116
  [] 
  []
 
-[46] [47] [48] [49]
-<Chapters/r-mode/asymm_div_r-modes_obs.pdf, id=1937, 524.28998pt x 386.4883pt>
+[47] [48] [49]
+<Chapters/r-mode/asymm_div_r-modes_obs.pdf, id=2024, 524.28998pt x 386.4883pt>
 File: Chapters/r-mode/asymm_div_r-modes_obs.pdf Graphic file (type pdf)
 <use Chapters/r-mode/asymm_div_r-modes_obs.pdf>
 Package pdftex.def Info: Chapters/r-mode/asymm_div_r-modes_obs.pdf  used on inp
-ut line 217.
+ut line 225.
 (pdftex.def)             Requested size: 277.41176pt x 204.49577pt.
- [50 <./Chapters/r-mode/asymm_div_r-modes_obs.pdf>]
-<Chapters/r-mode/full_stats_BiSON_asymm_n1.pdf, id=1995, 542.45943pt x 874.7546
+<Chapters/r-mode/full_stats_BiSON_asymm_n1.pdf, id=2026, 542.45943pt x 874.7546
 5pt>
 File: Chapters/r-mode/full_stats_BiSON_asymm_n1.pdf Graphic file (type pdf)
 <use Chapters/r-mode/full_stats_BiSON_asymm_n1.pdf>
 Package pdftex.def Info: Chapters/r-mode/full_stats_BiSON_asymm_n1.pdf  used on
- input line 227.
+ input line 235.
 (pdftex.def)             Requested size: 149.37958pt x 240.88528pt.
-<Chapters/r-mode/full_stats_BiSON_asymm_n2.pdf, id=1996, 537.9896pt x 874.75465
+<Chapters/r-mode/full_stats_BiSON_asymm_n2.pdf, id=2027, 537.9896pt x 874.75465
 pt>
 File: Chapters/r-mode/full_stats_BiSON_asymm_n2.pdf Graphic file (type pdf)
 <use Chapters/r-mode/full_stats_BiSON_asymm_n2.pdf>
 Package pdftex.def Info: Chapters/r-mode/full_stats_BiSON_asymm_n2.pdf  used on
- input line 231.
+ input line 239.
 (pdftex.def)             Requested size: 149.37958pt x 242.88744pt.
-<Chapters/r-mode/full_stats_BiSON_asymm_n5.pdf, id=1997, 537.9896pt x 874.75465
+<Chapters/r-mode/full_stats_BiSON_asymm_n5.pdf, id=2028, 537.9896pt x 874.75465
 pt>
 File: Chapters/r-mode/full_stats_BiSON_asymm_n5.pdf Graphic file (type pdf)
 <use Chapters/r-mode/full_stats_BiSON_asymm_n5.pdf>
 Package pdftex.def Info: Chapters/r-mode/full_stats_BiSON_asymm_n5.pdf  used on
- input line 237.
+ input line 245.
 (pdftex.def)             Requested size: 149.37958pt x 242.88744pt.
-<Chapters/r-mode/full_stats_BiSON_asymm_n10.pdf, id=1998, 537.9896pt x 874.7546
+<Chapters/r-mode/full_stats_BiSON_asymm_n10.pdf, id=2029, 537.9896pt x 874.7546
 5pt>
 File: Chapters/r-mode/full_stats_BiSON_asymm_n10.pdf Graphic file (type pdf)
 <use Chapters/r-mode/full_stats_BiSON_asymm_n10.pdf>
 Package pdftex.def Info: Chapters/r-mode/full_stats_BiSON_asymm_n10.pdf  used o
-n input line 241.
+n input line 249.
 (pdftex.def)             Requested size: 149.37958pt x 242.88744pt.
-<Chapters/r-mode/asymm_r-mode_model_fit.pdf, id=2009, 412.89067pt x 318.32626pt
+ [50]
+<Chapters/r-mode/asymm_r-mode_model_fit.pdf, id=2046, 412.89067pt x 318.32626pt
 >
 File: Chapters/r-mode/asymm_r-mode_model_fit.pdf Graphic file (type pdf)
 <use Chapters/r-mode/asymm_r-mode_model_fit.pdf>
 Package pdftex.def Info: Chapters/r-mode/asymm_r-mode_model_fit.pdf  used on in
-put line 282.
+put line 290.
 (pdftex.def)             Requested size: 277.41176pt x 213.87979pt.
- [51]
-[52 <./Chapters/r-mode/full_stats_BiSON_asymm_n1.pdf> <./Chapters/r-mode/full_s
-tats_BiSON_asymm_n2.pdf
+ [51 <./Chapters/r-mode/asymm_div_r-modes_obs.pdf>] [52 <./Chapters/r-mode/full
+_stats_BiSON_asymm_n1.pdf> <./Chapters/r-mode/full_stats_BiSON_asymm_n2.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/r-mode/full_stats_BiSON_asym
 m_n2.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
@@ -982,28 +927,27 @@ ge
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/r-mode/full_stats_BiSON_asym
 m_n10.pdf): PDF inclusion: multiple pdfs with page group included in a single p
 age
->] [53 <./Chapters/r-mode/asymm_r-mode_model_fit.pdf>]
-<Chapters/r-mode/l2m2.png, id=2326, 269.005pt x 265.99374pt>
+>] [53 <./Chapters/r-mode/asymm_r-mode_model_fit.pdf>] [54]
+<Chapters/r-mode/l2m2.png, id=2414, 269.005pt x 265.99374pt>
 File: Chapters/r-mode/l2m2.png Graphic file (type png)
 <use Chapters/r-mode/l2m2.png>
-Package pdftex.def Info: Chapters/r-mode/l2m2.png  used on input line 315.
+Package pdftex.def Info: Chapters/r-mode/l2m2.png  used on input line 323.
 (pdftex.def)             Requested size: 188.3022pt x 186.19434pt.
- [54]
-<Chapters/r-mode/modulation_plot.pdf, id=2338, 540.30293pt x 385.90799pt>
+<Chapters/r-mode/modulation_plot.pdf, id=2421, 540.30293pt x 385.90799pt>
 File: Chapters/r-mode/modulation_plot.pdf Graphic file (type pdf)
 <use Chapters/r-mode/modulation_plot.pdf>
 Package pdftex.def Info: Chapters/r-mode/modulation_plot.pdf  used on input lin
-e 323.
+e 331.
 (pdftex.def)             Requested size: 277.41176pt x 198.14127pt.
-<Chapters/r-mode/v_mod.pdf, id=2339, 534.51569pt x 386.4883pt>
+<Chapters/r-mode/v_mod.pdf, id=2422, 534.51569pt x 386.4883pt>
 File: Chapters/r-mode/v_mod.pdf Graphic file (type pdf)
 <use Chapters/r-mode/v_mod.pdf>
-Package pdftex.def Info: Chapters/r-mode/v_mod.pdf  used on input line 330.
+Package pdftex.def Info: Chapters/r-mode/v_mod.pdf  used on input line 338.
 (pdftex.def)             Requested size: 200.59245pt x 145.0389pt.
-<Chapters/r-mode/a_mod.pdf, id=2340, 534.51569pt x 386.4883pt>
+<Chapters/r-mode/a_mod.pdf, id=2423, 534.51569pt x 386.4883pt>
 File: Chapters/r-mode/a_mod.pdf Graphic file (type pdf)
 <use Chapters/r-mode/a_mod.pdf>
-Package pdftex.def Info: Chapters/r-mode/a_mod.pdf  used on input line 332.
+Package pdftex.def Info: Chapters/r-mode/a_mod.pdf  used on input line 340.
 (pdftex.def)             Requested size: 200.59245pt x 145.0389pt.
  [55 <./Chapters/r-mode/l2m2.png>] [56 <./Chapters/r-mode/modulation_plot.pdf> 
 <./Chapters/r-mode/v_mod.pdf
@@ -1015,31 +959,31 @@ sion: multiple pdfs with page group included in a single page
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/r-mode/a_mod.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
 >]
-<Chapters/r-mode/HMI_MF_2011_rescaled.png, id=2460, 212.4738pt x 160.1985pt>
+<Chapters/r-mode/HMI_MF_2011_rescaled.png, id=2544, 212.4738pt x 160.1985pt>
 File: Chapters/r-mode/HMI_MF_2011_rescaled.png Graphic file (type png)
 <use Chapters/r-mode/HMI_MF_2011_rescaled.png>
 Package pdftex.def Info: Chapters/r-mode/HMI_MF_2011_rescaled.png  used on inpu
-t line 345.
+t line 353.
 (pdftex.def)             Requested size: 200.59245pt x 151.24171pt.
-<Chapters/r-mode/HMI_MF_2014_rescaled.png, id=2461, 207.4149pt x 160.1985pt>
+<Chapters/r-mode/HMI_MF_2014_rescaled.png, id=2545, 207.4149pt x 160.1985pt>
 File: Chapters/r-mode/HMI_MF_2014_rescaled.png Graphic file (type png)
 <use Chapters/r-mode/HMI_MF_2014_rescaled.png>
 Package pdftex.def Info: Chapters/r-mode/HMI_MF_2014_rescaled.png  used on inpu
-t line 347.
+t line 355.
 (pdftex.def)             Requested size: 200.59245pt x 154.9328pt.
  [57 <./Chapters/r-mode/HMI_MF_2011_rescaled.png> <./Chapters/r-mode/HMI_MF_201
 4_rescaled.png>] [58]
-<Chapters/r-mode/BiSON_vs_WSO_r-mode.pdf, id=2479, 437.27847pt x 324.27034pt>
+<Chapters/r-mode/BiSON_vs_WSO_r-mode.pdf, id=2561, 437.27847pt x 324.27034pt>
 File: Chapters/r-mode/BiSON_vs_WSO_r-mode.pdf Graphic file (type pdf)
 <use Chapters/r-mode/BiSON_vs_WSO_r-mode.pdf>
 Package pdftex.def Info: Chapters/r-mode/BiSON_vs_WSO_r-mode.pdf  used on input
- line 366.
+ line 374.
 (pdftex.def)             Requested size: 200.59245pt x 148.75548pt.
-<Chapters/r-mode/BiSON_vs_HMI_r-mode.pdf, id=2480, 437.27847pt x 324.27034pt>
+<Chapters/r-mode/BiSON_vs_HMI_r-mode.pdf, id=2562, 437.27847pt x 324.27034pt>
 File: Chapters/r-mode/BiSON_vs_HMI_r-mode.pdf Graphic file (type pdf)
 <use Chapters/r-mode/BiSON_vs_HMI_r-mode.pdf>
 Package pdftex.def Info: Chapters/r-mode/BiSON_vs_HMI_r-mode.pdf  used on input
- line 368.
+ line 376.
 (pdftex.def)             Requested size: 200.59245pt x 148.75548pt.
  [59 <./Chapters/r-mode/BiSON_vs_WSO_r-mode.pdf> <./Chapters/r-mode/BiSON_vs_HM
 I_r-mode.pdf
@@ -1051,13 +995,13 @@ df): PDF inclusion: multiple pdfs with page group included in a single page
 
  (./Appendices/SMMF-sims/SMMF_sims.tex
 Appendix A.
-<Appendices/SMMF-sims/cosine_model.pdf, id=2618, 569.05513pt x 569.05513pt>
+<Appendices/SMMF-sims/cosine_model.pdf, id=2700, 569.05513pt x 569.05513pt>
 File: Appendices/SMMF-sims/cosine_model.pdf Graphic file (type pdf)
 <use Appendices/SMMF-sims/cosine_model.pdf>
 Package pdftex.def Info: Appendices/SMMF-sims/cosine_model.pdf  used on input l
 ine 18.
 (pdftex.def)             Requested size: 149.37958pt x 149.37486pt.
-<Appendices/SMMF-sims/sgn_cng_model.pdf, id=2619, 569.05513pt x 569.05513pt>
+<Appendices/SMMF-sims/sgn_cng_model.pdf, id=2701, 569.05513pt x 569.05513pt>
 File: Appendices/SMMF-sims/sgn_cng_model.pdf Graphic file (type pdf)
 <use Appendices/SMMF-sims/sgn_cng_model.pdf>
 Package pdftex.def Info: Appendices/SMMF-sims/sgn_cng_model.pdf  used on input 
@@ -1079,14 +1023,14 @@ model.pdf
 pdfTeX warning: /usr/bin/pdflatex (file ./Appendices/SMMF-sims/sgn_cng_model.pd
 f): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<Appendices/SMMF-sims/fake_TS_cosine_rescaled.png, id=2645, 129.6042pt x 97.082
+<Appendices/SMMF-sims/fake_TS_cosine_rescaled.png, id=2726, 129.6042pt x 97.082
 7pt>
 File: Appendices/SMMF-sims/fake_TS_cosine_rescaled.png Graphic file (type png)
 <use Appendices/SMMF-sims/fake_TS_cosine_rescaled.png>
 Package pdftex.def Info: Appendices/SMMF-sims/fake_TS_cosine_rescaled.png  used
  on input line 52.
 (pdftex.def)             Requested size: 192.0548pt x 143.8727pt.
-<Appendices/SMMF-sims/fake_TS_sgn_cng_rescaled.png, id=2646, 124.0635pt x 97.08
+<Appendices/SMMF-sims/fake_TS_sgn_cng_rescaled.png, id=2727, 124.0635pt x 97.08
 27pt>
 File: Appendices/SMMF-sims/fake_TS_sgn_cng_rescaled.png Graphic file (type png)
 
@@ -1094,7 +1038,7 @@ File: Appendices/SMMF-sims/fake_TS_sgn_cng_rescaled.png Graphic file (type png)
 Package pdftex.def Info: Appendices/SMMF-sims/fake_TS_sgn_cng_rescaled.png  use
 d on input line 54.
 (pdftex.def)             Requested size: 192.0548pt x 150.28699pt.
-<Appendices/SMMF-sims/flow_chart_2.png, id=2648, 676.77844pt x 651.18282pt>
+<Appendices/SMMF-sims/flow_chart_2.png, id=2729, 676.77844pt x 651.18282pt>
 File: Appendices/SMMF-sims/flow_chart_2.png Graphic file (type png)
 <use Appendices/SMMF-sims/flow_chart_2.png>
 Package pdftex.def Info: Appendices/SMMF-sims/flow_chart_2.png  used on input l
@@ -1103,46 +1047,46 @@ ine 67.
  [64 <./Appendices/SMMF-sims/fake_TS_cosine_rescaled.png> <./Appendices/SMMF-si
 ms/fake_TS_sgn_cng_rescaled.png>] [65 <./Appendices/SMMF-sims/flow_chart_2.png>
 ]
-<Appendices/SMMF-sims/burn-in_TS_rescaled.png, id=2672, 127.4361pt x 97.8054pt>
+<Appendices/SMMF-sims/burn-in_TS_rescaled.png, id=2753, 127.4361pt x 97.8054pt>
 
 File: Appendices/SMMF-sims/burn-in_TS_rescaled.png Graphic file (type png)
 <use Appendices/SMMF-sims/burn-in_TS_rescaled.png>
 Package pdftex.def Info: Appendices/SMMF-sims/burn-in_TS_rescaled.png  used on 
 input line 86.
 (pdftex.def)             Requested size: 192.0548pt x 147.4151pt.
-<Appendices/SMMF-sims/N_hist.png, id=2673, 421.8159pt x 325.9377pt>
+<Appendices/SMMF-sims/N_hist.png, id=2754, 421.8159pt x 325.9377pt>
 File: Appendices/SMMF-sims/N_hist.png Graphic file (type png)
 <use Appendices/SMMF-sims/N_hist.png>
 Package pdftex.def Info: Appendices/SMMF-sims/N_hist.png  used on input line 90
 .
 (pdftex.def)             Requested size: 192.0548pt x 148.40134pt.
-<Appendices/SMMF-sims/fake_sources_rescaled.png, id=2674, 133.4586pt x 97.0827p
+<Appendices/SMMF-sims/fake_sources_rescaled.png, id=2755, 133.4586pt x 97.0827p
 t>
 File: Appendices/SMMF-sims/fake_sources_rescaled.png Graphic file (type png)
 <use Appendices/SMMF-sims/fake_sources_rescaled.png>
 Package pdftex.def Info: Appendices/SMMF-sims/fake_sources_rescaled.png  used o
 n input line 96.
 (pdftex.def)             Requested size: 192.0548pt x 139.71303pt.
-<Appendices/SMMF-sims/SSN_rescaled.png, id=2675, 135.3858pt x 97.8054pt>
+<Appendices/SMMF-sims/SSN_rescaled.png, id=2756, 135.3858pt x 97.8054pt>
 File: Appendices/SMMF-sims/SSN_rescaled.png Graphic file (type png)
 <use Appendices/SMMF-sims/SSN_rescaled.png>
 Package pdftex.def Info: Appendices/SMMF-sims/SSN_rescaled.png  used on input l
 ine 100.
 (pdftex.def)             Requested size: 192.0548pt x 138.75478pt.
-<Appendices/SMMF-sims/24h_fake_butterfly.pdf, id=2677, 514.30896pt x 338.70917p
+<Appendices/SMMF-sims/24h_fake_butterfly.pdf, id=2758, 514.30896pt x 338.70917p
 t>
 File: Appendices/SMMF-sims/24h_fake_butterfly.pdf Graphic file (type pdf)
 <use Appendices/SMMF-sims/24h_fake_butterfly.pdf>
 Package pdftex.def Info: Appendices/SMMF-sims/24h_fake_butterfly.pdf  used on i
 nput line 118.
 (pdftex.def)             Requested size: 362.77525pt x 238.92436pt.
-<Appendices/SMMF-sims/cosine_LS.pdf, id=2679, 541.84776pt x 397.94861pt>
+<Appendices/SMMF-sims/cosine_LS.pdf, id=2760, 541.84776pt x 397.94861pt>
 File: Appendices/SMMF-sims/cosine_LS.pdf Graphic file (type pdf)
 <use Appendices/SMMF-sims/cosine_LS.pdf>
 Package pdftex.def Info: Appendices/SMMF-sims/cosine_LS.pdf  used on input line
  128.
 (pdftex.def)             Requested size: 192.0548pt x 141.0511pt.
-<Appendices/SMMF-sims/sgn_cng_LS.pdf, id=2680, 541.84776pt x 397.94861pt>
+<Appendices/SMMF-sims/sgn_cng_LS.pdf, id=2761, 541.84776pt x 397.94861pt>
 File: Appendices/SMMF-sims/sgn_cng_LS.pdf Graphic file (type pdf)
 <use Appendices/SMMF-sims/sgn_cng_LS.pdf>
 Package pdftex.def Info: Appendices/SMMF-sims/sgn_cng_LS.pdf  used on input lin
@@ -1151,28 +1095,28 @@ e 130.
  [66] [67 <./Appendices/SMMF-sims/burn-in_TS_rescaled.png> <./Appendices/SMMF-s
 ims/N_hist.png> <./Appendices/SMMF-sims/fake_sources_rescaled.png> <./Appendice
 s/SMMF-sims/SSN_rescaled.png>]
-<Appendices/SMMF-sims/cosine_single_TS.pdf, id=2698, 531.12802pt x 396.30183pt>
+<Appendices/SMMF-sims/cosine_single_TS.pdf, id=2780, 531.12802pt x 396.30183pt>
 
 File: Appendices/SMMF-sims/cosine_single_TS.pdf Graphic file (type pdf)
 <use Appendices/SMMF-sims/cosine_single_TS.pdf>
 Package pdftex.def Info: Appendices/SMMF-sims/cosine_single_TS.pdf  used on inp
 ut line 146.
 (pdftex.def)             Requested size: 192.0548pt x 143.29744pt.
-<Appendices/SMMF-sims/cosine_single_spectrum.pdf, id=2699, 541.84776pt x 397.94
+<Appendices/SMMF-sims/cosine_single_spectrum.pdf, id=2781, 541.84776pt x 397.94
 861pt>
 File: Appendices/SMMF-sims/cosine_single_spectrum.pdf Graphic file (type pdf)
 <use Appendices/SMMF-sims/cosine_single_spectrum.pdf>
 Package pdftex.def Info: Appendices/SMMF-sims/cosine_single_spectrum.pdf  used 
 on input line 150.
 (pdftex.def)             Requested size: 192.0548pt x 141.0511pt.
-<Appendices/SMMF-sims/sgn_cng_single_TS.pdf, id=2700, 531.12802pt x 396.30183pt
+<Appendices/SMMF-sims/sgn_cng_single_TS.pdf, id=2782, 531.12802pt x 396.30183pt
 >
 File: Appendices/SMMF-sims/sgn_cng_single_TS.pdf Graphic file (type pdf)
 <use Appendices/SMMF-sims/sgn_cng_single_TS.pdf>
 Package pdftex.def Info: Appendices/SMMF-sims/sgn_cng_single_TS.pdf  used on in
 put line 156.
 (pdftex.def)             Requested size: 192.0548pt x 143.29744pt.
-<Appendices/SMMF-sims/sgn_cng_single_spectrum.pdf, id=2701, 541.84776pt x 397.9
+<Appendices/SMMF-sims/sgn_cng_single_spectrum.pdf, id=2783, 541.84776pt x 397.9
 4861pt>
 File: Appendices/SMMF-sims/sgn_cng_single_spectrum.pdf Graphic file (type pdf)
 <use Appendices/SMMF-sims/sgn_cng_single_spectrum.pdf>
@@ -1188,13 +1132,8 @@ PDF inclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Appendices/SMMF-sims/sgn_cng_LS.pdf):
  PDF inclusion: multiple pdfs with page group included in a single page
->]
-
-LaTeX Warning: Reference `fig:BiSON_WSO_PSDs' on page 69 undefined on input lin
-e 168.
-
-) [69 <./Appendices/SMMF-sims/cosine_single_TS.pdf> <./Appendices/SMMF-sims/cos
-ine_single_spectrum.pdf
+>]) [69 <./Appendices/SMMF-sims/cosine_single_TS.pdf> <./Appendices/SMMF-sims/c
+osine_single_spectrum.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Appendices/SMMF-sims/cosine_single_sp
 ectrum.pdf): PDF inclusion: multiple pdfs with page group included in a single 
@@ -1213,43 +1152,72 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
- [70
+
+Underfull \hbox (badness 1221) in paragraph at lines 125--130
+[]\OT1/cmr/m/n/10.95 Dunai T. J., 2010, in , Cos-mo-genic Nu-clides: Prin-ci-pl
+es, Con-cepts and Ap-pli-
+ []
+
+[70
 
 
 ]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ­ in font cmr10!
- [71])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
- [72]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
- (./thesis.aux
-(./Appendices/SMMF-sims/SMMF_sims.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
+
+Underfull \hbox (badness 4686) in paragraph at lines 166--171
+[]\OT1/cmr/m/n/10.95 Giacalone J., 2010, in Schri-jver C. J., Sis-coe G. L., ed
+s, , He-lio-physics:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--171
+\OT1/cmr/m/n/10.95 Space Storms and Ra-di-a-tion: Causes and Ef-fects. Cam-brid
+ge Uni-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--171
+\OT1/cmr/m/n/10.95 sity Press, Cam-bridge, pp 233--262, []doi:10.1017/CBO978113
+9194532.010[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--171
+[]$\OT1/cmtt/m/n/10.95 /core / books / heliophysics-[]space-[]storms-[]and-[]ra
+diation-[]causes-[]and-[]effects /
+ []
+
+[71] [72]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no £ in font cmr10!
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
+ [73]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
+ (./thesis.aux (./Appendices/SMMF-sims/SMMF_sims.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: DE2DD1D5B755B43A74D3624C580FDE83;1282.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: 449CD18D4EC23EFC4D04888A65A4F827;3115.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 753 ({)
+### simple group (level 1) entered at line 796 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 10517 strings out of 494923
- 163660 string characters out of 6180742
- 276320 words of memory out of 5000000
- 13263 multiletter control sequences out of 15000+600000
- 16337 words of font info for 60 fonts, out of 8000000 for 9000
+ 10618 strings out of 494923
+ 165565 string characters out of 6180742
+ 279084 words of memory out of 5000000
+ 13337 multiletter control sequences out of 15000+600000
+ 16684 words of font info for 61 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 44i,11n,51p,1248b,770s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,11n,51p,1255b,815s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
@@ -1268,10 +1236,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on thesis.pdf (80 pages, 4894069 bytes).
+Output written on thesis.pdf (85 pages, 4069674 bytes).
 PDF statistics:
- 3170 PDF objects out of 3580 (max. 8388607)
- 1700 compressed objects within 17 object streams
- 324 named destinations out of 1000 (max. 500000)
- 479 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3330 PDF objects out of 3580 (max. 8388607)
+ 1893 compressed objects within 19 object streams
+ 353 named destinations out of 1000 (max. 500000)
+ 620 words of extra memory for PDF output out of 10000 (max. 10000000)
 

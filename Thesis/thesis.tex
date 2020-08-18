@@ -80,18 +80,22 @@
 
 \begin{document}
 \doublespacing
-\pagenumbering{Roman} 
+\pagenumbering{roman} 
 
 %TITLE PAGE
 \input{Title/title_page.tex}
 %  Abstract 
-%\input{Chapters/Other/abstract.tex}
+\input{Chapters/Other/abstract.tex}
+\addcontentsline{toc}{chapter}{Abstract}
 %Acknowledgements
-%\input{Chapters/Other/ackno.tex}
+\input{Chapters/Other/ackno.tex}
+\addcontentsline{toc}{chapter}{Acknowledgments}
 %  C O N T E N T S ,   T A B L E S  ,   F I G U R E S ,   N O T A T I O N
 \newpage
 \pagestyle{plain}
 \begin{singlespace} %Optional singlespacing
+	
+\setcounter{tocdepth}{2}
 \tableofcontents
 \thispagestyle{plain}
 \addtocontents{toc}{\protect\thispagestyle{plain}}
@@ -99,11 +103,13 @@
 \listoffigures
 \thispagestyle{plain}
 \addtocontents{lof}{\protect\thispagestyle{plain}}
+\addcontentsline{toc}{chapter}{List of Figures}
 \thispagestyle{plain}
 %add tables too
 \listoftables
 \thispagestyle{plain}
 \addtocontents{lot}{\protect\thispagestyle{plain}}
+\addcontentsline{toc}{chapter}{List of Tables}
 \thispagestyle{plain}
 
 %  Abbreviations
