@@ -1,0 +1,12 @@
+\chapter{Simulations of Cosmic Ray Air Showers using CORSIKA}\label{app:CORSIKA_sims}
+
+
+There are several user-definable settings within \gls{corsika}. These settings are explained in-depth in the \gls{corsika} user's guide \citep{heck_extensive_2017}. Here, the options selected when building and using \gls{corsika} are outlined.
+
+For high energy, inelastic hadronic interactions within \gls{corsika} the QGSJET-II \citep{ostapchenko_qgsjet-ii_2006} model was selected. Interactions of hadrons with energies below 80 GeV are simulated using GHEISHA \citep{fesefeldt_gheisha._1985}, which allowed for the simulation of PCRs in the regime of SCRs. In addition to these hadronic interactions, electromagnetic interactions within the \gls{corsika} simulations were described by the EGS4 \citep{nelson_egs4_1985} model. Furthermore \gls{corsika} has a minimum muon energy limit that can be simulated of 10~MeV. This limit is sufficient, as the lowest energy muons that are observable with HiSPARC are those with energy of $\sim 4$~MeV.
+
+Simulation thinning was enable to reduce the computation time of the simulations and reduce the output file size. The observation level at which point the simulation cease was set at 100 m above sea level (compared to the $\sim 50$ m typical of the stations; however, this difference is negligible for the air shower development). The pre-defined central European atmosphere in October was used for all simulations, and western-European magnetic field was used as calculated with the \textit{Geomag} programme [REF]: B$_{\mathrm{x}}=18.799$~$\mu$T and B$_{\mathrm{z}}=44.980$~$\mu$T.
+
+Proton and $\alpha$-particle initiated air showers were generated with energies ranging from $10^{9}$ to $10^{20}$~eV, and $4\times10^{9}$ to $10^{20}$~eV, respectively. In total $\sim 230000$ proton-initiated showers were simulated and $\sim 180000$ $\alpha$-particle-initiated air showers were simulated. The simulated air-shower-initiating PCRs are listed Table~\ref{tab:CORSIKA_proton_sims} (proton) and Table~\ref{tab:CORSIKA_alpha_sims} ($\alpha$-particles).
+
+\input{Appendices/CORSIKA-sims/corsika_table.tex}

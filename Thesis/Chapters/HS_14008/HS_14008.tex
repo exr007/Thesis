@@ -4,15 +4,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}\label{sec:HS_14008_intro}
 
-It was clear from the work covered in Chapter~\ref{chap:HiSPARC} using data from the HiSPARC network, that the HiSPARC detectors were not clearly capable of observing space weather events and this is also hindered as they are rather sensitive to variations in the terrestrial conditions. 
+It was clear from the work covered in Chapter~\ref{chap:HiSPARC}, using data from the HiSPARC network, that the HiSPARC detectors were not clearly capable of observing space weather events and this is also hindered as they are rather sensitive to variations in the terrestrial conditions. 
 
 To some extent, it was possible to eliminate the variation in CRs due to terrestrial variation from the HiSPARC data; however it was shown to be not always so simple, as different detectors in the HiSPARC network showed different responses to pressure and temperature variation. The non-linear relationship between temperature and CR count means the correction of the count rate due to thermal fluctuations is non-trivial, unlike the counterpart correction for pressure. 
 
-It is believed that the atmospheric thermal fluctuations induce thermal noise in the photomultipliers (PMTs), and although the temperature inside the HiSPARC ski-boxes have not been measured, it is suspected that the PMTs can get quite hot, in particular when the sky boxes are in direct sunlight.
+It is believed that the atmospheric thermal fluctuations induce thermal noise in the \glspl{pmt}, and although the temperature inside the HiSPARC ski-boxes have not been measured, it is suspected that the \glspl{pmt} can get quite hot, in particular when the sky boxes are in direct sunlight.
 
-An instance of thermal noise in a single PMT will be random, and uncorrelated with an instance of thermal noise in another PMT. It is therefore possible to hypothesise that it is unlikely that within the coincidence window of $\sim$1.5 $\mu \mathrm{s}$, that a coincidence between 2 PMTs would be due to random thermal noise induced in the PMTs.
+An instance of thermal noise in a single \gls{pmt} will be random, and uncorrelated with an instance of thermal noise in another \gls{pmt}. It is therefore possible to hypothesise that it is unlikely that within the coincidence window of $\sim$1.5 $\mu \mathrm{s}$, that a coincidence between 2 \glspl{pmt} would be due to random thermal noise induced in the \glspl{pmt}.
 
-To exploit this, it is possible to stack 2 detectors on top of each other to measure a single muon which traverses both scintillators, hence inducing signals in both PMTs.
+To exploit this, it is possible to stack 2 detectors on top of each other to measure a single muon which traverses both scintillators, hence inducing signals in both \glspl{pmt}.
 
 
 
@@ -50,7 +50,7 @@ E = \Delta x \, S \, \rho \, \cos(\theta)
 
 \cite{bartels_hisparc_2012} state that typical energy loss of a muon in a single scintillator is $3.38$~MeV, hence in this configuration, as a muon traverses two scintillators, the lower limit on the energy loss by muons in the detector is $\sim 6.76$~MeV.
 
-To protect the scintillators and PMTs within the ski boxes, we sandwiched the scintillators between layers of foam, as can be seen on the lab work bench in Figure~\ref{fig:14008_detectors}. Upon complete assembly of the detector, the scintillators and PMTs are placed within the ski-box on the roof of the Poynting Physics building on the campus of the University of Birmingham, as shown in Figure~\ref{fig:14008_ski_box}.
+To protect the scintillators and \glspl{pmt} within the ski boxes, we sandwiched the scintillators between layers of foam, as can be seen on the lab work bench in Figure~\ref{fig:14008_detectors}. Upon complete assembly of the detector, the scintillators and \glspl{pmt} are placed within the ski-box on the roof of the Poynting Physics building on the campus of the University of Birmingham, as shown in Figure~\ref{fig:14008_ski_box}.
 
 \begin{figure}[ht]
 	\centering
@@ -70,13 +70,13 @@ To protect the scintillators and PMTs within the ski boxes, we sandwiched the sc
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Calibration}
 
-When setting up the HiSPARC station, the user is required to set several operating parameters for the detectors and the HiSPARC electronics box. One such setting is the PMT operating voltage. Each of the detector PMTs needs to be set-up with a high enough operating voltage such to provide an amplified signal, but not too high such as to over-amplify the noise.
+When setting up the HiSPARC station, it was required to set several operating parameters for the detectors and the HiSPARC electronics box. One such setting was the \gls{pmt} operating voltage. Each of the detector \glspl{pmt} needs to be powered with a high enough operating voltage such to provide an amplified signal, but not too high such as to over-amplify the noise.
 
-In general, the PMTs have an advised operating voltage of around 700 V \citep{fokkema_hisparc_2019}. However best practise is to operate the PMT at the plateu region, whereby the counts/voltage no longer increases. As can be seen from Figure~\ref{fig:PMT_cal}, neither of the PMTs have clear plateau regions, hence there was no obvious PMT set point.
+In general, the \glspl{pmt} has an advised operating voltage of around 700~V \citep{fokkema_hisparc_2019}; however, best practise is to operate the \gls{pmt} at the plateu region, whereby the counts/voltage no longer increases. As can be seen from Figure~\ref{fig:PMT_cal}, neither of the \glspl{pmt} have clear plateau regions, hence there was no obvious \gls{pmt} set point.
 
-In addition, the HiSPARC installation manual suggests to tune the PMT voltages such that the singles rates for each detector meet the following criteria: singles rate of 100--130 Hz for signal above the high trigger threshold, and singles rate of $<$400 Hz for signal above the low trigger threshold \citep{fokkema_hisparc_2019}.
+The HiSPARC installation manual does, however, suggest to tune the \gls{pmt} voltages such that the singles rates for each detector meet the following criteria: singles rate of 100--130 Hz for signal above the high trigger threshold, and singles rate of $<$400 Hz for signal above the low trigger threshold \citep{fokkema_hisparc_2019}.
 
-In order to calibrate the PMTs to the correct level, we measured the singles rates above the high and low thresholds as a function of PMT operating voltage, as is shown in Figure~\ref{fig:PMT_cal} [UPDATE THIS PLOT...!!!!]. The voltage calibration plot shows drastically the different performances one can get from different PMTs, therefore it is necessary to treat each PMT individually when calibrating.
+In order to calibrate the \glspl{pmt} to the correct level, we measured the singles rates above the high and low thresholds as a function of \gls{pmt} operating voltage, as is shown in Figure~\ref{fig:PMT_cal} [UPDATE THIS PLOT...!!!!]. The voltage calibration plot shows drastically the different performances one can get from different \glspl{pmt}, therefore it is necessary to treat each \gls{pmt} individually when calibrating.
 
 \begin{figure}
 	\centering
@@ -86,14 +86,25 @@ In order to calibrate the PMTs to the correct level, we measured the singles rat
 \end{figure}
 
 
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Monitoring Temperature}
 
-It was suspected in Chapter~\ref{chap:HiSPARC} that the singles count rates (and thus event count rates also) are affected by the tempeature of the PMT within the HiSPARC ski-boxes.
+It was suspected in Chapter~\ref{chap:HiSPARC} that the singles count rates (and thus event count rates also) are affected by the temperature of the \gls{pmt} within the HiSPARC ski-boxes.
 
-Some of the existing HiSPARC stations monitor local temperature however none measure the temperature of the PMT within the ski box. In this
+Some of the existing HiSPARC stations monitor local temperature however none measure the temperature of the \gls{pmt} within the ski box; therefore the temperature of the PMT itself is unknown, and thus we cannot account for the thermal noise. When building this new HiSPARC station, a temperature sensor was placed into the ski box which allowed us to monitor the temperature.
 
+Figure~\ref{fig:temperature_sensor_circuit} shows the schematic for the temperature sensor. We used the DS18B20 temperature sensor with the one-wire telemetry protocol, which used a single wire to transmit the temperature readings to the microcontroller; the microcontroller used was a Raspberry Pi 4. Three wires were used for the operation of the DS18B20: constant current voltage, ground, and data.
 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\columnwidth]{HS_14008_temp_circuit.png}
+	\caption{Schematic diagram of the DS18B20 temperature sensor circuit, whereby the voltage, ground, and GPIO interfaces connect directly into pins of the Raspberry Pi board.}
+	\label{fig:temperature_sensor_circuit}
+\end{figure}
+
+We use the Raspberry Pi to control the data acquisition by running a Python program to output the temperature readings from the sensor to a local file. The temperature is read on a 10-second cadence and is recorded in degrees Celsius.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

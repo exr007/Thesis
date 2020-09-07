@@ -3,13 +3,13 @@
 
 \section{Model}
 
-The artificial data used in the simulations of the SMMF was created using 2 very simplistic models, either separately or in combination, which are physically motivated by sunspots and active regions on the solar surface:
+The artificial data used in the simulations of the \gls{smmf} was created using 2 very simplistic models, either separately or in combination, which were physically motivated by sunspots and active regions on the solar surface:
 
 \begin{enumerate}
 	
 	\item{{\bf Cosine}: in this model a source was simulated as a single region which appears on the visible disk from one limb, traversing across the disk, before disappearing off the other limb (see Fig.~\ref{fig:cosine_model}). The physical motivation for this would be a single, concentrated source of imbalanced magnetic flux. This method induces no sign change of the simulated source; it remains the same polarity always. This was simulated as a rectified sinusoidal signal, with a 50$\%$ duty cycle (i.e. it is only visible during times on near-side of the disk).}
 	
-	\item{{\bf Sign change}: in this model a source was simulated as 2 regions of opposite polarity, such as sunspot pairs or bipolar magnetic regions (BMRs). The leading region contributes more at the start of the transit during ingress, and the trailing source contributes more at the end of the transit during egress; hence at the middle of the transit we assume there is a sign change in the overall signal, see Fig.~\ref{fig:sgn_cng_model}. This was simulated as a rectified sinusoidal signal, and was multiplied by a cosinusoidal signal of the same period to provide the projection of the pair of regions. This operation results in a rectified sinusoidal signal with half the period.}
+	\item{{\bf Sign change}: in this model a source was simulated as 2 regions of opposite polarity, such as sunspot pairs or a \gls{bmr}. The leading region contributes more at the start of the transit during ingress, and the trailing source contributes more at the end of the transit during egress; hence at the middle of the transit we assume there is a sign change in the overall signal, see Fig.~\ref{fig:sgn_cng_model}. This was simulated as a rectified sinusoidal signal, and was multiplied by a cosinusoidal signal of the same period to provide the projection of the pair of regions. This operation results in a rectified sinusoidal signal with half the period.}
 	
 \end{enumerate}
 
@@ -33,7 +33,7 @@ There were several variables that allowed us to change the physics of the simula
 	\item{{\bf $\phi$}: Additional phase of sources}
 \end{itemize}
 
-Using these variables, the mathematical forms of the two model types for a single source are expressed by equation~(\ref{eq:cosine_model}) and equation~(\ref{eq:sgn_cng_model}). In these equations $t' = t - t_0$, $\Pi_{P/2}(t)$ is a window function to define the transit period of the simulated source on the visible side of the solar disk, $\mathrm{III}_{P}$ is a Dirac comb of frequency, P, and $\Pi_{T}(t)$ is a window function defining the total observation period. The time series of a single modelled source for each model is shown in Figure~\ref{fig:artificial_models}.
+Using these variables, the mathematical forms of the two model types for a single source are expressed by equation~(\ref{eq:cosine_model}) and equation~(\ref{eq:sgn_cng_model}). In these equations $t' = t - t_0$, $\Pi_{P/2}(t)$ is a window function to define the transit period of the simulated source on the visible side of the solar disk, $\mathrm{III}_{P}$ is a Dirac comb of repetition period, P, and $\Pi_{T}(t)$ is a window function defining the total observation period. The time series of a single modelled source for each model is shown in Figure~\ref{fig:artificial_models}.
 
 \begin{equation}
 B_{\mathrm{cosine}}(t) = \left[ A e^{-t'/\tau} \, \left( \cos{\left(\frac{2\pi}{P}t' + \phi\right)} \, \Pi_{P/2}(t) \right) * \mathrm{III}_{P} \right] \times \Pi_{T}(t)
@@ -59,7 +59,7 @@ B_{\mathrm{sign-change}}(t) = \left[ A e^{-t'/\tau} \, \left( \cos{\left(\frac{2
 
 \section{Configuration of the Simulations}
 
-A flowchart describing the steps in the simulations is shown in Figure~\ref{fig:flowchart}. The simulations require the user to select the number of sources to be modelled. Using this information, the user selects whether to draw N seed/start times ($t_0$) from either a kernel density estimate (KDE) of the SSN, or from a uniform distribution between the start and end times. The former will give an output which is more physical, but the latter is useful for testing.
+A flowchart describing the steps in the simulations is shown in Figure~\ref{fig:flowchart}. The simulations require the user to select the number of sources to be modelled. Using this information, the user selects whether to draw N seed/start times ($t_0$) from either a \gls{kde} of the \gls{ssn}, or from a uniform distribution between the start and end times. The former will give an output which is more physical, but the latter is useful for testing.
 
 
 \begin{figure}[ht!]
@@ -72,12 +72,9 @@ A flowchart describing the steps in the simulations is shown in Figure~\ref{fig:
 
 From the generated seed times, latitudes are computed using a model for the migration of spots during the Solar Cycle \citep{li_latitude_2001-1}, and the differential rotation frequency at that latitude is taken from a model of the solar differential rotation \citep{snodgrass_magnetic_1983}. 
 
-Values are then assigned for the phase, amplitude, and decay time of each source (the user can set these parameters, or it is also possible to randomly draw them from a distribution). Each individual source is then simulated according to equation~(\ref{eq:cosine_model}) or equation~(\ref{eq:sgn_cng_model}). Following the simulation of N sources, the full time-series is computed by adding all N source contributions together. Finally, a burn-in period is removed, which allows the artificial SMMF to settle prior to the start of `observations', and then we can inject gaps into the artificial time series which are concurrent with the gaps in the BiSON observations.
+Values are then assigned for the phase, amplitude, and decay time of each source (the user can set these parameters, or it is also possible to randomly draw them from a distribution). Each individual source is simulated according to equation~(\ref{eq:cosine_model}) or equation~(\ref{eq:sgn_cng_model}). Following the simulation of N sources, the full time-series is computed by adding all N source contributions together. Finally, a burn-in period is removed, which allows the artificial \gls{smmf} to settle prior to the start of `observations', and then we can inject gaps into the artificial time series which are concurrent with the gaps in the \gls{bison} observations.
 
-The aim of creating artificial data was to produce a representative power spectrum to that of the BiSON SMMF. We assume that the sources of the SMMF are active regions of magnetic flux, therefore we aimed to produce a time series that physically represented these sources, i.e. comparable to the sun spot number. To do this we produced an average number of sources on the visible disk during close to the sunspot number. At solar maximum during cycle 23, the number of daily spots on the disk is around 150 -- 200. 
-
-We included $\sim$1--year for burn-in, such that the interferences between the sources stabilises (see Figure~\ref{fig:artificial_sim_burn-in}). After a year the number of sources on the visible disk have steadied, providing a stable SMMF, hence a burn-in period from 01/01/1991 -- 29/01/1992 is sufficient. With this burn-in period, we chose to select N~=~20000 and $\tau$~=~100 days, which produces a median total of $\sim$17450 sources over the BiSON observational epoch of 7633 days, with an average of around 150 -- 200 sources per day on the visible disk during solar cycle 23 maximum, as shown in Figure~\ref{fig:artificial_sim_config}.
-
+The aim of creating artificial data was to produce a representative power spectrum to that of the \gls{bison} \gls{smmf}. We assumed that the sources of the \gls{smmf} are \gls{ar}s and \gls{mfc}s, therefore we aimed to produce a time series that physically represented these sources, i.e. comparable to the sunspot number. To do this we produced an average number of sources on the visible disk during close to the sunspot number. At solar maximum during cycle 23, the number of daily spots on the disk is around 150 -- 200. 
 
 \begin{figure}[!ht]
 	\centering
@@ -104,13 +101,17 @@ We included $\sim$1--year for burn-in, such that the interferences between the s
 \end{figure}
 
 
+We included $\sim$1--year for burn-in, such that the interferences between the sources stabilises (see Figure~\ref{fig:artificial_sim_burn-in}). After a year the number of sources on the visible disk have steadied, providing a stable \gls{smmf}, hence a burn-in period from 01/01/1991 -- 29/01/1992 is sufficient. With this burn-in period, we chose to select N~=~20000 and $\tau$~=~100 days, which produces a median total of $\sim$17450 sources over the \gls{bison} observational epoch of 7633 days, with an average of around 150 -- 200 sources per day on the visible disk during solar cycle 23 maximum, as shown in Figure~\ref{fig:artificial_sim_config}.
+
+
+
 
 \section{Outputs}
 
 
-The simulation produces a time series output from the combination of all the sources with and without the inclusion of BiSON observational gaps, along with the Fourier transforms of both. 
+The simulation produces a time series output from the combination of all the sources with and without the inclusion of \gls{bison} observational gaps, along with the Fourier transforms of both. 
 
-For quality assurance, a butterfly diagram is also generated per simulation to understand whether the simulation is representative of the Sun's ARs. A butterfly diagram, from a realisation which allows for a more realistic, stochastic simulation whereby the values for parameters are drawn from a distribution with scatter, is shown in Figure~\ref{fig:fake_butterfly}. This butterfly diagram shows a strong resemblance to a true, observational butterfly diagram of the Sun. This provides us with confidence that the simulations are well-representing ARs on the solar disk.
+For quality assurance, a butterfly diagram is also generated per simulation to understand whether the simulation is representative of the Sun's \gls{ar}s. A butterfly diagram, from a realisation which allows for a more realistic, stochastic simulation whereby the values for parameters are drawn from a distribution with scatter, is shown in Figure~\ref{fig:fake_butterfly}. This butterfly diagram shows a strong resemblance to a true, observational butterfly diagram of the Sun. This provides us with confidence that the simulations are well-representing \gls{ar}s on the solar disk.
 
 
 \begin{figure}[ht!]
@@ -133,10 +134,7 @@ The resultant power spectra for the two different models (`cosine' and `sign cha
 
 It is clear that the `cosine' model produces a strong peak at the rotational period in the simulation, and a harmonic peak at twice that frequency. This model also produces a significant amount of power at low frequency due to the non-zero mean of the simulated time series. 
 
-On the other hand, the `sign change' model has near-zero low frequency power due to the $\sim$zero mean of the time series. The `sign change' model also produces a strong peak at half the period of rotation in the simulation. There is a smaller, yet strong peak at the rotational period and at a harmonic of the rotation of 3 times the period.
-
-
-In addition to the limit spectra, we show in Figure~\ref{fig:artificial_sim_outs}] the time series and power spectra for individual realisations of the simulations.
+On the other hand, the `sign change' model has near-zero low frequency power due to the $\sim$zero mean of the time series. The `sign change' model also produces a strong peak at half the period of rotation in the simulation. There is a smaller, yet strong peak at the rotational period and at a harmonic of the rotation of 3 times the period. In addition to the limit spectra, we show in Figure~\ref{fig:artificial_sim_outs} the time series and power spectra for individual realisations of the simulations.
 
 
 \begin{figure}[!ht]
@@ -163,6 +161,6 @@ In addition to the limit spectra, we show in Figure~\ref{fig:artificial_sim_outs
 	\label{fig:artificial_sim_outs}
 \end{figure}
 
-These realisations show the simulated SMMF on a daily cadence. The plots show the stark difference in the time series produced by each model. There are many deviations from a zero mean in the `cosine' model case, which clearly demonstrates the origin of the low frequency power. In the `sign change' model realisation, the data shows a compelling near--zero mean, hence the origin of the near--zero low frequency power in the spectrum.
+These realisations show the simulated \gls{smmf} on a daily cadence. The plots show the stark difference in the time series produced by each model. There are many deviations from a zero mean in the `cosine' model case, which clearly demonstrates the origin of the low frequency power. In the `sign change' model realisation, the data shows a compelling near--zero mean, hence the origin of the near--zero low frequency power in the spectrum.
 
-Both realisations of the simulations result in a time series which does resemble some of the features of the BiSON SMMF observations, and hence there is a justifications for using both models in combination to simulate a representative model of the SMMF. This is supported also by the power spectra for each realisation, and the limit spectra. The power spectrum of the BiSON SMMF shows a strong harmonic peak at three times the period, which is more prominent in the `sign change' model than the `cosine'. The `sign change' model power spectrum also shows a similar splitting around the half--period frequency, resembling that of the BiSON spectrum in Figure~\ref{fig:BiSON_vs_WSO_PSDs}.
+Both realisations of the simulations result in a time series which does resemble some of the features of the \gls{bison} \gls{smmf} observations, and hence there is a justification for using both in combination to simulate a representative model of the \gls{smmf}. This is supported also by the power spectra for each realisation, and the limit spectra. The power spectrum of the \gls{bison} \gls{smmf} shows a strong harmonic peak at three times the period, which is more prominent in the `sign change' model than the `cosine'. The `sign change' model power spectrum also shows a similar splitting around the half--period frequency, resembling that of the \gls{bison} spectrum in Figure~\ref{fig:BiSON_vs_WSO_PSDs}.

@@ -1,0 +1,90 @@
+\ifglsentryexists{cd}{}%
+{%
+\gls@defglossaryentry{cd}%
+{%
+name={CD},%
+sort={CD},%
+type={acronym},%
+first={compact disk\glsspace (CD)},%
+firstplural={compact disks\glsspace (CDs)},%
+text={CD},%
+plural={CDs},%
+description={compact disk},%
+descriptionplural={compact disk\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={compact disk},%
+longplural={compact disks},%
+short={CD},%
+shortplural={CDs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cr}{}%
+{%
+\gls@defglossaryentry{cr}%
+{%
+name={CR},%
+sort={CR},%
+type={acronym},%
+first={Cosmic Ray\glsspace (CR)},%
+firstplural={Cosmic Rays\glsspace (CRs)},%
+text={CR},%
+plural={CRs},%
+description={Cosmic Ray},%
+descriptionplural={Cosmic Ray\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Cosmic Ray},%
+longplural={Cosmic Rays},%
+short={CR},%
+shortplural={CRs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{hisparc}{}%
+{%
+\gls@defglossaryentry{hisparc}%
+{%
+name={HiSPARC},%
+sort={HiSPARC},%
+type={acronym},%
+first={High School Project on Astrophysics and Research with Cosmics\glsspace (HiSPARC)},%
+firstplural={High School Project on Astrophysics and Research with Cosmicss\glsspace (HiSPARCs)},%
+text={HiSPARC},%
+plural={HiSPARCs},%
+description={High School Project on Astrophysics and Research with Cosmics},%
+descriptionplural={High School Project on Astrophysics and Research with Cosmics\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={High School Project on Astrophysics and Research with Cosmics},%
+longplural={High School Project on Astrophysics and Research with Cosmicss},%
+short={HiSPARC},%
+shortplural={HiSPARCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

@@ -6,48 +6,46 @@ Database file #1: library.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty booktitle in desorgher_planetocosmics_2006
-Warning--empty booktitle in elsworth_performance_1995
 Warning--empty institution in heck_extensive_2017
-Warning--empty year in nmdb_nmdb_nodate
-You've used 83 entries,
+You've used 12 entries,
             2881 wiz_defined-function locations,
-            1341 strings with 34923 characters,
-and the built_in function-call counts, 39668 in all, are:
-= -- 3103
-> -- 3074
-< -- 232
-+ -- 1350
-- -- 484
-* -- 4716
-:= -- 6445
+            804 strings with 9301 characters,
+and the built_in function-call counts, 5981 in all, are:
+= -- 417
+> -- 509
+< -- 32
++ -- 225
+- -- 88
+* -- 704
+:= -- 1000
 add.period$ -- 0
-call.type$ -- 83
-change.case$ -- 167
-chr.to.int$ -- 79
-cite$ -- 87
-duplicate$ -- 1911
-empty$ -- 1926
-format.name$ -- 728
-if$ -- 6821
-int.to.chr$ -- 5
+call.type$ -- 12
+change.case$ -- 25
+chr.to.int$ -- 12
+cite$ -- 14
+duplicate$ -- 289
+empty$ -- 291
+format.name$ -- 118
+if$ -- 1005
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 78
-newline$ -- 266
-num.names$ -- 598
-pop$ -- 392
+missing$ -- 8
+newline$ -- 50
+num.names$ -- 86
+pop$ -- 85
 preamble$ -- 1
-purify$ -- 332
+purify$ -- 48
 quote$ -- 0
-skip$ -- 1178
+skip$ -- 167
 stack$ -- 0
-substring$ -- 2078
-swap$ -- 960
-text.length$ -- 337
+substring$ -- 273
+swap$ -- 144
+text.length$ -- 50
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 747
-warning$ -- 4
-while$ -- 636
+type$ -- 108
+warning$ -- 2
+while$ -- 85
 width$ -- 0
-write$ -- 850
-(There were 4 warnings)
+write$ -- 132
+(There were 2 warnings)

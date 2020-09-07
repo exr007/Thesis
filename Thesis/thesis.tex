@@ -44,6 +44,12 @@
 \usepackage{array}
 \usepackage{multirow}
 
+\usepackage[acronym]{glossaries}
+
+%\makeglossaries
+\makenoidxglossaries
+\input{Chapters/Other/acronyms.tex}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \graphicspath{{Title/}{Chapters/Intro/}{Chapters/HiSPARC/}{Chapters/HS_14008/}{Chapters/SMMF/}{Chapters/r-mode/}{Chapters/GCR_SSN/}{Appendices/SMMF-sims/}}%Add more folders here for graphics for each chapter. 
@@ -114,8 +120,10 @@
 
 %  Abbreviations
 \thispagestyle{plain}
-%\addcontentsline{toc}{chapter}{List of Abbreviations}
-\input{Chapters/Other/abbrev.tex}
+%\input{Chapters/Other/abbrev.tex}
+\printnoidxglossary[type=acronym, title=List of Abbreviations, toctitle=List of Abbreviations, nonumberlist]
+\printacronyms
+\addcontentsline{toc}{chapter}{List of Abbreviations}
 \thispagestyle{plain}
 \end{singlespace}
 
@@ -136,18 +144,23 @@
 %Blow this joint...
 
 %HiSPARC
-%\input{Chapters/HiSPARC/HiSPARC.tex}
+\glsresetall
+\input{Chapters/HiSPARC/HiSPARC.tex}
 
 %HiSPARC 14008
-%\input{Chapters/HS_14008/HS_14008.tex}
+\glsresetall
+\input{Chapters/HS_14008/HS_14008.tex}
 
 %GCR_SSN
-%\input{Chapters/GCR_SSN/GCR_SSN.tex}
+\glsresetall
+\input{Chapters/GCR_SSN/GCR_SSN.tex}
 
 %SMMF
+\glsresetall
 \input{Chapters/SMMF/SMMF.tex}
 
 %r-mode
+\glsresetall
 \input{Chapters/r-mode/r-mode.tex}
 
 
@@ -157,6 +170,9 @@
 %\begin{singlespace}
 % Include any appendix files without their .tex extensions
 % No, I have no idea why.
+\glsresetall
+\include{Appendices/CORSIKA-sims/CORSIKA_sims}
+\glsresetall
 \include{Appendices/SMMF-sims/SMMF_sims}
 %\end{singlespace}
 
