@@ -16,73 +16,15 @@
 \BOOKMARK [1][-]{section.1.5}{Air Shower Simulations}{chapter.1}% 16
 \BOOKMARK [2][-]{subsection.1.5.1}{Air Shower Footprints}{section.1.5}% 17
 \BOOKMARK [2][-]{subsection.1.5.2}{Muon Flux}{section.1.5}% 18
-\BOOKMARK [1][-]{section.1.6}{Standardisation of HiSPARC Data}{chapter.1}% 19
-\BOOKMARK [2][-]{subsection.1.6.1}{Motivation}{section.1.6}% 20
-\BOOKMARK [2][-]{subsection.1.6.2}{Barometric Correction}{section.1.6}% 21
-\BOOKMARK [2][-]{subsection.1.6.3}{Temperature Correction}{section.1.6}% 22
-\BOOKMARK [1][-]{section.1.7}{HiSPARC Observations After Pressure Corrections}{chapter.1}% 23
-\BOOKMARK [2][-]{subsection.1.7.1}{Pressure Corrected Observations of Ground Level Enhancements}{section.1.7}% 24
-\BOOKMARK [2][-]{subsection.1.7.2}{Pressure Corrected Observations of Forbush Decreases}{section.1.7}% 25
-\BOOKMARK [1][-]{section.1.8}{Discussion}{chapter.1}% 26
-\BOOKMARK [1][-]{section.1.9}{Conclusion}{chapter.1}% 27
-\BOOKMARK [0][-]{chapter.2}{HiSPARC Station 14008}{}% 28
-\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 29
-\BOOKMARK [1][-]{section.2.2}{Aims}{chapter.2}% 30
-\BOOKMARK [1][-]{section.2.3}{HiSPARC 14008 Detector Set-up}{chapter.2}% 31
-\BOOKMARK [2][-]{subsection.2.3.1}{Configuration}{section.2.3}% 32
-\BOOKMARK [2][-]{subsection.2.3.2}{Calibration}{section.2.3}% 33
-\BOOKMARK [2][-]{subsection.2.3.3}{Monitoring Temperature}{section.2.3}% 34
-\BOOKMARK [1][-]{section.2.4}{Observations}{chapter.2}% 35
-\BOOKMARK [1][-]{section.2.5}{Conclusions}{chapter.2}% 36
-\BOOKMARK [0][-]{chapter.3}{Galactic Cosmic Ray Behaviour During Solar Cycle 24}{}% 37
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 38
-\BOOKMARK [1][-]{section.3.2}{Data}{chapter.3}% 39
-\BOOKMARK [1][-]{section.3.3}{Time-Lag Analysis}{chapter.3}% 40
-\BOOKMARK [2][-]{subsection.3.3.1}{Method}{section.3.3}% 41
-\BOOKMARK [2][-]{subsection.3.3.2}{Results}{section.3.3}% 42
-\BOOKMARK [1][-]{section.3.4}{Hysteresis Effect Analysis}{chapter.3}% 43
-\BOOKMARK [2][-]{subsection.3.4.1}{Method}{section.3.4}% 44
-\BOOKMARK [2][-]{subsection.3.4.2}{Results}{section.3.4}% 45
-\BOOKMARK [1][-]{section.3.5}{Conclusions}{chapter.3}% 46
-\BOOKMARK [1][-]{section.3.6}{Update: End of Cycle 24}{chapter.3}% 47
-\BOOKMARK [1][-]{section.3.7}{Comparison with HiSPARC}{chapter.3}% 48
-\BOOKMARK [0][-]{chapter.4}{A Frequency Domain Investigation on the Morphology of the Solar Mean Magnetic Field}{}% 49
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 50
-\BOOKMARK [1][-]{section.4.2}{Aims}{chapter.4}% 51
-\BOOKMARK [1][-]{section.4.3}{Data}{chapter.4}% 52
-\BOOKMARK [2][-]{subsection.4.3.1}{Summary of the Data Set}{section.4.3}% 53
-\BOOKMARK [2][-]{subsection.4.3.2}{Obtaining the SMMF from BiSON}{section.4.3}% 54
-\BOOKMARK [2][-]{subsection.4.3.3}{Comparison between WSO and BiSON}{section.4.3}% 55
-\BOOKMARK [1][-]{section.4.4}{Methodology}{chapter.4}% 56
-\BOOKMARK [2][-]{subsection.4.4.1}{Identifying Features in the SMMF Power Spectrum}{section.4.4}% 57
-\BOOKMARK [2][-]{subsection.4.4.2}{Parameterisation of the SMMF Power Spectrum}{section.4.4}% 58
-\BOOKMARK [2][-]{subsection.4.4.3}{Comparison with the WSO SMMF}{section.4.4}% 59
-\BOOKMARK [1][-]{section.4.5}{Results}{chapter.4}% 60
-\BOOKMARK [2][-]{subsection.4.5.1}{Investigation of the Window Function}{section.4.5}% 61
-\BOOKMARK [2][-]{subsection.4.5.2}{Modelling the BiSON Power Spectrum}{section.4.5}% 62
-\BOOKMARK [2][-]{subsection.4.5.3}{Comparison to the WSO Power Spectrum}{section.4.5}% 63
-\BOOKMARK [1][-]{section.4.6}{Discussion}{chapter.4}% 64
-\BOOKMARK [2][-]{subsection.4.6.1}{Asymmetry in the Power Spectrum}{section.4.6}% 65
-\BOOKMARK [2][-]{subsection.4.6.2}{Testing the Effects of Differential Rotation and Active Region Migration}{section.4.6}% 66
-\BOOKMARK [2][-]{subsection.4.6.3}{Further Morphology of the SMMF using SDO/HMI Data}{section.4.6}% 67
-\BOOKMARK [1][-]{section.4.7}{Conclusion}{chapter.4}% 68
-\BOOKMARK [0][-]{chapter.5}{Rossby Modes in the Solar Mean Magnetic Field}{}% 69
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 70
-\BOOKMARK [1][-]{section.5.2}{Aims}{chapter.5}% 71
-\BOOKMARK [1][-]{section.5.3}{Theory}{chapter.5}% 72
-\BOOKMARK [1][-]{section.5.4}{Methodology}{chapter.5}% 73
-\BOOKMARK [2][-]{subsection.5.4.1}{Testing the Residual Spectrum}{section.5.4}% 74
-\BOOKMARK [2][-]{subsection.5.4.2}{Modelling r mode Profiles}{section.5.4}% 75
-\BOOKMARK [1][-]{section.5.5}{Results}{chapter.5}% 76
-\BOOKMARK [2][-]{subsection.5.5.1}{Testing the Residual Spectrum}{section.5.5}% 77
-\BOOKMARK [2][-]{subsection.5.5.2}{Modelling r mode Profiles}{section.5.5}% 78
-\BOOKMARK [1][-]{section.5.6}{Discussion}{chapter.5}% 79
-\BOOKMARK [2][-]{subsection.5.6.1}{Manifestation of Rossby Waves in the Power Spectrum}{section.5.6}% 80
-\BOOKMARK [2][-]{subsection.5.6.2}{Rossby Modes in Other Sources of SMMF Data}{section.5.6}% 81
-\BOOKMARK [1][-]{section.5.7}{Conclusion}{chapter.5}% 82
-\BOOKMARK [0][-]{appendix.A}{Simulations of Cosmic Ray Air Showers using CORSIKA}{}% 83
-\BOOKMARK [0][-]{appendix.B}{Simulations of the Artificial SMMF}{}% 84
-\BOOKMARK [1][-]{section.B.1}{Model}{appendix.B}% 85
-\BOOKMARK [1][-]{section.B.2}{Configuration of the Simulations}{appendix.B}% 86
-\BOOKMARK [1][-]{section.B.3}{Outputs}{appendix.B}% 87
-\BOOKMARK [0][-]{figure.caption.89}{Bibliography}{}% 88
+\BOOKMARK [2][-]{subsection.1.5.3}{Muon Flux From MAIRE}{section.1.5}% 19
+\BOOKMARK [1][-]{section.1.6}{Standardisation of HiSPARC Data}{chapter.1}% 20
+\BOOKMARK [2][-]{subsection.1.6.1}{Motivation}{section.1.6}% 21
+\BOOKMARK [2][-]{subsection.1.6.2}{Barometric Correction}{section.1.6}% 22
+\BOOKMARK [2][-]{subsection.1.6.3}{Temperature Correction}{section.1.6}% 23
+\BOOKMARK [1][-]{section.1.7}{HiSPARC Observations After Pressure Corrections}{chapter.1}% 24
+\BOOKMARK [2][-]{subsection.1.7.1}{Pressure Corrected Observations of Ground Level Enhancements}{section.1.7}% 25
+\BOOKMARK [2][-]{subsection.1.7.2}{Pressure Corrected Observations of Forbush Decreases}{section.1.7}% 26
+\BOOKMARK [1][-]{section.1.8}{Discussion}{chapter.1}% 27
+\BOOKMARK [1][-]{section.1.9}{Conclusion}{chapter.1}% 28
+\BOOKMARK [0][-]{appendix.A}{Simulations of Cosmic Ray Air Showers using CORSIKA}{}% 29
+\BOOKMARK [0][-]{table.caption.37}{Bibliography}{}% 30

@@ -110,6 +110,19 @@ We use the Raspberry Pi to control the data acquisition by running a Python prog
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Observations}\label{sec:HS_14008_observations}
 
+From the \gls{corsika} simultions in the earlier section, we predict a ground level muon rate passing through the detectors...
+
+(do this by intergrating under curve, using 70-degre half-angle cone for solid angle, and area of 0.5m2)
+% i.e. in python doing doing:
+% where df contains the alpha and proton diff fluxes
+% v = scipy.integrate.simps(df_a_v[1]+df_p_v[1], df_a_v.index.values)
+% sr = 4*np.pi*(np.sin(np.deg2rad(70/2)))**2
+% area = 0.5
+% rate_v = v*sr*area
+
+Get the rate as: $85.365 \, \mu/\mathrm{s}$ (non-vertical, i.e. 70-deg sims) or $156.924 \, \mu/\mathrm{s}$ (for vertical sims)
+
+... for a typical day with this station, we have a count rate of $\sim 80 \, \mu/\mathrm{s}$...
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

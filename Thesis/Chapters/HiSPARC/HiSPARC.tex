@@ -178,7 +178,7 @@ The effects of space weather on \glspl{cr} has been outlined in [REF intro]. It 
 		\hline
 		{\bf GLE Onset} & {\bf GLE} & {\bf \% Change (Oulu)} & {\bf FD Onset} & {\bf \% Change (Oulu)}\\
 		\hline
-		{13/12/2006} & {70} & {$\sim 100\%$} & {08/03/2012} & {$\sim 10\%$}  \\
+		{13/12/2006} & {70} & {$\sim 90\%$} & {08/03/2012} & {$\sim 10\%$}  \\
 		{17/05/2012} & {71} & {$\sim 15\%$} & {12/03/2012} & {$\sim 3-5\%$} \\
 		{10/09/2017} & {72} & {$\sim 5\%$} & {14/07/2012} & {$\sim 3\%$} \\
 		{} & {} & {} & {21/12/2014} & {$\sim 5\%$} \\
@@ -381,17 +381,19 @@ No clear signal of \glspl{fd} has been observed in the raw HiSPARC data. We agai
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Air Shower Simulations}\label{sec:CORSIKA}
 
-In order to understand the footprint of air showers produced by \glspl{pcr}, simulations of air showers were performed for a range of \glspl{pcr} energies for both primary protons and $\alpha$-particles.
+In order to understand the muon abundance and the scale of the footprints of air showers produced by \glspl{pcr}, simulations of air shower developments were performed for a range of \glspl{pcr} energies for both primary protons and $\alpha$-particles.
 
-To simulate the \gls{cr} air shower development, the software \gls{corsika} was employed: a Monte Carlo programme providing detailed simulations of the evolution of air showers initiated by \glspl{pcr} through the atmosphere \citep{heck_extensive_2017}. The particles in the \gls{corsika} simulations are tracked through the atmosphere until they undergo interactions with atmospheric nuclei, decay due to their instability, or reach the ground level defined as the simulation terminator.
+To simulate the \gls{cr} air shower development, the \gls{corsika} software was employed: a Monte Carlo programme providing detailed simulations of the evolution of air showers initiated by \glspl{pcr} through the atmosphere \citep{heck_extensive_2017}. The particles in the \gls{corsika} simulations are tracked through the atmosphere until they undergo interactions with atmospheric nuclei, decay due to their instability, or reach the ground level defined as the simulation terminator.
 
-Proton and $\alpha$-particle initiated air showers were generated with energies ranging from $10^{9}$ to $10^{20}$~eV, and $4\times10^{9}$ to $10^{20}$~eV, respectively. In total $\sim 230000$ proton-initiated showers were simulated and $\sim 180000$ $\alpha$-particle-initiated air showers were simulated. The lists detailing the breakdown of \gls{pcr} energies and number of simulations is provided in Appendix~\ref{app:CORSIKA_sims}, along with a brief discussion of the settings chosen within the simulations. 
+Proton and $\alpha$-particle initiated air showers were generated with energies ranging from $10^{9}$ to $10^{20}$~eV, and $4\times10^{9}$ to $10^{20}$~eV, respectively. In total $\sim 2\times10^5$ proton-initiated showers were simulated and $\sim 2\times10^5$ $\alpha$-particle-initiated air showers were simulated. The lists detailing the breakdown of \gls{pcr} energies and number of simulations is provided in Appendix~\ref{app:CORSIKA_sims}, along with a brief discussion of the settings chosen within the simulations.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Air Shower Footprints}\label{sec:CORSIKA_footprint}
 
-The average footprint of muons at ground level was acquired from the output \gls{corsika} simulations, by taking the distribution of the muons at ground level at the end of the simulation as a function of their distance from the shower core for each individual simulation realisation. For a given \gls{pcr} energy, the average footprint distribution is calculated by combining all of the individual simulation realisations. Figure~\ref{fig:shower_footprints} shows the distributions for air showers induced by vertically incident protons and $\alpha$-particles.
+The average footprint of muons at ground level was acquired from the output \gls{corsika} simulations by taking the distribution of the muons at ground level at the end of the simulation as a function of their distance from the shower core. This was achieved for each individual simulation realisation, and for a given \gls{pcr} energy, the average footprint distribution was calculated by combining all of the individual simulation realisations. Figure~\ref{fig:shower_footprints} shows the distributions for air showers induced by vertically incident protons and $\alpha$-particles.
+
+We also repeated the simulations for air showers randomly selected from a uniform distribution of incident angles between 0$^\circ$ (vertical) and 70$^\circ$, to provide a more representative simulation. Similar plots were produced to those in Figure~\ref{fig:shower_footprints}, but they are not shown here, as the difference is not drastically different by-eye.
 
 %[Discuss how distance between the HiSPARC station 2d/4d detectors will impact the ability to view certain PCR energies, and sets an lower limit on the energies observable in the standard trigger mode]
 
@@ -403,9 +405,9 @@ The average footprint of muons at ground level was acquired from the output \gls
 	\caption{Mean muon density footprints for (a) proton-initiated air showers and (b) $\alpha$-particle-initiated air showers with initial PCR trajectories with zenith angles $\theta=0^{\circ}$ and various PCR energies. The error bars given represent 1$\sigma$.} \label{fig:shower_footprints}
 \end{figure}
 
-The interpretation of Figure~\ref{fig:shower_footprints} provides an understanding of the minimum energy \glspl{pcr} observable by the different stations within the HiSPARC network. The typical separation between the detectors in a HiSPARC station is $\sim 10$~m; however, the separation between detectors varies from station-to-station and can be up to as much as some 20~m or as low as just a couple of metres.
+The interpretation of Figure~\ref{fig:shower_footprints} provides an understanding of the minimum energy \glspl{pcr} observable by the different stations within the HiSPARC network. The typical separation between the detectors in a HiSPARC station is $\sim 10$~m; however, the separation between detectors varies from station-to-station and can be up to as much as some 20~m or as low as just a couple of metres. From the simulations we inferred that the variation in \gls{pcr} energy sampled varies marginally over this range of detector separations and suggests that HiSPARC stations will typically observe \glspl{pcr} with an energy on the order of $\sim 10^{14}-10^{15}$~eV and above, as they produce a sufficient density of muons to meet the required trigger conditions. 
 
-This analysis of the air shower footprint shows the variation in PCR energy sampled varies marginally over this range of distances and suggests that HiSPARC stations will typical observe PCR with an energy of $\sim 10^{14}-10^{15}$~eV to meet the required trigger conditions.
+This helps explain why the \glspl{gle} and \glspl{fd} were not observed in the HiSPARC events data. The effects of \glspl{gle} and \glspl{fd} are more prominent at lower \gls{pcr} rigidities and the air showers induced by the lower rigidity \gls{pcr} are not sufficient to induce an air shower that will trigger multiple detectors in a station. It was more likely that we may have observed the \glspl{gle} or \glspl{fd} in the singles data, as this only records the count rate of an individual detector, but again they were not observed, which may be explained looking at the flux of the muons at ground level.
 
 %\begin{table}
 %	\begin{center}
@@ -426,16 +428,85 @@ This analysis of the air shower footprint shows the variation in PCR energy samp
 
 \subsection{Muon Flux}\label{sec:CORSIKA_flux}
 
-From the air shower simulations it is possible to gain an estimate of the muon flux at groud-level based on the number of 
+From the air shower simulations it was also possible to gain an estimate of how many muons are produced per \gls{pcr}. Figure~\ref{fig:shower_muons} shows the energy distribution of muons produced per primary \gls{pcr}, for air showers induced by vertically incident protons and $\alpha$-particles.
 
-\begin{figure}
+\begin{figure}[ht!]
 	\centering
 	\subfloat[Proton initiated air shower. \label{fig:p_muons}]{\includegraphics[width=0.47\columnwidth]{proton_muon_number.pdf}} 
 	\qquad
 	\subfloat[$\alpha$-particle initiated air shower. \label{fig:a_muons}]{\includegraphics[width=0.47\columnwidth]{alpha_muon_number.pdf}}
-	\caption{Mean number of muons produced at ground level by the PCR for (a) proton-initiated air showers and (b) $\alpha$-particle-initiated air showers, for various PCR energy. The uncertainty bars given represent 1$\sigma$.}
+	\caption{Mean number of muons produced at ground level by the PCR for (a) proton-initiated air showers and (b) $\alpha$-particle-initiated air showers, for various PCR energy.}
 	\label{fig:shower_muons}
 \end{figure}
+
+The vertically incident air showers provides an upper boundary on the muon flux, but we also repeated the simulations for air showers randomly selected from a uniform distribution of incident angles between 0$^\circ$ (vertical) and 70$^\circ$, to provide a more representative flux. Similar plots were produced to those in Figure~\ref{fig:shower_muons}, but they are not shown here, as the difference is not drastically different by-eye. We see from this analysis that \glspl{pcr} with an energy less than $\sim 10^{11}-10^{12}$~eV produce only one or two muons that reach ground level, and below this \glspl{pcr} energy, it is rare that any muons are produced.
+
+This helps explain why the \glspl{gle} and \glspl{fd} were not observed in the HiSPARC events data. The effects of \glspl{gle} and \glspl{fd} are more prominent at lower \gls{pcr} rigidities, i.e. energies <$10^9$~eV. The air showers induced by the lower rigidity \glspl{pcr} are not sufficient to produce significant increases in the flux of the muons at ground level.
+
+We also used the data from the simulations to estimate the total muon flux at ground level, based on the \gls{pcr} flux at the top of the atmosphere. We used a model for the \gls{cr} flux, taken from \citet{corti_numerical_2019}, which utilised measurements from the \gls{ams} on-board the \gls{iss}. Figure~\ref{fig:CORSIKA_muon_spectra} shows the computed differential flux of muons at ground level, based on the simulations of vertically incident \glspl{pcr} and those randomly simulated within a 70$^\circ$ acceptance cone.
+
+% (do this by intergrating under curve, using 70-degre half-angle cone for solid angle, and area of 0.5m2)
+% i.e. in python doing doing:
+% where df contains the alpha and proton diff fluxes
+% v = scipy.integrate.simps(df_a_v[1]+df_p_v[1], df_a_v.index.values)
+% sr = 4*np.pi*(np.sin(np.deg2rad(70/2)))**2
+% area = 0.5
+% rate_v = v*sr*area
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\columnwidth]{CORSIKA_Muon_Diff_Flux_Comparison.pdf}
+	\caption{Muon differential flux computed using CORSIKA for vertically incident PCRs (solid, blue line) and for PCRs incident within an acceptance cone of $70^\circ$ (dashed, orange line).}
+	\label{fig:CORSIKA_muon_spectra}
+\end{figure}
+
+From Figure~\ref{fig:CORSIKA_muon_spectra}, we see that the ground-based flux is similar for both types of simulation performed. In both, the low-energy muon flux dominates, and peak at a muon energy of $\sim 1$~GeV.
+
+Finally, we used these calculated spectra to determine the expected rate of muons passing through a single HiSPARC detector. We computed the rates as: $85.365 \, \mu/\mathrm{s}$ (for non-vertical, i.e. $70^\circ$ acceptance cone simulations), and $156.924 \, \mu/\mathrm{s}$ (for vertical simulations). These rates are comparable to the generally accepted, average ground level muon flux of $\sim 1$ per cm$^2$ per second [cite to Autran: (https://doi.org/10.1016/j.nima.2018.06.038)].
+
+
+
+
+\subsection{Muon Flux From MAIRE}\label{sec:MAIRE_flux}
+
+As a further comparison, we used the online \gls{maire} tool to compute the muon spectrum in the atmosphere. \gls{maire} allows the computation of the secondary particle spectra in the atmosphere, caused by \glspl{sep}. \gls{maire} has a the advantage of also having the \gls{pcr} spectra for a number of \glspl{gle} built in, and therefore we obtained the muon spectra from these a few of the strongest \glspl{gle} at the Nikhef HiSPARC station (501). Figure~\ref{fig:MAIRE_muon_spectra} shows the muon spectra for a `typical' \gls{gcr} spectrum, and the additional muon spectrum for seven of the largest \glspl{gle} to date (which is additive to the \gls{gcr} spectrum).
+
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\columnwidth]{MAIRE_Muon_Diff_Flux.pdf}
+	\caption{Muon spectrum for the typical GCR flux and during GLEs, calculated using the MAIRE tool.}
+	\label{fig:MAIRE_muon_spectra}
+\end{figure}
+
+We can see that the \gls{gcr}-induced muon spectrum in Figure~\ref{fig:MAIRE_muon_spectra} roughly agrees with that computed using \gls{corsika}, which provides confidence in the results of both simulations. We can see that the effect on the muon spectrum drastically varies for the seven \glspl{gle}. The maximum increase in the \gls{nm} count rate for each of the \glspl{gle} is summarised in Table~\ref{tab:MAIRE_GLEs}. 
+
+\begin{table}
+	\begin{center}
+		\caption{...}
+		\label{tab:MAIRE_GLEs}
+		\begin{tabular}{l c c c c c}
+			\hline
+			GLE & Date & \% Peak Change (NM station) \\
+			\hline
+			5 & 23/02/1956 & $\sim 5100\%$ (Leeds) \\
+			42 & 29/29/1989 & $\sim 340\%$ (Calgary) \\
+			43 & 19/10/1989 & $\sim 90\%$ (South Pole) \\
+			44  & 22/10/1989 & $\sim 190\%$ (McMurdo) \\
+			45  & 24/10/1989 & $\sim 200\%$ (South Pole) \\
+			59 & 14/07/2000 & $\sim 60\%$ (South Pole) \\
+			60 & 15/04/2001 & $\sim 220\%$ (South Pole) \\
+			\hline
+		\end{tabular}
+	\end{center}
+\end{table}
+
+The effects of these \glspl{gle} are all very large, and the only modern \gls{gle} (i.e. in Table~\ref{tab:space_weather_events}) that is comparable to any of these is \gls{gle} 70, which is comparable to \gls{gle} 43 and 59. Unfortunately, there are few HiSPARC observations due to the immaturity of the project at the time and we have shown that we do not observe \gls{gle} 70 in the HiSPARC data.
+
+The additional contribution from the \glspl{gle} is small, and for most of the \glspl{gle}, only contributes an increase of $\sim 10 \%$ in the ground-level muon flux. The exception in Figure~\ref{fig:MAIRE_muon_spectra} is for \gls{gle} 5, but this was an exceptionally large event, for which we haven't seen anything similar in over half a decade; such events are rare. We expect that we would have seen this increase in the HiSPARC data, but, of course, this event pre-dated the HiSPARC project.
+
+These simulations, combined with the figures detailed in Table~\ref{tab:space_weather_events} and Table~\ref{tab:MAIRE_GLEs}, show us that we would have expected an increase in the muon spectrum of no more than $\sim 1\%$ (and more likely on the order of $\sim 0.1\%$) for both \gls{gle} 71 and 72, which rules their observation with HiSPARC as extremely unlikely.
+
 
 
 
@@ -445,13 +516,16 @@ From the air shower simulations it is possible to gain an estimate of the muon f
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Motivation}
-- HiSPARC stations are individually managed and guidlines aren't stringent
+- HiSPARC stations are individually managed and guidelines aren't stringent
+
 - Variability between stations exists and also apparently between detectors within a station (i.e. see singles during \gls{gle} 72)
+
+- We have seen that the stations are sensitive to their local atmospheric conditions...
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Barometric Correction}\label{sec:HS_P_corr}
 
-It is understood that observations made by ground-based \gls{cr} detectors are susceptible to atmospheric conditions. Atmospheric pressure effects the \gls{cr} travel path due to the expansion and contraction of the atmosphere with varying pressure; hence the \gls{cr} counts are observed to be negatively correlated to atmospheric pressure as shown for both NMs and MDs in Figure~\ref{fig:CR_V_P}. A correction for this barometric effect is routinely applied as part of the data calibration for all NM stations within the NMDB NEST, but there is no such process in the HiSPARC network.
+Observations made by ground-based \gls{cr} detectors are susceptible to atmospheric conditions. Atmospheric pressure effects the \gls{cr} path length due to the expansion and contraction of the atmosphere with varying pressure; hence the \gls{cr} counts are observed to be negatively correlated to atmospheric pressure as shown for both \glspl{nm} and \glspl{md} in Figure~\ref{fig:CR_V_P}. A correction for this barometric effect is routinely applied as part of the data calibration for all \gls{nm} stations within the \gls{nmdb} NEST, but there is no such process routinely applied in the HiSPARC network#s data pipeline.
 
 
 \begin{figure}[ht]
@@ -469,7 +543,7 @@ It is understood that observations made by ground-based \gls{cr} detectors are s
 \end{figure}
 
 
-The method of correcting for the barometric effect is discussed widely in the literature regarding NMs and is shown to depend on the barometric coefficient. Assuming the cosmic ray flux variation, absent of the atmospheric effects, is reaonably stable, then a simple corrected can be made. The \gls{cr} variations ($N$) that depend on the local atmospheric pressure are described by equation~(\ref{eq:presscorr1}), where $\Delta N$ is the change in count rate, $\beta$ is the barometric coefficient, and $\Delta P = P - P_0$ is the deviation in pressure from the average ($P_0$) in the given time-period \citep{paschalis_online_2013}:
+The method of correcting for the barometric effect is discussed widely in the literature regarding \glspl{nm} and is shown to depend on the barometric coefficient. Assuming the cosmic ray flux variation, absent of the atmospheric effects, is reasonably stable, then a simple correction to the counts can be made. The \gls{cr} variations ($N$) that depend on the local atmospheric pressure are described by equation~(\ref{eq:presscorr1}), where $\Delta N$ is the change in count rate, $\beta$ is the barometric coefficient, and $\Delta P = P - P_0$ is the deviation in pressure from the average ($P_0$) in the given time-period \citep{paschalis_online_2013}:
 
 \begin{equation}
 \Delta N = - \beta \, N \, \Delta P
@@ -507,7 +581,7 @@ A demonstration of the barometric correction method of fitting a straight line t
 \end{figure}
 
 
-An online barometric coefficient tool is available which allows user to perform the barometric correction for a given station over a user-defiend epoch (\url{http://cosray.phys.uoa.gr/index.php/data/nm-barometric-coefficient}). Using this tool, it was possible to provide a comparison between the method used in this work to that of the online NM barometric correction tool which is used for the correction of the NMDB stations. This is provided in Figure~\ref{fig:NM_beta_variation} for monthly corrections throughout 2017 for the NM station at the South Pole (SOPO).
+An online barometric coefficient tool is available for \glspl{nm}, which allows users to perform the barometric correction for a given station over a user-defined epoch (\url{http://cosray.phys.uoa.gr/index.php/data/nm-barometric-coefficient}) \citep{paschalis_online_2013}. Using this tool, it was possible to provide a comparison between the method used in this work to that of the online \gls{nm} barometric correction tool which is used for the correction of the \gls{nmdb} stations. This is provided in Figure~\ref{fig:NM_beta_variation} for monthly corrections throughout 2017 for the \gls{nm} station at the South Pole (SOPO).
 
 \begin{figure}[ht]
 	\centering
@@ -517,7 +591,9 @@ An online barometric coefficient tool is available which allows user to perform 
 \end{figure}
 
 
-Figure~\ref{fig:NM_beta_variation} shows a close agreement between the barometric coefficient calculated in this work and those acquired from the online tool for the SOPO NM. This was also true for other stations tested (APTY and ROME), thus providing confidence that the method used in this work was suitable for application on the HiSPARC data. The barometric correction was perfoemed on the stations where sufficient pressure data and count rates exist, and were re-investigated to determine whether the space weather events were observed in the HiSPARC data. These results are provided in Section \ref{sec:HS_obs_Pcorr}.
+Figure~\ref{fig:NM_beta_variation} shows a close agreement between the barometric coefficient calculated in this work and those acquired from the online tool for the SOPO \gls{nm}. This was also true for other stations tested (APTY and ROME), thus providing confidence that the method used in this work was suitable for application on the HiSPARC data. The barometric correction was performed on the stations where sufficient pressure data and count rates exist, and were re-investigated to determine whether the space weather events were observed in the HiSPARC data. These results are provided in Section \ref{sec:HS_obs_Pcorr}.
+
+[include a time series for the variation in the barometric coefficient for HiSPARC (i.e. for station 501)...]
 
 
 
@@ -534,31 +610,31 @@ Due to the difference in decay probability, the negative effects dominate for lo
 
 This is in contradiction with the observations of diurnal variation with the HiSPARC detector, as one can quite clearly see that the HiSPARC stations register higher count rates during local noon.
 
-Several methods of correcting for the negative temperature effect are summarised by \cite{berkova_temperature_2011} which utilise different measures of atmospheric temperature when performing the temperature correction. \cite{mendoncca_temperature_2016} provides a comparative summary of these methods applied to correct for atmospheric temperature variations observed by GMDN detectors. The methods discussed here however are typically applied over long timescales of years with low temporal resolution rather than to account for short timescale variations with periods of less than a day; hence the suitability of these methods is uncertain.
+Several methods of correcting for the negative temperature effect are summarised by \cite{berkova_temperature_2011} which utilise different measures of atmospheric temperature when performing the temperature correction. \cite{mendoncca_temperature_2016} provides a comparative summary of these methods applied to correct for atmospheric temperature variations observed by GMDN detectors. The methods discussed here however are typically applied over long timescales of years with low temporal resolution rather than to account for short timescale variations with periods of less than a day; hence these methods aren't necessarily suitable for this work.
 
-\cite{mendoncca_temperature_2016} concludes that correcting for temperature using the atmospheric mass weighted temperature is one of the most suitable methods for the GMDN as it allows for the highest correlation between long-term \gls{cr} variations and temperature. The mass weighted method is an approximation for integrating over the vertical atmospheric temperature as is given in Eq. (\ref{eq:tempcorr}):
+%\cite{mendoncca_temperature_2016} concludes that correcting for temperature using the atmospheric mass weighted temperature is one of the most suitable methods for the GMDN as it allows for the highest correlation between long-term \gls{cr} variations and temperature. The mass weighted method is an approximation for integrating over the vertical atmospheric temperature as is given in Eq. (\ref{eq:tempcorr}):
+%
+%\begin{equation}
+%\left( \frac{\Delta N}{N} \right)_T = \, \bar{\alpha}  \int^{h_0}_{0}  \, \delta \, T(h) \, dh = \sum_{i=0}^{n} \frac{x(h_i) - x(h_{i+1})}{x(h_0)} T(h_i)  = \alpha_{\mathrm{MSS}} \delta T_{\mathrm{MSS}}
+%\label{eq:tempcorr}
+%\end{equation}
+%
+%where $h_0$ is the closest to ground altitude; $\delta T_{\mathrm{MSS}}$ is the deviation of the mass weighted atmospheric temperature; $T(h_i)$ is the temperature in degrees kelvin observed at the altitude $h_i$; $x(h_ i)$ is the atmospheric depth at the altitude $h_i$ which is given by Eq. \ref{eq:atmos_depth}:
+%
+%\begin{equation}
+%x(h) = \int^{\infty}_{h}  \, \rho (h) \, dh  \, \rho (h) = \frac{P(h)}{T(h)} \frac{M_{mol}}{R} 
+%\label{eq:atmos_depth}
+%\end{equation}
+%
+%where $P(h)$ is the atmospheric pressure profile as a function of depth; $T(h)$ is the atmospheric temperature; $\rho(h)$ is the air density at a given altitude $h$; $M_{mol}$ is the molar mass of air; $R$ is the universal gas constant.
+%
+%The temperature correction is therefore used in a formalism the same as Eq. (\ref{eq:presscorr3}), replacing replacing $\beta$ for $\alpha$ and $\Delta P$ for $\Delta T$.
+%
+%In addition it is discussed by \cite{berkova_temperature_2011} and \cite{mendoncca_temperature_2016} that the effective generation level temperature is a suitable assumption for this purpose. This method is based on the assumption that muons are mostly generated at a certain isobaric level, taken as 100 mbar, and therefore the temperature at 100 mbar in the atmospheric pressure profile is used, $T_{\mathrm{100 \, mbar}}$.
+%
+%As discussed above, \cite{mendoncca_temperature_2016} provide this as a method for correcting for the long-term variation in atmospheric temperature which varies seasonally rather than to correct for diurnal variations; therefore it is unsure how relevant this method of atmospheric temperature correction will be to the diurnal variations observed in the HiSPARC data.
 
-\begin{equation}
-\left( \frac{\Delta N}{N} \right)_T = \, \bar{\alpha}  \int^{h_0}_{0}  \, \delta \, T(h) \, dh = \sum_{i=0}^{n} \frac{x(h_i) - x(h_{i+1})}{x(h_0)} T(h_i)  = \alpha_{\mathrm{MSS}} \delta T_{\mathrm{MSS}}
-\label{eq:tempcorr}
-\end{equation}
-
-where $h_0$ is the closest to ground altitude; $\delta T_{\mathrm{MSS}}$ is the deviation of the mass weighted atmospheric temperature; $T(h_i)$ is the temperature in degrees kelvin observed at the altitude $h_i$; $x(h_ i)$ is the atmospheric depth at the altitude $h_i$ which is given by Eq. \ref{eq:atmos_depth}:
-
-\begin{equation}
-x(h) = \int^{\infty}_{h}  \, \rho (h) \, dh  \, \rho (h) = \frac{P(h)}{T(h)} \frac{M_{mol}}{R} 
-\label{eq:atmos_depth}
-\end{equation}
-
-where $P(h)$ is the atmospheric pressure profile as a function of depth; $T(h)$ is the atmospheric temperature; $\rho(h)$ is the air density at a given altitude $h$; $M_{mol}$ is the molar mass of air; $R$ is the universal gas constant.
-
-The temperature correction is therefore used in a formalism the same as Eq. (\ref{eq:presscorr3}), replacing replacing $\beta$ for $\alpha$ and $\Delta P$ for $\Delta T$.
-
-In addition it is discussed by \cite{berkova_temperature_2011} and \cite{mendoncca_temperature_2016} that the effective generation level temperature is a suitable assumption for this purpose. This method is based on the assumption that muons are mostly generated at a certain isobaric level, taken as 100 mbar, and therefore the temperature at 100 mbar in the atmospheric pressure profile is used, $T_{\mathrm{100 \, mbar}}$.
-
-As discussed above, \cite{mendoncca_temperature_2016} provide this as a method for correcting for the long-term variation in atmospheric temperature which varies seasonally rather than to correct for diurnal variations; therefore it is unsure how relevant this method of atmospheric temperature correction will be to the diurnal variations observed in the HiSPARC data.
-
-
+[finally discuss, in connection with the diurnal effect, that the HiSPARC stations don't really have a suitable measure of temperature. They provide the local outdoor temperature, nearby, and also the temperature in the room where the electronics are (useless...)... so limited capacity to be able to do a good job on the temperature correction...]
 
  
 
@@ -570,14 +646,17 @@ As discussed above, \cite{mendoncca_temperature_2016} provide this as a method f
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Pressure Corrected Observations of Ground Level Enhancements}
 
+Following the pressure correction, the search for evidence of \glspl{gle} was re-conducted, this time within the pressure corrected HiSPARC data. This could only be conducted for \gls{gle} 71 and 72, as the HiSPARC network was not collecting meteorological data during the epoch of \gls{gle} 70. Figure~\ref{fig:GLE_71_Pcorr} and Figure~\ref{fig:GLE_72_Pcorr} shows the pressure-corrected HiSPARC observations around the epochs of \gls{gle} 71 and 72, respectively.
+
+The observations of \gls{gle} 71 show only the HiSPARC events data; however, we also show the singles rates from each of the individual detectors in a station for \gls{gle} 72.
 
 \begin{figure}[ht]
 	\centering
-	\subfloat[3001]{
+	\subfloat[HS 3001 (Leiden)]{
 		\includegraphics[width=0.48\columnwidth]{GLE71_3001_Pcorr.pdf}
 		\label{fig:GLE71_3001_Pcorr}}
 	%\qquad
-	\subfloat[8001]{
+	\subfloat[HS 8001 (Eindhoven)]{
 		\includegraphics[width=0.48\columnwidth]{GLE71_8001_Pcorr.pdf}
 		\label{fig:GLE71_8001_Pcorr}} \\
 	
@@ -602,16 +681,18 @@ As discussed above, \cite{mendoncca_temperature_2016} provide this as a method f
 	\label{fig:GLE_72_Pcorr}
 \end{figure}
 
+There are no clear \glspl{gle} observations in the pressure corrected HiSPARC data. We believe this is due to the a mixture of the reasons discussed above: a high rigidity cut-off of the HiSPARC stations as \glspl{gle} are caused by \glspl{sep} with a lower energy, and too few additional muons produced during these most recent \glspl{gle}.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Pressure Corrected Observations of Forbush Decreases}
 
-
+The search for evidence of \glspl{fd} was re-conducted, this time within the pressure corrected HiSPARC data. Figure~\ref{fig:FD_201207_8001_Pcorr} and Figure~\ref{fig:FD_201412_501_Pcorr} shows the pressure-corrected HiSPARC observations around the epochs of a \gls{fd} in July 2012 and December 2014, respectively.
 
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.65\columnwidth]{FD_201207_8001_Pcorr.pdf}
-	\caption{...}
+	\caption{HS 8001 (Eindhoven)}
 	\label{fig:FD_201207_8001_Pcorr}
 \end{figure}
 
@@ -620,11 +701,14 @@ As discussed above, \cite{mendoncca_temperature_2016} provide this as a method f
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.65\columnwidth]{FD_201412_501_Pcorr.pdf}
-	\caption{...}
+	\caption{HS 501 (Nikhef)}
 	\label{fig:FD_201412_501_Pcorr}
 \end{figure}
 
 
+There are no clear \glspl{fd} observations in the pressure corrected HiSPARC data shown in Figure~\ref{fig:FD_201207_8001_Pcorr} and Figure~\ref{fig:FD_201412_501_Pcorr}...
+
+[... introduce the last pressure corrected data plots...]
 
 \begin{figure}[ht]
 	\centering
@@ -637,9 +721,11 @@ As discussed above, \cite{mendoncca_temperature_2016} provide this as a method f
 		\label{fig:FD_GLE72_203_Pcorr}} \\
 	
 	
-	\caption{Pressure corrected HiSPARC data for [n] stations around the epoch in which there were several FDs close to the onset of GLE 72. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical blue-dashed lines show the approximate onset-times of the two FDs observed around this epoch and the red-dashed line depicts the approximate onset time of the GLE.}
+	\caption{Pressure corrected HiSPARC data for 2 stations in an epoch where there were two FDs close to the onset of GLE 72. The top panel of each subplot shows the minute-averaged events data, while the bottom panels show the mean-shifted, minute-averaged counts by each individual detector in the stations. The vertical blue-dashed lines show the approximate onset-times of the FDs and the red-dashed line depicts the approximate onset-time of the GLE.}
 	\label{fig:FD_GLE72_Pcorr}
 \end{figure}
+
+[...insert comments on the lack of clear fds here...]
 
 
 
@@ -647,7 +733,7 @@ As discussed above, \cite{mendoncca_temperature_2016} provide this as a method f
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion}\label{sec:HS_discussion}
 
-Throughout this chapter the feasibility of using the HiSPARC network of muon detectors has been analysed. This has involved performing cosmic ray air shower simluations using \gls{corsika} and performing backwards
+Throughout this chapter the feasibility of using the HiSPARC network of muon detectors has been analysed. This has involved performing cosmic ray air shower simulations using \gls{corsika} and performing backwards
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
