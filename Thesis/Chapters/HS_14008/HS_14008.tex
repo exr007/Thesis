@@ -4,6 +4,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}\label{sec:HS_14008_intro}
 
+
+... [on daily variations (DV)] Dr. Rolf Butikofer (in a reply from Danislav Sapundjiev, dasapund@meteo.be) said:
+
+\textit{"The daily cosmic ray variation near Earth is caused by the anisotropy of the cosmic ray intensity in the interplanetary space. Cosmic ray particles follow the field lines of the interplanetary magnetic field when they travel towards the interior of the heliosphere. Because of the rotation of the Earth, the angle between the asymptotic cone of acceptance of various energies at the location of ground-based cosmic ray detectors (neutron monitors) and the direction of the interplanetary magnetic field varies with a time period of 24 hours. As a consequence cosmic ray detectors look in different directions in the course of a day and observe therefore a diurnal variation. The daily variations of neutron monitors is mainly seen by high latitude stations which have asymptotic directions at low energies (rigidities) near the equator."}
+
+
+
 It was clear from the work covered in Chapter~\ref{chap:HiSPARC}, using data from the HiSPARC network, that the HiSPARC detectors were not clearly capable of observing space weather events and this is also hindered as they are rather sensitive to variations in the terrestrial conditions. 
 
 To some extent, it was possible to eliminate the variation in CRs due to terrestrial variation from the HiSPARC data; however it was shown to be not always so simple, as different detectors in the HiSPARC network showed different responses to pressure and temperature variation. The non-linear relationship between temperature and CR count means the correction of the count rate due to thermal fluctuations is non-trivial, unlike the counterpart correction for pressure. 
@@ -21,6 +28,8 @@ To exploit this, it is possible to stack 2 detectors on top of each other to mea
 \section{Aims}\label{sec:HS_14008_aims}
 
 The aim of creating a new HiSPARC station was to test whether an alternative configuration of HiSPARC station could minimise atmospheric deviations in the data and allow for the observation of space weather events...
+
+... provide a more robust detector for observing muons ...
 
 
 
@@ -106,6 +115,17 @@ Figure~\ref{fig:temperature_sensor_circuit} shows the schematic for the temperat
 
 We use the Raspberry Pi to control the data acquisition by running a Python program to output the temperature readings from the sensor to a local file. The temperature is read on a 10-second cadence and is recorded in degrees Celsius.
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Monitoring Pressure}
+
+As with the previous chapter, it was still necessary to account for the barometric effect on the muon count rate. To monitor the pressure, a nearby station was used which measures the temperature 
+
+
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Observations}\label{sec:HS_14008_observations}
@@ -123,6 +143,9 @@ From the \gls{corsika} simultions in the earlier section, we predict a ground le
 Get the rate as: $85.365 \, \mu/\mathrm{s}$ (non-vertical, i.e. 70-deg sims) or $156.924 \, \mu/\mathrm{s}$ (for vertical sims)
 
 ... for a typical day with this station, we have a count rate of $\sim 80 \, \mu/\mathrm{s}$...
+
+
+[now move onto the pressure and temperature corrected data and discuss the observations that we see - do we need to have a separate pressrure and temperature correctyion section???]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
