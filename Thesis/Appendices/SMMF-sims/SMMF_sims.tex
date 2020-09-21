@@ -3,11 +3,11 @@
 
 \section{Model}
 
-The artificial data used in the simulations of the \gls{smmf} was created using 2 very simplistic models, either separately or in combination, which were physically motivated by sunspots and active regions on the solar surface:
+The artificial data used in the simulations of the \gls{smmf} were created using 2 very simplistic models, either separately or in combination, which were physically motivated by sunspots and \glspl{ar} on the solar surface \citep{van_driel-gesztelyi_evolution_2015}:
 
 \begin{enumerate}
 	
-	\item{{\bf Cosine}: in this model a source was simulated as a single region which appears on the visible disk from one limb, traversing across the disk, before disappearing off the other limb (see Fig.~\ref{fig:cosine_model}). The physical motivation for this would be a single, concentrated source of imbalanced magnetic flux. This method induces no sign change of the simulated source; it remains the same polarity always. This was simulated as a rectified sinusoidal signal, with a 50$\%$ duty cycle (i.e. it is only visible during times on near-side of the disk).}
+	\item{{\bf Cosine}: in this model a source was simulated as a single region which ingresses visible disk from one limb, traverses across the disk, before egressing the other limb (see Fig.~\ref{fig:cosine_model}). The physical motivation for this would be a single, concentrated source of imbalanced magnetic flux. This method induces no sign change of the simulated source; it remains the same polarity always. This was simulated as a rectified sinusoidal signal, with a 50$\%$ duty cycle (i.e. it is only visible during times on near-side of the disk).}
 	
 	\item{{\bf Sign change}: in this model a source was simulated as 2 regions of opposite polarity, such as sunspot pairs or a \gls{bmr}. The leading region contributes more at the start of the transit during ingress, and the trailing source contributes more at the end of the transit during egress; hence at the middle of the transit we assume there is a sign change in the overall signal, see Fig.~\ref{fig:sgn_cng_model}. This was simulated as a rectified sinusoidal signal, and was multiplied by a cosinusoidal signal of the same period to provide the projection of the pair of regions. This operation results in a rectified sinusoidal signal with half the period.}
 	
@@ -161,6 +161,6 @@ On the other hand, the `sign change' model has near-zero low frequency power due
 	\label{fig:artificial_sim_outs}
 \end{figure}
 
-These realisations show the simulated \gls{smmf} on a daily cadence. The plots show the stark difference in the time series produced by each model. There are many deviations from a zero mean in the `cosine' model case, which clearly demonstrates the origin of the low frequency power. In the `sign change' model realisation, the data shows a compelling near--zero mean, hence the origin of the near--zero low frequency power in the spectrum.
+These realisations show the simulated \gls{smmf} on a daily cadence. The plots show the stark difference in the time series produced by each model. There are many deviations from a zero mean in the `cosine' model case, which clearly demonstrates the origin of the low frequency power. In the `sign change' model realisation, the data show a compelling near--zero mean, hence the origin of the near--zero low frequency power in the spectrum.
 
 Both realisations of the simulations result in a time series which does resemble some of the features of the \gls{bison} \gls{smmf} observations, and hence there is a justification for using both in combination to simulate a representative model of the \gls{smmf}. This is supported also by the power spectra for each realisation, and the limit spectra. The power spectrum of the \gls{bison} \gls{smmf} shows a strong harmonic peak at three times the period, which is more prominent in the `sign change' model than the `cosine'. The `sign change' model power spectrum also shows a similar splitting around the half--period frequency, resembling that of the \gls{bison} spectrum in Figure~\ref{fig:BiSON_vs_WSO_PSDs}.

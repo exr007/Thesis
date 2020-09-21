@@ -15,7 +15,7 @@ It was clear from the work covered in Chapter~\ref{chap:HiSPARC}, using data fro
 
 To some extent, it was possible to eliminate the variation in CRs due to terrestrial variation from the HiSPARC data; however it was shown to be not always so simple, as different detectors in the HiSPARC network showed different responses to pressure and temperature variation. The non-linear relationship between temperature and CR count means the correction of the count rate due to thermal fluctuations is non-trivial, unlike the counterpart correction for pressure. 
 
-It is believed that the atmospheric thermal fluctuations induce thermal noise in the \glspl{pmt}, and although the temperature inside the HiSPARC ski-boxes have not been measured, it is suspected that the \glspl{pmt} can get quite hot, in particular when the sky boxes are in direct sunlight.
+It is believed that the atmospheric thermal fluctuations induce thermal noise in the \glspl{pmt}, and although the temperature inside the HiSPARC roof boxes have not been measured, it is suspected that the \glspl{pmt} can get quite hot, in particular when the sky boxes are in direct sunlight.
 
 An instance of thermal noise in a single \gls{pmt} will be random, and uncorrelated with an instance of thermal noise in another \gls{pmt}. It is therefore possible to hypothesise that it is unlikely that within the coincidence window of $\sim$1.5 $\mu \mathrm{s}$, that a coincidence between 2 \glspl{pmt} would be due to random thermal noise induced in the \glspl{pmt}.
 
@@ -41,7 +41,7 @@ The aim of creating a new HiSPARC station was to test whether an alternative con
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Configuration}
 
-The configuration of HiSPARC station 14008 is shown in Figure \ref{fig:14008_config}; the station is composed of two scintillators stacked on top of each other, inside one ski-box. 
+The configuration of HiSPARC station 14008 is shown in Figure \ref{fig:14008_config}; the station is composed of two scintillators stacked on top of each other, inside one roof box. 
 
 Each of the plastic scintillators has a thickness of $\Delta x \, = \, 0.5$~cm, and density, $\rho \, = \, TBC$~gcm$^{-3}$ . We know that the stopping power of the scintillator for a minimum ionising particle is $\sim 2$~MeV/cm$^{-2}$ [REF]... [discuss this w/ Angela as it seems to be derivative of Blethe-Bloch, but cannot find link]...
 
@@ -59,7 +59,7 @@ E = \Delta x \, S \, \rho \, \cos(\theta)
 
 \cite{bartels_hisparc_2012} state that typical energy loss of a muon in a single scintillator is $3.38$~MeV, hence in this configuration, as a muon traverses two scintillators, the lower limit on the energy loss by muons in the detector is $\sim 6.76$~MeV.
 
-To protect the scintillators and \glspl{pmt} within the ski boxes, we sandwiched the scintillators between layers of foam, as can be seen on the lab work bench in Figure~\ref{fig:14008_detectors}. Upon complete assembly of the detector, the scintillators and \glspl{pmt} are placed within the ski-box on the roof of the Poynting Physics building on the campus of the University of Birmingham, as shown in Figure~\ref{fig:14008_ski_box}.
+To protect the scintillators and \glspl{pmt} within the roof boxes, we sandwiched the scintillators between layers of foam, as can be seen on the lab work bench in Figure~\ref{fig:14008_detectors}. Upon complete assembly of the detector, the scintillators and \glspl{pmt} are placed within the roof box on the roof of the Poynting Physics building on the campus of University of Birmingham, as shown in Figure~\ref{fig:14008_ski_box}.
 
 \begin{figure}[ht]
 	\centering
@@ -71,7 +71,7 @@ To protect the scintillators and \glspl{pmt} within the ski boxes, we sandwiched
 		\includegraphics[width=0.48\columnwidth]{ski_box.jpg}
 		\label{fig:14008_ski_box}} \\
 	
-	\caption{HiSPARC 14008 assembly and configuration. (a) shows the stacked arrangement of the scintillators on the lab work bench, between layers of pretective foam. (b) shows the complete detector inside the ski-box on the University of Birmingham campus.}
+	\caption{HiSPARC 14008 assembly and configuration. (a) shows the stacked arrangement of the scintillators on the lab work bench, between layers of pretective foam. (b) shows the complete detector inside the roof box on the University of Birmingham campus.}
 	\label{fig:HS_14008_setup}
 \end{figure}
 
@@ -100,9 +100,9 @@ In order to calibrate the \glspl{pmt} to the correct level, we measured the sing
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Monitoring Temperature}
 
-It was suspected in Chapter~\ref{chap:HiSPARC} that the singles count rates (and thus event count rates also) are affected by the temperature of the \gls{pmt} within the HiSPARC ski-boxes.
+In Chapter~\ref{chap:HiSPARC}, we suspected that the singles count rates (and thus event count rates also) were affected by the temperature of the \gls{pmt} within the HiSPARC roof-boxes.
 
-Some of the existing HiSPARC stations monitor local temperature however none measure the temperature of the \gls{pmt} within the ski box; therefore the temperature of the PMT itself is unknown, and thus we cannot account for the thermal noise. When building this new HiSPARC station, a temperature sensor was placed into the ski box which allowed us to monitor the temperature.
+Some of the existing HiSPARC stations monitor local temperature however none measure the temperature of the \gls{pmt} within the roof box; therefore the temperature of the PMT itself is unknown, and thus we cannot account for the thermal noise. When building this new HiSPARC station, a temperature sensor was placed into the roof box which allowed us to monitor the temperature.
 
 Figure~\ref{fig:temperature_sensor_circuit} shows the schematic for the temperature sensor. We used the DS18B20 temperature sensor with the one-wire telemetry protocol, which used a single wire to transmit the temperature readings to the microcontroller; the microcontroller used was a Raspberry Pi 4. Three wires were used for the operation of the DS18B20: constant current voltage, ground, and data.
 
@@ -120,10 +120,11 @@ We use the Raspberry Pi to control the data acquisition by running a Python prog
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Monitoring Pressure}
 
-As with the previous chapter, it was still necessary to account for the barometric effect on the muon count rate. To monitor the pressure, a nearby station was used which measures the temperature 
+As with the previous chapter, it was still necessary to account for the barometric effect on the muon count rate. To monitor the pressure, a nearby station was used, which is part of the \gls{midas} database, and acquired from the \gls{stfc} and \gls{nerc} \gls{ceda} archive.
 
+The station used is the nearest \gls{midas} station, and provides a robust measure of the local atmospheric pressure as measured at the station level - a correction for altitude is not applied. The station is located in Coleshill, Warickshire (ID: 19187), nearby Birmingham International Airport, $\sim 20$~km from the HiSPARC detectors, but we believe the pressure variation is small over this distance.
 
-
+The pressure is read on a 1-hour cadence and is recorded in units of hPa with a precision of 0.1~hPa. The time variation of pressure is slow; hence, we linearly interpolated the data to provide a 1-minute sample.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -146,6 +147,11 @@ Get the rate as: $85.365 \, \mu/\mathrm{s}$ (non-vertical, i.e. 70-deg sims) or 
 
 
 [now move onto the pressure and temperature corrected data and discuss the observations that we see - do we need to have a separate pressrure and temperature correctyion section???]
+
+[do temperature correction first, as this is a shorter timescale effect, which more directly affects the ability to clearly resolve the barometric effect. S we will do raw data --> temp correction --> pressure correction (and show a subplot over the course of a few months (or a year), showing the difference to the data after each step... (BOTH singles and coincidences))]
+
+
+[What is the width of the signals generated by the NIM crate? Is it more or less than the approx. 25ns FWHM of the pulses..? Then relate that to: "The pulse width Tw is important only insofar as it determines the maximum rate of pulses that may be represented by the pulse train, since pulses which occur more frequently than 1/Tw cannot be resolved"...]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

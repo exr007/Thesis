@@ -1,52 +1,51 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
-A level-1 auxiliary file: Appendices/CORSIKA-sims/CORSIKA_sims.aux
+A level-1 auxiliary file: Appendices/SMMF-sims/SMMF_sims.aux
 The style file: mnras.bst
 Database file #1: library.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--empty booktitle in desorgher_planetocosmics_2006
-Warning--empty institution in heck_extensive_2017
-You've used 17 entries,
+Warning--empty booktitle in elsworth_performance_1995
+You've used 60 entries,
             2881 wiz_defined-function locations,
-            841 strings with 10471 characters,
-and the built_in function-call counts, 8201 in all, are:
-= -- 568
-> -- 679
-< -- 51
-+ -- 299
-- -- 114
-* -- 962
-:= -- 1379
+            1170 strings with 22971 characters,
+and the built_in function-call counts, 28754 in all, are:
+= -- 2254
+> -- 2278
+< -- 153
++ -- 991
+- -- 368
+* -- 3468
+:= -- 4674
 add.period$ -- 0
-call.type$ -- 17
-change.case$ -- 35
-chr.to.int$ -- 17
-cite$ -- 19
-duplicate$ -- 410
-empty$ -- 419
-format.name$ -- 154
-if$ -- 1380
-int.to.chr$ -- 1
+call.type$ -- 60
+change.case$ -- 120
+chr.to.int$ -- 56
+cite$ -- 61
+duplicate$ -- 1360
+empty$ -- 1346
+format.name$ -- 554
+if$ -- 4920
+int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 10
-newline$ -- 68
-num.names$ -- 120
-pop$ -- 119
+missing$ -- 58
+newline$ -- 194
+num.names$ -- 432
+pop$ -- 265
 preamble$ -- 1
-purify$ -- 68
+purify$ -- 240
 quote$ -- 0
-skip$ -- 231
+skip$ -- 830
 stack$ -- 0
-substring$ -- 351
-swap$ -- 193
-text.length$ -- 73
+substring$ -- 1520
+swap$ -- 697
+text.length$ -- 241
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 153
-warning$ -- 2
-while$ -- 119
+type$ -- 540
+warning$ -- 1
+while$ -- 454
 width$ -- 0
-write$ -- 189
-(There were 2 warnings)
+write$ -- 613
+(There was 1 warning)
