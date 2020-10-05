@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.20)  17 SEP 2020 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.30)  2 OCT 2020 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/report.cls
+Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size12.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -24,24 +24,24 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -57,25 +57,23 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 )
-(./aas_macros.sty)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
+(./aas_macros.sty) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
-
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen111
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen112
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count91
@@ -116,67 +114,59 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count103
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/natbib/natbib.sty
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip46
 \bibsep=\skip47
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count104
+\c@NAT@ctr=\count103
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/enumerate.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks21
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/relsize/relsize.sty
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count105
+\c@float@type=\count104
 \float@exts=\toks22
 \float@box=\box28
 \@float@everytoks=\toks23
 \@floatcapt=\box29
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/titlesec/titlesec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box30
 \beforetitleunit=\skip48
@@ -188,14 +178,15 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen125
 \titlewidthfirst=\dimen126
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/comment/comment.sty
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
 
 Excluding comment 'comment')
-(/usr/local/texlive/2017/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+(/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box31
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \heavyrulewidth=\dimen127
 \lightrulewidth=\dimen128
@@ -207,26 +198,26 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen134
 \cmidrulekern=\dimen135
 \defaultaddspace=\dimen136
-\@cmidla=\count106
-\@cmidlb=\count107
+\@cmidla=\count105
+\@cmidlb=\count106
 \@aboverulesep=\dimen137
 \@belowrulesep=\dimen138
-\@thisruleclass=\count108
-\@lastruleclass=\count109
+\@thisruleclass=\count107
+\@lastruleclass=\count108
 \@thisrulewidth=\dimen139
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
@@ -239,7 +230,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -261,77 +252,76 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen140
-\Hy@linkcounter=\count110
-\Hy@pagecounter=\count111
+\Hy@linkcounter=\count109
+\Hy@pagecounter=\count110
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count112
+\Hy@SavedSpaceFactor=\count111
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count113
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count112
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen141
-\Fld@menulength=\count114
+\Fld@menulength=\count113
 \Field@Width=\dimen142
 \Fld@charsize=\dimen143
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count115
-\c@Item=\count116
-\c@Hfootnote=\count117
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count114
+\c@Item=\count115
+\c@Hfootnote=\count116
 )
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-Package hyperref Message: Driver (autodetected): hpdftex.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count117
+\c@bookmark@seq@number=\count118
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count118
-\c@bookmark@seq@number=\count119
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip50
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -345,25 +335,25 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip51
 \LTright=\skip52
 \LTpre=\skip53
 \LTpost=\skip54
-\LTchunksize=\count120
+\LTchunksize=\count119
 \LTcapwidth=\dimen144
 \LT@head=\box32
 \LT@firsthead=\box33
 \LT@foot=\box34
 \LT@lastfoot=\box35
-\LT@cols=\count121
-\LT@rows=\count122
-\c@LT@tables=\count123
-\c@LT@chunks=\count124
+\LT@cols=\count120
+\LT@rows=\count121
+\c@LT@tables=\count122
+\c@LT@chunks=\count123
 \LT@p@ftn=\toks25
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/bm.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
@@ -371,13 +361,13 @@ Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/subfig/subfig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen145
@@ -388,31 +378,31 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen150
 \caption@hangindent=\dimen151
 )
-\c@ContinuedFloat=\count125
+\c@ContinuedFloat=\count124
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/ltcaption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: threeparttable package is loaded.
 )
-\c@KVtest=\count126
+\c@KVtest=\count125
 \sf@farskip=\skip55
 \sf@captopadj=\dimen152
 \sf@capskip=\skip56
 \sf@nearskip=\skip57
-\c@subfigure=\count127
-\c@subfigure@save=\count128
-\c@lofdepth=\count129
-\c@subtable=\count130
-\c@subtable@save=\count131
-\c@lotdepth=\count132
+\c@subfigure=\count126
+\c@subfigure@save=\count127
+\c@lofdepth=\count128
+\c@subtable=\count129
+\c@subtable@save=\count130
+\c@lotdepth=\count131
 \sf@top=\skip58
 \sf@bottom=\skip59
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/soul/soul.sty
+(/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks26
 \SOUL@lasttoken=\toks27
@@ -424,7 +414,7 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen154
 \SOUL@ulht=\dimen155
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen156
 \extrarowheight=\dimen157
@@ -432,119 +422,119 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \extratabsurround=\skip61
 \backup@length=\skip62
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip63
-\multirow@cntb=\count133
+\multirow@cntb=\count132
 \multirow@dima=\skip64
 \bigstrutjot=\dimen158
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/base/glossaries.sty
-Package: glossaries 2017/01/19 v4.29 (NLCT)
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2017/11/14 v4.35 (NLCT)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks32
 \XKV@tempa@toks=\toks33
 )
-\XKV@depth=\count134
+\XKV@depth=\count133
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
-Package: mfirstuc 2016/07/31 v2.04 (NLCT)
+(/usr/share/texlive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count135
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count134
 )
 \@glsmfirst=\toks34
 \@glsmrest=\toks35
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/textcase/textcase.sty
+(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/xfor/xfor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/datatool/datatool-base.sty
-Package: datatool-base 2016/07/28 v2.27 (NLCT)
+(/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2017/11/12 v2.29 (NLCT)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/substr/substr.sty
+(/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count136
+\c@su@anzahl=\count135
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/datatool/datatool-fp.sty
-Package: datatool-fp 2016/07/28 v2.27 (NLCT)
+(/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2017/11/12 v2.29 (NLCT)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
 
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/defpattern.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count137
+\actioncount=\count136
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-basic.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count138
-\FP@xia=\count139
-\FP@xib=\count140
-\FP@xfa=\count141
-\FP@xfb=\count142
-\FP@rega=\count143
-\FP@regb=\count144
-\FP@regs=\count145
-\FP@times=\count146
+\FP@xs=\count137
+\FP@xia=\count138
+\FP@xib=\count139
+\FP@xfa=\count140
+\FP@xfb=\count141
+\FP@rega=\count142
+\FP@regb=\count143
+\FP@regs=\count144
+\FP@times=\count145
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-addons.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-snap.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
 Package: fp-snap 1995/04/05
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-exp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
 Package: fp-exp 1995/04/03
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-trigo.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
 Package: fp-trigo 1995/04/14
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-pas.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
 Package: fp-pas 1994/08/29
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-random.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count147
+\FPseed=\count146
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-eqn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-upn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
 Package: fp-upn 1996/10/21
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-eval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks36
-\@dtl@tmpcount=\count148
+\@dtl@tmpcount=\count147
 \dtl@tmplength=\skip65
-\dtl@sortresult=\count149
-\@dtl@numgrpsepcount=\count150
-\@dtl@datatype=\count151
-\dtl@codeA=\count152
-\dtl@codeB=\count153
-\@dtl@foreach@level=\count154
+\dtl@sortresult=\count148
+\@dtl@numgrpsepcount=\count149
+\@dtl@datatype=\count150
+\dtl@codeA=\count151
+\dtl@codeB=\count152
+\@dtl@foreach@level=\count153
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/base/glossaries-compat
-ible-307.sty
-Package: glossaries-compatible-307 2017/01/19 v4.29 (NLCT)
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-
+307.sty
+Package: glossaries-compatible-307 2017/11/14 v4.35 (NLCT)
 )
-\gls@level=\count155
+\gls@level=\count154
 \@gls@tmpb=\toks37
 \gls@tmplen=\skip66
 \glskeylisttok=\toks38
@@ -552,27 +542,22 @@ Package: glossaries-compatible-307 2017/01/19 v4.29 (NLCT)
 \glsshorttok=\toks40
 \glslongtok=\toks41
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
-av.sty
-Package: glossary-hypernav 2017/01/19 v4.29 (NLCT)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
-ty
-Package: glossary-list 2017/01/19 v4.29 (NLCT)
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.st
+y
+Package: glossary-hypernav 2017/11/14 v4.35 (NLCT)
+) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
+Package: glossary-list 2017/11/14 v4.35 (NLCT)
 \glslistdottedwidth=\skip67
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
-ty
-Package: glossary-long 2017/01/19 v4.29 (NLCT)
+) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+Package: glossary-long 2017/11/14 v4.35 (NLCT)
 \glsdescwidth=\skip68
 \glspagelistwidth=\skip69
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-super.
-sty
-Package: glossary-super 2017/01/19 v4.29 (NLCT)
- (/usr/local/texlive/2017/texmf-dist/tex/latex/supertabular/supertabular.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
+Package: glossary-super 2017/11/14 v4.35 (NLCT)
+
+(/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count156
+\c@tracingst=\count155
 \ST@wd=\dimen159
 \ST@rightskip=\skip70
 \ST@leftskip=\skip71
@@ -589,15 +574,11 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \ST@dimen=\dimen169
 \ST@pbox=\box36
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
-ty
-Package: glossary-tree 2017/01/19 v4.29 (NLCT)
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+Package: glossary-tree 2017/11/14 v4.35 (NLCT)
 \glstreeindent=\skip73
-)) (./Chapters/Other/acronyms.tex) (./thesis.aux
-
-LaTeX Warning: Label `fig:artificial_sim_lats' multiply defined.
-
-(./Appendices/SMMF-sims/SMMF_sims.aux))
+))
+(./Chapters/Other/acronyms.tex) (./thesis.aux)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
@@ -649,46 +630,46 @@ LaTeX Font Info:    ... okay on input line 87.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count157
+\scratchcounter=\count156
 \scratchdimen=\dimen170
 \scratchbox=\box37
-\nofMPsegments=\count158
-\nofMParguments=\count159
+\nofMPsegments=\count157
+\nofMParguments=\count158
 \everyMPshowfont=\toks42
-\MPscratchCnt=\count160
+\MPscratchCnt=\count159
 \MPscratchDim=\dimen171
-\MPnumerator=\count161
-\makeMPintoPDFobject=\count162
+\MPnumerator=\count160
+\makeMPintoPDFobject=\count161
 \everyMPtoPDFconversion=\toks43
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box38
 Package hyperref Info: Link coloring OFF on input line 87.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count163
+\c@section@level=\count162
 )
 LaTeX Info: Redefining \ref on input line 87.
 LaTeX Info: Redefining \pageref on input line 87.
@@ -703,30 +684,29 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (./Title/title_page.tex
-<Title/onlyunilogo.png, id=172, 255.95625pt x 255.95625pt>
+<Title/onlyunilogo.png, id=151, 255.95625pt x 255.95625pt>
 File: Title/onlyunilogo.png Graphic file (type png)
-
 <use Title/onlyunilogo.png>
-Package pdftex.def Info: Title/onlyunilogo.png used on input line 13.
+Package pdftex.def Info: Title/onlyunilogo.png  used on input line 13.
 (pdftex.def)             Requested size: 89.58601pt x 89.58601pt.
  [1
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Title
-/onlyunilogo.png>]) (./thesis.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Title/onlyunilogo.png>])
+ (./thesis.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 ...it r} mode Profiles}{56}{subsection.2.5.2}
+l.36 ...erline {2.4}Observations}{38}{section.2.4}
                                                    [1
 
 ])
@@ -737,9 +717,9 @@ l.34 ...it r} mode Profiles}{56}{subsection.2.5.2}
 [3
 
 ] [4]
-Overfull \hbox (7.16553pt too wide) in paragraph at lines 48--48
- [][] [][]\OT1/cmr/m/n/12 SDO/HMI SMMF split into hemi-spheres and com-pared to
- other SMMF 
+Overfull \hbox (8.53754pt too wide) in paragraph at lines 80--80
+ [][] [][]\OT1/cmr/m/n/12 Schematic di-a-gram of the DS18B20 tem-per-a-ture sen
+-sor cir-cuit, whereby 
  []
 
 [5])
@@ -750,709 +730,688 @@ Overfull \hbox (7.16553pt too wide) in paragraph at lines 48--48
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
- [7
+
+Using TeX to sort glossary entries---this may take a while
+[7
 
 ] [8
 
 
 ]
 No file thesis.acr.
-[9] (./Chapters/SMMF/SMMF.tex
+[9] (./Chapters/HiSPARC/HiSPARC.tex
 Chapter 1.
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ≠ in font cmr12!
+
+Overfull \hbox (13.2767pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/12 HiSPARC stands for \OT1/cmr/bx/it/12 Hi\OT1/cmr/m/it/12 gh \OT1
+/cmr/bx/it/12 S\OT1/cmr/m/it/12 chool \OT1/cmr/bx/it/12 P\OT1/cmr/m/it/12 rojec
+t on \OT1/cmr/bx/it/12 A\OT1/cmr/m/it/12 strophysics and \OT1/cmr/bx/it/12 R\OT
+1/cmr/m/it/12 esearch with \OT1/cmr/bx/it/12 C\OT1/cmr/m/it/12 osmics\OT1/cmr/m
+/n/12 ,
+ []
+
 [1
 
 
 ]
-Overfull \hbox (0.8808pt too wide) in paragraph at lines 15--16
-\OT1/cmr/m/n/12 ap-proach to un-der-stand-ing the [][]SMMF[] whereby they de-co
-m-posed the [][]SMMF[] through
- []
-
-[2] [3] [4]
-Overfull \hbox (3.53336pt too wide) in paragraph at lines 36--37
-\OT1/cmr/m/n/12 In this work an in-ves-ti-ga-tion of high-cadence (sub-minute) 
-ob-ser-va-tions of the [][]SMMF[],
- []
-
-[5] [6] [7]
-Package epstopdf Info: Source file: <Chapters/SMMF/Fred_ratio_zoom.eps>
-(epstopdf)                    date: 2020-09-15 09:05:25
-(epstopdf)                    size: 22435 bytes
-(epstopdf)             Output file: <Chapters/SMMF/Fred_ratio_zoom-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2020-09-15 09:05:25
-(epstopdf)                    size: 11736 bytes
-(epstopdf)             Command: <repstopdf --outfile=Chapters/SMMF/Fred_ratio_z
-oom-eps-converted-to.pdf Chapters/SMMF/Fred_ratio_zoom.eps>
-(epstopdf)             \includegraphics on input line 94.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Chapters/SMMF/Fred_ratio_z
-oom-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most 
-version <1.5> allowed
-
-<Chapters/SMMF/Fred_ratio_zoom-eps-converted-to.pdf, id=803, 650.43pt x 332.241
-26pt>
-File: Chapters/SMMF/Fred_ratio_zoom-eps-converted-to.pdf Graphic file (type pdf
-)
- <use Chapters/SMMF/Fred_ratio_zoom-eps-converted-to.pdf>
-Package pdftex.def Info: Chapters/SMMF/Fred_ratio_zoom-eps-converted-to.pdf use
-d on input line 94.
-(pdftex.def)             Requested size: 426.79135pt x 218.0125pt.
- [8] [9 <./Chapters/SMMF/Fred_ratio_zoom-eps-converted-to.pdf>]
-<Chapters/SMMF/BiSON_full_TS.pdf, id=864, 511.77448pt x 279.17174pt>
-File: Chapters/SMMF/BiSON_full_TS.pdf Graphic file (type pdf)
-
-<use Chapters/SMMF/BiSON_full_TS.pdf>
-Package pdftex.def Info: Chapters/SMMF/BiSON_full_TS.pdf used on input line 142
+<Chapters/HiSPARC/config.png, id=473, 733.99219pt x 243.91125pt>
+File: Chapters/HiSPARC/config.png Graphic file (type png)
+<use Chapters/HiSPARC/config.png>
+Package pdftex.def Info: Chapters/HiSPARC/config.png  used on input line 43.
+(pdftex.def)             Requested size: 320.0935pt x 106.37222pt.
+ [2]
+<Chapters/HiSPARC/HS_2D2.png, id=506, 398.48875pt x 106.3975pt>
+File: Chapters/HiSPARC/HS_2D2.png Graphic file (type png)
+<use Chapters/HiSPARC/HS_2D2.png>
+Package pdftex.def Info: Chapters/HiSPARC/HS_2D2.png  used on input line 59.
+(pdftex.def)             Requested size: 256.07741pt x 68.37502pt.
+<Chapters/HiSPARC/HS_4D_t2.png, id=507, 80.4606pt x 68.8974pt>
+File: Chapters/HiSPARC/HS_4D_t2.png Graphic file (type png)
+<use Chapters/HiSPARC/HS_4D_t2.png>
+Package pdftex.def Info: Chapters/HiSPARC/HS_4D_t2.png  used on input line 61.
+(pdftex.def)             Requested size: 256.07741pt x 219.33759pt.
+<Chapters/HiSPARC/HS_4D_d2.png, id=508, 478.78876pt x 287.0725pt>
+File: Chapters/HiSPARC/HS_4D_d2.png Graphic file (type png)
+<use Chapters/HiSPARC/HS_4D_d2.png>
+Package pdftex.def Info: Chapters/HiSPARC/HS_4D_d2.png  used on input line 63.
+(pdftex.def)             Requested size: 256.07741pt x 153.54065pt.
+ [3 <./Chapters/HiSPARC/config.png>] [4 <./Chapters/HiSPARC/HS_2D2.png> <./Chap
+ters/HiSPARC/HS_4D_t2.png> <./Chapters/HiSPARC/HS_4D_d2.png>]
+<Chapters/HiSPARC/trace_plot.pdf, id=547, 453.44844pt x 323.69005pt>
+File: Chapters/HiSPARC/trace_plot.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/trace_plot.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/trace_plot.pdf  used on input line 83
 .
-(pdftex.def)             Requested size: 422.52577pt x 230.49416pt.
+(pdftex.def)             Requested size: 204.85802pt x 146.23705pt.
+<Chapters/HiSPARC/pulseheights.pdf, id=548, 460.96872pt x 329.0303pt>
+File: Chapters/HiSPARC/pulseheights.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/pulseheights.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/pulseheights.pdf  used on input line 
+87.
+(pdftex.def)             Requested size: 204.85802pt x 146.22473pt.
+ [5]
+[6 <./Chapters/HiSPARC/trace_plot.pdf> <./Chapters/HiSPARC/pulseheights.pdf
 
-<Chapters/SMMF/BiSON_lin_mu_PSD.pdf, id=865, 516.99712pt x 279.75203pt>
-File: Chapters/SMMF/BiSON_lin_mu_PSD.pdf Graphic file (type pdf)
-
-<use Chapters/SMMF/BiSON_lin_mu_PSD.pdf>
-Package pdftex.def Info: Chapters/SMMF/BiSON_lin_mu_PSD.pdf used on input line 
-144.
-(pdftex.def)             Requested size: 426.79135pt x 230.95192pt.
-
-<Chapters/SMMF/BiSON_and_WSO.pdf, id=883, 541.82056pt x 284.512pt>
-File: Chapters/SMMF/BiSON_and_WSO.pdf Graphic file (type pdf)
-
-<use Chapters/SMMF/BiSON_and_WSO.pdf>
-Package pdftex.def Info: Chapters/SMMF/BiSON_and_WSO.pdf used on input line 164
-.
-(pdftex.def)             Requested size: 426.79135pt x 224.11081pt.
- [10] [11 <./Chapters/SMMF/BiSON_full_TS.pdf> <./Chapters/SMMF/BiSON_lin_mu_PSD
-.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Chapters/SMMF/BiSON_lin_mu
-_PSD.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
-ge
->] <Chapters/SMMF/BiSON_vs_WSO.pdf, id=977, 430.18529pt x 318.68303pt>
-File: Chapters/SMMF/BiSON_vs_WSO.pdf Graphic file (type pdf)
-
-<use Chapters/SMMF/BiSON_vs_WSO.pdf>
-Package pdftex.def Info: Chapters/SMMF/BiSON_vs_WSO.pdf used on input line 174.
-
-(pdftex.def)             Requested size: 200.59245pt x 148.5994pt.
-
-<Chapters/SMMF/BiSON_PSD_vs_WSO_PSD.pdf, id=978, 441.74829pt x 324.27034pt>
-File: Chapters/SMMF/BiSON_PSD_vs_WSO_PSD.pdf Graphic file (type pdf)
-
-<use Chapters/SMMF/BiSON_PSD_vs_WSO_PSD.pdf>
-Package pdftex.def Info: Chapters/SMMF/BiSON_PSD_vs_WSO_PSD.pdf used on input l
-ine 176.
-(pdftex.def)             Requested size: 200.59245pt x 147.2513pt.
- [12 <./Chapters/SMMF/BiSON_and_WSO.pdf> <./Chapters/SMMF/BiSON_vs_WSO.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Chapters/SMMF/BiSON_vs_WSO
-.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Chapters/SMMF/BiSON_PSD_vs_WSO_PSD.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Chapters/SMMF/BiSON_PSD_vs
-_WSO_PSD.pdf): PDF inclusion: multiple pdfs with page group included in a singl
-e page
->]
-Package epstopdf Info: Source file: <Chapters/SMMF/fheight_high_res.eps>
-(epstopdf)                    date: 2020-09-15 09:05:25
-(epstopdf)                    size: 64164 bytes
-(epstopdf)             Output file: <Chapters/SMMF/fheight_high_res-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2020-09-15 09:05:25
-(epstopdf)                    size: 39961 bytes
-(epstopdf)             Command: <repstopdf --outfile=Chapters/SMMF/fheight_high
-_res-eps-converted-to.pdf Chapters/SMMF/fheight_high_res.eps>
-(epstopdf)             \includegraphics on input line 210.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Chapters/SMMF/fheight_high
-_res-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most
- version <1.5> allowed
-
-<Chapters/SMMF/fheight_high_res-eps-converted-to.pdf, id=1101, 410.01181pt x 44
-4.87202pt>
-File: Chapters/SMMF/fheight_high_res-eps-converted-to.pdf Graphic file (type pd
-f)
- <use Chapters/SMMF/fheight_high_res-eps-converted-to.pdf>
-Package pdftex.def Info: Chapters/SMMF/fheight_high_res-eps-converted-to.pdf us
-ed on input line 210.
-(pdftex.def)             Requested size: 362.77525pt x 393.62688pt.
- [13]
-<Chapters/SMMF/BiSON_SMMF_FT_full.pdf, id=1124, 526.76799pt x 391.50266pt>
-File: Chapters/SMMF/BiSON_SMMF_FT_full.pdf Graphic file (type pdf)
-
-<use Chapters/SMMF/BiSON_SMMF_FT_full.pdf>
-Package pdftex.def Info: Chapters/SMMF/BiSON_SMMF_FT_full.pdf used on input lin
-e 239.
-(pdftex.def)             Requested size: 426.79135pt x 317.205pt.
- [14 <./Chapters/SMMF/fheight_high_res-eps-converted-to.pdf>] [15 <./Chapters/S
-MMF/BiSON_SMMF_FT_full.pdf>] [16]
-[17] [18] [19] <Chapters/SMMF/sideband.pdf, id=1344, 525.93675pt x 285.0923pt>
-File: Chapters/SMMF/sideband.pdf Graphic file (type pdf)
-
-<use Chapters/SMMF/sideband.pdf>
-Package pdftex.def Info: Chapters/SMMF/sideband.pdf used on input line 349.
-(pdftex.def)             Requested size: 426.79135pt x 231.3585pt.
- [20 <./Chapters/SMMF/sideband.pdf>]
-<Chapters/SMMF/gap_test.pdf, id=1398, 531.20645pt x 391.50266pt>
-File: Chapters/SMMF/gap_test.pdf Graphic file (type pdf)
-
-<use Chapters/SMMF/gap_test.pdf>
-Package pdftex.def Info: Chapters/SMMF/gap_test.pdf used on input line 383.
-(pdftex.def)             Requested size: 320.0935pt x 235.91296pt.
-
-<Chapters/SMMF/gap_test_conv.pdf, id=1399, 526.76799pt x 391.50266pt>
-File: Chapters/SMMF/gap_test_conv.pdf Graphic file (type pdf)
-
-<use Chapters/SMMF/gap_test_conv.pdf>
-Package pdftex.def Info: Chapters/SMMF/gap_test_conv.pdf used on input line 385
-.
-(pdftex.def)             Requested size: 320.0935pt x 237.90225pt.
- [21] [22] [23] [24] [25]
-<Chapters/SMMF/BiSON_PSD_model.pdf, id=1463, 533.79424pt x 390.0171pt>
-File: Chapters/SMMF/BiSON_PSD_model.pdf Graphic file (type pdf)
-
-<use Chapters/SMMF/BiSON_PSD_model.pdf>
-Package pdftex.def Info: Chapters/SMMF/BiSON_PSD_model.pdf used on input line 5
-64.
-(pdftex.def)             Requested size: 426.79135pt x 311.8415pt.
-
-Overfull \hbox (3.00206pt too wide) in paragraph at lines 570--571
-[]\OT1/cmr/m/n/12 The cen-tral fre-quency of this model, $\OML/cmm/m/it/12 ^^W[
-]$ \OT1/cmr/m/n/12 im-plies a ro-ta-tion pe-riod of $27\OML/cmm/m/it/12 :\OT1/c
-mr/m/n/12 06[]$ days,
- []
-
-[26] [27]
-<Chapters/SMMF/WSO_PSD_model.pdf, id=1561, 524.76048pt x 396.52141pt>
-File: Chapters/SMMF/WSO_PSD_model.pdf Graphic file (type pdf)
-
-<use Chapters/SMMF/WSO_PSD_model.pdf>
-Package pdftex.def Info: Chapters/SMMF/WSO_PSD_model.pdf used on input line 632
-.
-(pdftex.def)             Requested size: 426.79135pt x 322.49352pt.
- [28] [29]
-<Chapters/SMMF/monthly_SSN_KDE.pdf, id=1605, 547.2978pt x 392.41231pt>
-File: Chapters/SMMF/monthly_SSN_KDE.pdf Graphic file (type pdf)
-
-<use Chapters/SMMF/monthly_SSN_KDE.pdf>
-Package pdftex.def Info: Chapters/SMMF/monthly_SSN_KDE.pdf used on input line 6
-63.
-(pdftex.def)             Requested size: 200.59245pt x 143.82507pt.
-
-<Chapters/SMMF/lat_hist.pdf, id=1606, 453.92043pt x 327.57957pt>
-File: Chapters/SMMF/lat_hist.pdf Graphic file (type pdf)
-
-<use Chapters/SMMF/lat_hist.pdf>
-Package pdftex.def Info: Chapters/SMMF/lat_hist.pdf used on input line 665.
-(pdftex.def)             Requested size: 200.59245pt x 144.76025pt.
- [30]
-<Chapters/SMMF/lats.pdf, id=1628, 423.83781pt x 327.57957pt>
-File: Chapters/SMMF/lats.pdf Graphic file (type pdf)
-
-<use Chapters/SMMF/lats.pdf>
-Package pdftex.def Info: Chapters/SMMF/lats.pdf used on input line 693.
-(pdftex.def)             Requested size: 192.0548pt x 148.43912pt.
-
-<Chapters/SMMF/lin_rescaled.png, id=1629, 222.3507pt x 164.0529pt>
-File: Chapters/SMMF/lin_rescaled.png Graphic file (type png)
-
-<use Chapters/SMMF/lin_rescaled.png>
-Package pdftex.def Info: Chapters/SMMF/lin_rescaled.png used on input line 697.
-
-(pdftex.def)             Requested size: 192.0548pt x 141.70354pt.
-
-<Chapters/SMMF/quad_rescaled.png, id=1631, 226.9278pt x 164.0529pt>
-File: Chapters/SMMF/quad_rescaled.png Graphic file (type png)
-
-<use Chapters/SMMF/quad_rescaled.png>
-Package pdftex.def Info: Chapters/SMMF/quad_rescaled.png used on input line 703
-.
-(pdftex.def)             Requested size: 192.0548pt x 138.84483pt.
-
-<Chapters/SMMF/exp_rescaled.png, id=1632, 234.8775pt x 164.0529pt>
-File: Chapters/SMMF/exp_rescaled.png Graphic file (type png)
-
-<use Chapters/SMMF/exp_rescaled.png>
-Package pdftex.def Info: Chapters/SMMF/exp_rescaled.png used on input line 707.
-
-(pdftex.def)             Requested size: 192.0548pt x 134.14374pt.
-
-<Chapters/SMMF/artificial_fit_asym.pdf, id=1635, 514.73868pt x 394.27486pt>
-File: Chapters/SMMF/artificial_fit_asym.pdf Graphic file (type pdf)
-
-<use Chapters/SMMF/artificial_fit_asym.pdf>
-Package pdftex.def Info: Chapters/SMMF/artificial_fit_asym.pdf used on input li
-ne 717.
-(pdftex.def)             Requested size: 362.77525pt x 277.87958pt.
- [31] [32] [33] [34] [35]
-<Chapters/SMMF/weighted_shifted_peak.pdf, id=1733, 544.49829pt x 519.87787pt>
-File: Chapters/SMMF/weighted_shifted_peak.pdf Graphic file (type pdf)
-
-<use Chapters/SMMF/weighted_shifted_peak.pdf>
-Package pdftex.def Info: Chapters/SMMF/weighted_shifted_peak.pdf used on input 
-line 827.
-(pdftex.def)             Requested size: 200.59245pt x 191.51886pt.
-
-<Chapters/SMMF/chaplin_shifted_peak.pdf, id=1734, 544.49829pt x 519.87787pt>
-File: Chapters/SMMF/chaplin_shifted_peak.pdf Graphic file (type pdf)
-
-<use Chapters/SMMF/chaplin_shifted_peak.pdf>
-Package pdftex.def Info: Chapters/SMMF/chaplin_shifted_peak.pdf used on input l
-ine 829.
-(pdftex.def)             Requested size: 200.59245pt x 191.51886pt.
- [36]
-<Chapters/SMMF/HMI_MF_vs_synoptic_2011_rescaled.png, id=1765, 163.5711pt x 121.
-4136pt>
-File: Chapters/SMMF/HMI_MF_vs_synoptic_2011_rescaled.png Graphic file (type png
-)
- <use Chapters/SMMF/HMI_MF_vs_synoptic_2011_rescaled.png>
-Package pdftex.def Info: Chapters/SMMF/HMI_MF_vs_synoptic_2011_rescaled.png use
-d on input line 920.
-(pdftex.def)             Requested size: 200.59245pt x 148.90062pt.
-
-<Chapters/SMMF/HMI_MF_vs_synoptic_2014_rescaled.png, id=1766, 163.5711pt x 121.
-4136pt>
-File: Chapters/SMMF/HMI_MF_vs_synoptic_2014_rescaled.png Graphic file (type png
-)
- <use Chapters/SMMF/HMI_MF_vs_synoptic_2014_rescaled.png>
-Package pdftex.def Info: Chapters/SMMF/HMI_MF_vs_synoptic_2014_rescaled.png use
-d on input line 922.
-(pdftex.def)             Requested size: 200.59245pt x 148.90062pt.
- [37] [38]
-[39] [40]) (./Chapters/r-mode/r-mode.tex [41] [42 <./Chapters/SMMF/gap_test.pdf
-> <./Chapters/SMMF/gap_test_conv.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Chapters/SMMF/gap_test_con
-v.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [43 <./Chapters/SMMF/BiSON_PSD_model.pdf>] [44 <./Chapters/SMMF/WSO_PSD_mode
-l.pdf> <./Chapters/SMMF/monthly_SSN_KDE.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Chapters/SMMF/monthly_SSN_
-KDE.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
-> <./Chapters/SMMF/lat_hist.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Chapters/SMMF/lat_hist.pdf
-): PDF inclusion: multiple pdfs with page group included in a single page
->] [45 <./Chapters/SMMF/lats.pdf> <./Chapters/SMMF/lin_rescaled.png> <./Chapter
-s/SMMF/quad_rescaled.png> <./Chapters/SMMF/exp_rescaled.png>] [46 <./Chapters/S
-MMF/artificial_fit_asym.pdf> <./Chapters/SMMF/weighted_shifted_peak.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Chapters/SMMF/weighted_shi
-fted_peak.pdf): PDF inclusion: multiple pdfs with page group included in a sing
-le page
-> <./Chapters/SMMF/chaplin_shifted_peak.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Chapters/SMMF/chaplin_shif
-ted_peak.pdf): PDF inclusion: multiple pdfs with page group included in a singl
-e page
->] [47 <./Chapters/SMMF/HMI_MF_vs_synoptic_2011_rescaled.png> <./Chapters/SMMF/
-HMI_MF_vs_synoptic_2014_rescaled.png>]
-Chapter 2.
-[48
-
-]
-File: Chapters/SMMF/BiSON_PSD_model.pdf Graphic file (type pdf)
- <use Chapters/SMMF/BiSON_PSD_model.pdf>
-Package pdftex.def Info: Chapters/SMMF/BiSON_PSD_model.pdf used on input line 3
-0.
-(pdftex.def)             Requested size: 426.79135pt x 311.8415pt.
- [49] [50] [51]
-Overfull \hbox (1.41484pt too wide) in paragraph at lines 86--116
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/pulseheights.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+>] [7] [8] [9]
+Overfull \hbox (6.37717pt too wide) in paragraph at lines 139--152
  [] 
  []
 
-[52] [53] [54]
-<Chapters/r-mode/asymm_div_r-modes_obs.pdf, id=2474, 524.28998pt x 386.4883pt>
-File: Chapters/r-mode/asymm_div_r-modes_obs.pdf Graphic file (type pdf)
+<Chapters/HiSPARC/azm.pdf, id=706, 842.49754pt x 516.40395pt>
+File: Chapters/HiSPARC/azm.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/azm.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/azm.pdf  used on input line 159.
+(pdftex.def)             Requested size: 204.85802pt x 125.56268pt.
+<Chapters/HiSPARC/zen.pdf, id=707, 842.49754pt x 516.40395pt>
+File: Chapters/HiSPARC/zen.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/zen.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/zen.pdf  used on input line 163.
+(pdftex.def)             Requested size: 204.85802pt x 125.56268pt.
+<Chapters/HiSPARC/HS_AVDs.pdf, id=714, 652.39989pt x 335.62262pt>
+File: Chapters/HiSPARC/HS_AVDs.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/HS_AVDs.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/HS_AVDs.pdf  used on input line 175.
+(pdftex.def)             Requested size: 391.44295pt x 201.37512pt.
+[10 <./Chapters/HiSPARC/azm.pdf> <./Chapters/HiSPARC/zen.pdf
 
-<use Chapters/r-mode/asymm_div_r-modes_obs.pdf>
-Package pdftex.def Info: Chapters/r-mode/asymm_div_r-modes_obs.pdf used on inpu
-t line 225.
-(pdftex.def)             Requested size: 277.41176pt x 204.49577pt.
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/zen.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]
+Overfull \hbox (2.22234pt too wide) in paragraph at lines 214--228
+ [] 
+ []
 
-<Chapters/r-mode/full_stats_BiSON_asymm_n1.pdf, id=2476, 542.45943pt x 874.7546
-5pt>
-File: Chapters/r-mode/full_stats_BiSON_asymm_n1.pdf Graphic file (type pdf)
- <use Chapters/r-mode/full_stats_BiSON_asymm_n1.pdf>
-Package pdftex.def Info: Chapters/r-mode/full_stats_BiSON_asymm_n1.pdf used on 
-input line 235.
-(pdftex.def)             Requested size: 149.37958pt x 240.88528pt.
+[11 <./Chapters/HiSPARC/HS_AVDs.pdf>]
+<Chapters/HiSPARC/GLEs_OULU.pdf, id=910, 927.91357pt x 642.6739pt>
+File: Chapters/HiSPARC/GLEs_OULU.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLEs_OULU.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLEs_OULU.pdf  used on input line 237
+.
+(pdftex.def)             Requested size: 320.0935pt x 221.69331pt.
+<Chapters/HiSPARC/FDs_OULU.pdf, id=914, 932.33678pt x 658.34421pt>
+File: Chapters/HiSPARC/FDs_OULU.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FDs_OULU.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FDs_OULU.pdf  used on input line 246.
 
-<Chapters/r-mode/full_stats_BiSON_asymm_n2.pdf, id=2477, 537.9896pt x 874.75465
-pt>
-File: Chapters/r-mode/full_stats_BiSON_asymm_n2.pdf Graphic file (type pdf)
- <use Chapters/r-mode/full_stats_BiSON_asymm_n2.pdf>
-Package pdftex.def Info: Chapters/r-mode/full_stats_BiSON_asymm_n2.pdf used on 
-input line 239.
-(pdftex.def)             Requested size: 149.37958pt x 242.88744pt.
+(pdftex.def)             Requested size: 320.0935pt x 226.02399pt.
 
-<Chapters/r-mode/full_stats_BiSON_asymm_n5.pdf, id=2478, 537.9896pt x 874.75465
-pt>
-File: Chapters/r-mode/full_stats_BiSON_asymm_n5.pdf Graphic file (type pdf)
- <use Chapters/r-mode/full_stats_BiSON_asymm_n5.pdf>
-Package pdftex.def Info: Chapters/r-mode/full_stats_BiSON_asymm_n5.pdf used on 
-input line 245.
-(pdftex.def)             Requested size: 149.37958pt x 242.88744pt.
+Overfull \hbox (10.38474pt too wide) in paragraph at lines 255--255
+|[]\OT1/cmr/bx/n/14.4 HiSPARC Ob-ser-va-tions of Ground Level En-hance-ments| 
+ []
 
-<Chapters/r-mode/full_stats_BiSON_asymm_n10.pdf, id=2479, 537.9896pt x 874.7546
-5pt>
-File: Chapters/r-mode/full_stats_BiSON_asymm_n10.pdf Graphic file (type pdf)
- <use Chapters/r-mode/full_stats_BiSON_asymm_n10.pdf>
-Package pdftex.def Info: Chapters/r-mode/full_stats_BiSON_asymm_n10.pdf used on
- input line 249.
-(pdftex.def)             Requested size: 149.37958pt x 242.88744pt.
- [55]
-<Chapters/r-mode/asymm_r-mode_model_fit.pdf, id=2499, 412.89067pt x 318.32626pt
->
-File: Chapters/r-mode/asymm_r-mode_model_fit.pdf Graphic file (type pdf)
- <use Chapters/r-mode/asymm_r-mode_model_fit.pdf>
-Package pdftex.def Info: Chapters/r-mode/asymm_r-mode_model_fit.pdf used on inp
-ut line 290.
-(pdftex.def)             Requested size: 277.41176pt x 213.87979pt.
- [56 <./Chapters/r-mode/asymm_div_r-modes_obs.pdf>] [57 <./Chapters/r-mode/full
-_stats_BiSON_asymm_n1.pdf> <./Chapters/r-mode/full_stats_BiSON_asymm_n2.pdf
+[12] [13 <./Chapters/HiSPARC/GLEs_OULU.pdf> <./Chapters/HiSPARC/FDs_OULU.pdf
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Chapters/r-mode/full_stats
-_BiSON_asymm_n2.pdf): PDF inclusion: multiple pdfs with page group included in 
-a single page
-> <./Chapters/r-mode/full_stats_BiSON_asymm_n5.pdf
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FDs_OULU.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>]
+<Chapters/HiSPARC/GLE70_501.pdf, id=1003, 861.05122pt x 366.90416pt>
+File: Chapters/HiSPARC/GLE70_501.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE70_501.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE70_501.pdf  used on input line 265
+.
+(pdftex.def)             Requested size: 204.85802pt x 87.2918pt.
+<Chapters/HiSPARC/GLE70_3001.pdf, id=1004, 861.05122pt x 362.70183pt>
+File: Chapters/HiSPARC/GLE70_3001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE70_3001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE70_3001.pdf  used on input line 26
+9.
+(pdftex.def)             Requested size: 204.85802pt x 86.292pt.
+<Chapters/HiSPARC/GLE71_8001.pdf, id=1005, 861.05122pt x 370.8201pt>
+File: Chapters/HiSPARC/GLE71_8001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE71_8001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE71_8001.pdf  used on input line 27
+9.
+(pdftex.def)             Requested size: 204.85802pt x 88.22345pt.
+<Chapters/HiSPARC/GLE71_3001.pdf, id=1006, 861.05122pt x 362.70183pt>
+File: Chapters/HiSPARC/GLE71_3001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE71_3001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE71_3001.pdf  used on input line 28
+3.
+(pdftex.def)             Requested size: 204.85802pt x 86.292pt.
+<Chapters/HiSPARC/GLE72_501.pdf, id=1007, 893.61037pt x 608.41985pt>
+File: Chapters/HiSPARC/GLE72_501.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE72_501.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE72_501.pdf  used on input line 293
+.
+(pdftex.def)             Requested size: 204.85802pt x 139.47871pt.
+<Chapters/HiSPARC/GLE72_203.pdf, id=1008, 893.61037pt x 608.41985pt>
+File: Chapters/HiSPARC/GLE72_203.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE72_203.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE72_203.pdf  used on input line 297
+.
+(pdftex.def)             Requested size: 204.85802pt x 139.47871pt.
+<Chapters/HiSPARC/GLE72_8001.pdf, id=1009, 893.61037pt x 608.41985pt>
+File: Chapters/HiSPARC/GLE72_8001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE72_8001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE72_8001.pdf  used on input line 30
+3.
+(pdftex.def)             Requested size: 204.85802pt x 139.47871pt.
+<Chapters/HiSPARC/GLE72_14001.pdf, id=1010, 868.07748pt x 612.6222pt>
+File: Chapters/HiSPARC/GLE72_14001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE72_14001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE72_14001.pdf  used on input line 3
+07.
+(pdftex.def)             Requested size: 204.85802pt x 144.57384pt.
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Chapters/r-mode/full_stats
-_BiSON_asymm_n5.pdf): PDF inclusion: multiple pdfs with page group included in 
-a single page
-> <./Chapters/r-mode/full_stats_BiSON_asymm_n10.pdf
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Chapters/r-mode/full_stats
-_BiSON_asymm_n10.pdf): PDF inclusion: multiple pdfs with page group included in
- a single page
->] [58 <./Chapters/r-mode/asymm_r-mode_model_fit.pdf>] [59]
-<Chapters/r-mode/l2m2.png, id=2879, 269.005pt x 265.99374pt>
-File: Chapters/r-mode/l2m2.png Graphic file (type png)
+LaTeX Warning: Reference `HS_standardisation' on page 14 undefined on input lin
+e 318.
 
-<use Chapters/r-mode/l2m2.png>
-Package pdftex.def Info: Chapters/r-mode/l2m2.png used on input line 323.
-(pdftex.def)             Requested size: 188.3022pt x 186.19434pt.
 
-<Chapters/r-mode/modulation_plot.pdf, id=2886, 540.30293pt x 385.90799pt>
-File: Chapters/r-mode/modulation_plot.pdf Graphic file (type pdf)
+Overfull \hbox (142.0944pt too wide) in paragraph at lines 318--319
+\OT1/cmr/m/n/12 https://doi.org/10.1088/0004-637X/761/2/101 and maybe also to h
+ttps://doi.org/10.1093/pasj/psv111...)...)...].
+ []
 
-<use Chapters/r-mode/modulation_plot.pdf>
-Package pdftex.def Info: Chapters/r-mode/modulation_plot.pdf used on input line
- 331.
-(pdftex.def)             Requested size: 277.41176pt x 198.14127pt.
+[14 <./Chapters/HiSPARC/GLE70_501.pdf> <./Chapters/HiSPARC/GLE70_3001.pdf
 
-<Chapters/r-mode/v_mod.pdf, id=2887, 534.51569pt x 386.4883pt>
-File: Chapters/r-mode/v_mod.pdf Graphic file (type pdf)
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/GLE70_3001.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/GLE71_8001.pdf
 
-<use Chapters/r-mode/v_mod.pdf>
-Package pdftex.def Info: Chapters/r-mode/v_mod.pdf used on input line 338.
-(pdftex.def)             Requested size: 200.59245pt x 145.0389pt.
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/GLE71_8001.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/GLE71_3001.pdf
 
-<Chapters/r-mode/a_mod.pdf, id=2888, 534.51569pt x 386.4883pt>
-File: Chapters/r-mode/a_mod.pdf Graphic file (type pdf)
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/GLE71_3001.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+>] [15 <./Chapters/HiSPARC/GLE72_501.pdf> <./Chapters/HiSPARC/GLE72_203.pdf
 
-<use Chapters/r-mode/a_mod.pdf>
-Package pdftex.def Info: Chapters/r-mode/a_mod.pdf used on input line 340.
-(pdftex.def)             Requested size: 200.59245pt x 145.0389pt.
- [60 <./Chapters/r-mode/l2m2.png>] [61 <./Chapters/r-mode/modulation_plot.pdf> 
-<./Chapters/r-mode/v_mod.pdf
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/GLE72_203.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/GLE72_8001.pdf
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Chapters/r-mode/v_mod.pdf)
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/GLE72_8001.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/GLE72_14001.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/GLE72_14001.pdf): PD
+F inclusion: multiple pdfs with page group included in a single page
+>]
+<Chapters/HiSPARC/FD_201203_501.pdf, id=1344, 861.05122pt x 377.22482pt>
+File: Chapters/HiSPARC/FD_201203_501.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201203_501.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201203_501.pdf  used on input line
+ 332.
+(pdftex.def)             Requested size: 204.85802pt x 89.74722pt.
+<Chapters/HiSPARC/FD_201203_8001.pdf, id=1345, 861.05122pt x 377.22482pt>
+File: Chapters/HiSPARC/FD_201203_8001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201203_8001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201203_8001.pdf  used on input lin
+e 336.
+(pdftex.def)             Requested size: 204.85802pt x 89.74722pt.
+<Chapters/HiSPARC/FD_201207_501.pdf, id=1346, 884.78792pt x 377.22482pt>
+File: Chapters/HiSPARC/FD_201207_501.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201207_501.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201207_501.pdf  used on input line
+ 346.
+(pdftex.def)             Requested size: 204.85802pt x 87.33548pt.
+<Chapters/HiSPARC/FD_201207_8001.pdf, id=1347, 884.78792pt x 377.22482pt>
+File: Chapters/HiSPARC/FD_201207_8001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201207_8001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201207_8001.pdf  used on input lin
+e 350.
+(pdftex.def)             Requested size: 204.85802pt x 87.33548pt.
+<Chapters/HiSPARC/FD_201412_501.pdf, id=1348, 861.05122pt x 377.22482pt>
+File: Chapters/HiSPARC/FD_201412_501.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201412_501.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201412_501.pdf  used on input line
+ 360.
+(pdftex.def)             Requested size: 204.85802pt x 89.74722pt.
+<Chapters/HiSPARC/FD_201412_203.pdf, id=1349, 869.12828pt x 360.24303pt>
+File: Chapters/HiSPARC/FD_201412_203.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201412_203.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201412_203.pdf  used on input line
+ 364.
+(pdftex.def)             Requested size: 204.85802pt x 84.90997pt.
+<Chapters/HiSPARC/FD_201412_3001.pdf, id=1350, 861.05122pt x 377.22482pt>
+File: Chapters/HiSPARC/FD_201412_3001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201412_3001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201412_3001.pdf  used on input lin
+e 370.
+(pdftex.def)             Requested size: 204.85802pt x 89.74722pt.
+<Chapters/HiSPARC/FD_201412_14001.pdf, id=1351, 883.80733pt x 360.24303pt>
+File: Chapters/HiSPARC/FD_201412_14001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201412_14001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201412_14001.pdf  used on input li
+ne 374.
+(pdftex.def)             Requested size: 204.85802pt x 83.49728pt.
+ [16 <./Chapters/HiSPARC/FD_201203_501.pdf> <./Chapters/HiSPARC/FD_201203_8001.
+pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_201203_8001.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/FD_201207_501.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_201207_501.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/FD_201207_8001.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_201207_8001.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Chapters/HiSPARC/FD_GLE72_501.pdf, id=1509, 893.61037pt x 622.94284pt>
+File: Chapters/HiSPARC/FD_GLE72_501.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_GLE72_501.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_GLE72_501.pdf  used on input line 
+393.
+(pdftex.def)             Requested size: 204.85802pt x 142.80807pt.
+<Chapters/HiSPARC/FD_GLE72_203.pdf, id=1510, 893.61037pt x 622.94284pt>
+File: Chapters/HiSPARC/FD_GLE72_203.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_GLE72_203.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_GLE72_203.pdf  used on input line 
+397.
+(pdftex.def)             Requested size: 204.85802pt x 142.80807pt.
+<Chapters/HiSPARC/FD_GLE72_8001.pdf, id=1511, 907.66287pt x 612.54205pt>
+File: Chapters/HiSPARC/FD_GLE72_8001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_GLE72_8001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_GLE72_8001.pdf  used on input line
+ 403.
+(pdftex.def)             Requested size: 204.85802pt x 138.24596pt.
+<Chapters/HiSPARC/FD_GLE72_14001.pdf, id=1512, 884.78792pt x 622.94284pt>
+File: Chapters/HiSPARC/FD_GLE72_14001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_GLE72_14001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_GLE72_14001.pdf  used on input lin
+e 407.
+(pdftex.def)             Requested size: 204.85802pt x 144.22437pt.
+ [17 <./Chapters/HiSPARC/FD_201412_501.pdf> <./Chapters/HiSPARC/FD_201412_203.p
+df
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_201412_203.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/FD_201412_3001.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_201412_3001.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/FD_201412_14001.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_201412_14001.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
-> <./Chapters/r-mode/a_mod.pdf
+>] [18 <./Chapters/HiSPARC/FD_GLE72_501.pdf> <./Chapters/HiSPARC/FD_GLE72_203.p
+df
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Chapters/r-mode/a_mod.pdf)
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_GLE72_203.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/FD_GLE72_8001.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_GLE72_8001.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/FD_GLE72_14001.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_GLE72_14001.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Reference `app:CORSIKA_sims' on page 19 undefined on input line 
+427.
+
+[19]
+<Chapters/HiSPARC/proton_footprint.pdf, id=1860, 651.22797pt x 623.56712pt>
+File: Chapters/HiSPARC/proton_footprint.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/proton_footprint.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/proton_footprint.pdf  used on input l
+ine 441.
+(pdftex.def)             Requested size: 200.59245pt x 192.06688pt.
+<Chapters/HiSPARC/alpha_footprint.pdf, id=1861, 651.22797pt x 623.56712pt>
+File: Chapters/HiSPARC/alpha_footprint.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/alpha_footprint.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/alpha_footprint.pdf  used on input li
+ne 443.
+(pdftex.def)             Requested size: 200.59245pt x 192.06688pt.
+ [20 <./Chapters/HiSPARC/proton_footprint.pdf> <./Chapters/HiSPARC/alpha_footpr
+int.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/alpha_footprint.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<Chapters/r-mode/HMI_MF_2011_rescaled.png, id=3011, 212.4738pt x 160.1985pt>
-File: Chapters/r-mode/HMI_MF_2011_rescaled.png Graphic file (type png)
+<Chapters/HiSPARC/proton_muon_number.pdf, id=1980, 662.02771pt x 623.56712pt>
+File: Chapters/HiSPARC/proton_muon_number.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/proton_muon_number.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/proton_muon_number.pdf  used on input
+ line 474.
+(pdftex.def)             Requested size: 200.59245pt x 188.9365pt.
+<Chapters/HiSPARC/alpha_muon_number.pdf, id=1981, 662.02771pt x 623.56712pt>
+File: Chapters/HiSPARC/alpha_muon_number.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/alpha_muon_number.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/alpha_muon_number.pdf  used on input 
+line 476.
+(pdftex.def)             Requested size: 200.59245pt x 188.9365pt.
+ [21 <./Chapters/HiSPARC/proton_muon_number.pdf> <./Chapters/HiSPARC/alpha_muon
+_number.pdf
 
-<use Chapters/r-mode/HMI_MF_2011_rescaled.png>
-Package pdftex.def Info: Chapters/r-mode/HMI_MF_2011_rescaled.png used on input
- line 353.
-(pdftex.def)             Requested size: 200.59245pt x 151.24171pt.
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/alpha_muon_number.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Chapters/HiSPARC/Total_Muon_Diff_Flux_Comparison.pdf, id=2091, 442.52516pt x 3
+90.92236pt>
+File: Chapters/HiSPARC/Total_Muon_Diff_Flux_Comparison.pdf Graphic file (type p
+df)
+<use Chapters/HiSPARC/Total_Muon_Diff_Flux_Comparison.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/Total_Muon_Diff_Flux_Comparison.pdf  
+used on input line 503.
+(pdftex.def)             Requested size: 200.59245pt x 177.20187pt.
+<Chapters/HiSPARC/Total_Muon_Flux_Comparison.pdf, id=2092, 435.4989pt x 390.922
+36pt>
+File: Chapters/HiSPARC/Total_Muon_Flux_Comparison.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/Total_Muon_Flux_Comparison.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/Total_Muon_Flux_Comparison.pdf  used 
+on input line 505.
+(pdftex.def)             Requested size: 200.59245pt x 180.06506pt.
 
-<Chapters/r-mode/HMI_MF_2014_rescaled.png, id=3012, 207.4149pt x 160.1985pt>
-File: Chapters/r-mode/HMI_MF_2014_rescaled.png Graphic file (type png)
+Overfull \hbox (101.87143pt too wide) in paragraph at lines 513--514
+\OT1/cmr/m/n/12 level muon flux of $\OMS/cmsy/m/n/12 ^^X \OT1/cmr/m/n/12 1$ per
+ cm$[]$ per sec-ond [cite to Au-tran: (https://doi.org/10.1016/j.nima.2018.06.0
+38)]. 
+ []
 
-<use Chapters/r-mode/HMI_MF_2014_rescaled.png>
-Package pdftex.def Info: Chapters/r-mode/HMI_MF_2014_rescaled.png used on input
- line 355.
-(pdftex.def)             Requested size: 200.59245pt x 154.9328pt.
- [62 <./Chapters/r-mode/HMI_MF_2011_rescaled.png> <./Chapters/r-mode/HMI_MF_201
-4_rescaled.png>] [63]
-<Chapters/r-mode/BiSON_vs_WSO_r-mode.pdf, id=3045, 437.27847pt x 324.27034pt>
-File: Chapters/r-mode/BiSON_vs_WSO_r-mode.pdf Graphic file (type pdf)
+[22 <./Chapters/HiSPARC/Total_Muon_Diff_Flux_Comparison.pdf> <./Chapters/HiSPAR
+C/Total_Muon_Flux_Comparison.pdf
 
-<use Chapters/r-mode/BiSON_vs_WSO_r-mode.pdf>
-Package pdftex.def Info: Chapters/r-mode/BiSON_vs_WSO_r-mode.pdf used on input 
-line 374.
-(pdftex.def)             Requested size: 200.59245pt x 148.75548pt.
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/Total_Muon_Flux_Comp
+arison.pdf): PDF inclusion: multiple pdfs with page group included in a single 
+page
+>]
+<Chapters/HiSPARC/Muon_Diff_Flux.pdf, id=2202, 435.4989pt x 390.92236pt>
+File: Chapters/HiSPARC/Muon_Diff_Flux.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/Muon_Diff_Flux.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/Muon_Diff_Flux.pdf  used on input lin
+e 533.
+(pdftex.def)             Requested size: 200.59245pt x 180.06506pt.
+<Chapters/HiSPARC/Muon_Diff_Flux_Additive.pdf, id=2203, 420.25446pt x 390.92236
+pt>
+File: Chapters/HiSPARC/Muon_Diff_Flux_Additive.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/Muon_Diff_Flux_Additive.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/Muon_Diff_Flux_Additive.pdf  used on 
+input line 535.
+(pdftex.def)             Requested size: 200.59245pt x 186.59076pt.
+ [23 <./Chapters/HiSPARC/Muon_Diff_Flux.pdf> <./Chapters/HiSPARC/Muon_Diff_Flux
+_Additive.pdf
 
-<Chapters/r-mode/BiSON_vs_HMI_r-mode.pdf, id=3046, 437.27847pt x 324.27034pt>
-File: Chapters/r-mode/BiSON_vs_HMI_r-mode.pdf Graphic file (type pdf)
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/Muon_Diff_Flux_Addit
+ive.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+>] [24]
+<Chapters/HiSPARC/SOPO_CRvP.pdf, id=2329, 715.68527pt x 507.89426pt>
+File: Chapters/HiSPARC/SOPO_CRvP.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/SOPO_CRvP.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/SOPO_CRvP.pdf  used on input line 595
+.
+(pdftex.def)             Requested size: 204.85802pt x 145.37909pt.
+<Chapters/HiSPARC/501_CRvP.pdf, id=2330, 727.18134pt x 505.72906pt>
+File: Chapters/HiSPARC/501_CRvP.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/501_CRvP.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/501_CRvP.pdf  used on input line 599.
 
-<use Chapters/r-mode/BiSON_vs_HMI_r-mode.pdf>
-Package pdftex.def Info: Chapters/r-mode/BiSON_vs_HMI_r-mode.pdf used on input 
-line 376.
-(pdftex.def)             Requested size: 200.59245pt x 148.75548pt.
- [64 <./Chapters/r-mode/BiSON_vs_WSO_r-mode.pdf> <./Chapters/r-mode/BiSON_vs_HM
-I_r-mode.pdf
+(pdftex.def)             Requested size: 204.85802pt x 142.46745pt.
+ [25 <./Chapters/HiSPARC/SOPO_CRvP.pdf> <./Chapters/HiSPARC/501_CRvP.pdf
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Chapters/r-mode/BiSON_vs_H
-MI_r-mode.pdf): PDF inclusion: multiple pdfs with page group included in a sing
-le page
->] [65]) [66]
-\openout2 = `Appendices/SMMF-sims/SMMF_sims.aux'.
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/501_CRvP.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>]
+<Chapters/HiSPARC/SOPO_beta.pdf, id=2424, 654.90926pt x 506.2959pt>
+File: Chapters/HiSPARC/SOPO_beta.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/SOPO_beta.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/SOPO_beta.pdf  used on input line 633
+.
+(pdftex.def)             Requested size: 204.85802pt x 158.36386pt.
+<Chapters/HiSPARC/501_beta.pdf, id=2425, 654.90926pt x 506.2959pt>
+File: Chapters/HiSPARC/501_beta.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/501_beta.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/501_beta.pdf  used on input line 637.
 
- (./Appendices/SMMF-sims/SMMF_sims.tex
-Appendix A.
-[67
+(pdftex.def)             Requested size: 204.85802pt x 158.36386pt.
+<Chapters/HiSPARC/SOPO_beta_2017_rescale.png, id=2435, 338.4645pt x 169.5936pt>
 
+File: Chapters/HiSPARC/SOPO_beta_2017_rescale.png Graphic file (type png)
+<use Chapters/HiSPARC/SOPO_beta_2017_rescale.png>
+Package pdftex.def Info: Chapters/HiSPARC/SOPO_beta_2017_rescale.png  used on i
+nput line 648.
+(pdftex.def)             Requested size: 277.41176pt x 139.0107pt.
+ [26]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 663.
 
-]
-<Appendices/SMMF-sims/cosine_model.pdf, id=3230, 569.05513pt x 569.05513pt>
-File: Appendices/SMMF-sims/cosine_model.pdf Graphic file (type pdf)
-
-<use Appendices/SMMF-sims/cosine_model.pdf>
-Package pdftex.def Info: Appendices/SMMF-sims/cosine_model.pdf used on input li
-ne 18.
-(pdftex.def)             Requested size: 149.37958pt x 149.37486pt.
-
-<Appendices/SMMF-sims/sgn_cng_model.pdf, id=3231, 569.05513pt x 569.05513pt>
-File: Appendices/SMMF-sims/sgn_cng_model.pdf Graphic file (type pdf)
-
-<use Appendices/SMMF-sims/sgn_cng_model.pdf>
-Package pdftex.def Info: Appendices/SMMF-sims/sgn_cng_model.pdf used on input l
-ine 20.
-(pdftex.def)             Requested size: 149.37958pt x 149.37486pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 28.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
- [68 <./Appendices/SMMF-sims/cosine_model.pdf> <./Appendices/SMMF-sims/sgn_cng_
-model.pdf
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 663.
+ [27 <./Chapters/HiSPARC/SOPO_beta.pdf> <./Chapters/HiSPARC/501_beta.pdf
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Appendices/SMMF-sims/sgn_c
-ng_model.pdf): PDF inclusion: multiple pdfs with page group included in a singl
-e page
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/501_beta.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/SOPO_beta_2017_rescale.png>]
+Missing character: There is no ƒ in font cmr12!
+Missing character: There is no á in font cmr12!
+ [28]
+<Chapters/HiSPARC/GLE71_3001_Pcorr.pdf, id=2567, 861.05122pt x 367.48715pt>
+File: Chapters/HiSPARC/GLE71_3001_Pcorr.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE71_3001_Pcorr.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE71_3001_Pcorr.pdf  used on input l
+ine 717.
+(pdftex.def)             Requested size: 204.85802pt x 87.4305pt.
+<Chapters/HiSPARC/GLE71_8001_Pcorr.pdf, id=2568, 861.05122pt x 369.25523pt>
+File: Chapters/HiSPARC/GLE71_8001_Pcorr.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE71_8001_Pcorr.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE71_8001_Pcorr.pdf  used on input l
+ine 721.
+(pdftex.def)             Requested size: 204.85802pt x 87.85115pt.
+<Chapters/HiSPARC/GLE72_501_Pcorr.pdf, id=2569, 893.61037pt x 608.41985pt>
+File: Chapters/HiSPARC/GLE72_501_Pcorr.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE72_501_Pcorr.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE72_501_Pcorr.pdf  used on input li
+ne 733.
+(pdftex.def)             Requested size: 204.85802pt x 139.47871pt.
+<Chapters/HiSPARC/GLE72_203_Pcorr.pdf, id=2570, 893.61037pt x 608.41985pt>
+File: Chapters/HiSPARC/GLE72_203_Pcorr.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE72_203_Pcorr.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE72_203_Pcorr.pdf  used on input li
+ne 737.
+(pdftex.def)             Requested size: 204.85802pt x 139.47871pt.
+ [29]
+Overfull \hbox (2.32172pt too wide) in paragraph at lines 748--748
+|[]\OT1/cmr/bx/n/14.4 Pressure Cor-rected Ob-ser-va-tions of For-bush De-crease
+s| 
+ []
+
+<Chapters/HiSPARC/FD_201207_8001_Pcorr.pdf, id=2583, 888.10371pt x 377.23448pt>
+
+File: Chapters/HiSPARC/FD_201207_8001_Pcorr.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201207_8001_Pcorr.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201207_8001_Pcorr.pdf  used on inp
+ut line 754.
+(pdftex.def)             Requested size: 277.41176pt x 117.83368pt.
+<Chapters/HiSPARC/FD_201412_501_Pcorr.pdf, id=2584, 861.05122pt x 377.22482pt>
+File: Chapters/HiSPARC/FD_201412_501_Pcorr.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201412_501_Pcorr.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201412_501_Pcorr.pdf  used on inpu
+t line 763.
+(pdftex.def)             Requested size: 277.41176pt x 121.53175pt.
+<Chapters/HiSPARC/FD_GLE72_501_Pcorr.pdf, id=2588, 893.61037pt x 622.94284pt>
+File: Chapters/HiSPARC/FD_GLE72_501_Pcorr.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_GLE72_501_Pcorr.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_GLE72_501_Pcorr.pdf  used on input
+ line 777.
+(pdftex.def)             Requested size: 204.85802pt x 142.80807pt.
+<Chapters/HiSPARC/FD_GLE72_203_Pcorr.pdf, id=2589, 893.61037pt x 622.94284pt>
+File: Chapters/HiSPARC/FD_GLE72_203_Pcorr.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_GLE72_203_Pcorr.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_GLE72_203_Pcorr.pdf  used on input
+ line 781.
+(pdftex.def)             Requested size: 204.85802pt x 142.80807pt.
+[30 <./Chapters/HiSPARC/GLE71_3001_Pcorr.pdf> <./Chapters/HiSPARC/GLE71_8001_Pc
+orr.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/GLE71_8001_Pcorr.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/GLE72_501_Pcorr.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/GLE72_501_Pcorr.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/GLE72_203_Pcorr.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/GLE72_203_Pcorr.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+>] [31 <./Chapters/HiSPARC/FD_201207_8001_Pcorr.pdf> <./Chapters/HiSPARC/FD_201
+412_501_Pcorr.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_201412_501_Pcorr.
+pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]) (./Chapters/HS_14008/HS_14008.tex [32 <./Chapters/HiSPARC/FD_GLE72_501_Pcor
+r.pdf> <./Chapters/HiSPARC/FD_GLE72_203_Pcorr.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_GLE72_203_Pcorr.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<Appendices/SMMF-sims/fake_TS_cosine_rescaled.png, id=3249, 129.6042pt x 97.082
-7pt>
-File: Appendices/SMMF-sims/fake_TS_cosine_rescaled.png Graphic file (type png)
- <use Appendices/SMMF-sims/fake_TS_cosine_rescaled.png>
-Package pdftex.def Info: Appendices/SMMF-sims/fake_TS_cosine_rescaled.png used 
-on input line 52.
-(pdftex.def)             Requested size: 192.0548pt x 143.8727pt.
-
-<Appendices/SMMF-sims/fake_TS_sgn_cng_rescaled.png, id=3250, 124.0635pt x 97.08
-27pt>
-File: Appendices/SMMF-sims/fake_TS_sgn_cng_rescaled.png Graphic file (type png)
-
- <use Appendices/SMMF-sims/fake_TS_sgn_cng_rescaled.png>
-Package pdftex.def Info: Appendices/SMMF-sims/fake_TS_sgn_cng_rescaled.png used
- on input line 54.
-(pdftex.def)             Requested size: 192.0548pt x 150.28699pt.
-
-<Appendices/SMMF-sims/flow_chart_2.png, id=3254, 676.77844pt x 651.18282pt>
-File: Appendices/SMMF-sims/flow_chart_2.png Graphic file (type png)
-
-<use Appendices/SMMF-sims/flow_chart_2.png>
-Package pdftex.def Info: Appendices/SMMF-sims/flow_chart_2.png used on input li
-ne 67.
-(pdftex.def)             Requested size: 362.77525pt x 349.06pt.
- [69 <./Appendices/SMMF-sims/fake_TS_cosine_rescaled.png> <./Appendices/SMMF-si
-ms/fake_TS_sgn_cng_rescaled.png>]
-[70 <./Appendices/SMMF-sims/flow_chart_2.png>]
-<Appendices/SMMF-sims/burn-in_TS_rescaled.png, id=3283, 127.4361pt x 97.8054pt>
-File: Appendices/SMMF-sims/burn-in_TS_rescaled.png Graphic file (type png)
-<use Appendices/SMMF-sims/burn-in_TS_rescaled.png>
-Package pdftex.def Info: Appendices/SMMF-sims/burn-in_TS_rescaled.png used on i
-nput line 83.
-(pdftex.def)             Requested size: 192.0548pt x 147.4151pt.
-
-<Appendices/SMMF-sims/N_hist.png, id=3284, 421.8159pt x 325.9377pt>
-File: Appendices/SMMF-sims/N_hist.png Graphic file (type png)
-
-<use Appendices/SMMF-sims/N_hist.png>
-Package pdftex.def Info: Appendices/SMMF-sims/N_hist.png used on input line 87.
-
-(pdftex.def)             Requested size: 192.0548pt x 148.40134pt.
-
-<Appendices/SMMF-sims/fake_sources_rescaled.png, id=3285, 133.4586pt x 97.0827p
-t>
-File: Appendices/SMMF-sims/fake_sources_rescaled.png Graphic file (type png)
- <use Appendices/SMMF-sims/fake_sources_rescaled.png>
-Package pdftex.def Info: Appendices/SMMF-sims/fake_sources_rescaled.png used on
- input line 93.
-(pdftex.def)             Requested size: 192.0548pt x 139.71303pt.
-
-<Appendices/SMMF-sims/SSN_rescaled.png, id=3286, 135.3858pt x 97.8054pt>
-File: Appendices/SMMF-sims/SSN_rescaled.png Graphic file (type png)
-
-<use Appendices/SMMF-sims/SSN_rescaled.png>
-Package pdftex.def Info: Appendices/SMMF-sims/SSN_rescaled.png used on input li
-ne 97.
-(pdftex.def)             Requested size: 192.0548pt x 138.75478pt.
- [71 <./Appendices/SMMF-sims/burn-in_TS_rescaled.png> <./Appendices/SMMF-sims/N
-_hist.png> <./Appendices/SMMF-sims/fake_sources_rescaled.png> <./Appendices/SMM
-F-sims/SSN_rescaled.png>]
-<Appendices/SMMF-sims/24h_fake_butterfly.pdf, id=3307, 514.30896pt x 338.70917p
-t>
-File: Appendices/SMMF-sims/24h_fake_butterfly.pdf Graphic file (type pdf)
- <use Appendices/SMMF-sims/24h_fake_butterfly.pdf>
-Package pdftex.def Info: Appendices/SMMF-sims/24h_fake_butterfly.pdf used on in
-put line 119.
-(pdftex.def)             Requested size: 362.77525pt x 238.92436pt.
- [72 <./Appendices/SMMF-sims/24h_fake_butterfly.pdf>]
-<Appendices/SMMF-sims/cosine_LS.pdf, id=3355, 541.84776pt x 397.94861pt>
-File: Appendices/SMMF-sims/cosine_LS.pdf Graphic file (type pdf)
-
-<use Appendices/SMMF-sims/cosine_LS.pdf>
-Package pdftex.def Info: Appendices/SMMF-sims/cosine_LS.pdf used on input line 
-129.
-(pdftex.def)             Requested size: 192.0548pt x 141.0511pt.
-
-<Appendices/SMMF-sims/sgn_cng_LS.pdf, id=3356, 541.84776pt x 397.94861pt>
-File: Appendices/SMMF-sims/sgn_cng_LS.pdf Graphic file (type pdf)
-
-<use Appendices/SMMF-sims/sgn_cng_LS.pdf>
-Package pdftex.def Info: Appendices/SMMF-sims/sgn_cng_LS.pdf used on input line
- 131.
-(pdftex.def)             Requested size: 192.0548pt x 141.0511pt.
-
-<Appendices/SMMF-sims/cosine_single_TS.pdf, id=3358, 531.12802pt x 396.30183pt>
-File: Appendices/SMMF-sims/cosine_single_TS.pdf Graphic file (type pdf)
-<use Appendices/SMMF-sims/cosine_single_TS.pdf>
-Package pdftex.def Info: Appendices/SMMF-sims/cosine_single_TS.pdf used on inpu
-t line 144.
-(pdftex.def)             Requested size: 192.0548pt x 143.29744pt.
-
-<Appendices/SMMF-sims/cosine_single_spectrum.pdf, id=3359, 541.84776pt x 397.94
-861pt>
-File: Appendices/SMMF-sims/cosine_single_spectrum.pdf Graphic file (type pdf)
- <use Appendices/SMMF-sims/cosine_single_spectrum.pdf>
-Package pdftex.def Info: Appendices/SMMF-sims/cosine_single_spectrum.pdf used o
-n input line 148.
-(pdftex.def)             Requested size: 192.0548pt x 141.0511pt.
-
-<Appendices/SMMF-sims/sgn_cng_single_TS.pdf, id=3360, 531.12802pt x 396.30183pt
->
-File: Appendices/SMMF-sims/sgn_cng_single_TS.pdf Graphic file (type pdf)
- <use Appendices/SMMF-sims/sgn_cng_single_TS.pdf>
-Package pdftex.def Info: Appendices/SMMF-sims/sgn_cng_single_TS.pdf used on inp
-ut line 154.
-(pdftex.def)             Requested size: 192.0548pt x 143.29744pt.
-
-<Appendices/SMMF-sims/sgn_cng_single_spectrum.pdf, id=3361, 541.84776pt x 397.9
-4861pt>
-File: Appendices/SMMF-sims/sgn_cng_single_spectrum.pdf Graphic file (type pdf)
- <use Appendices/SMMF-sims/sgn_cng_single_spectrum.pdf>
-Package pdftex.def Info: Appendices/SMMF-sims/sgn_cng_single_spectrum.pdf used 
-on input line 158.
-(pdftex.def)             Requested size: 192.0548pt x 141.0511pt.
- [73 <./Appendices/SMMF-sims/cosine_LS.pdf> <./Appendices/SMMF-sims/sgn_cng_LS.
-pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Appendices/SMMF-sims/sgn_c
-ng_LS.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
->]) [74 <./Appendices/SMMF-sims/cosine_single_TS.pdf> <./Appendices/SMMF-sims/c
-osine_single_spectrum.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Appendices/SMMF-sims/cosin
-e_single_spectrum.pdf): PDF inclusion: multiple pdfs with page group included i
-n a single page
-> <./Appendices/SMMF-sims/sgn_cng_single_TS.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Appendices/SMMF-sims/sgn_c
-ng_single_TS.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
-> <./Appendices/SMMF-sims/sgn_cng_single_spectrum.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Appendices/SMMF-sims/sgn_c
-ng_single_spectrum.pdf): PDF inclusion: multiple pdfs with page group included 
-in a single page
->] (./thesis.bbl
-Missing character: There is no √ in font cmr10!
-Missing character: There is no © in font cmr10!
-Missing character: There is no √ in font cmr10!
-Missing character: There is no © in font cmr10!
-Missing character: There is no √ in font cmr10!
-Missing character: There is no É in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no © in font cmr10!
-Missing character: There is no √ in font cmr10!
-Missing character: There is no É in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no © in font cmr10!
-Missing character: There is no √ in font cmr10!
-Missing character: There is no É in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no ° in font cmr10!
- [75
-
+Chapter 2.
+[33
 
 ]
+<Chapters/HS_14008/14008_config.png, id=2939, 490.83376pt x 260.47313pt>
+File: Chapters/HS_14008/14008_config.png Graphic file (type png)
+<use Chapters/HS_14008/14008_config.png>
+Package pdftex.def Info: Chapters/HS_14008/14008_config.png  used on input line
+ 50.
+(pdftex.def)             Requested size: 213.39568pt x 113.2413pt.
+ [34]
+<Chapters/HS_14008/detectors.jpg, id=2950, 4047.12pt x 3035.34pt>
+File: Chapters/HS_14008/detectors.jpg Graphic file (type jpg)
+<use Chapters/HS_14008/detectors.jpg>
+Package pdftex.def Info: Chapters/HS_14008/detectors.jpg  used on input line 68
+.
+(pdftex.def)             Requested size: 204.85802pt x 153.62851pt.
+<Chapters/HS_14008/ski_box.jpg, id=2951, 4047.12pt x 3035.34pt>
+File: Chapters/HS_14008/ski_box.jpg Graphic file (type jpg)
+<use Chapters/HS_14008/ski_box.jpg>
+Package pdftex.def Info: Chapters/HS_14008/ski_box.jpg  used on input line 72.
+(pdftex.def)             Requested size: 204.85802pt x 153.62851pt.
+ [35 <./Chapters/HS_14008/14008_config.png> <./Chapters/HS_14008/detectors.jpg>
+ <./Chapters/HS_14008/ski_box.jpg>]
+Overfull \hbox (1.86542pt too wide) in paragraph at lines 84--85
+[]\OT1/cmr/m/n/12 In gen-eral, the [][]PMTs[] has an ad-vised op-er-at-ing volt
+-age of around 700 V ([]Fokkema[],
+ []
+
+<Chapters/HS_14008/both_PMTs_post_NIM.png, id=2978, 436.14944pt x 318.10844pt>
+File: Chapters/HS_14008/both_PMTs_post_NIM.png Graphic file (type png)
+<use Chapters/HS_14008/both_PMTs_post_NIM.png>
+Package pdftex.def Info: Chapters/HS_14008/both_PMTs_post_NIM.png  used on inpu
+t line 92.
+(pdftex.def)             Requested size: 320.0935pt x 233.4744pt.
+[36]
+<Chapters/HS_14008/HS_14008_temp_circuit.png, id=2988, 240.9pt x 159.4758pt>
+File: Chapters/HS_14008/HS_14008_temp_circuit.png Graphic file (type png)
+<use Chapters/HS_14008/HS_14008_temp_circuit.png>
+Package pdftex.def Info: Chapters/HS_14008/HS_14008_temp_circuit.png  used on i
+nput line 111.
+(pdftex.def)             Requested size: 256.07741pt x 169.53995pt.
+ [37 <./Chapters/HS_14008/both_PMTs_post_NIM.png>] [38 <./Chapters/HS_14008/HS_
+14008_temp_circuit.png>]
+<Chapters/HS_14008/random_noise_timeseries.pdf, id=3009, 842.38776pt x 495.9447
+3pt>
+File: Chapters/HS_14008/random_noise_timeseries.pdf Graphic file (type pdf)
+<use Chapters/HS_14008/random_noise_timeseries.pdf>
+Package pdftex.def Info: Chapters/HS_14008/random_noise_timeseries.pdf  used on
+ input line 165.
+(pdftex.def)             Requested size: 256.07741pt x 150.75967pt.
+<Chapters/HS_14008/random_noise_fitted_poisson.pdf, id=3011, 426.66086pt x 318.
+34464pt>
+File: Chapters/HS_14008/random_noise_fitted_poisson.pdf Graphic file (type pdf)
+
+<use Chapters/HS_14008/random_noise_fitted_poisson.pdf>
+Package pdftex.def Info: Chapters/HS_14008/random_noise_fitted_poisson.pdf  use
+d on input line 174.
+(pdftex.def)             Requested size: 256.07741pt x 191.06653pt.
+) (./thesis.bbl [39] [40 <./Chapters/HS_14008/random_noise_timeseries.pdf> <./C
+hapters/HS_14008/random_noise_fitted_poisson.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HS_14008/random_noise_fitted
+_poisson.pdf): PDF inclusion: multiple pdfs with page group included in a singl
+e page
+>]
 Missing character: There is no √ in font cmr10!
-Missing character: There is no ≠ in font cmr10!
- [76])
+Missing character: There is no º in font cmr10!
+
+Underfull \hbox (badness 1389) in paragraph at lines 41--46
+[]\OT1/cmr/m/n/10.95 ETEnterprises 2020, Tech-ni-cal Re-port 9125B, Data Sheet:
+ 9125B Se-ries, []$\OT1/cmtt/m/n/10.95 http :
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 41--46
+\OT1/cmr/m/n/10.95 En-ter-prises, []$\OT1/cmtt/m/n/10.95 http : / / et-[]enterp
+rises . com / products / photomultipliers / product /
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no ç in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no á in font cmr10!
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
- [77]
+ [41
+
+]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
- (./thesis.aux
-(./Appendices/SMMF-sims/SMMF_sims.aux))
+ (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9AA642E6B6F7A53D888549F09D606B4E;3076.
+(rerunfilecheck)             Checksum: 32DCF299579098C0640DE6B981491819;2596.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
  ) 
 Here is how much of TeX's memory you used:
- 16524 strings out of 492995
- 253460 string characters out of 6132704
- 454655 words of memory out of 5000000
- 19372 multiletter control sequences out of 15000+600000
- 16684 words of font info for 61 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 45i,11n,89p,1919b,661s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on thesis.pdf (87 pages, 4090512 bytes).
+ 16257 strings out of 494923
+ 246995 string characters out of 6180742
+ 413554 words of memory out of 5000000
+ 19003 multiletter control sequences out of 15000+600000
+ 21320 words of font info for 79 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 45i,10n,87p,1971b,673s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on thesis.pdf (51 pages, 10157392 bytes).
 PDF statistics:
- 3806 PDF objects out of 4296 (max. 8388607)
- 2359 compressed objects within 24 object streams
- 354 named destinations out of 1000 (max. 500000)
- 612 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3226 PDF objects out of 3580 (max. 8388607)
+ 1474 compressed objects within 15 object streams
+ 222 named destinations out of 1000 (max. 500000)
+ 597 words of extra memory for PDF output out of 10000 (max. 10000000)
 

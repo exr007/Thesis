@@ -1,42 +1,37 @@
 \BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 1
 \BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 2
 \BOOKMARK [0][-]{chapter*.5}{List of Abbreviations}{}% 3
-\BOOKMARK [0][-]{chapter.1}{A Frequency Domain Investigation on the Morphology of the Solar Mean Magnetic Field}{}% 4
+\BOOKMARK [0][-]{chapter.1}{HiSPARC as a Space Weather Detector}{}% 4
 \BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.2}{Aims}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.3}{Data}{chapter.1}% 7
-\BOOKMARK [2][-]{subsection.1.3.1}{Summary of the Data Set}{section.1.3}% 8
-\BOOKMARK [2][-]{subsection.1.3.2}{Obtaining the SMMF from BiSON}{section.1.3}% 9
-\BOOKMARK [2][-]{subsection.1.3.3}{Comparison between WSO and BiSON}{section.1.3}% 10
-\BOOKMARK [1][-]{section.1.4}{Methodology}{chapter.1}% 11
-\BOOKMARK [2][-]{subsection.1.4.1}{Identifying Features in the SMMF Power Spectrum}{section.1.4}% 12
-\BOOKMARK [2][-]{subsection.1.4.2}{Parameterisation of the SMMF Power Spectrum}{section.1.4}% 13
-\BOOKMARK [2][-]{subsection.1.4.3}{Comparison with the WSO SMMF}{section.1.4}% 14
-\BOOKMARK [1][-]{section.1.5}{Results}{chapter.1}% 15
-\BOOKMARK [2][-]{subsection.1.5.1}{Investigation of the Window Function}{section.1.5}% 16
-\BOOKMARK [2][-]{subsection.1.5.2}{Modelling the BiSON Power Spectrum}{section.1.5}% 17
-\BOOKMARK [2][-]{subsection.1.5.3}{Comparison to the WSO Power Spectrum}{section.1.5}% 18
-\BOOKMARK [1][-]{section.1.6}{Discussion}{chapter.1}% 19
-\BOOKMARK [2][-]{subsection.1.6.1}{Asymmetry in the Power Spectrum}{section.1.6}% 20
-\BOOKMARK [2][-]{subsection.1.6.2}{Testing the Effects of Differential Rotation and Active Region Migration}{section.1.6}% 21
-\BOOKMARK [2][-]{subsection.1.6.3}{Further Morphology of the SMMF using SDO/HMI Data}{section.1.6}% 22
-\BOOKMARK [1][-]{section.1.7}{Conclusion}{chapter.1}% 23
-\BOOKMARK [0][-]{chapter.2}{Rossby Modes in the Solar Mean Magnetic Field}{}% 24
-\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 25
-\BOOKMARK [1][-]{section.2.2}{Aims}{chapter.2}% 26
-\BOOKMARK [1][-]{section.2.3}{Theory}{chapter.2}% 27
-\BOOKMARK [1][-]{section.2.4}{Methodology}{chapter.2}% 28
-\BOOKMARK [2][-]{subsection.2.4.1}{Testing the Residual Spectrum}{section.2.4}% 29
-\BOOKMARK [2][-]{subsection.2.4.2}{Modelling r mode Profiles}{section.2.4}% 30
-\BOOKMARK [1][-]{section.2.5}{Results}{chapter.2}% 31
-\BOOKMARK [2][-]{subsection.2.5.1}{Testing the Residual Spectrum}{section.2.5}% 32
-\BOOKMARK [2][-]{subsection.2.5.2}{Modelling r mode Profiles}{section.2.5}% 33
-\BOOKMARK [1][-]{section.2.6}{Discussion}{chapter.2}% 34
-\BOOKMARK [2][-]{subsection.2.6.1}{Manifestation of Rossby Waves in the Power Spectrum}{section.2.6}% 35
-\BOOKMARK [2][-]{subsection.2.6.2}{Rossby Modes in Other Sources of SMMF Data}{section.2.6}% 36
-\BOOKMARK [1][-]{section.2.7}{Conclusion}{chapter.2}% 37
-\BOOKMARK [0][-]{appendix.A}{Simulations of the Artificial SMMF}{}% 38
-\BOOKMARK [1][-]{section.A.1}{Model}{appendix.A}% 39
-\BOOKMARK [1][-]{section.A.2}{Configuration of the Simulations}{appendix.A}% 40
-\BOOKMARK [1][-]{section.A.3}{Outputs}{appendix.A}% 41
-\BOOKMARK [0][-]{figure.caption.42}{Bibliography}{}% 42
+\BOOKMARK [2][-]{subsection.1.1.1}{Space Weather Effects}{section.1.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.2}{HiSPARC Project}{section.1.1}% 7
+\BOOKMARK [2][-]{subsection.1.1.3}{HiSPARC Detector and Station Configuration}{section.1.1}% 8
+\BOOKMARK [1][-]{section.1.2}{Aims}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.3}{HiSPARC Properties}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.4}{HiSPARC Observations}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.4.1}{HiSPARC Observations of Ground Level Enhancements}{section.1.4}% 12
+\BOOKMARK [2][-]{subsection.1.4.2}{HiSPARC Observations of Forbush Decreases}{section.1.4}% 13
+\BOOKMARK [1][-]{section.1.5}{Air Shower Simulations}{chapter.1}% 14
+\BOOKMARK [2][-]{subsection.1.5.1}{Air Shower Footprints}{section.1.5}% 15
+\BOOKMARK [2][-]{subsection.1.5.2}{Muon Flux}{section.1.5}% 16
+\BOOKMARK [2][-]{subsection.1.5.3}{Muon Flux From MAIRE}{section.1.5}% 17
+\BOOKMARK [1][-]{section.1.6}{Standardisation of HiSPARC Data}{chapter.1}% 18
+\BOOKMARK [2][-]{subsection.1.6.1}{Motivation}{section.1.6}% 19
+\BOOKMARK [2][-]{subsection.1.6.2}{Barometric Correction}{section.1.6}% 20
+\BOOKMARK [2][-]{subsection.1.6.3}{Temperature Correction}{section.1.6}% 21
+\BOOKMARK [1][-]{section.1.7}{HiSPARC Observations After Pressure Corrections}{chapter.1}% 22
+\BOOKMARK [2][-]{subsection.1.7.1}{Pressure Corrected Observations of Ground Level Enhancements}{section.1.7}% 23
+\BOOKMARK [2][-]{subsection.1.7.2}{Pressure Corrected Observations of Forbush Decreases}{section.1.7}% 24
+\BOOKMARK [1][-]{section.1.8}{Discussion}{chapter.1}% 25
+\BOOKMARK [1][-]{section.1.9}{Conclusion}{chapter.1}% 26
+\BOOKMARK [0][-]{chapter.2}{HiSPARC Station 14008}{}% 27
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 28
+\BOOKMARK [1][-]{section.2.2}{Aims}{chapter.2}% 29
+\BOOKMARK [1][-]{section.2.3}{HiSPARC 14008 Detector Set-up}{chapter.2}% 30
+\BOOKMARK [2][-]{subsection.2.3.1}{Configuration}{section.2.3}% 31
+\BOOKMARK [2][-]{subsection.2.3.2}{Calibration}{section.2.3}% 32
+\BOOKMARK [2][-]{subsection.2.3.3}{Monitoring Temperature}{section.2.3}% 33
+\BOOKMARK [2][-]{subsection.2.3.4}{Monitoring Pressure}{section.2.3}% 34
+\BOOKMARK [1][-]{section.2.4}{Observations}{chapter.2}% 35
+\BOOKMARK [1][-]{section.2.5}{Conclusions}{chapter.2}% 36
+\BOOKMARK [0][-]{section.2.5}{Bibliography}{}% 37

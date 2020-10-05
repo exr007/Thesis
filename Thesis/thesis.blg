@@ -1,51 +1,51 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
-A level-1 auxiliary file: Appendices/SMMF-sims/SMMF_sims.aux
 The style file: mnras.bst
 Database file #1: library.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--empty booktitle in elsworth_performance_1995
-You've used 60 entries,
+Warning--empty booktitle in desorgher_planetocosmics_2006
+Warning--empty institution in heck_extensive_2017
+You've used 15 entries,
             2881 wiz_defined-function locations,
-            1170 strings with 22971 characters,
-and the built_in function-call counts, 28754 in all, are:
-= -- 2254
-> -- 2278
-< -- 153
-+ -- 991
-- -- 368
-* -- 3468
-:= -- 4674
+            823 strings with 9974 characters,
+and the built_in function-call counts, 7314 in all, are:
+= -- 500
+> -- 623
+< -- 43
++ -- 277
+- -- 106
+* -- 864
+:= -- 1233
 add.period$ -- 0
-call.type$ -- 60
-change.case$ -- 120
-chr.to.int$ -- 56
-cite$ -- 61
-duplicate$ -- 1360
-empty$ -- 1346
-format.name$ -- 554
-if$ -- 4920
-int.to.chr$ -- 5
+call.type$ -- 15
+change.case$ -- 31
+chr.to.int$ -- 15
+cite$ -- 17
+duplicate$ -- 359
+empty$ -- 364
+format.name$ -- 142
+if$ -- 1222
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 58
-newline$ -- 194
-num.names$ -- 432
-pop$ -- 265
+missing$ -- 9
+newline$ -- 60
+num.names$ -- 106
+pop$ -- 106
 preamble$ -- 1
-purify$ -- 240
+purify$ -- 60
 quote$ -- 0
-skip$ -- 830
+skip$ -- 204
 stack$ -- 0
-substring$ -- 1520
-swap$ -- 697
-text.length$ -- 241
+substring$ -- 315
+swap$ -- 171
+text.length$ -- 63
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 540
-warning$ -- 1
-while$ -- 454
+type$ -- 135
+warning$ -- 2
+while$ -- 105
 width$ -- 0
-write$ -- 613
-(There was 1 warning)
+write$ -- 165
+(There were 2 warnings)

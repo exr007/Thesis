@@ -380,13 +380,14 @@ As well as the power spectrum of the window function, Figure~\ref{fig:window_fun
 
 \begin{figure}[ht!]
 	\centering
-	\subfloat[Black line: BiSON SMMF PSD; blue line: power spectrum of the window function; green and dark-orange lines: the power spectrum of the artificial data without and with gaps, respectively; light orange line: the input peak used to generate the artificial data over-plotted. The lines have been offset for clarity. \label{fig:gap_test_top_plot}]{\includegraphics[width=0.75\columnwidth]{gap_test.pdf}}
+	\subfloat[Black line: BiSON SMMF PSD; blue line: power spectrum of the window function; green and dark-orange lines: the power spectrum of the artificial data without and with gaps, respectively; light orange line: the input peak used to generate the artificial data over-plotted. The lines have been offset for clarity. \label{fig:gap_test_top_plot}]{\includegraphics[width=0.7\columnwidth]{gap_test.pdf}}
 	\qquad
-	\subfloat[Dark-orange line: the power spectrum of the artificial data with gaps; solid-grey line: input PSD convolved with the window function; dashed-black line: input PSD convolved with the power spectrum and adjusted for the duty cycle. \label{fig:gap_test_bottom_plot}]{\includegraphics[width=0.75\columnwidth]{gap_test_conv.pdf}}
+	\subfloat[Dark-orange line: the power spectrum of the artificial data with gaps; solid-grey line: input PSD convolved with the window function; dashed-black line: input PSD convolved with the power spectrum and adjusted for the duty cycle. \label{fig:gap_test_bottom_plot}]{\includegraphics[width=0.7\columnwidth]{gap_test_conv.pdf}}
 	\caption{(a) The effect on the power spectrum due to periodic gaps in the data. (b) The effect of the convolution between the window function and the input power spectrum used to make the fake data, highlighting the need to correctly adjust the power for the duty cycle.}
 	\label{fig:window_function_PSDs}
 \end{figure}
-
+%top: \label{fig:gap_test_top_plot}
+%bottom: \label{fig:gap_test_bottom_plot}
 
 It is strikingly clear from Figure~\ref{fig:window_function_PSDs} that the shape of the spectrum of the window function has a remarkable resemblance to the \gls{bison} \gls{smmf} spectrum and the output of the artificial spectrum with gaps injected. This demonstrates that the periodic window function, with such a low duty cycle, has a dominating effect on the power spectrum of the input signal which not only produces the diurnal sidebands, but also a broadband spread of the power.
 
@@ -684,7 +685,7 @@ Three separate models for the migration of \glspl{ar} towards the equator were u
 \label{eq:exp_lats}
 \end{equation}
 
-In Figure~\ref{fig:artificial_sim_lats} we also note that for each model of the migration, we saw a different median rotation frequency in the distribution, which was lower for the slower migration, and higher for the faster migration. This was expected, due to the differential rotation, but it shows that the measured central rotation frequency of the \gls{smmf} power spectrum was sensitive to the migration and tells us something about the source. This also suggested that the \gls{rm} component on the \gls{smmf} power spectrum was consistent with a faster migration model.
+In Figure~\ref{fig:artificial_sim_plots} we also note that for each model of the migration, we saw a different median rotation frequency in the distribution, which was lower for the slower migration, and higher for the faster migration. This was expected, due to the differential rotation, but it shows that the measured central rotation frequency of the \gls{smmf} power spectrum was sensitive to the migration and tells us something about the source. This also suggested that the \gls{rm} component on the \gls{smmf} power spectrum was consistent with a faster migration model.
 
 \begin{figure}[!ht]
 	\centering
@@ -707,7 +708,7 @@ In Figure~\ref{fig:artificial_sim_lats} we also note that for each model of the 
 		\label{fig:artificial_sim_exp}}
 	
 	\caption{(a) Shows the latitudinal migration model as a function of time for each model; (b)-(d) shows the distribution of the rotation frequencies of sources sampled from the KDE for linear, quadratic, and exponential migration models, respectively.}
-	\label{fig:artificial_sim_lats}
+	\label{fig:artificial_sim_plots}
 \end{figure}
 
 The simulations were run with 15 different configurations which used the three migration models combined with five models for the source transits across the visible disk (see Appendix~\ref{app:SMMF_sims}: cosine model, sign change model, and combinations of the cosine and sign change models in ratios of 5:95, 10:90, and 20:80). In each case, 250 simulations were performed in order to produce a limit spectrum. Each limit spectrum was modelled with a series of Lorentzian peaks sharing a global asymmetry parameter, and the resultant asymmetry values are shown in Figure~\ref{fig:artificial_asymm}.

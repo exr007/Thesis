@@ -1,75 +1,82 @@
 \thispagestyle {plain}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces An example of the BiSON ratios data over a 30-minute period. The separation between the two ratios is due to the solar mean magnetic field. Other excursions in the individual ratios are due to the other effects measured by the RSS.\relax }}{9}{figure.caption.6}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces (a) 40-second cadence observations of the SMMF from the Sutherland BiSON station between 1992 and 2012. The sense of the field was chosen to match the \citet {chaplin_studies_2003} and the WSO observations, where positive is for a field pointing outwards from the Sun. (b) Power spectrum of the SMMF on a 40-second cadence truncated to $10 \mu \mathrm {Hz}$, however, the nyquist frequency is 12.5 mHz.\relax }}{11}{figure.caption.7}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {BiSON SMMF 40-second cadence time series }}}{11}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Power spectral density of the BiSON SMMF }}}{11}{subfigure.2.2}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Daily averaged SMMF measured by WSO (blue) and by the Sutherland BiSON station (black).\relax }}{12}{figure.caption.8}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Comparisons between the BiSON SMMF data and the WSO SMMF data. (a) The correlation between daily averaged BiSON SMMF and the WSO SMMF. The solid-green line provides the fit to the data, while the dashed-red line shows a 1:1 relation for comparison. (b) Shows a comparison between the power spectra of BiSON and WSO measurements of the SMMF.\relax }}{12}{figure.caption.9}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {BiSON vs WSO correlation }}}{12}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {BiSON vs WSO PSDs }}}{12}{subfigure.4.2}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Formation heights of emission lines over the wavelength range used for WSO observations (top) and for BiSON observations (bottom). The vertical lines show the wavelengths of the emission lines used for observations in air (dashed) and in vacuum (solid). This plot was provided in private communication courtesy of Rinat Tagirov using the NESSY code.\relax }}{14}{figure.caption.10}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Full power spectrum of the BiSON SMMF on a logarithmic scale up to the Nyquist frequency.\relax }}{15}{figure.caption.11}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Locations of aliased power in side-band peaks. The orange, dotted-lines show the locations of frequencies at multiples of 1/day. The green, dashed-lines show the locations of the side-band peaks -- harmonic frequencies reflected around multiples of 1/day. The inset shows a zoom of one set of side-band peaks around 1/day.\relax }}{20}{figure.caption.12}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces (a) The effect on the power spectrum due to periodic gaps in the data. (b) The effect of the convolution between the window function and the input power spectrum used to make the fake data, highlighting the need to correctly adjust the power for the duty cycle.\relax }}{42}{figure.caption.13}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Black line: BiSON SMMF PSD; blue line: power spectrum of the window function; green and dark-orange lines: the power spectrum of the artificial data without and with gaps, respectively; light orange line: the input peak used to generate the artificial data over-plotted. The lines have been offset for clarity. }}}{42}{subfigure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Dark-orange line: the power spectrum of the artificial data with gaps; solid-grey line: input PSD convolved with the window function; dashed-black line: input PSD convolved with the power spectrum and adjusted for the duty cycle. }}}{42}{subfigure.8.2}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Full, modelled power spectrum of the BiSON SMMF on logarithmic axes. The data are displayed in black and the convolved model using asymmetric Lorentzian peaks is shown in green.\relax }}{43}{figure.caption.16}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Full, modelled power spectrum of the WSO SMMF on logarithmic axes. The data are displayed in black and the convolved model using asymmetric Lorentzian peaks is shown in blue.\relax }}{44}{figure.caption.18}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces (a) Shows the KDE of the monthly averaged sunspot number used to draw samples of source seed times; (b) distribution of the rotation frequency of sources sampled from the KDE, after using the model for the migration and differential rotation.\relax }}{44}{figure.caption.19}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {KDE of SSN }}}{44}{subfigure.11.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Histogram of source rotation frequency }}}{44}{subfigure.11.2}
-\contentsline {figure}{\numberline {1.12}{\ignorespaces (a) Shows the latitudinal migration model as a function of time for each model; (b)-(d) shows the distribution of the rotation frequencies of sources sampled from the KDE for linear, quadratic, and exponential migration models, respectively.\relax }}{45}{figure.caption.20}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Migration Models}}}{45}{subfigure.12.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Linear Migration}}}{45}{subfigure.12.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Quadratic Migration}}}{45}{subfigure.12.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Exponential Migration}}}{45}{subfigure.12.4}
-\contentsline {figure}{\numberline {1.13}{\ignorespaces The median value of the fitted global asymmetry parameter for several simulations of artificial data. The colour represents the migration model used: linear:blue; quadratic:orange; exponential: green. The marker represents the source model used: cosine:circle; sign change:cross; combinations of the cosine and sign change models in ratios of 5:95:downwards triangle; 10:90:plus; 20:80:upwards triangle.\relax }}{46}{figure.caption.21}
-\contentsline {figure}{\numberline {1.14}{\ignorespaces (a) Shows the Lorentzian distribution peak before and after the time-averaged broadening, and the fit to the broadened peak. (b) Shows the peak distribution before and after the analytical broadening, and the fit to the broadened peak. In both plots the broadened peaks have been shifted by the relevant frequency to overlay them on top of the true $\nu _0$ for comparison.\relax }}{46}{figure.caption.23}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Weighted }}}{46}{subfigure.14.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Analytic }}}{46}{subfigure.14.2}
-\contentsline {figure}{\numberline {1.15}{\ignorespaces Investigations of timescales in the SDO/HMI magnetograms over 2011 and 2014. Both plots show in the top panel, the hemispheric \gls {mmf} and full-disk \gls {smmf} from the magnetograms. The lower panel of each plot displays a comparison between the hemispheric and full-disk mean of the synoptic charts, compared to the box-car smoothed \gls {mmf} from the magnetograms. N: Northern hemisphere; S: Southern hemisphere. Full HMI: considers the full solar disk; 99 HMI: considers only the inner 99\% of the solar disk, by radius.\relax }}{47}{figure.caption.24}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {2011 }}}{47}{subfigure.15.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {2014 }}}{47}{subfigure.15.2}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Schematic diagram of the HiSPARC scintillation detector. (A): PMT; (B): light-guide adaptor; (C): light-guide; (D): scintillator.\relax }}{3}{figure.caption.6}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Typical formations of two-detector and four-detector stations. In each, the grey circle denotes a GPS antenna which is located in between the detectors to provide a precise timestamp for each signal.\relax }}{4}{figure.caption.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Two-detector station configuration}}}{4}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Four-detector station configuration (triangle arrangement)}}}{4}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Four-detector station configuration (diamond arrangement)}}}{4}{subfigure.2.3}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces (a): An example PMT signal after digital conversion by the HiSPARC electronics box. The horizontal lines denote: the noise cut-off (dotted line), which is used for setting a limit when integrating the pulse height, to give the pulse integral; the low-voltage threshold (dash-dot); the high-voltage threshold (dashed). (b) The pulse height distribution over the course of a single day from HiSPARC station 501. The vertical lines show the low-voltage threshold (dash-dot) and the high-voltage threshold (dashed).\relax }}{6}{figure.caption.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Trigger pulse}}}{6}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Pulseheight distribution}}}{6}{subfigure.3.2}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Azimuthal and zenith angle variations in the allowed and forbidden rigidity trajectories for HiSPARC station 501.\relax }}{10}{figure.caption.10}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Azimuth variation (fixed zenith = $20^\circ $)}}}{10}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zenith variation (fixed azimuth = $0^\circ $)}}}{10}{subfigure.4.2}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces The vertical asymptotic viewing directions of 5 HiSPARC stations. The rigidity range of the simulations were from $1.0$\nobreakspace {}GV $<$ R $<20.0$\nobreakspace {}GV, and the results are plotted in geographic coordinates on January 20th 2005. The diamonds correspond to the HS ground location and the circles correspond to the AVD for a specific rigidity value.\relax }}{11}{figure.caption.11}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces GLEs observed by the NM stations based at Oulu. Top panel: GLE 70; middle panel: GLE 71, bottom panel: GLE 72. The solid-black line shows the 2-minute-averaged, pressure corrected data and the vertical, dashed-red lines show the epochs of each GLE onset. The units of time on the x-axis are, MM-DD HH.\relax }}{13}{figure.caption.13}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces FDs observed by the NM stations based at Oulu. Top left panel: FDs during March 2012; top right panel: FD during July 2012, bottom left panel: FD during December 2014; bottom right panel: FD during September 2017. The solid-black line shows the 2-minute-averaged, pressure corrected data and the vertical, dashed-blue lines show the epochs of each FD onset. The units of time on the x-axis are, YYYY-MM-DD.\relax }}{13}{figure.caption.14}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces HiSPARC data for stations 501 and 3001 around the epoch of GLE 70. The plot shows the minute-averaged and 5-minute-averaged trigger events between detectors within the station. The vertical red, dashed line depicts the approximate onset time of the GLE. The units of time on the x-axis are, MM-DD HH.\relax }}{14}{figure.caption.15}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{14}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 3001 (Universiteit Leiden)}}}{14}{subfigure.8.2}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces HiSPARC data for stations 8001 and 3001 around the epoch of GLE 71. The plot shows the minute-averaged and 5-minute-averaged trigger events between detectors within the station. The vertical red, dashed line depicts the approximate onset time of the GLE. The units of time on the x-axis are, MM-DD HH.\relax }}{14}{figure.caption.16}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 8001 (Eindhoven)}}}{14}{subfigure.9.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 3001 (Universiteit Leiden)}}}{14}{subfigure.9.2}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces HiSPARC data for 4 stations around the epoch of GLE 72. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical red, dashed line depicts the approximate onset time of the GLE. The units of time on the x-axis are, MM-DD HH.\relax }}{15}{figure.caption.17}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{15}{subfigure.10.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{15}{subfigure.10.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {HS 8001 (Eindhoven)}}}{15}{subfigure.10.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {HS 14001 (Birmingham University)}}}{15}{subfigure.10.4}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces HiSPARC data for stations 501 and 8001 around the epoch of the FDs in March 2012. The plot shows the minute-averaged and hourly-averaged trigger events between detectors within the station. The vertical blue-dashed lines show the approximate onset-time of the FDs. The units of time on the x-axis are, YYYY-MM-DD.\relax }}{16}{figure.caption.18}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{16}{subfigure.11.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 8001 (Eindhoven)}}}{16}{subfigure.11.2}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces HiSPARC data for stations 501 and 8001 around the epoch of the FD in July 2012. The plot shows the minute-averaged and hourly-averaged trigger events between detectors within the station. The vertical blue-dashed line shows the approximate onset-time of the FD. The units of time on the x-axis are, YYYY-MM-DD.\relax }}{16}{figure.caption.19}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{16}{subfigure.12.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 8001 (Eindhoven)}}}{16}{subfigure.12.2}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces HiSPARC data for four stations around the epoch of the FD in December 2014. The plot shows the minute-averaged and hourly-averaged trigger events between detectors within the station. The vertical blue-dashed line shows the approximate onset-time of the FD. The units of time on the x-axis are, YYYY-MM-DD.\relax }}{17}{figure.caption.20}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{17}{subfigure.13.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{17}{subfigure.13.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {HS 3001 (Leiden)}}}{17}{subfigure.13.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {HS 14001 (Birmingham University)}}}{17}{subfigure.13.4}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces HiSPARC data for four stations around the epoch in which there were several FDs close to the onset of GLE 72. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical blue-dashed lines show the approximate onset-times of the two FDs observed around this epoch and the red-dashed line depicts the approximate onset time of the GLE. The units of time on the x-axis are, YYYY-MM-DD.\relax }}{18}{figure.caption.21}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{18}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{18}{subfigure.14.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {HS 8001 (Eindhoven)}}}{18}{subfigure.14.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {HS 14001 (Birmingham University)}}}{18}{subfigure.14.4}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Mean muon density footprints for (a) proton-initiated air showers and (b) $\alpha $-particle-initiated air showers with initial PCR trajectories with zenith angles $\theta =0^{\circ }$ and various PCR energies. The error bars given represent 1$\sigma $.\relax }}{20}{figure.caption.22}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Proton initiated air shower. }}}{20}{subfigure.15.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\alpha $-particle initiated air shower. }}}{20}{subfigure.15.2}
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Mean number of muons produced at ground level by the PCR for (a) proton-initiated air showers and (b) $\alpha $-particle-initiated air showers, for various PCR energy.\relax }}{21}{figure.caption.23}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Proton initiated air shower. }}}{21}{subfigure.16.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\alpha $-particle initiated air shower. }}}{21}{subfigure.16.2}
+\contentsline {figure}{\numberline {1.17}{\ignorespaces ...\relax }}{22}{figure.caption.24}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {...}}}{22}{subfigure.17.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {...}}}{22}{subfigure.17.2}
+\contentsline {figure}{\numberline {1.18}{\ignorespaces ...\relax }}{23}{figure.caption.25}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {...}}}{23}{subfigure.18.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {...}}}{23}{subfigure.18.2}
+\contentsline {figure}{\numberline {1.19}{\ignorespaces The anti-correlation between CR count rates and the atmospheric pressure. (a) shows the CR and the local atmospheric pressure measured at a NM in the South Pole; (b) shows the CR and pressure measured by HiSPARC station 501.\relax }}{25}{figure.caption.27}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {NM Station}}}{25}{subfigure.19.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 501 (Nikhef)}}}{25}{subfigure.19.2}
+\contentsline {figure}{\numberline {1.20}{\ignorespaces The barometric coefficient calculation: (a) during November 2017 for the South Pole (SOPO) NM station, (b) during November 2019 for HiSPARC station 501 at Nikhef.\relax }}{27}{figure.caption.28}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {SOPO NM Station}}}{27}{subfigure.20.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 501 (Nikhef)}}}{27}{subfigure.20.2}
+\contentsline {figure}{\numberline {1.21}{\ignorespaces A comparison between the monthly barometric coefficient computed in this work and using the online barometric coefficient tool throughout the year 2017 for the SOPO NM station.\relax }}{27}{figure.caption.29}
+\contentsline {figure}{\numberline {1.22}{\ignorespaces Pressure corrected HiSPARC data for 2 stations around the epoch of GLE 71. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical red, dashed line depicts the approximate onset time of the GLE.\relax }}{30}{figure.caption.30}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 3001 (Leiden)}}}{30}{subfigure.22.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 8001 (Eindhoven)}}}{30}{subfigure.22.2}
+\contentsline {figure}{\numberline {1.23}{\ignorespaces Pressure corrected HiSPARC data for 2 stations around the epoch of GLE 72. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical red, dashed line depicts the approximate onset time of the GLE.\relax }}{30}{figure.caption.31}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{30}{subfigure.23.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{30}{subfigure.23.2}
+\contentsline {figure}{\numberline {1.24}{\ignorespaces HS 8001 (Eindhoven)\relax }}{31}{figure.caption.32}
+\contentsline {figure}{\numberline {1.25}{\ignorespaces HS 501 (Nikhef)\relax }}{31}{figure.caption.33}
+\contentsline {figure}{\numberline {1.26}{\ignorespaces Pressure corrected HiSPARC data for 2 stations in an epoch where there were two FDs close to the onset of GLE 72. The top panel of each subplot shows the minute-averaged events data, while the bottom panels show the mean-shifted, minute-averaged counts by each individual detector in the stations. The vertical blue-dashed lines show the approximate onset-times of the FDs and the red-dashed line depicts the approximate onset-time of the GLE.\relax }}{32}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{32}{subfigure.26.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{32}{subfigure.26.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Full, modelled power spectrum of the BiSON SMMF on logarithmic axes. The data is displayed in black and the convolved model using asymmetric Lorentzian peaks is shown in green.\relax }}{50}{figure.caption.25}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Residual power spectrum of the BiSON SMMF. Over plotted in the green curve is the model of the main SMMF signal. Also over plotted as vertical solid lines are the expected locations of the 4 lowest-frequency sectoral $r$ modes and the dashed lines, the locations of the B$_0$ variation frequency splitting. Dashed lines represent $\pm 31.7$\nobreakspace {}nHz (i.e. representing the frequencies of splitting due to the variation in the B$_0$ angle.)\relax }}{56}{figure.caption.27}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Realisations of the statistics tests on the BiSON data for different re-binning factors (n). The panels of each sub figure are: (top) the full PSD and fit, (second panel) the full and re-binned residuals, (third panel) the probability of statistical noise in each bin, (bottom) distribution of the residuals compared to a $\chi ^2$ 2n-DOF.\relax }}{57}{figure.caption.28}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {No re-binning}}}{57}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Re-binned by a factor of n=2}}}{57}{subfigure.3.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Re-binned by a factor of n=5}}}{57}{subfigure.3.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Re-binned by a factor of n=10}}}{57}{subfigure.3.4}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Model fit to the $r$ mode in the BiSON PSD residuals using the median from the parameter posterior distributions.\relax }}{58}{figure.caption.30}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Mode displacement schematic for an $l=m=2$ $r$ mode \citep {strohmayer_neutron_2014}\relax }}{60}{figure.caption.31}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Time series of the velocity and amplitude modulation toy model simulations. The blue curve shows the velocity modulation, i.e. modulating using a cosine with period of 1 year, whereas the orange curve shows the amplitude modulation, i.e. modulating using a rectified cosine with period 1 year.\relax }}{61}{figure.caption.32}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Power spectra for the two modulation methods, showing the difference in the way the modulation has changed the frequency of the observed mode.\relax }}{61}{figure.caption.33}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Velocity modulation}}}{61}{subfigure.7.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Amplitude modulation}}}{61}{subfigure.7.2}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces SDO/HMI SMMF split into hemispheres and compared to other SMMF sources during (a) 2011, and (b) 2014. The top panel in each figure shows the north (N), south (S), and total disk-averaged mean magnetic field, for both the full solar disk and from pixels within 99\% of solar radius. The bottom panels show a comparison between the SMMF, as observed BiSON, WSO, and SDO/HMI (full disk and the 99\% disk).\relax }}{62}{figure.caption.34}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {2011}}}{62}{subfigure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {2014}}}{62}{subfigure.8.2}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Comparison of the power spectra for BiSON, WSO, and SDO/HMI. In both figures, the top panel shows the BiSON PSD and the bottom panel shows either the WSO or HMI PSD. The dashed, black line shows the location of the theoretical $l=2=m$ $r$ mode frequency, and the red, solid line shows the location of the peak fit in the BiSON PSD residuals.\relax }}{64}{figure.caption.35}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {WSO}}}{64}{subfigure.9.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HMI}}}{64}{subfigure.9.2}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Schematic representations of the two models of the artificial SMMF. (a) shows the cosine model with a single source of constant polarity transiting the visible disk. (b) shown the sign change model whereby there are 2 regions of opposite polarity transiting the disk, and their contribution to the SMMF changes during the transit.\relax }}{68}{figure.caption.36}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {`cosine' model }}}{68}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {`sign change' model }}}{68}{subfigure.1.2}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces A single realisation of (a) the cosine model, and (b) the sign change model.\relax }}{69}{figure.caption.37}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {`cosine' model }}}{69}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {`sign change' model }}}{69}{subfigure.2.2}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Flowchart showing the step-by-step processes in the generation of the artificial SMMF time series data.\relax }}{70}{figure.caption.38}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces (a) the burn-in period required to ensure that the interference of sources stabilises. The dashed-vertical line marks one year, showing the sources have stabilised. (b) histogram of the number of sources which remain in the simulation (out of the 20000 input), after the burn-in is removed. (c) the number of simulated sources on the visible disk over the BiSON observational epoch. (d) the daily-averaged sunspot number (blue, and the monthly-averaged sunspot number (orange)).\relax }}{71}{figure.caption.39}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Burn-in}}}{71}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Number of sources in the simulation after burn-in}}}{71}{subfigure.4.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Sources on the visible disk}}}{71}{subfigure.4.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Sunspot number}}}{71}{subfigure.4.4}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Artificial butterfly diagram generated from the simulations, allowing for the parameters to be drawn from distributions, to add stochasticity into the simulation.\relax }}{72}{figure.caption.40}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Limit spectrum from 100 realisations of the cosine model (a) and the sign change model (b) using a single source in each model.\relax }}{73}{figure.caption.41}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {`cosine' model }}}{73}{subfigure.6.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {`sign change' model }}}{73}{subfigure.6.2}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Time series and power spectra for realisations of the simulations using the cosine and sign change models.\relax }}{74}{figure.caption.42}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Cosine model time series}}}{74}{subfigure.7.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Cosine model power spectrum}}}{74}{subfigure.7.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Sign change model time series}}}{74}{subfigure.7.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Sign change model power spectrum}}}{74}{subfigure.7.4}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic diagram of the HiSPARC station 14008 detector set-up.\relax }}{35}{figure.caption.35}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces HiSPARC 14008 assembly and configuration. (a) shows the stacked arrangement of the scintillators on the lab work bench, between layers of pretective foam. (b) shows the complete detector inside the roof box on the University of Birmingham campus.\relax }}{35}{figure.caption.36}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Scintillators on the work bench}}}{35}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Complete detector on the roof}}}{35}{subfigure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Voltage calibration curve for the PMTs of station 14008. The upper, red-dashed line indicates the upper limit for the low threshold singles rate (400 Hz), and the lower 2, black-dashed lines indicate the upper and lower bounds for the high threshold singles rate (100--130 Hz).\relax }}{37}{figure.caption.37}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Schematic diagram of the DS18B20 temperature sensor circuit, whereby the voltage, ground, and GPIO interfaces connect directly into pins of the Raspberry Pi board.\relax }}{38}{figure.caption.38}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Time series of random coincidences data...\relax }}{40}{figure.caption.39}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Distribution of random coincidences data... and Poisson distribution of the random coincidences, along with the median posterior fitted mean of the sample...\relax }}{40}{figure.caption.40}
