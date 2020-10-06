@@ -8,13 +8,13 @@ The Sun has a complicated magnetic field structure; many features of the Sun and
 
 The \gls{smmf} is a surprising, non-zero measurement of the imbalance of opposite magnetic flux polarities observed on the full, visible disk of the Sun \citep{svalgaard_suns_1975}, and is defined as the mean \gls{los} magnetic field when observing the Sun-as-a-star \citep{scherrer_mean_1977, scherrer_mean_1977-1, garcia_integrated_1999}. In the literature the \gls{smmf} is also commonly referred to as the \gls{gmf} \citep{severny_time_1971} or the \gls{mmf} \citep{kotov_mean_2008} of the Sun.
 
-Observations of the \gls{smmf} have typically been made by measuring the Zeeman splitting of spectral lines using a ground-based Babcock-type magnetograph \citep{scherrer_mean_1977}, although more recently the \gls{smmf} has been calculated from full-disk \gls{los} magnetograms taken from space-borne telescopes such as the \gls{sdo/hmi}, in order to understand the morphology of the \gls{smmf} \citep{kutsenko_contribution_2017, bose_variability_2018}. It is understood that the strength of the \gls{smmf} may vary depending on the spectral line used to measure the \gls{smmf} \citep{kotov_mean_2008, kotov_enigmas_2012}, however, it is generally accepted in the literature that the \gls{smmf} varies slowly with the solar activity cycle, with a amplitude of up to around $\pm 2$ G during solar maximum and up to around $\pm 0.2$ G during solar minimum \citep{plachinda_general_2011}. In addition, the \gls{smmf} displays a strong, quasi-coherent rotational signal \citep{chaplin_studies_2003, xie_temporal_2017}, which we assume arises from inhomogeneities on the solar disk with lifetimes of a few rotations.
+Observations of the \gls{smmf} have typically been made by measuring the Zeeman splitting of spectral lines using a ground-based Babcock-type magnetograph \citep{scherrer_mean_1977}, although more recently the \gls{smmf} has been calculated from full-disk \gls{los} magnetograms taken from space-borne telescopes such as the \gls{sdo/hmi}, in order to understand the morphology of the \gls{smmf} \citep{kutsenko_contribution_2017, bose_variability_2018}. It is understood that the strength of the \gls{smmf} may vary depending on the spectral line used to measure the \gls{smmf} \citep{kotov_mean_2008, kotov_enigmas_2012}, however, it is generally accepted in the literature that the \gls{smmf} varies slowly with the solar activity cycle, with an amplitude of around $\pm 2$ G during solar maximum and around $\pm 0.2$ G during solar minimum \citep{plachinda_general_2011}. In addition, the \gls{smmf} displays a strong, quasi-coherent rotational signal \citep{chaplin_studies_2003, xie_temporal_2017}, which must arise from inhomogeneities on the solar disk with lifetimes of a few rotations.
 
 Despite a wide-ranging existing literature on \gls{smmf} observations, spanning several decades, ultimately, our understanding is limited and the \gls{smmf} origin remains a crucial, open question in solar physics. The principle component of the \gls{smmf} is commonly assumed to be weak, large-scale magnetic flux, distributed over vast areas over the entire solar disk, rather than from more concentrated regions such as \glspl{ar} or sunspots \citep{severny_time_1971, scherrer_mean_1977, xiang_ensemble_2016}. However, conversely, \citet{scherrer_mean_1972} found that the \gls{smmf} was most highly correlated with only the inner-most one quarter, by area, of the solar disk, which is more sensitive to active latitudes.
 
 In recent literature, \citet{bose_variability_2018} provided an interesting and novel approach to understanding the \gls{smmf} whereby they decomposed the \gls{smmf} through feature identification and pixel-by-pixel analysis of full-disk magnetograms. \citet{bose_variability_2018} concluded that: (i) the observed variability in the \gls{smmf} lies in the polarity imbalance of large-scale magnetic field structures on the visible surface of the Sun, (ii) the correlation between the flux from sunspots and the \gls{smmf} is statistically insignificant, (iii) and more critically that the background flux dominates the \gls{smmf}, accounting for around $89 \%$ of the variation in the \gls{smmf}. There still remained a strong manifestation of the rotation in the background magnetic field presented by \citet{bose_variability_2018}, however, which is indicative of inhomogeneous magnetic features with lifetimes on the order of several solar rotations rather than the shorter-lived, weaker fields usually associated with the large-scale background. 
 
-In order to identify the contours of specific features \citet{bose_variability_2018} used an adaptive thresholding technique on various \gls{sdo/aia} images of the solar disk to create binary masks for different types of features. These masks were then applied to scaled \gls{sdo/hmi} magnetograms in order to segment which features contributed to the \gls{smmf}. Upon a closer inspection of the example magnetogram in Figure 2 of the paper, with over-plotted contours of identified features from \gls{sdo/aia} images, there are clearly regions of strong \glspl{mfc} in the local vicinity of, and connected to, the identified features that lie outside their contour lines and are therefore allocated to the background magnetic field, rather than attributed to the specific features. It seems an obvious statement to suggest that \gls{sdo/aia} optical counterparts of the magnetograms will not exactly align with the observed magnetic flux in the magnetograms, as Sun's the magnetic field is a holistic feature. We expect that the magnetic field will manifest itself differently in the optical observations and the magnetograms, which leads one to believe that the background component in this study could mistakenly contain flux from some of the identified features.
+In order to identify the contours of specific features \citet{bose_variability_2018} used an adaptive thresholding technique on various \gls{sdo/aia} images of the solar disk to create binary masks for different types of features. These masks were then applied to scaled \gls{sdo/hmi} magnetograms in order to compart the features on the disk and their contribution to the \gls{smmf}. Upon a closer inspection of the example magnetogram in Figure 2 of the paper, with over-plotted contours of identified features from \gls{sdo/aia} images, there are clearly regions of strong \glspl{mfc} in the local vicinity of, and connected to, the identified features that lie outside their contour lines and are therefore allocated to the background magnetic field, rather than attributed to the specific features. It seems an obvious statement to suggest that \gls{sdo/aia} optical counterparts of the magnetograms will not exactly align with the observed magnetic flux in the magnetograms. We expect that the magnetic field will manifest itself differently in the optical observations and the magnetograms, which leads one to believe that the background component in this study could mistakenly contain flux from some of the identified features.
 
 In particular, in their example plot, the contours for sunspots typically only cover the umbra, not accounting for the surrounding penumbra. It is not clear whether this will have a large effect, but certainly we expect that some strong magnetic flux associated with sunspots has been attributed to the background, or other nearby features. One other note; there was a treatment of plages in this work, from additional chromospheric observations, but a separate, specific handling of faculae in the photosphere was absent. Incorporating this could have contributed to the completeness of the study. Furthermore, a decomposition of the identified background component into regimes of strong and weak field would have provided more clarity on the exact morphology of the \gls{smmf}, and would have likely provided evidence to conclude whether flux from \gls{ar} features were, in fact, incorporated into the background.
 
@@ -35,7 +35,7 @@ Ultimately, to date, our understanding of the \gls{smmf} and its origin remains 
 
 In this work an investigation of high-cadence (sub-minute) observations of the \gls{smmf}, made by \gls{bison} \citep{chaplin_bison_1996, chaplin_noise_2005, hale_performance_2016}, was performed. The aim of the investigation was to understand the morphology of the \gls{smmf}. 
 
-This work provides a frequency domain analysis of the \gls{smmf} data, where a model was built up and fit to the power spectrum of the \gls{smmf} which allowed us to understand the characteristics of its source(s). 
+This work provides a frequency domain analysis of the \gls{smmf} data, where a model was built and fit to the power spectrum of the \gls{smmf} which allowed us to understand the characteristics of its source(s). 
 
 The \gls{rm} signal in the \gls{smmf} was clearly observed as several low-frequency peaks in the power spectrum. In addition, the use of the high-cadence data was especially crucial for inferences on components of the \gls{smmf} with periods of less than a day at higher frequencies in the power spectrum, with the intention to determine whether the background magnetic field exhibited a stochastically excited component, which evolved on short timescales.
 
@@ -53,13 +53,13 @@ After fitting a model of the power spectrum, we aimed to use simulated data and 
 
 \citet{chaplin_studies_2003} provided the first examination of the \gls{smmf} using data from \gls{bison}, and the work presented in this paper is a continuation of that study.
 
-\gls{bison} is a six-station, ground-based, global network of telescopes attempting to continuously monitor the Sun, which principally makes precise measurements of the \gls{los} velocity of the photosphere due to solar $p$ mode oscillations \citep{hale_performance_2016}. Through the use of polarising optics and additional electronics, the \gls{bison} spectrometers can measure both the disk-averaged \gls{los} velocity and magnetic field in the photosphere \citep{chaplin_studies_2003}, however, not all \gls{bison} sites measure the \gls{smmf}. The observing regime for \gls{bison} is described below.
+\gls{bison} is a six-station, ground-based, global network of telescopes continuously monitoring the Sun, which principally makes precise measurements of the \gls{los} velocity of the photosphere due to solar $p$ mode oscillations \citep{hale_performance_2016}. Through the use of polarising optics and additional electronics, the \gls{bison} spectrometers can measure both the disk-averaged \gls{los} velocity and magnetic field in the photosphere \citep{chaplin_studies_2003}, however, not all \gls{bison} sites measure the \gls{smmf}. The observing regime for \gls{bison} is described below.
 
-In this study we focus on the data collected by the Sutherland node, in South Africa, which was also used by \cite{chaplin_studies_2003}. Data are sampled on a 40-second cadence, and the \gls{smmf} data collected by the Sutherland station pertains the epochs from 01/1992 -- 12/2012. Over this period, the duty cycle of solar observations is low because we are using only a single site, and averages to be $\sim 15.6\%$ of the total epoch.
+In this study we focus on the data collected by the Sutherland node, in South Africa, which was also used by \cite{chaplin_studies_2003}. Data are sampled on a 40-second cadence, and the \gls{smmf} data collected by the Sutherland station pertains the epochs from 01/1992 -- 12/2012. Over this period, the fill of solar observations is low because of the combination of: (a) the fill due to using only a single site with a 40-second cadence, (b) the duty cycle needed in a given day for a `good measure' of the Sun. Combined, the fill of the data averages to be $\sim 15.6\%$ of the total epoch.
 
-As a comparison to the \gls{bison} data, \gls{smmf} observations were also acquired from the \gls{wso} (\url{http://wso.stanford.edu/}) \citep{scherrer_mean_1977-1}. The \gls{wso} \gls{smmf} data are sampled daily from 16/05/1975 -- present day, but for comparison with the \gls{bison} \gls{smmf}, we only used data over the same temporal range.
+As a comparison to the \gls{bison} data, \gls{smmf} observations were also acquired by the \gls{wso} (\url{http://wso.stanford.edu/}) \citep{scherrer_mean_1977-1}. The \gls{wso} \gls{smmf} data are sampled daily from 16/05/1975 -- present day, but for comparison with the \gls{bison} \gls{smmf}, we only used data over the same temporal range.
 
-The \gls{wso} also measures the \gls{los} \gls{smmf} using a Babcock-type magnetograph, which allows the measurement of the amount and sense of circular polarisation in the wings in an absorption line \citep{scherrer_mean_1977}. \gls{wso} uses two absorption lines for the measurement of the magnetic field: the Fe I at 5250~\AA ($\lambda 5250$) is used for measurement of the field, and Fe I at 5124~\AA ($\lambda 5124$) is used to determine the instrument's zero offset, as this line is magnetically insensitive. \cite{scherrer_mean_1977} describes that a single, complete observation takes $\sim$20 minutes, consisting of four 3-minute integrations. The data provided by \gls{wso} is a daily weighted mean of the observations, where the weighting used is the statistical uncertainty and the magnitude of the zero offset measured with the $\lambda 5124$ line.
+The \gls{wso} also measures the \gls{los} \gls{smmf} using a Babcock-type magnetograph, which allows the measurement of the amount and sense of circular polarisation in the wings in an absorption line \citep{scherrer_mean_1977}. \gls{wso} uses two absorption lines for the measurement of the magnetic field: the Fe I at 5250~\AA ($\lambda 5250$) is used for measurement of the field, and Fe I at 5124~\AA ($\lambda 5124$) is used to determine the instrument's zero offset, as this line is magnetically insensitive. \cite{scherrer_mean_1977} describes that a single, complete observation takes $\sim$20 minutes, consisting of four 3-minute integrations. The data provided by \gls{wso} are a daily weighted mean of the observations, where the weighting used is the statistical uncertainty and the magnitude of the zero offset measured with the $\lambda 5124$ line.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -67,10 +67,10 @@ The \gls{wso} also measures the \gls{los} \gls{smmf} using a Babcock-type magnet
 
 There is no catalogued \gls{bison} \gls{smmf} data-set, so it was necessary to compute the \gls{smmf} from the available \gls{bison} data. To acquire the \gls{smmf} from \gls{bison} data, the method as described by \citet{chaplin_studies_2003} was adopted; here we discuss the key aspects.
 
-Each  \gls{bison} site employs a \gls{rss} to measure the Doppler shift of the $^{2}\mathrm{S}_{1/2} \, \rightarrow \, ^{2}\mathrm{P}_{1/2}$ line (D1 line) of potassium, at $\sim 770$~nm \citep{brookes_resonant-scattering_1978}. A potassium vapour cell placed within a longitudinal magnetic field Zeeman splits the laboratory line into the two allowed D1 transitions \citep{lund_spatial_2017}. The intensity of the longer wavelength (red; $I_R$) and shorter wavelength (blue; $I_B$) components of the line may be measured by the \gls{rss} almost simultaneously, by using polarising optics to switch between the red and blue wings of the line, to form the ratio given by equation~(\ref{eq:ratio}), which is used as a proxy for the Doppler shift from the \gls{los} velocity of the photosphere (see \citet{brookes_observation_1976, brookes_resonant-scattering_1978, elsworth_performance_1995, chaplin_studies_2003, lund_spatial_2017}).  
+Each  \gls{bison} site employs a \gls{rss} to measure the Doppler shift of the $^{2}\mathrm{S}_{1/2} \, \rightarrow \, ^{2}\mathrm{P}_{1/2}$ line (D1 line) of potassium, at $\sim 770$~nm \citep{brookes_resonant-scattering_1978}. A potassium vapour cell placed within a longitudinal magnetic field Zeeman splits the laboratory line into the two allowed D1 transitions \citep{lund_spatial_2017}. The intensity of the longer wavelength (red; $I_R$) and shorter wavelength (blue; $I_B$) components of the line may be measured by the \gls{rss} almost simultaneously, by using polarising optics to switch between the red and blue wings of the line, to form the ratio given by equation~(\ref{eq:ratio}), which is used as a proxy for the Doppler shift from the \gls{los} velocity of the photosphere \citep[see:][]{brookes_observation_1976, brookes_resonant-scattering_1978, elsworth_performance_1995, chaplin_studies_2003, lund_spatial_2017}: 
 
 \begin{equation}
-\mathcal{R} = \frac{I_B - I_R}{I_B + I_R}
+\mathcal{R} = \frac{I_B - I_R}{I_B + I_R} \, .
 \label{eq:ratio}
 \end{equation}
 
@@ -78,15 +78,17 @@ There are known effects which occur when making observations of the entire solar
 
 Photospheric magnetic fields Zeeman split the Fraunhofer line and the Zeeman-split components have opposite senses of circular polarization \citep{chaplin_studies_2003}. Additional polarising optics are used in the \gls{rss} to manipulate the sense of circular polarization (either + or -) that is passed through the instrument. The ratio $\mathcal{R}_{+}$ or $\mathcal{R}_{-}$ is formed, and the ratios $\mathcal{R}_{\pm}$ would be equal if there was no magnetic field present.
 
-The observed ratio ($\mathcal{R}_{\pm}$) may be decomposed as given by equation~(\ref{eq:vel_comp}); where $\mathcal{R}_{\mathrm{orb}}$ is the radial component of the Earth's orbital velocity around the Sun, $\mathcal{R}_{\mathrm{spin}}$ is the component towards the Sun of the Earth's diurnal rotation about its spin axis as a function of latitude and time, $\mathcal{R}_{\mathrm{grs}}$ is from the gravitational red-shift of the solar line due to the Sun's mass \citep{elsworth_techniques_1995, dumbill_observation_1999}. The \gls{los} velocity due to $p$ mode oscillations are given by $\delta {r}_{\mathrm{osc}}(t)$, and $\delta {r}_B(t)$ is due to the magnetic field (+/- from the polarity) \citep{dumbill_observation_1999}. The effect of the magnetic field on the ratio is shown in Fig. \ref{fig:ratio_split}, and it is clear to see from equation~(\ref{eq:R_diff}) that the difference between the opposite magnetic field ratios is twice the magnetic ratio residual.
+The observed ratio ($\mathcal{R}_{\pm}$) may be decomposed as given by equation~(\ref{eq:vel_comp}); where $\mathcal{R}_{\mathrm{orb}}$ is the radial component of the Earth's orbital velocity around the Sun, $\mathcal{R}_{\mathrm{spin}}$ is the component towards the Sun of the Earth's diurnal rotation about its spin axis as a function of latitude and time, $\mathcal{R}_{\mathrm{grs}}$ is from the gravitational red-shift of the solar line due to the Sun's mass \citep{elsworth_techniques_1995, dumbill_observation_1999}:
 
 \begin{equation}
-\mathcal{R}_{\pm} = \mathcal{R}_{\mathrm{orb}} + \mathcal{R}_{\mathrm{spin}} + \mathcal{R}_{\mathrm{grs}} + \delta {r}_{\mathrm{osc}}(t) \pm \delta {r}_{\mathrm{B}}(t)
+\mathcal{R}_{\pm} = \mathcal{R}_{\mathrm{orb}} + \mathcal{R}_{\mathrm{spin}} + \mathcal{R}_{\mathrm{grs}} + \delta {r}_{\mathrm{osc}}(t) \pm \delta {r}_{\mathrm{B}}(t) \, .
 \label{eq:vel_comp}
 \end{equation}
 
+The \gls{los} velocity due to $p$ mode oscillations are given by $\delta {r}_{\mathrm{osc}}(t)$, and $\delta {r}_B(t)$ is due to the magnetic field (+/- from the polarity) \citep{dumbill_observation_1999}. The effect of the magnetic field on the ratio is shown in Fig. \ref{fig:ratio_split}, and it is clear to see from equation~(\ref{eq:R_diff}) that the difference between the opposite magnetic field ratios is twice the magnetic ratio residual:
+
 \begin{equation}
-\mathcal{R}_{+} - \mathcal{R}_{-} = 2 \, \delta {r}_{\mathrm{B}}(t)
+\mathcal{R}_{+} - \mathcal{R}_{-} = 2 \, \delta {r}_{\mathrm{B}}(t) \, .
 \label{eq:R_diff}
 \end{equation}
 
@@ -99,41 +101,41 @@ The observed ratio ($\mathcal{R}_{\pm}$) may be decomposed as given by equation~
 In fact, the \gls{bison} \gls{rss} is measuring the velocity variation on the solar disk, and therefore a calibration from the ratio to a velocity is necessary. We also note the velocity effects due to spin, orbit, and gravitational red-shift significantly dominate the measured \gls{los} velocity over any of the other effects. One method of velocity calibration is achieved by first fitting the daily observed ratio, averaged over both magnetic polarities, to a 2nd- or 3rd-order polynomial as a function of velocity, as discussed by \citet{elsworth_techniques_1995}. Here we chose to fit the ratio in terms of velocity, $\mathcal{R}_{\mathrm{calc}}(u)$, see equation~(\ref{eq:calc_ratio}):
 
 \begin{equation}
-\mathcal{R}_{\mathrm{calc}}(u) = \sum_{n} \mathcal{R}_{n} u^n
+\mathcal{R}_{\mathrm{calc}}(u) = \sum_{n} \mathcal{R}_{n} u^n \, ,
 \label{eq:calc_ratio}
 \end{equation}
 
 where:
 
 \begin{equation}
-u = v_{\mathrm{orb}} + v_{\mathrm{spin}}
+u = v_{\mathrm{orb}} + v_{\mathrm{spin}} \, ,
 \label{eq:stn_vel}
 \end{equation}
 
 and $v_{\mathrm{orb}}$ is the velocity component related to the ratio,  $\mathcal{R}_{\mathrm{orb}}$; $v_{\mathrm{spin}}$ is related to the ratio, $\mathcal{R}_{\mathrm{spin}}$; and $n$ is the polynomial order.
 
-It is possible to see that through the removal of $\mathcal{R}_{\mathrm{calc}}(u)$ from the observed ratios, one is left with the ratio residuals of the $p$ mode oscillations and the magnetic field (see equation~(\ref{eq:ratio_resid})). Conversion from ratio residuals into velocity residuals uses the calibration given by equation~(\ref{eq:vel_resid}).
+It is possible to see that through the removal of $\mathcal{R}_{\mathrm{calc}}(u)$ from the observed ratios, one is left with the ratio residuals of the $p$ mode oscillations and the magnetic field (see equation~(\ref{eq:ratio_resid})). Conversion from ratio residuals into velocity residuals uses the calibration given by equation~(\ref{eq:vel_resid}):
 %REMOVED: accounting for $\mathcal{R}_{\mathrm{orb}}$, $\mathcal{R}_{\mathrm{spin}}$, and $\mathcal{R}_{\mathrm{grs}}$, 
 
 \begin{equation}
 \mathcal{R}_{\pm} - \mathcal{R}_{\mathrm{calc}}(u) = \delta {r}_{\mathrm{osc}}(t) \pm \delta {r}_{\mathrm{B}}(t)
-\label{eq:ratio_resid}
+\label{eq:ratio_resid} \, ;
 \end{equation}
 
 \begin{equation}
-\delta v(t) = \left( \frac{d\mathcal{R}_{calc}}{dV} \right)^{-1} \, \delta {r}(t)
+\delta v(t) = \left( \frac{d\mathcal{R}_{calc}}{dV} \right)^{-1} \, \delta {r}(t) \, .
 \label{eq:vel_resid}
 \end{equation}
 
-In order to finally obtain the \gls{smmf} in units of magnetic field, one must combine equation~(\ref{eq:R_diff}) and  equation~(\ref{eq:vel_resid}) with the conversion factor in equation~(\ref{eq:K_B}) \citep{dumbill_observation_1999}, where $\mu_B$ is the Bohr magneton, $h$ is Planck's constant, $c$ is the speed of light, and $\nu$ is the frequency of the photons, and the entire procedure can be simplified into equation~(\ref{eq:simplified_SMMF_cal}).
+In order to finally obtain the \gls{smmf} in units of magnetic field, one must combine equation~(\ref{eq:R_diff}) and  equation~(\ref{eq:vel_resid}) with the conversion factor in equation~(\ref{eq:K_B}) \citep{dumbill_observation_1999}, where $\mu_B$ is the Bohr magneton, $h$ is Planck's constant, $c$ is the speed of light, and $\nu$ is the frequency of the photons, and the entire procedure can be simplified into equation~(\ref{eq:simplified_SMMF_cal}):
 
 \begin{equation}
-K_B = \frac{8}{3} \, \frac{\mu_B}{h} \, \frac{c}{\nu} \approx 2.89... \, \mathrm{ms}^{-1} \, \mathrm{G}^{-1}
+K_B = \frac{8}{3} \, \frac{\mu_B}{h} \, \frac{c}{\nu} \approx 2.89... \, \mathrm{ms}^{-1} \, \mathrm{G}^{-1} \, ;
 \label{eq:K_B}
 \end{equation}
 
 \begin{equation}
-B(t) = \frac{1}{2} \left( \frac{d\mathcal{R}_{calc}}{dV} \right)^{-1} (\mathcal{R}_{+} - \mathcal{R}_{-}) / K_B
+B(t) = \frac{1}{2} \left( \frac{d\mathcal{R}_{calc}}{dV} \right)^{-1} (\mathcal{R}_{+} - \mathcal{R}_{-}) / K_B \, .
 \label{eq:simplified_SMMF_cal}
 \end{equation}
 
@@ -185,22 +187,24 @@ Figure~\ref{fig:BiSON_vs_WSO} shows the correlation between the two data sets, a
 %\end{figure}
 
 
-A possible reason for the differences between the \gls{wso} observations and the \gls{bison} observations may be explained by the formation heights of the lines. Assuming at each level of the solar atmosphere, regions threaded by magnetic field are in pressure equilibrium with those without any field, then the pressure balance can be expressed by equation~(\ref{eq:magnetic_pressure_balance}), where $P_\mathrm{with}$ is the gas pressure in regions with magnetic field, $P_\mathrm{without}$ in those without, and $B^2/2\mu_0$ is the magnetic pressure ($\mu_0$ = magnetic permeability of free space). This implies that the observed magnetic field scales like $\sqrt{P}$.
+A possible reason for the differences between the \gls{wso} observations and the \gls{bison} observations may be explained by the formation heights of the lines. Assuming at each level of the solar atmosphere, regions threaded by magnetic field are in pressure equilibrium with those without any field, then the pressure balance can be expressed by equation~(\ref{eq:magnetic_pressure_balance}), where $P_\mathrm{with}$ is the gas pressure in regions with magnetic field, $P_\mathrm{without}$ in those without, and $B^2/2\mu_0$ is the magnetic pressure ($\mu_0$ = magnetic permeability of free space):
 
 \begin{equation}
-P_\mathrm{with} + \frac{B^2}{2\mu_0} = P_\mathrm{without}
+P_\mathrm{with} + \frac{B^2}{2\mu_0} = P_\mathrm{without} \, .
 \label{eq:magnetic_pressure_balance}
 \end{equation}
 
-Pressure changes exponentially with the scale height, H$_\mathrm{P}$ ($\sim 100-150$ km for the photosphere \citep{christensen-dalsgaard_current_1996}), as described by equation~(\ref{eq:pressure_scale}). Therefore combining both equation~(\ref{eq:magnetic_pressure_balance}) and equation~(\ref{eq:pressure_scale}), we arrive at equation~(\ref{eq:magnetic_scale}).
+This implies that the observed magnetic field scales like $\sqrt{P}$. Pressure changes exponentially with the scale height, H$_\mathrm{P}$ ($\sim 100-150$ km for the photosphere \citep{christensen-dalsgaard_current_1996}), as described by equation~(\ref{eq:pressure_scale}): 
 
 \begin{equation}
-P_2 = P_1 e^{ - (h_2-h_1)/H_P}
+P_2 = P_1 e^{ - (h_2-h_1)/H_P} \, .
 \label{eq:pressure_scale}
 \end{equation}
 
+Therefore combining both equation~(\ref{eq:magnetic_pressure_balance}) and equation~(\ref{eq:pressure_scale}), we arrive at equation~(\ref{eq:magnetic_scale}):
+
 \begin{equation}
-B_2 = B_1 e^{ - (h_2-h_1)/(2H_P)}
+B_2 = B_1 e^{ - (h_2-h_1)/(2H_P)} \, .
 \label{eq:magnetic_scale}
 \end{equation} 
 
@@ -241,9 +245,9 @@ The full power spectrum of the 40-second cadence \gls{smmf} is shown in Figure~\
 	\label{fig:BiSON_FT_full}
 \end{figure}
 
-There are a number of features in the power spectrum. First, the peaks between 0.1 -- 2.0~$\mu\mathrm{Hz}$ are a manifestation of a persistent rotational signal the \gls{smmf}. The distinct set of peaks indicates the existence of a long-lived, inhomogeneous, \gls{rm} source. The \gls{smmf} signal exhibits a quasi-coherent behaviour in the time domain, and based on the comparatively short timescales for the emergence of magnetic features compared to their slow decay (i.e. hours--days compared to weeks--months) \citep{zwaan_solar_1981, harvey_properties_1993, hathaway_sunspot_2008, dacie_evolution_2016}, we assume the evolution of the \gls{rm} component with time is a sudden appearance and a long, exponential decay.
+There are a number of features in the power spectrum. First, the peaks between 0.1 -- 2.0~$\mu\mathrm{Hz}$ are a manifestation of a persistent rotational signal in the \gls{smmf}. The distinct set of peaks indicates the existence of a long-lived, inhomogeneous, \gls{rm} source. The \gls{smmf} signal exhibits a quasi-coherent behaviour in the time domain, and based on the comparatively short timescales for the emergence of magnetic features compared to their slow decay (i.e. hours--days compared to weeks--months) \citep{zwaan_solar_1981, harvey_properties_1993, hathaway_sunspot_2008, dacie_evolution_2016}, we assume the evolution of the \gls{rm} component with time is a sudden appearance and a long, exponential decay.
 
-As we have 40-second cadence observations of the \gls{smmf}, we were able to investigate the power spectrum up to a high Nyquist frequency. This was critical in uncovering a red-noise-like component in the power spectrum. This component could arise from continuously evolving, short-lived regions of magnetic field linked to magneto-convection, akin to a random walk, which we will dub the \gls{sb} component. Analogous to the \gls{sb}, is the granulation signal observed in the Doppler-velocity measurements of the solar surface \citep{basu_asteroseismic_2017}. 
+As we have 40-second cadence observations of the \gls{smmf}, we were able to investigate the power spectrum up to a high Nyquist frequency. This was critical in uncovering a red-noise-like component in the power spectrum. This component could arise from continuously evolving, short-lived regions of magnetic field linked to magneto-convection, akin to a random walk, which we will dub the \gls{sb} component. Analogous to the \gls{sb}, is the granulation signal observed in the Doppler-velocity measurements of the solar surface \citep{basu_asteroseismic_2017}? It is indeed possible that this is not a real feature in the data and it could also be present due to the high-cadence and low-fill of the observations.
 
 In addition, at low-frequency there is power associated with instrumental noise and solar activity, and at very-high frequency shot-noise is captured which sets the lower limit in power in the spectrum. 
 
@@ -257,26 +261,26 @@ Through understanding how the duty cycle of the observations affected the power 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Parameterisation of the SMMF Power Spectrum}
 
-In the frequency domain, each of the \gls{rm} peaks models well as a Lorentzian distribution, similar to peak-bagging modes of solar oscillation \citep{handberg_bayesian_2011, davies_low-frequency_2014}, which is due to the quasi-coherent nature of the source. The exponential decay of the \gls{rm} \gls{smmf} source gives width to the peaks in the power spectrum, which we can measure to infer their lifetime.
+In the frequency domain, each of the \gls{rm} peaks models well as a Lorentzian distribution, similar to peak-bagging modes of solar oscillations \citep{handberg_bayesian_2011, davies_low-frequency_2014}, which is due to the quasi-coherent nature of the source. The exponential decay of the \gls{rm} \gls{smmf} source gives width to the peaks in the power spectrum, which we can measure to infer their lifetime.
 
-A single, symmetric Lorentzian peak can be modelled by equation~(\ref{eq:symm_lorentzian}), where $\nu$ is frequency, $A_n$ is the mode amplitude of the \gls{rm} component, $\Gamma$ is the mode line-width, and $\nu_n$ is the frequency of the mode.
+A single, symmetric Lorentzian peak can be modelled by equation~(\ref{eq:symm_lorentzian}), where $\nu$ is frequency, $A_n$ is the \gls{rms} amplitude of the \gls{rm} component in the time-domain, $\Gamma$ is the line-width of the \gls{rm} peak, and $\nu_n$ is the frequency of the \gls{rm} peak:
 
 \begin{equation}
-L_n(\nu; \Gamma, A_n, \nu_n) = \frac{2{A_n}^2}{\pi \Gamma} \left(1 + \left(\frac{\nu - \nu_{n}}{\Gamma /2}\right)^2\right)^{-1} 
+L_n(\nu; \Gamma, A_n, \nu_n) = \frac{2{A_n}^2}{\pi \Gamma} \left(1 + \left(\frac{\nu - \nu_{n}}{\Gamma /2}\right)^2\right)^{-1} \, .
 \label{eq:symm_lorentzian}
 \end{equation}
 
-Upon closer inspection of the power spectrum it is possible to see that the peaks appear to exhibit an asymmetric shape (see Figure~\ref{fig:BiSON_SMMF} and Figure~\ref{fig:BiSON_vs_WSO_PSDs}). Taking inspiration from \citep{howe_solar_2020}, it is possible to allow for asymmetry in the Lorentzian peak, which is controlled by the asymmetry parameter, $\alpha$, in equation~(\ref{eq:asymm_lorentzian}):
+Upon closer inspection of the power spectrum it is possible to see that the peaks appear to exhibit an asymmetric shape (see Figure~\ref{fig:BiSON_SMMF} and Figure~\ref{fig:BiSON_vs_WSO_PSDs}). Taking inspiration from \citet{howe_solar_2020}, it is possible to allow for asymmetry, which is controlled by the asymmetry parameter, $\alpha$, in equation~(\ref{eq:asymm_lorentzian}):
 
 \begin{equation}
-L_n(\nu; \Gamma, A_n, \nu_n) = \frac{2{A_n}^2}{\pi \Gamma(\nu)} \left(1 + \left(2X(\nu)\right)^2\right)^{-1} 
+L_n(\nu; \Gamma, A_n, \nu_n) = \frac{2{A_n}^2}{\pi \Gamma(\nu)} \left(1 + \left(2X(\nu)\right)^2\right)^{-1} \, ,
 \label{eq:asymm_lorentzian}
 \end{equation}
 
-where
+where:
 
 \begin{equation}
-X(\nu) = (\nu - \nu_n)/\Gamma(\nu)
+X(\nu) = (\nu - \nu_n)/\Gamma(\nu) \, ;
 \label{eq:asymm_freq}
 \end{equation}
 
@@ -285,29 +289,32 @@ X(\nu) = (\nu - \nu_n)/\Gamma(\nu)
 \label{eq:asymm_width}
 \end{equation}
 
-This parameterisation of the asymmetric Lorentzian stops any of the power from becoming negative. In the limit where $\alpha \rightarrow 0$, we see that $\Gamma(\nu) \rightarrow \Gamma$, thus the asymmetric expression equates to the symmetric expression.
+%This parameterisation of the asymmetric Lorentzian stops any of the power from becoming negative. 
+In the limit where $\alpha \rightarrow 0$, we see that $\Gamma(\nu) \rightarrow \Gamma$, thus the asymmetric expression equates to the symmetric expression.
 
-The model function used to describe the \gls{rm} signal in the power spectrum is given by equation~(\ref{eq:lorentzian_fit}); the sum of $N$ Lorentzian-peaks. The subscript, $n$, describes a single peak in the power spectrum; in implementing the model we constrain the mode frequencies such that they must be integer values of $\nu_0$: $\nu_n \, = \, n \nu_0$. This means that we define a single rotation frequency only, and subsequent peaks are harmonics. It is worth noting explicitly that this function assumes the line-width of each Lorentzian peak is the same; only their amplitudes and central frequency differ.
+The model function used to describe the \gls{rm} signal in the power spectrum is given by equation~(\ref{eq:lorentzian_fit}); the sum of $N$ Lorentzian-peaks:
 
 \begin{equation}
-P(\nu) = \sum_{n=1}^{N} L_n(\nu; \Gamma, A_n, \nu_n)
+P(\nu) = \sum_{n=1}^{N} L_n(\nu; \Gamma, A_n, \nu_n) \, .
 \label{eq:lorentzian_fit}
 \end{equation}
 
-When modelling the power spectrum we attempted with both the symmetric and asymmetric Lorentzian expressions, independently, to determine whether there is a necessity for the extra asymmetry parameter.
+The subscript, $n$, describes a single peak in the power spectrum; in implementing the model we constrain the central frequency for each of the peaks such that they must be integer values of $\nu_0$: $\nu_n \, = \, n \nu_0$. This means that we define a single rotation frequency only, and subsequent peaks are harmonics. It is worth noting explicitly that this function assumes the line-width of each Lorentzian peak is the same; only their amplitudes and central frequency differ.
 
-Through this formulation we can measure the lifetime of the \gls{rm} component ($L$), as it is related to the line-width of the peak by equation~(\ref{eq:mode_lifetime}).
+When modelling the power spectrum we attempted the fit with both of the Lorentzian expressions, independently. Firstly we modelled using the symmetric Lorentzian, and subsequently, using the asymmetric Lorentzian. This would determine whether there is a necessity for the addition of the asymmetry parameter.
+
+Through both formulations we can measure the $e$-folding lifetime of the amplitude of the \gls{rm} component ($T_e$), as it is related to the line-width of the peak by equation~(\ref{eq:mode_lifetime}):
 
 \begin{equation}
-\Gamma  = (\pi L)^{-1}
+\Gamma  = (\pi \, T_e)^{-1} \, .
 \label{eq:mode_lifetime}
 \end{equation}
 
 
-The low-frequency power can be incorporated into the model via the inclusion of a zero-frequency centred Lorentzian, i.e. Harvey-function, given by equation~(\ref{eq:harvey}); where $\sigma$ is the characteristic amplitude of the low frequency signal, and $\tau$ describes the characteristic timescale of the excursions around zero.
+The low-frequency power can be incorporated into the model via the inclusion of a zero-frequency centred Lorentzian, i.e. Harvey-function, given by equation~(\ref{eq:harvey}); where $\sigma$ is the characteristic amplitude of the low frequency signal, and $\tau$ describes the characteristic timescale of the excursions around zero:
 
 \begin{equation}
-H(\nu; \sigma, \tau) = \frac{4{\sigma}^2\tau}{1 + (2\pi \nu\tau)^2}
+H(\nu; \sigma, \tau) = \frac{4{\sigma}^2\tau}{1 + (2\pi \nu\tau)^2} \, .
 \label{eq:harvey}
 \end{equation}
 
@@ -321,7 +328,7 @@ When modelling the power spectrum we used the affine-invariant \gls{mcmc} sample
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Comparison with the WSO SMMF}
 
-To provide comparative results on the inferences from the \gls{bison} \gls{smmf}, we repeated the analysis on the power spectrum of the \gls{wso} \gls{smmf}. The \gls{wso} data are only provided on a daily cadence, hence the Nyquist frequency is lower than for \gls{bison}, at $\sim 5.79 \, \mu\mathrm{Hz}$, and it was not possible to observe the \gls{sb} component.
+To provide comparative results on the inferences from the \gls{bison} \gls{smmf}, we repeated the analysis on the power spectrum of the \gls{wso} \gls{smmf} and the daily-averaged \gls{bison} \gls{smmf}. The \gls{wso} data are only provided on a daily cadence, hence the Nyquist frequency is lower than for \gls{bison}, at $\sim 5.79 \, \mu\mathrm{Hz}$, and it was not possible to observe the \gls{sb} component.
 
 The same parametrisation as outlined above was relevant to the modelling of the features in the \gls{wso} \gls{psd}, and the \gls{rm} peak were fit using a model with symmetric Lorentzian peaks and separately with asymmetric Lorentzian peaks.
 
@@ -334,13 +341,13 @@ The same parametrisation as outlined above was relevant to the modelling of the 
 \subsection{Investigation of the Window Function}\label{sec:window_fn}
 
 
-Daily gaps in the data cause some power from the low-frequency \gls{rm} component in the power spectrum to be aliased to higher frequencies, specifically to harmonics of the frequency of the gaps in the data. In this case there are daily gaps, hence power is aliased to a frequency of 1/day $\sim$~11.57 $\mu$Hz and its harmonics.
+Due to the low fill of data, we see daily and random effects in the window function. Daily, periodic gaps in the data give rise to sidebands in the power spectrum, and random gaps cause a more broadband shifting of power, meaning that some power from the low-frequency \gls{rm} component in the power spectrum to be aliased to higher frequencies. First we will concentrate specifically on the effect of daily, periodic gaps in the data. Periodic gaps cause sidebands at a frequency corresponding to the gaps; in this case there are daily gaps, hence power is aliased to sidebands at a frequency of 1/day $\sim$~11.57 $\mu$Hz and its harmonics.
 
-The mode frequency (and harmonics) of the \gls{rm} component are located near zero ($\nu_0 \sim \,0.4 \, \mu\mathrm{Hz}$). We are usually only interested in the real, positive frequencies but due to their close proximity to zero, they are reflected back as a product of the aliasing and hence there are negative and positive side-bands in the complete power spectrum. When considering the aliased power, both the positive and negative side-bands must be taken into account. The aliased power is located at frequencies defined in equation~(\ref{eq:sidebands}), where $i$ denotes the side-band number, and $n$ denotes the harmonic of the mode. The locations of side-bands are shown clearly to obey equation~(\ref{eq:sidebands}) in the \gls{smmf} power spectrum show in Fig.~\ref{fig:sideband_locations}.
+The frequency (and harmonics) of the \gls{rm} component are located near zero ($\nu_0 \sim \,0.4 \, \mu\mathrm{Hz}$). We are usually only interested in the real, positive frequencies but due to their close proximity to zero, they are reflected back as a product of the aliasing and hence there are negative and positive side-bands in the complete power spectrum. When considering the aliased power, both the positive and negative side-bands must be taken into account. The aliased power is located at frequencies defined in equation~(\ref{eq:sidebands}), where $i$ denotes the side-band number, and $n$ denotes the harmonic of the mode:
 
 
 \begin{equation}
-\nu_{n, i} = i \, (\frac{1}{\mathrm{day}} \pm \nu_{n})
+\nu_{n, i} = i \, (\frac{1}{\mathrm{day}} \pm \nu_{n}) \, .
 \label{eq:sidebands}
 \end{equation}
 
@@ -352,22 +359,22 @@ The mode frequency (and harmonics) of the \gls{rm} component are located near ze
 \end{figure}
 
 
-It is clear that we could therefore have used the predicted locations of the aliased power and incorporated them into the model for the full power spectrum. This would, however, have required us to explicitly model some $\sim 1100$ groups of side-bands in order to cover this effect over the entire frequency range, and each group would have required a unique parameter to control the fraction of power that was contributed to the full \gls{psd}. It would have become computationally expensive to model each aliased peak and there would certainly have been room for degeneracy issues to occur.
+The locations of side-bands are shown clearly to obey equation~(\ref{eq:sidebands}) in the \gls{smmf} power spectrum show in Fig.~\ref{fig:sideband_locations}. It is clear that we could therefore have used the predicted locations of the aliased power and incorporated them into the model for the full power spectrum. This would, however, have required us to explicitly model some $\sim 1100$ groups of side-bands in order to cover this effect over the entire frequency range, and each group would have required a unique parameter to control the fraction of power that was contributed to the full \gls{psd}. It would have become computationally expensive to model each aliased peak and there would certainly have been room for degeneracy issues to occur.
 
-An alternative approach was to utilise the power spectrum of the window function itself. To do this the Fourier transform of the window function describing the duty cycle of observations was computed (i.e. $\left|\mathcal{F}\left[g(t)\right]\right|^2$), where the duty cycle function, $g(t)$, is given by equation~(\ref{eq:window}). In Figure~\ref{fig:window_function_PSDs} the power spectrum of the window function is shown.
+A more desirable, and we shall see more accurate, approach was to utilise the power spectrum of the window function itself. This approach not only takes into account the effect of daily, periodic gaps in the data, but also the more complex features that are added into the power spectrum due to the random gaps in the data. To do this the Fourier transform of the window function describing the duty cycle of observations was computed (i.e. $\left|\mathcal{F}\left[g(t)\right]\right|^2$), where the duty cycle function, $g(t)$, is given by equation~(\ref{eq:window}):
 
 \begin{equation}
 g(t) = 
 \begin{cases} 
 1 & \text{for } |B(t)| > 0 \\
 0       & \text{for } |B(t)| = 0
-\end{cases}
+\end{cases} \, .
 \label{eq:window}
 \end{equation}
 
-Furthermore, to demonstrate the effect of the window function on the power spectrum, an artificial spectrum was simulated with a single Lorentzian peak, following equation~(\ref{eq:lorentzian_fit}). By computing the inverse Fourier transform, an artificial time-series was generated over the same epoch as the \gls{bison} \gls{smmf} observations. We were then able to examine the effects of injecting gaps into the data which were concurrent with the \gls{bison} \gls{smmf} gaps. 
+In Figure~\ref{fig:window_function_PSDs} the power spectrum of the window function is shown. Furthermore, to demonstrate the effect of the window function on the power spectrum, an artificial spectrum was simulated with a single Lorentzian peak, following equation~(\ref{eq:lorentzian_fit}). By computing the inverse Fourier transform, an artificial time-series was generated over the same epoch as the \gls{bison} \gls{smmf} observations. We were then able to examine the effects of injecting gaps into the data that were concurrent with the \gls{bison} \gls{smmf} gaps. 
 
-As well as the power spectrum of the window function, Figure~\ref{fig:window_function_PSDs} also shows the noiseless peak used to generate the fake data and the power spectra of the artificial data with and without the injected gaps. The power spectrum of the \gls{bison} \gls{smmf} data is also plotted for comparison.
+As well as the power spectrum of the window function, Figure~\ref{fig:window_function_PSDs} also shows the underlying noise-free peak that describes the fake data and the power spectra of the artificial data with and without the injected gaps. The power spectrum of the \gls{bison} \gls{smmf} data is also plotted for comparison.
 % Note this comes from: /mnt/storage/003. Data/015. BiSON/SMMF/Fake/Fake_data/1_peak/...
 
 %\begin{figure}[ht!]
@@ -391,23 +398,23 @@ As well as the power spectrum of the window function, Figure~\ref{fig:window_fun
 
 It is strikingly clear from Figure~\ref{fig:window_function_PSDs} that the shape of the spectrum of the window function has a remarkable resemblance to the \gls{bison} \gls{smmf} spectrum and the output of the artificial spectrum with gaps injected. This demonstrates that the periodic window function, with such a low duty cycle, has a dominating effect on the power spectrum of the input signal which not only produces the diurnal sidebands, but also a broadband spread of the power.
 
-Due to the broadband shape of the window function power spectrum compared to the \gls{bison} \gls{smmf}, it appears that there is actually no red-noise-like, \gls{sb} component in the \gls{smmf}; it is instead a manifestation of the periodic gaps in the data. There is still a necessity for a low-frequency Harvey function to describe the power close to zero.
+Due to the broadband shape of the window function power spectrum compared to the \gls{bison} \gls{smmf}, it appears that there is actually no detectable red-noise-like, \gls{sb} component in the \gls{smmf}; it is instead a manifestation of the periodic gaps in the data. There is still a necessity for a low-frequency Harvey function to describe the power close to zero, due to instrumental drifts and solar activity.
 
-To analytically understand this effect, we can express the time series of observed data ($y(t)$) as a multiplication of the uninterrupted, underlying signal ($f(t)$) with the window function ($g(t)$), as given by equation~(\ref{eq:timeseries}).
+To analytically understand this effect, we can express the time series of observed data ($y(t)$) as a multiplication of the uninterrupted, underlying signal ($f(t)$) with the window function ($g(t)$), as given by equation~(\ref{eq:timeseries}):
 
 \begin{equation}
 y(t)  = f(t) \, g(t)
-\label{eq:timeseries}
+\label{eq:timeseries} \, .
 \end{equation}
 
-In the frequency domain, as the Fourier transform of a product becomes the convolution of the transformed components. It is possible to express the observed power spectrum of data with periodic gaps in terms of the window function and the gap-free power spectrum, given in equation~(\ref{eq:PSD_fit_conv})
+In the frequency domain, as the Fourier transform of a product becomes the convolution of the transformed components. It is possible to express the observed power spectrum of data with periodic gaps in terms of the window function and the gap-free power spectrum, given in equation~(\ref{eq:PSD_fit_conv}):
 
 \begin{equation}
-P'(\nu; \,{\bf a}) \, = \, P(\nu; \,{\bf a}) * \left|\mathcal{F}\left[g(t)\right]\right|^2
+P'(\nu; \,{\bf a}) \, = \, P(\nu; \,{\bf a}) * \left|\mathcal{F}\left[g(t)\right]\right|^2 \, .
 \label{eq:PSD_fit_conv}
 \end{equation}
 
-Therefore to model the observed power spectrum in a robust manner, which takes into account the intricacies caused by gaps in the data, we used a model which was formed of a model power spectrum, $P(\nu; \,{\bf a})$, convolved with the Fourier transform of the window function describing the duty cycle of observations ($\left|\mathcal{F}\left[g(t)\right]\right|^2$), i.e. a model described by equation~(\ref{eq:PSD_fit_conv}), where
+Therefore to model the observed power spectrum in a robust manner, which takes into account the intricacies caused by gaps in the data, we used a model which was formed of a model power spectrum, $P(\nu; \,{\bf a})$, convolved with the Fourier transform of the window function describing the duty cycle of observations ($\left|\mathcal{F}\left[g(t)\right]\right|^2$), i.e. a model described by equation~(\ref{eq:PSD_fit_conv}), where:
 
 
 \begin{equation}
@@ -446,7 +453,7 @@ To further demonstrate the effects of the convolution process during the modelli
 
 There were several points uncovered about the convolution process in this fitting procedure that we had to take into consideration. Firstly, we found agreement with the effect on the total power observed in Figure~\ref{fig:window_function_PSDs}. The median posterior values of the amplitude and shot noise parameters were affected by the duty cycle, compensating for the effect on the power, which resulted in the amplitude posterior being too large by a factor of the square-root of the duty cycle ($\sim \sqrt{0.15}$) and the shot noise being too large by a factor of the duty cycle ($\sim 0.15$). This again highlights the necessity to incorporate the duty cycle into the convolution to ensure Parseval's theorem is obeyed. After the correction, the median posterior values for the amplitude and noise become: 111.7$\pm0.1$~mG and 0.1876$\left(_{-01}^{+01}\right)$~$\mathrm{G}^2\mathrm{Hz}^{-1}$, respectively, which are in-line with the expected values.
 
-In addition, we found that the width of the posterior distributions for the parameters were generally smaller as a result of the convolution process. We therefore observed that the likelihood evaluation, when using the convolved model, does not fully take into account the correlated noise on the power spectrum. To perform the full likelihood evaluation, with the correlated noise, requires large-data computational linear algebra (i.e. the inversion of an N-by-N diagonal-constant/Toeplitz matrix, where N is the size of data); unfortunately the process of fully accounting for the correlated noise in this scenario was too computationally expensive, due to the large data set with $> 10^6$ data points. After the corrections for Parseval's theorem, we noticed the $\nu_0$ and $\Gamma$ posterior widths appeared to be reduced by a factor of approximately the duty cycle. For the amplitude and shot noise this is not the case, however. We note here that our ability to resolve the model parameters is well represented in the case where the convolution wasn't performed; thus, we assumed the for $\nu_0$ and $c$, we have an accuracy of $\sim 0.5\%$ each; for $\Gamma$, an accuracy of $\sim 15\%$; for $A$, an accuracy of $\sim 10\%$. As we cannot directly account for the effect of posterior width shrinkage, we note these factors, which helps understand how the convolution affected our ability to measure the spectrum of the \gls{bison} SMMF.
+In addition, we found that the width of the posterior distributions for the parameters were generally smaller as a result of the convolution process. We therefore observed that the likelihood evaluation, when using the convolved model, does not fully take into account the correlated noise on the power spectrum. To perform the full likelihood evaluation, with the correlated noise, requires large-data computational linear algebra (i.e. the inversion of an N-by-N diagonal-constant/Toeplitz matrix, where N is the size of data); unfortunately the process of fully accounting for the correlated noise in this scenario was too computationally expensive, due to the large data set with $> 10^6$ data points. After the corrections for Parseval's theorem, we noticed the $\nu_0$ and $\Gamma$ posterior widths appeared to be reduced by a factor of approximately the duty cycle. For the amplitude and shot noise this is not the case, however. We note here that our ability to resolve the model parameters is well represented in the case where the convolution was not performed; thus, we assumed the for $\nu_0$ and $c$, we have an accuracy of $\sim 0.5\%$ each; for $\Gamma$, an accuracy of $\sim 15\%$; for $A$, an accuracy of $\sim 10\%$. As we cannot directly account for the effect of posterior width shrinkage, we note these factors, which helps understand how the convolution affected our ability to measure the spectrum of the \gls{bison} SMMF.
 
 From this exercise we learned that during the modelling of the \gls{bison} (and \gls{wso}) power spectra, we needed to account for the duty cycle to ensure no loss of power from the convolution process. We have also learnt that the likelihood evaluation does not properly take into consideration the effect of the correlated noise in the power spectrum, but it is too computationally expensive to account for.
 
@@ -457,7 +464,7 @@ From this exercise we learned that during the modelling of the \gls{bison} (and 
 
 As there were many data points in the power spectrum, each likelihood calculation was computationally expensive. In order to reduce the required computation, the \gls{bison} power spectrum was cut at a frequency of 7000 $\mu\mathrm{Hz}$, as at very high frequency, the spectrum purely represents the noise in the \gls{smmf}, and it was deemed as a sufficient limit to still fully converge on the shot noise parameter.
 
-We have shown the likelihood evaluation doesn't fully take into account the correlated noise due to the convolution, and doing so would have been too expensive to compute; hence, the pragmatic approach was to ignore the effect of the correlated noise in the convolution on the likelihood calculation.
+We have shown the likelihood evaluation does not fully take into account the correlated noise due to the convolution, and doing so would have been too expensive to compute; hence, the pragmatic approach was to ignore the effect of the correlated noise in the convolution on the likelihood calculation.
 
 The \gls{bison} power spectrum was modelled against equation~(\ref{eq:PSD_fit_conv}) (which used equation~(\ref{eq:PSD_model}) with $N = 4$ peaks) using the affine-invariant \gls{mcmc} sampler {\verb emcee } \citep{foreman-mackey_emcee_2013} to explore the posterior parameter space, using 7000 iterations on 50 chains, which was shown to provide a sufficient number of independent samples for convergence. In the modelling we used non-informative, uniform prior information, providing reasonable boundaries on each parameter, as detailed below.
 
@@ -557,7 +564,7 @@ In Table~\ref{tab:PSD_fit_params} the median values of marginalised posterior di
 \end{table}
 
 
-As the asymmetry parameter converged reasonably within the prior bounds we therefore deduced that the extra parameter was necessary, and the model utilising asymmetric Lorentzian peaks was a better fit to the data than the model with symmetric Lorentzian peaks. The convolved model of the data, using asymmetric Lorentzian peaks, is shown in Figure~\ref{fig:BiSON_PSD_fit}, over-plotted on top the \gls{bison} \gls{smmf} power spectrum.
+As the asymmetry parameter converged reasonably within the prior bounds we therefore deduced that the extra parameter was necessary, and the model utilising asymmetric Lorentzian peaks was a better fit to the data than the model with symmetric Lorentzian peaks. The convolved model of the data, using asymmetric Lorentzian peaks, is shown in Figure~\ref{fig:BiSON_PSD_fit}, over-plotted on top of the \gls{bison} \gls{smmf} power spectrum.
 
 
 \begin{figure}[ht!]
@@ -568,13 +575,13 @@ As the asymmetry parameter converged reasonably within the prior bounds we there
 \end{figure}
 
 
-The central frequency of this model, $\nu_0$ implies a rotation period of $27.06^{+0.01}_{-0.01}$~days, and accounting for sidereal rotation, $25.19^{+0.01}_{-0.01}$~days. The rotation period measured is in agreement with other literature values for the rotation signal in the \gls{smmf} \citep{chaplin_studies_2003, xie_temporal_2017}.  We note here again the convolution process shrinks the posterior distributions and we expect that the true uncertainties on the frequency of rotation and thus the period should be, in fact, $\sim 0.5\%$ (i.e. approx. $\pm 0.1$~days).
+The central frequency of this model, $\nu_0$ implies a synodic rotation period of $27.06^{+0.01}_{-0.01}$~days, and hence a sidereal rotation period of $25.19^{+0.01}_{-0.01}$~days. The rotation period measured is in agreement with other literature values for the rotation signal in the \gls{smmf} \citep{chaplin_studies_2003, xie_temporal_2017}, and is in accordance with that typically observed for \glspl{ar} and sunspots. We note here again the convolution process shrinks the posterior distributions and we expect that the true uncertainties on the frequency of rotation and thus the period should be, in fact, $\sim 0.5\%$ (i.e. approx. $\pm 0.1$~days).
 
 According to the model for differential rotation given by \citet{snodgrass_magnetic_1983} and \citet{brown_inferring_1989}, the measured rotation period implies the \gls{rm} component of the \gls{smmf} is sensitive to a time-averaged latitude of around $11^{\circ}$. This latitude is consistent with the latitudes spanned by sunspots and \glspl{ar} over the solar activity cycle \citep{maunder_note_1904, mcintosh_deciphering_2014, thomas_asteroseismic_2019}, and particularly during the declining phase of the solar cycle. This strongly implies that the origin of the \gls{rm} component of the \gls{smmf} is linked to \glspl{ar} and \glspl{mfc}.
 
 Furthermore, from the measured line-width of the Lorentzian peaks, we have calculated the lifetime of the \gls{rm} component using equation~(\ref{eq:mode_lifetime}). The line-width suggests a lifetime of $116.5 \pm 2.6$~days, which is in the region of $\sim 16.5$~weeks. The typical lifetime of \glspl{ar} and sunspots is usually on the order of weeks to months, dependent on their size \citep{zwaan_solar_1981, schrijver_photospheric_1994, howard_sunspot_2001, hathaway_sunspot_2008, van_driel-gesztelyi_evolution_2015}, therefore we have measured a lifetime of the \gls{rm} component which is consistent with the lifetime of \glspl{ar} and sunspots. This again suggests that the source of the signal is linked to active regions of magnetic field or similar \glspl{mfc}. We note, in addition, the convolution process shrinks the posterior distributions and we expect that the true uncertainties on the width and thus the lifetime should be, in fact, $\sim 15\%$ (i.e. approx. $\pm 15$~days).
 
-Taking into account the work performed by \citet{bose_variability_2018}, which showed evidence to suggest sunspots did not contribute to the \gls{smmf}, and our concerns with their methodology, we cautiously do not specify that sunspots are the strong \gls{rm} source of the \gls{smmf}; however, this can still not be ruled out altogether. The method of identifying \glspl{ar} or strong \glspl{mfc} in magnetograms by \citet{bose_variability_2018} potentially mis-identified regions of magnetic flux associated with \glspl{ar} and \glspl{mfc} as background flux and it is possible that they do contribute to the \gls{smmf}. By comparison with the work carried out by \citet{kutsenko_contribution_2017}, the work performed in this project agrees that the \gls{smmf} is dominated by features with properties in-line with spots, \glspl{ar}, and \glspl{mfc}, i.e. long-lived and making up a small fraction of the solar disk, confined to active bands of latitude.
+Taking into account the work performed by \citet{bose_variability_2018}, which showed evidence to suggest sunspots did not contribute to the \gls{smmf}, and also our concerns with their methodology, we are cautious to specify that sunspots are the source of the \gls{rm} component; however, this can still not be ruled out altogether. The method of identifying \glspl{ar} or strong \glspl{mfc} in magnetograms by \citet{bose_variability_2018} potentially mis-identified regions of magnetic flux associated with \glspl{ar} and \glspl{mfc} as background flux and it is possible that they do contribute to the \gls{smmf}. By comparison with the work carried out by \citet{kutsenko_contribution_2017}, the work performed in this project agrees that the \gls{smmf} is dominated by features with properties in-line with spots, \glspl{ar}, and \glspl{mfc}, i.e. long-lived and making up a small fraction of the solar disk, confined to active bands of latitude.
 
 With all this considered, we state that our investigation of the \gls{bison} \gls{smmf} indicates the \gls{smmf} has its origin in the vicinity of \glspl{ar} and other concentrations of strong flux that are long-lived on the solar disk and exist in active latitudes. Whether or not specifically this is due to spots or other \glspl{mfc} will require further work on the magnetogram thresholding techniques investigating the \gls{smmf}.
 
@@ -591,7 +598,7 @@ When modelling the \gls{wso} power spectrum, although the duty cycle of the \gls
 %\label{eq:WSO_PSD_model}
 %\end{equation}
 
-The \gls{bison} power spectrum was modelled against equation~(\ref{eq:PSD_fit_conv}) (which used equation~(\ref{eq:PSD_model}) with $N = 3$ peaks) using the affine-invariant \gls{mcmc} sampler {\verb emcee }  \citep{foreman-mackey_emcee_2013} to explore the posterior parameter space, using 10000 iterations on 50 chains. The chains are not independent within {\verb emcee }, therefore convergence was interrogated using the integrated autocorrelation time, to quantify the effects of sampling error on the results and to ensure a sufficient number of effective samples were used.
+The \gls{wso} power spectrum was modelled against equation~(\ref{eq:PSD_fit_conv}) (which used equation~(\ref{eq:PSD_model}) with $N = 3$ peaks) using the affine-invariant \gls{mcmc} sampler {\verb emcee }  \citep{foreman-mackey_emcee_2013} to explore the posterior parameter space, using 10000 iterations on 50 chains. The chains are not independent within {\verb emcee }, therefore convergence was interrogated using the integrated autocorrelation time, to quantify the effects of sampling error on the results and to ensure a sufficient number of effective samples were used.
 
 
 In Table~\ref{tab:WSO_SMMF_fit_params} the median values of marginalised posterior distributions for each of the model parameters are displayed. Reported uncertainties on the parameters correspond to the $1\sigma$ ($68 \%$) credible intervals either side of the median. The effect of posterior width shrinkage in these results seems much less of a concern, as the $1\sigma$ uncertainties are on the same order as the results not using a convolved model in Table|\ref{tab:fake_1pk_params}. The convolved model of the data, using asymmetric Lorentzian peaks is shown in Figure~\ref{fig:WSO_PSD_fit} over-plotted on top the \gls{bison} \gls{smmf} power spectrum.
@@ -654,9 +661,9 @@ As with the \gls{bison} observations, the investigation of the \gls{wso} \gls{sm
 
 We have shown that the \gls{bison} and \gls{wso} \gls{smmf} power spectra are best modelled with asymmetric Lorentzian profiles. In this section, we investigate the cause of this asymmetry. 
 
-An initial hypothesis on the origin of the asymmetry was the migration of active regions towards the equator with the progression of the solar cycle. This is illustrated clearly by the asymmetry in the rotation frequencies of sources at latitudes sampled from a \gls{kde} of the SSN, in combination with models for the differential rotation \citep{snodgrass_magnetic_1983} and equatorial migration \citep{li_latitude_2001}, shown in Figure~\ref{fig:KDE_lats}. The migration of \glspl{ar} towards the equator has an asymmetry which is skewed towards lower frequencies, in accordance with the asymmetry of the Lorentzian peaks in the \gls{bison} and \gls{wso} power spectra. If the total power spectrum is the sum of the power spectra for each contributing source, which have central frequencies following the distribution shown in Figure~\ref{fig:KDE_lats}, then we may expect to see this same asymmetry manifested in the power spectrum.
+An initial hypothesis on the origin of the asymmetry was the migration of active regions towards the equator with the progression of the solar cycle. This is illustrated clearly by the asymmetry in the rotation frequencies of sources at latitudes sampled from a \gls{kde} of the SSN, in combination with models for the differential rotation \citep{snodgrass_magnetic_1983} and equatorial migration \citep{li_latitude_2001}, shown in Figure~\ref{fig:KDE_lats}. The migration of \glspl{ar} towards the equator produces a clear, negatively asymmetric distribution of rotation frequencies, which has a longer tail at lower frequencies, in accordance with the asymmetry of the Lorentzian peaks in the \gls{bison} and \gls{wso} power spectra. If the total power spectrum is the sum of the power spectra for each contributing source, which have central frequencies following the distribution shown in Figure~\ref{fig:KDE_lats}, then we may expect to see this same asymmetry manifested in the power spectrum.
 
-To investigate migration as a source of the asymmetry, we used artificial data which were created to simulate the differential rotation and migration of active regions during the solar cycle. The methodology involved with generating the simulated data is discussed in Appendix~\ref{app:SMMF_sims}, and here we discuss the outcomes.
+To investigate migration as a source of the asymmetry, we used artificial data which were created to simulate the differential rotation and migration of active regions during the solar cycle. This was done by using two simplistic models, independently and in combination, for the transit of \gls{ar} sources across the solar disk: (a) a single \gls{ar} - ``cosine model", or (b) two regions of opposite polarity, such as sunspot pairs or a \gls{bmr} - ``sign-change model". In each case, the source(s) ingress the visible disk from one limb, traverse across the disk, and egress the other limb. The methodology involved with generating the simulated data is discussed in greater detail in Appendix~\ref{app:SMMF_sims}, and here we discuss the outcomes.
 
 \begin{figure}[ht!]
 	\centering
@@ -668,20 +675,20 @@ To investigate migration as a source of the asymmetry, we used artificial data w
 	\label{fig:KDE_lats}
 \end{figure}
 
-Three separate models for the migration of \glspl{ar} towards the equator were used in the simulations and they are shown in Figure~\ref{fig:artificial_sim_lats}. The quadratic model was taken from \citet{li_latitude_2001}, which represents a `typical' migration of \glspl{ar}, and the linear and exponential models were parametrised to provided opposite extremes for a slower and faster migration towards the equator, respectively. The aim of this was to investigate whether varying the migration rate affected the asymmetry. Each migration model is given in equation~(\ref{eq:quad_lats}), (\ref{eq:lin_lats}), and (\ref{eq:exp_lats}), where $t$ is the time since the start of the cycle, in years.
+Three separate models for the migration of \glspl{ar} towards the equator were used in the simulations and they are shown in Figure~\ref{fig:artificial_sim_lats}. The quadratic model was taken from \citet{li_latitude_2001}, which represents a `typical' migration of \glspl{ar}, and the linear and exponential models were parametrised to provided opposite extremes for a slower and faster migration towards the equator, respectively. The aim of this was to investigate whether varying the migration rate affected the asymmetry. Each migration model is given in equation~(\ref{eq:quad_lats}), (\ref{eq:lin_lats}), and (\ref{eq:exp_lats}), where $t$ is the time since the start of the cycle, in years:
 
 \begin{equation}
-\lambda_{q} = 0.0893t^2 - 2.8t + 27.24
+\lambda_{q} = 0.0893t^2 - 2.8t + 27.24 \, ;
 \label{eq:quad_lats}
 \end{equation}
 
 \begin{equation}
-\lambda_{l} = -1.84t + 27.24
+\lambda_{l} = -1.84t + 27.24 \, ;
 \label{eq:lin_lats}
 \end{equation}
 
 \begin{equation}
-\lambda_{e} = 20.24 e^{-t/2} + 7
+\lambda_{e} = 20.24 e^{-t/2} + 7 \, .
 \label{eq:exp_lats}
 \end{equation}
 
@@ -711,7 +718,7 @@ In Figure~\ref{fig:artificial_sim_plots} we also note that for each model of the
 	\label{fig:artificial_sim_plots}
 \end{figure}
 
-The simulations were run with 15 different configurations which used the three migration models combined with five models for the source transits across the visible disk (see Appendix~\ref{app:SMMF_sims}: cosine model, sign change model, and combinations of the cosine and sign change models in ratios of 5:95, 10:90, and 20:80). In each case, 250 simulations were performed in order to produce a limit spectrum. Each limit spectrum was modelled with a series of Lorentzian peaks sharing a global asymmetry parameter, and the resultant asymmetry values are shown in Figure~\ref{fig:artificial_asymm}.
+The simulations were run with 15 different configurations which used the three migration models combined with five models for the source transits across the visible disk. The five transit models were composed of the cosine model, sign change model, and combinations of the cosine and sign change models in ratios of 5:95, 10:90, and 20:80 (see Appendix~\ref{app:SMMF_sims} for further details). In each case, 250 simulations were performed in order to produce a limit spectrum by co-adding spectra from each independent realization. Each limit spectrum was then modelled with a series of Lorentzian peaks sharing a global asymmetry parameter, and the resultant asymmetry values are shown in Figure~\ref{fig:artificial_asymm}.
 
 \begin{figure}[ht!]
 	\centering
@@ -720,7 +727,7 @@ The simulations were run with 15 different configurations which used the three m
 	\label{fig:artificial_asymm}
 \end{figure}
 
-It was immediately clear that the choice of migration model had no significant effect on the asymmetry of the Lorentzian peaks, hence we are able to rule out \gls{ar} migration as the origin of the asymmetry observed. A possible reason for this explanation is that it was not correct to suggest that the total power spectrum is the sum of power spectra for each individual source, because this neglects the interference between sources in the time domain. However, this figure did show an obvious difference between the way the different models of the sources have asymmetry manifested in their spectra.
+It was immediately clear that the choice of migration model had no significant effect on the asymmetry of the Lorentzian peaks, hence we are able to rule out \gls{ar} migration as the origin of the asymmetry observed. It was therefore likely-incorrect to suggest that the total power spectrum was the sum of power spectra for each individual source, because this neglects the interference between sources in the time domain. However, Figure~\ref{fig:artificial_asymm} did show an obvious difference between the way the different models of the sources have asymmetry manifested in their spectra.
 
 This links to a still-open debate in helioseismology, on the source of asymmetry of the modes in the power spectra, and the asymmetry reversal between the observations in intensity and Doppler velocity. Asymmetry is regularly observed in $p$ modes of oscillation in helioseismic data and we observe a difference in the sign of the asymmetry term which is negative for Doppler velocity observations (i.e. more power in the low-frequency wing of the mode) and positive for measurements made in intensity (i.e. more power in the high-frequency wing of the mode) \citep{duvall_asymmetries_1993, chaplin_depth_1999, howe_validation_2015, basu_asteroseismic_2017}.
 
@@ -744,38 +751,40 @@ On the second point, the \gls{smmf} is measured by the Zeeman splitting of an em
 
 We know the rotation period of \glspl{ar} varies throughout the solar cycle as a result of solar differential rotation and latitudinal migration. As we have inferred that the \gls{rm} component of the \gls{smmf} is likely linked to \glspl{ar} and \glspl{mfc}, we may therefore assume that the \gls{rm} component is also sensitive to these effects. Here we analyse the effect of migration and differential rotation on our ability to make inferences on the lifetime of the \gls{rm} component.
 
-Several studies have modelled the the solar differential rotation, and its variation with latitude and radius of the Sun (see \citet{beck_comparison_2000} and \cite{howe_solar_2009} for an in depth review of the literature on solar differential rotation). Magnetic features have been shown to be sensitive to rotation deeper than the photosphere; therefore, in general, magnetic features can be seen to rotate with a shorter period than the surface plasma \citep{howe_solar_2009}.
+Several studies have modelled the the solar differential rotation, and its variation with latitude and radius of the Sun \citep[see][for an in depth review of the literature on solar differential rotation]{beck_comparison_2000, howe_solar_2009}. Magnetic features have been shown to be sensitive to rotation deeper than the photosphere; therefore, in general, magnetic features can be seen to rotate with a shorter period than the surface plasma \citep{howe_solar_2009}.
 
-\citet{chaplin_distortion_2008} analysed the effects of differential rotation on the shape of asteroseismic low-$l$ $p$ modes of oscillation, and showed that the consequence of differential rotation is to broaden the observed line-width of a mode peak. The authors provide a model of the resultant profile of a $p$ mode whose frequency is shifted in time to be a time-average of several instantaneous Lorentzian profiles with central frequency $\nu(t)$, given by equation~(\ref{eq:stacked_lorentzians}). The angled brackets indicate an average over time. $H$ and $\Gamma$ are the mode height (maximum power spectral density) and line-width, respectively. The full period of observation is given by $T$.
+\citet{chaplin_distortion_2008} analysed the effects of differential rotation on the shape of asteroseismic low-$l$ $p$ modes of oscillation, and showed that the consequence of differential rotation is to broaden the observed line-width of a mode peak. The authors provide a model of the resultant profile of a $p$ mode whose frequency is shifted in time to be a time-average of several instantaneous Lorentzian profiles with central frequency $\nu(t)$, given by equation~(\ref{eq:stacked_lorentzians}):
 
 \begin{equation}
-\langle P(\nu) \rangle \, = \, \frac{1}{T} \int^T_0 H \left( 1 \, + \, \left( \frac{\nu - \nu(t)}{\Gamma /2} \right)^2 \right)^{-1} dt
+\langle P(\nu) \rangle \, = \, \frac{1}{T} \int^T_0 H \left( 1 \, + \, \left( \frac{\nu - \nu(t)}{\Gamma /2} \right)^2 \right)^{-1} dt \, .
 \label{eq:stacked_lorentzians}
 \end{equation}
+
+The angled brackets indicate an average over time. $H$ and $\Gamma$ are the mode height (maximum power spectral density) and line-width, respectively. The full period of observation is given by $T$.
 
 \citet{chaplin_distortion_2008} also show that by assuming a simple, linear variation of the unperturbed frequency, $\nu_0$, from the start to the end of the time-series by a total frequency shift $\Delta\nu$ (see equation~(\ref{eq:linear_variation})),
 
 \begin{equation}
-\nu(t) \, = \, \nu_0 \, +  \Delta\nu \frac{t}{T}
+\nu(t) \, = \, \nu_0 \, +  \Delta\nu \frac{t}{T} \, ,
 \label{eq:linear_variation}
 \end{equation}
 
 the resultant profile of a $p$ mode can analytically be modelled by equation~(\ref{eq:atan_lorentzians}):
 
 \begin{equation}
-\langle P(\nu) \rangle \, = \, \frac{H}{2\epsilon} \arctan \left( \frac{2 \epsilon}{1 - \epsilon^2 + X^2 } \right)
+\langle P(\nu) \rangle \, = \, \frac{H}{2\epsilon} \arctan \left( \frac{2 \epsilon}{1 - \epsilon^2 + X^2 } \right) \, ,
 \label{eq:atan_lorentzians}
 \end{equation}
 
-where $\epsilon$ and $X$ are defined in equation~\ref{eq:epsilon} and equation~\ref{eq:X}.
+where $\epsilon$ and $X$ are defined in equation~\ref{eq:epsilon} and equation~\ref{eq:X}:
 
 \begin{equation}
-\epsilon \, = \, \frac{\Delta\nu}{\Gamma}
+\epsilon \, = \, \frac{\Delta\nu}{\Gamma} \, ;
 \label{eq:epsilon}
 \end{equation}
 
 \begin{equation}
-X \, = \, \frac{\nu - [\nu_0 + (\Delta\nu/2)]}{\Gamma /2}
+X \, = \, \frac{\nu - [\nu_0 + (\Delta\nu/2)]}{\Gamma /2} \, .
 \label{eq:X}
 \end{equation}
 
@@ -785,14 +794,15 @@ In the first instance, we computed the broadened peak using equation~(\ref{eq:st
 
 In the second instance, we computed the broadened peak using equation~(\ref{eq:atan_lorentzians}). Over the duration of the observations the daily frequency shift is computed, $\Delta\nu$. The time-averaged shift, $\Delta\nu$, is a weighted average, where again the weightings are given by the squared, daily-averaged \gls{smmf}.
 
-To determine the shift in the rotation rate with migration, we used the model of the solar differential rotation as traced by magnetic features ($\Omega_m$) given by equation~(\ref{eq:diff_rot_freq}), where $\mu \, = \, \cos \theta $ and $\theta$ is the co-latitude \citep{snodgrass_magnetic_1983, brown_inferring_1989}. Finally,the time-dependence on the latitude of the active regions used the best-fitting quadratic model by \cite{li_latitude_2001-1}.
+To determine the shift in the rotation rate with migration, we used the model of the solar differential rotation as traced by magnetic features ($\Omega_m$) given by equation~(\ref{eq:diff_rot_freq}), where $\mu \, = \, \cos \theta $ and $\theta$ is the co-latitude \citep{snodgrass_magnetic_1983, brown_inferring_1989}:
 
 
 \begin{equation}
-\frac{\Omega_m}{2 \pi} \, = \, 462 - 74 \mu^2 - 53 \mu^4 \, \mathrm{nHz}
+\frac{\Omega_m}{2 \pi} \, = \, 462 - 74 \mu^2 - 53 \mu^4 \, \mathrm{nHz} \, .
 \label{eq:diff_rot_freq}
 \end{equation}
 
+Finally,the time-dependence on the latitude of the active regions used the best-fitting quadratic model by \cite{li_latitude_2001-1}.
 
 In both instances, the broadened peak was modelled as a single Lorentzian peak using equation~(\ref{eq:symm_lorentzian}), with a width equivalent to that which was inferred from modelling the \gls{bison} power spectrum. We use {\verb emcee } \citep{foreman-mackey_emcee_2013} to explore the posterior parameter space with priors similar to the fit to the full power spectrum.
 
@@ -846,7 +856,7 @@ These results show that both numerically and analytically, the mode broadening e
 \label{sec:SMMF_morphology}
 
 
-In Chapter~\ref{chap:rmode} we acquired \gls{sdo/hmi} full-disk magnetograms, using the {\verb SunPy } python module \citep{barnes_sunpy_2020}, to support our investigations into Rossby waves.
+In Chapter~\ref{chap:rmode} we acquired \gls{sdo/hmi} full-disk magnetograms, using the {\verb SunPy } python module \citep{barnes_sunpy_2020}, to support our investigations into Rossby waves (see next chapter for details).
 
 %Here we use \gls{sdo/hmi} data to show how the SMMF is broken down into its hemispheric behaviour and how that affects the full-disk SMMF...
 %
@@ -914,7 +924,7 @@ Owing to having the \gls{sdo/hmi} magnetograms, which provided the capability to
 
 To support this investigation, we acquired the synoptic charts from \gls{sdo/hmi}. It was possible to also average the signal over the Northern and Southern Hemispheres of the synoptic charts, as well as the full solar surface, thus providing a comparison to the hemispheric \gls{mmf} and the full disk \gls{smmf}.
 
-To compare the magnetogram data to the synoptic charts, we smoothed the separately averaged Northern and Southern Hemispheres' \gls{mmf} and the full-disk \gls{smmf} signals using a box-car filter with a window width of a Carrington period, i.e. $\sim 27$~days. The resultant time series was plotted along with the hemispheric mean of the synoptics charts from \gls{sdo/hmi}. Figure~\ref{fig:HMI_MF_vs_synoptics} shows the resultant smoothed hemispheric \gls{mmf} and full-disk \gls{smmf} along with the average of the synoptic charts.
+To compare the magnetogram data to the synoptic charts, we smoothed the separately averaged Northern and Southern Hemispheres' \gls{mmf} and the full-disk \gls{smmf} signals using a box-car filter with a window width of a Carrington period, i.e. $\sim 27$~days. The resultant time series was plotted along with the hemispheric mean of the synoptic charts from \gls{sdo/hmi}. Figure~\ref{fig:HMI_MF_vs_synoptics} shows the resultant smoothed hemispheric \gls{mmf} and full-disk \gls{smmf} along with the average of the synoptic charts.
 
 \begin{figure}[!ht]
 	\centering
@@ -925,7 +935,7 @@ To compare the magnetogram data to the synoptic charts, we smoothed the separate
 	\label{fig:HMI_MF_vs_synoptics}
 \end{figure}
 
-We can see from Figure~\ref{fig:HMI_MF_vs_synoptics} that there does exist a longer timescale in the hemispheric \gls{mmf} when we average out the effects of the \gls{rm} component. This is visible from the reversal of the field polarity in 2014. This longer timescale component resembles the average of the synoptic charts, and shows the secular variation which is contributed from the solar dipole at high latitudes. This timescale is the solar activity period, and it can be seen particularly in Figure\ref{fig:HMI_2014_MF} whereby the dipole magnetic field undergoes a the beginning of a reversal at around solar maximum, with the onset of the rush of magnetic field to the poles.
+We can see from Figure~\ref{fig:HMI_MF_vs_synoptics} that there does exist a longer timescale in the hemispheric \gls{mmf} when we average out the effects of the \gls{rm} component. This is visible from the reversal of the field polarity in 2014. This longer timescale component resembles the average of the synoptic charts, and shows the secular variation which is contributed by the solar dipole at high latitudes. This timescale is the solar activity period and can be seen particularly in Figure\ref{fig:HMI_2014_MF}. We see the beginning of a the magnetic field reversal at around solar maximum, in mid-2014, and the field reversal occurs with the onset of the rush of magnetic field to the poles after solar maximum [CITE???].
 
 Interestingly, the field reversal was located during different epochs when comparing the synoptic chart data to the visible disk, hemispheric \gls{mmf} data, and was delayed in the hemispheric \gls{mmf} by around 7 Carrignton rotations.
 

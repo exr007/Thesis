@@ -3,13 +3,13 @@
 
 \section{Model}
 
-The artificial data used in the simulations of the \gls{smmf} were created using 2 very simplistic models, either separately or in combination, which were physically motivated by sunspots and \glspl{ar} on the solar surface \citep{van_driel-gesztelyi_evolution_2015}:
+The artificial data used in the simulations of the \gls{smmf} were created using two very simplistic models, either separately or in combination, which were physically motivated by sunspots and \glspl{ar} on the solar surface \citep{van_driel-gesztelyi_evolution_2015}:
 
 \begin{enumerate}
 	
-	\item{{\bf Cosine}: in this model a source was simulated as a single region which ingresses visible disk from one limb, traverses across the disk, before egressing the other limb (see Fig.~\ref{fig:cosine_model}). The physical motivation for this would be a single, concentrated source of imbalanced magnetic flux. This method induces no sign change of the simulated source; it remains the same polarity always. This was simulated as a rectified sinusoidal signal, with a 50$\%$ duty cycle (i.e. it is only visible during times on near-side of the disk).}
+	\item{{\bf Cosine}: in this model a source was simulated as a single region which ingresses the visible disk from one limb, traverses across the disk, before egressing the other limb (see Fig.~\ref{fig:cosine_model}). The physical motivation for this would be a single, concentrated source of imbalanced magnetic flux at the photospheric level. This method induces no sign change of the simulated source; it remains the same polarity always. This was simulated as a rectified sinusoidal signal, with a 50$\%$ duty cycle (i.e. it is only visible during times on near-side of the disk).}
 	
-	\item{{\bf Sign change}: in this model a source was simulated as 2 regions of opposite polarity, such as sunspot pairs or a \gls{bmr}. The leading region contributes more at the start of the transit during ingress, and the trailing source contributes more at the end of the transit during egress; hence at the middle of the transit we assume there is a sign change in the overall signal, see Fig.~\ref{fig:sgn_cng_model}. This was simulated as a rectified sinusoidal signal, and was multiplied by a cosinusoidal signal of the same period to provide the projection of the pair of regions. This operation results in a rectified sinusoidal signal with half the period.}
+	\item{{\bf Sign change}: in this model a source was simulated as two regions of opposite polarity, such as sunspot pairs or a \gls{bmr}. The leading region contributes more at the start of the transit during ingress, and the trailing source contributes more at the end of the transit during egress; hence at the middle of the transit we assume there is a sign change in the overall signal, see Fig.~\ref{fig:sgn_cng_model}. This was simulated as a rectified sinusoidal signal, and was multiplied by a cosinusoidal signal of the same period to provide the projection of the pair of regions. This operation results in a rectified sinusoidal signal with half the period.}
 	
 \end{enumerate}
 
@@ -33,19 +33,20 @@ There were several variables that allowed us to change the physics of the simula
 	\item{{\bf $\phi$}: Additional phase of sources}
 \end{itemize}
 
-Using these variables, the mathematical forms of the two model types for a single source are expressed by equation~(\ref{eq:cosine_model}) and equation~(\ref{eq:sgn_cng_model}). In these equations $t' = t - t_0$, $\Pi_{P/2}(t)$ is a window function to define the transit period of the simulated source on the visible side of the solar disk, $\mathrm{III}_{P}$ is a Dirac comb of repetition period, P, and $\Pi_{T}(t)$ is a window function defining the total observation period. The time series of a single modelled source for each model is shown in Figure~\ref{fig:artificial_models}.
+Using these variables, the mathematical forms of the two model types for a single source are expressed by equation~(\ref{eq:cosine_model}) and equation~(\ref{eq:sgn_cng_model}). In these equations $t' = t - t_0$, $\Pi_{P/2}(t)$ is a window function to define the transit period of the simulated source on the visible side of the solar disk, $\mathrm{III}_{P}$ is a Dirac comb of repetition period, P, and $\Pi_{T}(t)$ is a window function defining the total observation period:
 
 \begin{equation}
-B_{\mathrm{cosine}}(t) = \left[ A e^{-t'/\tau} \, \left( \cos{\left(\frac{2\pi}{P}t' + \phi\right)} \, \Pi_{P/2}(t) \right) * \mathrm{III}_{P} \right] \times \Pi_{T}(t)
+B_{\mathrm{cosine}}(t) = \left[ A e^{-t'/\tau} \, \left( \cos{\left(\frac{2\pi}{P}t' + \phi\right)} \, \Pi_{P/2}(t) \right) * \mathrm{III}_{P} \right] \times \Pi_{T}(t) \, ;
 \label{eq:cosine_model}
 \end{equation}
 
 
 \begin{equation}
-B_{\mathrm{sign-change}}(t) = \left[ A e^{-t'/\tau} \, \left( \cos{\left(\frac{2\pi}{P}t' + \phi\right)} \, \sin{\left(\frac{2\pi}{P}t' + \phi\right)} \, \Pi_{P/2}(t) \right) * \mathrm{III}_{P} \right] \times \Pi_{T}(t)
+B_{\mathrm{sign-change}}(t) = \left[ A e^{-t'/\tau} \, \left( \cos{\left(\frac{2\pi}{P}t' + \phi\right)} \, \sin{\left(\frac{2\pi}{P}t' + \phi\right)} \, \Pi_{P/2}(t) \right) * \mathrm{III}_{P} \right] \times \Pi_{T}(t) \, .
 \label{eq:sgn_cng_model}
 \end{equation}
 
+The time series of a single modelled source for each model is shown in Figure~\ref{fig:artificial_models}.
 
 \begin{figure}[ht!]
 	\centering
@@ -74,7 +75,7 @@ From the generated seed times, latitudes are computed using a model for the migr
 
 Values are then assigned for the phase, amplitude, and decay time of each source (the user can set these parameters, or it is also possible to randomly draw them from a distribution). Each individual source is simulated according to equation~(\ref{eq:cosine_model}) or equation~(\ref{eq:sgn_cng_model}). Following the simulation of N sources, the full time-series is computed by adding all N source contributions together. Finally, a burn-in period is removed, which allows the artificial \gls{smmf} to settle prior to the start of `observations', and then we can inject gaps into the artificial time series which are concurrent with the gaps in the \gls{bison} observations.
 
-The aim of creating artificial data was to produce a representative power spectrum to that of the \gls{bison} \gls{smmf}. We assumed that the sources of the \gls{smmf} are \gls{ar}s and \gls{mfc}s, therefore we aimed to produce a time series that physically represented these sources, i.e. comparable to the sunspot number. To do this we produced an average number of sources on the visible disk during close to the sunspot number. At solar maximum during cycle 23, the number of daily spots on the disk is around 150 -- 200. 
+The aim of creating artificial data was to produce a representative power spectrum to that of the \gls{bison} \gls{smmf}. We assumed that the sources of the \gls{smmf} are \glspl{ar} and \glspl{mfc}, therefore we aimed to produce a time series that physically represented these sources, i.e. comparable to the sunspot number. To do this we produced an average number of sources on the visible disk during the maximum of cycle 23 close to the sunspot number. At solar maximum during cycle 23, the number of daily spots on the disk is around 150 -- 200. 
 
 \begin{figure}[!ht]
 	\centering
@@ -101,7 +102,7 @@ The aim of creating artificial data was to produce a representative power spectr
 \end{figure}
 
 
-We included $\sim$1--year for burn-in, such that the interferences between the sources stabilises (see Figure~\ref{fig:artificial_sim_burn-in}). After a year the number of sources on the visible disk have steadied, providing a stable \gls{smmf}, hence a burn-in period from 01/01/1991 -- 29/01/1992 is sufficient. With this burn-in period, we chose to select N~=~20000 and $\tau$~=~100 days, which produces a median total of $\sim$17450 sources over the \gls{bison} observational epoch of 7633 days, with an average of around 150 -- 200 sources per day on the visible disk during solar cycle 23 maximum, as shown in Figure~\ref{fig:artificial_sim_config}.
+We included $\sim$1--year for burn-in, to allow the interferences between the sources stabilises (see Figure~\ref{fig:artificial_sim_burn-in}). After a year the number of sources on the visible disk has stabilised, providing a stable \gls{smmf}, hence a burn-in period from 01/01/1991 -- 29/01/1992 is sufficient. With this burn-in period, we chose to select N~=~20000 and $\tau$~=~100 days, which produces a median total of $\sim$17450 sources over the \gls{bison} observational epoch of 7633 days, with an average of around 150 -- 200 sources per day on the visible disk during solar cycle 23 maximum, as shown in Figure~\ref{fig:artificial_sim_config}.
 
 
 
@@ -111,7 +112,7 @@ We included $\sim$1--year for burn-in, such that the interferences between the s
 
 The simulation produces a time series output from the combination of all the sources with and without the inclusion of \gls{bison} observational gaps, along with the Fourier transforms of both. 
 
-For quality assurance, a butterfly diagram is also generated per simulation to understand whether the simulation is representative of the Sun's \gls{ar}s. A butterfly diagram, from a realisation which allows for a more realistic, stochastic simulation whereby the values for parameters are drawn from a distribution with scatter, is shown in Figure~\ref{fig:fake_butterfly}. This butterfly diagram shows a strong resemblance to a true, observational butterfly diagram of the Sun. This provides us with confidence that the simulations are well-representing \gls{ar}s on the solar disk.
+For quality assurance, a butterfly diagram is also generated per simulation to understand whether the simulation is representative of the Sun's \glspl{ar}. A butterfly diagram, from a realisation which allows for a more realistic, stochastic simulation whereby the values for parameters are drawn from a distribution with scatter, is shown in Figure~\ref{fig:fake_butterfly}. This butterfly diagram shows a strong resemblance to a true, observational butterfly diagram of the Sun. This provides us with confidence that the simulations are well-representing \glspl{ar} on the solar disk.
 
 
 \begin{figure}[ht!]
