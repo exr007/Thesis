@@ -67,7 +67,7 @@ The \gls{wso} also measures the \gls{los} \gls{smmf} using a Babcock-type magnet
 
 There is no catalogued \gls{bison} \gls{smmf} data-set, so it was necessary to compute the \gls{smmf} from the available \gls{bison} data. To acquire the \gls{smmf} from \gls{bison} data, the method as described by \citet{chaplin_studies_2003} was adopted; here we discuss the key aspects.
 
-Each  \gls{bison} site employs a \gls{rss} to measure the Doppler shift of the $^{2}\mathrm{S}_{1/2} \, \rightarrow \, ^{2}\mathrm{P}_{1/2}$ line (D1 line) of potassium, at $\sim 770$~nm \citep{brookes_resonant-scattering_1978}. A potassium vapour cell placed within a longitudinal magnetic field Zeeman splits the laboratory line into the two allowed D1 transitions \citep{lund_spatial_2017}. The intensity of the longer wavelength (red; $I_R$) and shorter wavelength (blue; $I_B$) components of the line may be measured by the \gls{rss} almost simultaneously, by using polarising optics to switch between the red and blue wings of the line, to form the ratio given by equation~(\ref{eq:ratio}), which is used as a proxy for the Doppler shift from the \gls{los} velocity of the photosphere \citep[see:][]{brookes_observation_1976, brookes_resonant-scattering_1978, elsworth_performance_1995, chaplin_studies_2003, lund_spatial_2017}: 
+Each \gls{bison} site employs a \gls{rss} to measure the Doppler shift of the $^{2}\mathrm{S}_{1/2} \, \rightarrow \, ^{2}\mathrm{P}_{1/2}$ line (D1 line) of potassium, at $\sim 770$~nm \citep{brookes_resonant-scattering_1978}. A potassium vapour cell placed within a longitudinal magnetic field Zeeman splits the laboratory line into the two allowed D1 transitions \citep{lund_spatial_2017}. The intensity of the longer wavelength (red; $I_R$) and shorter wavelength (blue; $I_B$) components of the line may be measured by the \gls{rss} almost simultaneously, by using polarising optics to switch between the red and blue wings of the line, to form the ratio given by equation~(\ref{eq:ratio}), which is used as a proxy for the Doppler shift from the \gls{los} velocity of the photosphere \citep[see:][]{brookes_observation_1976, brookes_resonant-scattering_1978, elsworth_performance_1995, chaplin_studies_2003, lund_spatial_2017}: 
 
 \begin{equation}
 \mathcal{R} = \frac{I_B - I_R}{I_B + I_R} \, .
@@ -84,6 +84,8 @@ The observed ratio ($\mathcal{R}_{\pm}$) may be decomposed as given by equation~
 \mathcal{R}_{\pm} = \mathcal{R}_{\mathrm{orb}} + \mathcal{R}_{\mathrm{spin}} + \mathcal{R}_{\mathrm{grs}} + \delta {r}_{\mathrm{osc}}(t) \pm \delta {r}_{\mathrm{B}}(t) \, .
 \label{eq:vel_comp}
 \end{equation}
+
+It is worth noting here that because of the inclusion of the $\pm$, it may appear that we're not sensitive to the sign of the magnetic field ($\delta {r}_{\mathrm{B}}(t)$); however, this is not the case. The magnetic field sign is measured, and the $\pm$ simply denotes the polarity of the Zeeman split line that is being observed.
 
 The \gls{los} velocity due to $p$ mode oscillations are given by $\delta {r}_{\mathrm{osc}}(t)$, and $\delta {r}_B(t)$ is due to the magnetic field (+/- from the polarity) \citep{dumbill_observation_1999}. The effect of the magnetic field on the ratio is shown in Fig. \ref{fig:ratio_split}, and it is clear to see from equation~(\ref{eq:R_diff}) that the difference between the opposite magnetic field ratios is twice the magnetic ratio residual:
 
