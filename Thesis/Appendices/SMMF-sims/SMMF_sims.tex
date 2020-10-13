@@ -71,7 +71,7 @@ A flowchart describing the steps in the simulations is shown in Figure~\ref{fig:
 \end{figure}
 
 
-From the generated seed times, latitudes are computed using a model for the migration of spots during the Solar Cycle \citep{li_latitude_2001-1}, and the differential rotation frequency at that latitude is taken from a model of the solar differential rotation \citep{snodgrass_magnetic_1983}. 
+From the generated seed times, latitudes are computed using a model for the migration of spots during the Solar Cycle \citep{li_latitude_2001}, and the differential rotation frequency at that latitude is taken from a model of the solar differential rotation \citep{snodgrass_magnetic_1983}. 
 
 Values are then assigned for the phase, amplitude, and decay time of each source (the user can set these parameters, or it is also possible to randomly draw them from a distribution). Each individual source is simulated according to equation~(\ref{eq:cosine_model}) or equation~(\ref{eq:sgn_cng_model}). Following the simulation of N sources, the full time-series is computed by adding all N source contributions together. Finally, a burn-in period is removed, which allows the artificial \gls{smmf} to settle prior to the start of `observations', and then we can inject gaps into the artificial time series which are concurrent with the gaps in the \gls{bison} observations.
 

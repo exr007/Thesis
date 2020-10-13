@@ -303,7 +303,7 @@ P(\nu) = \sum_{n=1}^{N} L_n(\nu; \Gamma, A_n, \nu_n) \, .
 
 The subscript, $n$, describes a single peak in the power spectrum; in implementing the model we constrain the central frequency for each of the peaks such that they must be integer values of $\nu_0$: $\nu_n \, = \, n \nu_0$. This means that we define a single rotation frequency only, and subsequent peaks are harmonics. It is worth noting explicitly that this function assumes the line-width of each Lorentzian peak is the same; only their amplitudes and central frequency differ.
 
-When modelling the power spectrum we attempted the fit with both of the Lorentzian expressions, independently. Firstly we modelled using the symmetric Lorentzian, and subsequently, using the asymmetric Lorentzian. This would determine whether there is a necessity for the addition of the asymmetry parameter.
+When modelling the power spectrum we attempted the fit with both of the symmetric and asymmetric Lorentzian expressions, independently. Firstly we modelled using the symmetric Lorentzian, and subsequently, using the asymmetric Lorentzian. This would determine whether there is a necessity for the addition of the asymmetry parameter.
 
 Through both formulations we can measure the $e$-folding lifetime of the amplitude of the \gls{rm} component ($T_e$), as it is related to the line-width of the peak by equation~(\ref{eq:mode_lifetime}):
 
@@ -313,14 +313,14 @@ Through both formulations we can measure the $e$-folding lifetime of the amplitu
 \end{equation}
 
 
-The low-frequency power can be incorporated into the model via the inclusion of a zero-frequency centred Lorentzian, i.e. Harvey-function, given by equation~(\ref{eq:harvey}); where $\sigma$ is the characteristic amplitude of the low frequency signal, and $\tau$ describes the characteristic timescale of the excursions around zero:
+The low-frequency power due to instrumental drifts and solar activity can be incorporated into the model via the inclusion of a zero-frequency centred Lorentzian, i.e. Harvey-function, given by equation~(\ref{eq:harvey}); where $\sigma$ is the characteristic amplitude of the low frequency signal, and $\tau$ describes the characteristic timescale of the excursions around zero in the time-domain:
 
 \begin{equation}
 H(\nu; \sigma, \tau) = \frac{4{\sigma}^2\tau}{1 + (2\pi \nu\tau)^2} \, .
 \label{eq:harvey}
 \end{equation}
 
-The \gls{sb} component can also be modelled using the Harvey-function, where $\sigma$ is the characteristic amplitude of the red-noise signal and $\tau$ is its characteristic timescale.
+%The \gls{sb} component can also be modelled using the Harvey-function, where $\sigma$ is the characteristic amplitude of the red-noise signal and $\tau$ is its characteristic timescale.
 
 Finally, the high frequency power is accounted for by the inclusion of a constant offset due to shot-noise, $c$.
 
@@ -330,7 +330,7 @@ When modelling the power spectrum we used the affine-invariant \gls{mcmc} sample
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Comparison with the WSO SMMF}
 
-To provide comparative results on the inferences from the \gls{bison} \gls{smmf}, we repeated the analysis on the power spectrum of the \gls{wso} \gls{smmf} and the daily-averaged \gls{bison} \gls{smmf}. The \gls{wso} data are only provided on a daily cadence, hence the Nyquist frequency is lower than for \gls{bison}, at $\sim 5.79 \, \mu\mathrm{Hz}$, and it was not possible to observe the \gls{sb} component.
+To provide comparative results on the inferences from the \gls{bison} \gls{smmf}, we repeated the analysis on the power spectrum of the \gls{wso} \gls{smmf}. The \gls{wso} data are only provided on a daily cadence, hence the Nyquist frequency is lower than for 40-second \gls{bison} data, at $\sim 5.79 \, \mu\mathrm{Hz}$, and it was not possible to observe the \gls{sb} component. The analysis was also repeated using the daily-averaged \gls{bison} \gls{smmf}, to provide a more direct comparison between \gls{bison} and \gls{wso}.
 
 The same parametrisation as outlined above was relevant to the modelling of the features in the \gls{wso} \gls{psd}, and the \gls{rm} peak were fit using a model with symmetric Lorentzian peaks and separately with asymmetric Lorentzian peaks.
 
@@ -363,7 +363,7 @@ The frequency (and harmonics) of the \gls{rm} component are located near zero ($
 
 The locations of side-bands are shown clearly to obey equation~(\ref{eq:sidebands}) in the \gls{smmf} power spectrum show in Fig.~\ref{fig:sideband_locations}. It is clear that we could therefore have used the predicted locations of the aliased power and incorporated them into the model for the full power spectrum. This would, however, have required us to explicitly model some $\sim 1100$ groups of side-bands in order to cover this effect over the entire frequency range, and each group would have required a unique parameter to control the fraction of power that was contributed to the full \gls{psd}. It would have become computationally expensive to model each aliased peak and there would certainly have been room for degeneracy issues to occur.
 
-A more desirable, and we shall see more accurate, approach was to utilise the power spectrum of the window function itself. This approach not only takes into account the effect of daily, periodic gaps in the data, but also the more complex features that are added into the power spectrum due to the random gaps in the data. To do this the Fourier transform of the window function describing the duty cycle of observations was computed (i.e. $\left|\mathcal{F}\left[g(t)\right]\right|^2$), where the duty cycle function, $g(t)$, is given by equation~(\ref{eq:window}):
+A more desirable, and we shall see more accurate, approach was to utilise the power spectrum of the window function itself. This approach not only takes into account the effect of daily, periodic gaps in the data, but also the more complex features that are added into the power spectrum due to the random gaps in the data. To do this, the Fourier transform of the window function describing the duty cycle of observations was computed (i.e. $\left|\mathcal{F}\left[g(t)\right]\right|^2$), where the duty cycle function, $g(t)$, is given by equation~(\ref{eq:window}):
 
 \begin{equation}
 g(t) = 
@@ -379,28 +379,28 @@ In Figure~\ref{fig:window_function_PSDs} the power spectrum of the window functi
 As well as the power spectrum of the window function, Figure~\ref{fig:window_function_PSDs} also shows the underlying noise-free peak that describes the fake data and the power spectra of the artificial data with and without the injected gaps. The power spectrum of the \gls{bison} \gls{smmf} data is also plotted for comparison.
 % Note this comes from: /mnt/storage/003. Data/015. BiSON/SMMF/Fake/Fake_data/1_peak/...
 
-%\begin{figure}[ht!]
-%	\centering
-%	\includegraphics[width=\columnwidth]{gap_test.pdf}
-%	\caption{The effects of the window function on the power spectrum is shown by using a fake data set and this is compared to the BiSON power spectrum. The lines have been offset for clarity. Black line: BiSON SMMF PSD; blue line: power spectrum of the window function; green and dark-orange lines: the power spectrum of the artificial data without and with gaps, respectively; light orange line: the input peak used to generate the artificial data over-plotted.}
-%	\label{fig:window_function_PSDs}
-%\end{figure}
-
-
 \begin{figure}[ht!]
 	\centering
-	\subfloat[Black line: BiSON SMMF PSD; blue line: power spectrum of the window function; green and dark-orange lines: the power spectrum of the artificial data without and with gaps, respectively; light orange line: the input peak used to generate the artificial data over-plotted. The lines have been offset for clarity. \label{fig:gap_test_top_plot}]{\includegraphics[width=0.7\columnwidth]{gap_test.pdf}}
-	\qquad
-	\subfloat[Dark-orange line: the power spectrum of the artificial data with gaps; solid-grey line: input PSD convolved with the window function; dashed-black line: input PSD convolved with the power spectrum and adjusted for the duty cycle. \label{fig:gap_test_bottom_plot}]{\includegraphics[width=0.7\columnwidth]{gap_test_conv.pdf}}
-	\caption{(a) The effect on the power spectrum due to periodic gaps in the data. (b) The effect of the convolution between the window function and the input power spectrum used to make the fake data, highlighting the need to correctly adjust the power for the duty cycle.}
+	\includegraphics[width=\columnwidth]{gap_test.pdf}
+	\caption{The effects of the window function on the power spectrum is shown by using a fake data set and this is compared to the BiSON power spectrum. The lines have been offset for clarity. Black line: BiSON SMMF PSD; blue line: power spectrum of the window function; green and dark-orange lines: the power spectrum of the artificial data without and with gaps, respectively; light orange line: the input peak used to generate the artificial data over-plotted.}
 	\label{fig:window_function_PSDs}
 \end{figure}
-%top: \label{fig:gap_test_top_plot}
-%bottom: \label{fig:gap_test_bottom_plot}
+
+
+%\begin{figure}[ht!]
+%	\centering
+%	\subfloat[Black line: BiSON SMMF PSD; blue line: power spectrum of the window function; green and dark-orange lines: the power spectrum of the artificial data without and with gaps, respectively; light orange line: the input peak used to generate the artificial data over-plotted. The lines have been offset for clarity. \label{fig:gap_test_top_plot}]{\includegraphics[width=0.7\columnwidth]{gap_test.pdf}}
+%	\qquad
+%	\subfloat[Dark-orange line: the power spectrum of the artificial data with gaps; solid-grey line: input PSD convolved with the window function; dashed-black line: input PSD convolved with the power spectrum and adjusted for the duty cycle. \label{fig:gap_test_bottom_plot}]{\includegraphics[width=0.7\columnwidth]{gap_test_conv.pdf}}
+%	\caption{(a) The effect on the power spectrum due to periodic gaps in the data. (b) The effect of the convolution between the window function and the input power spectrum used to make the fake data, highlighting the need to correctly adjust the power for the duty cycle.}
+%	\label{fig:window_function_PSDs}
+%\end{figure}
+%%top: \label{fig:gap_test_top_plot}
+%%bottom: \label{fig:gap_test_bottom_plot}
 
 It is strikingly clear from Figure~\ref{fig:window_function_PSDs} that the shape of the spectrum of the window function has a remarkable resemblance to the \gls{bison} \gls{smmf} spectrum and the output of the artificial spectrum with gaps injected. This demonstrates that the periodic window function, with such a low duty cycle, has a dominating effect on the power spectrum of the input signal which not only produces the diurnal sidebands, but also a broadband spread of the power.
 
-Due to the broadband shape of the window function power spectrum compared to the \gls{bison} \gls{smmf}, it appears that there is actually no detectable red-noise-like, \gls{sb} component in the \gls{smmf}; it is instead a manifestation of the periodic gaps in the data. There is still a necessity for a low-frequency Harvey function to describe the power close to zero, due to instrumental drifts and solar activity.
+Due to the broadband shape of the window function power spectrum compared to the \gls{bison} \gls{smmf}, it appears that there is actually no detectable red-noise-like, \gls{sb} component in the \gls{smmf}; it is instead a manifestation of the periodic gaps in the data. %There is still a necessity for the low-frequency Harvey function in the model (i.e. equation~(\ref{eq:harvey})) to describe the power close to zero, due to instrumental drifts and solar activity.
 
 To analytically understand this effect, we can express the time series of observed data ($y(t)$) as a multiplication of the uninterrupted, underlying signal ($f(t)$) with the window function ($g(t)$), as given by equation~(\ref{eq:timeseries}):
 
@@ -426,10 +426,33 @@ P(\nu; \,{\bf a}) = \sum_{n=1}^{N} L_n(\nu; \Gamma, A_n, \nu_n) \, + \, H(\nu; \
 
 Care was taken to ensure Parseval's theorem was obeyed, and no power was lost or gained from the convolution operation. The likelihood of the resulting model from the convolution, $P'(\nu; \,{\bf a})$, was then maximised to give the best fitting parameters.
 
-We demonstrated the convolution process by performing the convolution between the noiseless peak used to generate the artificial data and the window function. The result of this is shown in Figure~\ref{fig:gap_test_bottom_plot}. Due to method adopted for the convolution, the overall power was reduced as can be seen by the solid-grey line in Figure~\ref{fig:gap_test_bottom_plot}. It was therefore necessary to adjust the resultant power spectrum by the duty cycle factor, i.e. $\sim 15\%$ for \gls{bison} 40-s cadence observations, which produced the dashed-black line in Figure~\ref{fig:gap_test_bottom_plot}, which aligns with the power spectrum of the artificial data with gaps.
+%We demonstrated the convolution process by performing the convolution between the noiseless peak used to generate the artificial data and the window function. The result of this is shown in Figure~\ref{fig:gap_test_bottom_plot}. Due to method adopted for the convolution, the overall power was reduced as can be seen by the solid-grey line in Figure~\ref{fig:gap_test_bottom_plot}. It was therefore necessary to adjust the resultant power spectrum by the duty cycle factor, i.e. $\sim 15\%$ for \gls{bison} 40-s cadence observations, which produced the dashed-black line in Figure~\ref{fig:gap_test_bottom_plot}, which aligns with the power spectrum of the artificial data with gaps.
 
-To further demonstrate the effects of the convolution process during the modelling, we fit a model of a single Lorentzian peak, plus a shot-noise background, to the gap-free fake \gls{psd} (without the convolution) and the fake \gls{psd} using the gaps (requiring the convolution). The modelling was performed using the affine-invariant \gls{mcmc} sampler {\verb emcee } \citep{foreman-mackey_emcee_2013} to explore the posterior parameter space, using 6000 iterations on 50 chains. The results of this fit are summarised in Table~\ref{tab:fake_1pk_params}. 
+%To further demonstrate the effects of the convolution process during the modelling, 
+To demonstrate this method, as a proof-of-concept, we fit a model of a single Lorentzian peak, plus a shot-noise background, to the gap-free fake \gls{psd} (without the convolution) and the fake \gls{psd} using the gaps (requiring the convolution). The modelling was performed using the affine-invariant \gls{mcmc} sampler {\verb emcee } \citep{foreman-mackey_emcee_2013} to explore the posterior parameter space, using 6000 iterations on 50 chains. The results of this fit are summarised in Table~\ref{tab:fake_1pk_params}. 
 
+
+%\begin{table}[ht!]
+%	\begin{center}
+%		\caption{Model parameter values for the generation of artificial data, and the median posterior values for the fit to the power spectra generated with and without the gaps in the data. Numbers in brackets denote uncertainties on the last 2 digits, and all uncertainties correspond to the $68 \%$ credible intervals either side of the median.}
+%		\label{tab:fake_1pk_params}
+%		\begin{tabular}{l c c c r}
+%			\hline
+%			{\bf Parameter} & {\bf Input} & {\bf Fit (no gaps)} & {\bf Fit (gaps)} & {\bf Unit} \\
+%			\hline
+%			
+%			{$\nu_0$} & {0.42867} & {0.4277$\left(_{-18}^{+18}\right)$} & {0.4261$\left(_{-03}^{+03}\right)$} & {$\mu\mathrm{Hz} $}\\
+%			
+%			{$\Gamma$} & {0.030} & {0.0279$\left(_{-36}^{+37}\right)$} & {0.0340$\left(_{-06}^{+06}\right)$} & {$\mu\mathrm{Hz} $} \\
+%			
+%			{$A$} & {100.0} & {101.2$_{-6.0}^{+7.3}$} & {282.56$\pm 0.25$} & {$\mathrm{mG}$} \\
+%					
+%			{$c$} & {0.20} & {0.1872$\left(_{-03}^{+03}\right)$} & {1.2009$\left(_{-08}^{+08}\right)$} & {$\mathrm{G}^2\mathrm{Hz}^{-1}$} \\	
+%			
+%			\hline
+%		\end{tabular}
+%	\end{center}
+%\end{table}
 
 \begin{table}[ht!]
 	\begin{center}
@@ -444,20 +467,25 @@ To further demonstrate the effects of the convolution process during the modelli
 			
 			{$\Gamma$} & {0.030} & {0.0279$\left(_{-36}^{+37}\right)$} & {0.0340$\left(_{-06}^{+06}\right)$} & {$\mu\mathrm{Hz} $} \\
 			
-			{$A$} & {100.0} & {101.2$_{-6.0}^{+7.3}$} & {282.56$\pm 0.25$} & {$\mathrm{mG}$} \\
-					
-			{$c$} & {0.20} & {0.1872$\left(_{-03}^{+03}\right)$} & {1.2009$\left(_{-08}^{+08}\right)$} & {$\mathrm{G}^2\mathrm{Hz}^{-1}$} \\	
+			{$A$} & {100.0} & {101.2$_{-6.0}^{+7.3}$} & {111.7$\pm 0.1$} & {$\mathrm{mG}$} \\
+			
+			{$c$} & {0.20} & {0.1872$\left(_{-03}^{+03}\right)$} & {0.1876$\left(_{-01}^{+01}\right)$} & {$\mathrm{G}^2\mathrm{Hz}^{-1}$} \\	
 			
 			\hline
 		\end{tabular}
 	\end{center}
 \end{table}
 
-There were several points uncovered about the convolution process in this fitting procedure that we had to take into consideration. Firstly, we found agreement with the effect on the total power observed in Figure~\ref{fig:window_function_PSDs}. The median posterior values of the amplitude and shot noise parameters were affected by the duty cycle, compensating for the effect on the power, which resulted in the amplitude posterior being too large by a factor of the square-root of the duty cycle ($\sim \sqrt{0.15}$) and the shot noise being too large by a factor of the duty cycle ($\sim 0.15$). This again highlights the necessity to incorporate the duty cycle into the convolution to ensure Parseval's theorem is obeyed. After the correction, the median posterior values for the amplitude and noise become: 111.7$\pm0.1$~mG and 0.1876$\left(_{-01}^{+01}\right)$~$\mathrm{G}^2\mathrm{Hz}^{-1}$, respectively, which are in-line with the expected values.
+%There were several points uncovered about the convolution process in this fitting procedure that we had to take into consideration. Firstly, we found agreement with the effect on the total power observed in Figure~\ref{fig:window_function_PSDs}. The median posterior values of the amplitude and shot noise parameters were affected by the duty cycle, compensating for the effect on the power, which resulted in the amplitude posterior being too large by a factor of the square-root of the duty cycle ($\sim \sqrt{0.15}$) and the shot noise being too large by a factor of the duty cycle ($\sim 0.15$). This again highlights the necessity to incorporate the duty cycle into the convolution to ensure Parseval's theorem is obeyed. After the correction, the median posterior values for the amplitude and noise become: 111.7$\pm0.1$~mG and 0.1876$\left(_{-01}^{+01}\right)$~$\mathrm{G}^2\mathrm{Hz}^{-1}$, respectively, which are in-line with the expected values.
 
-In addition, we found that the width of the posterior distributions for the parameters were generally smaller as a result of the convolution process. We therefore observed that the likelihood evaluation, when using the convolved model, does not fully take into account the correlated noise on the power spectrum. To perform the full likelihood evaluation, with the correlated noise, requires large-data computational linear algebra (i.e. the inversion of an N-by-N diagonal-constant/Toeplitz matrix, where N is the size of data); unfortunately the process of fully accounting for the correlated noise in this scenario was too computationally expensive, due to the large data set with $> 10^6$ data points. After the corrections for Parseval's theorem, we noticed the $\nu_0$ and $\Gamma$ posterior widths appeared to be reduced by a factor of approximately the duty cycle. For the amplitude and shot noise this is not the case, however. We note here that our ability to resolve the model parameters is well represented in the case where the convolution was not performed; thus, we assumed the for $\nu_0$ and $c$, we have an accuracy of $\sim 0.5\%$ each; for $\Gamma$, an accuracy of $\sim 15\%$; for $A$, an accuracy of $\sim 10\%$. As we cannot directly account for the effect of posterior width shrinkage, we note these factors, which helps understand how the convolution affected our ability to measure the spectrum of the \gls{bison} SMMF.
+As we can see from the results in Table~\ref{tab:fake_1pk_params}, the median values of the parameter posterior distributions without the gaps are in accordance with the input values, which were used when generating the artificial data, within uncertainties. When the gaps were introduced, the median values of the parameter posterior distributions were close, but not within their uncertainties. We observe; however, that the uncertainties are underestimated in the case using the convolution process.
 
-From this exercise we learned that during the modelling of the \gls{bison} (and \gls{wso}) power spectra, we needed to account for the duty cycle to ensure no loss of power from the convolution process. We have also learnt that the likelihood evaluation does not properly take into consideration the effect of the correlated noise in the power spectrum, but it is too computationally expensive to account for.
+%In addition, 
+Through this demonstration we found that the width of the posterior distributions for the parameters were generally smaller as a result of the convolution process. We therefore observed that the likelihood evaluation, when using the convolved model, does not fully take into account the correlated noise on the power spectrum. To perform the full likelihood evaluation, with the correlated noise, requires large-data computational linear algebra (i.e. the inversion of an N-by-N diagonal-constant/Toeplitz matrix, where N is the size of data); unfortunately the process of fully accounting for the correlated noise in this scenario was too computationally expensive, due to the large data set with $> 10^6$ data points. The $\nu_0$ and $\Gamma$ posterior widths appeared to be reduced by a factor of approximately the duty cycle. For the amplitude and shot noise this is not the case, however. We note here that our ability to resolve the model parameters is well represented in the case where the convolution was not performed; thus, we assumed the for $\nu_0$ and $c$, we have an accuracy of $\sim 0.5\%$ each; for $\Gamma$, an accuracy of $\sim 15\%$; for $A$, an accuracy of $\sim 10\%$. Using these uncertainty estimates, the median values of the parameter posterior distributions for the convolution model are in accordance with the input values.
+
+As we cannot directly account for the effect of posterior width shrinkage, we note these factors, which helps understand how the convolution affected our ability to measure the spectrum of the \gls{bison} SMMF.
+
+%From this exercise we learned that during the modelling of the \gls{bison} (and \gls{wso}) power spectra, we needed to account for the duty cycle to ensure no loss of power from the convolution process. We have also learnt that the likelihood evaluation does not properly take into consideration the effect of the correlated noise in the power spectrum, but it is too computationally expensive to account for.
 
 
 
@@ -591,7 +619,7 @@ With all this considered, we state that our investigation of the \gls{bison} \gl
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Comparison to the WSO Power Spectrum}\label{sec:WSO_reults}
 
-When modelling the \gls{wso} power spectrum, although the duty cycle of the \gls{wso} observations over the same epoch as \gls{bison} observations was $\sim 78\%$, therefore there was less of an effect from the window function on the observations, the power spectrum was modelled using the convolution with the window function, as per the \gls{bison} power spectrum. As, compared to the duty cycle of \gls{bison} the \gls{wso} duty is closer to $100\%$, we expect the effect of the convolution to be less significant on the widths of the posterior distributions for each parameter.
+Here we present the results from modelling the \gls{wso} power spectrum and we also show the results of modelling the power spectrum of the daily averaged \gls{bison} spectrum, to provide a more direct comparison between both observations. The fill of the \gls{wso} observations over the same epoch as \gls{bison} observations was $\sim 78\%$, and at $\sim 78\%$ for the daily-averaged \gls{bison} observations. As the fill of data for these data were higher than the 40-cadence data, the effect of the window function was less prominent. Nevertheless, the power spectra were modelled using the convolution approach, as per the previous section. As, compared to the duty cycle of 40-cadence data, the fill is closer to $100\%$, so we also expect the effect of the convolution to be less significant on the widths of the posterior distributions for each parameter, and thus the uncertainties to be more representative.
 
 %The \gls{wso} PSD was modelled using equation~\ref{eq:WSO_PSD_model}, with $N=3$, and $I=2$
 %
@@ -600,36 +628,70 @@ When modelling the \gls{wso} power spectrum, although the duty cycle of the \gls
 %\label{eq:WSO_PSD_model}
 %\end{equation}
 
-The \gls{wso} power spectrum was modelled against equation~(\ref{eq:PSD_fit_conv}) (which used equation~(\ref{eq:PSD_model}) with $N = 3$ peaks) using the affine-invariant \gls{mcmc} sampler {\verb emcee }  \citep{foreman-mackey_emcee_2013} to explore the posterior parameter space, using 10000 iterations on 50 chains. The chains are not independent within {\verb emcee }, therefore convergence was interrogated using the integrated autocorrelation time, to quantify the effects of sampling error on the results and to ensure a sufficient number of effective samples were used.
+The daily-averaged \gls{bison} power spectrum was modelled against equation~(\ref{eq:PSD_fit_conv} using equation~(\ref{eq:PSD_model} with $N = 4$ peaks, and similarly for the \gls{wso} power spectrum but with $N = 3$ peaks. Both fitting routines used the affine-invariant \gls{mcmc} sampler {\verb emcee }  \citep{foreman-mackey_emcee_2013} to explore the posterior parameter space, using 10000 iterations on 50 chains. The chains are not independent within {\verb emcee }, therefore convergence was interrogated using the integrated autocorrelation time, to quantify the effects of sampling error on the results and to ensure a sufficient number of effective samples were used.
 
+[Refer to table for bison 24 hr results...]
 
 In Table~\ref{tab:WSO_SMMF_fit_params} the median values of marginalised posterior distributions for each of the model parameters are displayed. Reported uncertainties on the parameters correspond to the $1\sigma$ ($68 \%$) credible intervals either side of the median. The effect of posterior width shrinkage in these results seems much less of a concern, as the $1\sigma$ uncertainties are on the same order as the results not using a convolved model in Table|\ref{tab:fake_1pk_params}. The convolved model of the data, using asymmetric Lorentzian peaks is shown in Figure~\ref{fig:WSO_PSD_fit} over-plotted on top the \gls{bison} \gls{smmf} power spectrum.
+
+%\begin{table}[ht!]
+%	\begin{center}
+%		\caption{Median values of the marginalised posterior distributions for each model parameter in the fit to the WSO power spectrum, adjusted for the duty cycle factor ($\sim 0.778$) in the convolution process. Numbers in brackets denote uncertainties on the last 2 digits, and all uncertainties correspond to the $68 \%$ credible intervals either side of the median.}\label{tab:WSO_SMMF_fit_params}
+%		\begin{tabular}{l c c c c r}
+%			\hline
+%			{\bf Parameter} & {\bf 24-hr symm.} & {\bf 24-hr asymm.} & {\bf Unit} \\
+%			\hline
+%			
+%			{$\nu_0$} & {0.4273$\left(_{-05}^{+05}\right)$} & {0.4290$\left(_{-05}^{+04}\right)$} & {$\mu\mathrm{Hz} $}\\
+%			
+%			{$\Gamma$} & {0.0209$\left(_{-15}^{+16}\right)$} & {0.0210$\left(_{-15}^{+16}\right)$} & {$\mathrm{mG}$} \\
+%			
+%			{$A_1$} & {134.4$_{-3.3}^{+3.2}$} & {137.0$_{-3.5}^{+3.4}$} & {$\mathrm{mG}$} \\
+%			
+%			{$A_2$} & {120.7$\pm 3.4$} & {124.8$_{-3.6}^{+3.5}$} & {$\mathrm{mG}$} \\
+%			
+%			{$A_3$} & {73.7$\pm 3.5$} & {77.4$\pm 3.8$} & {$\mathrm{mG}$} \\
+%			
+%			{$\tau$} & {22.5$_{-6.9}^{+10.1}$} & {23.7$_{-7.3}^{+11.1}$} & {$10^6 \mathrm{s}$} \\	
+%			
+%			{$\sigma$} & {52.1$_{-4.4}^{+4.7}$} & {51.5$_{-4.5}^{+4.6}$} & {$\mathrm{mG}$} \\	
+%			
+%			{$c$} & {11.4$_{-8.5}^{+17.8}$} & {12.0$_{-8.9}^{+18.6}$} & {$\mathrm{G}^2\mathrm{Hz}^{-1}$} \\	
+%			
+%			{$\alpha$} & {--} & {-61.7$_{-15.3}^{+13.3}$} & {--} \\	
+%			\hline
+%		\end{tabular}
+%	\end{center}
+%\end{table}
 
 \begin{table}[ht!]
 	\begin{center}
 		\caption{Median values of the marginalised posterior distributions for each model parameter in the fit to the WSO power spectrum, adjusted for the duty cycle factor ($\sim 0.778$) in the convolution process. Numbers in brackets denote uncertainties on the last 2 digits, and all uncertainties correspond to the $68 \%$ credible intervals either side of the median.}\label{tab:WSO_SMMF_fit_params}
-		\begin{tabular}{l c c c c r}
+		\begin{tabular}{l c c | c c r}
 			\hline
-			{\bf Parameter} & {\bf 24-hr symm.} & {\bf 24-hr asymm.} & {\bf Unit} \\
+			{\bf } & \multicolumn{2}{c |}{\bf WSO} & \multicolumn{2}{c}{\bf BiSON 24-hr} & {\bf } \\
+			{\bf Parameter} & {\bf Symm.} & {\bf Asymm.} & {\bf Symm.} & {\bf Asymm.} & {\bf Unit} \\
 			\hline
 			
-			{$\nu_0$} & {0.4273$\left(_{-05}^{+05}\right)$} & {0.4290$\left(_{-05}^{+04}\right)$} & {$\mu\mathrm{Hz} $}\\
+			{$\nu_0$} & {0.4273$\left(_{-05}^{+05}\right)$} & {0.4290$\left(_{-05}^{+04}\right)$} & {0.4244$\left(_{-09}^{+09}\right)$} & {0.4268$\left(_{-09}^{+09}\right)$} & {$\mu\mathrm{Hz} $}\\
 			
-			{$\Gamma$} & {0.0209$\left(_{-15}^{+16}\right)$} & {0.0210$\left(_{-15}^{+16}\right)$} & {$\mathrm{mG}$} \\
+			{$\Gamma$} & {0.0209$\left(_{-15}^{+16}\right)$} & {0.0210$\left(_{-15}^{+16}\right)$} & {0.0400$\left(_{-36}^{+38}\right)$} & {0.0468$\left(_{-36}^{+38}\right)$} & {$\mathrm{mG}$} \\
 			
-			{$A_1$} & {134.4$_{-3.3}^{+3.2}$} & {137.0$_{-3.5}^{+3.4}$} & {$\mathrm{mG}$} \\
+			{$A_1$} & {134.4$_{-3.3}^{+3.2}$} & {137.0$_{-3.5}^{+3.4}$} & {117.8$_{-3.9}^{+4.3}$} & {126.9$_{-4.9}^{+5.3}$} & {$\mathrm{mG}$} \\
 			
-			{$A_2$} & {120.7$\pm 3.4$} & {124.8$_{-3.6}^{+3.5}$} & {$\mathrm{mG}$} \\
+			{$A_2$} & {120.7$\pm 3.4$} & {124.8$_{-3.6}^{+3.5}$} & {106.5$_{-3.8}^{+3.7}$} & {113.6$_{-4.6}^{+4.5}$} & {$\mathrm{mG}$} \\
 			
-			{$A_3$} & {73.7$\pm 3.5$} & {77.4$\pm 3.8$} & {$\mathrm{mG}$} \\
+			{$A_3$} & {73.7$\pm 3.5$} & {77.4$\pm 3.8$} & {63.1$_{-3.4}^{+3.5}$} & {70.4$_{-3.9}^{+4.2}$} & {$\mathrm{mG}$} \\
 			
-			{$\tau$} & {22.5$_{-6.9}^{+10.1}$} & {23.7$_{-7.3}^{+11.1}$} & {$10^6 \mathrm{s}$} \\	
+			{$A_4$} & {--} & {--} & {27.4$_{-3.1}^{+3.2}$} & {31.5$_{-3.5}^{+3.6}$} & {$\mathrm{mG}$} \\
 			
-			{$\sigma$} & {52.1$_{-4.4}^{+4.7}$} & {51.5$_{-4.5}^{+4.6}$} & {$\mathrm{mG}$} \\	
+			{$\tau$} & {22.5$_{-6.9}^{+10.1}$} & {23.7$_{-7.3}^{+11.1}$} & {4.4$_{-1.1}^{+1.6}$} & {8.0$_{-2.3}^{+3.5}$} & {$10^6 \mathrm{s}$} \\	
 			
-			{$c$} & {11.4$_{-8.5}^{+17.8}$} & {12.0$_{-8.9}^{+18.6}$} & {$\mathrm{G}^2\mathrm{Hz}^{-1}$} \\	
+			{$\sigma$} & {52.1$_{-4.4}^{+4.7}$} & {51.5$_{-4.5}^{+4.6}$} & {80.2$\pm 5.0$} & {75.0$_{-5.7}^{+5.8}$} & {$\mathrm{mG}$} \\	
 			
-			{$\alpha$} & {--} & {-61.7$_{-15.3}^{+13.3}$} & {--} \\	
+			{$c$} & {11.4$_{-8.5}^{+17.8}$} & {12.0$_{-8.9}^{+18.6}$} & {30.6$_{-19.4}^{+17.3}$} & {28.6$_{-18.9}^{+17.9}$} & {$\mathrm{G}^2\mathrm{Hz}^{-1}$} \\	
+			
+			{$\alpha$} & {--} & {-61.7$_{-15.3}^{+13.3}$} & {--} & {-45.8$_{-13.5}^{+12.0}$} & {--} \\	
 			\hline
 		\end{tabular}
 	\end{center}
@@ -637,14 +699,24 @@ In Table~\ref{tab:WSO_SMMF_fit_params} the median values of marginalised posteri
 
 
 
+%\begin{figure}[ht!]
+%	\centering
+%	\includegraphics[width=\columnwidth]{WSO_PSD_model.pdf}
+%	\caption{Full, modelled power spectrum of the WSO SMMF on logarithmic axes. The data are displayed in black and the convolved model using asymmetric Lorentzian peaks is shown in blue.}
+%	\label{fig:WSO_PSD_fit}
+%\end{figure}
+
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[width=\columnwidth]{WSO_PSD_model.pdf}
-	\caption{Full, modelled power spectrum of the WSO SMMF on logarithmic axes. The data are displayed in black and the convolved model using asymmetric Lorentzian peaks is shown in blue.}
-	\label{fig:WSO_PSD_fit}
+	\subfloat[WSO \label{fig:WSO_PSD_fit}]
+	{\includegraphics[width=0.47\columnwidth]{WSO_PSD_model.pdf}} 
+	\qquad
+	\subfloat[24-hr BiSON \label{fig:24h_BiSON_PSD_fit}]{\includegraphics[width=0.47\columnwidth]{BiSON_24h_PSD_model.pdf}}
+	\caption{Modelled power spectrum of (a) the WSO SMMF; (b) the daily-averaged BiSON SMMF, on logarithmic axes. The data are displayed in black and the convolved model using asymmetric Lorentzian peaks is shown in blue and green, for WSO and BiSON, respectively.} 
+	\label{fig:WSO_and_24h_BiSON_PSD_fit}
 \end{figure}
 
-
+[Insert comment on bison 24 hr results...]
 
 The fit to the \gls{wso} power spectrum using asymmetric Lorentzian profiles produces results that are close to those measured with the \gls{bison} power spectrum. The rotation period is in agreement with that measured using \gls{bison} data to within 2$\sigma$, and this period implies a cycle-averaged latitude of around $8^{\circ}$. This agrees with the conclusions drawn from our inferences of the \gls{bison} data, that the \gls{rm} source is linked to \glspl{ar}.
 
@@ -804,7 +876,7 @@ To determine the shift in the rotation rate with migration, we used the model of
 \label{eq:diff_rot_freq}
 \end{equation}
 
-Finally,the time-dependence on the latitude of the active regions used the best-fitting quadratic model by \cite{li_latitude_2001-1}.
+Finally,the time-dependence on the latitude of the active regions used the best-fitting quadratic model by \cite{li_latitude_2001}.
 
 In both instances, the broadened peak was modelled as a single Lorentzian peak using equation~(\ref{eq:symm_lorentzian}), with a width equivalent to that which was inferred from modelling the \gls{bison} power spectrum. We use {\verb emcee } \citep{foreman-mackey_emcee_2013} to explore the posterior parameter space with priors similar to the fit to the full power spectrum.
 
@@ -937,7 +1009,7 @@ To compare the magnetogram data to the synoptic charts, we smoothed the separate
 	\label{fig:HMI_MF_vs_synoptics}
 \end{figure}
 
-We can see from Figure~\ref{fig:HMI_MF_vs_synoptics} that there does exist a longer timescale in the hemispheric \gls{mmf} when we average out the effects of the \gls{rm} component. This is visible from the reversal of the field polarity in 2014. This longer timescale component resembles the average of the synoptic charts, and shows the secular variation which is contributed by the solar dipole at high latitudes. This timescale is the solar activity period and can be seen particularly in Figure\ref{fig:HMI_2014_MF}. We see the beginning of a the magnetic field reversal at around solar maximum, in mid-2014, and the field reversal occurs with the onset of the rush of magnetic field to the poles after solar maximum [CITE???].
+We can see from Figure~\ref{fig:HMI_MF_vs_synoptics} that there does exist a longer timescale in the hemispheric \gls{mmf} when we average out the effects of the \gls{rm} component. This is visible from the reversal of the field polarity in 2014. This longer timescale component resembles the average of the synoptic charts, and shows the secular variation which is contributed by the solar dipole at high latitudes. This timescale is the solar activity period and can be seen particularly in Figure\ref{fig:HMI_2014_MF}. We see the beginning of a the magnetic field reversal at around solar maximum, in mid-2014, with the onset of the ``rush to the poles" after solar maximum \citep{wilson_solar_1994, mcintosh_what_2019}.
 
 Interestingly, the field reversal was located during different epochs when comparing the synoptic chart data to the visible disk, hemispheric \gls{mmf} data, and was delayed in the hemispheric \gls{mmf} by around 7 Carrignton rotations.
 

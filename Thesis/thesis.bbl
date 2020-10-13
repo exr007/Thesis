@@ -17,6 +17,9 @@
   {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
   mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
+\bibitem[\protect\citeauthoryear{Appourchaux}{Appourchaux}{2004}]{appourchaux_detecting_2004}
+Appourchaux T.,  2004, \mn@doi [A\&A] {10.1051/0004-6361:20041682}, 428, 1039
+
 \bibitem[\protect\citeauthoryear{Barnes et~al.,}{Barnes
   et~al.}{2020}]{barnes_sunpy_2020}
 Barnes a. W.~T.,  et~al., 2020, \mn@doi [ApJ] {10.3847/1538-4357/ab4f7a}, 890,
@@ -199,13 +202,8 @@ Lanza A.~F.,  Gizon L.,  Zaqarashvili T.~V.,  Liang Z.-C.,   Rodenbeck K.,
   2019, \mn@doi [A\&A] {10.1051/0004-6361/201834712}, 623, A50
 
 \bibitem[\protect\citeauthoryear{Li, Yun  \& Gu}{Li
-  et~al.}{2001a}]{li_latitude_2001}
-Li K.~J.,  Yun H.~S.,   Gu X.~M.,  2001a, \mn@doi [AJ] {10.1086/323089}, 122,
-  2115
-
-\bibitem[\protect\citeauthoryear{Li, Yun  \& Gu}{Li
-  et~al.}{2001b}]{li_latitude_2001-1}
-Li K.~J.,  Yun H.~S.,   Gu X.~M.,  2001b, \mn@doi [AJ] {10.1086/323089}, 122,
+  et~al.}{2001}]{li_latitude_2001}
+Li K.~J.,  Yun H.~S.,   Gu X.~M.,  2001, \mn@doi [AJ] {10.1086/323089}, 122,
   2115
 
 \bibitem[\protect\citeauthoryear{Liang, Gizon, Birch  \& Duvall}{Liang
@@ -233,6 +231,11 @@ Maunder E.~W.,  1904, \mn@doi [Mon Not R Astron Soc] {10.1093/mnras/64.8.747},
   et~al.}{2014}]{mcintosh_deciphering_2014}
 McIntosh S.~W.,  et~al., 2014, \mn@doi [ApJ] {10.1088/0004-637X/792/1/12}, 792,
   12
+
+\bibitem[\protect\citeauthoryear{McIntosh, Leamon, Egeland, Dikpati, Fan  \&
+  Rempel}{McIntosh et~al.}{2019}]{mcintosh_what_2019}
+McIntosh S.~W.,  Leamon R.~J.,  Egeland R.,  Dikpati M.,  Fan Y.,   Rempel M.,
+  2019, \mn@doi [Sol Phys] {10.1007/s11207-019-1474-y}, 294, 88
 
 \bibitem[\protect\citeauthoryear{Plachinda, Pankov  \& Baklanova}{Plachinda
   et~al.}{2011}]{plachinda_general_2011}
@@ -292,6 +295,12 @@ Svalgaard L.,  Wilcox J.~M.,  Scherrer P.~H.,   Howard R.,  1975, \mn@doi [Sol
   et~al.}{2019}]{thomas_asteroseismic_2019}
 Thomas A. E.~L.,  et~al., 2019, \mn@doi [Mon Not R Astron Soc]
   {10.1093/mnras/stz672}, 485, 3857
+
+\bibitem[\protect\citeauthoryear{Wilson}{Wilson}{1994}]{wilson_solar_1994}
+Wilson P.~R.,  1994, Solar and {Stellar} {Activity} {Cycles}.
+Cambridge {Astrophysics}, Cambridge University Press, Cambridge,
+  \mn@doi{10.1017/CBO9780511564833}, \url
+  {https://www.cambridge.org/core/books/solar-and-stellar-activity-cycles/49EFD2ED430403044DEB7B7177F77DAF}
 
 \bibitem[\protect\citeauthoryear{Wu, Usoskin, Krivova, Kovaltsov, Baroni, Bard
   \& Solanki}{Wu et~al.}{2018}]{wu_solar_2018}

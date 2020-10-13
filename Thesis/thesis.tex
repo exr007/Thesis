@@ -31,7 +31,22 @@
 \usepackage{booktabs}
 \usepackage[hidelinks]{hyperref}	
 % Hyperlinks
-%\hypersetup{colorlinks=True,linkcolor=blue,citecolor=blue,filecolor=blue,urlcolor=blue}
+%\hypersetup{
+%	colorlinks=True,
+%	linkcolor=blue,
+%	citecolor=blue,
+%	filecolor=blue,
+%	urlcolor=blue
+%}
+
+\hypersetup{
+	colorlinks,
+	linkcolor={black},
+	%citecolor={blue!50!black},
+	citecolor={blue},
+	urlcolor={blue!80!black}
+}
+
 \usepackage{xspace}
 \usepackage{xcolor}
 \usepackage{longtable}
@@ -45,6 +60,7 @@
 \usepackage{multirow}
 
 \usepackage[acronym]{glossaries}
+%\glsdisablehyper
 
 %\makeglossaries
 \makenoidxglossaries
@@ -176,7 +192,7 @@
 \include{Appendices/SMMF-sims/SMMF_sims}
 %\end{singlespace}
 
-
+\cleardoublepage
 %  R E F E R E N C E S
 \addcontentsline{toc}{chapter}{Bibliography}
 \begin{singlespace}
