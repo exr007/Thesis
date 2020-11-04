@@ -6,46 +6,48 @@ The style file: mnras.bst
 Database file #1: library.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty booktitle in desorgher_planetocosmics_2006
 Warning--empty booktitle in elsworth_performance_1995
-You've used 62 entries,
+Warning--empty institution in heck_extensive_2017
+You've used 76 entries,
             2881 wiz_defined-function locations,
-            1193 strings with 23774 characters,
-and the built_in function-call counts, 29648 in all, are:
-= -- 2315
-> -- 2349
-< -- 161
-+ -- 1025
-- -- 378
-* -- 3572
-:= -- 4831
+            1281 strings with 27569 characters,
+and the built_in function-call counts, 36561 in all, are:
+= -- 2795
+> -- 2943
+< -- 200
++ -- 1285
+- -- 482
+* -- 4394
+:= -- 5991
 add.period$ -- 0
-call.type$ -- 62
-change.case$ -- 124
-chr.to.int$ -- 59
-cite$ -- 63
-duplicate$ -- 1406
-empty$ -- 1400
-format.name$ -- 568
-if$ -- 5072
+call.type$ -- 76
+change.case$ -- 153
+chr.to.int$ -- 73
+cite$ -- 79
+duplicate$ -- 1743
+empty$ -- 1740
+format.name$ -- 706
+if$ -- 6239
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 61
-newline$ -- 201
-num.names$ -- 444
-pop$ -- 278
+missing$ -- 70
+newline$ -- 245
+num.names$ -- 544
+pop$ -- 375
 preamble$ -- 1
-purify$ -- 248
+purify$ -- 304
 quote$ -- 0
-skip$ -- 857
+skip$ -- 1049
 stack$ -- 0
-substring$ -- 1550
-swap$ -- 709
-text.length$ -- 249
+substring$ -- 1857
+swap$ -- 874
+text.length$ -- 308
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 555
-warning$ -- 1
-while$ -- 468
+type$ -- 681
+warning$ -- 3
+while$ -- 567
 width$ -- 0
-write$ -- 637
-(There was 1 warning)
+write$ -- 780
+(There were 3 warnings)

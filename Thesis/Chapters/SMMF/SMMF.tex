@@ -158,72 +158,72 @@ Through the application of this methodology, one acquires the \gls{smmf} as show
 The power spectrum shows a clear set of strong peaks at low frequency, which are due to the persistent rotation signal in the \gls{smmf}. The largest peak is the fundamental rotation frequency, and the following peaks are its harmonics.
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Comparison between WSO and BiSON}
-
-The relationship between the \gls{smmf} measured by the Sutherland \gls{bison} node and the \gls{smmf} measured by Stanford \gls{wso} was examined. The daily \gls{smmf} measured by the Stanford \gls{wso} and Sutherland \gls{bison} station are plotted in Fig~\ref{fig:BiSON_and_WSO}.
-
-\begin{figure}[ht!]
-    \centering
-	\includegraphics[width=\columnwidth]{BiSON_and_WSO.pdf}
-    \caption{Daily averaged SMMF measured by WSO (blue) and by the Sutherland BiSON station (black).}
-    \label{fig:BiSON_and_WSO}
-\end{figure}
-
-Figure~\ref{fig:BiSON_vs_WSO} shows the correlation between the two data sets, and also a comparison of their power spectra at low frequencies. The gradient of the line in Fig.~\ref{fig:BiSON_vs_WSO_TS} is $0.4999\pm0.0001$ and informs us that the \gls{bison} \gls{smmf} is half of the magnitude of that observed by \gls{wso}. Interestingly \citet{chaplin_studies_2003} stated that the \gls{smmf} observed by the Sutherland \gls{bison} station was roughly twice that of \gls{wso}, which means there is a self-consistency problem with the calibration of the \gls{bison} \gls{smmf} and suggests that there is a factor of 4 difference between the measurements of the \gls{smmf} by \citet{chaplin_studies_2003} and in this work.
-
-\begin{figure}[ht!]
-	\centering
-	\subfloat[BiSON vs WSO correlation \label{fig:BiSON_vs_WSO_TS}]
-	{\includegraphics[width=0.47\columnwidth]{BiSON_vs_WSO.pdf}} 
-	\qquad
-	\subfloat[BiSON vs WSO PSDs \label{fig:BiSON_vs_WSO_PSDs}]{\includegraphics[width=0.47\columnwidth]{BiSON_PSD_vs_WSO_PSD.pdf}}
-	\caption{Comparisons between the BiSON SMMF data and the WSO SMMF data. (a) The correlation between daily averaged BiSON SMMF and the WSO SMMF. The solid-green line provides the fit to the data, while the dashed-red line shows a 1:1 relation for comparison. (b) Shows a comparison between the power spectra of BiSON and WSO measurements of the SMMF.} \label{fig:BiSON_vs_WSO}
-\end{figure}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection{Comparison between WSO and BiSON}
+%
+%The relationship between the \gls{smmf} measured by the Sutherland \gls{bison} node and the \gls{smmf} measured by Stanford \gls{wso} was examined. The daily \gls{smmf} measured by the Stanford \gls{wso} and Sutherland \gls{bison} station are plotted in Fig~\ref{fig:BiSON_and_WSO}.
+%
 %\begin{figure}[ht!]
 %    \centering
-%	\includegraphics[width=0.75\columnwidth]{BiSON_vs_WSO.png}
-%    \caption{Correlation between the daily SMMF measured by WSO and by the Sutherland BiSON station. }
-%    \label{fig:BiSON_vs_WSO}
+%	\includegraphics[width=\columnwidth]{BiSON_and_WSO.pdf}
+%    \caption{Daily averaged SMMF measured by WSO (blue) and by the Sutherland BiSON station (black).}
+%    \label{fig:BiSON_and_WSO}
 %\end{figure}
-
-
-A possible reason for the differences between the \gls{wso} observations and the \gls{bison} observations may be explained by the formation heights of the lines. Assuming at each level of the solar atmosphere, regions threaded by magnetic field are in pressure equilibrium with those without any field, then the pressure balance can be expressed by equation~(\ref{eq:magnetic_pressure_balance}), where $P_\mathrm{with}$ is the gas pressure in regions with magnetic field, $P_\mathrm{without}$ in those without, and $B^2/2\mu_0$ is the magnetic pressure ($\mu_0$ = magnetic permeability of free space):
-
-\begin{equation}
-P_\mathrm{with} + \frac{B^2}{2\mu_0} = P_\mathrm{without} \, .
-\label{eq:magnetic_pressure_balance}
-\end{equation}
-
-This implies that the observed magnetic field scales like $\sqrt{P}$. Pressure changes exponentially with the scale height, H$_\mathrm{P}$ ($\sim 100-150$ km for the photosphere \citep{christensen-dalsgaard_current_1996}), as described by equation~(\ref{eq:pressure_scale}): 
-
-\begin{equation}
-P_2 = P_1 e^{ - (h_2-h_1)/H_P} \, .
-\label{eq:pressure_scale}
-\end{equation}
-
-Therefore combining both equation~(\ref{eq:magnetic_pressure_balance}) and equation~(\ref{eq:pressure_scale}), we arrive at equation~(\ref{eq:magnetic_scale}):
-
-\begin{equation}
-B_2 = B_1 e^{ - (h_2-h_1)/(2H_P)} \, .
-\label{eq:magnetic_scale}
-\end{equation} 
-
-
-\begin{figure}[ht!]
-	\centering
-	\includegraphics[width=0.85\columnwidth]{fheight_high_res.eps}
-	\caption{Formation heights of emission lines over the wavelength range used for WSO observations (top) and for BiSON observations (bottom). The vertical lines show the wavelengths of the emission lines used for observations in air (dashed) and in vacuum (solid). This plot was provided in private communication courtesy of Rinat Tagirov using the NESSY code.}
-	\label{fig:formation_height}
-\end{figure}
-
-Using a \gls{nlte} simulation to model the spectrum of solar magnetic features (see Figure~\ref{fig:formation_height}, and assuming for some slight calibration issues and Doppler shifting, we might suppose that the formation height of the \gls{bison} line (in vacuum) is around 50~km, and for the \gls{wso} line (in vacuum), around 150~km. This would mean that $B_\mathrm{WSO} \approx 0.6\, B_\mathrm{BiSON} - 0.7 \, B_\mathrm{BiSON}$ which disagrees with our observations and the comparison in Figure~\ref{fig:BiSON_vs_WSO}, but agrees more favourably with \citet{chaplin_studies_2003}.
-
-[Need to decide still how to neatly handle the discrepancy between old paper, this work, and WSO...]
-
-
-Finally, we can see quite clearly that the two power spectra align very closely, as shown in Fig.~\ref{fig:BiSON_vs_WSO_PSDs}, and that both spectra appear to display an asymmetric peak shape, with a negative asymmetry. The \gls{wso} power spectrum does also appear to display a lower degree of noise compared to \gls{bison}.
+%
+%Figure~\ref{fig:BiSON_vs_WSO} shows the correlation between the two data sets, and also a comparison of their power spectra at low frequencies. The gradient of the line in Fig.~\ref{fig:BiSON_vs_WSO_TS} is $0.4999\pm0.0001$ and informs us that the \gls{bison} \gls{smmf} is half of the magnitude of that observed by \gls{wso}. Interestingly \citet{chaplin_studies_2003} stated that the \gls{smmf} observed by the Sutherland \gls{bison} station was roughly twice that of \gls{wso}, which means there is a self-consistency problem with the calibration of the \gls{bison} \gls{smmf} and suggests that there is a factor of 4 difference between the measurements of the \gls{smmf} by \citet{chaplin_studies_2003} and in this work.
+%
+%\begin{figure}[ht!]
+%	\centering
+%	\subfloat[BiSON vs WSO correlation \label{fig:BiSON_vs_WSO_TS}]
+%	{\includegraphics[width=0.47\columnwidth]{BiSON_vs_WSO.pdf}} 
+%	\qquad
+%	\subfloat[BiSON vs WSO PSDs \label{fig:BiSON_vs_WSO_PSDs}]{\includegraphics[width=0.47\columnwidth]{BiSON_PSD_vs_WSO_PSD.pdf}}
+%	\caption{Comparisons between the BiSON SMMF data and the WSO SMMF data. (a) The correlation between daily averaged BiSON SMMF and the WSO SMMF. The solid-green line provides the fit to the data, while the dashed-red line shows a 1:1 relation for comparison. (b) Shows a comparison between the power spectra of BiSON and WSO measurements of the SMMF.} \label{fig:BiSON_vs_WSO}
+%\end{figure}
+%
+%%\begin{figure}[ht!]
+%%    \centering
+%%	\includegraphics[width=0.75\columnwidth]{BiSON_vs_WSO.png}
+%%    \caption{Correlation between the daily SMMF measured by WSO and by the Sutherland BiSON station. }
+%%    \label{fig:BiSON_vs_WSO}
+%%\end{figure}
+%
+%
+%A possible reason for the differences between the \gls{wso} observations and the \gls{bison} observations may be explained by the formation heights of the lines. Assuming at each level of the solar atmosphere, regions threaded by magnetic field are in pressure equilibrium with those without any field, then the pressure balance can be expressed by equation~(\ref{eq:magnetic_pressure_balance}), where $P_\mathrm{with}$ is the gas pressure in regions with magnetic field, $P_\mathrm{without}$ in those without, and $B^2/2\mu_0$ is the magnetic pressure ($\mu_0$ = magnetic permeability of free space):
+%
+%\begin{equation}
+%P_\mathrm{with} + \frac{B^2}{2\mu_0} = P_\mathrm{without} \, .
+%\label{eq:magnetic_pressure_balance}
+%\end{equation}
+%
+%This implies that the observed magnetic field scales like $\sqrt{P}$. Pressure changes exponentially with the scale height, H$_\mathrm{P}$ ($\sim 100-150$ km for the photosphere \citep{christensen-dalsgaard_current_1996}), as described by equation~(\ref{eq:pressure_scale}): 
+%
+%\begin{equation}
+%P_2 = P_1 e^{ - (h_2-h_1)/H_P} \, .
+%\label{eq:pressure_scale}
+%\end{equation}
+%
+%Therefore combining both equation~(\ref{eq:magnetic_pressure_balance}) and equation~(\ref{eq:pressure_scale}), we arrive at equation~(\ref{eq:magnetic_scale}):
+%
+%\begin{equation}
+%B_2 = B_1 e^{ - (h_2-h_1)/(2H_P)} \, .
+%\label{eq:magnetic_scale}
+%\end{equation} 
+%
+%
+%\begin{figure}[ht!]
+%	\centering
+%	\includegraphics[width=0.85\columnwidth]{fheight_high_res.eps}
+%	\caption{Formation heights of emission lines over the wavelength range used for WSO observations (top) and for BiSON observations (bottom). The vertical lines show the wavelengths of the emission lines used for observations in air (dashed) and in vacuum (solid). This plot was provided in private communication courtesy of Rinat Tagirov using the NESSY code.}
+%	\label{fig:formation_height}
+%\end{figure}
+%
+%Using a \gls{nlte} simulation to model the spectrum of solar magnetic features (see Figure~\ref{fig:formation_height}, and assuming for some slight calibration issues and Doppler shifting, we might suppose that the formation height of the \gls{bison} line (in vacuum) is around 50~km, and for the \gls{wso} line (in vacuum), around 150~km. This would mean that $B_\mathrm{WSO} \approx 0.6\, B_\mathrm{BiSON} - 0.7 \, B_\mathrm{BiSON}$ which disagrees with our observations and the comparison in Figure~\ref{fig:BiSON_vs_WSO}, but agrees more favourably with \citet{chaplin_studies_2003}.
+%
+%[Need to decide still how to neatly handle the discrepancy between old paper, this work, and WSO...]
+%
+%
+%Finally, we can see quite clearly that the two power spectra align very closely, as shown in Fig.~\ref{fig:BiSON_vs_WSO_PSDs}, and that both spectra appear to display an asymmetric peak shape, with a negative asymmetry. The \gls{wso} power spectrum does also appear to display a lower degree of noise compared to \gls{bison}.
 
 
 
@@ -585,7 +585,7 @@ In Table~\ref{tab:PSD_fit_params} the median values of marginalised posterior di
 			
 			{$\sigma$} & {83.4$\pm 3.5$} & {79.1$\pm 1.4$} &  {$\mathrm{mG}$} \\	
 			
-			{$c$} & {0.2103$\left(_{-09}^{+09}\right)$} & {0.2102$\left(_{-01}^{+01}\right)$}  & {$\mathrm{G}^2\mathrm{Hz}^{-1}$} \\	
+			{$c$} & {0.2103$\left(_{-09}^{+09}\right)$} & {0.2102$\left(_{-01}^{+01}\right)$}  & {$\mathrm{G}^2 \, \mathrm{Hz}^{-1}$} \\	
 			
 			{$\alpha$} & {--} & {-119.8$_{-7.9}^{+8.0}$} & {--} \\	
 			\hline
@@ -619,7 +619,11 @@ With all this considered, we state that our investigation of the \gls{bison} \gl
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Comparison to the WSO Power Spectrum}\label{sec:WSO_reults}
 
-Here we present the results from modelling the \gls{wso} power spectrum and we also show the results of modelling the power spectrum of the daily averaged \gls{bison} spectrum, to provide a more direct comparison between both observations. The fill of the \gls{wso} observations over the same epoch as \gls{bison} observations was $\sim 78\%$, and at $\sim 78\%$ for the daily-averaged \gls{bison} observations. As the fill of data for these data were higher than the 40-cadence data, the effect of the window function was less prominent. Nevertheless, the power spectra were modelled using the convolution approach, as per the previous section. As, compared to the duty cycle of 40-cadence data, the fill is closer to $100\%$, so we also expect the effect of the convolution to be less significant on the widths of the posterior distributions for each parameter, and thus the uncertainties to be more representative.
+Here we present the results from modelling the \gls{wso} power spectrum; we also show the results of modelling the power spectrum of the daily-averaged \gls{bison} spectrum, to provide a direct comparison between both observations on the same cadence. 
+
+The fill of the \gls{wso} observations over the same epoch as \gls{bison} observations was $\sim 78\%$, and at $\sim 55\%$ for the daily-averaged \gls{bison} observations. As the fill of the daily-averaged \gls{bison} data was higher than the 40-cadence data, the effect of the window function was less prominent. Nevertheless, the power spectra for both daily \gls{wso} and \gls{bison} data were modelled using the convolution approach, as per the previous section. As, compared to the duty cycle of 40-cadence data, the fill is closer to $100\%$, so we also expect the effect of the convolution to be less significant on the widths of the posterior distributions for each parameter, and thus the uncertainties to be more representative.
+
+In addition, we also had to account for the sinc-function attenuation effect and reflections of power around the Nyquist frequency, due to the lower Nyquist frequency and its close proximity to the frequencies of the rotation peaks \citep{basu_asteroseismic_2017}.
 
 %The \gls{wso} PSD was modelled using equation~\ref{eq:WSO_PSD_model}, with $N=3$, and $I=2$
 %
@@ -632,7 +636,7 @@ The daily-averaged \gls{bison} power spectrum was modelled against equation~(\re
 
 [Refer to table for bison 24 hr results...]
 
-In Table~\ref{tab:WSO_SMMF_fit_params} the median values of marginalised posterior distributions for each of the model parameters are displayed. Reported uncertainties on the parameters correspond to the $1\sigma$ ($68 \%$) credible intervals either side of the median. The effect of posterior width shrinkage in these results seems much less of a concern, as the $1\sigma$ uncertainties are on the same order as the results not using a convolved model in Table|\ref{tab:fake_1pk_params}. The convolved model of the data, using asymmetric Lorentzian peaks is shown in Figure~\ref{fig:WSO_PSD_fit} over-plotted on top the \gls{bison} \gls{smmf} power spectrum.
+In Table~\ref{tab:WSO_SMMF_fit_params} the median values of marginalised posterior distributions for the model parameters are displayed, for both daily \gls{wso} and \gls{bison} data. Reported uncertainties on the parameters correspond to the $1\sigma$ ($68 \%$) credible intervals either side of the median. The effect of posterior width shrinkage in these results is much less of a concern, as the $1\sigma$ uncertainties are on the same order as the results not using a convolved model in Table~\ref{tab:fake_1pk_params}. The convolved model of the data, using asymmetric Lorentzian peaks is shown in Figure~\ref{fig:WSO_PSD_fit} over-plotted on top the \gls{bison} \gls{smmf} power spectrum.
 
 %\begin{table}[ht!]
 %	\begin{center}
@@ -664,38 +668,75 @@ In Table~\ref{tab:WSO_SMMF_fit_params} the median values of marginalised posteri
 %	\end{center}
 %\end{table}
 
+%\begin{table}[ht!]
+%	\begin{center}
+%		\caption{Median values of the marginalised posterior distributions for each model parameter in the fit to the WSO power spectrum, adjusted for the duty cycle factor ($\sim 0.778$) in the convolution process. Numbers in brackets denote uncertainties on the last 2 digits, and all uncertainties correspond to the $68 \%$ credible intervals either side of the median.}\label{tab:WSO_SMMF_fit_params}
+%		\begin{tabular}{l c c | c c r}
+%			\hline
+%			{\bf } & \multicolumn{2}{c |}{\bf WSO} & \multicolumn{2}{c}{\bf BiSON 24-hr} & {\bf } \\
+%			{\bf Parameter} & {\bf Symm.} & {\bf Asymm.} & {\bf Symm.} & {\bf Asymm.} & {\bf Unit} \\
+%			\hline
+%			
+%			{$\nu_0$} & {0.4273$\left(_{-05}^{+05}\right)$} & {0.4290$\left(_{-05}^{+04}\right)$} & {0.4244$\left(_{-09}^{+09}\right)$} & {0.4268$\left(_{-09}^{+09}\right)$} & {$\mu\mathrm{Hz} $}\\
+%			
+%			{$\Gamma$} & {0.0209$\left(_{-15}^{+16}\right)$} & {0.0210$\left(_{-15}^{+16}\right)$} & {0.0400$\left(_{-36}^{+38}\right)$} & {0.0468$\left(_{-36}^{+38}\right)$} & {$\mu\mathrm{Hz} $} \\
+%			
+%			{$A_1$} & {134.4$_{-3.3}^{+3.2}$} & {137.0$_{-3.5}^{+3.4}$} & {117.8$_{-3.9}^{+4.3}$} & {126.9$_{-4.9}^{+5.3}$} & {$\mathrm{mG}$} \\
+%			
+%			{$A_2$} & {120.7$\pm 3.4$} & {124.8$_{-3.6}^{+3.5}$} & {106.5$_{-3.8}^{+3.7}$} & {113.6$_{-4.6}^{+4.5}$} & {$\mathrm{mG}$} \\
+%			
+%			{$A_3$} & {73.7$\pm 3.5$} & {77.4$\pm 3.8$} & {63.1$_{-3.4}^{+3.5}$} & {70.4$_{-3.9}^{+4.2}$} & {$\mathrm{mG}$} \\
+%			
+%			{$A_4$} & {--} & {--} & {27.4$_{-3.1}^{+3.2}$} & {31.5$_{-3.5}^{+3.6}$} & {$\mathrm{mG}$} \\
+%			
+%			{$\tau$} & {22.5$_{-6.9}^{+10.1}$} & {23.7$_{-7.3}^{+11.1}$} & {4.4$_{-1.1}^{+1.6}$} & {8.0$_{-2.3}^{+3.5}$} & {$10^6 \mathrm{s}$} \\	
+%			
+%			{$\sigma$} & {52.1$_{-4.4}^{+4.7}$} & {51.5$_{-4.5}^{+4.6}$} & {80.2$\pm 5.0$} & {75.0$_{-5.7}^{+5.8}$} & {$\mathrm{mG}$} \\	
+%			
+%			{$c$} & {11.4$_{-8.5}^{+17.8}$} & {12.0$_{-8.9}^{+18.6}$} & {30.6$_{-19.4}^{+17.3}$} & {28.6$_{-18.9}^{+17.9}$} & {$\mathrm{G}^2 \, \mathrm{Hz}^{-1}$} \\	
+%			
+%			{$\alpha$} & {--} & {-61.7$_{-15.3}^{+13.3}$} & {--} & {-45.8$_{-13.5}^{+12.0}$} & {--} \\	
+%			\hline
+%		\end{tabular}
+%	\end{center}
+%\end{table}
+
+% NEW RESULTS AFTER THE APODISATION ETC.
 \begin{table}[ht!]
 	\begin{center}
-		\caption{Median values of the marginalised posterior distributions for each model parameter in the fit to the WSO power spectrum, adjusted for the duty cycle factor ($\sim 0.778$) in the convolution process. Numbers in brackets denote uncertainties on the last 2 digits, and all uncertainties correspond to the $68 \%$ credible intervals either side of the median.}\label{tab:WSO_SMMF_fit_params}
+		\caption{Median values of the marginalised posterior distributions for each model parameter in the fit to the daily WSO and BiSON power spectra. Numbers in brackets denote uncertainties on the last 2 digits, and all uncertainties correspond to the $68 \%$ credible intervals either side of the median.}\label{tab:WSO_SMMF_fit_params}
 		\begin{tabular}{l c c | c c r}
 			\hline
 			{\bf } & \multicolumn{2}{c |}{\bf WSO} & \multicolumn{2}{c}{\bf BiSON 24-hr} & {\bf } \\
 			{\bf Parameter} & {\bf Symm.} & {\bf Asymm.} & {\bf Symm.} & {\bf Asymm.} & {\bf Unit} \\
 			\hline
 			
-			{$\nu_0$} & {0.4273$\left(_{-05}^{+05}\right)$} & {0.4290$\left(_{-05}^{+04}\right)$} & {0.4244$\left(_{-09}^{+09}\right)$} & {0.4268$\left(_{-09}^{+09}\right)$} & {$\mu\mathrm{Hz} $}\\
+			{$\nu_0$} & {0.4272$\left(_{-05}^{+05}\right)$} & {0.4290$\left(_{-04}^{+04}\right)$} & {0.4246$\left(_{-09}^{+08}\right)$} & {0.4270$\left(_{-08}^{+08}\right)$} & {$\mu\mathrm{Hz} $}\\
 			
-			{$\Gamma$} & {0.0209$\left(_{-15}^{+16}\right)$} & {0.0210$\left(_{-15}^{+16}\right)$} & {0.0400$\left(_{-36}^{+38}\right)$} & {0.0468$\left(_{-36}^{+38}\right)$} & {$\mathrm{mG}$} \\
+			{$\Gamma$} & {0.0210$\left(_{-15}^{+16}\right)$} & {0.0210$\left(_{-15}^{+16}\right)$} & {0.0359$\left(_{-26}^{+27}\right)$} & {0.0365$\left(_{-29}^{+30}\right)$} & {$\mu\mathrm{Hz} $} \\
 			
-			{$A_1$} & {134.4$_{-3.3}^{+3.2}$} & {137.0$_{-3.5}^{+3.4}$} & {117.8$_{-3.9}^{+4.3}$} & {126.9$_{-4.9}^{+5.3}$} & {$\mathrm{mG}$} \\
+			{$A_1$} & {134.8$_{-3.2}^{+3.1}$} & {137.3$\pm 3.5$} & {118.9$_{-3.8}^{+4.2}$} & {125.6$_{-4.4}^{+5.0}$} & {$\mathrm{mG}$} \\
 			
-			{$A_2$} & {120.7$\pm 3.4$} & {124.8$_{-3.6}^{+3.5}$} & {106.5$_{-3.8}^{+3.7}$} & {113.6$_{-4.6}^{+4.5}$} & {$\mathrm{mG}$} \\
+			{$A_2$} & {121.6$\pm 3.4$} & {125.9$_{-3.6}^{+3.7}$} & {109.2$_{-3.8}^{+3.6}$} & {115.4$_{-4.4}^{+4.2}$} & {$\mathrm{mG}$} \\
 			
-			{$A_3$} & {73.7$\pm 3.5$} & {77.4$\pm 3.8$} & {63.1$_{-3.4}^{+3.5}$} & {70.4$_{-3.9}^{+4.2}$} & {$\mathrm{mG}$} \\
+			{$A_3$} & {75.1$_{-3.4}^{+3.5}$} & {78.9$_{-3.9}^{+4.0}$} & {64.6$_{-3.5}^{+3.7}$} & {70.1$_{-4.0}^{+4.2}$} & {$\mathrm{mG}$} \\
 			
-			{$A_4$} & {--} & {--} & {27.4$_{-3.1}^{+3.2}$} & {31.5$_{-3.5}^{+3.6}$} & {$\mathrm{mG}$} \\
+			{$A_4$} & {--} & {--} & {28.0$_{-3.3}^{+3.4}$} & {30.7$_{-3.6}^{+3.7}$} & {$\mathrm{mG}$} \\
+
+%			{$\tau$} & {22.8$_{-7.2}^{+10.5}$} & {23.4$_{-7.3}^{+11.1}$} & {4.3$_{-1.1}^{+1.6}$} & {6.7$_{-1.9}^{+2.8}$} & {$10^6 \mathrm{s}$} \\
 			
-			{$\tau$} & {22.5$_{-6.9}^{+10.1}$} & {23.7$_{-7.3}^{+11.1}$} & {4.4$_{-1.1}^{+1.6}$} & {8.0$_{-2.3}^{+3.5}$} & {$10^6 \mathrm{s}$} \\	
+			{$\tau$} & {263.9$_{-83.3}^{+121.5}$} & {270.8$_{-84.5}^{+128.5}$} & {49.8$_{-12.7}^{+18.5}$} & {77.5$_{-22.0}^{+32.4}$} & {days} \\	
 			
-			{$\sigma$} & {52.1$_{-4.4}^{+4.7}$} & {51.5$_{-4.5}^{+4.6}$} & {80.2$\pm 5.0$} & {75.0$_{-5.7}^{+5.8}$} & {$\mathrm{mG}$} \\	
+			{$\sigma$} & {52.3$\pm 4.6$} & {51.3$_{-4.5}^{+4.6}$} & {81.5$_{-1.1}^{+5.1}$} & {77.1$_{-5.5}^{+5.7}$} & {$\mathrm{mG}$} \\	
 			
-			{$c$} & {11.4$_{-8.5}^{+17.8}$} & {12.0$_{-8.9}^{+18.6}$} & {30.6$_{-19.4}^{+17.3}$} & {28.6$_{-18.9}^{+17.9}$} & {$\mathrm{G}^2\mathrm{Hz}^{-1}$} \\	
+			{$c$} & {11.7$_{-8.8}^{+18.7}$} & {11.0$_{-8.4}^{+18.4}$} & {0.210$\pm 0.011$} & {0.210$\pm 0.011$} & {$\mathrm{G}^2 \, \mathrm{Hz}^{-1}$} \\	
 			
-			{$\alpha$} & {--} & {-61.7$_{-15.3}^{+13.3}$} & {--} & {-45.8$_{-13.5}^{+12.0}$} & {--} \\	
+			{$\alpha$} & {--} & {-61.7$_{-15.3}^{+13.3}$} & {--} & {-42.1$_{-15.1}^{+12.0}$} & {--} \\	
 			\hline
 		\end{tabular}
 	\end{center}
 \end{table}
+
 
 
 
@@ -716,11 +757,19 @@ In Table~\ref{tab:WSO_SMMF_fit_params} the median values of marginalised posteri
 	\label{fig:WSO_and_24h_BiSON_PSD_fit}
 \end{figure}
 
-[Insert comment on bison 24 hr results...]
+The results of the fit to the daily-averaged \gls{bison} data are similar to those for the 40-second data, however there are a few differences which arise due to the different window functions and the realisations of the noise. We do however, generally, see a good agreement between the parameters. We see in Figure~\ref{fig:BiSON_PSD_40_vs_24} that there are differences between the daily averaged and 40-second spectra; at low frequencies it is possible to see the differences in the realisations of the noise, and at higher frequencies we can see differences due to the window function aliasing. This plot shows the possible reasons why the parameters in Table~\ref{tab:WSO_SMMF_fit_params} may slightly differ from the results presented in Table~\ref{tab:PSD_fit_params}.
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.85\columnwidth]{BiSON_24h_vs_40s.pdf}
+	\caption{A comparison between the power spectra produced using the daily averaged BiSON data and the 40-second cadence BiSON observations. The top plot shows the log-smoothed power spectra of the daily averaged data (blue) and the 40-s data (orange). The bottom panel show the ratio of the daily averaged data power spectrum to the 40-s data power spectrum. The horizontal, dashed line indicates a ratio of 1.}
+	\label{fig:BiSON_PSD_40_vs_24}
+\end{figure}
+
 
 The fit to the \gls{wso} power spectrum using asymmetric Lorentzian profiles produces results that are close to those measured with the \gls{bison} power spectrum. The rotation period is in agreement with that measured using \gls{bison} data to within 2$\sigma$, and this period implies a cycle-averaged latitude of around $8^{\circ}$. This agrees with the conclusions drawn from our inferences of the \gls{bison} data, that the \gls{rm} source is linked to \glspl{ar}.
 
-The line-width suggests a \gls{rm} lifetime of $175 \pm 13$~days, which is in the region of $\sim 25$~weeks or half a year. This lifetime is inconsistent with that measured using the \gls{bison} data, however. The lifetime measured in the \gls{bison} power spectrum is around 50\% larger than that measured with the \gls{wso} data. A possible explanation for this could be the resolution differences of the two instruments, or more likely it is a by-product of the different regions within the photosphere they probe, as discussed above. These limits are still consistent however with the lifetime of large, strong \glspl{ar} \citep{schrijver_photospheric_1994, van_driel-gesztelyi_evolution_2015}.
+The line-width suggests a \gls{rm} lifetime of $175 \pm 13$~days, which is in the region of $\sim 25$~weeks or half a year. This lifetime is inconsistent with that measured using the \gls{bison} data, however. The lifetime measured in the \gls{bison} power spectrum is around 50\% larger than that measured with the \gls{wso} data. A possible explanation for this could be the resolution differences of the two instruments, or more likely it is a by-product of the different regions within the photosphere that each instrument probes. These limits are still consistent however with the lifetime of large, strong \glspl{ar} \citep{schrijver_photospheric_1994, van_driel-gesztelyi_evolution_2015}.
 
 As with the \gls{bison} observations, the investigation of the \gls{wso} \gls{smmf} also indicates the origin of the \gls{smmf} is linked to \glspl{ar} and \glspl{mfc} that are long-lived on the solar disk and exist in active latitudes.
 

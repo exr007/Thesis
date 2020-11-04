@@ -25,6 +25,11 @@ Appourchaux T.,  2004, \mn@doi [A\&A] {10.1051/0004-6361:20041682}, 428, 1039
 Barnes a. W.~T.,  et~al., 2020, \mn@doi [ApJ] {10.3847/1538-4357/ab4f7a}, 890,
   68
 
+\bibitem[\protect\citeauthoryear{Bartels}{Bartels}{2012}]{bartels_hisparc_2012}
+Bartels R.~T.,  2012, Technical report, The {HiSPARC} {Experiment}: {An}
+  {Analysis} of the {MPV} and the {Number} of {Events} per {Unit} {Time}.
+University College Utrecht
+
 \bibitem[\protect\citeauthoryear{Basu \& Chaplin}{Basu \&
   Chaplin}{2017}]{basu_asteroseismic_2017}
 Basu S.,  Chaplin W.~J.,  2017, Asteroseismic Data Analysis: Foundations and
@@ -32,6 +37,11 @@ Basu S.,  Chaplin W.~J.,  2017, Asteroseismic Data Analysis: Foundations and
 
 \bibitem[\protect\citeauthoryear{Beck}{Beck}{2000}]{beck_comparison_2000}
 Beck J.~G.,  2000, \mn@doi [Solar Physics] {10.1023/A:1005226402796}, 191, 47
+
+\bibitem[\protect\citeauthoryear{Berkova, Belov, Eroshenko  \& Yanke}{Berkova
+  et~al.}{2011}]{berkova_temperature_2011}
+Berkova M.~D.,  Belov A.~V.,  Eroshenko E.~A.,   Yanke V.~G.,  2011, \mn@doi
+  [Bull. Russ. Acad. Sci. Phys.] {10.3103/S1062873811060086}, 75, 820
 
 \bibitem[\protect\citeauthoryear{Bose \& Nagaraju}{Bose \&
   Nagaraju}{2018}]{bose_variability_2018}
@@ -88,6 +98,11 @@ Chaplin W.~J.,  Elsworth Y.,  New R.,   Toutain T.,  2008, \mn@doi [Monthly
 Christensen-Dalsgaard J.,  et~al., 1996, \mn@doi [Science]
   {10.1126/science.272.5266.1286}, 272, 1286
 
+\bibitem[\protect\citeauthoryear{Corti, Potgieter, Bindi, Consolandi, Light,
+  Palermo  \& Popkow}{Corti et~al.}{2019}]{corti_numerical_2019}
+Corti C.,  Potgieter M.~S.,  Bindi V.,  Consolandi C.,  Light C.,  Palermo M.,
+   Popkow A.,  2019, \mn@doi [ApJ] {10.3847/1538-4357/aafac4}, 871, 253
+
 \bibitem[\protect\citeauthoryear{Dacie, DÃ©moulin, Driel-Gesztelyi, Long,
   Baker, Janvier, Yardley  \& PÃ©rez-SuÃ¡rez}{Dacie
   et~al.}{2016}]{dacie_evolution_2016}
@@ -106,6 +121,11 @@ Davies G.~R.,  Broomhall A.~M.,  Chaplin W.~J.,  Elsworth Y.,   Hale S.~J.,
 Davies G.~R.,  Chaplin W.~J.,  Elsworth Y.,   Hale S.~J.,  2014b, \mn@doi [Mon
   Not R Astron Soc] {10.1093/mnras/stu803}, 441, 3009
 
+\bibitem[\protect\citeauthoryear{Desorgher, Flückiger  \& Gurtner}{Desorgher
+  et~al.}{2006}]{desorgher_planetocosmics_2006}
+Desorgher L.,  Flückiger E.~O.,   Gurtner M.,  2006. p.~2361, \url
+  {http://adsabs.harvard.edu/abs/2006cosp...36.2361D}
+
 \bibitem[\protect\citeauthoryear{Dumbill}{Dumbill}{1999}]{dumbill_observation_1999}
 Dumbill A.~M.,  1999, PhD thesis, School of Physics and Space Research,
   University of Birmingham
@@ -114,6 +134,13 @@ Dumbill A.~M.,  1999, PhD thesis, School of Physics and Space Research,
   Pomerantz}{Duvall et~al.}{1993}]{duvall_asymmetries_1993}
 Duvall Jr. T.~L.,  Jefferies S.~M.,  Harvey J.~W.,  Osaki Y.,   Pomerantz
   M.~A.,  1993, \mn@doi [The Astrophysical Journal] {10.1086/172800}, 410, 829
+
+\bibitem[\protect\citeauthoryear{ETEnterprises}{ETEnterprises}{2020}]{et_enterprises_data_2020}
+ETEnterprises 2020, Technical Report 9125B, Data {Sheet}: {9125B} {Series},
+  \url
+  {http://et-enterprises.com/products/photomultipliers/product/p9125b-series}.
+ET Enterprises, \url
+  {http://et-enterprises.com/products/photomultipliers/product/p9125b-series}
 
 \bibitem[\protect\citeauthoryear{Elsworth, Howe, Isaak, McLeod, Miller, van~der
   Raay, Wheeler  \& New}{Elsworth et~al.}{1995a}]{elsworth_performance_1995}
@@ -125,6 +152,9 @@ Elsworth Y.,  Howe R.,  Isaak G.~R.,  McLeod C.~P.,  Miller B.~A.,  van~der
   Wheeler}{Elsworth et~al.}{1995b}]{elsworth_techniques_1995}
 Elsworth Y.,  Howe R.,  Isaak G.~R.,  McLeod C.~P.,  Miller B.~A.,  New R.,
   Wheeler S.~J.,  1995b, Astronomy and Astrophysics Supplement Series, 113, 379
+
+\bibitem[\protect\citeauthoryear{Fokkema}{Fokkema}{2012}]{fokkema_hisparc_2012}
+Fokkema D. B. R.~A.,  2012, PhD thesis, University of Twente
 
 \bibitem[\protect\citeauthoryear{Foreman-Mackey, Hogg, Lang  \&
   Goodman}{Foreman-Mackey et~al.}{2013}]{foreman-mackey_emcee_2013}
@@ -164,6 +194,16 @@ Hathaway D.~H.,  Choudhary D.~P.,  2008, \mn@doi [Sol Phys]
 \bibitem[\protect\citeauthoryear{Hathaway \& Upton}{Hathaway \&
   Upton}{2020}]{hathaway_hydrodynamic_2020}
 Hathaway D.~H.,  Upton L.~A.,  2020, arXiv e-prints, 2006, arXiv:2006.06084
+
+\bibitem[\protect\citeauthoryear{Heck \& Pierog}{Heck \&
+  Pierog}{2017}]{heck_extensive_2017}
+Heck D.,  Pierog T.,  2017, Technical Report 7.6400, Extensive {Air} {Shower}
+  {Simulation} with {CORSIKA}: {A} {User}’s {Guide}
+
+\bibitem[\protect\citeauthoryear{Herbst, Kopp  \& Heber}{Herbst
+  et~al.}{2013}]{herbst_influence_2013}
+Herbst K.,  Kopp A.,   Heber B.,  2013, \mn@doi [Annales Geophysicae]
+  {10.5194/angeo-31-1637-2013}, 31, 1637
 
 \bibitem[\protect\citeauthoryear{Howard}{Howard}{2001}]{howard_sunspot_2001}
 Howard R.~F.,  2001, in , The {Encyclopedia} of {Astronomy} and {Astrophysics}.
@@ -211,6 +251,11 @@ Li K.~J.,  Yun H.~S.,   Gu X.~M.,  2001, \mn@doi [AJ] {10.1086/323089}, 122,
 Liang Z.-C.,  Gizon L.,  Birch A.~C.,   Duvall T.~L.,  2019, \mn@doi [A\&A]
   {10.1051/0004-6361/201834849}, 626, A3
 
+\bibitem[\protect\citeauthoryear{Lingri, Mavromichalaki, Belov, Eroshenko,
+  Yanke, Abunin  \& Abunina}{Lingri et~al.}{2016}]{lingri_forbush_2016}
+Lingri D.,  Mavromichalaki H.,  Belov A.,  Eroshenko E.,  Yanke V.,  Abunin A.,
+    Abunina M.,  2016, arXiv:1612.08900 [astro-ph]
+
 \bibitem[\protect\citeauthoryear{L\"optien, Gizon, Birch, Schou, Proxauf,
   Duvall, Bogart  \& Christensen}{L\"optien
   et~al.}{2018}]{loptien_global-scale_2018}
@@ -237,6 +282,23 @@ McIntosh S.~W.,  et~al., 2014, \mn@doi [ApJ] {10.1088/0004-637X/792/1/12}, 792,
 McIntosh S.~W.,  Leamon R.~J.,  Egeland R.,  Dikpati M.,  Fan Y.,   Rempel M.,
   2019, \mn@doi [Sol Phys] {10.1007/s11207-019-1474-y}, 294, 88
 
+\bibitem[\protect\citeauthoryear{Mendon\{{\textbackslash}c\{c\}\}a
+  et~al.,}{Mendon\{{\textbackslash}c\{c\}\}a
+  et~al.}{2016}]{mendoncca_temperature_2016}
+Mendon\{{\textbackslash}c\{c\}\}a R. R. S.~d.,  et~al., 2016, \mn@doi [ApJ]
+  {10.3847/0004-637X/830/2/88}, 830, 88
+
+\bibitem[\protect\citeauthoryear{{NMDB}}{{NMDB}}{2018}]{nmdb_nmdb_nodate}
+{NMDB} 2018, {NMDB} {Event} {Search} {Tool} ({NEST}), \url
+  {http://www.nmdb.eu/nest/}
+
+\bibitem[\protect\citeauthoryear{Paschalis, Mavromichalaki, Yanke, Belov,
+  Eroshenko, Gerontidou  \& Koutroumpi}{Paschalis
+  et~al.}{2013}]{paschalis_online_2013}
+Paschalis P.,  Mavromichalaki H.,  Yanke V.,  Belov A.,  Eroshenko E.,
+  Gerontidou M.,   Koutroumpi I.,  2013, \mn@doi [New Astronomy]
+  {10.1016/j.newast.2012.08.003}, 19, 10
+
 \bibitem[\protect\citeauthoryear{Plachinda, Pankov  \& Baklanova}{Plachinda
   et~al.}{2011}]{plachinda_general_2011}
 Plachinda S.,  Pankov N.,   Baklanova D.,  2011, \mn@doi [Astronomische
@@ -251,6 +313,12 @@ Rossby C.-G.,  {Collaborators} 1939, \mn@doi [J Mar Res]
   et~al.}{2016}]{salvatier_probabilistic_2016}
 Salvatier J.,  Wiecki T.~V.,   Fonnesbeck C.,  2016, \mn@doi [PeerJ Comput.
   Sci.] {10.7717/peerj-cs.55}, 2, e55
+
+\bibitem[\protect\citeauthoryear{Savić, Maletić, Joković, Veselinović,
+  Banjanac, Udovičić  \& Dragić}{Savić et~al.}{2015}]{savic_pressure_2015}
+Savić M.,  Maletić D.,  Joković D.,  Veselinović N.,  Banjanac R.,
+  Udovičić V.,   Dragić A.,  2015, \mn@doi [J. Phys.: Conf. Ser.]
+  {10.1088/1742-6596/632/1/012059}, 632, 012059
 
 \bibitem[\protect\citeauthoryear{Scherrer, Wilcox  \& Howard}{Scherrer
   et~al.}{1972}]{scherrer_mean_1972}
@@ -319,6 +387,15 @@ Xie J.~L.,  Shi X.~J.,   Xu J.~C.,  2017, \mn@doi [The Astronomical Journal]
 
 \bibitem[\protect\citeauthoryear{Zwaan}{Zwaan}{1981}]{zwaan_solar_1981}
 Zwaan C.,  1981, NASA Special Publication, 450
+
+\bibitem[\protect\citeauthoryear{van Dam, van Eijk, Fokkema, van Holten, de
+  Laat, Schultheiss, Steijger  \& Verkooijen}{van Dam
+  et~al.}{2020}]{van_dam_hisparc_2020}
+van Dam K.,  van Eijk B.,  Fokkema D. B. R.~A.,  van Holten J.~W.,  de Laat A.
+  P. L.~S.,  Schultheiss N.~G.,  Steijger J. J.~M.,   Verkooijen J.~C.,  2020,
+  \mn@doi [Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment]
+  {10.1016/j.nima.2020.163577}, 959, 163577
 
 \bibitem[\protect\citeauthoryear{van Driel-Gesztelyi \& Green}{van
   Driel-Gesztelyi \& Green}{2015}]{van_driel-gesztelyi_evolution_2015}
