@@ -53,7 +53,7 @@ After fitting a model of the power spectrum, we aimed to use simulated data and 
 
 \citet{chaplin_studies_2003} provided the first examination of the \gls{smmf} using data from \gls{bison}, and the work presented in this paper is a continuation of that study.
 
-\gls{bison} is a six-station, ground-based, global network of telescopes continuously monitoring the Sun, which principally makes precise measurements of the \gls{los} velocity of the photosphere due to solar $p$ mode oscillations \citep{hale_performance_2016}. Through the use of polarising optics and additional electronics, the \gls{bison} spectrometers can measure both the disk-averaged \gls{los} velocity and magnetic field in the photosphere \citep{chaplin_studies_2003}, however, not all \gls{bison} sites measure the \gls{smmf}. The observing regime for \gls{bison} is described below.
+\gls{bison} is a six-station, ground-based, global network of telescopes continuously monitoring the Sun, which principally makes precise measurements of the \gls{los} velocity of the photosphere due to solar $p$ mode oscillations \citep{hale_performance_2016}. Through the use of polarising optics and additional electronics, the \gls{bison} spectrometers can measure both the disk-averaged \gls{los} velocity and magnetic field in the photosphere \citep{chaplin_studies_2003}, however, not all \gls{bison} sites measure the \gls{smmf}. %The observing regime for \gls{bison} is described below.
 
 In this study we focus on the data collected by the Sutherland node, in South Africa, which was also used by \cite{chaplin_studies_2003}. Data are sampled on a 40-second cadence, and the \gls{smmf} data collected by the Sutherland station pertains the epochs from 01/1992 -- 12/2012. Over this period, the fill of solar observations is low because of the combination of: (a) the fill due to using only a single site with a 40-second cadence, (b) the duty cycle needed in a given day for a `good measure' of the Sun. Combined, the fill of the data averages to be $\sim 15.6\%$ of the total epoch.
 
@@ -343,7 +343,7 @@ The same parametrisation as outlined above was relevant to the modelling of the 
 \subsection{Investigation of the Window Function}\label{sec:window_fn}
 
 
-Due to the low fill of data, we see daily and random effects in the window function. Daily, periodic gaps in the data give rise to sidebands in the power spectrum, and random gaps cause a more broadband shifting of power, meaning that some power from the low-frequency \gls{rm} component in the power spectrum to be aliased to higher frequencies. First we will concentrate specifically on the effect of daily, periodic gaps in the data. Periodic gaps cause sidebands at a frequency corresponding to the gaps; in this case there are daily gaps, hence power is aliased to sidebands at a frequency of 1/day $\sim$~11.57 $\mu$Hz and its harmonics.
+Due to the low fill of data, we see the effects of daily and random gaps on the power spectrum. Daily, periodic gaps in the data give rise to sidebands in the power spectrum, and random gaps cause a more broadband shifting of power, meaning that some power from the low-frequency \gls{rm} component in the power spectrum is aliased to higher frequencies. First we will concentrate specifically on the effect of daily, periodic gaps in the data. Periodic gaps cause sidebands at a frequency corresponding to the gaps; in this case there are daily gaps, hence power is aliased to sidebands at a frequency of 1/day $\sim$~11.57 $\mu$Hz and its harmonics.
 
 The frequency (and harmonics) of the \gls{rm} component are located near zero ($\nu_0 \sim \,0.4 \, \mu\mathrm{Hz}$). We are usually only interested in the real, positive frequencies but due to their close proximity to zero, they are reflected back as a product of the aliasing and hence there are negative and positive side-bands in the complete power spectrum. When considering the aliased power, both the positive and negative side-bands must be taken into account. The aliased power is located at frequencies defined in equation~(\ref{eq:sidebands}), where $i$ denotes the side-band number, and $n$ denotes the harmonic of the mode:
 
@@ -841,12 +841,12 @@ In Figure~\ref{fig:artificial_sim_plots} we also note that for each model of the
 	\label{fig:artificial_sim_plots}
 \end{figure}
 
-The simulations were run with 15 different configurations which used the three migration models combined with five models for the source transits across the visible disk. The five transit models were composed of the cosine model, sign change model, and combinations of the cosine and sign change models in ratios of 5:95, 10:90, and 20:80 (see Appendix~\ref{app:SMMF_sims} for further details). In each case, 250 simulations were performed in order to produce a limit spectrum by co-adding spectra from each independent realization. Each limit spectrum was then modelled with a series of Lorentzian peaks sharing a global asymmetry parameter, and the resultant asymmetry values are shown in Figure~\ref{fig:artificial_asymm}.
+The simulations were run with 15 different configurations which used the three migration models combined with five models for the source transits across the visible disk. The five transit models were composed of the cosine model, sign change model, and combinations of the cosine and sign change models in ratios of 5:95, 10:90, and 20:80 (see Appendix~\ref{app:SMMF_sims} for further details). In each case, 250 simulations were performed in order to produce a limit spectrum by co-adding spectra from each independent realisation. Each limit spectrum was then modelled with a series of Lorentzian peaks sharing a global asymmetry parameter, and the resultant asymmetry values are shown in Figure~\ref{fig:artificial_asymm}.
 
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=0.85\columnwidth]{artificial_fit_asym.pdf}
-	\caption{The median value of the fitted global asymmetry parameter for several simulations of artificial data. The colour represents the migration model used: linear:blue; quadratic:orange; exponential: green. The marker represents the source model used: cosine:circle; sign change:cross; combinations of the cosine and sign change models in ratios of 5:95:downwards triangle; 10:90:plus; 20:80:upwards triangle.}
+	\caption{The median value of the fitted global asymmetry parameter for several simulations of artificial data. The colour represents the migration model used: linear:blue; quadratic:orange; exponential: green. The marker represents the source model used: cosine:circle; sign change:cross; combinations of the cosine and sign change models in ratios of $5:95$:downwards triangle; $10:90$:plus; $20:80$:upwards triangle.}
 	\label{fig:artificial_asymm}
 \end{figure}
 
@@ -862,13 +862,25 @@ There are believed to be two main causes of asymmetry in acoustic modes:
 	\item{The correlation between the convective granulation (i.e. correlated noise) and the signal from the modes themselves, or the correlation between the excitations of one mode to another. This source of asymmetry is believed to dominate in intensity observations due to the lower signal-to-noise ratio.}
 \end{enumerate}
 
-We believe that some combination of phase difference between sources, and noise arising the randomness of the simulations is responsible for the asymmetry difference observed between the cosine and sign change models, as they replicate the difference in the ways we observe the \glspl{ar}, either by intensity (cosine model) or Doppler velocity (sign change model).
+Here, however, we are not observing standing waves, but instead a rotationally modulation signal, therefore the explanation is slightly different. We suspected that the reason for the asymmetry could be due to interference between multiple sources, produced by a phase difference between source. To test this, we simulated differing numbers of sources to observe whether this resulted in a variation in the asymmetry. The results of this investigation are summarised in Figure~\ref{fig:asymm_sources}.
 
-In the case of the \gls{smmf} observations, we believe the asymmetry is explained by the first of the above explanations. Active magnetic regions are typically localised in the near-surface layers of the Sun and we see clear interference between different regions of magnetic flux which form the observed more prominent active regions, which we believe contribute strongly to the \gls{smmf}. The interference between small regions of flux will have accumulated a phase difference and therefore could contribute to the observed asymmetry.
+\begin{figure}[ht!]
+	\centering
+	\subfloat[Limit spectra comparison for different numbers of simulated sources \label{fig:asymm_PSDs}]
+	{\includegraphics[width=0.48\columnwidth]{asymm_PSDs.pdf}} 
+	\qquad
+	\subfloat[Asymmetry parameter comparison for different numbers of simulated sources \label{fig:asymm_alphas}]{\includegraphics[width=0.46\columnwidth]{asymm_alphas.pdf}}
+	\caption{A comparison between the asymmetry in the power spectra for differing numbers of simulated sources. (a) Shows a direct comparison between the limit spectra for a single simulated source versus 100 simulated sources under the `cosine' model. (b) Shows a comparison of the median value fitted global asymmetry parameter for several numbers of simulated sources.} 
+	\label{fig:asymm_sources}
+\end{figure}
 
-On the second point, the \gls{smmf} is measured by the Zeeman splitting of an emission line due to the magnetic field, which is inherently measuring the Doppler shift, i.e. `velocity'. There is no bleed through of $p$ mode power in the spectrum, and we have shown that there is no red-noise-like signal or stochastic background with a short timescale resembling granulation in the power spectrum; therefore, it is unlikely that we see a strong correlated noise contribution which would produce the asymmetry in the \gls{smmf} \gls{rm} component peaks.
+Figure~\ref{fig:asymm_sources} shows that the asymmetry induced in the power spectrum has a clear relationship with the number of simulated sources. In Figure~\ref{fig:asymm_alphas}, it appears that this relationship follows a sigmoid shape, whereby the asymmetry increases up to a limiting value, and further sources will no longer have a significant effect on the asymmetry observed. We understand that in these simulations, whereby sources are simulated over $\sim 7000$~days with e-folding lifetimes of $\sim 100$~days, that the turnover in asymmetry at the top of the sigmoid shape is at around $\sim 70$~sources, whereby the interference between individual sources starts to really substantiate.
 
- 
+Following this analysis, we believe in the case of the \gls{smmf} observations, that the asymmetry is explained by the interference between small regions of flux which have an evolutionary phase difference and therefore contribute to the observed asymmetry.
+
+In addition, based on Figure~\ref{fig:artificial_asymm}, the sign of the asymmetry is dominated by the way the signal is manifested, and that the shape of the power spectrum and the sign of the asymmetry suggests a mix of `cosine' and `sign change' model sources in a ratio of $\sim 10:90$ -- $20:80$.
+
+
 \subsection{Testing the Effects of Differential Rotation and Active Region Migration}
 \label{sec:smearing}
 
@@ -911,7 +923,7 @@ X \, = \, \frac{\nu - [\nu_0 + (\Delta\nu/2)]}{\Gamma /2} \, .
 \label{eq:X}
 \end{equation}
 
-As the mode line-widths are broadened by this effect, we evaluate whether our ability to resolve the true line-width of the \gls{rm} component, and hence its lifetime, is affected. To evaluate this we computed the broadened profiles given by both equation~(\ref{eq:stacked_lorentzians}) and equation~(\ref{eq:atan_lorentzians}), and fit the model for a single Lorentzian peak, to determine whether the line-width is recovered.
+As the mode line-widths are broadened by this effect, we evaluated whether our ability to resolve the true line-width of the \gls{rm} component, and hence its lifetime, was affected. To evaluate this we computed the broadened profiles given by both equation~(\ref{eq:stacked_lorentzians}) and equation~(\ref{eq:atan_lorentzians}), and fit the model for a single Lorentzian peak, to determine whether the line-width is recovered.
 
 In the first instance, we computed the broadened peak using equation~(\ref{eq:stacked_lorentzians}). Over the duration of the observations, we computed the daily instantaneous profile, $P(\nu(t))$. The time-averaged profile, $ \langle P(\nu) \rangle$, is a weighted average of each instantaneous profile, where the weights are given by the squared, daily-averaged \gls{smmf}, in order to allow a larger broadening contribution at times when the \gls{smmf} amplitude is large.
 
