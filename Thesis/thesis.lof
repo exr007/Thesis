@@ -1,82 +1,79 @@
 \thispagestyle {plain}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Schematic diagram of the HiSPARC scintillation detector. (A): PMT; (B): light-guide adaptor; (C): light-guide; (D): scintillator.\relax }}{3}{figure.caption.6}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Typical formations of two-detector and four-detector stations. In each, the grey circle denotes a GPS antenna which is located in between the detectors to provide a precise timestamp for each signal.\relax }}{4}{figure.caption.7}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Two-detector station configuration}}}{4}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Four-detector station configuration (triangle arrangement)}}}{4}{subfigure.2.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Four-detector station configuration (diamond arrangement)}}}{4}{subfigure.2.3}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces (a): An example PMT signal after digital conversion by the HiSPARC electronics box. The horizontal lines denote: the noise cut-off (dotted line), which is used for setting a limit when integrating the pulse height, to give the pulse integral; the low-voltage threshold (dash-dot); the high-voltage threshold (dashed). (b) The pulse height distribution over the course of a single day from HiSPARC station 501. The vertical lines show the low-voltage threshold (dash-dot) and the high-voltage threshold (dashed).\relax }}{6}{figure.caption.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Trigger pulse}}}{6}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Pulseheight distribution}}}{6}{subfigure.3.2}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Azimuthal and zenith angle variations in the allowed and forbidden rigidity trajectories for HiSPARC station 501.\relax }}{10}{figure.caption.10}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Azimuth variation (fixed zenith = $20^\circ $)}}}{10}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zenith variation (fixed azimuth = $0^\circ $)}}}{10}{subfigure.4.2}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces The vertical asymptotic viewing directions of 5 HiSPARC stations. The rigidity range of the simulations were from $1.0$\nobreakspace {}GV $<$ R $<20.0$\nobreakspace {}GV, and the results are plotted in geographic coordinates on January 20th 2005. The diamonds correspond to the HS ground location and the circles correspond to the AVD for a specific rigidity value.\relax }}{11}{figure.caption.11}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces GLEs observed by the NM stations based at Oulu. Top panel: GLE 70; middle panel: GLE 71, bottom panel: GLE 72. The solid-black line shows the 2-minute-averaged, pressure corrected data and the vertical, dashed-red lines show the epochs of each GLE onset. The units of time on the x-axis are, MM-DD HH.\relax }}{13}{figure.caption.13}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces FDs observed by the NM stations based at Oulu. Top left panel: FDs during March 2012; top right panel: FD during July 2012, bottom left panel: FD during December 2014; bottom right panel: FD during September 2017. The solid-black line shows the 2-minute-averaged, pressure corrected data and the vertical, dashed-blue lines show the epochs of each FD onset. The units of time on the x-axis are, YYYY-MM-DD.\relax }}{13}{figure.caption.14}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces HiSPARC data for stations 501 and 3001 around the epoch of GLE 70. The plot shows the minute-averaged and 5-minute-averaged trigger events between detectors within the station. The vertical red, dashed line depicts the approximate onset time of the GLE. The units of time on the x-axis are, MM-DD HH.\relax }}{14}{figure.caption.15}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{14}{subfigure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 3001 (Universiteit Leiden)}}}{14}{subfigure.8.2}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces HiSPARC data for stations 8001 and 3001 around the epoch of GLE 71. The plot shows the minute-averaged and 5-minute-averaged trigger events between detectors within the station. The vertical red, dashed line depicts the approximate onset time of the GLE. The units of time on the x-axis are, MM-DD HH.\relax }}{14}{figure.caption.16}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 8001 (Eindhoven)}}}{14}{subfigure.9.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 3001 (Universiteit Leiden)}}}{14}{subfigure.9.2}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces HiSPARC data for 4 stations around the epoch of GLE 72. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical red, dashed line depicts the approximate onset time of the GLE. The units of time on the x-axis are, MM-DD HH.\relax }}{15}{figure.caption.17}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{15}{subfigure.10.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{15}{subfigure.10.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {HS 8001 (Eindhoven)}}}{15}{subfigure.10.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {HS 14001 (Birmingham University)}}}{15}{subfigure.10.4}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces HiSPARC data for stations 501 and 8001 around the epoch of the FDs in March 2012. The plot shows the minute-averaged and hourly-averaged trigger events between detectors within the station. The vertical blue-dashed lines show the approximate onset-time of the FDs. The units of time on the x-axis are, YYYY-MM-DD.\relax }}{16}{figure.caption.18}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{16}{subfigure.11.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 8001 (Eindhoven)}}}{16}{subfigure.11.2}
-\contentsline {figure}{\numberline {1.12}{\ignorespaces HiSPARC data for stations 501 and 8001 around the epoch of the FD in July 2012. The plot shows the minute-averaged and hourly-averaged trigger events between detectors within the station. The vertical blue-dashed line shows the approximate onset-time of the FD. The units of time on the x-axis are, YYYY-MM-DD.\relax }}{16}{figure.caption.19}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{16}{subfigure.12.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 8001 (Eindhoven)}}}{16}{subfigure.12.2}
-\contentsline {figure}{\numberline {1.13}{\ignorespaces HiSPARC data for four stations around the epoch of the FD in December 2014. The plot shows the minute-averaged and hourly-averaged trigger events between detectors within the station. The vertical blue-dashed line shows the approximate onset-time of the FD. The units of time on the x-axis are, YYYY-MM-DD.\relax }}{17}{figure.caption.20}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{17}{subfigure.13.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{17}{subfigure.13.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {HS 3001 (Leiden)}}}{17}{subfigure.13.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {HS 14001 (Birmingham University)}}}{17}{subfigure.13.4}
-\contentsline {figure}{\numberline {1.14}{\ignorespaces HiSPARC data for four stations around the epoch in which there were several FDs close to the onset of GLE 72. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical blue-dashed lines show the approximate onset-times of the two FDs observed around this epoch and the red-dashed line depicts the approximate onset time of the GLE. The units of time on the x-axis are, YYYY-MM-DD.\relax }}{18}{figure.caption.21}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{18}{subfigure.14.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{18}{subfigure.14.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {HS 8001 (Eindhoven)}}}{18}{subfigure.14.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {HS 14001 (Birmingham University)}}}{18}{subfigure.14.4}
-\contentsline {figure}{\numberline {1.15}{\ignorespaces Mean muon density footprints for (a) proton-initiated air showers and (b) $\alpha $-particle-initiated air showers with initial PCR trajectories with zenith angles $\theta =0^{\circ }$ and various PCR energies. The error bars given represent 1$\sigma $.\relax }}{20}{figure.caption.22}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Proton initiated air shower. }}}{20}{subfigure.15.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\alpha $-particle initiated air shower. }}}{20}{subfigure.15.2}
-\contentsline {figure}{\numberline {1.16}{\ignorespaces Mean number of muons produced at ground level by the PCR for (a) proton-initiated air showers and (b) $\alpha $-particle-initiated air showers, for various PCR energy.\relax }}{21}{figure.caption.23}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Proton initiated air shower. }}}{21}{subfigure.16.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\alpha $-particle initiated air shower. }}}{21}{subfigure.16.2}
-\contentsline {figure}{\numberline {1.17}{\ignorespaces ...\relax }}{22}{figure.caption.24}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {...}}}{22}{subfigure.17.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {...}}}{22}{subfigure.17.2}
-\contentsline {figure}{\numberline {1.18}{\ignorespaces ...\relax }}{23}{figure.caption.25}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {...}}}{23}{subfigure.18.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {...}}}{23}{subfigure.18.2}
-\contentsline {figure}{\numberline {1.19}{\ignorespaces The anti-correlation between CR count rates and the atmospheric pressure. (a) shows the CR and the local atmospheric pressure measured at a NM in the South Pole; (b) shows the CR and pressure measured by HiSPARC station 501.\relax }}{25}{figure.caption.27}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {NM Station}}}{25}{subfigure.19.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 501 (Nikhef)}}}{25}{subfigure.19.2}
-\contentsline {figure}{\numberline {1.20}{\ignorespaces The barometric coefficient calculation: (a) during November 2017 for the South Pole (SOPO) NM station, (b) during November 2019 for HiSPARC station 501 at Nikhef.\relax }}{27}{figure.caption.28}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {SOPO NM Station}}}{27}{subfigure.20.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 501 (Nikhef)}}}{27}{subfigure.20.2}
-\contentsline {figure}{\numberline {1.21}{\ignorespaces A comparison between the monthly barometric coefficient computed in this work and using the online barometric coefficient tool throughout the year 2017 for the SOPO NM station.\relax }}{27}{figure.caption.29}
-\contentsline {figure}{\numberline {1.22}{\ignorespaces Pressure corrected HiSPARC data for 2 stations around the epoch of GLE 71. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical red, dashed line depicts the approximate onset time of the GLE.\relax }}{30}{figure.caption.30}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 3001 (Leiden)}}}{30}{subfigure.22.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 8001 (Eindhoven)}}}{30}{subfigure.22.2}
-\contentsline {figure}{\numberline {1.23}{\ignorespaces Pressure corrected HiSPARC data for 2 stations around the epoch of GLE 72. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical red, dashed line depicts the approximate onset time of the GLE.\relax }}{30}{figure.caption.31}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{30}{subfigure.23.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{30}{subfigure.23.2}
-\contentsline {figure}{\numberline {1.24}{\ignorespaces HS 8001 (Eindhoven)\relax }}{31}{figure.caption.32}
-\contentsline {figure}{\numberline {1.25}{\ignorespaces HS 501 (Nikhef)\relax }}{31}{figure.caption.33}
-\contentsline {figure}{\numberline {1.26}{\ignorespaces Pressure corrected HiSPARC data for 2 stations in an epoch where there were two FDs close to the onset of GLE 72. The top panel of each subplot shows the minute-averaged events data, while the bottom panels show the mean-shifted, minute-averaged counts by each individual detector in the stations. The vertical blue-dashed lines show the approximate onset-times of the FDs and the red-dashed line depicts the approximate onset-time of the GLE.\relax }}{32}{figure.caption.34}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{32}{subfigure.26.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{32}{subfigure.26.2}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Typical formations of two-detector and four-detector stations. In each, the grey circle denotes a GPS antenna which is located in between the detectors to provide a precise timestamp for each signal.\relax }}{5}{figure.caption.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Two-detector station configuration}}}{5}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Four-detector station configuration (triangle arrangement)}}}{5}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Four-detector station configuration (diamond arrangement)}}}{5}{subfigure.2.3}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces (a): An example PMT signal after digital conversion by the HiSPARC electronics box. The horizontal lines denote: the noise cut-off (dotted line), which is used for setting a limit when integrating the pulse height, to give the pulse integral; the low-voltage threshold (dash-dot); the high-voltage threshold (dashed). (b) The pulse height distribution over the course of a single day from HiSPARC station 501. The vertical lines show the low-voltage threshold (dash-dot) and the high-voltage threshold (dashed).\relax }}{7}{figure.caption.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Trigger pulse}}}{7}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Pulseheight distribution}}}{7}{subfigure.3.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic diagram of the HiSPARC station 14008 detector set-up.\relax }}{35}{figure.caption.35}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces HiSPARC 14008 assembly and configuration. (a) shows the stacked arrangement of the scintillators on the lab work bench, between layers of pretective foam. (b) shows the complete detector inside the roof box on the University of Birmingham campus.\relax }}{35}{figure.caption.36}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Scintillators on the work bench}}}{35}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Complete detector on the roof}}}{35}{subfigure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Voltage calibration curve for the PMTs of station 14008. The upper, red-dashed line indicates the upper limit for the low threshold singles rate (400 Hz), and the lower 2, black-dashed lines indicate the upper and lower bounds for the high threshold singles rate (100--130 Hz).\relax }}{37}{figure.caption.37}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Schematic diagram of the DS18B20 temperature sensor circuit, whereby the voltage, ground, and GPIO interfaces connect directly into pins of the Raspberry Pi board.\relax }}{38}{figure.caption.38}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Time series of random coincidences data...\relax }}{39}{figure.caption.39}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Distribution of random coincidences data... and Poisson distribution of the random coincidences, along with the median posterior fitted mean of the sample...\relax }}{40}{figure.caption.40}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces GLEs observed by the NM stations based at Oulu. Top panel: GLE 70; middle panel: GLE 71, bottom panel: GLE 72. The solid-black line shows the 2-minute-averaged, pressure corrected data and the vertical, dashed-red lines show the epochs of each GLE onset. The units of time on the x-axis are, MM-DD HH.\relax }}{11}{figure.caption.10}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces FDs observed by the NM stations based at Oulu. Top left panel: FDs during March 2012; top right panel: FD during July 2012; bottom left panel: FD during December 2014; bottom right panel: FD during September 2017. The solid-black line shows the 2-minute-averaged, pressure corrected data and the vertical, dashed-blue lines show the epochs of each FD onset. The units of time on the x-axis are, YYYY-MM-DD.\relax }}{12}{figure.caption.11}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The geographic location of each HiSPARC station considered in this work. Each green circle denotes the location of a detector station.\relax }}{15}{figure.caption.12}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The availability of data for each HiSPARC station considered, for each of the space weather epochs listed in Table\nobreakspace {}\ref {tab:space_weather_events}. The purple grids denote no available data, teal denotes that only the events data are available, and yellow denotes that both the events and singles data are available.\relax }}{16}{figure.caption.13}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Azimuthal and zenith angle variations in the allowed and forbidden rigidity trajectories for HiSPARC station 501. The forbidden trajectories are in black.\relax }}{18}{figure.caption.15}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Azimuth variation (fixed zenith = $20^\circ $)}}}{18}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zenith variation (fixed azimuth = $0^\circ $)}}}{18}{subfigure.5.2}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces The vertical asymptotic viewing directions of 5 HiSPARC stations. The rigidity range of the simulations were from $1.0$\nobreakspace {}GV $<$ R $<20.0$\nobreakspace {}GV, and the results are plotted in geographic coordinates on January 20th 2005. The diamonds correspond to the HS ground location and the circles correspond to the AVD for a specific rigidity value.\relax }}{19}{figure.caption.16}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces HiSPARC data for stations 501 and 3001 around the epoch of GLE 70 on 13/12/2006. The plot shows the minute-averaged and 5-minute-averaged trigger events between detectors within the station. The vertical red, dashed line depicts the approximate onset time of the GLE. The units of time on the x-axis are, MM-DD HH.\relax }}{21}{figure.caption.17}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{21}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 3001 (Universiteit Leiden)}}}{21}{subfigure.7.2}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces HiSPARC data for stations 8001 and 3001 around the epoch of GLE 71 on 17/05/2012. The plot shows the minute-averaged and 5-minute-averaged trigger events between detectors within the station. The vertical red, dashed line depicts the approximate onset time of the GLE. The units of time on the x-axis are, MM-DD HH.\relax }}{21}{figure.caption.18}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 8001 (Eindhoven)}}}{21}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 3001 (Universiteit Leiden)}}}{21}{subfigure.8.2}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces HiSPARC data for 4 stations around the epoch of GLE 72 on 10/09/2017. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical red, dashed line depicts the approximate onset time of the GLE. The units of time on the x-axis are, MM-DD HH.\relax }}{22}{figure.caption.19}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{22}{subfigure.9.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{22}{subfigure.9.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {HS 8001 (Eindhoven)}}}{22}{subfigure.9.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {HS 14001 (Birmingham University)}}}{22}{subfigure.9.4}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces HiSPARC data for stations 501 and 8001 around the epoch of the FDs in March 2012. The plot shows the minute-averaged and hourly-averaged trigger events between detectors within the station. The vertical blue-dashed lines show the approximate onset-time of the FDs. The units of time on the x-axis are, YYYY-MM-DD.\relax }}{23}{figure.caption.20}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{23}{subfigure.10.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 8001 (Eindhoven)}}}{23}{subfigure.10.2}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces HiSPARC data for stations 501 and 8001 around the epoch of the FD in July 2012. The plot shows the minute-averaged and hourly-averaged trigger events between detectors within the station. The vertical blue-dashed line shows the approximate onset-time of the FD. The units of time on the x-axis are, YYYY-MM-DD.\relax }}{23}{figure.caption.21}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{23}{subfigure.11.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 8001 (Eindhoven)}}}{23}{subfigure.11.2}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces HiSPARC data for four stations around the epoch of the FD in December 2014. The plot shows the minute-averaged and hourly-averaged trigger events between detectors within the station. The vertical blue-dashed line shows the approximate onset-time of the FD. The units of time on the x-axis are, YYYY-MM-DD.\relax }}{24}{figure.caption.22}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{24}{subfigure.12.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{24}{subfigure.12.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {HS 3001 (Leiden)}}}{24}{subfigure.12.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {HS 14001 (Birmingham University)}}}{24}{subfigure.12.4}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces HiSPARC data for four stations around the epoch in which there were two FDs close to the onset of GLE 72. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical blue-dashed lines show the approximate onset-times of the two FDs observed around this epoch and the red-dashed line depicts the approximate onset time of the GLE. The units of time on the x-axis are, YYYY-MM-DD.\relax }}{25}{figure.caption.23}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{25}{subfigure.13.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{25}{subfigure.13.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {HS 8001 (Eindhoven)}}}{25}{subfigure.13.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {HS 14001 (Birmingham University)}}}{25}{subfigure.13.4}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces The anti-correlation between CR count rates and the atmospheric pressure. (a) shows the CR and the local atmospheric pressure measured at a NM in the South Pole; (b) shows the CR and pressure measured by HiSPARC station 501.\relax }}{27}{figure.caption.24}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {NM Station}}}{27}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 501 (Nikhef)}}}{27}{subfigure.14.2}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces The barometric coefficient calculation: (a) during November 2017 for the South Pole (SOPO) NM station, (b) during November 2019 for HiSPARC station 501 at Nikhef.\relax }}{28}{figure.caption.25}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {SOPO NM Station}}}{28}{subfigure.15.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 501 (Nikhef)}}}{28}{subfigure.15.2}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces A comparison between the monthly barometric coefficient computed in this work and using the online barometric coefficient tool throughout the year 2017 for the SOPO NM station.\relax }}{29}{figure.caption.26}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces ...\relax }}{31}{figure.caption.27}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {...}}}{31}{subfigure.17.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 501 (Nikhef)}}}{31}{subfigure.17.2}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Atmospheric-corrected HiSPARC data for 2 stations around the epoch of GLE 71. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical red, dashed line depicts the approximate onset time of the GLE.\relax }}{32}{figure.caption.28}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 3001 (Leiden)}}}{32}{subfigure.18.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 8001 (Eindhoven)}}}{32}{subfigure.18.2}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Full atmospheric-corrected HiSPARC data for 2 stations around the epoch of GLE 72. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical red, dashed line depicts the approximate onset time of the GLE.\relax }}{32}{figure.caption.29}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{32}{subfigure.19.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{32}{subfigure.19.2}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Full atmospheric correction of HS 8001 (Eindhoven) data during...\relax }}{33}{figure.caption.30}
+\contentsline {figure}{\numberline {2.21}{\ignorespaces HS 501 (Nikhef)\relax }}{33}{figure.caption.31}
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Pressure corrected HiSPARC data for 2 stations in an epoch where there were two FDs close to the onset of GLE 72. The top panel of each subplot shows the minute-averaged events data, while the bottom panels show the mean-shifted, minute-averaged counts by each individual detector in the stations. The vertical blue-dashed lines show the approximate onset-times of the FDs and the red-dashed line depicts the approximate onset-time of the GLE.\relax }}{34}{figure.caption.32}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HS 501 (Nikhef)}}}{34}{subfigure.22.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HS 203 (College Hageveld)}}}{34}{subfigure.22.2}
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Mean muon density footprints for (a) proton-initiated air showers and (b) $\alpha $-particle-initiated air showers with initial PCR trajectories with zenith angles $\theta =0^{\circ }$ and various PCR energies. The error bars given represent 1$\sigma $.\relax }}{36}{figure.caption.33}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Proton initiated air shower. }}}{36}{subfigure.23.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\alpha $-particle initiated air shower. }}}{36}{subfigure.23.2}
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Mean number of muons produced at ground level by the PCR for (a) proton-initiated air showers and (b) $\alpha $-particle-initiated air showers, for various PCR energy.\relax }}{38}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Proton initiated air shower. }}}{38}{subfigure.24.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\alpha $-particle initiated air shower. }}}{38}{subfigure.24.2}
+\contentsline {figure}{\numberline {2.25}{\ignorespaces ...\relax }}{39}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {...}}}{39}{subfigure.25.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {...}}}{39}{subfigure.25.2}
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Plots of the calculated MAIRE muon spectra for different incident spectra. Blue and orange lines show muon spectra calculated for the incident GCR spectra during solar minimum and maximum, respectively. The other coloured lines show the computed muon spectra for the incident GLE spectra. (a) shows the individual muon spectra for GCRs and GLEs; (b) shows the combined muon spectra for the GCR at solar maximum and the GLEs.\relax }}{41}{figure.caption.37}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Separate GCR and GLE Muon Spectra}}}{41}{subfigure.26.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sum of GCR and GLE Muon Spectra}}}{41}{subfigure.26.2}

@@ -104,7 +104,7 @@ In Chapter~\ref{chap:HiSPARC}, we suspected that the singles count rates (and th
 
 Some of the existing HiSPARC stations monitor local temperature however none measure the temperature of the \gls{pmt} within the roof box; therefore the temperature of the PMT itself is unknown, and thus we cannot account for the thermal noise. When building this new HiSPARC station, a temperature sensor was placed into the roof box which allowed us to monitor the temperature.
 
-Figure~\ref{fig:temperature_sensor_circuit} shows the schematic for the temperature sensor. We used the DS18B20 temperature sensor with the one-wire telemetry protocol, which used a single wire to transmit the temperature readings to the microcontroller; the microcontroller used was a Raspberry Pi 4. Three wires were used for the operation of the DS18B20: constant current voltage, ground, and data.
+Figure~\ref{fig:temperature_sensor_circuit} shows the schematic for the temperature sensor. We used the DS18B20 temperature sensor with the one-wire telemetry protocol, which used a single wire to transmit the temperature readings to the microcontroller; the microcontroller used was a Raspberry Pi 4 (see Section~\ref{sec:HS14008_data_acqusition}. The temperature is read on a 10-second cadence and is recorded in degrees Celsius. Three wires were used for the operation of the DS18B20: constant current voltage, ground, and data.
 
 \begin{figure}
 	\centering
@@ -113,9 +113,60 @@ Figure~\ref{fig:temperature_sensor_circuit} shows the schematic for the temperat
 	\label{fig:temperature_sensor_circuit}
 \end{figure}
 
-We use the Raspberry Pi to control the data acquisition by running a Python program to output the temperature readings from the sensor to a local file. The temperature is read on a 10-second cadence and is recorded in degrees Celsius.
 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Data Acquisition}
+\label{sec:HS14008_data_acqusition}
+
+The reduced coincidences data is acquired using the typical HiSPARC data acquisition software, but the full coincidences, reduced coincidences, and the temperature data are all acquired by a Raspberry Pi 4.
+
+[show config.]
+
+We use the Raspberry Pi to control the data acquisition by running a Python program to output the coindidences data from the NIM crate and the temperature readings from the sensor to local files.
+
+Each new day generates a separate file for the coincidences data ... 
+
+\begin{table}[ht!]
+	\begin{center}
+		\caption{Variables stored in the coincidences files of the HiSPARC 14008 instrument.}
+		\label{tab:HS_14008_coincidences_data}
+		\begin{tabular}{c l c c}
+			\hline 
+			{\bf Column} & {\bf Item} & {\bf Unit} & {\bf Type} \\ 
+			\hline 
+			\multirow{2}*{0} & \multirow{2}*{Time Stamp} & YYYY\_MM\_DD & \multirow{2}*{String}  \\ 
+			  &  & HH:MM:SS.ffffff & \\ 
+			1 & Time*  & Decisecond & Integer, eight digits, zero padded \\ 
+			2 & Cumulative Reduced Count* & Counts & Integer, eight digits, zero padded \\ 
+			3 & Cumulative Full Count* & Counts & Integer, eight digits, zero padded \\ 
+			\hline 
+		\end{tabular} 
+	\end{center}
+	* Since restart
+\end{table}
+
+Within the temperature file, there is not header and the data begins from line 1. The columns in the data file are outlined in Table~\ref{tab:HS_14008_temperature_data}.
+
+\begin{table}[ht!]
+	\begin{center}
+		\caption{Variables stored in the temperature files of the HiSPARC 14008 instrument.}
+		\label{tab:HS_14008_temperature_data}
+		\begin{tabular}{c l c c}
+			\hline 
+			{\bf Column} & {\bf Item} & {\bf Unit} & {\bf Type} \\ 
+			\hline 
+			\multirow{2}*{0} & \multirow{2}*{Time Stamp} & YYYY\_MM\_DD & \multirow{2}*{String}  \\ 
+			  &  & HH:MM:SS.ffffff & \\ 
+			1 & Temperature & $^\circ$C & Floating point \\ 
+			\hline 
+		\end{tabular} 
+	\end{center}
+\end{table}
+
+
+The daa is stored locally, but is also stored on the University of Birmingham particle physics servers\footnote{Disk location: /disk/moose/general/epesv001/datadisk/147.188.46.117\_hisparc\_pi/}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Monitoring Pressure}
@@ -125,6 +176,14 @@ As with the previous chapter, it was still necessary to account for the barometr
 The station used is the nearest \gls{midas} station, and provides a robust measure of the local atmospheric pressure as measured at the station level - a correction for altitude is not applied. The station is located in Coleshill, Warickshire (ID: 19187), nearby Birmingham International Airport, $\sim 20$~km from the HiSPARC detectors, but we believe the pressure variation is small over this distance.
 
 The pressure is read on a 1-hour cadence and is recorded in units of hPa with a precision of 0.1~hPa. The time variation of pressure is slow; hence, we linearly interpolated the data to provide a 1-minute sample.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Atmospheric Corrections}\label{sec:HS_14008_atmospheric_correction}
+
+
 
 
 
@@ -177,6 +236,11 @@ It was possible to characterise the noise here as we know it must follow a Poiss
 \end{figure}
 
 The median value of the posterior distribution, giving rise to the mean value of the Poisson distribution of random coincidence is $0.26$~counts/min.
+
+
+
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
