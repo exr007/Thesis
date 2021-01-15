@@ -3,50 +3,49 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 The style file: mnras.bst
 Database file #1: library.bib
-Warning--I didn't find a database entry for "2017North"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty booktitle in desorgher_planetocosmics_2006
 Warning--empty institution in heck_extensive_2017
-You've used 29 entries,
+You've used 56 entries,
             2881 wiz_defined-function locations,
-            935 strings with 13477 characters,
-and the built_in function-call counts, 14157 in all, are:
-= -- 1015
-> -- 1193
-< -- 78
-+ -- 521
-- -- 202
-* -- 1683
-:= -- 2363
+            1142 strings with 21691 characters,
+and the built_in function-call counts, 27220 in all, are:
+= -- 2080
+> -- 2176
+< -- 141
++ -- 952
+- -- 354
+* -- 3263
+:= -- 4446
 add.period$ -- 0
-call.type$ -- 29
-change.case$ -- 59
-chr.to.int$ -- 29
-cite$ -- 31
-duplicate$ -- 680
-empty$ -- 675
-format.name$ -- 274
-if$ -- 2382
-int.to.chr$ -- 1
+call.type$ -- 56
+change.case$ -- 114
+chr.to.int$ -- 55
+cite$ -- 58
+duplicate$ -- 1307
+empty$ -- 1315
+format.name$ -- 506
+if$ -- 4656
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 22
-newline$ -- 103
-num.names$ -- 216
-pop$ -- 171
+missing$ -- 49
+newline$ -- 184
+num.names$ -- 402
+pop$ -- 294
 preamble$ -- 1
-purify$ -- 116
+purify$ -- 224
 quote$ -- 0
-skip$ -- 398
+skip$ -- 788
 stack$ -- 0
-substring$ -- 657
-swap$ -- 360
-text.length$ -- 120
+substring$ -- 1403
+swap$ -- 663
+text.length$ -- 229
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 261
+type$ -- 504
 warning$ -- 2
-while$ -- 209
+while$ -- 413
 width$ -- 0
-write$ -- 306
-(There were 3 warnings)
+write$ -- 583
+(There were 2 warnings)

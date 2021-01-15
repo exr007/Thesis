@@ -13,33 +13,35 @@
 %
 %\textit{"The first term describes ionization losses in ISM and is dominant for energies up to a few tens of MeV. The second term is due to bremsstrahlung, adiabatic losses and pair production in electron-gamma interaction, while the last term represents losses by synchrotron emission and Inverse Compton scattering (IC) under the Thomson approximation, that holds very well for electrons up to a few TeV of energy."}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\subsection{Space Weather Effects}
-%
-%Put something in here about the type of effects that have been observed, and how/why to refer back to with our observations...
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-[Space weather events have been regularly monitored by \glspl{cr} detector since... CITE!...]
 
-[comment on the SEPs causing space weather events and refer to papers which state earlier arrival times of higher energy SEPs, i.e. those which will be monitored by muon detectors, cite to: https://iopscience.iop.org/article/10.1088/0004-637X/761/2/101 / and from here: https://academic.oup.com/pasj/article/68/1/8/2469980, we get the quote: "The different behaviours observed between the muon detector and the NMs can be linked with the different particle species observed by these two detectors. The muon component of the cosmic rays is known as the hard component due to the their large penetration. Thus, the signal at muon detectors can be linked with the the maximum flare energy release during the impulsive phase of the flare (duration no longer than 20 min)."]
+The observation of \glspl{cr} provides a tool to monitor the effects of space weather at Earth. Space weather events have been regularly monitored by ground-based \gls{cr} detectors since the early 20th Century \citep{forbush_effects_1937, kudela_cosmic_2000, schwenn_space_2006} and the detectors have been instrumental in characterising the environments surrounding space weather events.
 
-[From \citet{lingri_forbush_2016}: "The majority of \glspl{fd} are produced by CMEs with velocities from 400 to 1200 km/sec and at the same time the velocity of the solar wind fluctuates from 400 to 740 km/sec"]
+Short-term increases in the \gls{gcr} flux were first observed in the 1940s and early 1950s, but it wasn't until after the largest recorded event in September 1956 that these increases were defined as \glspl{gle} \citep{cramp_modelling_1996}. \glspl{gle} are the detection of an increased number of the highest-energy portion ($> 500$~MeV, \citet{kuwabara_development_2006}) of \glspl{sep} arriving at Earth following a solar eruptive event \citep{mccracken_high-energy_2012, poluianov_revisited_2017}. The \glspl{sep}, which cause \glspl{gle}, can cause serious damage to satellite electronics and are a hazard to air crew and astronauts; hence, the monitoring of these events are of importance for space weather forecasting.
 
-[The \gls{hisparc} was initiated in 2005 (CITE!!!)...]
+The total number of \glspl{gle} observed to-date is low, there have been only 72. The \gls{gle} database\footnote{\url{https://gle.oulu.fi}} is a record of events starting from \gls{gle} 5 (February 1956), since the beginning of the \gls{gnmn} \citep{usoskin_database_2016}. Many studies have discussed the observations of \glspl{gle}, investigating their features as well as the spectra and anisotropy of \glspl{pcr} that produce the \glspl{gle}; for an overview see: \citet{,shea_possible_1982, cramp_modelling_1996, belov_ground_2010, mccracken_high-energy_2012, strauss_pulse_2017,  mishev_first_2018}. 
 
-\gls{hisparc} was set up with the detection philosophy of observing \gls{eas}, which are typically associated with \glspl{pcr} with energy of $\sim10^{14}$~eV and above, that produce large footprints observable with many \gls{hisparc} stations simultaneously. For \glspl{pcr} with energy below $\sim10^{14}$~eV the air shower is small, with almost no observable muon footprint, and for \glspl{pcr} with energy below $\sim10^{11}$~eV, there is typically fewer than one or two muons that reach the ground, making their observation difficult. Most muons produced by such low-energy \glspl{pcr} decay higher in the atmosphere and their energy is mostly transferred into the resultant electron \citep{van_dam_hisparc_2020}, which is observable by \gls{hisparc}.
+In addition, a \gls{gle} real-time alarm system was developed by \citet{kuwabara_real-time_2006, kuwabara_development_2006}, using data from \glspl{nm} and \glspl{md}, which has been shown to provide the earliest alert for the onset of \gls{sep}-driven space weather events. They showed their alerts provide a warning up to an hour earlier than the storm onset. Furthermore, they also show that through utilising the \gls{gnmn}, monitoring precursory anisotropy, they can also issue warnings several hours ahead of near-Earth, in-situ satellite observations. They state that using both \glspl{nm} and \glspl{md} provides a dual energy range for observations, providing a more effective system.
 
-The \gls{hisparc} detectors are capable of observing any muons that reach them, therefore the project was motivated by the existing network of \gls{md} which may have the capability of observing the \glspl{cr} associated with space weather events.
+Short-term decreases in the \gls{gcr} flux were first observed by  \citet{forbush_effects_1937} and therefore were later coined as \glspl{fd} or \glspl{fe}. There are two types of \gls{fd}: one caused by \gls{cir} \citep{dumbovic_forbush_2016}, and one caused by \glspl{icme} and the shocks they drive \citep{belov_forbush_2008}. The biggest \glspl{fd} (magnitudes $> 5\%$) are strictly associated with \glspl{icme} \citep{belov_what_2001}. Of the kind caused by \glspl{icme}, the majority of are produced by \glspl{icme} with speeds in the range $400 - 1200$~km~s$^{-1}$ \citep{lingri_forbush_2016}; the typical speed of the solar wind is, for slow solar wind, in the range: $300 - 400$~km~s$^{-1}$, and for fast solar wind, $\sim 750$~km~s$^{-1}$ \citep{owens_heliospheric_2013}. \citet{belov_what_2001, belov_coronal_2014} also showed that the magnitude of the \gls{fd} is proportional to the speed, mass, and width of the \gls{cme}. We also see from the \gls{nmdb} data, generally, the magnitude of the \gls{fd} is also inversely proportional to the \gls{pcr} energy.
 
-[Pull together a discussion here on the existing published literature using hisparc data...]
+The \gls{feid}\footnote{\url{http://spaceweather.izmiran.ru/eng/dbs.html}} is a record of all the \glspl{fd} observed since the beginning of the \gls{gnmn} \citep{belov_forbush_2008}. The total number of events is $\sim 7630$ during the epoch 1957 -- 2020. Many studies have discussed the observations of \glspl{fd} and investigate their features, driving factors, and precursors; for an overview see: \citet{belov_what_2001, usoskin_forbush_2008, wawrzynczak_modeling_2010, rockenbach_global_2014, arunbabu_how_2015}.
 
-[In this work, we provide a study to investigate whether the existing \gls{hisparc} network is capable of observing space weather events. break down the sections...??]
 
-%%%%%%%%%%%%%%%%%%5
+As discussed by \citet{kuwabara_real-time_2006}, using both \glspl{nm} and \glspl{md} provides a dual energy range for space weather observations, because \glspl{nm} generally observe \glspl{pcr} with energies around $\sim 1 - 10$~GeV, and \glspl{md} typically observe higher energy \glspl{pcr}, with energies on the order of $\sim 10$~GeV \citep{kuwabara_real-time_2006, rockenbach_global_2014}. After a solar eruptive event, it is expected that the first particles to arrive at Earth are those with higher energies and that traverse the shortest distance, i.e. travelling along the \gls{imf} \citep{kuwabara_real-time_2006}. Different behaviours observed between \glspl{md} and \glspl{nm} are linked with the different particle species observed by these two detectors and the signal at muon detectors can therefore be linked with the maximum flare energy release and an earlier arrival of the \glspl{sep} at Earth \citep{kuwabara_real-time_2006}. 
 
-Few space weather events have been observed over the lifetime of the \gls{hisparc} network; however, Table~\ref{tab:space_weather_events} outlines the specific space weather driven \glspl{gle} and \glspl{fd} that occurred since the beginning of \gls{hisparc} that will be investigated in this work.
+Linked to this is the observed variation in \gls{cr} counts during space weather events. Comparing data from several stations withi different rigidities across the \gls{gnmn} shows a larger variation is observed for lower rigidity \glspl{pcr}. \citet{belov_solar_2005} claimed a relationship between the variation and the rigitidy was approx.: $\propto R^{-0.8}$, showing a clear inverse relationship between rigidity and degree of count variation.
+
+Despite most observations of space weather events in the literature utilising data acquired by \glspl{nm}, there are some reports of observations with \glspl{md} also. However, in general, the \gls{md} observations of space weather events are significantly less pronounced than the observations using \glspl{nm} for both \glspl{gle} \citep{timashkov_ground_2008, augusto_signals_2016} and \glspl{fd} \citep{braun_forbush_2009, rockenbach_global_2014}. This suggests that \glspl{md} may not be the most suitable instrument for monitoring space weather events, and highlights why \glspl{nm} are routinely used.
+
+The \gls{hisparc} was set up with the detection philosophy of observing \glspl{eas} of muons, which are typically associated with \glspl{pcr} with energy of $\sim10^{14}$~eV and above, that produce large footprints observable with many \gls{hisparc} stations simultaneously \citep{fokkema_hisparc_2012, bartels_hisparc_2012}. For \glspl{pcr} with energies below $\sim10^{14}$~eV the induced air shower is small, with almost no observable muon footprint, and for \glspl{pcr} with energy below $\sim10^{11}$~eV, there is typically fewer than one or two muons that reach the ground, making their observation difficult \citep{van_dam_hisparc_2020}. Most muons produced by such low-energy \glspl{pcr} decay higher in the atmosphere and their energy is mostly transferred into the resultant electron \citep{van_dam_hisparc_2020}, but depending on the electron energies, they are also observable by \gls{hisparc}.
+
+The \gls{hisparc} detectors have, individually, a high muon-detection
+efficiency close to $100\%$ \citep{van_dam_hisparc_2020}, therefore they are capable of observing any muons that traverse them. This project was hence motivated by the existing network of \gls{md} which may have the capability of observing the \glspl{cr} associated with space weather events.
+
+In the literature there exists no previous work which investigates the use of the \gls{hisparc} network to monitor space weather events. Previous studies using \gls{hisparc} data have only considered \glspl{pcr} with energies $> 10^{12}$~eV, therefore several orders of magnitude larger than the energies usually associate with space weather events. This is due to the heritage of the \gls{hisparc} network in observing \glspl{uhecr}. In this work, we provide a first study to investigate whether the existing \gls{hisparc} network is capable of observing space weather events. 
+
+Few space weather events have been observed over the lifetime of the \gls{hisparc} network; however, Table~\ref{tab:space_weather_events} outlines the specific \glspl{gle} and \glspl{fd} that occurred since the beginning of \gls{hisparc} that were investigated in this work.
 
 %%\begin{table}
 %%	\begin{center}
@@ -62,7 +64,7 @@ Few space weather events have been observed over the lifetime of the \gls{hispar
 %%	\end{center}
 %%\end{table}
 
-\begin{table}
+\begin{table}[ht!]
 	\begin{center}
 		\caption{Largest space weather events since the beginning of HiSPARC, which will be searched for within the HiSPARC data. The percentage change column provides a reference of how much the CR counts observed by the NM station at Oulu (R$_c$=0.81~GV) and Kiel (R$_c$=2.36~GV) increased of decreased by, due to the space weather event. More precise times for the event onset can be found at \citet{nmdb_nmdb_nodate} (for GLEs) and \citet{lingri_forbush_2016} (for FDs).}
 		\label{tab:space_weather_events}
@@ -88,9 +90,9 @@ Few space weather events have been observed over the lifetime of the \gls{hispar
 	\end{center}
 \end{table}
 
-The specific events in Table~\ref{tab:space_weather_events} were selected as: (i) for the \glspl{gle}, they are the only three that fall in the \gls{hisparc} operational period; (ii) for the \glspl{fd}, they are the only individual, or set of, \glspl{fd} that result in a count variation in excess of $\sim 5\%$ and the largest \glspl{fd} are likely to be the most promising candidates for observation with \gls{hisparc}.
+The specific events in Table~\ref{tab:space_weather_events} were selected as: (i) for the \glspl{gle}, they are the only three that occurred in the \gls{hisparc} operational period; (ii) for the \glspl{fd}, they are among the most recent \glspl{fd} that result in a \gls{nm} count-rate variation in excess of $\sim 5\%$ and the largest \glspl{fd} are likely to be the most promising candidates for observation with \gls{hisparc}.
 
-For comparison with the \gls{hisparc} results, we show the \glspl{gle}, as observed by the Oulu \gls{nm} station, in Figure~\ref{fig:oulu_gles}. It is clear from Figure~\ref{fig:oulu_gles} that the relative increase of the \gls{gle} was large for \glspl{gle} 70 and 71, but much more subtle for \gls{gle} 72. We expect that if we are to observe any of the GLEs, we shall have the best chance of observing \gls{gle} 70. Similarly, we show a comparison plot for the \glspl{fd}, as observed by the Oulu \gls{nm} station, in Figure~\ref{fig:oulu_fds}. Each \gls{fd} produces a moderate decrease in the \gls{nm} count rate.
+For reference, and later comparison with the \gls{hisparc} results, we show the \glspl{gle}, as observed by the Oulu \gls{nm} station, in Finland, in Figure~\ref{fig:oulu_gles}. In Figure~\ref{fig:oulu_gles} we see that the relative increase of the \gls{cr} counts during the \gls{gle} was large for \glspl{gle} 70 and 71, but much lower during \gls{gle} 72. For each \gls{gle}, the increase is easily observable by-eye in the data. We expect that if we are to observe any of the GLEs, we shall have the best chance of observing \gls{gle} 70. Similarly, we show a comparison plot for the \glspl{fd}, as observed by the Oulu \gls{nm} station, in Figure~\ref{fig:oulu_fds}. 
 
 \begin{figure}[ht!]
 	\centering
@@ -98,8 +100,7 @@ For comparison with the \gls{hisparc} results, we show the \glspl{gle}, as obser
 	\caption{GLEs observed by the NM stations based at Oulu. Top panel: GLE 70; middle panel: GLE 71, bottom panel: GLE 72. The solid-black line shows the 2-minute-averaged, pressure corrected data and the vertical, dashed-red lines show the epochs of each GLE onset. The units of time on the x-axis are, MM-DD HH.}
 	\label{fig:oulu_gles}
 \end{figure}
-
-
+%
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=0.75\columnwidth]{FDs_OULU.pdf}
@@ -107,7 +108,7 @@ For comparison with the \gls{hisparc} results, we show the \glspl{gle}, as obser
 	\label{fig:oulu_fds}
 \end{figure}
 
-
+Each \gls{fd} in Figure~\ref{fig:oulu_fds} produces a moderate decrease in the \gls{nm} count rate. The relative decreases in the the \gls{cr} counts during the \glspl{fd} were generally around $\sim 5\%$, and are easily observable by-eye in the data.
 
 
 
@@ -118,11 +119,13 @@ For comparison with the \gls{hisparc} results, we show the \glspl{gle}, as obser
 \section{Aims}\label{sec:HS_aims}
 
 
-The principle aim of the project was to determine whether the existing \gls{hisparc} network is capable of observing space weather events. To do this, we investigated the properties of the \gls{hisparc} detectors, to learn about what typical \glspl{pcr} we observe. This was initially achieved by investigating the data during periods of space weather activity to search for the associated signatures. We searched through some of the most reliable \gls{hisparc} stations to determine whether these events were observed in the data. This was done to determine whether, without much effort, we could get a binary answer on whether these events were observed by \gls{hisparc}.
+The principle aim of the project was to determine whether the existing \gls{hisparc} network is capable of observing space weather events. To do this, we initially calculated the properties of the \gls{hisparc} detectors, to understand the typical \glspl{pcr} they observe. In addition, we investigated the data during periods of space weather activity to search for the associated signatures detailed in Table~\ref{tab:space_weather_events}. We searched through some of the most reliable \gls{hisparc} stations to determine whether these events were observed in the data. This was done to determine whether, without much effort, we could get a binary answer on whether these events were observed by \gls{hisparc}.
 
-Following this, we performed simulations of air showers initiated by \glspl{cr} to understand the expected muon flux and dispersion at ground level. This helped us to understand how likely it is to observe the \glspl{pcr} associated with space weather with the \gls{hisparc} detectors, observing muons.
+Ground-based observations of muons from air showers are susceptible to the conditions in the atmosphere; therefore, where possible, we aimed to correct for these atmospheric effects and again review the corrected data to determine whether the space weather events were observed.
 
-Finally, ground-based observations of muons from air showers are susceptible to the conditions in the atmosphere; therefore, where possible, we corrected for atmospheric effects and again reviewed the corrected data to determine whether the space weather events were observed.
+Finally, we also aimed to perform simulations of air showers initiated by \glspl{cr} to understand the expected muon flux and dispersion at ground level. This would help us to understand how likely it is to observe the \glspl{pcr} associated with space weather with the \gls{hisparc} detectors, observing muons.
+
+It was highlighted during private communication with the UK Met Office that observations of \glspl{gle} are of more interest and importance to space weather forecasts and nowcasts. As discussed above, using \glspl{md} generally provides observations of higher energy \glspl{pcr} which relates to the earlier onset of \glspl{sep}; thus using the \gls{hisparc} network is of significant interest in this domain. \glspl{fd} are of lower interest and importance; however, we still searched for \glspl{fd} within the \gls{hisparc} data for completeness. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -130,7 +133,15 @@ Finally, ground-based observations of muons from air showers are susceptible to 
 \section{HiSPARC Data}\label{sec:HS_data}
 
 
-The \gls{hisparc} cosmic ray data are available on the \gls{hisparc} Public Database\footnote{\url{https://data.hisparc.nl/}}. There each station is listed and they are all grouped by their local nodes. For every station one can see its ID, name, and a coloured square and circle displaying its current data delivery and data acquisition status, respectively. Clicking on any station takes you to a dedicated page which displays its data on a user-selected day. Here it is possible to download the events data, singles data, and weather data, where available. It is also possible to download coincidence data between multiple stations, where different stations measure the same event; it is possible to determine if stations measured the same event by comparing the \gls{gps} timestamps of events. The data are stored in {\verb HDF5 } format, but are downloaded in {\verb .tsv } format.
+The \gls{hisparc} cosmic ray data are available on the \gls{hisparc} Public Database\footnote{\url{https://data.hisparc.nl/}}, where each station is listed and they are all grouped by their local nodes. For every station one can see its ID, name, and a coloured square and circle displaying its current data delivery and data acquisition status, respectively. Clicking on any station takes you to a dedicated page which displays its data on a user-selected day. The data are stored in {\verb HDF5 } format, but are downloaded in {\verb .tsv } format. Where data are available, it is possible to download:
+%
+\begin{itemize}
+	\item{events rate data: where multiple detectors in a station are triggered to satisfy that station's trigger conditions;}
+	\item{singles rate data: the count rates of the individual detectors within a station;}
+	\item{weather data: meteorological data, including pressure and temperature;}
+	\item{coincidences data: the counts where different stations measure the same event (to within $1.36 \, \upmu$s); it is possible to determine if stations measured the same event by comparing the \gls{gps} timestamps of events.}
+\end{itemize}
+
 
 This method of obtaining \gls{hisparc} data is acceptable if only a small quantity of data are needed, but it is cumbersome if large quantities of data are required. To obtain large quantities of \gls{hisparc} data, it was more efficient to use the \gls{esd} module within the \gls{sapphire} Python package \citep{fokkema_sapphire_2012}. The data are downloaded in the raw {\verb HDF5 } format, and can then be manipulated using further Python scripts.
 
@@ -143,17 +154,17 @@ The 5 stations in the sample were selected as they generally all have both the s
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[width=0.8\columnwidth]{HS_station_map.pdf}
+	\includegraphics[width=0.75\columnwidth]{HS_station_map.pdf}
 	\caption{The geographic location of each HiSPARC station considered in this work. Each green circle denotes the location of a detector station.}
 	\label{fig:HS_map}
 \end{figure}
 
 
-Figure~\ref{fig:HS_data_availability} shows the availability of \gls{cr} data for the sample of stations for each of the space weather events investigated, where purple grids denote no available data, teal denotes events data were available, and yellow denotes events and singles data were available. It also shows as the \gls{hisparc} network matures, so does the number of stations with available data, and the type of data available (both events and singles rates).
+Figure~\ref{fig:HS_data_availability} shows the availability of \gls{cr} data for the sample of stations for each of the space weather events investigated, where purple grids denote no available data, teal denotes events data were available, and yellow denotes events and singles data were available. For each event, we have data available from at least two stations, which allows us to compare the signals. It also shows as the \gls{hisparc} network matures, so does the number of stations with available data, and the type of data available (both events and singles rates).
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[width=\columnwidth]{HS_data_availaviblity_map.pdf}
+	\includegraphics[width=0.9\columnwidth]{HS_data_availaviblity_map.pdf}
 	\caption{The availability of data for each HiSPARC station considered, for each of the space weather epochs listed in Table~\ref{tab:space_weather_events}. The purple grids denote no available data, teal denotes that only the events data are available, and yellow denotes that both the events and singles data are available.}
 	\label{fig:HS_data_availability}
 \end{figure}
@@ -169,22 +180,22 @@ Figure~\ref{fig:HS_data_availability} shows the availability of \gls{cr} data fo
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Cut-Off Rigidity}
 
-To understand the \gls{pcr} spectrum that ground-based \gls{cr} detectors are capable of observing, \gls{pcr} transport simulations are typically performed. The geomagnetic field can allow or prohibit \gls{cr} particles penetrating the magnetosphere and reaching the atmosphere, depending on the particle's energy. Transport simulations allow us to determine the range of \glspl{pcr} that have sufficient energy to penetrate the Earth's magnetosphere and reach the atmosphere and produce secondary particle air showers. The \gls{pcr} spectrum depends strongly on the geographic location of the station; the minimum allowed particle rigidity varies from $\sim 17$~GV near the equator and theoretically 0~GV at the poles, and the geomagnetic conditions have a strong impact on the \gls{pcr} spectrum \citep{shea_study_1965, desorgher_planetocosmics_2005, desorgher_planetocosmics_2006, danilova_mapping_2019}. 
+To understand the \gls{pcr} spectrum that ground-based \gls{cr} detectors are capable of observing, \gls{pcr} transport simulations are typically performed. The geomagnetic field can allow or prohibit \gls{cr} particles penetrating the magnetosphere and reaching the atmosphere, depending on the particle's energy. As a consequence, the cut-off rigidity is a lower rigidity-threshold, below which the particle flux is zero due to geomagnetic shielding \citep{shea_study_1965, danilova_mapping_2019}. Transport simulations allow us to determine the range of \glspl{pcr} that have sufficient energy to penetrate the Earth's magnetosphere and reach the atmosphere and produce secondary particle air showers. The \gls{pcr} spectrum depends strongly on the geographic location of the station; the minimum allowed particle rigidity varies from $\sim 17$~GV near the equator and theoretically 0~GV at the poles, and the geomagnetic conditions have a strong impact on the \gls{pcr} spectrum \citep{shea_study_1965, cramp_modelling_1996, desorgher_planetocosmics_2006, danilova_mapping_2019}. 
 
-Transport simulations typically run a reverse evolution of particles, using a backwards-tracing routine, whereby the particles are simulated from Earth out to the magnetosphere, to determine whether they leave the magnetosphere or remained trapped. In this work, to perform the \gls{pcr} transport simulations we used the PLANETOCOSMICS software. PLANETOCOSMICS performs Geant4 Monte Carlo simulations of charged particle transport through Earth's magnetosphere based on St\o rmers transport equation for charged particles \citep{desorgher_planetocosmics_2005, desorgher_planetocosmics_2006}. PLANETOCOSMICS simulates backward trajectories of charged particles from a given location (latitude, longitude, and altitude) out to the magnetopause for a set of \gls{pcr} rigidities. 
+Transport simulations typically run a reverse evolution of particles, using a backwards-tracing routine, whereby the particles are simulated from Earth out to the magnetosphere, to determine whether they leave the magnetosphere or remain trapped due to the geomagnetic field \citep{shea_study_1965}. In this work, to perform the \gls{pcr} transport simulations we used the PLANETOCOSMICS software \citep{desorgher_planetocosmics_2005}. PLANETOCOSMICS performs Geant4 Monte Carlo simulations of charged particle transport through Earth's magnetosphere based on St\o rmers transport equation for charged particles \citep{desorgher_planetocosmics_2005, desorgher_planetocosmics_2006}. 
 
-For each trajectory simulated there are two possible outcomes: (i) the particles trace out to the magnetopause where they escape Earth's magnetosphere, an allowed trajectory; (ii) the particles are sufficiently bent by the effect of the Earth's magnetosphere that they do not reach the magnetopause and cannot escape the Earth's magnetosphere, a forbidden trajectory \citep{desorgher_planetocosmics_2005, desorgher_planetocosmics_2006}. The coordinates of the asymptotic direction at the magnetosphere are provided as an output to the simulations projected back down to the Earth's surface. In this work PLANETOCOSMICS was configured with the Tsyganenko-89 model for the external magnetospheric magnetic field and the \gls{igrf} internal field model.
+PLANETOCOSMICS simulates backward trajectories of charged particles from a given location (latitude, longitude, and altitude) out to the magnetopause for a set of \gls{pcr} rigidities. For each simulated trajectory there are two possible outcomes: (i) the particles trace out to the magnetopause where they escape Earth's magnetosphere, an allowed trajectory; (ii) the particles are sufficiently bent by the effect of the Earth's magnetosphere that they do not reach the magnetopause and cannot escape the Earth's magnetosphere, a forbidden trajectory \citep{shea_study_1965, desorgher_planetocosmics_2005, desorgher_planetocosmics_2006}. The coordinates of the asymptotic direction at the magnetosphere are provided as an output to the simulations. This is the direction of motion of particles upon leaving the magnetosphere, if subjected to no other forces \citep{shea_study_1965, desorgher_planetocosmics_2006, danilova_mapping_2019}. In this work PLANETOCOSMICS was configured with the Tsyganenko-89 model for the external magnetospheric magnetic field and the \gls{igrf} internal field model.
 
-Each rigidity simulated, whether it was an allowed or forbidden trajectory was stored, was used to provide an insight into the rigidity spectrum for a given station. From the allowed trajectories the effective cut-off rigidity ($R_C$) for the stations was computed, which represents the lower rigidity limit above which cosmic rays can cross the magnetosphere:
+Each simulated rigidity, whether it followed an allowed or forbidden trajectory, was stored and was used to provide an insight into the rigidity spectrum for a given station. From the allowed trajectories the effective cut-off rigidity ($R_C$) for the stations was computed, which represents the lower rigidity limit above which cosmic rays can cross the magnetosphere:
 
 \begin{equation}
 \label{eq:cut_off}
 R_C = R_U - \sum_{i = R_L}^{R_U} \Delta R_i
 \end{equation}
 %
-where $R_U$ is the upper rigidity (the last allowed trajectory before the first forbidden trajectory); $R_L$ is the lower rigidity (the last allowed trajectory before which all other trajectories with a lower rigidity are forbidden); $\Delta R$ is the rigidity step size in the simulation \citep{desorgher_planetocosmics_2005, desorgher_planetocosmics_2006, herbst_influence_2013}.
+where $R_U$ is the upper rigidity (the last allowed trajectory before the first forbidden trajectory); $R_L$ is the lower rigidity (the last allowed trajectory before which all other trajectories with a lower rigidity are forbidden); $\Delta R$ is the rigidity step size in the simulation \citep{shea_study_1965, desorgher_planetocosmics_2005, desorgher_planetocosmics_2006, herbst_influence_2013}.
 
-The rigidity spectrum for each of the \gls{hisparc} stations were investigated to determine $R_C$ for each station. The cut-off rigidity calculated for the six \gls{hisparc} stations for a vertical incidence upon the atmosphere (i.e. $0^\circ$ zenith angle) are shown in Table~\ref{tab:HS_stns} which show that there is little variation in $R_C$ between the \gls{hisparc} stations and that they observe protons with rigidities in excess of $\sim 3$~GV. This analysis was initially carried out for the vertical direction (i.e. azimuth = $0^\circ$, zenith = $0^\circ$); however further trajectories were simulated for different azimuth and zenith angles to determine the dependence of the rigidity spectrum on the detector acceptance angle. The analysis for the azimuthal dependence was carried out at a zenith angle of $20^\circ$ as this is around the most probably angle for \gls{hisparc} events, and the analysis of the zenith dependence was carried out at an azimuth angle of $0^\circ$.
+The rigidity spectrum for each of the five \gls{hisparc} stations was investigated to determine $R_C$ for each station. The cut-off rigidity calculated for the six \gls{hisparc} stations for a vertical incidence upon the atmosphere (i.e. $0^\circ$ zenith angle) are shown in Table~\ref{tab:HS_stns} which show that there is little variation in $R_C$ between the \gls{hisparc} stations and that they observe protons with rigidities in excess of $\sim 3$~GV. This analysis was initially carried out for the vertical direction (i.e. azimuth = $0^\circ$, zenith = $0^\circ$); however further trajectories were simulated for different azimuth and zenith angles to determine the dependence of the rigidity spectrum on the detector acceptance angle. The analysis for the azimuthal dependence was carried out at a zenith angle of $20^\circ$ as this is around the most probable angle for \gls{hisparc} events \citep{fokkema_hisparc_2012}, and the analysis of the zenith dependence was carried out at an azimuth angle of $0^\circ$.
 
 
 \begin{table}
@@ -237,7 +248,8 @@ It can be seen from Figure~\ref{fig:HS_AVD} that the \glspl{avd} for each of the
 	\label{fig:HS_AVD}
 \end{figure}
 
-The simulations were only performed up to a rigidity of 20~GV; however, at higher rigidities, we would see the \glspl{avd} spiral in towards the geographic location of the station, and the \gls{pcr} would enter the magnetosphere and atmosphere almost vertically above the detector. The 20~GV directions are all grouped closely together du to the stations' close geographic loccations. This map of the \glspl{avd} also informs us that we should expect to be able to observe some lower energy \glspl{pcr} when the zenith of the detector is not facing the asymptotic direction of the \gls{pcr}. The viewing directions of lower energy \glspl{cr} with $R_C \sim 2.5$~GV are shifted East by $\sim 120^{\circ}$ longitude, therefore may observe particles from this direction some $\sim 8$~hours before the stations align with the direction of the source.
+The simulations were only performed up to a rigidity of 20~GV and the \glspl{avd} are limited between $\pm 20^{\circ}$ latitude. However, at higher rigidities, we would see the \glspl{avd} spiral in towards the geographic location of the station, and the \gls{pcr} would enter the magnetosphere and atmosphere almost vertically above the detector. The 20~GV directions are all grouped closely together due to the close geographic locations of the stations. This map of the \glspl{avd} also informs us that we should expect to be able to observe some lower energy \glspl{pcr} when the zenith of the detector is not facing the asymptotic direction of the \gls{pcr}. The viewing directions of lower energy \glspl{cr} with $R_C \sim 2.5$~GV are shifted East by $\sim 120^{\circ}$ longitude. This demonstrates that the observable, lower-energy \glspl{pcr} are deflected significantly by the Earth's magnetosphere; we can observe solar eruptive events when the station is not pointing in a direction in-line with the Sun therefore may observe particles from this direction some $\sim 8$~hours before the stations align with the direction of the source.
+
 
 This has significant impacts on the ability of our detectors to observe transient solar eruptive events which may be highly anisotropic and have a \gls{sep} spectrum with energies $<10^9$~eV. For this reason, many ground-based \glspl{cr} spread detectors across Earth's surface, to maximise their observation coverage.
 
@@ -246,13 +258,11 @@ This has significant impacts on the ability of our detectors to observe transien
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{HiSPARC Observations}\label{sec:HS_obs}
 
-It was highlighted during private communication with the UK Met Office that observations of \glspl{gle} are of more interest and importance to space weather forecasts and nowcasts -- [probably add a comment here to relate this to the earlier onset of SEPs that will be observed by muon detectors...!!]. \glspl{fd} are of lower interest and importance; however, we still searched for \glspl{fd} within the \gls{hisparc} data for completeness. 
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Observations of Ground Level Enhancements}
 
-The search for evidence of \glspl{gle} within the \gls{hisparc} data was conducted for the \glspl{gle} listed in Table~\ref{tab:space_weather_events}, as they are the only \glspl{gle} that span the operational epoch of the \gls{hisparc} network. Figure~\ref{fig:GLE_70}, ~\ref{fig:GLE_71}, and ~\ref{fig:GLE_72} show the \gls{hisparc} observations around the epochs of \gls{gle} 70, 71, and 72, respectively. As highlighted by Fig.~\ref{fig:HS_data_availability}, most of the observations are only the events data (i.e. coincidences between the detectors of a station); however, where possible, we also show the singles rates from each of the individual detectors in a station, when available.
+The search for evidence of \glspl{gle} within the \gls{hisparc} data was conducted for the events listed in Table~\ref{tab:space_weather_events}, as they are the only \glspl{gle} that span the operational epoch of the \gls{hisparc} network. Figure~\ref{fig:GLE_70}, ~\ref{fig:GLE_71}, and ~\ref{fig:GLE_72} show the \gls{hisparc} observations around \gls{gle} 70, 71, and 72, respectively. As highlighted by Fig.~\ref{fig:HS_data_availability}, most of the observations are only the events data (i.e. coincidences between the detectors of a station); however, where possible, we also show the singles rates from each of the individual detectors in a station, when available.
 
 \begin{figure}[ht!]
 	\centering
@@ -307,11 +317,13 @@ The search for evidence of \glspl{gle} within the \gls{hisparc} data was conduct
 \end{figure}
 
 
-We can see from Figures~\ref{fig:GLE_70},~\ref{fig:GLE_71}, and~\ref{fig:GLE_72} that there are no clear and obvious signs of the \gls{gle} signals in the \gls{hisparc} observations, as for those given in Fig.~\ref{fig:oulu_gles} for the Oulu \gls{nm} station, in Finland. This is the case for both the events data and the singles data.
+We can see from Figures~\ref{fig:GLE_70},~\ref{fig:GLE_71}, and~\ref{fig:GLE_72} there are no clear and obvious signs of the \gls{gle} signals in the \gls{hisparc} observations, as was clear for those given in Fig.~\ref{fig:oulu_gles} for the Oulu \gls{nm} station, in Finland. This is the case for both the events data and the singles data.
 
-There are some excursions from the mean count rate, this is significantly more prominent in the singles rates which are shown in the \gls{gle} 72 plots for stations 501, 203, and 8001. It was thought that these excursions are the effect of atmospheric pressure on the muon count rates; in Section~\ref{sec:HS_standardisation} this is discussed further and the effect is accounted for. After its removal we then re-investigated the corrected data, which is discussed in Section~\ref{sec:HS_obs_Pcorr}.
+There are some excursions from the mean count rate which make it difficult to determine variations from space weather events and other sources; this is significantly more prominent in the singles rates which are shown in the \gls{gle} 72 plots for stations 501, 203, and 8001. We believe these excursions are the effect of atmospheric pressure on the muon count rates; in Section~\ref{sec:HS_standardisation} this is discussed further and the effect is accounted for. After its removal we then re-investigated the corrected data, which is discussed in Section~\ref{sec:HS_obs_Pcorr}.
 
-No clear \glspl{gle} have been observed in the \gls{hisparc} data. We believe this is due, in-part, to the rigidity cut-off of the \gls{hisparc} stations, as well as the different particle species observed by \gls{hisparc} compared to the \glspl{nm}. \glspl{gle} are normally associated with \glspl{sep} with energies in the MeV-regime; hence typically \glspl{gle} are observed by \glspl{nm}. Only the most energetic have been observed by \glspl{md} as they are more sensitive to the hard component of the \gls{pcr} spectrum. Observations of \glspl{gle} with \gls{hisparc} will therefore only be linked with the the maximum energy release during solar flares, and often this is very short and still of insufficient energy to be detected by \glspl{md} \citep{mccracken_high-energy_2012, augusto_signals_2016}. 
+No clear \glspl{gle} have been observed in the \gls{hisparc} data. We believe this is due, in-part, to the rigidity cut-off of the \gls{hisparc} stations, as well as the different particle species observed by \gls{hisparc} compared to the \glspl{nm}. However, \citet{humble_j._e._detection_2012} state that \gls{nm} stations with cut-off rigidities up to $\sim 15$~GV observed the \gls{gle} in September 1989, indicating that \glspl{sep} up to at least $\sim 15$~GeV must have been present in the spectrum. Therefore, the rigidity cut-off of the \gls{hisparc} stations is not necessarily the limiting factor if such high energy \glspl{pcr} existed in the \glspl{sep}. It is also possible that the \glspl{pcr} are insufficient to produce \glspl{eas} of muons, as we know the \gls{hisparc} network is nominally used for observations of \glspl{uhecr}.
+
+\glspl{gle} are normally associated with \glspl{sep} with energies in the MeV to low-GeV regime; hence why typically \glspl{gle} are observed by \glspl{nm}. Only the most energetic have been observed by \glspl{md} as they are more sensitive to the hard component of the \gls{pcr} spectrum \citep{augusto_signals_2016}. Observations of \glspl{gle} with \gls{hisparc} will therefore only be linked with the the maximum energy release during solar flares, and often this is very short and still of insufficient energy to be detected by \glspl{md} \citep{mccracken_high-energy_2012, augusto_signals_2016}. 
 
 To further understand the impact of \gls{sep} energies on the \gls{hisparc} observations, in Section~\ref{sec:HS_standardisation} we used simulations to investigate the \gls{cr} spectrum at quiet times and during \glspl{gle}. %We do also note that the atmospheric effects in the raw do not help our ability to observe the space weather and these effects were later removed (see Section~\ref{sec:HS_P_corr}).
 
@@ -407,11 +419,12 @@ For the final two \glspl{fd} listed in Table~\ref{tab:space_weather_events}, the
 	\label{fig:FD_GLE72}
 \end{figure}
 
-As with the other \gls{fd} epochs, we again do not observe any clear signs of the \gls{fd} signals in either the events nor singles data. In each of the three stations for which there were singles data, we observed a semi-persistent diurnal signal. This was also seen in the events data for station 14001. In the singles data we 
+As with the other \gls{fd} epochs, we again do not observe any clear signs of the \gls{fd} signals in either the events nor singles data. In each of the three stations for which there were singles data, we observed a semi-persistent diurnal signal. This was also seen in the events data for station 14001. In the singles data we a strong diurnal variation of up to $\sim 50\%$ (see detector channel 2 in Fig.~\ref{fig:FD_GLE72_8001}). As previously discussed, we expect a diurnal variation of $< 1\%$, increasing around local midday; however, in Figure~\ref{fig:FD_GLE72_8001} not only do we see a stronger variation, we also see that the two detectors are anti-correlated, suggested that this signal is a manifestation of thermally induced noise in each detector.
 
-Furthermore, we again observed a slow variation in the count rate which is suspected to be due to atmospheric pressure and is discussed in Section~\ref{sec:HS_P_corr}.
 
-No clear signal of \glspl{fd} has been observed in the \gls{hisparc} data. We again believe this could be due to the rigidity cut-off of the \gls{hisparc} stations. We also note that the atmospheric effects in the raw data do not help our ability to observe the space weather effects, therefore we make an effort in the next section to remove these efects and standardise the \gls{hisparc} data. 
+%Furthermore, we again observed a slow variation in the count rate which is suspected to be due to atmospheric pressure and is discussed in Section~\ref{sec:HS_P_corr}.
+
+We conclude that no clear signature of \glspl{fd} has been observed in the \gls{hisparc} data. We again believe this could be linked to the rigidity cut-off of the \gls{hisparc} stations, but also it is possible that the reason originates in the lower sensitivity of \glspl{md} compared to \glspl{nm}. We also note that the atmospheric effects in the raw data limit our ability to observe the space weather effects, therefore in the next section we remove these effects to standardise the \gls{hisparc} data. 
 
 
 
@@ -423,7 +436,7 @@ No clear signal of \glspl{fd} has been observed in the \gls{hisparc} data. We ag
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Motivation}
 
-It is well known that observations made by ground-based \gls{cr} detectors are susceptible to atmospheric conditions [ADD SOME REFS FROM ZOTERO]. As we have seen in the plots show in Section~\ref{sec:HS_obs}, there exist excursions in the data whose origins are from atmospheric variations. This sensitivity makes it difficult to differentiate variations due space weather events to those simply due to atmospheric conditions, therefore it was necessary to remove these effect from the data.
+It is well known that observations made by ground-based \gls{cr} detectors are susceptible to atmospheric conditions \citep{dorman_theory_2004,dorman_cosmic_2010,berkova_temperature_2011,de_mendonca_analysis_2013,paschalis_online_2013}. As we have seen in the plots show in Section~\ref{sec:HS_obs}, there exist excursions in the data whose origins are from atmospheric variations. This sensitivity makes it difficult to differentiate between variations due space weather events and those due to Earth's atmospheric conditions, therefore it was necessary to remove these effect from the data.
 
 %- HiSPARC stations are individually managed and guidelines aren't stringent
 %- Variability between stations exists and also apparently between detectors within a station (i.e. see singles during \gls{gle} 72)
@@ -448,12 +461,12 @@ A correction for this barometric effect is routinely applied as part of the data
 		\includegraphics[width=0.48\columnwidth]{501_CRvP.pdf}
 		\label{fig:HS_501_CRvP}} \\
 	
-	\caption{The anti-correlation between CR count rates and the atmospheric pressure. (a) shows the CR and the local atmospheric pressure measured at a NM in the South Pole; (b) shows the CR and pressure measured by HiSPARC station 501.}
+	\caption{The anti-correlation between CR count rates and the atmospheric pressure. (a) shows the CR and the local atmospheric pressure measured at a NM in the South Pole; (b) shows the CR and pressure measured by HiSPARC station 501. In both plots, the data shown is hourly-averaged, to highlight the effects.}
 	\label{fig:CR_V_P}
 \end{figure}
 
 
-The method of correcting for the barometric effect is discussed widely in the literature regarding \glspl{nm} and is shown to depend on the barometric coefficient. Assuming the cosmic ray flux variation, absent of the atmospheric effects, is reasonably stable, then a simple correction to the counts can be made. The \gls{cr} variations ($N$) that depend on the local atmospheric pressure are described by:
+The method of correcting for the barometric effect is discussed widely in the literature regarding \glspl{nm} and is shown to depend on the barometric coefficient \citep{paschalis_online_2013}. Assuming the cosmic ray flux variation, absent of the atmospheric effects, is reasonably stable, then a simple correction to the counts can be made. The \gls{cr} variations ($N$) that depend on the local atmospheric pressure are described by:
 
 \begin{equation}
 \Delta N = - \beta \, N \, \Delta P \, ,
@@ -476,9 +489,9 @@ Therefore by taking the logarithm of equation~(\ref{eq:presscorr2}), one can obt
 \label{eq:presscorr3}
 \end{equation}
 %
-where $N_0$ may be assumed as the mean count rate over the given time-period of observations considered.
+where $N_0$ may be considered as the mean count rate over the given time-period of observations.
 
-A demonstration of this method is shown for both a NM and a \gls{hisparc} station in Figure~\ref{fig:barometric_fit}. In both cases the linear fit does a good job of finding the barometric coefficient and was used to remove the pressure effect from the data... (probably should show a plot of the before vs after for eithe the hisparc or the nm data too...?)
+A demonstration of this method is shown for both a NM and a \gls{hisparc} station in Figure~\ref{fig:barometric_fit}. In both cases the linear fit does a good job of finding the barometric coefficient and was used to remove the pressure effect from the data.
 
 \begin{figure}[ht]
 	\centering
@@ -494,8 +507,17 @@ A demonstration of this method is shown for both a NM and a \gls{hisparc} statio
 	\label{fig:barometric_fit}
 \end{figure}
 
+For comparison, and to show the success of this method at removing the pressure variation, the raw and corrected \gls{hisparc} data are shown in Figure~\ref{fig:HS_P_corr}. It is clear from Figure~\ref{fig:HS_P_corr} that the large excursions are adequately removed from the data after the correction.
 
-Using the online barometric coefficient tool \citep{paschalis_online_2013}, it was possible to provide a comparison between the method used in this work to that which is used for the correction of the \gls{nmdb} stations. This is provided in Figure~\ref{fig:NM_beta_variation} for monthly corrections throughout 2017 for the \gls{nm} station at the South Pole (SOPO).
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.65\columnwidth]{501_raw_vs_corrected.pdf}
+	\caption{A comparison between the hourly-averaged HiSPARC count rate before (orange line) and after the pressure correction (blue line).}
+	\label{fig:HS_P_corr}
+\end{figure}
+
+
+Using the online barometric coefficient tool \citep{paschalis_online_2013}, it was possible to also provide a comparison between the method used in this work to that which is used for the correction of the \gls{nmdb} stations, as a further confirmation of the method. This is provided in Figure~\ref{fig:NM_beta_variation} for monthly corrections throughout 2017 for the \gls{nm} station at the South Pole (SOPO).
 
 \begin{figure}[ht]
 	\centering
@@ -505,12 +527,8 @@ Using the online barometric coefficient tool \citep{paschalis_online_2013}, it w
 \end{figure}
 
 
-Figure~\ref{fig:NM_beta_variation} shows a close agreement between the barometric coefficient calculated in this work and those acquired from the online tool for the SOPO \gls{nm}. This was also true for other stations tested (APTY and ROME), thus providing confidence that the method used in this work was suitable for application on the \gls{hisparc} data. 
+Figure~\ref{fig:NM_beta_variation} shows a close agreement between the barometric coefficient calculated in this work and those acquired from the online tool for the SOPO \gls{nm}. This was also true for other stations tested (APTY and ROME), thus providing confidence that the method used in this work was suitable for application on the \gls{hisparc} data. As this method has been shown to reproduce the results of the \gls{nmdb} corrections the barometric correction and adequately remove the correlated excursions due to pressure, it was performed on the stations where sufficient pressure data and count rates exist. % were re-investigated to determine whether the space weather events were observed in the \gls{hisparc} data. These results are provided in Section \ref{sec:HS_obs_Pcorr}.
 
-As this method has been shown to reproduce the results of the \gls{nmdb} corrections the barometric correction was performed on the stations where sufficient pressure data and count rates exist, and were re-investigated to determine whether the space weather events were observed in the \gls{hisparc} data. These results are provided in Section \ref{sec:HS_obs_Pcorr}.
-
-
-[include a time series for the variation in the barometric coefficient for HiSPARC (i.e. for station 501)...???] 
 
 
 
@@ -518,16 +536,16 @@ As this method has been shown to reproduce the results of the \gls{nmdb} correct
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Temperature Correction}\label{sec:HS_T_corr}
 
-It has been discussed in the literature that the effect of atmospheric temperature on muon intensity has to be treated differently to the pressure effect \citep{berkova_temperature_2011}, as the temperature influences both the creation and disintegration processes for muons, such that there is a positive effect and a negative effect on muon intensity as a consequence of temperature variations \citep{mendoncca_temperature_2016}. 
+The effects of atmospheric temperature have been shown to influence both the creation and disintegration processes for muons in the atmosphere \citep{berkova_temperature_2011}. There is hence a positive effect and a negative effect on muon intensity as a consequence of temperature variations \citep{mendoncca_temperature_2016}. 
 
 The positive effect is related to pion decay and its dependence on temperature variation. The higher the temperature, the lower the atmospheric pion absorption, which implies a higher generation rate of muons \citep{mendoncca_temperature_2016}.
 
-The negative effect corresponds to the decrease of muon intensity at ground level as the muon average path length varies with temperature. Due to the heating and the expansion of the atmosphere during summer periods muons are produced higher in the atmosphere; hence the muon propagation path increases meaning more atmosphere for muons to traverse before reaching the ground, and an increased decay probability and ionisation losses \citep{savic_pressure_2015, mendoncca_temperature_2016}.
+The negative effect corresponds to the decrease of muon intensity at ground level as the muon average path length varies with temperature. Due to the heating and expansion of the atmosphere during summer periods muons are produced higher in the atmosphere; hence the muon propagation path length increases meaning there is more atmosphere for muons to traverse before reaching the ground, and an increased decay probability and ionisation losses \citep{savic_pressure_2015, mendoncca_temperature_2016}.
 
-Due to the difference in decay probability, the negative effects dominate for low energy muons (i.e. those detected by ground-level MDs), and the positive effect dominates for high energy muons (i.e. those detected by underground MDs) \citep{berkova_temperature_2011}; therefore it is expected that the negative effect should dominate for the \gls{hisparc} network. This is in contradiction with the observations of diurnal variation with the \gls{hisparc} detector, as one can quite clearly see that the \gls{hisparc} stations register higher count rates during local noon (see Fig.~\ref{fig:GLE72_8001}). However, when observing the singles rates, we do see some detectors displaying a positive effect and some displaying a negative effect (see Fig.~\ref{fig:GLE_72}), so this is not consistent throughout each station, and provides more evidence to suggest this is an effect of thermally induced noise in the \glspl{pmt}. %Temperature effects are also observed by NMs; however, the effect is less significant than for MDs hence temperature corrections are not widely applied for NMs \citep{mendoncca_temperature_2016}.
+Due to the difference in decay probability, the negative effects dominate for low energy muons (i.e. those detected by ground-level MDs), and the positive effect dominates for high energy muons (i.e. those detected by underground MDs) \citep{berkova_temperature_2011}. It is expected that the negative effect should dominate for the \gls{hisparc} network. This is in contradiction with the observations of diurnal variation with the \gls{hisparc} detector, as one can quite clearly see that the \gls{hisparc} stations register higher count rates during local noon (see Fig.~\ref{fig:GLE72_8001}). However, when observing the singles rates, we do see some detectors displaying a positive effect and some displaying a negative effect (see Fig.~\ref{fig:GLE_72}). This is not consistent throughout each station, and provides more evidence to suggest this is an effect of thermally induced noise in the \glspl{pmt}. %Temperature effects are also observed by NMs; however, the effect is less significant than for MDs hence temperature corrections are not widely applied for NMs \citep{mendoncca_temperature_2016}.
 
 
-Several methods of correcting for the temperature effect are discussed in the literature, see \cite{berkova_temperature_2011, mendoncca_temperature_2016} for a summary. However, the methods discussed are typically applied over long timescales of years with low temporal resolution, rather than to account for short timescale variations with periods of less than a day; hence these methods aren't necessarily suitable for this work on ephemeral space weather events.
+Several methods of correcting for the temperature effect are discussed in the literature, see \citet{berkova_temperature_2011, mendoncca_temperature_2016} for a summary. However, the methods discussed are typically applied over long timescales of years, to account for seasonal variations with low temporal resolution, rather than to account for short timescale variations with periods of less than a day; hence these methods aren't necessarily suitable for this work on ephemeral space weather events.
 
 %Several methods of correcting for the negative temperature effect are summarised by \cite{berkova_temperature_2011} which utilise different measures of atmospheric temperature when performing the temperature correction. \cite{mendoncca_temperature_2016} provides a comparative summary of these methods applied to correct for atmospheric temperature variations observed by GMDN detectors. The methods discussed here however are typically applied over long timescales of years with low temporal resolution rather than to account for short timescale variations with periods of less than a day; hence these methods aren't necessarily suitable for this work on ephemeral space weather events.
 
@@ -553,24 +571,32 @@ Several methods of correcting for the temperature effect are discussed in the li
 %
 %As discussed above, \cite{mendoncca_temperature_2016} provide this as a method for correcting for the long-term variation in atmospheric temperature which varies seasonally rather than to correct for diurnal variations; therefore it is unsure how relevant this method of atmospheric temperature correction will be to the diurnal variations observed in the HiSPARC data.
 
-The \gls{hisparc} stations provide the local outdoor temperature which is measured nearby the detectors, and also the temperature in the room where the electronics are located. The latter is not of use, but the former can be used for temperature corrections. Figure~\ref{fig:HS_8001_CRvT} shows the pressure corrected events data and the temperature data for station 8001 in July 2012. There is a strong correlation between the events and the temperature, which is shown in Figure~\ref{fig:HS_8001_alpha}. Despite the literature, we used the same linear fitting technique described for the pressure correction in Section~\ref{sec:HS_P_corr}; however, replacing the pressure for locally measured outdoor temperature.
+The \gls{hisparc} stations provide the local outdoor temperature which is measured nearby the detectors, and also the temperature in the room where the electronics are located. The latter is not of use, but the former can be used for temperature corrections. Figure~\ref{fig:HS_8001_CRvT} shows the pressure corrected events data and the temperature data for station 8001 in July 2012. There is a strong correlation between the events and the temperature, which is demonstrated in Figure~\ref{fig:HS_8001_alpha}.
 
 \begin{figure}[ht]
 	\centering
-	\subfloat[...]{
+	\subfloat[Pressure corrected CR counts and temperature data comparison]{
 		\includegraphics[width=0.48\columnwidth]{8001_CRvT.pdf}
 		\label{fig:HS_8001_CRvT}}
 	%\qquad
-	\subfloat[HS 501 (Nikhef)]{
+	\subfloat[Corrlation between CR counts and temperature]{
 		\includegraphics[width=0.48\columnwidth]{8001_alpha.pdf}
 		\label{fig:HS_8001_alpha}} \\
 	
-	\caption{...}
+	\caption{The relationship between the pressure corrected events data and the outdoor temperature as measured at HiSPARC station 8001 (Eindhoven). (a) shows the time-series of hourly-averaged pressure corrected events and temperature data; (b) shows the correlation between the counts and temperature, and the fitted line to calculate the correction coefficient.}
 	\label{fig:CR_V_T}
 \end{figure}
 
+Despite the literature, we used the same linear fitting technique described for the pressure correction in Section~\ref{sec:HS_P_corr}; however, replacing the pressure for locally measured outdoor temperature. We can see from Figure~\ref{fig:HS_T_corr} that this correction method does remove a significant amount of the variation correlated with the outdoor variation, including dampening the strong diurnal variation. There still persists some strong variation in the count rate however, which shows that this method is not as effective as the pressure correction. Nevertheless, we continue with this temperature correction as it is sufficient at reducing the diurnal variation in the data.
  
-(probably should show a plot of the before vs after for eithe the hisparc or the nm data too...?)
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.65\columnwidth]{8001_raw_vs_corrected.pdf}
+	\caption{A comparison between the hourly-averaged HiSPARC count rate before (orange line) and after the temperature correction (blue line). After the correction, the diurnal variation from the temperature effect has been reduced.}
+ 	\label{fig:HS_T_corr}
+\end{figure}
+ 
+
  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -594,7 +620,7 @@ Following the atmospheric correction, the search for evidence of \glspl{gle} was
 		\label{fig:GLE71_8001_Pcorr}} \\
 	
 	
-	\caption{Atmospheric-corrected HiSPARC data for 2 stations around the epoch of GLE 71. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical red, dashed line depicts the approximate onset time of the GLE.}
+	\caption{Atmospheric-corrected HiSPARC data for 2 stations around the epoch of GLE 71. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical red, dashed line depicts the approximate onset time of the GLE. The units of time on the x-axis are, MM-DD HH.}
 	\label{fig:GLE_71_Pcorr}
 \end{figure}
 
@@ -609,11 +635,11 @@ Following the atmospheric correction, the search for evidence of \glspl{gle} was
 		\label{fig:GLE72_203_Pcorr}} \\
 	
 	
-	\caption{Full atmospheric-corrected HiSPARC data for 2 stations around the epoch of GLE 72. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical red, dashed line depicts the approximate onset time of the GLE.}
+	\caption{Full atmospheric-corrected HiSPARC data for 2 stations around the epoch of GLE 72. The top panel of each subplot shows the minute-averaged trigger events between detectors within the station, while the bottom panel shows the mean-shifted, minute-averaged counts by each individual detector in the station. The vertical red, dashed line depicts the approximate onset time of the GLE. The units of time on the x-axis are, MM-DD HH.}
 	\label{fig:GLE_72_Pcorr}
 \end{figure}
 
-Despite the atmospheric correction, in general, doing a good job at removing atmospheric variations in the \gls{cr} counts, there still remained no clear \glspl{gle} observations in the pressure corrected \gls{hisparc} data. We believe this is due to the a mixture of the reasons discussed above: a high rigidity cut-off of the \gls{hisparc} stations leading to a low increase in the \gls{cr} count, as \glspl{gle} are typically caused by \glspl{sep} with a lower energy; hence too few additional muons were produced during the \glspl{gle}. In addition, as discussed above, the events data require a trigger between 2 detectors that are separated by up to 10~m, therefore this further biases the stations to be sensitive to more energetic \glspl{pcr}. 
+Despite the atmospheric correction, in general, doing a good job at removing atmospheric variations in the \gls{cr} counts, there still remained no clear \glspl{gle} observations in the pressure corrected \gls{hisparc} data. We believe this is due to the a mixture of the reasons discussed above: a high rigidity cut-off of the \gls{hisparc} stations leading to a low increase in the \gls{cr} count, as \glspl{gle} are typically caused by \glspl{sep} with a lower energy; hence too few additional muons were produced during the \glspl{gle}. Again we should however note that \citet{humble_j._e._detection_2012} stated that \gls{nm} stations with cut-off rigidities up to $\sim 15$~GV observed the \gls{gle} in September 1989, indicating that high-energy \glspl{sep} may be present and also cause \glspl{gle}, suggesting the rigidity cut-off may not be the limiting factor. In addition, as discussed above, the events data require a trigger between 2 detectors that are separated by up to 10~m, therefore this further biases the stations to be sensitive to more energetic \glspl{pcr}. Furthermore, the issue could be due to the particle species, re-emphasising the wide use of \glspl{nm} instead of \glspl{md}.
 
 This provides motivation to investigate the flux of muons at ground level during quiet periods, i.e. from \glspl{gcr}, compared to the flux of muons at ground level during energetic solar events such as \glspl{gle}. This work was performed and is discussed Section~\ref{sec:CORSIKA}.
 
@@ -626,14 +652,14 @@ The search for evidence of \glspl{fd} was also re-conducted using the atmospheri
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.65\columnwidth]{FD_201207_8001_CORR.pdf}
-	\caption{Full atmospheric correction of HS 8001 (Eindhoven) data during...}
+	\caption{Atmospheric-corrected HiSPARC data for station 8001 (Eindhoven) around the epoch of the FD in July 2012. The plot shows the minute-averaged and hourly-averaged trigger events between detectors within the station. The vertical blue, dashed line depicts the approximate onset time of the FD. The units of time on the x-axis are, YYYY-MM-DD.}
 	\label{fig:FD_201207_8001_Pcorr}
 \end{figure}
 
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.65\columnwidth]{FD_201412_501_CORR.pdf}
-	\caption{HS 501 (Nikhef)}
+	\caption{Atmospheric-corrected HiSPARC data for station 501 (Nikhef) around the epoch of the FD in December 2014. The plot shows the minute-averaged and hourly-averaged trigger events between detectors within the station. The vertical blue, dashed line depicts the approximate onset time of the FD. The units of time on the x-axis are, YYYY-MM-DD.}
 	\label{fig:FD_201412_501_Pcorr}
 \end{figure}
 
@@ -653,7 +679,7 @@ Finally, the atmospheric-effects corrected observations of the two \glspl{fd} wh
 		\label{fig:FD_GLE72_203_Pcorr}} \\
 	
 	
-	\caption{Pressure corrected HiSPARC data for 2 stations in an epoch where there were two FDs close to the onset of GLE 72. The top panel of each subplot shows the minute-averaged events data, while the bottom panels show the mean-shifted, minute-averaged counts by each individual detector in the stations. The vertical blue-dashed lines show the approximate onset-times of the FDs and the red-dashed line depicts the approximate onset-time of the GLE.}
+	\caption{Atmospheric-corrected HiSPARC data for 2 stations in an epoch where there were two FDs close to the onset of GLE 72. The top panel of each subplot shows the minute-averaged events data, while the bottom panels show the mean-shifted, minute-averaged counts by each individual detector in the stations. The vertical blue-dashed lines show the approximate onset-times of the FDs and the red-dashed line depicts the approximate onset-time of the GLE. The units of time on the x-axis are, YYYY-MM-DD.}
 	\label{fig:FD_GLE72_Pcorr}
 \end{figure}
 
@@ -668,7 +694,7 @@ There are no clear \glspl{fd} in Figure~\ref{fig:FD_GLE72_Pcorr}, and the single
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Motivation}
 
-We have shown that no evidence that \glspl{gle} were observed in the \gls{hisparc} data, even after correcting for atmospheric effects of pressure and temperature on the data. This leads us to question whether it is possible to observe \glspl{gle} with the \gls{hisparc} detectors. In order to answer this, we needed to understand the muon flux at ground level and the scale of air shower footprints produced by \glspl{pcr}. To investigate this, simulations of air shower development were performed for a range of \glspl{pcr} energies for both primary protons and $\alpha$-particles. 
+We have no evidence to suggest the \glspl{gle} were observed in the \gls{hisparc} data, even after correcting for atmospheric effects of pressure and temperature on the data. This leads us to question whether it is possible to observe \glspl{gle} with the \gls{hisparc} detectors. In order to answer this, we needed to understand the muon flux at ground level and the scale of air shower footprints produced by \glspl{pcr}. To investigate this, simulations of air shower development were performed for a range of \glspl{pcr} energies for both primary protons and $\alpha$-particles. 
 
 To simulate the \gls{cr} air shower development, the \gls{corsika} software was employed: a Monte Carlo programme providing detailed simulations of the evolution of air showers initiated by \glspl{pcr} through the atmosphere \citep{heck_extensive_2017}. The particles in the \gls{corsika} simulations are tracked through the atmosphere until they undergo interactions with atmospheric nuclei, decay due to their instability, or reach the ground level defined as the simulation terminator.
 
@@ -678,7 +704,7 @@ Proton and $\alpha$-particle initiated air showers were generated with energies 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Air Shower Footprints}\label{sec:CORSIKA_footprint}
 
-The average footprint of the muons at ground level, due to \glspl{pcr}, was calculated from the output of \gls{corsika} simulations. This was achieved by taking the distribution of the number of muons at ground level at the end of the simulations as a function of their distance from the shower core, as this distance is provided as an output from the simulations. Multiple realisations of the air showers were simulated (see Table~\ref{tab:CORSIKA_proton_sims}). For a given \gls{pcr} energy, the mean distribution of radial footprints was calculated by averaging over all of the individual simulations. Figure~\ref{fig:shower_footprints} shows the radial distribution of muons at ground level for air showers induced by vertically incident protons and $\alpha$-particles.
+The average footprint of the muons at ground level, due to \glspl{pcr}, was calculated from the output of the \gls{corsika} simulations. This was achieved by taking the distribution of the number of muons at ground level at the end of the simulations as a function of their radial distance from the shower core, as this distance was provided as an output from the simulations. Multiple realisations of the air showers were simulated (see Table~\ref{tab:CORSIKA_proton_sims}). For a given \gls{pcr} energy, the mean distribution of radial footprints was calculated by averaging over all of the individual simulations. Figure~\ref{fig:shower_footprints} shows the radial distribution of muons at ground level for air showers induced by vertically incident protons and $\alpha$-particles.
 
 In addition to the vertically induced air showers, we also repeated the simulations for air showers randomly selected from a uniform distribution of incident angles between 0$^\circ$ (vertical) and 70$^\circ$, to provide a simulation that is more physically representative of \glspl{cr} arriving from all directions. Radial distributions of muons were produced, similar to those in Figure~\ref{fig:shower_footprints}, but they are not shown here as the difference is not drastically different by-eye.
 
@@ -692,9 +718,11 @@ In addition to the vertically induced air showers, we also repeated the simulati
 	\caption{Mean muon density footprints for (a) proton-initiated air showers and (b) $\alpha$-particle-initiated air showers with initial PCR trajectories with zenith angles $\theta=0^{\circ}$ and various PCR energies. The error bars given represent 1$\sigma$.} \label{fig:shower_footprints}
 \end{figure}
 
-The interpretation of Figure~\ref{fig:shower_footprints} provides an understanding of the minimum energy \glspl{pcr} observable by the different stations within the \gls{hisparc} network. The typical separation between the detectors in a \gls{hisparc} station is $\sim 10$~m; however, the separation between detectors varies from station-to-station and can be up to as much as some 20~m or as low as just a couple of metres. From these simulations we inferred that the variation in \gls{pcr} energy sampled varies marginally over this range of \gls{hisparc} detector separations and suggests that \gls{hisparc} stations will typically observe \glspl{pcr} with an energy on the order of $\sim 10^{15}$~eV and above, as they produce a sufficient density of muons to meet the required trigger conditions of \gls{hisparc}. This agrees with what was found by \cite{van_dam_hisparc_2020}.
+The interpretation of Figure~\ref{fig:shower_footprints} provides an understanding of the minimum energy \glspl{pcr} observable by the different stations within the \gls{hisparc} network. The typical separation between the detectors in a \gls{hisparc} station is $\sim 10$~m; however, the separation between detectors varies from station-to-station and can be up to as much as some 20~m or as low as just a couple of metres. From these simulations, for two \gls{hisparc} detectors separated by $\sim 10$~m to be triggered by two muons from the same shower, we would require a density of $\sim 0.005 \, \upmu \, \mathrm{m}^{-2}$, suggesting that \gls{hisparc} stations typically observe \glspl{pcr} with a minimum energy on the order of $\sim 10^{13} - 10^{14}$~eV. This agrees with what was found by \cite{van_dam_hisparc_2020}.
 
-This helps to explain why the \glspl{gle} and \glspl{fd} were not observed in the \gls{hisparc} events data. The effects of \glspl{gle} and \glspl{fd} are more prominent at lower \gls{pcr} rigidities and the air showers induced by the lower rigidity \gls{pcr} [PROBABLY NEED TO DROP SOME CITATIONS IN HERE!!] are not sufficient to induce an air shower that will trigger multiple detectors in a station. We see that lower energy \glspl{pcr} do not produce \glspl{eas}, but rather a very diffuse scattering of muons reach ground level. It is therefore clearer why we did not observe any \glspl{gle} in the events data, as the \gls{sep}-induced muons are insufficiently spread to trigger multiple detectors in coincidence. It would have been more likely to have observed \glspl{gle} in the singles data, as this only records the count rate of an individual detector. For a single 1~m~x~0.5~m detector, we typically expect to observe \glspl{pcr} with an energy on the order of $\sim 10^{14}$~eV However, again they were not observed, which may be explained looking at the flux of muons at ground level.
+% we inferred that the variation in \gls{pcr} energy sampled varies marginally over this range of \gls{hisparc} detector separations. Furthermore it 
+
+This helps to explain why the \glspl{gle} and \glspl{fd} were not observed in the \gls{hisparc} events data. The effects of \glspl{gle} and \glspl{fd} are more prominent at lower \gls{pcr} rigidities \citep{belov_solar_2005} and we showed here the air showers induced these particles are not sufficient to induce an air shower that will trigger multiple detectors in a station. We see that lower energy \glspl{pcr} do not produce \glspl{eas}, but rather a very diffuse scattering of muons reach ground level. It is therefore clearer why we did not observe any \glspl{gle} in the events data, as the \gls{sep}-induced muons are insufficiently spread to trigger multiple detectors in coincidence. It would have been more likely to have observed \glspl{gle} in the singles data, as this only records the count rate of an individual detector, which has been shown to have a high muon-detection efficiency close to $100\%$ \citep{van_dam_hisparc_2020}. However, again the space weather events were not observed in the \gls{hisparc} singles data, which may be further explained by instead investigating the flux of muons at ground level.
 
 %\begin{table}
 %	\begin{center}
@@ -717,20 +745,22 @@ This helps to explain why the \glspl{gle} and \glspl{fd} were not observed in th
 
 Another output from the \gls{corsika} simulations was the energy of the muons that reach ground level. From the air shower simulations it was therefore possible to compute an estimate of the energy distribution of the number of muons are produced per \gls{pcr}. Figure~\ref{fig:shower_muons} shows the energy distribution of muons produced per primary \gls{pcr}, for air showers induced by vertically incident protons and $\alpha$-particles.
 
+The vertically incident air showers provides an upper boundary on the muon flux, but we also repeated the simulations for air showers randomly selected from a uniform distribution of incident angles between 0$^\circ$ (vertical) and 70$^\circ$, to provide a more physically representative flux. Similar plots were produced to those in Figure~\ref{fig:shower_muons}, but they are not shown here, as the difference is not drastically different by-eye. 
+
+
 \begin{figure}[ht!]
 	\centering
 	\subfloat[Proton initiated air shower. \label{fig:p_muons}]{\includegraphics[width=0.47\columnwidth]{proton_muon_number.pdf}} 
 	\qquad
 	\subfloat[$\alpha$-particle initiated air shower. \label{fig:a_muons}]{\includegraphics[width=0.47\columnwidth]{alpha_muon_number.pdf}}
-	\caption{Mean number of muons produced at ground level by the PCR for (a) proton-initiated air showers and (b) $\alpha$-particle-initiated air showers, for various PCR energy.}
+	\caption{Mean number of muons produced at ground level by the PCR for (a) proton-initiated air showers and (b) $\alpha$-particle-initiated air showers, for various PCR energies.}
 	\label{fig:shower_muons}
 \end{figure}
 
-The vertically incident air showers provides an upper boundary on the muon flux, but we also repeated the simulations for air showers randomly selected from a uniform distribution of incident angles between 0$^\circ$ (vertical) and 70$^\circ$, to provide a more physically representative flux. Similar plots were produced to those in Figure~\ref{fig:shower_muons}, but they are not shown here, as the difference is not drastically different by-eye. 
 
-We see from this analysis that \glspl{pcr} with an energy less than $\sim 10^{11}-10^{12}$~eV produce on the order of only one muon that reaches ground level, and below this \glspl{pcr} energy, it is rare that any muons arrive at ground. This helps explain why the \glspl{gle} were not observed in the \gls{hisparc} events data. The effects of \glspl{gle} and \glspl{fd} are more prominent at lower \gls{pcr} rigidities, i.e. energies $<10^9$~eV. The air showers induced by the lower rigidity \glspl{pcr} are not sufficient to produce significant variations in the flux of the muons at ground level, thus we do not observe a variation from the typical \glspl{sep} that induce \glspl{gle}.
+We see from this analysis that \glspl{pcr} with an energy less than $\sim 10^{11}-10^{12}$~eV produce on the order of only one muon that reaches ground level, and below this \glspl{pcr} energy, it is rare that any muons arrive at ground level. Knowing the effects of \glspl{gle} and \glspl{fd} are more prominent at lower \gls{pcr} rigidities \citep{belov_solar_2005}, i.e. energies $<10^9$~eV, this helps explain why the space weather events were not observed in the \gls{hisparc} events data. The air showers induced by the lower rigidity \glspl{pcr} are insufficient to produce significant variations in the flux of the muons at ground level, thus we do not observe a variation from the typical \glspl{sep} that induce \glspl{gle}.
 
-We also used the data from the simulations to estimate the total muon flux at ground level, based on the \gls{pcr} flux at the top of the atmosphere. We used a model for the \gls{gcr} flux at Solar Maximum \citep{corti_numerical_2019}, which utilised measurements from the \gls{ams} on-board the \gls{iss}. Figure~\ref{fig:CORSIKA_muon_spectra} shows the computed differential flux of muons at ground level, based on the simulations of vertically incident \glspl{pcr} and those randomly simulated within a 70$^\circ$ acceptance cone.
+We also used the data from the simulations to estimate the total muon flux at ground level, based on the \gls{pcr} flux at the top of the atmosphere. We used a model for the \gls{gcr} flux at Solar Maximum \citep{corti_numerical_2019}, which utilised measurements from the \gls{ams} on-board the \gls{iss} to estimate the flux of \glspl{pcr} at the top of the atmosphere. Figure~\ref{fig:CORSIKA_muon_spectra} shows the computed differential flux of muons at ground level, based on the simulations of vertically incident \glspl{pcr} and those randomly simulated within a 70$^\circ$ acceptance cone. From Figure~\ref{fig:CORSIKA_muon_spectra}, we see that the ground-based flux is similar for both types of simulation performed. In both, the low-energy muon flux dominates, and peak at a muon energy of $\sim 1$~GeV.
 
 % (do this by integrating under curve, using 70-degre half-angle cone for solid angle, and area of 0.5m2)
 % i.e. in python doing doing:
@@ -748,25 +778,24 @@ We also used the data from the simulations to estimate the total muon flux at gr
 %\end{figure}
 \begin{figure}[ht!]
 	\centering
-	\subfloat[...]{\includegraphics[width=0.47\columnwidth]{Total_Muon_Diff_Flux_Comparison.pdf}} 
+	\subfloat[Differential muon flux]{\includegraphics[width=0.47\columnwidth]{Total_Muon_Diff_Flux_Comparison.pdf}} 
 	\qquad
-	\subfloat[...]{\includegraphics[width=0.47\columnwidth]{Total_Muon_Flux_Comparison.pdf}}
-	\caption{...}
+	\subfloat[Muon flux through a single HiSPARC detector]{\includegraphics[width=0.47\columnwidth]{Total_Muon_Flux_Comparison.pdf}}
+	\caption{Ground level muon spectra as computed in the CORSIKA simulations. (a) shows the differential muon flux at ground level; (b) shows the muon flux through a single HiSPARC detector. In both plots the solid, blue line shows the simulations using vertically incident PCRs, and the dashed, orange line shows the simulations using PCRs incident within a cone of $70^{\circ}$.}
 	\label{fig:CORSIKA_muon_spectra}
 \end{figure}
 
 
-From Figure~\ref{fig:CORSIKA_muon_spectra}, we see that the ground-based flux is similar for both types of simulation performed. In both, the low-energy muon flux dominates, and peak at a muon energy of $\sim 1$~GeV.
 
-Finally, we used these calculated spectra to determine the expected rate of muons passing through a single \gls{hisparc} detector. We computed the rates as: $85.365 \, \mu/\mathrm{s}$ (for non-vertical, i.e. $70^\circ$ acceptance cone simulations), and $156.924 \, \mu/\mathrm{s}$ (for vertical simulations). These rates are comparable to the generally accepted, average ground level muon flux on the order of $\sim 1$ per cm$^2$ per second \citep{blackmore_terrestrial_2015, pereira_ground_2020}.
+The calculated spectra were used to determine the expected rate of muons passing through a single \gls{hisparc} detector. We computed the rates: $85.365 \, \upmu/\mathrm{s}$ (for non-vertical, i.e. $70^\circ$ acceptance cone simulations), and $156.924 \, \upmu/\mathrm{s}$ (for vertical simulations). These rates are comparable to the generally accepted, average ground level muon flux on the order of $\sim 1$ per cm$^2$ per second \citep{blackmore_terrestrial_2015, pereira_ground_2020}.
 
-To understand, from the \gls{corsika} simulations, how the count rate changed during a \gls{gle}, we required the \gls{pcr} spectrum during these events. This information is not so easily acquired; however, there is a tool which provided muon fluxes based on the \gls{gcr} spectrum and also \gls{gle} spectra, which is described in the next section.
+To understand, from the \gls{corsika} simulations, how the count rate changed during a \gls{gle}, we required the \gls{pcr} spectrum during these space weather events. Unfortunately this information was not so easily acquired; however, there is a tool which provided muon fluxes based on the \gls{gcr} spectrum and also \gls{gle} spectra, which is described in the next section.
 
 
 
 \subsection{Muon Flux From MAIRE}\label{sec:MAIRE_flux}
 
-As a further comparison, we used the online \gls{maire} tool to compute the muon spectrum at ground level. \gls{maire} allows the computation of the secondary particle spectra in the atmosphere, caused by \glspl{sep}, including the ground level neutron and muon fluxes. \gls{maire} has an advantage of also having the \gls{pcr} spectra for a number of \glspl{gle} built-in; however, they are for the strongest \glspl{gle} to-date. The \glspl{gle} within the \gls{maire} tool are detailed in Table~\ref{tab:MAIRE_GLEs}, also providing the maximum increase in count rate, as observed in the \gls{nmdb}, as a reference.
+As a further comparison, to investigate how the muon flux varies during \glspl{gle} we used the online \gls{maire} tool to compute the muon spectrum at ground level. \gls{maire} allows the computation of the secondary particle spectra in the atmosphere, caused by \glspl{sep}, including the ground level neutron and muon fluxes. \gls{maire} has an advantage of also having the \gls{pcr} spectra for a number of \glspl{gle} built-in; however, they are for the strongest \glspl{gle} to-date. The \glspl{gle} within the \gls{maire} tool are detailed in Table~\ref{tab:MAIRE_GLEs}, also providing an estimate for the maximum increase in count rate, as observed in the \gls{nmdb}, as a reference.
 
 \begin{table}[ht!]
 	\begin{center}
@@ -789,10 +818,10 @@ As a further comparison, we used the online \gls{maire} tool to compute the muon
 	\end{center}
 \end{table}
 
-The \glspl{gle} incorporated in the \gls{maire} tool predate the existence of the \gls{hisparc} network; as a result, the simulations are not directly informative on the \glspl{gle} we were investigating in Table~\ref{tab:space_weather_events}. Nevertheless, the \gls{maire} simulations helped in our understanding of whether it is likely that we could observe a \gls{gle} with the \gls{hisparc} network.
+The \glspl{gle} incorporated in the \gls{maire} tool predate the existence of the \gls{hisparc} network; as a result, the simulations are not directly informative on the \glspl{gle} we were investigating in Table~\ref{tab:space_weather_events}. Nevertheless, the \gls{maire} simulations helped in our understanding of whether it was likely or possible to observe a \gls{gle} using data acquired by the \gls{hisparc} network.
 
 
-We first use the \gls{maire} tool to simulate the spectra for the background \glspl{gcr} and the seven \glspl{gle} at the Nikhef (501) \gls{hisparc} station. Figure~\ref{fig:MAIRE_muon_spectra} shows the muon spectra for the \gls{gcr} spectrum at solar minimum, and the additional muon spectrum for seven of the largest \glspl{gle} to date (which are additive to the \gls{gcr} spectrum).
+We first used the \gls{maire} tool to simulate the spectra for the background \glspl{gcr} and the seven \glspl{gle} at the Nikhef (501) \gls{hisparc} station. Figure~\ref{fig:MAIRE_muon_spectra} shows the muon spectra for the \gls{gcr} spectrum at solar minimum, and the additional muon spectrum for seven of the largest \glspl{gle} to date (which are additive to the \gls{gcr} spectrum).
 
 
 \begin{figure}[ht!]
@@ -800,41 +829,43 @@ We first use the \gls{maire} tool to simulate the spectra for the background \gl
 	\subfloat[Separate GCR and GLE Muon Spectra]{\includegraphics[width=0.47\columnwidth]{Muon_Diff_Flux.pdf}} 
 	\qquad
 	\subfloat[Sum of GCR and GLE Muon Spectra]{\includegraphics[width=0.47\columnwidth]{Muon_Diff_Flux_Additive.pdf}}
-	\caption{Plots of the calculated MAIRE muon spectra for different incident spectra. Blue and orange lines show muon spectra calculated for the incident GCR spectra during solar minimum and maximum, respectively. The other coloured lines show the computed muon spectra for the incident GLE spectra. (a) shows the individual muon spectra for GCRs and GLEs; (b) shows the combined muon spectra for the GCR at solar maximum and the GLEs.}
+	\caption{Plots of the calculated MAIRE muon spectra for different incident PCR spectra. Blue and orange lines show muon spectra calculated for the incident GCR spectra during solar minimum and maximum, respectively. The other coloured lines show the computed muon spectra for the incident GLE spectra. (a) shows the individual muon spectra for GCRs and GLEs; (b) shows the combined muon spectra for the GCR at solar maximum and the GLEs.}
 	\label{fig:MAIRE_muon_spectra}
 \end{figure}
 
 
-The \gls{gcr}-induced muon spectrum in Figure~\ref{fig:MAIRE_muon_spectra} roughly agrees with that computed using \gls{corsika}, which gives us confidence in the results of both simulations. We can see that the effect on the muon spectrum drastically varies for the seven \glspl{gle}, with \gls{gle} 5 clearly the largest event.
+The \gls{gcr}-induced muon spectrum in Figure~\ref{fig:MAIRE_muon_spectra} roughly agrees with that computed using \gls{corsika}, which gave us confidence in the results of both simulations. We can see that the effect on the muon spectrum drastically varies for the seven \glspl{gle}, with \gls{gle} 5 clearly the largest event.
 
-Prior to inferring any conclusions about the muon spectra at the \gls{hisparc} stations, as the \gls{maire} tool provides the neutron flux, we verified the accuracy of the \gls{maire} results by comparing the observed increases in \gls{nm} count rates to those predicted by \gls{maire}. To reduce the effects of strong anisotropy when comparing to \gls{hisparc}, we chose to analyse the \gls{nm} count rate at a mid-latitude station, Kiel, which is located in Germany and is the nearest \gls{nm} to the \gls{hisparc} network. The properties of the Kiel station are: $R_C$=2.36~GV, Altitude=54~m, Latitude=$54.34^{\circ}$N, Longitude=$10.12^{\circ}$E \citep{nmdb_nmdb_nodate}.
+Prior to inferring any conclusions about the muon spectra at the \gls{hisparc} stations, as the \gls{maire} tool provides the neutron flux, we verified the accuracy of the \gls{maire} results by comparing the observed increases in \gls{nm} count rates to those predicted by \gls{maire}. To reduce any effects of strong anisotropy, when comparing to \gls{hisparc}, we chose to analyse the \gls{nm} count rate at a mid-latitude station, Kiel, which is located in Germany and is the nearest \gls{nm} to the \gls{hisparc} network. The properties of the Kiel station are: $R_C$=2.36~GV, Altitude=54~m, Latitude=$54.34^{\circ}$N, Longitude=$10.12^{\circ}$E \citep{nmdb_nmdb_nodate}.
 
 Table~\ref{tab:KIEL_GLEs} shows a comparison between the observed neutron count increase, measured using data from the \gls{nmdb}, and the increases predicted by \gls{maire}. The Kiel \gls{nm} station was not online in 1956, during the epoch of \gls{gle} 5, therefore this event has been omitted from these results. The \gls{maire} increases were calculated by comparing the integrated \gls{gle} flux to the integrated background \gls{gcr} flux at that epoch, including the effects of the disturbances in the Earth's magnetic field from the planetary K-index ($K_p$). In addition, the muon count increases predicted by \gls{maire} are also shown in Table~\ref{tab:KIEL_GLEs}, for comparison.
 
 \begin{table}[ht!]
 	\begin{center}
-		\caption{Observed and predicted increases in the CR count rates at the Kiel NM station. The observed neutron increases use data from the NMDB, where the errors are the measurement uncertainty from the 5-minute averaged data. The predicted data for the neutrons and muons are from the MAIRE simulations. The ratio column provides a conversion factor from the MAIRE predicted neutron increases compared to those observed.}
+		\caption{Observed and predicted increases in the CR count rates at the Kiel NM station. The observed neutron increases use data from the NMDB, where the errors are the measurement uncertainty from the 5-minute averaged data. The predicted data for the neutrons and muons are from the MAIRE simulations. The ratio column provides a conversion factor from the MAIRE predicted neutron increases compared to those observed. The fraction column shows the proportion of the MAIRE predicted muon increase compared to the MAIRE predicted neutron increase.}
 		\label{tab:KIEL_GLEs}
-		\begin{tabular}{l c c c | c}
+		\begin{tabular}{l c c c | c c}
 			\hline
-			&  \multicolumn{2}{c}{\bf Neutrons Increase} & & {\bf Muons Increase} \\
-			{\bf GLE} & {\bf Observed} & {\bf Predicted} & {\bf Ratio} & {\bf Predicted}\\ 
+			&  \multicolumn{2}{c}{\bf Neutron Increase} & & {\bf Muons Increase} & \\
+			{\bf GLE} & {\bf Observed} & {\bf Predicted} & {\bf Ratio} & {\bf Predicted} & {\bf Fraction}\\ 
 			\hline
-			5 & - & - & - & - \\
-			42 & $\sim~160\pm5$~\% & 88.7\% & 1.80 & 3.98\% \\
-			43 & $\sim~19\pm1$~\% & 59.6\% & 0.32 & 0.790\% \\
-			44  & $\sim~6\pm1$~\% & 2.6\% & 2.30 & 0.00376\% \\
-			45  & $\sim~45\pm2$~\% & 67.9\% & 0.66 & 0.817\% \\
-			59 & $\sim~8\pm1$~\% & 6.1\% & 1.32 & 0.00906\% \\
-			60 & $\sim~24\pm2$~\% & 18.8\% & 1.28 & 0.0814\% \\
+			5 & - & - & - & - & - \\
+			42 & $\sim~160\pm5$~\% & 88.7\% & 1.80 & 3.98\% & 4.45\% \\
+			43 & $\sim~19\pm1$~\% & 59.6\% & 0.32 & 0.790\% & 1.32\% \\
+			44  & $\sim~6\pm1$~\% & 2.6\% & 2.30 & 0.00376\% & 0.14\% \\
+			45  & $\sim~45\pm2$~\% & 67.9\% & 0.66 & 0.817\% & 1.20\% \\
+			59 & $\sim~8\pm1$~\% & 6.1\% & 1.32 & 0.00906\% & 0.15\% \\
+			60 & $\sim~24\pm2$~\% & 18.8\% & 1.28 & 0.0814\% & 0.43\% \\
 			\hline
 		\end{tabular}
 	\end{center}
 \end{table}
 
-We can see from Table~\ref{tab:KIEL_GLEs} that there is a stark contrast between the observed \gls{nm} increase and that predicted by \gls{maire}. One possible cause is, of course, inaccuracy in the predictions; however, more likely it is due to the anisotropy of the \glspl{gle}, as \gls{maire} does not adequately account for anisotropy in the simulations \citep{dyer_calculations_2003, lei_atmospheric_2004}. The ranked ordering from strongest to weakest \glspl{gle} in the observed Kiel data and that predicted by \gls{maire} are in good agreement, suggesting that despite an incorrect amplitude of the increase, generally the 2 data sets agree on which \glspl{gle} were the strongest. The ratio column gives a factor to convert from the \gls{maire} predicted increase to the \gls{nmdb} observed increase. This therefore necessary as a calibration factor, to ensure that there is agreement between the \gls{maire} predictions and the observed data. Furthermore, as the ratio provides us with a calibration to recover the observed increase in neutron counts from the \gls{maire} simulations, we assume the same calibration factor can be applied to the predicted increase in muon count. This conversion is shown in Table~\ref{tab:MAIRE_muons}. In addition, Table~\ref{tab:KIEL_GLEs} shows the significantly lower predicted muon increase, compared to the increase in neutrons. We know this is due to the energy spectrum of the \glspl{pcr}, but the values in Table~\ref{tab:KIEL_GLEs} provides further evidence to show that we may be unable to observe weaker \glspl{gle}.
+We can see from Table~\ref{tab:KIEL_GLEs} that there is a stark contrast between the observed \gls{nm} increase and that predicted by \gls{maire}. One possible cause is inaccuracy in the predictions; however, this is unlikely as \citet{lei_atmospheric_2004} have shown the verificatin of their results versus observations. More likely, the difference is due to the anisotropy of the \glspl{gle}, as \gls{maire} does not adequately account for anisotropy in the simulations \citep{dyer_calculations_2003, lei_atmospheric_2004}. The ranked ordering from strongest to weakest \glspl{gle} in the observed Kiel data and that predicted by \gls{maire} is in good agreement, suggesting that despite an incorrect amplitude of the increase, generally the two data sets agree on which \glspl{gle} were the strongest. The ratio column gives a factor to convert from the \gls{maire} predicted increase to the \gls{nmdb} observed increase. This was used as a calibration factor, to ensure agreement between the \gls{maire} predictions and the observed data. Furthermore, as the ratio provides us with a calibration to recover the observed increase in neutron counts from the \gls{maire} simulations, we assumed the same calibration factor may be applied to the predicted increase in the muon counts. This conversion is shown in Table~\ref{tab:MAIRE_muons}. 
 
-We calculated the increase in muon count rate at several \gls{hisparc} stations, and the predicted rates adjusted by the ratio in Table~\ref{tab:KIEL_GLEs}. These calculations relied on the assumption that the anisotropy does not have a significant effect on the increase observed between the Kiel \gls{nm} station, and the \gls{hisparc} stations in the Netherlands and the UK. The predicted count rates, adjusted for the factors in Table~\ref{tab:KIEL_GLEs}, are shown in Table~\ref{tab:MAIRE_muons}. Again, \gls{gle} 5 has been omitted from these results as the Kiel station was not online then, so we cannot calibrate the \gls{maire} predictions.
+In addition, comparing the fraction of the predicted muon to neutron increase shown in Table~\ref{tab:KIEL_GLEs}, we see the significantly reduced prediction for the muon count increase. We know this is due to the energy spectrum of the \glspl{pcr}, but the values in Table~\ref{tab:KIEL_GLEs} provides a quantitative estimate of this and serves as further evidence to show that we may be unable to observe weaker \glspl{gle} with the \gls{hisparc} network.
+
+We calculated the increase in muon count rate at several \gls{hisparc} stations, and the predicted rates were adjusted by the ratio factor in Table~\ref{tab:KIEL_GLEs}. These calculations relied on the assumption that the anisotropy does not have a significant effect on the increase observed between the Kiel \gls{nm} station, and the \gls{hisparc} stations in the Netherlands and the UK. The predicted count rates, adjusted for the factors in Table~\ref{tab:KIEL_GLEs}, are shown in Table~\ref{tab:MAIRE_muons}. Again, \gls{gle} 5 has been omitted from these results as the Kiel station was not online then, so we cannot calibrate the \gls{maire} predictions.
 
 
 \begin{table}[ht!]
@@ -859,11 +890,13 @@ We calculated the increase in muon count rate at several \gls{hisparc} stations,
 \end{table}
 
 
-The predicted increase in the muon count rates, calculated using the \gls{maire} simulations, for the \gls{nm} station and the \gls{hisparc} stations, in both the Netherlands and the UK, are in near-agreement. Assuming the effects of anisotropy are small, this suggests that the predicted spectra at the \gls{hisparc} stations (adjusted for the calibration factor) are representative of the true increase one would expect to observe.
+The predicted increase in the muon count rates, calculated using the \gls{maire} simulations, for the \gls{nm} station and the \gls{hisparc} stations, in both the Netherlands and the UK, are in near-agreement. Assuming the effects of anisotropy are small, this suggests that the predicted spectra at the \gls{hisparc} stations (adjusted for the calibration factor) are representative of the approximate increase one would expect to observe.
 
-The effects of the \glspl{gle} show only a small increase in the muon count rate, and for most of the \glspl{gle}, only contributes an increase of $< 2 \%$ in the ground-level muon flux, and generally $\ll 1\%$ for the weaker, and likely more frequent standard of, \glspl{gle}. The exception here is \gls{gle} 42. We expect that we would have seen the increase in the \gls{hisparc} data for \gls{gle} 42, but it pre-dates the \gls{hisparc} project. We expect the same would have been true also for \gls{gle} 5, but we do not have the Kiel data to form the calibration, to predict the increase. \gls{gle} 5 was an exceptionally large event, for which we haven't seen anything similar in over half a decade. Such events are rare, and we expect that the energies involved would have shown a significant increase in the \gls{hisparc} count rate.
+The effect of the \glspl{gle} show only a small increase in the muon count rate, and for most of the events induces an increase of $< 2 \%$ in the ground-level muon flux. Furthermore, for the weaker, and likely more frequent standard of, \glspl{gle}, an increase of $\ll 1\%$ was predicted. The exception in these events is \gls{gle} 42. We expect that we would have seen the increase in the \gls{hisparc} data for \gls{gle} 42, but it pre-dates the \gls{hisparc} project and thus it cannot be verified. We expect the same would have been true also for \gls{gle} 5, but we do not have the Kiel data to form the calibration, to predict the increase. \gls{gle} 5 was an exceptionally large event, for which we haven't seen anything similar in over half a decade. Such events are rare, and we expect that the energies involved would have shown a significant increase in the \gls{hisparc} count rate.
 
-These simulations, combined with the values given in Table~\ref{tab:space_weather_events}, suggest that we would have expected an increase in the muon spectrum of no more than $\sim 1\%$ (and more likely $< 0.1\%$) for both \gls{gle} 71 and 72, which rules their observation with \gls{hisparc} as extremely unlikely and may explain why we were unable to observe them in the earlier investigation. Therefore, from these results we must conclude that the \gls{hisparc} network, in its current state, is unable to observe the `typical', frequent standard \glspl{gle}, but it is likely able to observe the rare, highly energetic events, such as those seen in 1956 leading to \gls{gle} 5.
+These simulations, combined with the values given in Table~\ref{tab:space_weather_events}, suggest that we would have expected an increase in the muon spectrum of $< 0.1\%$ for both \gls{gle} 71 and 72, which rules their observation with \gls{hisparc} as extremely unlikely and may explain why we were unable to observe them in the preceding investigation in this chapter. \gls{gle} 70 induced a larger increase in the Kiel neutron counts on the order of $\sim 30\%$, but comparing this with similar values in Table~\ref{tab:KIEL_GLEs} and Table~\ref{tab:MAIRE_muons} suggests we would still only expect an increase in the \gls{hisparc} count rate between $\sim 0.1 - 2 \%$. In each of these cases it is very unlikely that we would have observed the \glspl{gle} using the \gls{hisparc} network.
+
+From these results we must therefore conclude that the \gls{hisparc} network, in its current state, is unable to observe the `typical' \glspl{gle}, but it is likely able to observe the rare, highly energetic events, such as that seen in 1956 leading to \gls{gle} 5.
 
 
 
@@ -879,31 +912,31 @@ These simulations, combined with the values given in Table~\ref{tab:space_weathe
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusion}\label{sec:HS_conclusion}
 
-We have presented a feasibility study of using the existing \gls{hisparc} network of muon detectors as a monitor of space weather events through calculating the observing properties of the stations, investigating the presence of signatures of space weather events in the existing data for five \gls{hisparc} stations, both in its raw form and after performing corrections for atmospheric effects, and performing cosmic ray air shower simulations.
+We have presented a feasibility study on using the existing \gls{hisparc} network of muon detectors to monitor space weather events. This was performed through calculating the observing properties of \gls{hisparc} stations, investigating the presence of space weather signatures in the existing data for five \gls{hisparc} stations, both in its raw form and after performing corrections for atmospheric effects, and by performing cosmic ray air shower simulations.
 
-Using simulations of the interactions between \glspl{cr} with the Earth's magnetosphere in the PLANETOCOSMICS tool, we were able to calculate the rigidty cut-off and \glspl{avd} of the \gls{hisparc} stations. We showed that the rigitidy cut-off limits the \glspl{pcr} to particles with energies on the order of and above $\sim 10^9$~eV. The \glspl{avd} were useful in demonstrating that lower rigidity \glspl{pcr} that are observable are deflected significantly by the Earth's magnetosphere that we can observe solar eruptive events when the station is not in-line with the Sun.
+Using simulations of the interactions of \glspl{cr} with the Earth's magnetosphere in the PLANETOCOSMICS tool, we were able to calculate the rigidty cut-off and \glspl{avd} of the \gls{hisparc} stations. We showed that the rigitidy cut-off limits the \glspl{pcr} to particles with energies on the order of and above $\sim 10^9$~eV. The \glspl{avd} were useful in demonstrating that the observable, lower rigidity \glspl{pcr} are deflected significantly by the Earth's magnetosphere and we may observe solar eruptive events when the station is not pointing in a direction in-line with the Sun.
 
-In the raw \gls{hisparc} data we found that we were unable to clearly detect signatures of the \glspl{fd} or \glspl{gle} that have occurred over the lifetime of the \gls{hisparc} network. It was observed that a major factor making it difficult to observe the space weather signatures was due to atmospheric effects causing additional variations in the data. Using a linear relationship between the logarithm of the normalised \gls{cr} counts against both the zero-centred pressure and temperature, the atmospheric effects were removed from the data.
+In the raw \gls{hisparc} data we found that we were unable to clearly detect signatures of the \glspl{fd} or \glspl{gle} that have occurred over the lifetime of the \gls{hisparc} network. It was observed that a major obstructing factor was due to atmospheric effects causing additional variations in the data. Using a linear relationship between the logarithm of the normalised \gls{cr} counts against both the zero-centred pressure and temperature, the atmospheric effects were removed from the data.
 
-After the removal of the atmospheric effects, when investigation the correct \gls{hisparc} data we found that we were still unable to observe any \glspl{gle}. The same was true for most of the \glspl{fd}; however, we do speculate that we were able to observe a signature of a \gls{fd} in December 2014. 
+After the removal of the atmospheric effects, when investigating the corrected \gls{hisparc} data we found that we were still unable to observe any \glspl{gle}. The same was true for most of the \glspl{fd}; however, we do speculate that we were able to observe a signature of the \gls{fd} in December 2014. 
 
-A further study was conducted to understand the flux of muons at ground level, and in particular how the flux varies during \glspl{gle}. Using Monte Carlo simulations of particle transport through the atmosphere for given incident \glspl{pcr}, were were able to interrogate the number and radial distribution of muons arriving at ground levels per \gls{pcr}, which highlighted that the flux of muons is very low for \glspl{pcr} with energies less than of in the region of the rigidity cut-off of the \gls{hisparc} stations. This analysis therefore showed that any increase in the \gls{cr} count from \glspl{gle} would likely be very low, due to the diffuse nature of the air showers induced by low-energy \glspl{pcr} associated with causing \glspl{gle}
+A further study was conducted to understand the flux of muons at ground level, and in particular how the flux varies during \glspl{gle}. Using Monte Carlo simulations of particle transport through the atmosphere for incident \glspl{pcr}, with \gls{corsika}, were were able to interrogate the number and radial distribution of muons arriving at ground-level per \gls{pcr}. This highlighted that the flux of muons is very low for \glspl{pcr} with energies less than, or in the region of, the rigidity cut-off of the \gls{hisparc} stations. This analysis therefore showed that any increase in the \gls{cr} count from \glspl{gle} would likely be very low, due to the diffuse nature of the air showers induced by the low-energy \glspl{pcr} that primarily make up the \gls{gle}-inducing \gls{sep} spectra.
 
-To expand on this analysis, a comparative study was conducted using the \gls{maire} tool. This allowed us to directly predict the increase in \gls{cr} counts based on simulations of incident \glspl{pcr}, and compare the output muon spectra from \glspl{gcr} and \glspl{gle}. A calibration was necessary, to ensure that the \gls{maire} predictions were consistent with the \gls{nmdb} observations; however, upon applying this calibration, we were able to show that the predicted increase in the muon count rate was significantly lower than the neutron count rate, for each of the six \glspl{gle} studied. This led us to conclude that the \gls{hisparc} network will be only capable of observing the most energetic \glspl{gle}, which occur less frequently than their lower energy equivalents.
+Expanding on this analysis, a comparative study was conducted using the \gls{maire} tool. This allowed us to directly predict the increase in \gls{cr} counts based on simulations of incident \glspl{pcr}, comparing the output muon flux from \glspl{gcr} and \glspl{gle}. A calibration was necessary to ensure that the \gls{maire} predictions were consistent with the \gls{nmdb} observations; however, upon applying this calibration, we were able to show that the predicted increase in the muon count rate was significantly lower than the neutron count rate, for each of the six \glspl{gle} studied. This led us to conclude that the \gls{hisparc} network will be only capable of observing the most energetic \glspl{gle}, which occur less frequently than their lower energy equivalents.
 
 We leave the reader with the following points:
 
 \begin{enumerate}
-	\item{The rigidity cut-off and \glspl{avd} of the \gls{hisparc} stations were calculated using \gls{pcr} transport simulations. We found the \gls{hisparc} stations generally have a cut-off rigidity in the range, $R_C \sim 3.0 - 3.5$~GV, setting a limit on the \glspl{pcr} observable on the order of $\sim 10^9$~GeV. The asymptotic viewing directions for the \gls{hisparc} stations are close to equatorial for low rigidity \glspl{pcr}, between $\pm 20^{\circ}$ in latitude, and head towards the station's zenith for high rigidities.
+	\item{The rigidity cut-off and \glspl{avd} of the \gls{hisparc} stations were calculated using \gls{pcr} transport simulations. We found the \gls{hisparc} stations generally have a cut-off rigidity in the range, $R_C \sim 3.0 - 3.5$~GV, setting a limit on the \glspl{pcr} observable on the order of $\sim 10^9$~GeV. The asymptotic viewing directions for the \gls{hisparc} stations are close to equatorial for low rigidity \glspl{pcr}, between $\pm 20^{\circ}$ in latitude, and tend towards the station's zenith for rigidities greater than 20~GV.}
 		
-	\item{Investigations of the raw and atmospheric corrected data showed no signatures of \glspl{gle} in the \gls{hisparc} data. We propose that one \gls{fd} was observed as a $\sim 2\%$ decreased in the atmospheric-effects corrected data; however, none of the other \glspl{fd} were observed in the \gls{hisparc} data.}
+	\item{Investigations of the raw and atmospheric corrected data showed no signatures of \glspl{gle} in the \gls{hisparc} data. We propose that one \gls{fd} was observed as a $\sim 2\%$ decrease in the atmospheric corrected data; however, none of the other events were observed in the \gls{hisparc} data.}
 	
-	\item{The \gls{corsika} air shower simulations showed that the flux of muons at ground level from lower energy \glspl{gcr} is very low, with diffuse air shows induced. With the current configuration of the \gls{hisparc} network, which strongly relies on the triggering of multiple detectors within a station, the observations are biased to higher energies, hence showing a limitation of the \gls{hisparc} network for space weather observations.}
+	\item{The \gls{corsika} air shower simulations showed that the flux of muons at ground level from low-energy \glspl{cr} ($\sim 10^9$~GeV) is very low, with diffuse air shows induced. With the current configuration of the \gls{hisparc} network, which strongly relies on the triggering of multiple detectors within a station, the observations are biased to higher energies, hence showing a limitation of the \gls{hisparc} network for space weather observations.}
 
-	\item{The \gls{maire} simulations showed that for some of the largest \glspl{gle} to-date, we predicted the increase in the \gls{hisparc} count rate to increase on average by no more than $\sim 1\%$, and only the most energetic events, with a low occurrence frequency would induce an increase in the \gls{hisparc} count rate by $>5\%$. This showed that the \gls{hisparc} stations are therefore generally incompatible with monitoring the lower limits of space weather activity, and only suitable as a monitor of the more extreme events.}
+	\item{The \gls{maire} simulations showed that for some of the largest \glspl{gle} to-date, the predicted the increase in the \gls{hisparc} count rate was, on average, no more than $\sim 1\%$. Only the most energetic events, with a low occurrence would induce an increase in the \gls{hisparc} count rate by $>5\%$. This showed that the \gls{hisparc} stations are therefore generally incompatible with monitoring the lower limits of space weather activity, and only suitable as a monitor of the more extreme events.}
 
 \end{enumerate}
 
-This investigation has shown that the feasibility of using the \gls{hisparc} network as a reliable tool for the monitoring of space weather is low; however, we have shown that for some specific cases, we expect to be able to make observations. One of the major issues with the \gls{hisparc} network in its current configurations is the design of the stations. The triggering of multiple detectors biases the stations to observe higher energy \glspl{pcr}. Since 2016, many \gls{hisparc} stations have been sending the count rates of the individual detectors, the singles rates, which overcomes this biasing problem; however, this data is often inconsistent between stations and demonstrates a strong diurnal variation. The current method of removing the temperature-induced diurnal variation uses the atmospheric temperature, and not the temperature inside of the rooftop boxes, which we believe will have a stronger relationship and provide more accurate removal of the temperature variation in the data.
+This investigation has shown that the feasibility of using the \gls{hisparc} network as a reliable tool for the monitoring of space weather is low; however, we have shown that for some specific cases, we expect to be able to make observations. One of the major issues with the \gls{hisparc} network in its current configurations is the design of the stations. The triggering of multiple detectors biases the stations to observe higher energy \glspl{pcr}. Since 2016, several \gls{hisparc} stations have been providing the count rates of the individual detectors (the singles rates), which overcomes this biasing problem; however, this data is often inconsistent between stations and also demonstrates a strong diurnal variation that we believe is the manifestiation of thermal noise. 
 
-To overcome these effects, in the next chapter, we investigate the benefits of changing the configuration of a \gls{hisparc} station, to determine whether we can improve the capabilities of the \gls{hisparc} stations as a space weather monitoring network.
+The current method of removing the temperature-induced diurnal variation uses the atmospheric temperature, and not the temperature inside of the rooftop boxes, as it is the only temperature data available. We believe monitoring the temperature in the boxes themselves would provide a more accurate measure of the \gls{pmt} temperature and hence the thermally induced noise, thus it will show a stronger relationship and provide a more accurate removal of this variation in the data. To overcome these effects, in the next chapter, we investigate the benefits of changing the configuration of a \gls{hisparc} station, to determine whether we can improve the capabilities of the \gls{hisparc} network to monitor space weather.

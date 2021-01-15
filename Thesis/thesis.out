@@ -1,39 +1,27 @@
 \BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 1
 \BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 2
 \BOOKMARK [0][-]{chapter*.5}{List of Abbreviations}{}% 3
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
+\BOOKMARK [0][-]{chapter.1}{HiSPARC as a Space Weather Detector}{}% 4
 \BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.2}{Space Weather}{chapter.1}% 6
-\BOOKMARK [2][-]{subsection.1.2.1}{Forbush Decreases}{section.1.2}% 7
-\BOOKMARK [2][-]{subsection.1.2.2}{Ground Level Enhancements}{section.1.2}% 8
-\BOOKMARK [1][-]{section.1.3}{Cosmic Rays}{chapter.1}% 9
-\BOOKMARK [2][-]{subsection.1.3.1}{...}{section.1.3}% 10
-\BOOKMARK [1][-]{section.1.4}{The HiSPARC Experiment}{chapter.1}% 11
-\BOOKMARK [2][-]{subsection.1.4.1}{HiSPARC Project}{section.1.4}% 12
-\BOOKMARK [2][-]{subsection.1.4.2}{HiSPARC Detector and Station Configuration}{section.1.4}% 13
-\BOOKMARK [1][-]{section.1.5}{The Solar Mean Magnetic Field}{chapter.1}% 14
-\BOOKMARK [2][-]{subsection.1.5.1}{...}{section.1.5}% 15
-\BOOKMARK [0][-]{chapter.2}{HiSPARC as a Space Weather Detector}{}% 16
-\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.2}{Aims}{chapter.2}% 18
-\BOOKMARK [1][-]{section.2.3}{HiSPARC Data}{chapter.2}% 19
-\BOOKMARK [1][-]{section.2.4}{Station Properties}{chapter.2}% 20
-\BOOKMARK [2][-]{subsection.2.4.1}{Cut-Off Rigidity}{section.2.4}% 21
-\BOOKMARK [2][-]{subsection.2.4.2}{Asymptotic Viewing Directions}{section.2.4}% 22
-\BOOKMARK [1][-]{section.2.5}{HiSPARC Observations}{chapter.2}% 23
-\BOOKMARK [2][-]{subsection.2.5.1}{Observations of Ground Level Enhancements}{section.2.5}% 24
-\BOOKMARK [2][-]{subsection.2.5.2}{Observations of Forbush Decreases}{section.2.5}% 25
-\BOOKMARK [1][-]{section.2.6}{Atmospheric Corrections of HiSPARC Data}{chapter.2}% 26
-\BOOKMARK [2][-]{subsection.2.6.1}{Motivation}{section.2.6}% 27
-\BOOKMARK [2][-]{subsection.2.6.2}{Barometric Correction}{section.2.6}% 28
-\BOOKMARK [2][-]{subsection.2.6.3}{Temperature Correction}{section.2.6}% 29
-\BOOKMARK [1][-]{section.2.7}{HiSPARC Observations After Atmospheric Corrections}{chapter.2}% 30
-\BOOKMARK [2][-]{subsection.2.7.1}{Observations of Ground Level Enhancements}{section.2.7}% 31
-\BOOKMARK [2][-]{subsection.2.7.2}{Observations of Forbush Decreases}{section.2.7}% 32
-\BOOKMARK [1][-]{section.2.8}{Air Shower Simulations}{chapter.2}% 33
-\BOOKMARK [2][-]{subsection.2.8.1}{Motivation}{section.2.8}% 34
-\BOOKMARK [2][-]{subsection.2.8.2}{Air Shower Footprints}{section.2.8}% 35
-\BOOKMARK [2][-]{subsection.2.8.3}{Muon Flux}{section.2.8}% 36
-\BOOKMARK [2][-]{subsection.2.8.4}{Muon Flux From MAIRE}{section.2.8}% 37
-\BOOKMARK [1][-]{section.2.9}{Conclusion}{chapter.2}% 38
-\BOOKMARK [0][-]{Item.4}{Bibliography}{}% 39
+\BOOKMARK [1][-]{section.1.2}{Aims}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.3}{HiSPARC Data}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.4}{Station Properties}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.4.1}{Cut-Off Rigidity}{section.1.4}% 9
+\BOOKMARK [2][-]{subsection.1.4.2}{Asymptotic Viewing Directions}{section.1.4}% 10
+\BOOKMARK [1][-]{section.1.5}{HiSPARC Observations}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.5.1}{Observations of Ground Level Enhancements}{section.1.5}% 12
+\BOOKMARK [2][-]{subsection.1.5.2}{Observations of Forbush Decreases}{section.1.5}% 13
+\BOOKMARK [1][-]{section.1.6}{Atmospheric Corrections of HiSPARC Data}{chapter.1}% 14
+\BOOKMARK [2][-]{subsection.1.6.1}{Motivation}{section.1.6}% 15
+\BOOKMARK [2][-]{subsection.1.6.2}{Barometric Correction}{section.1.6}% 16
+\BOOKMARK [2][-]{subsection.1.6.3}{Temperature Correction}{section.1.6}% 17
+\BOOKMARK [1][-]{section.1.7}{HiSPARC Observations After Atmospheric Corrections}{chapter.1}% 18
+\BOOKMARK [2][-]{subsection.1.7.1}{Observations of Ground Level Enhancements}{section.1.7}% 19
+\BOOKMARK [2][-]{subsection.1.7.2}{Observations of Forbush Decreases}{section.1.7}% 20
+\BOOKMARK [1][-]{section.1.8}{Air Shower Simulations}{chapter.1}% 21
+\BOOKMARK [2][-]{subsection.1.8.1}{Motivation}{section.1.8}% 22
+\BOOKMARK [2][-]{subsection.1.8.2}{Air Shower Footprints}{section.1.8}% 23
+\BOOKMARK [2][-]{subsection.1.8.3}{Muon Flux}{section.1.8}% 24
+\BOOKMARK [2][-]{subsection.1.8.4}{Muon Flux From MAIRE}{section.1.8}% 25
+\BOOKMARK [1][-]{section.1.9}{Conclusion}{chapter.1}% 26
+\BOOKMARK [0][-]{Item.4}{Bibliography}{}% 27

@@ -156,7 +156,7 @@ and $\mu_B$ is the Bohr magneton, $h$ is Planck's constant, $c$ is the speed of 
 	\subfloat[BiSON SMMF 40-second cadence time series \label{fig:SMMF_TS}]{\includegraphics[width=0.99\columnwidth]{BiSON_full_TS.pdf}} \\ 
 	\centering
 	\subfloat[Power spectral density of the BiSON SMMF \label{fig:SMMF_FT}]{\includegraphics[width=\columnwidth]{BiSON_lin_mu_PSD.pdf}}
-	\caption{(a) 40-second cadence observations of the SMMF from the Sutherland BiSON station between 1992 and 2012. The sense of the field was chosen to match the \citet{chaplin_studies_2003} and the WSO observations, where positive is for a field pointing outwards from the Sun. (b) Power spectrum of the SMMF on a 40-second cadence truncated to $10 \mu\mathrm{Hz}$, however, the Nyquist frequency is $12500 \mu\mathrm{Hz}$.}  
+	\caption{(a) 40-second cadence observations of the SMMF from the Sutherland BiSON station between 1992 and 2012. The sense of the field was chosen to match the \citet{chaplin_studies_2003} and the WSO observations, where positive is for a field pointing outwards from the Sun. (b) Power spectrum of the SMMF on a 40-second cadence truncated to $10 \upmu\mathrm{Hz}$, however, the Nyquist frequency is $12500 \upmu\mathrm{Hz}$.}  
 	\label{fig:BiSON_SMMF}
 \end{figure}
 
@@ -247,7 +247,7 @@ The power spectrum shows a clear set of strong peaks at low frequency, which are
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Identifying Features in the SMMF Power Spectrum}
 
-As we have 40-second cadence observations of the \gls{smmf}, we were able to investigate the power spectrum up to a Nyquist frequency of $12500 \mu\mathrm{Hz}$. There are a number of features within the full power spectrum, shown in Figure~\ref{fig:BiSON_FT_full}.
+As we have 40-second cadence observations of the \gls{smmf}, we were able to investigate the power spectrum up to a Nyquist frequency of $12500 \upmu\mathrm{Hz}$. There are a number of features within the full power spectrum, shown in Figure~\ref{fig:BiSON_FT_full}.
 
 \begin{figure}[ht!]
 	\centering
@@ -256,13 +256,13 @@ As we have 40-second cadence observations of the \gls{smmf}, we were able to inv
 	\label{fig:BiSON_FT_full}
 \end{figure}
 
-The peaks between 0.1 -- 2.0~$\mu\mathrm{Hz}$ are a manifestation of a persistent rotational signal in the \gls{smmf}. The distinct set of peaks indicates the existence of a long-lived, inhomogeneous, \gls{rm} source. The \gls{smmf} signal exhibits a quasi-coherent behaviour in the time domain, and based on the comparatively short timescales for the emergence of magnetic features compared to their slow decay (i.e. hours--days compared to weeks--months) \citep{zwaan_solar_1981, harvey_properties_1993, hathaway_sunspot_2008, dacie_evolution_2016}, we assume the evolution of the \gls{rm} component with time is a sudden appearance and a long, exponential decay.
+The peaks between 0.1 -- 2.0~$\upmu\mathrm{Hz}$ are a manifestation of a persistent rotational signal in the \gls{smmf}. The distinct set of peaks indicates the existence of a long-lived, inhomogeneous, \gls{rm} source. The \gls{smmf} signal exhibits a quasi-coherent behaviour in the time domain, and based on the comparatively short timescales for the emergence of magnetic features compared to their slow decay (i.e. hours--days compared to weeks--months) \citep{zwaan_solar_1981, harvey_properties_1993, hathaway_sunspot_2008, dacie_evolution_2016}, we assume the evolution of the \gls{rm} component with time is a sudden appearance and a long, exponential decay.
 
 The high Nyquist frequency was critical in uncovering a red-noise-like component in the power spectrum. This component could arise from continuously evolving, short-lived regions of magnetic field linked to magneto-convection, akin to a random walk, which we will dub the \gls{sb} component. Analogous to the \gls{sb}, is the granulation signal observed in the Doppler-velocity measurements of the solar surface \citep{basu_asteroseismic_2017}. It is indeed possible that this is not a real feature in the data and it could also be present due to the high-cadence and low-fill of the observations.
 
 In addition, at low-frequency there is power associated with instrumental noise and solar activity, and at very-high frequency shot-noise is captured which sets the lower limit in power in the spectrum. 
 
-There are also side-band features in the power spectrum at multiples of $1/\mathrm{day} \sim 11.57 \, \mu\mathrm{Hz}$. The side-bands are a well-known phenomena in ground-based helioseismology. They arise from gaps in the data which are a consequence of making single-site, ground-based observations of the Sun.
+There are also side-band features in the power spectrum at multiples of $1/\mathrm{day} \sim 11.57 \, \upmu\mathrm{Hz}$. The side-bands are a well-known phenomena in ground-based helioseismology. They arise from gaps in the data which are a consequence of making single-site, ground-based observations of the Sun.
 
 The duty cycle of the \gls{bison} observations is very low, at around $\sim 15\%$, therefore it was important to take into consideration the effect that gaps in the data have on the power spectrum. Gaps in the data cause an aliasing of power from actual signal frequencies spread to other frequencies in the spectrum, and the nature of the aliasing depends on the properties of the window function of the observations. It is also possible that the \gls{sb} component is an effect of power aliasing due to the low duty cycle of the data. Hence, before modelling the power spectrum, the window function was well-characterised.
 
@@ -369,7 +369,7 @@ The affine-invariant \gls{mcmc} sampler {\verb emcee } \citep{foreman-mackey_emc
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Comparison with the WSO SMMF}
 
-To provide comparative results on the inferences from the \gls{bison} \gls{smmf}, we repeated the analysis on the power spectrum of the \gls{wso} \gls{smmf}. The \gls{wso} data are only provided on a daily cadence, hence the Nyquist frequency is lower than for 40-second \gls{bison} data, at $\sim 5.79 \, \mu\mathrm{Hz}$, and it was not possible to observe the \gls{sb} component. The analysis was also repeated using the daily-averaged \gls{bison} \gls{smmf}, to provide a more direct comparison between \gls{bison} and \gls{wso}.
+To provide comparative results on the inferences from the \gls{bison} \gls{smmf}, we repeated the analysis on the power spectrum of the \gls{wso} \gls{smmf}. The \gls{wso} data are only provided on a daily cadence, hence the Nyquist frequency is lower than for 40-second \gls{bison} data, at $\sim 5.79 \, \upmu\mathrm{Hz}$, and it was not possible to observe the \gls{sb} component. The analysis was also repeated using the daily-averaged \gls{bison} \gls{smmf}, to provide a more direct comparison between \gls{bison} and \gls{wso}.
 
 The same parametrisation as outlined above was relevant to the modelling of the features in the \gls{wso} \gls{psd}, and the \gls{rm} peak were fit using a model with symmetric Lorentzian peaks and separately with asymmetric Lorentzian peaks.
 
@@ -382,9 +382,9 @@ The same parametrisation as outlined above was relevant to the modelling of the 
 \subsection{Investigation of the Window Function}\label{sec:window_fn}
 
 
-Due to the low fill of data, we see the effects of daily and random gaps on the power spectrum. Periodic gaps in the data give rise to sidebands in the power spectrum and random gaps cause a more broadband shifting of power, meaning that some power from the low-frequency \gls{rm} component in the power spectrum is aliased to higher frequencies. First we will concentrate specifically on the effect of daily, periodic gaps in the data. The daily, periodic gaps in the \gls{bison} data, due to single-site observations, produce sidebands around a frequency of 1/day $\sim$~11.57 $\mu$Hz and its harmonics.
+Due to the low fill of data, we see the effects of daily and random gaps on the power spectrum. Periodic gaps in the data give rise to sidebands in the power spectrum and random gaps cause a more broadband shifting of power, meaning that some power from the low-frequency \gls{rm} component in the power spectrum is aliased to higher frequencies. First we will concentrate specifically on the effect of daily, periodic gaps in the data. The daily, periodic gaps in the \gls{bison} data, due to single-site observations, produce sidebands around a frequency of 1/day $\sim$~11.57 $\upmu$Hz and its harmonics.
 
-The frequency (and harmonics) of the \gls{rm} component are located near zero ($\nu_0 \sim \,0.4 \, \mu\mathrm{Hz}$). We are usually only interested in the real, positive frequencies but due to their close proximity to zero, they are reflected back as a product of the aliasing and hence there are negative and positive side-bands in the complete power spectrum. When considering the aliased power, both the positive and negative side-bands must be taken into account. The aliased power is located at frequencies:
+The frequency (and harmonics) of the \gls{rm} component are located near zero ($\nu_0 \sim \,0.4 \, \upmu\mathrm{Hz}$). We are usually only interested in the real, positive frequencies but due to their close proximity to zero, they are reflected back as a product of the aliasing and hence there are negative and positive side-bands in the complete power spectrum. When considering the aliased power, both the positive and negative side-bands must be taken into account. The aliased power is located at frequencies:
 
 \begin{equation}
 \nu_{n, i} = i \, (\frac{1}{\mathrm{day}} \pm \nu_{n}) \, .
@@ -513,9 +513,9 @@ To demonstrate this method, as a proof-of-concept, we fit a model of a single Lo
 			{\bf Parameter} & {\bf Input} & {\bf Fit (no gaps)} & {\bf Fit (gaps)} & {\bf Unit} \\
 			\hline
 			
-			{$\nu_0$} & {0.42867} & {0.4277$\left(_{-18}^{+18}\right)$} & {0.4261$\left(_{-03}^{+03}\right)$} & {$\mu\mathrm{Hz} $}\\
+			{$\nu_0$} & {0.42867} & {0.4277$\left(_{-18}^{+18}\right)$} & {0.4261$\left(_{-03}^{+03}\right)$} & {$\upmu\mathrm{Hz} $}\\
 			
-			{$\Gamma$} & {0.030} & {0.0279$\left(_{-36}^{+37}\right)$} & {0.0340$\left(_{-06}^{+06}\right)$} & {$\mu\mathrm{Hz} $} \\
+			{$\Gamma$} & {0.030} & {0.0279$\left(_{-36}^{+37}\right)$} & {0.0340$\left(_{-06}^{+06}\right)$} & {$\upmu\mathrm{Hz} $} \\
 			
 			{$A$} & {100.0} & {101.2$_{-6.0}^{+7.3}$} & {111.7$\pm 0.1$} & {$\mathrm{mG}$} \\
 			
@@ -544,7 +544,7 @@ When modelling the power spectrum of the observed \gls{bison} \gls{smmf}, these 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Modelling the BiSON Power Spectrum}\label{sec:BiSON_reults}
 
-As there were many data points in the power spectrum, each likelihood calculation was computationally expensive. In order to reduce the required computation, the \gls{bison} power spectrum was cut at a frequency of 7000 $\mu\mathrm{Hz}$, as at very high frequency, the spectrum purely represents the shot noise in the \gls{smmf}, and it was deemed as a sufficient limit to still fully converge on the shot noise parameter.
+As there were many data points in the power spectrum, each likelihood calculation was computationally expensive. In order to reduce the required computation, the \gls{bison} power spectrum was cut at a frequency of 7000 $\upmu\mathrm{Hz}$, as at very high frequency, the spectrum purely represents the shot noise in the \gls{smmf}, and it was deemed as a sufficient limit to still fully converge on the shot noise parameter.
 
 %We have shown the likelihood evaluation does not fully take into account the correlated noise due to the convolution, and doing so would have been too expensive to compute; hence, the pragmatic approach was to ignore the effect of the correlated noise in the convolution on the likelihood calculation.
 
@@ -553,9 +553,9 @@ The \gls{bison} power spectrum was modelled against equation~(\ref{eq:PSD_fit_co
 
 \begin{gather*}
 %
-\nu_0 \, \sim \,\mathcal{U}(0.38, 0.50) \> \mu\mathrm{Hz} \\
+\nu_0 \, \sim \,\mathcal{U}(0.38, 0.50) \> \upmu\mathrm{Hz} \\
 %
-\Gamma \, \sim \,\mathcal{U}(0.00, 0.11)  \> \mu\mathrm{Hz} \\
+\Gamma \, \sim \,\mathcal{U}(0.00, 0.11)  \> \upmu\mathrm{Hz} \\
 %
 A_1 \, \sim \,\mathcal{U}(100, 350)  \> \mathrm{mG} \\
 %
@@ -620,9 +620,9 @@ In Table~\ref{tab:PSD_fit_params} the median values of adjusted, marginalised po
 			{\bf Parameter} & {\bf 40-s symm.} & {\bf 40-s asymm.} & {\bf Unit} \\
 			\hline
 			
-			{$\nu_0$} & {0.4270$\left(_{-18}^{+18}\right)$} & {0.4278$\left(_{-18}^{+18}\right)$} & {$\mu\mathrm{Hz} $}\\
+			{$\nu_0$} & {0.4270$\left(_{-18}^{+18}\right)$} & {0.4278$\left(_{-18}^{+18}\right)$} & {$\upmu\mathrm{Hz} $}\\
 			
-			{$\Gamma$} & {0.0264$\left(_{-35}^{+35}\right)$} & {0.0316$\left(_{-41}^{+41}\right)$} & {$\mu\mathrm{Hz} $} \\
+			{$\Gamma$} & {0.0264$\left(_{-35}^{+35}\right)$} & {0.0316$\left(_{-41}^{+41}\right)$} & {$\upmu\mathrm{Hz} $} \\
 			
 			{$A_1$} & {166.0$\pm10.7 $} & {178.9$\pm 11.5$} & {$\mathrm{mG}$} \\
 			
@@ -763,9 +763,9 @@ In Table~\ref{tab:WSO_SMMF_fit_params} the median values of marginalised posteri
 			{\bf Parameter} & {\bf Symm.} & {\bf Asymm.} & {\bf Symm.} & {\bf Asymm.} & {\bf Unit} \\
 			\hline
 			
-			{$\nu_0$} & {0.4272$\left(_{-05}^{+05}\right)$} & {0.4290$\left(_{-04}^{+04}\right)$} & {0.4246$\left(_{-09}^{+08}\right)$} & {0.4270$\left(_{-08}^{+08}\right)$} & {$\mu\mathrm{Hz} $}\\
+			{$\nu_0$} & {0.4272$\left(_{-05}^{+05}\right)$} & {0.4290$\left(_{-04}^{+04}\right)$} & {0.4246$\left(_{-09}^{+08}\right)$} & {0.4270$\left(_{-08}^{+08}\right)$} & {$\upmu\mathrm{Hz} $}\\
 			
-			{$\Gamma$} & {0.0210$\left(_{-15}^{+16}\right)$} & {0.0210$\left(_{-15}^{+16}\right)$} & {0.0359$\left(_{-26}^{+27}\right)$} & {0.0365$\left(_{-29}^{+30}\right)$} & {$\mu\mathrm{Hz} $} \\
+			{$\Gamma$} & {0.0210$\left(_{-15}^{+16}\right)$} & {0.0210$\left(_{-15}^{+16}\right)$} & {0.0359$\left(_{-26}^{+27}\right)$} & {0.0365$\left(_{-29}^{+30}\right)$} & {$\upmu\mathrm{Hz} $} \\
 			
 			{$A_1$} & {134.8$_{-3.2}^{+3.1}$} & {137.3$\pm 3.5$} & {118.9$_{-3.8}^{+4.2}$} & {125.6$_{-4.4}^{+5.0}$} & {$\mathrm{mG}$} \\
 			
@@ -897,7 +897,7 @@ In both instances, the broadened peak was modelled as a single Lorentzian peak u
 
 Over the entire duration of the \gls{smmf} observations, the time-averaged profile was calculated, using equation~(\ref{eq:stacked_lorentzians}), and this is shown in Fig.~\ref{fig:weighted_shift}. The broadened mode used the input parameters for the model using symmetric Lorentzians, outlined in Table~\ref{tab:PSD_fit_params}, however, with the background parameter set to zero. %For the input, we show the posterior width that resulted from the model to the \gls{bison}, which is shrunk due to the convolution process, rather than the more realistic width of $\sim 15\%$
 
-By eye, the broadened profile does not appear to have a significantly larger linewidth. The input linewidth was $0.0264 \pm 0.0035 \, \mu\mathrm{Hz} $, and the fit to the time-averaged broadened peak produced a linewidth of $0.0262^{+0.0038}_{-0.0037} \, \mu\mathrm{Hz} $. The linewidth of the broadened peak under this method was rather unchanged from that of the true peak, and both linewidths are within uncertainties of each other.
+By eye, the broadened profile does not appear to have a significantly larger linewidth. The input linewidth was $0.0264 \pm 0.0035 \, \upmu\mathrm{Hz} $, and the fit to the time-averaged broadened peak produced a linewidth of $0.0262^{+0.0038}_{-0.0037} \, \upmu\mathrm{Hz} $. The linewidth of the broadened peak under this method was rather unchanged from that of the true peak, and both linewidths are within uncertainties of each other.
 
 
 \begin{table}[!ht]
@@ -912,7 +912,7 @@ By eye, the broadened profile does not appear to have a significantly larger lin
 			
 			
 			%{} & 
-			{0.0264$\pm0.0035$} & {$0.0262^{+0.0038}_{-0.0037}$} & {$0.0263^{+0.0038}_{-0.0037}$} & {$\mu\mathrm{Hz} $} \\
+			{0.0264$\pm0.0035$} & {$0.0262^{+0.0038}_{-0.0037}$} & {$0.0263^{+0.0038}_{-0.0037}$} & {$\upmu\mathrm{Hz} $} \\
 			
 			
 			\hline
@@ -931,9 +931,9 @@ By eye, the broadened profile does not appear to have a significantly larger lin
 \end{figure}
 
 
-The time-averaged frequency shift due to differential rotation was calculated, much in the same way as equation~(\ref{eq:stacked_lorentzians}), to be $\Delta\nu \, = \,0.01285 \, \mu\mathrm{Hz}$. This shift was used to generate the broadened profile using equation~(\ref{eq:atan_lorentzians}). The broadened mode distribution also used the input parameters outlined in Table~\ref{tab:PSD_fit_params}, however, with the background parameter set to zero.
+The time-averaged frequency shift due to differential rotation was calculated, much in the same way as equation~(\ref{eq:stacked_lorentzians}), to be $\Delta\nu \, = \,0.01285 \, \upmu\mathrm{Hz}$. This shift was used to generate the broadened profile using equation~(\ref{eq:atan_lorentzians}). The broadened mode distribution also used the input parameters outlined in Table~\ref{tab:PSD_fit_params}, however, with the background parameter set to zero.
 
-Similar to the numerically broadened peak, by eye, the analytically broadened profile does not appear to have a significantly larger linewidth (see Fig.~\ref{fig:atan_shift}). The input linewidth was $0.0264 \pm 0.0035 \, \mu\mathrm{Hz} $, and the linewidth of the analytically broadened peak from the fit was $0.0263^{+0.0038}_{-0.0037} \, \mu\mathrm{Hz} $, which was within the uncertainties of the linewidth of the input peak.
+Similar to the numerically broadened peak, by eye, the analytically broadened profile does not appear to have a significantly larger linewidth (see Fig.~\ref{fig:atan_shift}). The input linewidth was $0.0264 \pm 0.0035 \, \upmu\mathrm{Hz} $, and the linewidth of the analytically broadened peak from the fit was $0.0263^{+0.0038}_{-0.0037} \, \upmu\mathrm{Hz} $, which was within the uncertainties of the linewidth of the input peak.
 
 These results show that both numerically and analytically, the mode broadening effect of differential rotation and latitudinal migration does not affect our ability to resolve the linewidth of the peaks. Both broadening methods applied have been shown to have a negligible effect on the measured linewidth. This result provides confidence that the linewidth in Table~\ref{tab:PSD_fit_params} is the true linewidth of the \gls{rm} peaks, thus providing the correct lifetime for \gls{rm} component, unaffected by migration and differential rotation.
 
@@ -1058,7 +1058,7 @@ We leave the reader with the following points:
 \begin{enumerate}
 	\item{We have shown that there does not exist a short time-scale component in the \gls{smmf}, and the emergence of a red-noise-like signal in the power spectrum was due to the low duty cycle of the \gls{bison} observations.}
 	
-	\item{By modelling the peak of the \gls{rm} signal as a symmetric Lorentzian profile, we found that the peak has a central frequency of $0.4270\pm0.0018\,\mu\mathrm{Hz}$. This measurement of the central frequency allowed us to infer the sidereal period of the \gls{rm} signal to be $25.23\pm0.11$~days. This rotation suggests a magnetic feature, cycle-averaged latitude of $\sim 12^{\circ}$, thus linking the source to active bands of latitude on the Sun.}
+	\item{By modelling the peak of the \gls{rm} signal as a symmetric Lorentzian profile, we found that the peak has a central frequency of $0.4270\pm0.0018\,\upmu\mathrm{Hz}$. This measurement of the central frequency allowed us to infer the sidereal period of the \gls{rm} signal to be $25.23\pm0.11$~days. This rotation suggests a magnetic feature, cycle-averaged latitude of $\sim 12^{\circ}$, thus linking the source to active bands of latitude on the Sun.}
 	
 	\item{The lifetime of the source of the \gls{rm} component was inferred from the linewidth of the Lorentzian peaks to be $139.6\pm18.5$~days, which is in the region of $\sim20\pm3$~weeks.}
 	
