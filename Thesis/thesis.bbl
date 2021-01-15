@@ -73,6 +73,10 @@ Blackmore E.~W.,  Stukel M.,  Trinczek M.,  Slayman C.,  Wen S.,   Wong R.,
 Braun I.,  Engler J.,  Hörandel J.~R.,   Milke J.,  2009, \mn@doi [Advances in
   Space Research] {10.1016/j.asr.2008.07.012}, 43, 480
 
+\bibitem[\protect\citeauthoryear{Cecchini \& Sioli}{Cecchini \&
+  Sioli}{2000}]{cecchini_cosmic_2000}
+Cecchini S.,  Sioli M.,  2000, arXiv:hep-ex/0002052
+
 \bibitem[\protect\citeauthoryear{Corti, Potgieter, Bindi, Consolandi, Light,
   Palermo  \& Popkow}{Corti et~al.}{2019}]{corti_numerical_2019}
 Corti C.,  Potgieter M.~S.,  Bindi V.,  Consolandi C.,  Light C.,  Palermo M.,
@@ -131,6 +135,11 @@ Dumbović M.,  Vršnak B.,   Čalogović J.,  2016, \mn@doi [Sol Phys]
   et~al.}{2003}]{dyer_calculations_2003}
 Dyer C.~S.,  Lei F.,  Clucas S.~N.,  Smart D.~F.,   Shea M.~A.,  2003, \mn@doi
   [Advances in Space Research] {10.1016/S0273-1177(03)90374-7}, 32, 81
+
+\bibitem[\protect\citeauthoryear{Fesefeldt}{Fesefeldt}{1985}]{fesefeldt_gheisha._1985}
+Fesefeldt H.,  1985, Technical Report PTHA-85/02, {GHEISHA}. {The} {Simulation}
+  of {Hadronic} {Showers}: {Physics} and {Applications}.
+RWTH Aachen
 
 \bibitem[\protect\citeauthoryear{Fokkema}{Fokkema}{2012}]{fokkema_hisparc_2012}
 Fokkema D. B. R.~A.,  2012, PhD thesis, University of Twente
@@ -213,10 +222,27 @@ Mishra R.~K.,  Mishra R.~A.,  2008, Rom. Journ. Phys., 53, 925
 {NMDB} 2018, {NMDB} {Event} {Search} {Tool} ({NEST}), \url
   {http://www.nmdb.eu/nest/}
 
+\bibitem[\protect\citeauthoryear{Nelson, Hirayama  \& Rogers}{Nelson
+  et~al.}{1985}]{nelson_egs4_1985}
+Nelson W.~R.,  Hirayama H.,   Rogers D. W.~O.,  1985, Technical Report
+  SLAC-265, {EGS4} code system, \url
+  {https://www.osti.gov/biblio/6137659-egs4-code-system}.
+Stanford Linear Accelerator Center, Menlo Park, CA (USA), \url
+  {https://www.osti.gov/biblio/6137659-egs4-code-system}
+
+\bibitem[\protect\citeauthoryear{Ostapchenko}{Ostapchenko}{2006}]{ostapchenko_qgsjet-ii_2006}
+Ostapchenko S.,  2006, \mn@doi [Nuclear Physics B - Proceedings Supplements]
+  {10.1016/j.nuclphysbps.2005.07.026}, 151, 143
+
 \bibitem[\protect\citeauthoryear{Owens \& Forsyth}{Owens \&
   Forsyth}{2013}]{owens_heliospheric_2013}
 Owens M.~J.,  Forsyth R.~J.,  2013, \mn@doi [Living Rev. Sol. Phys.]
   {10.12942/lrsp-2013-5}, 10, 5
+
+\bibitem[\protect\citeauthoryear{{Particle Data Group} et~al.,}{{Particle Data
+  Group} et~al.}{2020}]{particle_data_group_review_2020}
+{Particle Data Group} et~al., 2020, \mn@doi [Progress of Theoretical and
+  Experimental Physics] {10.1093/ptep/ptaa104}, 2020
 
 \bibitem[\protect\citeauthoryear{Paschalis, Mavromichalaki, Yanke, Belov,
   Eroshenko, Gerontidou  \& Koutroumpi}{Paschalis
