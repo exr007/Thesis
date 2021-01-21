@@ -1,52 +1,48 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
-A level-1 auxiliary file: Appendices/CORSIKA-sims/CORSIKA_sims.aux
 The style file: mnras.bst
 Database file #1: library.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--empty booktitle in desorgher_planetocosmics_2006
-Warning--empty institution in heck_extensive_2017
-You've used 61 entries,
+You've used 15 entries,
             2881 wiz_defined-function locations,
-            1177 strings with 26515 characters,
-and the built_in function-call counts, 29171 in all, are:
-= -- 2215
-> -- 2312
-< -- 157
-+ -- 1016
-- -- 368
-* -- 3489
-:= -- 4764
+            827 strings with 13095 characters,
+and the built_in function-call counts, 6870 in all, are:
+= -- 491
+> -- 563
+< -- 42
++ -- 259
+- -- 84
+* -- 815
+:= -- 1146
 add.period$ -- 0
-call.type$ -- 61
-change.case$ -- 124
-chr.to.int$ -- 60
-cite$ -- 63
-duplicate$ -- 1422
-empty$ -- 1435
-format.name$ -- 536
-if$ -- 4983
-int.to.chr$ -- 2
+call.type$ -- 15
+change.case$ -- 30
+chr.to.int$ -- 15
+cite$ -- 15
+duplicate$ -- 336
+empty$ -- 334
+format.name$ -- 128
+if$ -- 1133
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 52
-newline$ -- 201
-num.names$ -- 434
-pop$ -- 326
+missing$ -- 11
+newline$ -- 58
+num.names$ -- 108
+pop$ -- 86
 preamble$ -- 1
-purify$ -- 244
+purify$ -- 60
 quote$ -- 0
-skip$ -- 853
+skip$ -- 199
 stack$ -- 0
-substring$ -- 1463
-swap$ -- 709
-text.length$ -- 251
+substring$ -- 312
+swap$ -- 168
+text.length$ -- 60
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 549
-warning$ -- 2
-while$ -- 443
+type$ -- 135
+warning$ -- 0
+while$ -- 104
 width$ -- 0
-write$ -- 636
-(There were 2 warnings)
+write$ -- 161

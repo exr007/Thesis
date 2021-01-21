@@ -334,7 +334,7 @@ To further understand the impact of \gls{sep} energies on the \gls{hisparc} obse
 
 The search for evidence of \glspl{fd} within the \gls{hisparc} data was conducted for the \glspl{fd} highlighted in Table~\ref{tab:space_weather_events}. Figures~\ref{fig:FD_201203}, ~\ref{fig:FD_201207}, and ~\ref{fig:FD_201412} show the \gls{hisparc} observations around the epochs of the first four \glspl{fd} listed in Table~\ref{tab:space_weather_events}. Each of the plots shows only observations using the \gls{hisparc} events data (i.e. coincidences between the detectors of a station), as singles data were not available at those epochs (see Fig.~\ref{fig:HS_data_availability}).
 
-\begin{figure}[ht]
+\begin{figure}[ht!]
 	\centering
 	\subfloat[HS 501 (Nikhef)]{
 		\includegraphics[width=0.48\columnwidth]{FD_201203_501.pdf}
@@ -348,7 +348,7 @@ The search for evidence of \glspl{fd} within the \gls{hisparc} data was conducte
 	\label{fig:FD_201203}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[ht!]
 	\centering
 	\subfloat[HS 501 (Nikhef)]{
 		\includegraphics[width=0.48\columnwidth]{FD_201207_501.pdf}
@@ -362,7 +362,7 @@ The search for evidence of \glspl{fd} within the \gls{hisparc} data was conducte
 	\label{fig:FD_201207}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[ht!]
 	\centering
 	\subfloat[HS 501 (Nikhef)]{
 		\includegraphics[width=0.48\columnwidth]{FD_201412_501.pdf}
@@ -395,7 +395,7 @@ In addition, it is quite clear from Figure~\ref{fig:FD_201203_8001} and Figure~\
 
 For the final two \glspl{fd} listed in Table~\ref{tab:space_weather_events}, the plot of the \gls{hisparc} observations is shown in Figure~\ref{fig:FD_GLE72}. Plotted are the \gls{hisparc} events data; however, where possible, we also show the singles rates from each of the individual detectors in a station, when available. Furthermore, as these \glspl{fd} were precursory to \gls{gle} 72, we also marked on the epoch of the \gls{gle} for completeness.
 
-\begin{figure}[ht]
+\begin{figure}[ht!]
 	\centering
 	\subfloat[HS 501 (Nikhef)]{
 		\includegraphics[width=0.48\columnwidth]{FD_GLE72_501.pdf}
@@ -451,7 +451,7 @@ Atmospheric pressure effects the \gls{cr} path length due to the expansion and c
 A correction for this barometric effect is routinely applied as part of the data calibration for all \gls{nm} stations within the \gls{nmdb} and an online barometric coefficient tool\footnote{\url{http://cosray.phys.uoa.gr/index.php/data/nm-barometric-coefficient}} is available for \glspl{nm}, which allows users to perform the barometric correction for a given station over a user-defined epoch \citep{paschalis_online_2013}. There is no such process routinely applied in the \gls{hisparc} data pipeline.
 
 
-\begin{figure}[ht]
+\begin{figure}[ht!]
 	\centering
 	\subfloat[NM Station]{
 		\includegraphics[width=0.48\columnwidth]{SOPO_CRvP.pdf}
@@ -493,7 +493,7 @@ where $N_0$ may be considered as the mean count rate over the given time-period 
 
 A demonstration of this method is shown for both a NM and a \gls{hisparc} station in Figure~\ref{fig:barometric_fit}. In both cases the linear fit does a good job of finding the barometric coefficient and was used to remove the pressure effect from the data.
 
-\begin{figure}[ht]
+\begin{figure}[ht!]
 	\centering
 	\subfloat[SOPO NM Station]{
 		\includegraphics[width=0.48\columnwidth]{SOPO_beta.pdf}
@@ -509,7 +509,7 @@ A demonstration of this method is shown for both a NM and a \gls{hisparc} statio
 
 For comparison, and to show the success of this method at removing the pressure variation, the raw and corrected \gls{hisparc} data are shown in Figure~\ref{fig:HS_P_corr}. It is clear from Figure~\ref{fig:HS_P_corr} that the large excursions are adequately removed from the data after the correction.
 
-\begin{figure}[ht]
+\begin{figure}[ht!]
 	\centering
 	\includegraphics[width=0.65\columnwidth]{501_raw_vs_corrected.pdf}
 	\caption{A comparison between the hourly-averaged HiSPARC count rate before (orange line) and after the pressure correction (blue line).}
@@ -519,7 +519,7 @@ For comparison, and to show the success of this method at removing the pressure 
 
 Using the online barometric coefficient tool \citep{paschalis_online_2013}, it was possible to also provide a comparison between the method used in this work to that which is used for the correction of the \gls{nmdb} stations, as a further confirmation of the method. This is shown in Figure~\ref{fig:NM_beta_variation} for monthly corrections throughout 2017 for the \gls{nm} station at the South Pole (SOPO).
 
-\begin{figure}[ht]
+\begin{figure}[ht!]
 	\centering
 	\includegraphics[width=0.65\columnwidth]{SOPO_beta_2017_rescale.png}
 	\caption{A comparison between the monthly barometric coefficient computed in this work and using the online barometric coefficient tool throughout the year 2017 for the SOPO NM station.}
@@ -573,7 +573,7 @@ Several methods of correcting for the temperature effect are discussed in the li
 
 The \gls{hisparc} stations provide the local outdoor temperature which is measured nearby the detectors and also the temperature in the room where the electronics are located. The latter is not of use, but the former can be used for temperature corrections. Figure~\ref{fig:HS_8001_CRvT} shows the pressure corrected events data and the temperature data for station 8001 in July 2012. There is a strong correlation between the events and the temperature, which is demonstrated in Figure~\ref{fig:HS_8001_alpha}, yet weaker than with pressure.
 
-\begin{figure}[ht]
+\begin{figure}[ht!]
 	\centering
 	\subfloat[Pressure corrected CR counts and temperature data comparison]{
 		\includegraphics[width=0.48\columnwidth]{8001_CRvT.pdf}
@@ -589,7 +589,7 @@ The \gls{hisparc} stations provide the local outdoor temperature which is measur
 
 Despite the literature, we used the same linear fitting technique described for the pressure correction in Section~\ref{sec:HS_P_corr}; however, replacing the pressure for locally measured outdoor temperature. We can see from Figure~\ref{fig:HS_T_corr} that this correction method does remove a significant amount of the variation correlated with the outdoor variation, including dampening the strong diurnal variation. There still persists some strong variation in the count rate however, which shows that this method is not as effective as the pressure correction. Nevertheless, we continue with this temperature correction as it is sufficient at reducing the diurnal variation in the data around the events considered.
  
-\begin{figure}[ht]
+\begin{figure}[ht!]
 	\centering
 	\includegraphics[width=0.65\columnwidth]{8001_raw_vs_corrected.pdf}
 	\caption{A comparison between the hourly-averaged HiSPARC count rate before (orange line) and after the temperature correction (blue line). After the correction, the diurnal variation from the temperature effect has been reduced.}
@@ -609,7 +609,7 @@ Despite the literature, we used the same linear fitting technique described for 
 
 Following the atmospheric correction, the search for evidence of \glspl{gle} was re-conducted, this time within the corrected \gls{hisparc} data. This could only be done for \gls{gle} 71 and 72, as the \gls{hisparc} network was not collecting meteorological data during the epoch of \gls{gle} 70. Figure~\ref{fig:GLE_71_Pcorr} and Figure~\ref{fig:GLE_72_Pcorr} show the atmospheric-effect corrected \gls{hisparc} observations around the epochs of \gls{gle} 71 and 72, respectively. The observations of \gls{gle} 71 show only the \gls{hisparc} events data; however, we also show the singles rates from each of the individual detectors in a station for \gls{gle} 72.
 
-\begin{figure}[ht]
+\begin{figure}[ht!]
 	\centering
 	\subfloat[HS 3001 (Leiden)]{
 		\includegraphics[width=0.48\columnwidth]{GLE71_3001_Pcorr.pdf}
@@ -624,7 +624,7 @@ Following the atmospheric correction, the search for evidence of \glspl{gle} was
 	\label{fig:GLE_71_Pcorr}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[ht!]
 	\centering
 	\subfloat[HS 501 (Nikhef)]{
 		\includegraphics[width=0.48\columnwidth]{GLE72_501_CORR.pdf}
@@ -649,14 +649,14 @@ This provides motivation to investigate the flux of muons at ground level during
 
 The search for evidence of \glspl{fd} was also re-conducted using the atmospheric-effect corrected \gls{hisparc} data. Figure~\ref{fig:FD_201207_8001_Pcorr} and Figure~\ref{fig:FD_201412_501_Pcorr} shows the corrected \gls{hisparc} observations around the epochs of a \gls{fd} in July 2012 and December 2014, respectively.
 
-\begin{figure}[ht]
+\begin{figure}[ht!]
 	\centering
 	\includegraphics[width=0.65\columnwidth]{FD_201207_8001_CORR.pdf}
 	\caption{Atmospheric-corrected HiSPARC data for station 8001 (Eindhoven) around the epoch of the FD in July 2012. The plot shows the minute-averaged and hourly-averaged trigger events between detectors within the station. The vertical blue, dashed line depicts the approximate onset time of the FD. The units of time on the x-axis are, YYYY-MM-DD.}
 	\label{fig:FD_201207_8001_Pcorr}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[ht!]
 	\centering
 	\includegraphics[width=0.65\columnwidth]{FD_201412_501_CORR.pdf}
 	\caption{Atmospheric-corrected HiSPARC data for station 501 (Nikhef) around the epoch of the FD in December 2014. The plot shows the minute-averaged and hourly-averaged trigger events between detectors within the station. The vertical blue, dashed line depicts the approximate onset time of the FD. The units of time on the x-axis are, YYYY-MM-DD.}
@@ -668,7 +668,7 @@ In Figure~\ref{fig:FD_201207_8001_Pcorr} there are no clear \gls{fd} observation
 
 Finally, the atmospheric-effects corrected observations of the two \glspl{fd} which occurred around \gls{gle} 72 is shown in Figure~\ref{fig:FD_GLE72_Pcorr}, showing the corrected events data and singles data for each of the individual detectors in the stations.
 
-\begin{figure}[ht]
+\begin{figure}[ht!]
 	\centering
 	\subfloat[HS 501 (Nikhef)]{
 		\includegraphics[width=0.48\columnwidth]{FD_GLE72_501_CORR.pdf}
