@@ -1,4 +1,7 @@
 \thispagestyle {plain}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {1.1}{\ignorespaces Variables stored in the coincidences files of the HiSPARC 14008 instrument.\relax }}{9}{table.caption.12}
-\contentsline {table}{\numberline {1.2}{\ignorespaces Variables stored in the temperature files of the HiSPARC 14008 instrument.\relax }}{9}{table.caption.13}
+\contentsline {table}{\numberline {1.2}{\ignorespaces Variables stored in the temperature files of the HiSPARC 14008 instrument.\relax }}{10}{table.caption.13}
+\contentsline {table}{\numberline {1.3}{\ignorespaces ... with no injected GLEs ...\relax }}{24}{table.caption.24}
+\contentsline {table}{\numberline {1.4}{\ignorespaces ... with no injected GLEs ...\relax }}{29}{table.caption.26}
+\addvspace {10\p@ }

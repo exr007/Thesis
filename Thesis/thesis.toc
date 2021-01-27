@@ -1,7 +1,7 @@
 \thispagestyle {plain}
-\contentsline {chapter}{List of Figures}{ii}{chapter*.2}
-\contentsline {chapter}{List of Tables}{iii}{chapter*.3}
-\contentsline {chapter}{List of Abbreviations}{iv}{chapter*.5}
+\contentsline {chapter}{List of Figures}{iv}{chapter*.2}
+\contentsline {chapter}{List of Tables}{v}{chapter*.3}
+\contentsline {chapter}{List of Abbreviations}{vi}{chapter*.5}
 \contentsline {chapter}{\numberline {1}HiSPARC Station 14008}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Aims}{2}{section.1.2}
@@ -10,17 +10,20 @@
 \contentsline {subsection}{\numberline {1.3.2}Calibration}{6}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}Monitoring Temperature}{7}{subsection.1.3.3}
 \contentsline {subsection}{\numberline {1.3.4}Data Acquisition}{8}{subsection.1.3.4}
-\contentsline {subsection}{\numberline {1.3.5}Monitoring Pressure}{10}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.5}Monitoring Pressure}{11}{subsection.1.3.5}
 \contentsline {section}{\numberline {1.4}Methodology}{11}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Atmospheric Corrections}{11}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Observations}{11}{subsection.1.4.2}
-\contentsline {section}{\numberline {1.5}Atmospheric Corrections}{12}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Barometric Correction}{12}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Temperature Correction}{12}{subsection.1.5.2}
-\contentsline {section}{\numberline {1.6}Results}{14}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}Observations}{14}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Comparison with Neutron Monitors}{19}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {1.6.3}Single Station Space Weather Uses}{19}{subsection.1.6.3}
-\contentsline {subsection}{\numberline {1.6.4}Multiple Station Space Weather Uses}{19}{subsection.1.6.4}
-\contentsline {section}{\numberline {1.7}Conclusions}{21}{section.1.7}
-\contentsline {chapter}{Bibliography}{22}{Item.3}
+\contentsline {subsection}{\numberline {1.4.2}Observations}{12}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}Atmospheric Corrections}{15}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Barometric Correction}{15}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Temperature Correction}{16}{subsection.1.5.2}
+\contentsline {section}{\numberline {1.6}Results}{17}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Observations}{17}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Comparison with Neutron Monitors}{22}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}Single Station Space Weather Uses}{24}{subsection.1.6.3}
+\contentsline {subsection}{\numberline {1.6.4}Multiple Station Space Weather Uses}{29}{subsection.1.6.4}
+\contentsline {section}{\numberline {1.7}Conclusions}{32}{section.1.7}
+\contentsline {chapter}{\numberline {A}Simulations of the Ground Level Enhancements for the Analysis of HiSPARC Station 14008}{34}{appendix.A}
+\contentsline {section}{\numberline {A.1}Model}{34}{section.A.1}
+\contentsline {section}{\numberline {A.2}Configuration of the Simulations}{35}{section.A.2}
+\contentsline {chapter}{Bibliography}{37}{figure.caption.31}

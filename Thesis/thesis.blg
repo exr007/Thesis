@@ -1,48 +1,49 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: Appendices/HS14008-GLE-sims/HS_GLE_sims.aux
 The style file: mnras.bst
 Database file #1: library.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 15 entries,
+You've used 18 entries,
             2881 wiz_defined-function locations,
-            827 strings with 13095 characters,
-and the built_in function-call counts, 6870 in all, are:
-= -- 491
-> -- 563
-< -- 42
-+ -- 259
-- -- 84
-* -- 815
-:= -- 1146
+            850 strings with 13809 characters,
+and the built_in function-call counts, 8158 in all, are:
+= -- 581
+> -- 666
+< -- 52
++ -- 308
+- -- 98
+* -- 969
+:= -- 1366
 add.period$ -- 0
-call.type$ -- 15
-change.case$ -- 30
-chr.to.int$ -- 15
-cite$ -- 15
-duplicate$ -- 336
-empty$ -- 334
-format.name$ -- 128
-if$ -- 1133
+call.type$ -- 18
+change.case$ -- 36
+chr.to.int$ -- 18
+cite$ -- 18
+duplicate$ -- 402
+empty$ -- 401
+format.name$ -- 148
+if$ -- 1343
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 11
-newline$ -- 58
-num.names$ -- 108
-pop$ -- 86
+missing$ -- 13
+newline$ -- 67
+num.names$ -- 128
+pop$ -- 104
 preamble$ -- 1
-purify$ -- 60
+purify$ -- 72
 quote$ -- 0
-skip$ -- 199
+skip$ -- 237
 stack$ -- 0
-substring$ -- 312
-swap$ -- 168
-text.length$ -- 60
+substring$ -- 366
+swap$ -- 194
+text.length$ -- 72
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 135
+type$ -- 162
 warning$ -- 0
-while$ -- 104
+while$ -- 126
 width$ -- 0
-write$ -- 161
+write$ -- 191

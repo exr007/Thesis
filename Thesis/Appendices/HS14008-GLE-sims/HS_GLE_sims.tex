@@ -1,0 +1,71 @@
+\chapter{Simulations of the Ground Level Enhancements for the Analysis of HiSPARC Station 14008}\label{app:GLE_sims}
+
+
+\section{Model}
+
+The artificial data used in the simulations of the \glspl{gle}, during the investigation of the performance of \gls{hisparc} station 14008, were created using a very simplistic model which was physically motivated by \gls{gle} observations \citep{strauss_pulse_2017}.
+
+There were several variables that allowed us to change the physics of the simulations. These were:
+
+\begin{itemize}
+	%	\item{{\bf $N$}: Number of stations}
+	\item{{\bf $T_d$}: Observing window}
+	\item{{\bf $t_0$}: Time of \gls{gle} peak}
+	\item{{\bf $\lambda$}}: Background count level
+	\item{{\bf $\sigma$}}: Detector noise level
+	\item{{\bf $A$}: Percentage amplitude of \gls{gle} increase}
+	\item{{\bf $\tau_r$}: Rise time of \gls{gle}}
+	\item{{\bf $\tau_d$}: Decay time of \gls{gle}}
+\end{itemize}
+
+Using these variables, the mathematical form of the model was expressed by:
+
+\begin{equation}
+    y(t) =  \sigma \, + \, \lambda \, (1 + A) \, . 
+\begin{cases}
+
+\exp\left[{\frac{t - t_0}{\tau_r}}\right] \,  & \text{if           $t \leq t_0$} \\
+
+\exp\left[{-\frac{t - t_0}{\tau_d}}\right] \,  & \text{if           $t > t_0$} 
+
+\end{cases} \, ,
+\label{eq:GLE_model}
+\end{equation}
+
+where $t$ is the time in the range from 0 -- $T_d$ in 10-second intervals, to be representative of the real \gls{hisparc} station 14008 data.
+
+An example time series of a single \gls{gle} is shown in Figure~\ref{fig:simulated_HS14008_GLE_data}. This shows both the model used to generate the simulated data (black line), as well as the background level and noise with and without the \gls{gle} injected, blue and orange lines, respectively.
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\columnwidth]{simulated_HS14008_GLE_data.pdf}
+	\caption{...}
+	\label{fig:simulated_HS14008_GLE_data}
+\end{figure}
+
+
+\section{Configuration of the Simulations}
+
+The simulated data were generated using a Python script. A flowchart describing the steps in the simulation is shown in Figure~\ref{fig:gle_flowchart}. 
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.9\columnwidth]{GLE_sims_flowchart.png}
+	\caption{Flowchart showing the step-by-step processes in the generation of the artificial HiSPARC 14008 GLE time series data.}
+	\label{fig:gle_flowchart}
+\end{figure}
+
+The simulations required the user to input the number of iterations, $N$, to run. For each iteration, the time of the \gls{gle} peak, $t_0$, was drawn from a uniform distribution between 0 and $T_d$. Rise and decay times were drawn from uniform distributions, $\mathcal{U}(0, 75)$ and $\mathcal{U}(15, 500)$, based on the information from \citet{strauss_pulse_2017}, whilst also ensuring $\tau_d > 3.5 \, \tau_r$, \citep{strauss_pulse_2017}.
+
+With these properties draw, and the user inputting the background level ($\lambda$), noise-level ($\sigma$), and percentage increase of the \gls{gle} ($A$), each individual \gls{gle} was simulated according to equation~(\ref{eq:GLE_model}). 
+
+After the creation of the simulated data, statistical tests were performed to determine whether the \gls{gle} is observed.
+
+
+
+[!!! additional bit for multiple stations simulations... basically repeat the same, but do select the A and lambda from small-width normal distribution around values provided by user - to simulate ever so slight differences between the different statinos set-ups...]
+%
+%\section{Outputs}
+%
+%
+%The simulation produces a time series output ...

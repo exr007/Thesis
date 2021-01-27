@@ -40,6 +40,11 @@ Fokkema D. B. R.~A.,  2019, {HiSPARC} station software en hardware documentatie
   — {HiSPARC} software 6.11 documentation, \url
   {https://docs.hisparc.nl/station-software/doc/index.html}
 
+\bibitem[\protect\citeauthoryear{McIntosh, Chapman, Leamon, Egeland  \&
+  Watkins}{McIntosh et~al.}{2020}]{mcintosh_overlapping_2020}
+McIntosh S.~W.,  Chapman S.,  Leamon R.~J.,  Egeland R.,   Watkins N.~W.,
+  2020, \mn@doi [Solar Physics] {10.1007/s11207-020-01723-y}, 295, 163
+
 \bibitem[\protect\citeauthoryear{Mishra \& Mishra}{Mishra \&
   Mishra}{2007}]{mishra_study_2007}
 Mishra R.~K.,  Mishra R.~A.,  2007, \mn@doi [Pramana]
@@ -53,6 +58,10 @@ Mishra R.~K.,  Mishra R.~A.,  2008, Rom. Journ. Phys., 53, 925
 Montanus H.,  2017, PhD thesis, University of Amsterdam, \url
   {https://www.nikhef.nl/pub/services/biblio/theses_pdf/}
 
+\bibitem[\protect\citeauthoryear{{NMDB}}{{NMDB}}{2018}]{nmdb_nmdb_nodate}
+{NMDB} 2018, {NMDB} {Event} {Search} {Tool} ({NEST}), \url
+  {http://www.nmdb.eu/nest/}
+
 \bibitem[\protect\citeauthoryear{{Particle Data Group} et~al.,}{{Particle Data
   Group} et~al.}{2020}]{particle_data_group_review_2020}
 {Particle Data Group} et~al., 2020, \mn@doi [Progress of Theoretical and
@@ -62,6 +71,10 @@ Montanus H.,  2017, PhD thesis, University of Amsterdam, \url
   et~al.}{2020}]{pereira_ground_2020}
 Pereira E.~G.,  Vasconcellos C. A.~Z.,   Hadjimichef D.,  2020,
   arXiv:2011.06480 [hep-ex, physics:hep-ph]
+
+\bibitem[\protect\citeauthoryear{Pesnell}{Pesnell}{2020}]{pesnell_lessons_2020}
+Pesnell W.~D.,  2020, \mn@doi [Journal of Space Weather and Space Climate]
+  {10.1051/swsc/2020060}, 10, 60
 
 \bibitem[\protect\citeauthoryear{Salvatier, Wiecki  \& Fonnesbeck}{Salvatier
   et~al.}{2016}]{salvatier_probabilistic_2016}
