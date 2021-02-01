@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.30)  26 JAN 2021 17:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.30)  1 FEB 2021 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -588,6 +588,7 @@ Package: glossary-tree 2017/11/14 v4.35 (NLCT)
 \glstreeindent=\skip73
 ))
 (./Chapters/Other/acronyms.tex) (./thesis.aux
+(./Appendices/CORSIKA-sims/CORSIKA_sims.aux)
 (./Appendices/HS14008-GLE-sims/HS_GLE_sims.aux))
 \openout1 = `thesis.aux'.
 
@@ -694,7 +695,7 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (./Title/title_page.tex
-<Title/onlyunilogo.png, id=116, 255.95625pt x 255.95625pt>
+<Title/onlyunilogo.png, id=213, 255.95625pt x 255.95625pt>
 File: Title/onlyunilogo.png Graphic file (type png)
 <use Title/onlyunilogo.png>
 Package pdftex.def Info: Title/onlyunilogo.png  used on input line 13.
@@ -712,346 +713,848 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+)pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36 ...Monitoring Pressure}{57}{subsection.2.3.5}
+                                                   [1
+
+])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.128 \listoffigures
-                     [1
+ [2] (./thesis.lof
+[3
 
-] (./thesis.lof [2
+]
+Overfull \hbox (15.19601pt too wide) in paragraph at lines 17--17
+ [][] [][][]\OT1/cmr/m/n/12 HiSPARC data for 4 sta-tions around the epoch of GL
+E 72 on 10/09/2017. 
+ []
 
-] [3])
+[4]
+Overfull \hbox (0.16827pt too wide) in paragraph at lines 50--50
+ [][] [][][]\OT1/cmr/m/n/12 Atmospheric-corrected HiS-PARC data for 2 sta-tions
+ around the epoch 
+ []
+
+
+Overfull \hbox (2.24117pt too wide) in paragraph at lines 57--57
+ [][] [][][]\OT1/cmr/m/n/12 Atmospheric-corrected HiS-PARC data for sta-tion 50
+1 (Nikhef) around 
+ []
+
+[5] [6] [7] [8])
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
- [4] (./thesis.lot)
+ [9] (./thesis.lot
+Overfull \hbox (3.44972pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/n/12 NM sta-tion. The ob-served neu-tron in-creases use data from t
+he NMDB, 
+ []
+
+[10
+
+])
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
 
 Using TeX to sort glossary entries---this may take a while
-[5
+[11] [12
+
 
 ]
 No file thesis.acr.
-[6
-
-
-] (./Chapters/HS_14008/HS_14008.tex
+[13] (./Chapters/HiSPARC/HiSPARC.tex
 Chapter 1.
-
-LaTeX Warning: Reference `chap:HiSPARC' on page 1 undefined on input line 14.
-
 [1
 
 
 ]
-<Chapters/HS_14008/14008_config.png, id=350, 560.8453pt x 268.00125pt>
-File: Chapters/HS_14008/14008_config.png Graphic file (type png)
-<use Chapters/HS_14008/14008_config.png>
-Package pdftex.def Info: Chapters/HS_14008/14008_config.png  used on input line
- 48.
-(pdftex.def)             Requested size: 320.0935pt x 152.95448pt.
- [2]
-<Chapters/HS_14008/detectors_in_box.jpg, id=362, 642.4pt x 481.8pt>
-File: Chapters/HS_14008/detectors_in_box.jpg Graphic file (type jpg)
-<use Chapters/HS_14008/detectors_in_box.jpg>
-Package pdftex.def Info: Chapters/HS_14008/detectors_in_box.jpg  used on input 
-line 59.
-(pdftex.def)             Requested size: 204.85802pt x 153.64247pt.
-<Chapters/HS_14008/ski_box_rescaled.jpg, id=363, 1011.78pt x 758.835pt>
-File: Chapters/HS_14008/ski_box_rescaled.jpg Graphic file (type jpg)
-<use Chapters/HS_14008/ski_box_rescaled.jpg>
-Package pdftex.def Info: Chapters/HS_14008/ski_box_rescaled.jpg  used on input 
-line 63.
-(pdftex.def)             Requested size: 204.85802pt x 153.64009pt.
- [3 <./Chapters/HS_14008/14008_config.png> <./Chapters/HS_14008/detectors_in_bo
-x.jpg> <./Chapters/HS_14008/ski_box_rescaled.jpg>]
-<Chapters/HS_14008/14008_nim_config.png, id=390, 758.835pt x 416.30531pt>
-File: Chapters/HS_14008/14008_nim_config.png Graphic file (type png)
-<use Chapters/HS_14008/14008_nim_config.png>
-Package pdftex.def Info: Chapters/HS_14008/14008_nim_config.png  used on input 
-line 88.
-(pdftex.def)             Requested size: 426.79135pt x 234.14575pt.
- [4] [5 <./Chapters/HS_14008/14008_nim_config.png>]
-Overfull \hbox (1.86542pt too wide) in paragraph at lines 107--108
-[]\OT1/cmr/m/n/12 In gen-eral, the [][][]PMTs[][] has an ad-vised op-er-at-ing 
-volt-age of around 700 V ([][]Fokkema[][],
- []
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ‡ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ‰ in font cmr12!
+ [2] [3] [4]
+<Chapters/HiSPARC/GLEs_OULU.pdf, id=1048, 927.91357pt x 642.6739pt>
+File: Chapters/HiSPARC/GLEs_OULU.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLEs_OULU.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLEs_OULU.pdf  used on input line 99.
 
-[6]
-<Chapters/HS_14008/both_PMTs_post_NIM.png, id=448, 436.14944pt x 318.10844pt>
-File: Chapters/HS_14008/both_PMTs_post_NIM.png Graphic file (type png)
-<use Chapters/HS_14008/both_PMTs_post_NIM.png>
-Package pdftex.def Info: Chapters/HS_14008/both_PMTs_post_NIM.png  used on inpu
-t line 115.
-(pdftex.def)             Requested size: 341.43437pt x 249.03612pt.
+(pdftex.def)             Requested size: 320.0935pt x 221.69331pt.
+<Chapters/HiSPARC/FDs_OULU.pdf, id=1049, 932.33678pt x 658.34421pt>
+File: Chapters/HiSPARC/FDs_OULU.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FDs_OULU.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FDs_OULU.pdf  used on input line 106.
 
+(pdftex.def)             Requested size: 320.0935pt x 226.02399pt.
+ [5] [6 <./Chapters/HiSPARC/GLEs_OULU.pdf> <./Chapters/HiSPARC/FDs_OULU.pdf
 
-LaTeX Warning: Reference `chap:HiSPARC' on page 7 undefined on input line 126.
-
-[7 <./Chapters/HS_14008/both_PMTs_post_NIM.png>]
-<Chapters/HS_14008/HS_14008_temp_circuit.png, id=459, 240.9pt x 159.4758pt>
-File: Chapters/HS_14008/HS_14008_temp_circuit.png Graphic file (type png)
-<use Chapters/HS_14008/HS_14008_temp_circuit.png>
-Package pdftex.def Info: Chapters/HS_14008/HS_14008_temp_circuit.png  used on i
-nput line 136.
-(pdftex.def)             Requested size: 256.07741pt x 169.53995pt.
-<Chapters/HS_14008/temperture_sensor_rescaled.jpg, id=460, 1011.78pt x 758.835p
-t>
-File: Chapters/HS_14008/temperture_sensor_rescaled.jpg Graphic file (type jpg)
-<use Chapters/HS_14008/temperture_sensor_rescaled.jpg>
-Package pdftex.def Info: Chapters/HS_14008/temperture_sensor_rescaled.jpg  used
- on input line 141.
-(pdftex.def)             Requested size: 234.73654pt x 176.04521pt.
- [8 <./Chapters/HS_14008/HS_14008_temp_circuit.png> <./Chapters/HS_14008/temper
-ture_sensor_rescaled.jpg>]
-<Chapters/HS_14008/14008_data_acq_config.png, id=470, 580.41844pt x 165.61874pt
->
-File: Chapters/HS_14008/14008_data_acq_config.png Graphic file (type png)
-<use Chapters/HS_14008/14008_data_acq_config.png>
-Package pdftex.def Info: Chapters/HS_14008/14008_data_acq_config.png  used on i
-nput line 157.
-(pdftex.def)             Requested size: 341.43437pt x 97.4261pt.
-
-Underfull \hbox (badness 2894) in paragraph at lines 177--178
-[]|\OT1/cmr/m/n/12 Integer, eight dig-its, zero
- []
-
-
-Underfull \hbox (badness 1275) in paragraph at lines 178--178
-[]|\OT1/cmr/m/n/12 Cumulative Re-
- []
-
-
-Underfull \hbox (badness 2894) in paragraph at lines 178--179
-[]|\OT1/cmr/m/n/12 Integer, eight dig-its, zero
- []
-
-
-Underfull \hbox (badness 2894) in paragraph at lines 179--180
-[]|\OT1/cmr/m/n/12 Integer, eight dig-its, zero
- []
-
-[9 <./Chapters/HS_14008/14008_data_acq_config.png>]
-
-LaTeX Warning: Reference `sec:HS_data' on page 10 undefined on input line 209.
-
-[10]
-
-LaTeX Warning: Reference `sec:HS_P_corr' on page 11 undefined on input line 238
-.
-
-
-LaTeX Warning: Reference `eq:presscorr3' on page 11 undefined on input line 238
-.
-
-
-LaTeX Warning: Reference `chap:HiSPARC' on page 11 undefined on input line 240.
-
-
-[11]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 243.
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FDs_OULU.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] [7]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 139.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 243.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 139.
 
+Overfull \hbox (2.56126pt too wide) in paragraph at lines 142--143
+\OT1/cmr/m/n/12 event by com-par-ing the [][][]Global Po-si-tion-ing Sys-tem (G
+PS)[][] times-tamps of events. 
+ []
 
-LaTeX Warning: Reference `{eq:presscorr3}' on page 12 undefined on input line 2
-43.
+[8]
+<Chapters/HiSPARC/HS_station_map.pdf, id=1190, 178.266pt x 168.14821pt>
+File: Chapters/HiSPARC/HS_station_map.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/HS_station_map.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/HS_station_map.pdf  used on input lin
+e 157.
+(pdftex.def)             Requested size: 320.0935pt x 301.95067pt.
+ [9]
+<Chapters/HiSPARC/HS_data_availaviblity_map.pdf, id=1198, 845.23303pt x 501.763
+35pt>
+File: Chapters/HiSPARC/HS_data_availaviblity_map.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/HS_data_availaviblity_map.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/HS_data_availaviblity_map.pdf  used o
+n input line 167.
+(pdftex.def)             Requested size: 384.1096pt x 228.0194pt.
+ [10 <./Chapters/HiSPARC/HS_station_map.pdf>] [11 <./Chapters/HiSPARC/HS_data_a
+vailaviblity_map.pdf>] [12]
+Overfull \hbox (6.37717pt too wide) in paragraph at lines 205--218
+ [] 
+ []
 
-[12] [13] [14]
+<Chapters/HiSPARC/azm.pdf, id=1340, 842.49754pt x 516.40395pt>
+File: Chapters/HiSPARC/azm.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/azm.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/azm.pdf  used on input line 225.
+(pdftex.def)             Requested size: 204.85802pt x 125.56268pt.
+<Chapters/HiSPARC/zen.pdf, id=1341, 842.49754pt x 516.40395pt>
+File: Chapters/HiSPARC/zen.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/zen.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/zen.pdf  used on input line 229.
+(pdftex.def)             Requested size: 204.85802pt x 125.56268pt.
+[13 <./Chapters/HiSPARC/azm.pdf> <./Chapters/HiSPARC/zen.pdf
 
-LaTeX Warning: Reference `sec:HS_P_corr' on page 15 undefined on input line 343
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/zen.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]
+<Chapters/HiSPARC/HS_AVDs.pdf, id=1493, 652.39989pt x 335.62262pt>
+File: Chapters/HiSPARC/HS_AVDs.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/HS_AVDs.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/HS_AVDs.pdf  used on input line 246.
+(pdftex.def)             Requested size: 391.44295pt x 201.37512pt.
+ [14] [15 <./Chapters/HiSPARC/HS_AVDs.pdf>]
+<Chapters/HiSPARC/GLE70_501.pdf, id=1546, 861.05122pt x 366.90416pt>
+File: Chapters/HiSPARC/GLE70_501.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE70_501.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE70_501.pdf  used on input line 271
 .
+(pdftex.def)             Requested size: 204.85802pt x 87.2918pt.
+<Chapters/HiSPARC/GLE70_3001.pdf, id=1547, 861.05122pt x 362.70183pt>
+File: Chapters/HiSPARC/GLE70_3001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE70_3001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE70_3001.pdf  used on input line 27
+5.
+(pdftex.def)             Requested size: 204.85802pt x 86.292pt.
+<Chapters/HiSPARC/GLE71_8001.pdf, id=1548, 861.05122pt x 370.8201pt>
+File: Chapters/HiSPARC/GLE71_8001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE71_8001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE71_8001.pdf  used on input line 28
+5.
+(pdftex.def)             Requested size: 204.85802pt x 88.22345pt.
+<Chapters/HiSPARC/GLE71_3001.pdf, id=1549, 861.05122pt x 362.70183pt>
+File: Chapters/HiSPARC/GLE71_3001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE71_3001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE71_3001.pdf  used on input line 28
+9.
+(pdftex.def)             Requested size: 204.85802pt x 86.292pt.
+<Chapters/HiSPARC/GLE72_501.pdf, id=1550, 893.61037pt x 608.41985pt>
+File: Chapters/HiSPARC/GLE72_501.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE72_501.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE72_501.pdf  used on input line 299
+.
+(pdftex.def)             Requested size: 204.85802pt x 139.47871pt.
+<Chapters/HiSPARC/GLE72_203.pdf, id=1551, 893.61037pt x 608.41985pt>
+File: Chapters/HiSPARC/GLE72_203.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE72_203.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE72_203.pdf  used on input line 303
+.
+(pdftex.def)             Requested size: 204.85802pt x 139.47871pt.
+<Chapters/HiSPARC/GLE72_8001.pdf, id=1552, 893.61037pt x 608.41985pt>
+File: Chapters/HiSPARC/GLE72_8001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE72_8001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE72_8001.pdf  used on input line 30
+9.
+(pdftex.def)             Requested size: 204.85802pt x 139.47871pt.
+<Chapters/HiSPARC/GLE72_14001.pdf, id=1553, 868.07748pt x 612.6222pt>
+File: Chapters/HiSPARC/GLE72_14001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE72_14001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE72_14001.pdf  used on input line 3
+13.
+(pdftex.def)             Requested size: 204.85802pt x 144.57384pt.
+ [16 <./Chapters/HiSPARC/GLE70_501.pdf> <./Chapters/HiSPARC/GLE70_3001.pdf
 
-<Chapters/HS_14008/CR_v_P.pdf, id=538, 731.3606pt x 507.57562pt>
-File: Chapters/HS_14008/CR_v_P.pdf Graphic file (type pdf)
-<use Chapters/HS_14008/CR_v_P.pdf>
-Package pdftex.def Info: Chapters/HS_14008/CR_v_P.pdf  used on input line 352.
-(pdftex.def)             Requested size: 204.85802pt x 142.17441pt.
-<Chapters/HS_14008/fit_CR_v_P.pdf, id=539, 654.90926pt x 506.2959pt>
-File: Chapters/HS_14008/fit_CR_v_P.pdf Graphic file (type pdf)
-<use Chapters/HS_14008/fit_CR_v_P.pdf>
-Package pdftex.def Info: Chapters/HS_14008/fit_CR_v_P.pdf  used on input line 3
-56.
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/GLE70_3001.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/GLE71_8001.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/GLE71_8001.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/GLE71_3001.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/GLE71_3001.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+>] [17 <./Chapters/HiSPARC/GLE72_501.pdf> <./Chapters/HiSPARC/GLE72_203.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/GLE72_203.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/GLE72_8001.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/GLE72_8001.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/GLE72_14001.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/GLE72_14001.pdf): PD
+F inclusion: multiple pdfs with page group included in a single page
+>]
+<Chapters/HiSPARC/FD_201203_501.pdf, id=1925, 861.05122pt x 377.22482pt>
+File: Chapters/HiSPARC/FD_201203_501.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201203_501.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201203_501.pdf  used on input line
+ 341.
+(pdftex.def)             Requested size: 204.85802pt x 89.74722pt.
+<Chapters/HiSPARC/FD_201203_8001.pdf, id=1926, 861.05122pt x 377.22482pt>
+File: Chapters/HiSPARC/FD_201203_8001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201203_8001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201203_8001.pdf  used on input lin
+e 345.
+(pdftex.def)             Requested size: 204.85802pt x 89.74722pt.
+<Chapters/HiSPARC/FD_201207_501.pdf, id=1927, 884.78792pt x 377.22482pt>
+File: Chapters/HiSPARC/FD_201207_501.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201207_501.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201207_501.pdf  used on input line
+ 355.
+(pdftex.def)             Requested size: 204.85802pt x 87.33548pt.
+<Chapters/HiSPARC/FD_201207_8001.pdf, id=1928, 884.78792pt x 377.22482pt>
+File: Chapters/HiSPARC/FD_201207_8001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201207_8001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201207_8001.pdf  used on input lin
+e 359.
+(pdftex.def)             Requested size: 204.85802pt x 87.33548pt.
+<Chapters/HiSPARC/FD_201412_501.pdf, id=1929, 861.05122pt x 377.22482pt>
+File: Chapters/HiSPARC/FD_201412_501.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201412_501.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201412_501.pdf  used on input line
+ 369.
+(pdftex.def)             Requested size: 204.85802pt x 89.74722pt.
+<Chapters/HiSPARC/FD_201412_203.pdf, id=1930, 869.12828pt x 360.24303pt>
+File: Chapters/HiSPARC/FD_201412_203.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201412_203.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201412_203.pdf  used on input line
+ 373.
+(pdftex.def)             Requested size: 204.85802pt x 84.90997pt.
+<Chapters/HiSPARC/FD_201412_3001.pdf, id=1931, 861.05122pt x 377.22482pt>
+File: Chapters/HiSPARC/FD_201412_3001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201412_3001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201412_3001.pdf  used on input lin
+e 379.
+(pdftex.def)             Requested size: 204.85802pt x 89.74722pt.
+<Chapters/HiSPARC/FD_201412_14001.pdf, id=1932, 883.80733pt x 360.24303pt>
+File: Chapters/HiSPARC/FD_201412_14001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201412_14001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201412_14001.pdf  used on input li
+ne 383.
+(pdftex.def)             Requested size: 204.85802pt x 83.49728pt.
+ [18 <./Chapters/HiSPARC/FD_201203_501.pdf> <./Chapters/HiSPARC/FD_201203_8001.
+pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_201203_8001.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+>] [19 <./Chapters/HiSPARC/FD_201207_501.pdf> <./Chapters/HiSPARC/FD_201207_800
+1.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_201207_8001.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/FD_201412_501.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_201412_501.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/FD_201412_203.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_201412_203.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/FD_201412_3001.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_201412_3001.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/FD_201412_14001.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_201412_14001.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Chapters/HiSPARC/FD_GLE72_501.pdf, id=2244, 893.61037pt x 622.94284pt>
+File: Chapters/HiSPARC/FD_GLE72_501.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_GLE72_501.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_GLE72_501.pdf  used on input line 
+402.
+(pdftex.def)             Requested size: 204.85802pt x 142.80807pt.
+<Chapters/HiSPARC/FD_GLE72_203.pdf, id=2245, 893.61037pt x 622.94284pt>
+File: Chapters/HiSPARC/FD_GLE72_203.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_GLE72_203.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_GLE72_203.pdf  used on input line 
+406.
+(pdftex.def)             Requested size: 204.85802pt x 142.80807pt.
+<Chapters/HiSPARC/FD_GLE72_8001.pdf, id=2246, 907.66287pt x 612.54205pt>
+File: Chapters/HiSPARC/FD_GLE72_8001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_GLE72_8001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_GLE72_8001.pdf  used on input line
+ 412.
+(pdftex.def)             Requested size: 204.85802pt x 138.24596pt.
+<Chapters/HiSPARC/FD_GLE72_14001.pdf, id=2247, 884.78792pt x 622.94284pt>
+File: Chapters/HiSPARC/FD_GLE72_14001.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_GLE72_14001.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_GLE72_14001.pdf  used on input lin
+e 416.
+(pdftex.def)             Requested size: 204.85802pt x 144.22437pt.
+ [20] [21 <./Chapters/HiSPARC/FD_GLE72_501.pdf> <./Chapters/HiSPARC/FD_GLE72_20
+3.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_GLE72_203.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/FD_GLE72_8001.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_GLE72_8001.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/FD_GLE72_14001.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_GLE72_14001.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Chapters/HiSPARC/SOPO_CRvP.pdf, id=2487, 715.68527pt x 507.89426pt>
+File: Chapters/HiSPARC/SOPO_CRvP.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/SOPO_CRvP.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/SOPO_CRvP.pdf  used on input line 458
+.
+(pdftex.def)             Requested size: 204.85802pt x 145.37909pt.
+<Chapters/HiSPARC/501_CRvP.pdf, id=2488, 727.18134pt x 505.72906pt>
+File: Chapters/HiSPARC/501_CRvP.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/501_CRvP.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/501_CRvP.pdf  used on input line 462.
+
+(pdftex.def)             Requested size: 204.85802pt x 142.46745pt.
+ [22] [23 <./Chapters/HiSPARC/SOPO_CRvP.pdf> <./Chapters/HiSPARC/501_CRvP.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/501_CRvP.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>]
+<Chapters/HiSPARC/SOPO_beta.pdf, id=2596, 654.90926pt x 506.2959pt>
+File: Chapters/HiSPARC/SOPO_beta.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/SOPO_beta.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/SOPO_beta.pdf  used on input line 500
+.
 (pdftex.def)             Requested size: 204.85802pt x 158.36386pt.
-<Chapters/HS_14008/raw_vs_corrected_coincidences.pdf, id=540, 652.9488pt x 512.
-59064pt>
-File: Chapters/HS_14008/raw_vs_corrected_coincidences.pdf Graphic file (type pd
-f)
-<use Chapters/HS_14008/raw_vs_corrected_coincidences.pdf>
-Package pdftex.def Info: Chapters/HS_14008/raw_vs_corrected_coincidences.pdf  u
-sed on input line 368.
-(pdftex.def)             Requested size: 320.0935pt x 251.28893pt.
-<Chapters/HS_14008/HS_14008_CR_v_T_sept2020.pdf, id=542, 707.07289pt x 498.2419
-1pt>
+<Chapters/HiSPARC/501_beta.pdf, id=2597, 654.90926pt x 506.2959pt>
+File: Chapters/HiSPARC/501_beta.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/501_beta.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/501_beta.pdf  used on input line 504.
+
+(pdftex.def)             Requested size: 204.85802pt x 158.36386pt.
+<Chapters/HiSPARC/501_raw_vs_corrected.pdf, id=2601, 648.77905pt x 505.72906pt>
+
+File: Chapters/HiSPARC/501_raw_vs_corrected.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/501_raw_vs_corrected.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/501_raw_vs_corrected.pdf  used on inp
+ut line 514.
+(pdftex.def)             Requested size: 277.41176pt x 216.24771pt.
+ [24 <./Chapters/HiSPARC/SOPO_beta.pdf> <./Chapters/HiSPARC/501_beta.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/501_beta.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/501_raw_vs_corrected.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/501_raw_vs_corrected
+.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Chapters/HiSPARC/SOPO_beta_2017_rescale.png, id=2724, 338.4645pt x 169.5936pt>
+
+File: Chapters/HiSPARC/SOPO_beta_2017_rescale.png Graphic file (type png)
+<use Chapters/HiSPARC/SOPO_beta_2017_rescale.png>
+Package pdftex.def Info: Chapters/HiSPARC/SOPO_beta_2017_rescale.png  used on i
+nput line 524.
+(pdftex.def)             Requested size: 277.41176pt x 139.0107pt.
+ [25 <./Chapters/HiSPARC/SOPO_beta_2017_rescale.png>] [26]
+<Chapters/HiSPARC/8001_CRvT.pdf, id=2767, 721.42546pt x 505.72906pt>
+File: Chapters/HiSPARC/8001_CRvT.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/8001_CRvT.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/8001_CRvT.pdf  used on input line 580
+.
+(pdftex.def)             Requested size: 204.85802pt x 143.60182pt.
+<Chapters/HiSPARC/8001_alpha.pdf, id=2768, 644.68356pt x 506.2959pt>
+File: Chapters/HiSPARC/8001_alpha.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/8001_alpha.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/8001_alpha.pdf  used on input line 58
+4.
+(pdftex.def)             Requested size: 204.85802pt x 160.88235pt.
+<Chapters/HiSPARC/8001_raw_vs_corrected.pdf, id=2771, 648.77905pt x 505.72906pt
+>
+File: Chapters/HiSPARC/8001_raw_vs_corrected.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/8001_raw_vs_corrected.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/8001_raw_vs_corrected.pdf  used on in
+put line 594.
+(pdftex.def)             Requested size: 277.41176pt x 216.24771pt.
+
+Overfull \hbox (21.07036pt too wide) in paragraph at lines 604--604
+|[]\OT1/cmr/bx/n/17.28 HiSPARC Ob-ser-va-tions Af-ter At-mo-spheric Cor-
+ []
+
+[27 <./Chapters/HiSPARC/8001_CRvT.pdf> <./Chapters/HiSPARC/8001_alpha.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/8001_alpha.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+>]
+<Chapters/HiSPARC/GLE71_3001_Pcorr.pdf, id=2864, 861.05122pt x 367.48715pt>
+File: Chapters/HiSPARC/GLE71_3001_Pcorr.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE71_3001_Pcorr.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE71_3001_Pcorr.pdf  used on input l
+ine 616.
+(pdftex.def)             Requested size: 204.85802pt x 87.4305pt.
+<Chapters/HiSPARC/GLE71_8001_CORR.pdf, id=2865, 861.05122pt x 368.99208pt>
+File: Chapters/HiSPARC/GLE71_8001_CORR.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE71_8001_CORR.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE71_8001_CORR.pdf  used on input li
+ne 620.
+(pdftex.def)             Requested size: 204.85802pt x 87.78854pt.
+<Chapters/HiSPARC/GLE72_501_CORR.pdf, id=2866, 893.61037pt x 608.41985pt>
+File: Chapters/HiSPARC/GLE72_501_CORR.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE72_501_CORR.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE72_501_CORR.pdf  used on input lin
+e 631.
+(pdftex.def)             Requested size: 204.85802pt x 139.47871pt.
+<Chapters/HiSPARC/GLE72_203_CORR.pdf, id=2867, 893.61037pt x 608.41985pt>
+File: Chapters/HiSPARC/GLE72_203_CORR.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/GLE72_203_CORR.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/GLE72_203_CORR.pdf  used on input lin
+e 635.
+(pdftex.def)             Requested size: 204.85802pt x 139.47871pt.
+ [28 <./Chapters/HiSPARC/8001_raw_vs_corrected.pdf>] [29 <./Chapters/HiSPARC/GL
+E71_3001_Pcorr.pdf> <./Chapters/HiSPARC/GLE71_8001_CORR.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/GLE71_8001_CORR.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/GLE72_501_CORR.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/GLE72_501_CORR.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/GLE72_203_CORR.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/GLE72_203_CORR.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Chapters/HiSPARC/FD_201207_8001_CORR.pdf, id=3096, 888.10371pt x 385.07518pt>
+File: Chapters/HiSPARC/FD_201207_8001_CORR.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201207_8001_CORR.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201207_8001_CORR.pdf  used on inpu
+t line 654.
+(pdftex.def)             Requested size: 277.41176pt x 120.2828pt.
+<Chapters/HiSPARC/FD_201412_501_CORR.pdf, id=3097, 861.05122pt x 377.22482pt>
+File: Chapters/HiSPARC/FD_201412_501_CORR.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_201412_501_CORR.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_201412_501_CORR.pdf  used on input
+ line 661.
+(pdftex.def)             Requested size: 277.41176pt x 121.53175pt.
+ [30 <./Chapters/HiSPARC/FD_201207_8001_CORR.pdf>]
+<Chapters/HiSPARC/FD_GLE72_501_CORR.pdf, id=3149, 893.61037pt x 622.94284pt>
+File: Chapters/HiSPARC/FD_GLE72_501_CORR.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_GLE72_501_CORR.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_GLE72_501_CORR.pdf  used on input 
+line 675.
+(pdftex.def)             Requested size: 204.85802pt x 142.80807pt.
+<Chapters/HiSPARC/FD_GLE72_203_CORR.pdf, id=3150, 893.61037pt x 622.94284pt>
+File: Chapters/HiSPARC/FD_GLE72_203_CORR.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/FD_GLE72_203_CORR.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/FD_GLE72_203_CORR.pdf  used on input 
+line 679.
+(pdftex.def)             Requested size: 204.85802pt x 142.80807pt.
+ [31 <./Chapters/HiSPARC/FD_201412_501_CORR.pdf> <./Chapters/HiSPARC/FD_GLE72_5
+01_CORR.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_GLE72_501_CORR.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HiSPARC/FD_GLE72_203_CORR.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/FD_GLE72_203_CORR.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+>] [32]
+<Chapters/HiSPARC/proton_footprint.pdf, id=3314, 651.22797pt x 623.56712pt>
+File: Chapters/HiSPARC/proton_footprint.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/proton_footprint.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/proton_footprint.pdf  used on input l
+ine 715.
+(pdftex.def)             Requested size: 200.59245pt x 192.06688pt.
+<Chapters/HiSPARC/alpha_footprint.pdf, id=3315, 651.22797pt x 623.56712pt>
+File: Chapters/HiSPARC/alpha_footprint.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/alpha_footprint.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/alpha_footprint.pdf  used on input li
+ne 717.
+(pdftex.def)             Requested size: 200.59245pt x 192.06688pt.
+ [33] [34 <./Chapters/HiSPARC/proton_footprint.pdf> <./Chapters/HiSPARC/alpha_f
+ootprint.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/alpha_footprint.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Chapters/HiSPARC/proton_muon_number.pdf, id=3454, 662.02771pt x 623.56712pt>
+File: Chapters/HiSPARC/proton_muon_number.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/proton_muon_number.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/proton_muon_number.pdf  used on input
+ line 753.
+(pdftex.def)             Requested size: 200.59245pt x 188.9365pt.
+<Chapters/HiSPARC/alpha_muon_number.pdf, id=3455, 662.02771pt x 623.56712pt>
+File: Chapters/HiSPARC/alpha_muon_number.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/alpha_muon_number.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/alpha_muon_number.pdf  used on input 
+line 755.
+(pdftex.def)             Requested size: 200.59245pt x 188.9365pt.
+ [35 <./Chapters/HiSPARC/proton_muon_number.pdf> <./Chapters/HiSPARC/alpha_muon
+_number.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/alpha_muon_number.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Chapters/HiSPARC/Total_Muon_Diff_Flux_Comparison.pdf, id=3568, 442.52516pt x 3
+90.92236pt>
+File: Chapters/HiSPARC/Total_Muon_Diff_Flux_Comparison.pdf Graphic file (type p
+df)
+<use Chapters/HiSPARC/Total_Muon_Diff_Flux_Comparison.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/Total_Muon_Diff_Flux_Comparison.pdf  
+used on input line 781.
+(pdftex.def)             Requested size: 200.59245pt x 177.20187pt.
+<Chapters/HiSPARC/Total_Muon_Flux_Comparison.pdf, id=3569, 435.4989pt x 390.922
+36pt>
+File: Chapters/HiSPARC/Total_Muon_Flux_Comparison.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/Total_Muon_Flux_Comparison.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/Total_Muon_Flux_Comparison.pdf  used 
+on input line 783.
+(pdftex.def)             Requested size: 200.59245pt x 180.06506pt.
+ [36 <./Chapters/HiSPARC/Total_Muon_Diff_Flux_Comparison.pdf> <./Chapters/HiSPA
+RC/Total_Muon_Flux_Comparison.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/Total_Muon_Flux_Comp
+arison.pdf): PDF inclusion: multiple pdfs with page group included in a single 
+page
+>] [37]
+<Chapters/HiSPARC/Muon_Diff_Flux.pdf, id=3718, 436.55595pt x 390.92236pt>
+File: Chapters/HiSPARC/Muon_Diff_Flux.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/Muon_Diff_Flux.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/Muon_Diff_Flux.pdf  used on input lin
+e 829.
+(pdftex.def)             Requested size: 200.59245pt x 179.62366pt.
+<Chapters/HiSPARC/Muon_Diff_Flux_Additive.pdf, id=3719, 427.4689pt x 396.49004p
+t>
+File: Chapters/HiSPARC/Muon_Diff_Flux_Additive.pdf Graphic file (type pdf)
+<use Chapters/HiSPARC/Muon_Diff_Flux_Additive.pdf>
+Package pdftex.def Info: Chapters/HiSPARC/Muon_Diff_Flux_Additive.pdf  used on 
+input line 831.
+(pdftex.def)             Requested size: 200.59245pt x 186.05994pt.
+ [38 <./Chapters/HiSPARC/Muon_Diff_Flux.pdf> <./Chapters/HiSPARC/Muon_Diff_Flux
+_Additive.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/Muon_Diff_Flux_Addit
+ive.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+>] [39] [40] [41] [42]
+Overfull \hbox (1.57089pt too wide) in paragraph at lines 925--926
+[]\OT1/cmr/m/n/12 Expanding on this anal-y-sis, a com-par-a-tive study was con-
+ducted us-ing the [][][]MAIRE[][]
+ []
+
+[43] [44]) (./Chapters/HS_14008/HS_14008.tex [45]
+Chapter 2.
+[46
+
+]
+<Chapters/HS_14008/14008_config.png, id=4038, 560.8453pt x 255.95625pt>
+File: Chapters/HS_14008/14008_config.png Graphic file (type png)
+<use Chapters/HS_14008/14008_config.png>
+Package pdftex.def Info: Chapters/HS_14008/14008_config.png  used on input line
+ 48.
+(pdftex.def)             Requested size: 320.0935pt x 146.08012pt.
+ [47]
+<Chapters/HS_14008/detectors_in_box.jpg, id=4055, 642.4pt x 481.8pt>
+File: Chapters/HS_14008/detectors_in_box.jpg Graphic file (type jpg)
+<use Chapters/HS_14008/detectors_in_box.jpg>
+Package pdftex.def Info: Chapters/HS_14008/detectors_in_box.jpg  used on input 
+line 62.
+(pdftex.def)             Requested size: 204.85802pt x 153.64247pt.
+<Chapters/HS_14008/ski_box_rescaled.jpg, id=4056, 1011.78pt x 758.835pt>
+File: Chapters/HS_14008/ski_box_rescaled.jpg Graphic file (type jpg)
+<use Chapters/HS_14008/ski_box_rescaled.jpg>
+Package pdftex.def Info: Chapters/HS_14008/ski_box_rescaled.jpg  used on input 
+line 66.
+(pdftex.def)             Requested size: 204.85802pt x 153.64009pt.
+ [48 <./Chapters/HS_14008/14008_config.png>] [49 <./Chapters/HS_14008/detectors
+_in_box.jpg> <./Chapters/HS_14008/ski_box_rescaled.jpg>]
+<Chapters/HS_14008/14008_nim_config.png, id=4096, 758.835pt x 416.30531pt>
+File: Chapters/HS_14008/14008_nim_config.png Graphic file (type png)
+<use Chapters/HS_14008/14008_nim_config.png>
+Package pdftex.def Info: Chapters/HS_14008/14008_nim_config.png  used on input 
+line 90.
+(pdftex.def)             Requested size: 426.79135pt x 234.14575pt.
+ [50 <./Chapters/HS_14008/14008_nim_config.png>] [51]
+Overfull \hbox (8.00146pt too wide) in paragraph at lines 145--146
+[]\OT1/cmr/m/n/12 In gen-eral, the [][][]PMTs[][] have an ad-vised op-er-at-ing
+ volt-age of around 700 V ([][]Fokkema[][],
+ []
+
+[52]
+<Chapters/HS_14008/both_PMTs_post_NIM.png, id=4173, 436.14944pt x 318.10844pt>
+File: Chapters/HS_14008/both_PMTs_post_NIM.png Graphic file (type png)
+<use Chapters/HS_14008/both_PMTs_post_NIM.png>
+Package pdftex.def Info: Chapters/HS_14008/both_PMTs_post_NIM.png  used on inpu
+t line 153.
+(pdftex.def)             Requested size: 341.43437pt x 249.03612pt.
+ [53 <./Chapters/HS_14008/both_PMTs_post_NIM.png>]
+<Chapters/HS_14008/HS_14008_temp_circuit.png, id=4195, 240.9pt x 159.4758pt>
+File: Chapters/HS_14008/HS_14008_temp_circuit.png Graphic file (type png)
+<use Chapters/HS_14008/HS_14008_temp_circuit.png>
+Package pdftex.def Info: Chapters/HS_14008/HS_14008_temp_circuit.png  used on i
+nput line 174.
+(pdftex.def)             Requested size: 256.07741pt x 169.53995pt.
+<Chapters/HS_14008/temperture_sensor_rescaled.jpg, id=4196, 1011.78pt x 758.835
+pt>
+File: Chapters/HS_14008/temperture_sensor_rescaled.jpg Graphic file (type jpg)
+<use Chapters/HS_14008/temperture_sensor_rescaled.jpg>
+Package pdftex.def Info: Chapters/HS_14008/temperture_sensor_rescaled.jpg  used
+ on input line 179.
+(pdftex.def)             Requested size: 234.73654pt x 176.04521pt.
+<Chapters/HS_14008/14008_data_acq_config.png, id=4201, 580.41844pt x 165.61874p
+t>
+File: Chapters/HS_14008/14008_data_acq_config.png Graphic file (type png)
+<use Chapters/HS_14008/14008_data_acq_config.png>
+Package pdftex.def Info: Chapters/HS_14008/14008_data_acq_config.png  used on i
+nput line 195.
+(pdftex.def)             Requested size: 341.43437pt x 97.4261pt.
+ [54] [55 <./Chapters/HS_14008/HS_14008_temp_circuit.png> <./Chapters/HS_14008/
+temperture_sensor_rescaled.jpg> <./Chapters/HS_14008/14008_data_acq_config.png>
+]
+Underfull \hbox (badness 2894) in paragraph at lines 215--216
+[]|\OT1/cmr/m/n/12 Integer, eight dig-its, zero
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 216--216
+[]|\OT1/cmr/m/n/12 Cumulative Re-
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 216--217
+[]|\OT1/cmr/m/n/12 Integer, eight dig-its, zero
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 217--218
+[]|\OT1/cmr/m/n/12 Integer, eight dig-its, zero
+ []
+
+[56] [57] [58] [59] [60] [61]
+<Chapters/HS_14008/coincidences_v_T.pdf, id=4307, 698.49397pt x 487.67117pt>
+File: Chapters/HS_14008/coincidences_v_T.pdf Graphic file (type pdf)
+<use Chapters/HS_14008/coincidences_v_T.pdf>
+Package pdftex.def Info: Chapters/HS_14008/coincidences_v_T.pdf  used on input 
+line 384.
+(pdftex.def)             Requested size: 204.85802pt x 143.02832pt.
+<Chapters/HS_14008/fit_coincidences_v_T.pdf, id=4308, 654.90926pt x 506.2959pt>
+
+File: Chapters/HS_14008/fit_coincidences_v_T.pdf Graphic file (type pdf)
+<use Chapters/HS_14008/fit_coincidences_v_T.pdf>
+Package pdftex.def Info: Chapters/HS_14008/fit_coincidences_v_T.pdf  used on in
+put line 388.
+(pdftex.def)             Requested size: 204.85802pt x 158.36386pt.
+ [62 <./Chapters/HS_14008/coincidences_v_T.pdf> <./Chapters/HS_14008/fit_coinci
+dences_v_T.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HS_14008/fit_coincidences_v_
+T.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Chapters/HS_14008/HS_14008_CR_v_T_sept2020.pdf, id=4396, 707.07289pt x 498.241
+91pt>
 File: Chapters/HS_14008/HS_14008_CR_v_T_sept2020.pdf Graphic file (type pdf)
 <use Chapters/HS_14008/HS_14008_CR_v_T_sept2020.pdf>
 Package pdftex.def Info: Chapters/HS_14008/HS_14008_CR_v_T_sept2020.pdf  used o
-n input line 382.
-(pdftex.def)             Requested size: 320.0935pt x 225.55243pt.
-[15 <./Chapters/HS_14008/CR_v_P.pdf> <./Chapters/HS_14008/fit_CR_v_P.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HS_14008/fit_CR_v_P.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
->]
-<Chapters/HS_14008/CR_v_T.pdf, id=621, 708.71967pt x 491.15762pt>
+n input line 402.
+(pdftex.def)             Requested size: 298.75264pt x 210.51459pt.
+ [63 <./Chapters/HS_14008/HS_14008_CR_v_T_sept2020.pdf>]
+<Chapters/HS_14008/CR_v_T.pdf, id=4445, 708.71967pt x 491.15762pt>
 File: Chapters/HS_14008/CR_v_T.pdf Graphic file (type pdf)
 <use Chapters/HS_14008/CR_v_T.pdf>
-Package pdftex.def Info: Chapters/HS_14008/CR_v_T.pdf  used on input line 394.
+Package pdftex.def Info: Chapters/HS_14008/CR_v_T.pdf  used on input line 414.
 (pdftex.def)             Requested size: 204.85802pt x 141.9674pt.
-<Chapters/HS_14008/fit_CR_v_T.pdf, id=622, 661.22845pt x 506.2959pt>
+<Chapters/HS_14008/fit_CR_v_T.pdf, id=4446, 661.22845pt x 506.2959pt>
 File: Chapters/HS_14008/fit_CR_v_T.pdf Graphic file (type pdf)
 <use Chapters/HS_14008/fit_CR_v_T.pdf>
-Package pdftex.def Info: Chapters/HS_14008/fit_CR_v_T.pdf  used on input line 3
-98.
+Package pdftex.def Info: Chapters/HS_14008/fit_CR_v_T.pdf  used on input line 4
+18.
 (pdftex.def)             Requested size: 204.85802pt x 156.85739pt.
- [16 <./Chapters/HS_14008/raw_vs_corrected_coincidences.pdf> <./Chapters/HS_140
-08/HS_14008_CR_v_T_sept2020.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HS_14008/HS_14008_CR_v_T_sep
-t2020.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
->]
-
-LaTeX Warning: Reference `chap:HiSPARC' on page 17 undefined on input line 422.
-
-
-
-LaTeX Warning: Reference `chap:HiSPARC' on page 17 undefined on input line 432.
-
-
-[17 <./Chapters/HS_14008/CR_v_T.pdf> <./Chapters/HS_14008/fit_CR_v_T.pdf
+<Chapters/HS_14008/raw_vs_corrected_singles.pdf, id=4449, 664.44489pt x 505.729
+06pt>
+File: Chapters/HS_14008/raw_vs_corrected_singles.pdf Graphic file (type pdf)
+<use Chapters/HS_14008/raw_vs_corrected_singles.pdf>
+Package pdftex.def Info: Chapters/HS_14008/raw_vs_corrected_singles.pdf  used o
+n input line 428.
+(pdftex.def)             Requested size: 298.75264pt x 227.39076pt.
+ [64 <./Chapters/HS_14008/CR_v_T.pdf> <./Chapters/HS_14008/fit_CR_v_T.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HS_14008/fit_CR_v_T.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
 >]
-<Chapters/HS_14008/many_day_diurnal_effect_timeseries.pdf, id=804, 869.9595pt x
- 487.67117pt>
+<Chapters/HS_14008/HS_14008_vs_14001_and_temp.pdf, id=4533, 822.78558pt x 498.2
+4191pt>
+File: Chapters/HS_14008/HS_14008_vs_14001_and_temp.pdf Graphic file (type pdf)
+<use Chapters/HS_14008/HS_14008_vs_14001_and_temp.pdf>
+Package pdftex.def Info: Chapters/HS_14008/HS_14008_vs_14001_and_temp.pdf  used
+ on input line 441.
+(pdftex.def)             Requested size: 384.1096pt x 232.59999pt.
+ [65 <./Chapters/HS_14008/raw_vs_corrected_singles.pdf>]
+<Chapters/HS_14008/CR_v_P.pdf, id=4580, 734.46564pt x 505.72906pt>
+File: Chapters/HS_14008/CR_v_P.pdf Graphic file (type pdf)
+<use Chapters/HS_14008/CR_v_P.pdf>
+Package pdftex.def Info: Chapters/HS_14008/CR_v_P.pdf  used on input line 462.
+(pdftex.def)             Requested size: 204.85802pt x 141.05527pt.
+<Chapters/HS_14008/fit_CR_v_P.pdf, id=4581, 654.90926pt x 506.2959pt>
+File: Chapters/HS_14008/fit_CR_v_P.pdf Graphic file (type pdf)
+<use Chapters/HS_14008/fit_CR_v_P.pdf>
+Package pdftex.def Info: Chapters/HS_14008/fit_CR_v_P.pdf  used on input line 4
+66.
+(pdftex.def)             Requested size: 204.85802pt x 158.36386pt.
+<Chapters/HS_14008/raw_vs_corrected_coincidences.pdf, id=4586, 652.9488pt x 512
+.59064pt>
+File: Chapters/HS_14008/raw_vs_corrected_coincidences.pdf Graphic file (type pd
+f)
+<use Chapters/HS_14008/raw_vs_corrected_coincidences.pdf>
+Package pdftex.def Info: Chapters/HS_14008/raw_vs_corrected_coincidences.pdf  u
+sed on input line 478.
+(pdftex.def)             Requested size: 298.75264pt x 234.5353pt.
+ [66 <./Chapters/HS_14008/HS_14008_vs_14001_and_temp.pdf>] [67 <./Chapters/HS_1
+4008/CR_v_P.pdf> <./Chapters/HS_14008/fit_CR_v_P.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HS_14008/fit_CR_v_P.pdf): PD
+F inclusion: multiple pdfs with page group included in a single page
+> <./Chapters/HS_14008/raw_vs_corrected_coincidences.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HS_14008/raw_vs_corrected_co
+incidences.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
+>]
+<Chapters/HS_14008/many_day_diurnal_effect_timeseries.pdf, id=4771, 869.9595pt 
+x 487.67117pt>
 File: Chapters/HS_14008/many_day_diurnal_effect_timeseries.pdf Graphic file (ty
 pe pdf)
 <use Chapters/HS_14008/many_day_diurnal_effect_timeseries.pdf>
 Package pdftex.def Info: Chapters/HS_14008/many_day_diurnal_effect_timeseries.p
-df  used on input line 436.
+df  used on input line 509.
 (pdftex.def)             Requested size: 426.79135pt x 239.24373pt.
-
-
-LaTeX Warning: Reference `chap:HiSPARC' on page 18 undefined on input line 455.
-
-
-[18 <./Chapters/HS_14008/many_day_diurnal_effect_timeseries.pdf>]
-<Chapters/HS_14008/reduced_events_vs_coinc.pdf, id=873, 748.95293pt x 498.24191
-pt>
+ [68] [69 <./Chapters/HS_14008/many_day_diurnal_effect_timeseries.pdf>]
+<Chapters/HS_14008/reduced_events_vs_coinc.pdf, id=4839, 748.95293pt x 498.2419
+1pt>
 File: Chapters/HS_14008/reduced_events_vs_coinc.pdf Graphic file (type pdf)
 <use Chapters/HS_14008/reduced_events_vs_coinc.pdf>
 Package pdftex.def Info: Chapters/HS_14008/reduced_events_vs_coinc.pdf  used on
- input line 471.
+ input line 544.
 (pdftex.def)             Requested size: 221.93332pt x 147.64151pt.
-<Chapters/HS_14008/coinc_reduction_factor.pdf, id=874, 651.03542pt x 505.65288p
-t>
+<Chapters/HS_14008/coinc_reduction_factor.pdf, id=4840, 651.03542pt x 505.65288
+pt>
 File: Chapters/HS_14008/coinc_reduction_factor.pdf Graphic file (type pdf)
 <use Chapters/HS_14008/coinc_reduction_factor.pdf>
 Package pdftex.def Info: Chapters/HS_14008/coinc_reduction_factor.pdf  used on 
-input line 475.
+input line 548.
 (pdftex.def)             Requested size: 187.78923pt x 145.84857pt.
 
-Overfull \hbox (30.63873pt too wide) in paragraph at lines 481--482
-[]\OT1/cmr/m/n/12 The mean value of the Pois-son dis-tri-bu-tion of these co-in
--ci-dence data is $\OMS/cmsy/m/n/12 ^^X \OT1/cmr/m/n/12 44$ counts/min
- []
-
-[19 <./Chapters/HS_14008/reduced_events_vs_coinc.pdf> <./Chapters/HS_14008/coin
+[70 <./Chapters/HS_14008/reduced_events_vs_coinc.pdf> <./Chapters/HS_14008/coin
 c_reduction_factor.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HS_14008/coinc_reduction_fac
 tor.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
 e
 >]
-<Chapters/HS_14008/random_noise_timeseries.pdf, id=965, 865.78351pt x 505.65288
-pt>
+<Chapters/HS_14008/random_noise_timeseries.pdf, id=4932, 865.78351pt x 505.6528
+8pt>
 File: Chapters/HS_14008/random_noise_timeseries.pdf Graphic file (type pdf)
 <use Chapters/HS_14008/random_noise_timeseries.pdf>
 Package pdftex.def Info: Chapters/HS_14008/random_noise_timeseries.pdf  used on
- input line 490.
-(pdftex.def)             Requested size: 426.79135pt x 249.26118pt.
- [20]
-<Chapters/HS_14008/random_noise_fitted_poisson.pdf, id=975, 426.66086pt x 318.3
-4464pt>
+ input line 563.
+(pdftex.def)             Requested size: 384.1096pt x 224.33199pt.
+<Chapters/HS_14008/random_noise_fitted_poisson.pdf, id=4938, 426.66086pt x 318.
+34464pt>
 File: Chapters/HS_14008/random_noise_fitted_poisson.pdf Graphic file (type pdf)
 
 <use Chapters/HS_14008/random_noise_fitted_poisson.pdf>
 Package pdftex.def Info: Chapters/HS_14008/random_noise_fitted_poisson.pdf  use
-d on input line 499.
-(pdftex.def)             Requested size: 384.1096pt x 286.59494pt.
- [21 <./Chapters/HS_14008/random_noise_timeseries.pdf>]
-
-LaTeX Warning: Reference `chap:HiSPARC' on page 22 undefined on input line 516.
-
-
-[22 <./Chapters/HS_14008/random_noise_fitted_poisson.pdf>]
-<Chapters/HS_14008/HS14008_vs_DRBS.pdf, id=1074, 719.85503pt x 512.59064pt>
+d on input line 572.
+(pdftex.def)             Requested size: 341.43437pt x 254.75375pt.
+ [71 <./Chapters/HS_14008/random_noise_timeseries.pdf>] [72 <./Chapters/HS_1400
+8/random_noise_fitted_poisson.pdf>]
+<Chapters/HS_14008/HS14008_vs_DRBS.pdf, id=5038, 719.85503pt x 512.59064pt>
 File: Chapters/HS_14008/HS14008_vs_DRBS.pdf Graphic file (type pdf)
 <use Chapters/HS_14008/HS14008_vs_DRBS.pdf>
 Package pdftex.def Info: Chapters/HS_14008/HS14008_vs_DRBS.pdf  used on input l
-ine 522.
+ine 595.
 (pdftex.def)             Requested size: 204.85802pt x 145.87085pt.
-<Chapters/HS_14008/HS14008_vs_DRBS_overlay.pdf, id=1075, 719.85503pt x 505.7290
+<Chapters/HS_14008/HS14008_vs_DRBS_overlay.pdf, id=5039, 719.85503pt x 505.7290
 6pt>
 File: Chapters/HS_14008/HS14008_vs_DRBS_overlay.pdf Graphic file (type pdf)
 <use Chapters/HS_14008/HS14008_vs_DRBS_overlay.pdf>
 Package pdftex.def Info: Chapters/HS_14008/HS14008_vs_DRBS_overlay.pdf  used on
- input line 526.
+ input line 599.
 (pdftex.def)             Requested size: 204.85802pt x 143.91821pt.
- [23 <./Chapters/HS_14008/HS14008_vs_DRBS.pdf> <./Chapters/HS_14008/HS14008_vs_
+ [73 <./Chapters/HS_14008/HS14008_vs_DRBS.pdf> <./Chapters/HS_14008/HS14008_vs_
 DRBS_overlay.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HS_14008/HS14008_vs_DRBS_ove
 rlay.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
 ge
->]
-<Chapters/HS_14008/simulated_data_stats.pdf, id=1195, 641.92967pt x 623.81175pt
+>] [74]
+<Chapters/HS_14008/simulated_data_stats.pdf, id=5165, 641.92967pt x 623.81175pt
 >
 File: Chapters/HS_14008/simulated_data_stats.pdf Graphic file (type pdf)
 <use Chapters/HS_14008/simulated_data_stats.pdf>
 Package pdftex.def Info: Chapters/HS_14008/simulated_data_stats.pdf  used on in
-put line 549.
+put line 622.
 (pdftex.def)             Requested size: 384.1096pt x 373.28096pt.
- [24] [25 <./Chapters/HS_14008/simulated_data_stats.pdf>]
-<Chapters/HS_14008/HS_14008_sims_plot_0rebin.pdf, id=1264, 544.51398pt x 618.89
+ [75 <./Chapters/HS_14008/simulated_data_stats.pdf>] [76]
+<Chapters/HS_14008/HS_14008_sims_plot_0rebin.pdf, id=5232, 544.51398pt x 618.89
 342pt>
 File: Chapters/HS_14008/HS_14008_sims_plot_0rebin.pdf Graphic file (type pdf)
 <use Chapters/HS_14008/HS_14008_sims_plot_0rebin.pdf>
 Package pdftex.def Info: Chapters/HS_14008/HS_14008_sims_plot_0rebin.pdf  used 
-on input line 585.
+on input line 659.
 (pdftex.def)             Requested size: 204.85802pt x 232.83994pt.
-<Chapters/HS_14008/HS_14008_sims_plot_1rebin.pdf, id=1265, 544.51398pt x 618.89
+<Chapters/HS_14008/HS_14008_sims_plot_1rebin.pdf, id=5233, 544.51398pt x 618.89
 342pt>
 File: Chapters/HS_14008/HS_14008_sims_plot_1rebin.pdf Graphic file (type pdf)
 <use Chapters/HS_14008/HS_14008_sims_plot_1rebin.pdf>
 Package pdftex.def Info: Chapters/HS_14008/HS_14008_sims_plot_1rebin.pdf  used 
-on input line 589.
+on input line 663.
 (pdftex.def)             Requested size: 204.85802pt x 232.83994pt.
-<Chapters/HS_14008/HS_14008_sims_plot_5rebin.pdf, id=1266, 544.51398pt x 618.89
+<Chapters/HS_14008/HS_14008_sims_plot_5rebin.pdf, id=5234, 544.51398pt x 618.89
 342pt>
 File: Chapters/HS_14008/HS_14008_sims_plot_5rebin.pdf Graphic file (type pdf)
 <use Chapters/HS_14008/HS_14008_sims_plot_5rebin.pdf>
 Package pdftex.def Info: Chapters/HS_14008/HS_14008_sims_plot_5rebin.pdf  used 
-on input line 593.
+on input line 667.
 (pdftex.def)             Requested size: 204.85802pt x 232.83994pt.
 
 
-LaTeX Warning: Float too large for page by 3.9496pt on input line 597.
+LaTeX Warning: Float too large for page by 3.9496pt on input line 671.
 
-[26] [27 <./Chapters/HS_14008/HS_14008_sims_plot_0rebin.pdf> <./Chapters/HS_140
+[77] [78 <./Chapters/HS_14008/HS_14008_sims_plot_0rebin.pdf> <./Chapters/HS_140
 08/HS_14008_sims_plot_1rebin.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HS_14008/HS_14008_sims_plot_
@@ -1062,42 +1565,41 @@ page
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HS_14008/HS_14008_sims_plot_
 5rebin.pdf): PDF inclusion: multiple pdfs with page group included in a single 
 page
->]
-
-LaTeX Warning: Reference `sec:MAIRE_flux' on page 28 undefined on input line 60
-5.
-
-[28]
-<Chapters/HS_14008/HS_14008_sims_plot_1stn.pdf, id=1449, 544.51398pt x 618.8934
+>] [79] [80]
+<Chapters/HS_14008/HS_14008_sims_plot_1stn.pdf, id=5446, 544.51398pt x 618.8934
 2pt>
 File: Chapters/HS_14008/HS_14008_sims_plot_1stn.pdf Graphic file (type pdf)
 <use Chapters/HS_14008/HS_14008_sims_plot_1stn.pdf>
 Package pdftex.def Info: Chapters/HS_14008/HS_14008_sims_plot_1stn.pdf  used on
- input line 642.
+ input line 722.
 (pdftex.def)             Requested size: 204.85802pt x 232.83994pt.
-<Chapters/HS_14008/HS_14008_sims_plot_2stn.pdf, id=1450, 544.51398pt x 618.8934
+<Chapters/HS_14008/HS_14008_sims_plot_2stn.pdf, id=5447, 544.51398pt x 618.8934
 2pt>
 File: Chapters/HS_14008/HS_14008_sims_plot_2stn.pdf Graphic file (type pdf)
 <use Chapters/HS_14008/HS_14008_sims_plot_2stn.pdf>
 Package pdftex.def Info: Chapters/HS_14008/HS_14008_sims_plot_2stn.pdf  used on
- input line 646.
+ input line 726.
 (pdftex.def)             Requested size: 204.85802pt x 232.83994pt.
-<Chapters/HS_14008/HS_14008_sims_plot_5stn.pdf, id=1451, 544.51398pt x 618.8934
+<Chapters/HS_14008/HS_14008_sims_plot_5stn.pdf, id=5448, 544.51398pt x 618.8934
 2pt>
 File: Chapters/HS_14008/HS_14008_sims_plot_5stn.pdf Graphic file (type pdf)
 <use Chapters/HS_14008/HS_14008_sims_plot_5stn.pdf>
 Package pdftex.def Info: Chapters/HS_14008/HS_14008_sims_plot_5stn.pdf  used on
- input line 650.
+ input line 730.
 (pdftex.def)             Requested size: 204.85802pt x 232.83994pt.
-<Chapters/HS_14008/HS_14008_sims_plot_10stn.pdf, id=1452, 544.51398pt x 618.893
+<Chapters/HS_14008/HS_14008_sims_plot_10stn.pdf, id=5449, 544.51398pt x 618.893
 42pt>
 File: Chapters/HS_14008/HS_14008_sims_plot_10stn.pdf Graphic file (type pdf)
 <use Chapters/HS_14008/HS_14008_sims_plot_10stn.pdf>
 Package pdftex.def Info: Chapters/HS_14008/HS_14008_sims_plot_10stn.pdf  used o
-n input line 654.
+n input line 734.
 (pdftex.def)             Requested size: 204.85802pt x 232.83994pt.
- [29] [30 <./Chapters/HS_14008/HS_14008_sims_plot_1stn.pdf> <./Chapters/HS_1400
-8/HS_14008_sims_plot_2stn.pdf
+
+
+LaTeX Warning: Float too large for page by 3.9496pt on input line 738.
+
+[81] [82 <./Chapters/HS_14008/HS_14008_sims_plot_1stn.pdf> <./Chapters/HS_14008
+/HS_14008_sims_plot_2stn.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HS_14008/HS_14008_sims_plot_
 2stn.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
@@ -1113,32 +1615,42 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HS_14008/HS_14008_sims_plot_
 10stn.pdf): PDF inclusion: multiple pdfs with page group included in a single p
 age
 >]
-<Chapters/HS_14008/HS_14008_sims_CCF_2pc_plot.png, id=1662, 802.6788pt x 415.31
+<Chapters/HS_14008/HS_14008_sims_CCF_2pc_plot.png, id=5679, 801.7152pt x 415.31
 16pt>
 File: Chapters/HS_14008/HS_14008_sims_CCF_2pc_plot.png Graphic file (type png)
 <use Chapters/HS_14008/HS_14008_sims_CCF_2pc_plot.png>
 Package pdftex.def Info: Chapters/HS_14008/HS_14008_sims_CCF_2pc_plot.png  used
- on input line 671.
-(pdftex.def)             Requested size: 426.79135pt x 220.83018pt.
- [31 <./Chapters/HS_14008/HS_14008_sims_CCF_2pc_plot.png>]
-<Chapters/HS_14008/HS_14008_sims_CCF_1pc_plot.png, id=1672, 802.6788pt x 415.31
+ on input line 756.
+(pdftex.def)             Requested size: 426.79135pt x 221.09634pt.
+ [83] [84 <./Chapters/HS_14008/HS_14008_sims_CCF_2pc_plot.png>]
+<Chapters/HS_14008/HS_14008_sims_CCF_1pc_plot.png, id=5718, 801.7152pt x 415.31
 16pt>
 File: Chapters/HS_14008/HS_14008_sims_CCF_1pc_plot.png Graphic file (type png)
 <use Chapters/HS_14008/HS_14008_sims_CCF_1pc_plot.png>
 Package pdftex.def Info: Chapters/HS_14008/HS_14008_sims_CCF_1pc_plot.png  used
- on input line 685.
-(pdftex.def)             Requested size: 426.79135pt x 220.83018pt.
- [32 <./Chapters/HS_14008/HS_14008_sims_CCF_1pc_plot.png>]) [33]
+ on input line 770.
+(pdftex.def)             Requested size: 426.79135pt x 221.09634pt.
+ [85 <./Chapters/HS_14008/HS_14008_sims_CCF_1pc_plot.png>] [86] [87] [88]) [89]
+\openout2 = `Appendices/CORSIKA-sims/CORSIKA_sims.aux'.
+
+
+(./Appendices/CORSIKA-sims/CORSIKA_sims.tex
+Appendix A.
+[90
+
+
+] (./Appendices/CORSIKA-sims/corsika_table.tex)) [91] [92] [93]
 \openout2 = `Appendices/HS14008-GLE-sims/HS_GLE_sims.aux'.
 
 
 (./Appendices/HS14008-GLE-sims/HS_GLE_sims.tex
-Appendix A.
-[34
+Appendix B.
+[94
+
 
 
 ]
-<Appendices/HS14008-GLE-sims/simulated_HS14008_GLE_data.pdf, id=1708, 864.06212
+<Appendices/HS14008-GLE-sims/simulated_HS14008_GLE_data.pdf, id=5865, 864.06212
 pt x 505.65288pt>
 File: Appendices/HS14008-GLE-sims/simulated_HS14008_GLE_data.pdf Graphic file (
 type pdf)
@@ -1146,7 +1658,7 @@ type pdf)
 Package pdftex.def Info: Appendices/HS14008-GLE-sims/simulated_HS14008_GLE_data
 .pdf  used on input line 41.
 (pdftex.def)             Requested size: 426.79135pt x 249.76271pt.
-<Appendices/HS14008-GLE-sims/GLE_sims_flowchart.png, id=1710, 498.36188pt x 325
+<Appendices/HS14008-GLE-sims/GLE_sims_flowchart.png, id=5867, 498.36188pt x 325
 .96782pt>
 File: Appendices/HS14008-GLE-sims/GLE_sims_flowchart.png Graphic file (type png
 )
@@ -1154,59 +1666,103 @@ File: Appendices/HS14008-GLE-sims/GLE_sims_flowchart.png Graphic file (type png
 Package pdftex.def Info: Appendices/HS14008-GLE-sims/GLE_sims_flowchart.png  us
 ed on input line 53.
 (pdftex.def)             Requested size: 384.1096pt x 251.24467pt.
- [35 <./Appendices/HS14008-GLE-sims/simulated_HS14008_GLE_data.pdf>])
-[36 <./Appendices/HS14008-GLE-sims/GLE_sims_flowchart.png>] (./thesis.bbl
+ [95 <./Appendices/HS14008-GLE-sims/simulated_HS14008_GLE_data.pdf>]
+[96 <./Appendices/HS14008-GLE-sims/GLE_sims_flowchart.png>]) [97] (./thesis.bbl
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+[98
+
+
+
+]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 1917) in paragraph at lines 130--134
+[]\OT1/cmr/m/n/10.95 Dorman L. I., 2004, in As-tro-physics and Space Sci-ence L
+i-brary, Cos-mic Rays
+ []
+
+
+Underfull \hbox (badness 3482) in paragraph at lines 130--134
+\OT1/cmr/m/n/10.95 in the Earths At-mo-sphere and Un-der-ground. Springer, Dor-
+drecht, pp 289--
+ []
+
+
+Underfull \hbox (badness 7468) in paragraph at lines 130--134
+\OT1/cmr/m/n/10.95 330, [][]doi:10.1007/978-1-4020-2113-8_5[][], [][]$\OT1/cmtt
+/m/n/10.95 https : / / link . springer . com / chapter / 10 .
+ []
+
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Å in font cmr10!
+Missing character: There is no ¡ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+[99] [100]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¤ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
-
-[37
-
-
-
-]
+ [101]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
- (./thesis.aux (./Appendices/HS14008-GLE-sims/HS_GLE_sims.aux))
+ (./thesis.aux (./Appendices/CORSIKA-sims/CORSIKA_sims.aux)
+(./Appendices/HS14008-GLE-sims/HS_GLE_sims.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 62C4AE07F5D2E3A1515219A701C4FC50;1920.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 4E3938F6C5A48793099C9C3C6A3558AE;3696.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 210.
  ) 
 Here is how much of TeX's memory you used:
- 16491 strings out of 494923
- 248866 string characters out of 6180742
- 408692 words of memory out of 5000000
- 19298 multiletter control sequences out of 15000+600000
- 22427 words of font info for 83 fonts, out of 8000000 for 9000
+ 17408 strings out of 494923
+ 272647 string characters out of 6180742
+ 517422 words of memory out of 5000000
+ 19874 multiletter control sequences out of 15000+600000
+ 23776 words of font info for 88 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 45i,12n,87p,1971b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,15n,87p,1971b,667s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on thesis.pdf (44 pages, 3915097 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/euler/eurm10.pfb>
+Output written on thesis.pdf (115 pages, 9833980 bytes).
 PDF statistics:
- 1914 PDF objects out of 2073 (max. 8388607)
- 1003 compressed objects within 11 object streams
- 173 named destinations out of 1000 (max. 500000)
- 395 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6225 PDF objects out of 7423 (max. 8388607)
+ 3385 compressed objects within 34 object streams
+ 441 named destinations out of 1000 (max. 500000)
+ 867 words of extra memory for PDF output out of 10000 (max. 10000000)
 
