@@ -3,7 +3,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\textit{The majority of the text in this chapter is taken from \cite{ross_behaviour_2019}. I was first author on this journal article and conducted the work of the investigation. Section [CITE] has been written since the publication of \cite{ross_behaviour_2019} to document the continuation of this analysis to the end of Solar Cycle 24.}
+\textit{The majority of the text in this chapter is taken from \cite{ross_behaviour_2019}. I was first author on this journal article and conducted the work of the investigation. Section~\ref{sec:HS_vs_SSN} has been written since the publication of \cite{ross_behaviour_2019} to provide a comparative analysis using the \gls{hisparc} data.}%the continuation of this analysis to the end of Solar Cycle 24.}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -420,24 +420,16 @@ We emphasise that although cycle 24 has not yet ended, the shape of the hysteres
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Update: End of Cycle 24}
-
-
-
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Comparison with HiSPARC}
+\section{Comparison with HiSPARC}\label{sec:HS_vs_SSN}
 
-The analysis was repeated using data from HiSPARC station 501, over the period between 2008 -- 2019, to investigate whether the HiSPARC (HS) network was capable of monitoring the solar cycle variation in the muon count rate. HiSPARC station 501 is the best candidate for this analysis due to its long operational lifetime, in comparison to other HS stations, which spans most of cycle 24, and due to the fact that this station is used as the {\it gold standard} HS station. 
+The analysis was repeated using data from \gls{hisparc} station 501, over the period between 2008 -- 2019, to investigate whether the \gls{hisparc} (HS) network was capable of monitoring the solar cycle variation in the muon count rate. \gls{hisparc} station 501 was the best candidate for this analysis due to its long operational lifetime, in comparison to other HS stations, which spans most of cycle 24, and due to the fact that this station is used as the {\it gold standard} HS station. 
 
-This was further motivated by the observations of \citet{fan_analysis_2018}, in which they stated a confirmation of the accepted anti-correlation between solar activity and CRs after analysing the count rate of the HS 501 station, comparing the count rate with the number of solar flares and the SSN during the rising phase of cycle 24. 
-
-We also wanted to determine whether the results of the analysis for the behaviour of CRs during cycle 24, using HS data, agreed with those acquired above, using NM data.
+This was further motivated by the observations of \citet{fan_analysis_2018}, in which they stated a confirmation of the accepted anti-correlation between solar activity and CRs after analysing the count rate of the HS 501 station, up to 2016/17, comparing the count rate with the number of solar flares and the SSN during the rising phase of cycle 24. We also wanted to determine whether the results of the analysis for the behaviour of GCRs during cycle 24, using HS data, agreed with those acquired above, using NM data.
 
 A plot of the HS 501 data over this period is given in Figure~\ref{fig:HS_SSN_timeseries}, which shows a comparison between the HS count rate and SSN. By-eye, no clear anti-correlation is displayed between the HS count rate and the SSN.
 
@@ -447,19 +439,17 @@ A plot of the HS 501 data over this period is given in Figure~\ref{fig:HS_SSN_ti
 	\label{fig:HS_SSN_timeseries}
 \end{figure}
 
-The spearman correlation coefficient between the HS count rate and the SSN was calculated between the two data sets, without performing the time-lag analysis, to be, $\rho = 0.078$. It was quantitatively concluded therefore that there exists no correlation between the SSN and the HS muon count rate, confirming what was suspected by-eye.
+The spearman correlation coefficient between the HS count rate and the SSN was calculated between the two data sets, without performing the time-lag analysis, to be, $\rho\,=\,0.078$. It was quantitatively concluded therefore that there exists no correlation between the SSN and the HS muon count rate, confirming what was suspected by-eye.
 
-This lack of anti-correlation is, unfortunately, symptomatic of the set-up of the HS stations. There exists a stand-out reason why the set-up of the HS stations limits the capability of HS to observe the solar cycle modulation of CR intensity, tweaking of the detector threshold setting.
+This lack of anti-correlation is, unfortunately, symptomatic of the set-up of the HS stations. The set-up of the HS stations limits the capability of HS to observe the solar cycle modulation of CR intensity, because in many stations the detector voltages and threshold settings are regularly changed. The HiSPARC stations are typically set up to achieve a singles rate of around 100~Hz above the higher threshold limit, resulting in an events rate of around 1~Hz for the station \citep{fokkema_hisparc_2012}. The PMT voltages are often adjusted when the count rate strays away from the nominal value, and this mitigates the ability of HiSPARC to reliably observe the solar cycle variation. 
 
-The HiSPARC stations are typically set up to achieve a singles rate of around 100~Hz above the higher threshold limit, resulting in an events rate of around 1~Hz for the station. The PMT is often adjusted when the count rate strays away from the nominal value, and this mitigates the ability of HiSPARC to reliably observe the solar cycle variation. 
-
-Modifications to the PMT voltage of each detector in HS 501 is illustrated in Figure~\ref{fig:HS_501_voltages_c24}, and shows the scale of the adjustments, with the voltages varying by as much as $\sim 80$ V. The effect of varying the PMT voltage is dependent on the individual PMT, but a change of 50--100 V will have an effect on the count rate, therefore it is likely to be a root cause for not observing the solar cycle modulation.
+Modifications to the PMT voltage of each detector in HS 501 is illustrated in Figure~\ref{fig:HS_501_voltages_c24}, and shows the scale of the adjustments, with the voltages varying by as much as $\sim 80$~V. The effect of varying the PMT voltage is dependent on the individual PMT, but a change of 50--100~V will have an effect on the count rate, therefore it is likely to be a root cause for not observing the solar cycle modulation.
 
 \begin{figure}[ht!]
 	\includegraphics[width=\columnwidth]{HS_501_voltages_c24.png}
-	\caption{}
+	\caption{The evolution of the mean-shifted PMT operating voltages for each detector within HiSPARC station 501 between 2010 -- 2020.}
 	\label{fig:HS_501_voltages_c24}
 \end{figure}
 
-The claim that the solar cycle variation was observed in the count rate of HS 501 data by \citet{fan_analysis_2018} was highly likely based on their limited data set, spanning not enough of solar cycle 24. One could be convinced from the count rate during the rising phase of cycle 24 that the cycle variation is observed...
+The claim that the solar cycle variation was observed in the count rate of HS 501 by \citet{fan_analysis_2018} was highly likely based on their limited data set, spanning not enough of solar cycle 24. One could be convinced from the count rate during the rising phase of cycle 24 that the cycle variation is observed, but clearly beyond 2016 this relationship does not continue. It will be extremely interesting to re-visit this analysis of the \gls{hisparc} data at the end of solar cycle 25, and particularly to repeat this analysis with the data from the new station configuration, \gls{hisparc} station 14008.
 
