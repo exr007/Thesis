@@ -1,53 +1,348 @@
 \chapter{Introduction}\label{chap:intro}
 \textit{While the majority of this chapter was written for the thesis, parts of Sec \ref{sec:astero_intro} were written for \cite{2017North} and have been adapted from the introduction in that work to limit repetition. \textbf{YOU WANT SOMETHING LIKE THIS AT THE START OF EACH SCIENCE CHAPTER TOO, TO SHOW WHAT YOU DID AND ANY ACKNOWLEDGEMENTS OF OTHER PEOPLE}}
 
-\section{Introduction}
-... 
 
-In this thesis we ...
-
-Before we start on the main body of the thesis, the contents of each chapter and the main themes within are given in outline first.
-
-Chapter ...
-
-Chapter ...
-
-Chapter ...
-
-In Chapter ...
-
-In Chapter ...
-Finally the thesis is concluded in Chapter ...
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Space Weather}\label{sec:intro_SW}
-\subsection{Forbush Decreases}\label{sec:intro_FDs}
-...
-\subsection{Ground Level Enhancements}\label{sec:intro_GLEs}
-...
+
+\subsection{Background}
+Space weather is defined as \citep{cannon_extreme_2013}:
+
+\begin{quote}
+	\textit{variations in the Sun, solar wind, magnetosphere, ionosphere, and thermosphere, which can influence the performance and reliability of a variety of space-borne and ground-based technological systems and can also endanger human health and safety.}
+\end{quote}
+
+Space weather phenomena have been observed for hundreds of years, mainly through observations of the aurorae, but its impacts are slowly becoming more tangible in modern civilisation, as we grow reliant on electronics \citep{beggan_ground_2018}.
+
+%Within the heliosphere t
+There are two main sources of space weather: (i) those that are solar in nature and (ii) those whose origins are external to the solar system but penetrate into the heliosphere. Space weather manifests itself broadly in three ways:
+
+\begin{enumerate}
+	\item{Electromagnetic radiation: which space weather is generally linked with an enhancement in the output of the Sun's spectrum.}
+	
+	\item{Magnetic fields / plasma: which can cause disturbances in the solar wind and the magnetosphere.}
+	
+	\item{Energetic charged particles: which refer to ionising charged particles and ions.}
+\end{enumerate}
+
+The arrival of these space weather outputs at Earth depends on the type and energy. Likewise, the solar storms induced differ, however the general chronology of events was outlined by \citet{cannon_extreme_2013}:
+
+\begin{enumerate}
+	\item{Storms begin with the evolution of one or more complex sunspot groups and \glspl{ar} on the solar surface.}
+	
+	\item{Within \glspl{ar}, one or more solar flares occur and the electromagnetic radiation are detected on Earth within approximately 8~minutes.}
+	
+	\item{\glspl{sep} are released and are measured at Earth, both using satellites and ground-based detectors, within approximately 15~minutes. \glspl{sep} continue to arrive over a period of several hours -- days.}
+	
+	\item{A \gls{cme} occurs and propagates outwards, arriving at a distance of 1~AU within $\sim15-72$~hours. The impact on Earth depends on the \gls{cme} speed, how close it passes to Earth, and the orientation of the magnetic fields, with Southward magnetic field generating the most severe geomagnetic storms because of its interference with Earth's Northward magnetic field resulting in reconnection a the magnetopause.}
+	
+\end{enumerate}
+
+The largest documented space weather event since modern records began occurred in 1859, the solar super storm known as the ``Carrington event". The available measurements of this event are limited to geomagnetic field perturbations, as well as eye witness accounts of solar brightening and aurorae \citep{cannon_extreme_2013}. However, recently cosmonuclide measurements from ice cores have been used to learn about the Carrington event and it is believed that the large solar flare around this period exceeded class X10 \citep{riley_probability_2012}.
+
+Since the beginning of the space age there have been no other super storms, however there have been large storms that have affected the infrastructure and caused a large economic impact. The consensus is that another storm of the Carrington event level is inevitable and could significantly impact society. There is a view that a Carrington-like event may occur again in a period of 250 years with a confidence of $\sim$95\% and within a period of 50 years with a confidence of $\sim$50\% \citep{cannon_extreme_2013}; however it is stressed that these figures should be interpreted with care. It was suggested by \cite{riley_probability_2012} that a Carrington-like event may occur with $\sim$ 12\% probability within between 2012-2022 and later in 2012 a large storm occurred, missing Earth, but it strongly interacted with the STEREO-A satellite. This near miss highlights that Carrington-level events are a real threat to society and that we need a method of predicting their occurrence, arrival, and impact.
 
 
+
+\subsection{Impacts of Space Weather}
+\label{sw_impacts}
+Space weather is an increasingly tangible threat to modern infrastructure and society, due to the increasing reliance on electronic technology. In 2011 space weather was added to the UK National Risk Assessment for the first time, and the subsequent National Risk Register in 2012 \citep{bis_space_2015} where it has remained to-date \citep{hm_government_national_2020}. At the time of writing this thesis space weather risk was rated as a medium severity/high likelihood risk; at the same level as emerging infectious diseases, poor air quality, and heatwaves (see Figure~\ref{fig:UK_Risk_reg}) \citep{cabinet_office_national_2017}.
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\columnwidth]{UK_risk_register.eps}
+	\caption{UK National Risk Register for hazards, diseases, accidents, and societal risks showing space weather as a medium-high risk \citep{cabinet_office_national_2017}}
+	\label{fig:UK_Risk_reg}
+\end{figure}
+
+An alarming aspect of Figure~\ref{fig:UK_Risk_reg} is that the likelihood of space weather events occurring in 5 years from 2017 was rated the same as pandemic influenza. Finishing this Ph.D. during a global pandemic highlights the importance of taking this risk register very seriously. We should learn from the global response to the COVID-19 pandemic and ensure that the world has a resolute plan to deal with the occurrence of a severe space weather event.
+
+There are many ways that technological systems are impacted by space weather both on or above ground and Figure \ref{fig:space_weather_impacts} displays many of the key impacts that we know of \citep{beggan_ground_2018}. 
+
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\columnwidth]{Space_weather_effects_rescaled.jpg}
+	\caption{The sources and effects of space weather. Impacts are shown including loss of telecommunications and GNSS, increased radiation levels, and ground induced currents (ESA/Science Office, \href{http://www.esa.int/spaceinimages/ESA_Multimedia/Copyright_Notice_Images}{CC BY-SA 3.0 IGO})}
+	\label{fig:space_weather_impacts}
+\end{figure}
+
+As far back as October 1841 it was reported that a solar storm was responsible for railway disruptions around Exeter, due to magnetic disturbances making it impossible to ascertain whether the onward line was clear, leading to sixteen minute delays \citep{nature_observations_1871}. 
+
+It is possible for space weather events to induce geomagnetic storms that can cause damaging \glspl{gic} within large power grids causing them to fail. Two such famous cases of \gls{gic} grid failures are the cases in Quebec, Canada in 1989 which resulted in the failure of the Quebec-Hydro grid for 9 hours, and the city-wide black-out in Malm{\"o}, Sweden during the Halloween storm in 2003 \citep{viljanen_european_2011, beggan_ground_2018}.
+
+It is documented that in May 1967 the U.S. Air Force were close to engaging in conflict with its enemies during those politically tense times as \glspl{srb} induced radio frequency interference was nearly misinterpreted as surveillance jamming, an act of war, if it hadn't have been that the U.S. had begun investing in space environment monitoring and were able determine that space weather was really the cause \citep{knipp_may_2016}. Furthermore, in more modern times, scintillation effects induced in the ionsphere affect \gls{gnss} communications which has a large societal effect due to our reliance on \gls{gnss} \citep{cannon_extreme_2013} as shown in Figure \ref{fig:space_weather_impacts}.
+
+Solar storms are also responsible for creating sudden increases in ionising radiation which at typical flight altitudes can lead to the risk of malfunctions in aircraft microelectronic systems and unquantified radiation doses to passengers and crew \citep{cannon_extreme_2013}. In orbit these conditions threaten the operation of satellites and the safety of manned space endeavours which is of particular concern with the current ambitions to return to the Moon and venture to Mars. 
+
+There are even concerns that major storms could cause radiation increases at the Earth's surface, \glspl{gle}, which may cause malfunctions in microelectronics that are likely to be of increasing concern in the design of safety-critical systems \citep{cannon_extreme_2013}. 
+
+Finally, a cost analysis estimated a present-day total U.S. economic cost for a super storm on the scale of the 1859 Carrington event \citep{homeier_solar_2013}. The cost estimated is heavily dependent on the duration of outages, the damages caused, and the availability of spare parts for repair; however they estimated the impact on the U.S. economy to be at around \$0.6-2.6 trillion \citep{homeier_solar_2013}. These figures show the large scale impact that space weather can have on the economy and that mitigation techniques to reduce this cost are of imperative necessity.
+
+Due to the many ways that space weather can impact civilisation, and that it is predicted that there is a significant probably of the re-occurrence of large solar storms, it is easy to understand why space weather forecasting is becoming increasingly more necessary as a mitigation technique. 
+
+The U.S. \gls{noaa} is the leading global space weather forecasting agency. The \gls{noaa} \gls{swpc} gathers data in real-time to describe the conditions of the sun, heliosphere, magnetosphere, and ionosphere to understand the environment within the heliosphere and on Earth. With this data, the \gls{swpc} produces forecasts, warnings, and alerts available to inform anyone concerned and affected by space weather \citep{noaa_noaa_2018}. 
+
+Since the addition of space weather to the UK risk register, the UK \gls{moswoc} opened in 2014 \citep{bis_space_2015}. \gls{moswoc} is mandated to produce daily space weather forecasts and is therefore developing a forecasting infrastructure using ground-based and satellite instrumentation to monitor space weather events. In addition scientific research at \gls{moswoc} is carried out to better understand the physical processes involved in space weather phenomena to improve forecasting accuracy and lead-times; current forecasting enables prediction of \glspl{cme} impacting Earth to within only plus or minus six hours at best \citep{metoffice_space_2013}.
+
+Forecasting and predicting is one aspect of the response to severe space weather events. We must also learn from the global response to the COVID-19 pandemic and ensure that upon the occurrence of a severe space weather event, suitable preplanning has been performed and a sufficient contingent action is planned.
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Cosmic Rays}\label{sec:intro_CRs}
-\subsection{...}
-...
 
+
+\subsection{Background}
+%The first accounts of measurement of \glspl{cr} date back to the 18th century, when scientists reported observations of spontaneous ionisation; however generally they were initially disregarded as they were believed to be due to imperfect experimental conditions \citep{montanus_observability_2017}. It was not until the late 19th and early 20th century that the nature of this spontaneous ionisation was understood to be caused by \glspl{cr}. 
+
+\glspl{cr} are charged particles and atomic nuclei with energies spanning from keV up to around $10^{21}$~eV, that encroach upon the Earth from all directions \citep{giacalone_energetic_2010}. It is understood that \glspl{cr} are composed of $\sim99\%$ of atomic nuclei and $\sim1\%$ electrons \citep{gaisser_cosmic_2016}; of the atomic nuclei $\sim87\%$ are protons, $\sim12\%$ are $\alpha$-particles, and a smaller contribution are heavier nuclei of around $\sim1\%$ \citep{grupen_astroparticle_2005, dunai_cosmic_2010, particle_data_group_review_2020}. \glspl{cr} mainly originate from outside the solar system, known as \glspl{gcr} \citep{particle_data_group_review_2020}. These \glspl{gcr} mostly originate from within the Milky Way, although they are also expected to originate from extra-galactic sources, in particular for \glspl{cr} with energies above $10^{18}$~eV \citep{aab_observation_2017}. Incoming low-energy \glspl{cr} ($\lessapprox1$~GeV/nucleon) are modulated by the solar wind, which decelerates \glspl{gcr} and can even forbid lower-energy \glspl{gcr} from the inner solar system \citep{grupen_astroparticle_2005}. Consequently, there exists a strong anti-correlation between solar activity and the \glspl{gcr} flux \citep{particle_data_group_review_2020}.
+
+Cosmic rays produced within the heliosphere are mostly of a solar origin, known as \glspl{scr} or \glspl{sep}. These \glspl{scr} are generally of a lower energy than \glspl{gcr} and may be accelerated in the solar wind, by interplanetary shocks, or in solar eruptions (e.g. solar flares) \citep{giacalone_energetic_2010}. \glspl{scr} have typical energies in the order of magnitude range of $\sim10^{1}$~keV -- $\sim1$~GeV \citep{chilingarian_galactic_2003, bruno_solar_2018}.
+
+
+The intensity spectrum of \glspl{pcr} in the energy range from $10^9$~eV to $\sim10^{14}$~eV is given approximately by:
+
+\begin{equation}
+\label{eq:CR_flux}
+I_N(E) = \frac{dN}{dE} \approx 1.8 \, \mathsf{x} \, 10^4 (E/1 \, \mathrm{GeV})^{-\alpha} \frac{\mathrm{nucleons}}{{\mathrm{m^2 \, s  \, sr \, GeV}}} \, ,
+\end{equation}
+%
+where $E$ is the energy per nucleon (including rest mass energy) in GeV and $\alpha=2.7$ is the differential spectral index of the cosmic-ray flux \citep{particle_data_group_review_2020}. 
+
+Above the spectrum `knee' ($\sim10^{15}-10^{16}$~eV) the spectral index is thought to increase to $\sim3$ \citep{particle_data_group_review_2020}. At even higher energies, in the region of the spectrum `ankle' ($\sim10^{18.5}$~eV) the spectral index reduces and the spectrum becomes less steep. This is in the regime of \glspl{uhecr} and the interaction between \glspl{gcr} and photons of the \gls{cmb} sets an upper limit on their energy, the \gls{gzk} limit \citep{particle_data_group_review_2020}. The \gls{gzk} limit implies that \glspl{cr} with energies exceeding $\sim5\times10^{19}$~eV must have originated from distances within a horizon of $\sim50$~Mpc, as otherwise their energy would have been reduced by the \gls{gzk} effect \citep{particle_data_group_review_2020}. 
+
+Figure~\ref{fig:CR_spec} shows a graphical representation of the \gls{cr} energy spectrum described by equation~(\ref{eq:CR_flux}) for a number of \gls{cr} species over the energy range $10^{-1}-10^{6}$~GeV/nucleus by the measured flux of \glspl{cr} measured by several different experiments.
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.8\columnwidth]{CR_spectrum.png}
+	\caption{ Cosmic ray differential energy spectrum using data measured by several experiments. The inset shows the H/He ratio at constant rigidity \citep{particle_data_group_review_2020} }
+	\label{fig:CR_spec}
+\end{figure}
+
+
+Propagation of \glspl{cr} through magnetic fields depends on their gyroradius or Larmor radius \citep{particle_data_group_review_2020}. Therefore a common description of \glspl{cr} uses a property called the {\textit{magnetic rigidity}} which is defined by:
+
+\begin{equation}
+\label{eq:rigidity}
+R = r_L \, B \, c = \frac{p \, c}{Z \, e}
+\end{equation}
+%
+where $r_L$ is the Larmor radius, $B$ is the magnetic field strength, $c$ is the speed of light, $p$ is the particle's momentum, $Z$ is the atomic number, and $e$ is the electron charge. The magnetic rigidity has units Volts (V), or usually due to the large magnitude, Gigavolts (GV). The rigidity is used to describe \glspl{cr} as particles with different charges and masses have the same dynamics in a magnetic field if they have the same rigidity \citep{particle_data_group_review_2020}.
+
+
+
+\subsection{Cosmic Rays in the Atmosphere}
+\label{sec:air_shower}
+
+\glspl{cr} in the interstellar medium traverse a very low-density medium, but experience a much denser environment when they reach the atmosphere. The typical mean free path of protons in the atmosphere is $\sim90~\mathrm{g}\,\mathrm{cm}^{-2}$, which mean the first interactions of \glspl{cr} occur in the upper layers of the atmosphere, at a height of $\sim15-20$~km \citep{grupen_astroparticle_2005}. %scale height used to calculate this, i.e. if X = X_0 exp(-h/H), where X is the atmospheric depth (g/cm2), X_0 is sea level atmospheric depth (1030 g/cm2), H is scale height (~8.5km), then rearranging finds h ~ 20km.
+
+The \glspl{pcr} will predominantly interact with the atmospheric nuclei via strong interactions \citep{grupen_astroparticle_2005}. When \gls{pcr} interact with atmospheric nuclei, the interaction leads to the production of a cascade of secondary particles. The secondary particles can also undergo interaction or decay, producing tertiary particles, and the process continues until all the particles' energy become insufficient to create new particles. If a concentrated, large number of secondary particles reach ground-level, the cascade of particles is called an \gls{as}, or an \gls{eas} for extremely high numbers of secondary particles, which can have a footprint area of several~km$^2$. The \gls{as} is often described as being a cone, with the base being the shower front and the apex being the primary \gls{cr}.
+
+Hadronic cascade components (or the ``hard component" of \glspl{as}) are produced by \gls{cr} protons and nuclei interacting with atmospheric nuclei. This process typically produces lower energy protons, neutrons, pions, and kaons. In this thesis we are mostly interested in the muonic air shower development (see Section~\ref{sec:intro_HiSPARC}), so here we will focus on the development of the mesons in the \glspl{as}, as they predominantly produce muons. In Table~\ref{tab:meson_decay}, the most likely modes of decay for air shower mesons are shown with the branching ratio for each mode. In addition, we also show the most likely decay modes of muons Table~\ref{tab:meson_decay}. 
+
+
+\begin{table}[ht!]
+	\begin{center}
+		\caption{ Most prominent decay modes of the mesonic components of CR air showers and of muons. Note: $K^-$ modes are charge conjugates of the decay modes below \citep{particle_data_group_review_2020}}
+		\label{tab:meson_decay}
+		\begin{tabular}{lc}
+			\hline
+			Decay mode & Branching ratio  \\
+			\hline
+			{$ \pi^{+} \, \rightarrow \, \mu^{+} \, + \, \nu_{\mu} $}	 &  $99.98770 \pm 0.00004 \%$ \\
+			{$ \pi^{-} \, \rightarrow \, \mu^{-} \, + \, \overline{\nu_{\mu}} $}  &  $99.98770 \pm 0.00004 \% $ \\
+			{$ \pi^{0} \, \rightarrow \, \gamma \, + \, \gamma $} &  $98.823 \pm 0.034 \% $ \\
+			{$ \pi^{0} \, \rightarrow \, e^+ \, + \, e^-  \, + \, \gamma $} &  $1.174 \pm 0.035 \% $ \\
+			{}  & {} \\
+			{$K^+ \, \rightarrow \, \mu^{+} \, + \, \nu_{\mu}$}  &  $63.56 \pm 0.11 \% $ \\
+			{$K^+ \, \rightarrow \, \pi^{+} \, + \pi^{0} $}  &  $20.67 \pm 0.08 \% $ \\
+			{$K^+ \, \rightarrow \, \pi^{+} \, + \pi^{+} \, + \pi^{-}$}  &  $5.583 \pm 0.024 \% $ \\
+			{$K^+ \, \rightarrow \, \pi^{0} \, + e^{+} \, + \nu_{e}$}  & $5.07 \pm 0.04 \% $ \\ 		 		 		 		
+			{$K^+ \, \rightarrow \, \pi^{0} \, + \mu^{+} \, + \nu_{\mu}$}  &  $3.352 \pm 0.033 \% $\\ 		 		 		 		
+			{$K^+ \, \rightarrow \, \pi^{+} \, + \pi^{0} \, + \pi^{0}$}  &  $1.760 \pm 0.023 \% $\\
+			{}  & {} \\
+			{$ \mu^{+} \, \rightarrow \, e^{+} \, + \, \nu_e \, + \, \overline{\nu_{\mu}} $}  &  $\sim 100\%$\\	
+			{$ \mu^{-} \, \rightarrow \, e^{-} \, + \, \overline{\nu_e} \, + \, \nu_{\mu} $}  &  $\sim 100\%$\\	
+			\hline
+		\end{tabular}
+	\end{center}
+\end{table}
+
+
+Due to the short lifetimes of pions and kaons, $\sim26$~ns and $\sim12$~ns, respectively \citep{particle_data_group_review_2020}, they decay during their journey to ground-level. It is shown in Table~\ref{tab:meson_decay} that the most probable decay modes involve the production of muons. Muons are the most abundant charged particles at ground level. Most muons are produced high in the atmosphere ($\sim15$~km) and lose about 2~GeV to ionization before reaching the ground and the mean energy of muons at the ground is $\sim4$~GeV \citep{particle_data_group_review_2020}.
+
+%; hence when produced at low enough altitudes allowing enough time for these muons to reach ground, there is a large muon contingent at the ground level. At sea level the average kinetic energy of muons is approximately 4 GeV \citep{bartels_hisparc_2012}.
+
+In addition to the hadronic component of an air shower, electron and photon constituents of cascades are called the electromagnetic component (or ``soft component"). These are typically initiated by electrons and photons under the processes of Bremsstrahlung \citep{grupen_astroparticle_2005},
+
+\begin{equation}
+\label{eq:bremss}
+e \, \rightarrow \, e \, + \, \gamma \, ,
+\end{equation}
+%
+or pair production \citep{grupen_astroparticle_2005},
+%
+\begin{equation}
+\label{eq:pair_prod}
+\gamma^* \, \rightarrow \, e^- \, + \, e^+ \, .
+\end{equation}
+
+Ionisation losses mean that electrons and positrons lose energy rapidly until they either annihilate or recombine with nuclei, and photons lose their energy by being either absorbed in scattering and/or the photoelectric effect. Therefore most of the electrons, positrons,
+and photons observed at ground level are produced from the decaying hadronic \gls{as} component and muon decay is the dominant source of low-energy electrons at ground level \citep{particle_data_group_review_2020}.
+
+Finally, there is a minimum rigidity cut-off which implies that the energy of any \gls{pcr} must exceed a minimum energy to be able to initiate an \gls{as} or particle cascade and be measured at ground-level. This limit is dependent on the depth of the atmosphere above the detector, but is greatest at sea-level and decreases with increasing altitude. The minimum energy to be measured at sea-level is $\sim430$~MeV/nucleon \citep{dorman_theory_2004, dorman_experimental_2004, poluianov_gle_2017}.
+
+
+
+\subsection{Cosmic Ray Detectors}
+
+To observe \glspl{cr} there are many types of usable detectors, both ground-based and space-based \citep{schrijver_heliophysics_2010}; in this thesis we are mostly concerned with ground-based detectors of the \gls{as} hadronic component. The most common type of ground-based \gls{cr} detectors are \glspl{nm} and \glspl{md} which indirectly measure \gls{cr} particles through the secondary particles produced in \gls{cr} cascades.
+
+\subsubsection*{Neutron Monitors}
+The neutron monitor, invented by \cite{simpson_latitude_1948}, has been extensively used for \gls{cr} observations of the space environment \citep{clem_neutron_2000}. The \gls{nm} is an example of an ionisation detector whereby energetic neutrons encounter a nucleus within a gas, producing charged, secondary particles which in turn ionise the surrounding gas.
+
+The original ``IGY" \gls{nm} design made use of a paraffin reflector to trap slow neutrons within the detector, a producer material (typically lead) which multiplied the number of slow neutrons registered by the detector in order to amplify the signal, a moderator to further slow neutrons, and cylindrical proportional counters utilising BF\textsubscript{3} gas \citep{simpson_latitude_1948, simpson_cosmic_1953}. A schematic diagram of the detector is shown in Figure~\ref{fig:NMIGY}. %The proportional counter is essentially a gas-filled chamber with two electrodes; a potential difference between the electrodes attracts the ionised gas collecting positive and negative charge which results in charge appearing across a coupling capacitor \citep{schrijver_heliophysics_2010}. Following the discharge of the capacitor, the signal is then amplified and recorded through the back-end electronics \citep{simpson_latitude_1948, simpson_cosmic_1953}.
+
+\begin{figure}[ht!]
+	\centering
+	\subfloat[Standard IGY]{{\includegraphics[width=0.36\columnwidth]{NM_IGY_rescaled.png} } \label{fig:NMIGY}}%
+	\qquad
+	\subfloat[6-tube NM64]{{\includegraphics[width=0.36\columnwidth]{NM_64_rescaled.png} } \label{fig:NM64}}%
+	\caption{The original Simpson's 12-pile NM is shown on the left and the modern NM64 is shown on the right in its 6-tube configuration \citep{kang_characteristics_2012}}
+	\label{fig:NM}
+\end{figure}
+
+An improved ``NM64" \gls{nm} design is now the preferred detector type, which makes use of a polyethylene reflector, lead producer, polyethylene moderator, and \textsuperscript{10}BF\textsubscript{3} or \textsuperscript{3}He gas-filled cylindrical proportional counters. A schematic diagram of the detector is shown in Figure~\ref{fig:NM64}. The new design provided an improvement over the IGY design by a factor of about 3.3 in the count rate per unit area of producer \citep{stoker_neutron_2000}; however the choice of \textsuperscript{10}BF\textsubscript{3} gas or \textsuperscript{3}He gas does not significantly affect the detector performance \citep{kang_characteristics_2012}.
+
+
+
+\subsubsection*{Muon Detectors}
+
+Muon detectors are an example of a scintillation detector, whereby light emitted by atoms excited in a medium is collected and converted into an electrical signal. The scintillation medium can be solid, liquid, or gas; however solid scintillation detectors are attractive as they have a higher electron density \citep{gloeckler_-situ_2010}.
+
+A general design of a \gls{md} is shown in Figure~\ref{fig:MD}. When an energetic particle passes through a scintillator material, some of the particle's energy is lost in ionising the scintillator material and the scintillator material releases photons. The light pipe directs the photons towards a \gls{pmt} where a cascade of electrons are produced and the resulting electrical signal is amplified and recorded through the back-end electronics.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.7\columnwidth]{scintillator_rescaled.png}
+	\caption{Schematic design of a typical scintillation muon detector with back-end electronics \citep{gloeckler_-situ_2010}}
+	\label{fig:MD}
+\end{figure}
+
+Desirable properties of scintillator materials are a high conversion efficiency, transparency to the light that they emit, short fluorescent decay times, and spectral distributions suitable for photosensitive devices \citep{gloeckler_-situ_2010}. 
+
+A range of different material types are used in scintillator detectors however the most common scintillator materials for \glspl{md} are organic scintillators consisting of aromatic hydrocarbons (the flours) in a solid plastic solvent (the base). Energetic particles traversing the scintillator excite the base rather than the fluor due to the low fluor density. The plastic base however has a low yield and is not transparent to its own scintillation light; thus the fluor is added to therefore increase the yield of this popular type of scintillator \citep{fokkema_hisparc_2012}.
+
+
+
+
+
+\subsection{Cosmic Ray Observations of Space Weather}
+
+There have been many documented observations of space weather events using \gls{cr} detectors. The most notable types of \gls{cr} space weather effects are \glspl{fd} and \glspl{gle}. Here we discuss the properties of each.
+
+
+\subsubsection*{Forbush Decreases}\label{sec:intro_FDs}
+
+Short-term decreases in the \gls{gcr} flux were first observed by  \citet{forbush_effects_1937} and therefore were later coined as \glspl{fd} or \glspl{fe}. \glspl{fd} are characterised by a sharp decrease in \gls{gcr} intensity over a period of several hours -- days, followed by a gradual recovery taking place over several days -- a week \citep{cane_coronal_2000, belov_forbush_2008, wawrzynczak_modeling_2010}, as shown in Figure~\ref{fig:FD_plot}.
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.75\columnwidth]{FD_plot.png}
+	\caption{A two-step Forbush decrease measured at three NM stations, Deep River, Mt.Wellington, Kerguelen, in July 1982 \citep{cane_coronal_2000}. The thicker black line indicates the average of the count rates from the three stations. Arrows show the start of the two decreases caused by the shock and the ICME ejecta.}
+	\label{fig:FD_plot}
+\end{figure}
+
+There are two \gls{fd} origins: one caused by \glspl{cir} \citep{dumbovic_forbush_2016}, and one caused by \glspl{icme} and the shocks they drive \citep{belov_forbush_2008}. The biggest \glspl{fd} (magnitudes $> 5\%$) are strictly associated with \glspl{icme} \citep{belov_what_2001}. Of the kind caused by \glspl{icme}, the majority of are produced by \glspl{icme} with speeds in the range $400 - 1200$~km~s$^{-1}$ \citep{lingri_forbush_2016}; the typical speed of the solar wind is, for slow solar wind, in the range: $300 - 400$~km~s$^{-1}$, and for fast solar wind, $\sim 750$~km~s$^{-1}$ \citep{owens_heliospheric_2013}. Previous literature has also shown that the type cause by \glspl{cir} produce recurrent, more symmetric, and lower-amplitude decreases \citep{dumbovic_cosmic_2012}, while the type caused by \glspl{icme} result in the more strongly asymmetric decreases as shown in Figure~\ref{fig:FD_plot} \citep{lockwood_forbush_1971, cane_coronal_2000, dumbovic_cosmic_2012}. In addition the \gls{icme}-driven \glspl{fd} typically result in a two-step \gls{fd}, where the first step of the decrease is due to the passage of the leading shock and the second step is due to the \gls{icme} itself, as shown in Figure~\ref{fig:FD_CME} \citep{cane_coronal_2000}.
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.75\columnwidth]{FD_CME.png}
+	\caption{A schematic diagram of an ICME-driven FD taken from \citet{cane_coronal_2000}. It shows the different cosmic ray responses from two paths, indicated by A and B. A experiences the shock and ejecta, therefore experiencing a two-step FD; B only experiences the shock, therefore experiencing a single decrease. The time of shock passage is indicated by a solid, vertical line marked, S; the start and end times of ejecta passage are indicated by vertical, dashed lines marked T1 and T2, respectively.}
+	\label{fig:FD_CME}
+\end{figure}
+
+\glspl{fd} exhibit a rigidity dependence on their amplitudes which is approximately related to $R^{-\gamma}$ where the exponent ranges from $0.4\lesssim\gamma\lesssim1.2$ \citep{lockwood_forbush_1971}. In addition, \citet{belov_what_2001, belov_coronal_2014} showed the magnitude of the \gls{fd} is proportional to the speed, mass, and width of the \gls{cme}. 
+
+
+The \gls{feid}\footnote{\url{http://spaceweather.izmiran.ru/eng/dbs.html}} is a record of all the \glspl{fd} observed since the beginning of the \gls{gnmn} \citep{belov_forbush_2008}. The total number of events is $\sim 7630$ during the epoch 1957 -- 2020. Many studies have discussed the observations of \glspl{fd} using this data and investigate their features, driving factors, and precursors; for an overview see: \citet{belov_what_2001, usoskin_forbush_2008, wawrzynczak_modeling_2010, rockenbach_global_2014, arunbabu_how_2015}.
+
+
+
+\subsubsection*{Ground Level Enhancements}\label{sec:intro_GLEs}
+
+Short-term increases in the \gls{gcr} flux were first observed in the 1940s and early 1950s, but it wasn't until after the largest recorded event, in September 1956, that these increases were defined as \glspl{gle} \citep{cramp_modelling_1996}. \glspl{gle} are the detection of an increased number of the highest-energy portion ($> 500$~MeV, \citet{kuwabara_development_2006}) of \glspl{sep} arriving at Earth along lines of \gls{imf} following a solar eruptive event \citep{mccracken_high-energy_2012, poluianov_revisited_2017}. The \glspl{sep}, which cause \glspl{gle}, can cause serious damage to satellite electronics and are a hazard to air crew and astronauts; hence, the monitoring of these events are of importance for space weather forecasting. \glspl{gle} are characterised by a sharp rise in \gls{cr} intensity over a period of several minutes -- hours, followed by a gradual decay taking place over several hours, as shown in Figure~\ref{fig:GLE_plot}. 
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.75\columnwidth]{GLE_plot.png}
+	\caption{A GLE measured at nine NM stations in October 1989 \citep{cramp_j._l._october_1997}. ...}
+	\label{fig:GLE_plot}
+\end{figure}
+
+The total number of \glspl{gle} observed to-date is low, there have been only 72. The \gls{gle} database\footnote{\url{https://gle.oulu.fi}} is a record of events starting from \gls{gle} 5 (February 1956), since the beginning of the \gls{gnmn} \citep{usoskin_database_2016}. Many studies have discussed the observations of \glspl{gle}, investigating their features as well as the spectra and anisotropy of \glspl{pcr} that produce the \glspl{gle}; for an overview see: \citet{,shea_possible_1982, cramp_modelling_1996, belov_ground_2010, mccracken_high-energy_2012, strauss_pulse_2017,  mishev_first_2018}. \citet{strauss_pulse_2017} analysed the shapes of fourteen \glspl{gle} and showed the existence of a linear dependence between the rise and decay times: $\tau_d\approx3.5\tau_r$.
+
+[discuss the drivers behind GLEs, i.e. flares and coronal holes... ... \citep{mccracken_high-energy_2012}!!]
+
+The solar magnetic field is `frozen' into the solar wind plasma. As the Sun rotates, so do the \gls{imf} lines which forms the Parker spiral [!! CITE !!]. A field line connecting the Sun to the Earth exists which stems from the western limb of the Sun, at a longitude of about $60^{\circ}$. This is known as the `garden hose' field line. Charged particles follow magnetic field lines and therefore \glspl{sep} that are accelerated in flares located near to the solar end of the `garden hose' field line usually arrive promptly and have very sharp onsets \citep{duldig_ground_1993, andriopoulou_intense_2011}. This causes a strong anisotropy in the arrival directions of the early \glspl{sep} inducing \glspl{gle}, and the anisotropy is shown in Figure~\ref{fig:GLE_plot}, whereby McMurdo, Calgary, and Magaden \gls{nm} stations observed an earlier \gls{gle} onset, with a high magnitude, than the other stations \citep{duldig_ground_1993, cramp_j._l._october_1997}. Conversely, \glspl{gle} associated with flares far from the `garden hose' field line are usually delayed in their arrival at Earth, due to having to cross magnetic field lines, and have more gradual increases to maximum intensity \citep{duldig_ground_1993}. Very few \glspl{gle} have originated far away from the base of the `garden hose' at the solar surface \citep{duldig_ground_1993, andriopoulou_intense_2011}.
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.75\columnwidth]{garden_hose.png}
+	\caption{A schematic diagram of the `garden hose' field line taken from \cite{duldig_ground_1993}.}
+	\label{fig:garden_hose}
+\end{figure}
+
+The accepted definition of a \gls{gle}, since the 1970s has been \citep{poluianov_gle_2017}: 
+
+\begin{quote}
+	\textit{A GLE event is registered when there are near-time coincident and statistically significant enhancements of the count rates of at least two differently located NMs.}
+\end{quote}
+
+However, recently a newer \gls{gle} definition has been adopted due to the increase in the number of \gls{nm} stations that are more sensitive to lower energy \glspl{cr} due to their high latitudes (i.e. in near--polar regions) or higher altitudes. It is a concern that these new \gls{nm} stations will classify many more \glspl{gle} than their near-sea-level counterparts; thus affecting the homogeneity of the current list of \glspl{gle} \citep{poluianov_gle_2017}. Therefore the new \gls{gle} definition is as follows \citep{poluianov_gle_2017}: 
+
+\begin{quote}
+	\textit{A GLE event is registered when there are near-time coincident and statistically significant enhancements of the count rates of at least two differently located neutron monitors, including at least one neutron monitor near sea-level and a corresponding enhancement in the proton flux measured by a space-borne instrument(s).}
+\end{quote}
+
+The new definition therefore invoked the introduction of a sub-\gls{gle}, defined as \citep{poluianov_gle_2017}:
+
+\begin{quote}
+	\textit{A sub-GLE event is registered when there are near-time coincident and statistically significant enhancements of the count rates of at least two differently located high-elevation neutron monitors and a corresponding enhancement in the proton flux measured by a space-borne instrument(s), but no statistically significant enhancement in the count rates of neutron monitors near sea level.}
+\end{quote}
+
+
+Finally, a \gls{gle} real-time alarm system was developed by \citet{kuwabara_real-time_2006, kuwabara_development_2006}, using data from \glspl{nm} and \glspl{md}, which has been shown to provide the earliest alert for the onset of \gls{sep}-driven space weather events. They showed their alerts provide a warning up to an hour earlier than the storm onset. Furthermore, they also show that through utilising the \gls{gnmn}, monitoring precursory anisotropy, they can also issue warnings several hours ahead of near-Earth, in-situ satellite observations. They state that using both \glspl{nm} and \glspl{md} provides a dual energy range for observations, providing a more effective system.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{The HiSPARC Experiment}\label{sec:intro_HiSPARC}
 \subsection{HiSPARC Project}
 
-HiSPARC stands for \textit{\textbf{Hi}gh \textbf{S}chool \textbf{P}roject on \textbf{A}strophysics and \textbf{R}esearch with \textbf{C}osmics}, and it is a scientific outreach project that was initiated in the Netherlands in 2002 \citep{bartels_hisparc_2012}. The HiSPARC project has two main goals: the study of \gls{uhecr} for astroparticle physics research, and to serve as a resource to expose high school students to scientific research \citep{bartels_hisparc_2012}.
+The \gls{hisparc} stands for is a scientific outreach project that was initiated in the Netherlands in 2002 \citep{bartels_hisparc_2012}. The \gls{hisparc} project has two main goals: the study of \gls{uhecr} for astroparticle physics research, and to serve as a resource to expose high school students to scientific research \citep{bartels_hisparc_2012}.
 
-HiSPARC is a global network of muon detectors spread across the Netherlands, Denmark, the UK, and Namibia. The detectors at each station record muon counts and may be used for many scientific experiments, such as: reconstruction of the direction of a cosmic ray induced air shower, reconstruction of the energy of the air shower's primary particle, investigation between the atmospheric conditions and the number of cosmics rays observed, etc.
+\gls{hisparc} is a global network of muon detectors spread across the Netherlands, Denmark, the UK, and Namibia. The detectors at each station record muon counts and may be used for many scientific experiments, such as: reconstruction of the direction of a cosmic ray induced air shower, reconstruction of the energy of the air shower's primary particle, investigation between the atmospheric conditions and the number of cosmics rays observed, etc.
 
-Data recorded by the HiSPARC stations are stored and are available publicly at \url{http://www.hisparc.nl}, where the \gls{cr} counts, atmospheric data, station metadata, and more can be found.
+Data recorded by the \gls{hisparc} stations are stored and are available publicly at \url{http://www.hisparc.nl}, where the \gls{cr} counts, atmospheric data, station metadata, and more can be found.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{HiSPARC Detector and Station Configuration}
 
-The detection philosophy of HiSPARC is to sample the footprints of \glspl{eas} using coincident triggers between scintillation detectors. As HiSPARC was set up as an outreach programme for high schools, this impacted detector design. Resources are limited in schools and the detectors are usually financed by the participating high schools, colleges, and universities. In addition, students (accompanied by their teachers and local node support staff) are responsible for assembly and installation their detectors, which are typically installed on the roofs of schools. Due to this, the detectors needed to be cheap, robust, and easily maintainable, therefore the scintillation detector was selected for the HiSPARC network.
+The detection philosophy of \gls{hisparc} is to sample the footprints of \glspl{eas} using coincident triggers between scintillation detectors. As \gls{hisparc} was set up as an outreach programme for high schools, this impacted detector design. Resources are limited in schools and the detectors are usually financed by the participating high schools, colleges, and universities. In addition, students (accompanied by their teachers and local node support staff) are responsible for assembly and installation their detectors, which are typically installed on the roofs of schools. Due to this, the detectors needed to be cheap, robust, and easily maintainable, therefore the scintillation detector was selected for the \gls{hisparc} network.
 
-Scintillators consist of materials that emit light when charged particles pass through them with sufficient energy to ionise the scintillator material. The total light produced is proportional to the number of charged particles, and can be collected by a \gls{pmt}. Each HiSPARC detector utilises a plastic scintillator of dimensions 1000~mm x 500~mm x 20~mm, providing a detection area of 0.5~$\mathrm{m}^2$. A vertically incident \gls{mip} has a most probable energy loss in 2~cm of the scintillation material of 3.51~MeV ($\equiv 1$ \gls{mip}) \citep{van_dam_hisparc_2020}.
+Scintillators consist of materials that emit light when charged particles pass through them with sufficient energy to ionise the scintillator material. The total light produced is proportional to the number of charged particles, and can be collected by a \gls{pmt}. Each \gls{hisparc} detector utilises a plastic scintillator of dimensions 1000~mm x 500~mm x 20~mm, providing a detection area of 0.5~$\mathrm{m}^2$. A vertically incident \gls{mip} has a most probable energy loss in 2~cm of the scintillation material of 3.51~MeV ($\equiv 1$ \gls{mip}) \citep{van_dam_hisparc_2020}.
 
-The scintillator is glued to a triangular/`fish-tailed' light-guide (dimensions, base: 500~mm; top: 25~mm; height: 675~mm), and a light-guide adapter provides the optical interface between the square end of the light-guide and the cylindrical aperture of the \gls{pmt}. The configuration of a single HiSPARC detector is shown in Figure~\ref{fig:HS_scintillator}. 
+The scintillator is glued to a triangular/`fish-tailed' light-guide (dimensions, base: 500~mm; top: 25~mm; height: 675~mm), and a light-guide adapter provides the optical interface between the square end of the light-guide and the cylindrical aperture of the \gls{pmt}. The configuration of a single \gls{hisparc} detector is shown in Figure~\ref{fig:HS_scintillator}. 
 
 \begin{figure}[ht!]
 	\centering
@@ -58,11 +353,11 @@ The scintillator is glued to a triangular/`fish-tailed' light-guide (dimensions,
 
 The scintillator is made of a material consisting of polyvinyltoluene as the base, with anthracene as the fluor, and the emission spectrum peaks at a wavelength of 425~nm \citep{fokkema_hisparc_2012, bartels_hisparc_2012}. The light-guide is made from \gls{pmma} and has a comparable refractive index to the scintillator (1.58 and 1.49, respectively), reducing refraction effects between the two materials \citep{van_dam_hisparc_2020}.
 
-The \gls{pmt} used is an ETEnterprises 9125B \gls{pmt}, with a 25~mm aperture,  blue-green sensitive bialkali photocathode, and 11 high-gain dynodes \citep{bartels_hisparc_2012,et_enterprises_data_2020}. The quantum efficiency of the \gls{pmt} used in the HiSPARC detectors peaks at around 375 nm at 28\%, and at 425 nm the quantum efficiency is 25\% \citep{fokkema_hisparc_2012}. 
+The \gls{pmt} used is an ETEnterprises 9125B \gls{pmt}, with a 25~mm aperture,  blue-green sensitive bialkali photocathode, and 11 high-gain dynodes \citep{bartels_hisparc_2012,et_enterprises_data_2020}. The quantum efficiency of the \gls{pmt} used in the \gls{hisparc} detectors peaks at around 375 nm at 28\%, and at 425 nm the quantum efficiency is 25\% \citep{fokkema_hisparc_2012}. 
 
 Each detector is wrapped in aluminium foil (thickness 30~$\mu$m) and a black, vinyl material (thickness 0.45~mm), which is usually used as a pond liner, to ensure light-tight detectors and to reduce the noise level from stray photons \citep{van_dam_hisparc_2020}. In addition, each detector is placed inside of its own a plastic roof box to again ensure that it is light-tight, and to also ensure that it is weather-proof, as the detectors are usually located on the roofs of schools, colleges, and universities.
 
-A HiSPARC station combines either 2 or 4 detectors, to observe coincident muons (`events'), and typical configurations of each are shown in Figure~\ref{fig:HS_station_layouts}. The separation between detectors varies from station-to-station. In addition some stations have the capability to measure the local atmospheric properties, such as temperature, pressure, relative humidity etc. Moreover, some stations also record the `singles' rates, i.e. the frequency at which an individual detector is triggered, independently of the other detectors in the station. The singles rates are important when investigating non-\gls{eas} events.
+A \gls{hisparc} station combines either 2 or 4 detectors, to observe coincident muons (`events'), and typical configurations of each are shown in Figure~\ref{fig:HS_station_layouts}. The separation between detectors varies from station-to-station. In addition some stations have the capability to measure the local atmospheric properties, such as temperature, pressure, relative humidity etc. Moreover, some stations also record the `singles' rates, i.e. the frequency at which an individual detector is triggered, independently of the other detectors in the station. The singles rates are important when investigating non-\gls{eas} events.
 
 
 \begin{figure}[ht!]
@@ -81,9 +376,9 @@ light pulse which is converted
 into an electric pulse by the PMT. This pulse is
 sampled and digitized at 400 MHz
 
-The \glspl{pmt} of the detector in a station are connected to HiSPARC electronics boxes, which sample and digitise the signal at a rate of 400~MH, and each \glspl{pmt} is connected to the electronics box using cables of a standard length of 30~m, to minimise any timing offsets between detectors \citep{fokkema_hisparc_2012, van_dam_hisparc_2020}. The electronics boxes are capable of controlling and reading two \glspl{pmt}, therefore a four-detector station requires two electronics boxes: a master and a slave.
+The \glspl{pmt} of the detector in a station are connected to \gls{hisparc} electronics boxes, which sample and digitise the signal at a rate of 400~MH, and each \glspl{pmt} is connected to the electronics box using cables of a standard length of 30~m, to minimise any timing offsets between detectors \citep{fokkema_hisparc_2012, van_dam_hisparc_2020}. The electronics boxes are capable of controlling and reading two \glspl{pmt}, therefore a four-detector station requires two electronics boxes: a master and a slave.
 
-The HiSPARC experiment is set up in such a way as to ensure that each station across the HiSPARC network reads a similar count rate of muons, in order to aid the direct comparison between the different stations in the network. When configuring the station, a trigger threshold must be applied for the \gls{pmt} signals. This is standardised across the HiSPARC network and can be seen in relation to a detector trigger pulse in Figure~\ref{fig:HiSPARC_trace}. There are two thresholds, low: 30~mV, which represents 0.2 of a \gls{mip}; high: 70~mV, which represents 0.5 of a \gls{mip} \citep{fokkema_hisparc_2012, van_dam_hisparc_2020}. The thresholds were chosen to increase the sensitivity of the stations for observing gamma rays and low energy electrons, but this has the effect of making it more difficult to determine whether an individual detection is from a muon, or another \gls{mip}. This is why the HiSPARC network usually relies on detecting `events', from coincident muons.
+The \gls{hisparc} experiment is set up in such a way as to ensure that each station across the \gls{hisparc} network reads a similar count rate of muons, in order to aid the direct comparison between the different stations in the network. When configuring the station, a trigger threshold must be applied for the \gls{pmt} signals. This is standardised across the \gls{hisparc} network and can be seen in relation to a detector trigger pulse in Figure~\ref{fig:HiSPARC_trace}. There are two thresholds, low: 30~mV, which represents 0.2 of a \gls{mip}; high: 70~mV, which represents 0.5 of a \gls{mip} \citep{fokkema_hisparc_2012, van_dam_hisparc_2020}. The thresholds were chosen to increase the sensitivity of the stations for observing gamma rays and low energy electrons, but this has the effect of making it more difficult to determine whether an individual detection is from a muon, or another \gls{mip}. This is why the \gls{hisparc} network usually relies on detecting `events', from coincident muons.
 
 Each detector in the network is set up such that the pulseheight spectrum peaks at a \gls{mpv} of $\sim 150$~mV (see Figure~\ref{fig:pulses}), and such that the high threshold allows a mean count rate on the order 100 counts per second and the low threshold allows a mean count rate of the order 400 counts per second; these can by tuned by adjusting the \gls{pmt} voltage. It could be argued that in setting up the detectors in this way, there is an immediate bias in the data to reject lower energy \glspl{cr}.
 
@@ -103,7 +398,7 @@ Each detector in the network is set up such that the pulseheight spectrum peaks 
 
 The pulse height spectrum (see Figure~\ref{fig:HiSPARC_pulseheight}) is composed of two main regions: the left side which falls off rather steeply and the main, asymmetric part of the spectrum which features a peak and a long tail. The left side of the spectrum is understood to be from high-energy photons (gamma rays) produced in air showers \citep{fokkema_hisparc_2012}. These high-energy photons may undergo pair production when interacting with the scintillator which may produce ionising electron and positron pairs. The trigger thresholds are placed to reject these noise signals from the data.
 
-The main, asymmetric distribution which features a peak and a tail is from charged particles (muons and electrons) \citep{van_dam_hisparc_2020}. The mean energy loss of particles in a material is described by the Blethe-Bloch formula; however this does not account for fluctuations in energy loss \citep{fokkema_hisparc_2012}. A Landau distribution in fact describes the fluctuations in energy loss of particles. Due to the resolution of the HiSPARC detectors the distribution in Figure~\ref{fig:HiSPARC_pulseheight} is best described by the convolution of the Landau distribution with a normal distribution which describes the resolution of the detector \citep{fokkema_hisparc_2012}. The peak of the distribution, the most probable values (\gls{mpv}), is the most likely energy lost by a particle in the detector, i.e. the 3.51~MeV \gls{mip} \citep{van_dam_hisparc_2020}. It has been shown that the location of the \gls{mpv} can vary due to the effects of atmospheric temperature \citep{bartels_hisparc_2012, van_dam_hisparc_2020}.
+The main, asymmetric distribution which features a peak and a tail is from charged particles (muons and electrons) \citep{van_dam_hisparc_2020}. The mean energy loss of particles in a material is described by the Blethe-Bloch formula; however this does not account for fluctuations in energy loss \citep{fokkema_hisparc_2012}. A Landau distribution in fact describes the fluctuations in energy loss of particles. Due to the resolution of the \gls{hisparc} detectors the distribution in Figure~\ref{fig:HiSPARC_pulseheight} is best described by the convolution of the Landau distribution with a normal distribution which describes the resolution of the detector \citep{fokkema_hisparc_2012}. The peak of the distribution, the most probable values (\gls{mpv}), is the most likely energy lost by a particle in the detector, i.e. the 3.51~MeV \gls{mip} \citep{van_dam_hisparc_2020}. It has been shown that the location of the \gls{mpv} can vary due to the effects of atmospheric temperature \citep{bartels_hisparc_2012, van_dam_hisparc_2020}.
 
 The default trigger conditions for detecting an air shower event between multiple \glspl{pmt} within a station differ for a two/four-detector station. In a two-detector station, an event is recorded if the \gls{pmt} signals from both detectors exceed the low threshold within the coincidence time window ($1.5 \, \mu\mathrm{s}$). In a four-detector station, there are two conditions: (i) at least two detectors exceed the high threshold within the coincidence time window; (ii) at least three detectors exceed the low threshold within the coincidence time window. These are the default conditions, but there are other, user configurable ways of triggering the station.
 
@@ -113,12 +408,36 @@ The scientific goals that can be achieved also vary between the two/four-detecto
 ....
 
 
-%To discriminate against single particle sources, HiSPARC applies the ’coincidence method’. By using two (or four) detectors and selecting coincident PMT pulses (i.e. with a time difference smaller than 1.5 µs) the majority of random coincidences are rejected. If two or more PMT pulses exceed the threshold within the trigger window, the pulses are stored...
+%To discriminate against single particle sources, \gls{hisparc} applies the ’coincidence method’. By using two (or four) detectors and selecting coincident PMT pulses (i.e. with a time difference smaller than 1.5 µs) the majority of random coincidences are rejected. If two or more PMT pulses exceed the threshold within the trigger window, the pulses are stored...
 
-\section{The Solar Magnetic Field}\label{sec:intro_SMMF}
+\section{The Solar Magnetic Field/Activity/Features...}\label{sec:intro_SMMF}
 \subsection{...}
 ...
 
 comment less here on the smmf but introduce features on the disk...
 
+Solar activity cycle ... \citep{hathaway_solar_2015}...
 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Thesis Structure}
+
+In this thesis a number of projects are presented which explore the themes of understanding the solar interior-atmosphere linkage and space weather applications. This is broken down into three major projects: a feasibility study on \gls{cr} space weather applications, a study into the effects of solar activity on \gls{cr} observations, and a study of the mean magnetic field of the Sun.
+
+To clarify the structure of this thesis, the contents of each chapter and the main themes within are given in outline, before I present the work in each.
+
+In Chapter~\ref{chap:HiSPARC} ...
+
+Chapter~\ref{chap:HiSPARC_14008} ...
+
+Chapter~\ref{chap:GCR_SSN_24} we studied long-term variations of \gls{gcr} intensity in relation to the \gls{ssn} during the most recent solar cycles \citep{ross_behaviour_2019}. This study analysed the time lag between the \gls{gcr} intensity and the \gls{ssn}, and the hysteresis effect of the \gls{gcr} count rate against \gls{ssn} for Solar Cycles 20 -- 24.
+
+Chapter~\ref{chap:SMMF} deviates away from \gls{cr} data and instead a frequency-domain analysis of over 20~years of high-cadence \gls{bison} observations of the \gls{smmf} is presented. We modelled the power spectrum of the \gls{bison} \gls{smmf} data to draw conclusions about the morphology of the \gls{smmf}, particularly focusing on the source of the rotationally modulated component in the signal.
+
+In Chapter~\ref{chap:rmode} we further investigated the \gls{bison} \gls{smmf} data. Here we examined the residual spectrum, after removing our best-fitting model, to search for evidence of a magnetic signature of global Rossby modes ($r$ modes).
+
+Finally the thesis is concluded in Chapter ...

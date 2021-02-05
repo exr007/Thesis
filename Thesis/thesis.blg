@@ -3,54 +3,59 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 The style file: mnras.bst
 Database file #1: library.bib
+Warning--I didn't find a database entry for "2017North"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry fan_analysis_2018
+`series' is a missing field, not a string, for entry bis_space_2015
 while executing---line 1822 of file mnras.bst
-Warning--empty journal in fan_analysis_2018
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry fan_analysis_2018
+"" is a string literal, not an integer, for entry bis_space_2015
 while executing---line 1822 of file mnras.bst
-You've used 30 entries,
-            2881 wiz_defined-function locations,
-            949 strings with 20316 characters,
-and the built_in function-call counts, 14213 in all, are:
-= -- 1153
-> -- 1021
-< -- 99
-+ -- 459
-- -- 146
-* -- 1648
-:= -- 2280
+`series' is a missing field, not a string, for entry bis_space_2015
+while executing---line 1822 of file mnras.bst
+Warning--empty publisher in bis_space_2015
+Warning--empty publisher in cabinet_office_national_2017
+Warning--empty publisher in cannon_extreme_2013
+Warning--empty booktitle in chilingarian_galactic_2003
+Warning--empty institution in metoffice_space_2013
+You've used 64 entries,
+            2879 wiz_defined-function locations,
+            1179 strings with 33849 characters,
+and the built_in function-call counts, 30207 in all, are:
+= -- 2354
+> -- 2171
+< -- 190
++ -- 1015
+- -- 296
+* -- 3520
+:= -- 4854
 add.period$ -- 0
-call.type$ -- 30
-change.case$ -- 60
-chr.to.int$ -- 29
-cite$ -- 31
-duplicate$ -- 692
-empty$ -- 712
-format.name$ -- 244
-if$ -- 2465
-int.to.chr$ -- 2
+call.type$ -- 64
+change.case$ -- 134
+chr.to.int$ -- 62
+cite$ -- 69
+duplicate$ -- 1536
+empty$ -- 1671
+format.name$ -- 478
+if$ -- 5251
+int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 28
-newline$ -- 105
-num.names$ -- 220
-pop$ -- 131
+missing$ -- 60
+newline$ -- 219
+num.names$ -- 435
+pop$ -- 389
 preamble$ -- 1
-purify$ -- 120
+purify$ -- 256
 quote$ -- 0
-skip$ -- 446
+skip$ -- 926
 stack$ -- 0
-substring$ -- 797
-swap$ -- 349
-text.length$ -- 122
+substring$ -- 1588
+swap$ -- 674
+text.length$ -- 266
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 270
-warning$ -- 1
-while$ -- 235
+type$ -- 558
+warning$ -- 5
+while$ -- 469
 width$ -- 0
-write$ -- 317
-(There were 2 error messages)
+write$ -- 693
+(There were 3 error messages)

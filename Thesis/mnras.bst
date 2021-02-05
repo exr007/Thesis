@@ -1153,7 +1153,7 @@ FUNCTION {techreport}
   address output
   format.eprint "eprint" output.check.nocomma
   format.doi "doi" output.check.nocomma
-  format.url output
+  %format.url output
   fin.entry
 }
 
