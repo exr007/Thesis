@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.30)  5 FEB 2021 15:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.30)  11 FEB 2021 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -693,7 +693,7 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (./Title/title_page.tex
-<Title/onlyunilogo.png, id=79, 255.95625pt x 255.95625pt>
+<Title/onlyunilogo.png, id=87, 255.95625pt x 255.95625pt>
 File: Title/onlyunilogo.png Graphic file (type png)
 <use Title/onlyunilogo.png>
 Package pdftex.def Info: Title/onlyunilogo.png  used on input line 13.
@@ -722,13 +722,19 @@ been already used, duplicate ignored
 l.128 \listoffigures
                      [1
 
-] (./thesis.lof)
+] (./thesis.lof [2
+
+]
+Overfull \hbox (11.11806pt too wide) in paragraph at lines 18--18
+ [][] [][][]\OT1/cmr/m/n/12 Typical for-ma-tions of two-detector and four-detec
+tor sta-tions ([][]Fokkema[][], 
+ []
+
+)
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
- [2
-
-] [3] (./thesis.lot)
+ [3] (./thesis.lot)
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
@@ -739,22 +745,57 @@ Using TeX to sort glossary entries---this may take a while
 ] [5
 
 
-]
+] [6]
 No file thesis.acr.
-[6] (./Chapters/Intro/intro.tex
+[7] (./Chapters/Intro/intro.tex
 Chapter 1.
-
-LaTeX Warning: Reference `sec:astero_intro' on page 1 undefined on input line 2
-.
-
-
-Package natbib Warning: Citation `2017North' on page 1 undefined on input line 
-2.
-
 [1
 
 
-] [2]
+]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+ [2]
+<Chapters/Intro/SSN_monthly_landscape.png, id=386, 307.6293pt x 188.6247pt>
+File: Chapters/Intro/SSN_monthly_landscape.png Graphic file (type png)
+<use Chapters/Intro/SSN_monthly_landscape.png>
+Package pdftex.def Info: Chapters/Intro/SSN_monthly_landscape.png  used on inpu
+t line 37.
+(pdftex.def)             Requested size: 426.79135pt x 261.6925pt.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+<Chapters/Intro/ButterflyDiagram.png, id=410, 1179.4464pt x 674.2791pt>
+File: Chapters/Intro/ButterflyDiagram.png Graphic file (type png)
+<use Chapters/Intro/ButterflyDiagram.png>
+Package pdftex.def Info: Chapters/Intro/ButterflyDiagram.png  used on input lin
+e 48.
+(pdftex.def)             Requested size: 426.79135pt x 243.98521pt.
+ [3 <./Chapters/Intro/SSN_monthly_landscape.png>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [4 <./Chapters/Intro/ButterflyDiagram.png>] [5] [6]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [7] [8]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ê in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+ [9] [10]
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+
+
+LaTeX Warning: Reference `sec:SMMF_intro' on page 11 undefined on input line 14
+8.
+
+[11] [12] [13]
 Package epstopdf Info: Source file: <Chapters/Intro/UK_risk_register.eps>
 (epstopdf)                    date: 2018-04-12 11:36:14
 (epstopdf)                    size: 3076914 bytes
@@ -764,149 +805,183 @@ ted-to.pdf>
 (epstopdf)                    size: 285668 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapters/Intro/UK_risk_reg
 ister-eps-converted-to.pdf Chapters/Intro/UK_risk_register.eps>
-(epstopdf)             \includegraphics on input line 55.
+(epstopdf)             \includegraphics on input line 204.
 Package epstopdf Info: Output file is already uptodate.
-<Chapters/Intro/UK_risk_register-eps-converted-to.pdf, id=311, 736.7525pt x 424
+<Chapters/Intro/UK_risk_register-eps-converted-to.pdf, id=841, 736.7525pt x 424
 .58624pt>
 File: Chapters/Intro/UK_risk_register-eps-converted-to.pdf Graphic file (type p
 df)
 <use Chapters/Intro/UK_risk_register-eps-converted-to.pdf>
 Package pdftex.def Info: Chapters/Intro/UK_risk_register-eps-converted-to.pdf  
-used on input line 55.
+used on input line 204.
 (pdftex.def)             Requested size: 426.79135pt x 245.95569pt.
- [3]
-<Chapters/Intro/Space_weather_effects_rescaled.jpg, id=329, 242.3454pt x 172.48
+<Chapters/Intro/Space_weather_effects_rescaled.jpg, id=850, 242.3454pt x 172.48
 44pt>
 File: Chapters/Intro/Space_weather_effects_rescaled.jpg Graphic file (type jpg)
 
 <use Chapters/Intro/Space_weather_effects_rescaled.jpg>
 Package pdftex.def Info: Chapters/Intro/Space_weather_effects_rescaled.jpg  use
-d on input line 67.
+d on input line 216.
 (pdftex.def)             Requested size: 426.79135pt x 303.76035pt.
- [4 <./Chapters/Intro/UK_risk_register-eps-converted-to.pdf>]
-[5 <./Chapters/Intro/Space_weather_effects_rescaled.jpg>] [6] [7] [8]
-<Chapters/Intro/CR_spectrum.png, id=488, 848.16875pt x 1007.765pt>
+ [14]
+
+LaTeX Warning: Text page 15 contains only floats.
+
+[15 <./Chapters/Intro/UK_risk_register-eps-converted-to.pdf> <./Chapters/Intro/
+Space_weather_effects_rescaled.jpg>] [16] [17] [18]
+<Chapters/Intro/CR_spectrum.png, id=1004, 848.16875pt x 1007.765pt>
 File: Chapters/Intro/CR_spectrum.png Graphic file (type png)
 <use Chapters/Intro/CR_spectrum.png>
-Package pdftex.def Info: Chapters/Intro/CR_spectrum.png  used on input line 127
+Package pdftex.def Info: Chapters/Intro/CR_spectrum.png  used on input line 273
 .
 (pdftex.def)             Requested size: 341.43437pt x 405.68224pt.
- [9 <./Chapters/Intro/CR_spectrum.png>] [10] [11] [12]
-<Chapters/Intro/NM_IGY_rescaled.png, id=594, 263.48438pt x 347.04657pt>
+ [19] [20 <./Chapters/Intro/CR_spectrum.png>] [21] [22] [23]
+<Chapters/Intro/NM_IGY_rescaled.png, id=1122, 263.48438pt x 347.04657pt>
 File: Chapters/Intro/NM_IGY_rescaled.png Graphic file (type png)
 <use Chapters/Intro/NM_IGY_rescaled.png>
 Package pdftex.def Info: Chapters/Intro/NM_IGY_rescaled.png  used on input line
- 218.
+ 364.
 (pdftex.def)             Requested size: 153.64514pt x 202.38332pt.
-<Chapters/Intro/NM_64_rescaled.png, id=595, 312.41719pt x 365.86688pt>
+<Chapters/Intro/NM_64_rescaled.png, id=1123, 312.41719pt x 365.86688pt>
 File: Chapters/Intro/NM_64_rescaled.png Graphic file (type png)
 <use Chapters/Intro/NM_64_rescaled.png>
 Package pdftex.def Info: Chapters/Intro/NM_64_rescaled.png  used on input line 
-220.
+366.
 (pdftex.def)             Requested size: 153.64514pt x 179.93509pt.
- [13 <./Chapters/Intro/NM_IGY_rescaled.png (PNG copy)> <./Chapters/Intro/NM_64_
+ [24 <./Chapters/Intro/NM_IGY_rescaled.png (PNG copy)> <./Chapters/Intro/NM_64_
 rescaled.png (PNG copy)>]
-<Chapters/Intro/scintillator_rescaled.png, id=620, 563.85657pt x 187.45032pt>
+<Chapters/Intro/scintillator_rescaled.png, id=1148, 563.85657pt x 187.45032pt>
 File: Chapters/Intro/scintillator_rescaled.png Graphic file (type png)
 <use Chapters/Intro/scintillator_rescaled.png>
 Package pdftex.def Info: Chapters/Intro/scintillator_rescaled.png  used on inpu
-t line 237.
+t line 383.
 (pdftex.def)             Requested size: 298.75264pt x 99.31958pt.
- [14 <./Chapters/Intro/scintillator_rescaled.png (PNG copy)>]
-<Chapters/Intro/FD_plot.png, id=653, 760.8425pt x 581.17125pt>
+
+
+LaTeX Warning: Reference `chap:GCR_SSN_24' on page 25 undefined on input line 3
+98.
+
+[25 <./Chapters/Intro/scintillator_rescaled.png (PNG copy)>]
+<Chapters/Intro/gcr.png, id=1184, 781.92125pt x 523.9575pt>
+File: Chapters/Intro/gcr.png Graphic file (type png)
+<use Chapters/Intro/gcr.png>
+Package pdftex.def Info: Chapters/Intro/gcr.png  used on input line 403.
+(pdftex.def)             Requested size: 426.79135pt x 285.98691pt.
+<Chapters/Intro/FD_plot.png, id=1207, 760.8425pt x 581.17125pt>
 File: Chapters/Intro/FD_plot.png Graphic file (type png)
 <use Chapters/Intro/FD_plot.png>
-Package pdftex.def Info: Chapters/Intro/FD_plot.png  used on input line 261.
+Package pdftex.def Info: Chapters/Intro/FD_plot.png  used on input line 416.
 (pdftex.def)             Requested size: 320.0935pt x 244.50705pt.
-<Chapters/Intro/FD_CME.png, id=693, 731.73375pt x 739.76375pt>
+ [26 <./Chapters/Intro/gcr.png (PNG copy)>]
+<Chapters/Intro/FD_CME.png, id=1257, 731.73375pt x 739.76375pt>
 File: Chapters/Intro/FD_CME.png Graphic file (type png)
 <use Chapters/Intro/FD_CME.png>
-Package pdftex.def Info: Chapters/Intro/FD_CME.png  used on input line 270.
+Package pdftex.def Info: Chapters/Intro/FD_CME.png  used on input line 425.
 (pdftex.def)             Requested size: 320.0935pt x 323.61197pt.
- [15]
+ [27 <./Chapters/Intro/FD_plot.png>]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no â in font cmr12!
- [16 <./Chapters/Intro/FD_plot.png>] [17 <./Chapters/Intro/FD_CME.png>]
-<Chapters/Intro/GLE_plot.png, id=784, 451.6875pt x 624.3325pt>
+ [28 <./Chapters/Intro/FD_CME.png>]
+<Chapters/Intro/GLE_plot.png, id=1329, 451.6875pt x 624.3325pt>
 File: Chapters/Intro/GLE_plot.png Graphic file (type png)
 <use Chapters/Intro/GLE_plot.png>
-Package pdftex.def Info: Chapters/Intro/GLE_plot.png  used on input line 288.
+Package pdftex.def Info: Chapters/Intro/GLE_plot.png  used on input line 443.
 (pdftex.def)             Requested size: 320.0935pt x 442.46942pt.
- [18 <./Chapters/Intro/GLE_plot.png>]
-<Chapters/Intro/garden_hose.png, id=846, 577.15625pt x 632.3625pt>
+ [29] [30 <./Chapters/Intro/GLE_plot.png>]
+<Chapters/Intro/garden_hose.png, id=1421, 577.15625pt x 632.3625pt>
 File: Chapters/Intro/garden_hose.png Graphic file (type png)
 <use Chapters/Intro/garden_hose.png>
-Package pdftex.def Info: Chapters/Intro/garden_hose.png  used on input line 301
+Package pdftex.def Info: Chapters/Intro/garden_hose.png  used on input line 455
 .
 (pdftex.def)             Requested size: 320.0935pt x 350.72412pt.
- [19] [20 <./Chapters/Intro/garden_hose.png>]
-Overfull \hbox (8.96953pt too wide) in paragraph at lines 325--326
+ [31 <./Chapters/Intro/garden_hose.png>]
+Overfull \hbox (8.96953pt too wide) in paragraph at lines 479--480
 []\OT1/cmr/m/n/12 Finally, a [][][]GLE[][] real-time alarm sys-tem was de-vel-o
 ped by [][]Kuwabara et al.[][] ([][]2006a[][],[][]b[][]),
  []
 
-[21]
-<Chapters/HiSPARC/config.png, id=925, 733.99219pt x 243.91125pt>
+[32] [33]
+<Chapters/HiSPARC/config.png, id=1517, 733.99219pt x 243.91125pt>
 File: Chapters/HiSPARC/config.png Graphic file (type png)
 <use Chapters/HiSPARC/config.png>
-Package pdftex.def Info: Chapters/HiSPARC/config.png  used on input line 351.
+Package pdftex.def Info: Chapters/HiSPARC/config.png  used on input line 509.
 (pdftex.def)             Requested size: 320.0935pt x 106.37222pt.
- [22] [23 <./Chapters/HiSPARC/config.png>]
-<Chapters/HiSPARC/HS_2D2.png, id=961, 398.48875pt x 106.3975pt>
-File: Chapters/HiSPARC/HS_2D2.png Graphic file (type png)
-<use Chapters/HiSPARC/HS_2D2.png>
-Package pdftex.def Info: Chapters/HiSPARC/HS_2D2.png  used on input line 367.
-(pdftex.def)             Requested size: 256.07741pt x 68.37502pt.
-<Chapters/HiSPARC/HS_4D_t2.png, id=962, 80.4606pt x 68.8974pt>
-File: Chapters/HiSPARC/HS_4D_t2.png Graphic file (type png)
-<use Chapters/HiSPARC/HS_4D_t2.png>
-Package pdftex.def Info: Chapters/HiSPARC/HS_4D_t2.png  used on input line 369.
+ [34 <./Chapters/HiSPARC/config.png>]
+<Chapters/Intro/HS_2det.jpg, id=1549, 241.09271pt x 102.91248pt>
+File: Chapters/Intro/HS_2det.jpg Graphic file (type jpg)
+<use Chapters/Intro/HS_2det.jpg>
+Package pdftex.def Info: Chapters/Intro/HS_2det.jpg  used on input line 526.
+(pdftex.def)             Requested size: 213.39568pt x 91.09401pt.
+<Chapters/Intro/HS_4det-r.jpg, id=1550, 241.23726pt x 163.47475pt>
+File: Chapters/Intro/HS_4det-r.jpg Graphic file (type jpg)
+<use Chapters/Intro/HS_4det-r.jpg>
+Package pdftex.def Info: Chapters/Intro/HS_4det-r.jpg  used on input line 528.
+(pdftex.def)             Requested size: 213.39568pt x 144.60902pt.
+<Chapters/Intro/HS_4det-d.jpg, id=1551, 241.81541pt x 224.7597pt>
+File: Chapters/Intro/HS_4det-d.jpg Graphic file (type jpg)
+<use Chapters/Intro/HS_4det-d.jpg>
+Package pdftex.def Info: Chapters/Intro/HS_4det-d.jpg  used on input line 530.
+(pdftex.def)             Requested size: 213.39568pt x 198.34473pt.
+ [35] [36 <./Chapters/Intro/HS_2det.jpg> <./Chapters/Intro/HS_4det-r.jpg> <./Ch
+apters/Intro/HS_4det-d.jpg>]
+<Chapters/Intro/HS_hardware_config.png, id=1591, 596.98032pt x 369.63094pt>
+File: Chapters/Intro/HS_hardware_config.png Graphic file (type png)
+<use Chapters/Intro/HS_hardware_config.png>
+Package pdftex.def Info: Chapters/Intro/HS_hardware_config.png  used on input l
+ine 545.
+(pdftex.def)             Requested size: 426.79135pt x 264.2559pt.
 
-(pdftex.def)             Requested size: 256.07741pt x 219.33759pt.
-<Chapters/HiSPARC/HS_4D_d2.png, id=963, 478.78876pt x 287.0725pt>
-File: Chapters/HiSPARC/HS_4D_d2.png Graphic file (type png)
-<use Chapters/HiSPARC/HS_4D_d2.png>
-Package pdftex.def Info: Chapters/HiSPARC/HS_4D_d2.png  used on input line 371.
-
-(pdftex.def)             Requested size: 256.07741pt x 153.54065pt.
- [24 <./Chapters/HiSPARC/HS_2D2.png> <./Chapters/HiSPARC/HS_4D_t2.png> <./Chapt
-ers/HiSPARC/HS_4D_d2.png>]
-<Chapters/HiSPARC/trace_plot.pdf, id=1000, 453.44844pt x 323.69005pt>
+[37 <./Chapters/Intro/HS_hardware_config.png>]
+<Chapters/HiSPARC/trace_plot.pdf, id=1622, 453.44844pt x 323.69005pt>
 File: Chapters/HiSPARC/trace_plot.pdf Graphic file (type pdf)
 <use Chapters/HiSPARC/trace_plot.pdf>
-Package pdftex.def Info: Chapters/HiSPARC/trace_plot.pdf  used on input line 39
-1.
+Package pdftex.def Info: Chapters/HiSPARC/trace_plot.pdf  used on input line 56
+3.
 (pdftex.def)             Requested size: 204.85802pt x 146.23705pt.
-<Chapters/HiSPARC/pulseheights.pdf, id=1001, 460.96872pt x 329.0303pt>
+<Chapters/HiSPARC/pulseheights.pdf, id=1623, 460.96872pt x 329.0303pt>
 File: Chapters/HiSPARC/pulseheights.pdf Graphic file (type pdf)
 <use Chapters/HiSPARC/pulseheights.pdf>
 Package pdftex.def Info: Chapters/HiSPARC/pulseheights.pdf  used on input line 
-395.
+567.
 (pdftex.def)             Requested size: 204.85802pt x 146.22473pt.
-
-[25] [26 <./Chapters/HiSPARC/trace_plot.pdf> <./Chapters/HiSPARC/pulseheights.p
-df
+ [38] [39 <./Chapters/HiSPARC/trace_plot.pdf> <./Chapters/HiSPARC/pulseheights.
+pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapters/HiSPARC/pulseheights.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (5.1364pt too wide) in paragraph at lines 415--415
-|[]\OT1/cmr/bx/n/17.28 The So-lar Mag-netic Field/Activity/Features...| 
- []
-
-[27]
-
-LaTeX Warning: Reference `chap:HiSPARC' on page 28 undefined on input line 435.
-
-
-
-LaTeX Warning: Reference `chap:HiSPARC_14008' on page 28 undefined on input lin
-e 437.
+<Chapters/Intro/HS_pulses.jpg, id=1744, 237.33469pt x 152.20062pt>
+File: Chapters/Intro/HS_pulses.jpg Graphic file (type jpg)
+<use Chapters/Intro/HS_pulses.jpg>
+Package pdftex.def Info: Chapters/Intro/HS_pulses.jpg  used on input line 585.
+(pdftex.def)             Requested size: 384.1096pt x 246.34763pt.
+ [40] [41 <./Chapters/Intro/HS_pulses.jpg>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 601.
 
 
-LaTeX Warning: Reference `chap:GCR_SSN_24' on page 28 undefined on input line 4
-39.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 601.
+
+
+LaTeX Warning: Reference `chap:HiSPARC' on page 42 undefined on input line 626.
+
+
+[42]
+
+LaTeX Warning: Reference `chap:HiSPARC' on page 43 undefined on input line 628.
+
+
+
+LaTeX Warning: Reference `chap:HiSPARC_14008' on page 43 undefined on input lin
+e 628.
+
+
+LaTeX Warning: Reference `chap:GCR_SSN_24' on page 43 undefined on input line 6
+30.
 
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
@@ -915,138 +990,149 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no â in font cmr12!
 
-LaTeX Warning: Reference `chap:SMMF' on page 28 undefined on input line 441.
+LaTeX Warning: Reference `chap:SMMF' on page 43 undefined on input line 632.
 
 
-LaTeX Warning: Reference `chap:rmode' on page 28 undefined on input line 443.
+LaTeX Warning: Reference `chap:rmode' on page 43 undefined on input line 634.
 
-) [28] (./thesis.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 76--80
+) [43] (./thesis.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 94--98
 []\OT1/cmr/m/n/10.95 Cabinet Of-fice 2017, Na-tional Risk Reg-is-ter of Civil E
 mer-gen-cies -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--80
+Underfull \hbox (badness 10000) in paragraph at lines 94--98
 \OT1/cmr/m/n/10.95 GOV.UK, 2017 edn. [][]$\OT1/cmtt/m/n/10.95 https : / / www .
  gov . uk / government / publications /
  []
 
+[44
+
+
+]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no º in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 6493) in paragraph at lines 112--116
+Underfull \hbox (badness 6493) in paragraph at lines 178--182
 []\OT1/cmr/m/n/10.95 Dorman L. I., 2004a, in As-tro-physics and Space Sci-ence 
 Li-brary, Cos-mic
  []
 
 
-Underfull \hbox (badness 3229) in paragraph at lines 112--116
+Underfull \hbox (badness 3229) in paragraph at lines 178--182
 \OT1/cmr/m/n/10.95 Rays in the Earths At-mo-sphere and Un-der-ground. Springer,
  Dor-drecht, pp
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 112--116
+Underfull \hbox (badness 3250) in paragraph at lines 178--182
 \OT1/cmr/m/n/10.95 289--330, [][]doi:10.1007/978-1-4020-2113-8_5[][], [][]$\OT1
 /cmtt/m/n/10.95 https : / / link . springer . com / chapter /
  []
 
-[29
-
-
-]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 6348) in paragraph at lines 118--122
+Underfull \hbox (badness 6348) in paragraph at lines 184--188
 []\OT1/cmr/m/n/10.95 Dorman L. I., 2004b, in As-tro-physics and Space Sci-ence 
 Li-brary, Cos-mic
  []
 
 
-Underfull \hbox (badness 3229) in paragraph at lines 118--122
+Underfull \hbox (badness 3229) in paragraph at lines 184--188
 \OT1/cmr/m/n/10.95 Rays in the Earths At-mo-sphere and Un-der-ground. Springer,
  Dor-drecht, pp
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 118--122
+Underfull \hbox (badness 3250) in paragraph at lines 184--188
 \OT1/cmr/m/n/10.95 375--386, [][]doi:10.1007/978-1-4020-2113-8_7[][], [][]$\OT1
 /cmtt/m/n/10.95 https : / / link . springer . com / chapter /
  []
 
 
-Underfull \hbox (badness 1389) in paragraph at lines 147--151
+Underfull \hbox (badness 1389) in paragraph at lines 213--217
 []\OT1/cmr/m/n/10.95 ETEnterprises 2020, Tech-ni-cal Re-port 9125B, Data Sheet:
  9125B Se-ries, [][]$\OT1/cmtt/m/n/10.95 http :
  []
 
+[45]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ≠ in font cmr10!
 
-Underfull \hbox (badness 4391) in paragraph at lines 178--182
+Underfull \hbox (badness 4391) in paragraph at lines 280--284
 []\OT1/cmr/m/n/10.95 Government H., 2020, Risk Reg-is-ter, Na-tional Risk Reg-i
 s-ter: 2020 edi-tion,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--182
+Underfull \hbox (badness 10000) in paragraph at lines 280--284
 [][]$\OT1/cmtt/m/n/10.95 https : / / assets . publishing . service . gov . uk /
  government / uploads / system /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--182
+Underfull \hbox (badness 10000) in paragraph at lines 280--284
 \OT1/cmtt/m/n/10.95 uploads / attachment _ data / file / 952959 / 6 . 6920 _ CO
  _ CCS _ s _ National _ Risk _
  []
 
-
-Underfull \hbox (badness 1708) in paragraph at lines 194--198
+[46]
+Underfull \hbox (badness 1708) in paragraph at lines 329--333
 \OT1/cmr/m/n/10.95 Elec-tric Grid, [][]$\OT1/cmtt/m/n/10.95 https : / / www . l
 loyds . com / news-[]and-[]risk-[]insight / risk-[]reports /
  []
 
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 235--237
+Missing character: There is no √ in font cmr10!
+Missing character: There is no º in font cmr10!
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 438--440
 \OT1/cmtt/m/n/10.95 gov . uk / binaries / content / assets / mohippo / pdf / pu
 blic-[]sector / emergencies /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--251
+Underfull \hbox (badness 10000) in paragraph at lines 452--454
 []\OT1/cmr/m/n/10.95 Nature 1871, Ob-ser-va-tions Upon Mag-netic Storms in High
 er Lat-i-tudes,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--291
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 524--528
 []\OT1/cmr/m/n/10.95 Schrijver C. J., Sis-coe G. L., eds, 2010, He-lio-physics:
  Space Storms
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--291
+Underfull \hbox (badness 10000) in paragraph at lines 524--528
 \OT1/cmr/m/n/10.95 and Ra-di-a-tion: Causes and Ef-fects. Cam-bridge Uni-ver-si
 ty Press, Cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--291
+Underfull \hbox (badness 10000) in paragraph at lines 524--528
 \OT1/cmr/m/n/10.95 bridge, [][]doi:10.1017/CBO9781139194532[][], [][]$\OT1/cmtt
 /m/n/10.95 https : / / www . cambridge . org / core /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--291
+Underfull \hbox (badness 10000) in paragraph at lines 524--528
 \OT1/cmtt/m/n/10.95 books / heliophysics-[]space-[]storms-[]and-[]radiation-[]c
 auses-[]and-[]effects /
  []
 
-[31]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no º in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no º in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
 Missing character: There is no √ in font cmr10!
 Missing character: There is no § in font cmr10!
 Missing character: There is no √ in font cmr10!
@@ -1054,18 +1140,15 @@ Missing character: There is no © in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
-)
-
-Package natbib Warning: There were undefined citations.
-
+[49])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
-[32]
+ [50]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
  (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 80CCFCA9597A33201BB1C87ADC35C072;1271.
+(rerunfilecheck)             Checksum: A6832FF9C689A9D1EDD345ABF2604844;1419.
 
 
 LaTeX Warning: There were undefined references.
@@ -1073,33 +1156,33 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 210.
  ) 
 Here is how much of TeX's memory you used:
- 16562 strings out of 494923
- 247359 string characters out of 6180742
- 406677 words of memory out of 5000000
- 19376 multiletter control sequences out of 15000+600000
- 25418 words of font info for 93 fonts, out of 8000000 for 9000
+ 17202 strings out of 494923
+ 261337 string characters out of 6180742
+ 421823 words of memory out of 5000000
+ 19892 multiletter control sequences out of 15000+600000
+ 25059 words of font info for 92 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 45i,11n,87p,1971b,677s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,11n,87p,1971b,754s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (39 pages, 1678747 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on thesis.pdf (58 pages, 2615757 bytes).
 PDF statistics:
- 1348 PDF objects out of 1440 (max. 8388607)
- 1168 compressed objects within 12 object streams
- 193 named destinations out of 1000 (max. 500000)
- 238 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2137 PDF objects out of 2487 (max. 8388607)
+ 1913 compressed objects within 20 object streams
+ 310 named destinations out of 1000 (max. 500000)
+ 279 words of extra memory for PDF output out of 10000 (max. 10000000)
 
