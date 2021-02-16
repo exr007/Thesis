@@ -1,50 +1,85 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: Appendices/CORSIKA-sims/CORSIKA_sims.aux
 The style file: mnras.bst
 Database file #1: library.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--empty booktitle in elsworth_performance_1995
-You've used 79 entries,
+Name 1 in "{SILSO WDC}," has a comma at the end for entry silso_world_data_center_international_1954
+while executing---line 1706 of file mnras.bst
+Name 1 in "{SILSO WDC}," has a comma at the end for entry silso_world_data_center_international_1954
+while executing---line 1706 of file mnras.bst
+Name 1 in "{SILSO WDC}," has a comma at the end for entry silso_world_data_center_international_1954
+while executing---line 1706 of file mnras.bst
+`series' is a missing field, not a string, for entry bis_space_2015
+while executing---line 1822 of file mnras.bst
+"" is a string literal, not an integer, for entry bis_space_2015
+while executing---line 1822 of file mnras.bst
+`series' is a missing field, not a string, for entry bis_space_2015
+while executing---line 1822 of file mnras.bst
+Warning--empty publisher in bis_space_2015
+Warning--empty publisher in cabinet_office_national_2017
+Warning--empty publisher in cannon_extreme_2013
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry casanovas_early_1997
+while executing---line 1822 of file mnras.bst
+Warning--empty journal in casanovas_early_1997
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry casanovas_early_1997
+while executing---line 1822 of file mnras.bst
+Warning--empty booktitle in chilingarian_galactic_2003
+Warning--empty booktitle in desorgher_planetocosmics_2006
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry gopalswamy_corona_2010
+while executing---line 1822 of file mnras.bst
+Warning--empty journal in gopalswamy_corona_2010
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry gopalswamy_corona_2010
+while executing---line 1822 of file mnras.bst
+Warning--empty institution in heck_extensive_2017
+Warning--empty institution in metoffice_space_2013
+Name 1 in "{SILSO WDC}," has a comma at the end for entry silso_world_data_center_international_1954
+while executing---line 1822 of file mnras.bst
+You've used 180 entries,
             2879 wiz_defined-function locations,
-            1308 strings with 33746 characters,
-and the built_in function-call counts, 37195 in all, are:
-= -- 2907
-> -- 2861
-< -- 226
-+ -- 1271
-- -- 438
-* -- 4416
-:= -- 6041
+            1979 strings with 62433 characters,
+and the built_in function-call counts, 83216 in all, are:
+= -- 6522
+> -- 6129
+< -- 547
++ -- 2842
+- -- 847
+* -- 9764
+:= -- 13499
 add.period$ -- 0
-call.type$ -- 79
-change.case$ -- 158
-chr.to.int$ -- 76
-cite$ -- 80
-duplicate$ -- 1802
-empty$ -- 1824
-format.name$ -- 682
-if$ -- 6385
-int.to.chr$ -- 4
+call.type$ -- 180
+change.case$ -- 366
+chr.to.int$ -- 176
+cite$ -- 189
+duplicate$ -- 4157
+empty$ -- 4339
+format.name$ -- 1359
+if$ -- 14289
+int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 77
-newline$ -- 254
-num.names$ -- 566
-pop$ -- 355
+missing$ -- 169
+newline$ -- 576
+num.names$ -- 1249
+pop$ -- 972
 preamble$ -- 1
-purify$ -- 316
+purify$ -- 720
 quote$ -- 0
-skip$ -- 1124
+skip$ -- 2523
 stack$ -- 0
-substring$ -- 1916
-swap$ -- 894
-text.length$ -- 319
+substring$ -- 4369
+swap$ -- 1891
+text.length$ -- 736
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 708
-warning$ -- 1
-while$ -- 603
+type$ -- 1593
+warning$ -- 9
+while$ -- 1339
 width$ -- 0
-write$ -- 811
-(There was 1 warning)
+write$ -- 1859
+(There were 11 error messages)
