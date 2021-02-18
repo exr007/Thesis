@@ -1,7 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
-A level-1 auxiliary file: Appendices/CORSIKA-sims/CORSIKA_sims.aux
 The style file: mnras.bst
 Database file #1: library.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -29,7 +28,6 @@ Warning--empty journal in casanovas_early_1997
 ---they aren't the same literal types for entry casanovas_early_1997
 while executing---line 1822 of file mnras.bst
 Warning--empty booktitle in chilingarian_galactic_2003
-Warning--empty booktitle in desorgher_planetocosmics_2006
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry gopalswamy_corona_2010
 while executing---line 1822 of file mnras.bst
@@ -37,49 +35,48 @@ Warning--empty journal in gopalswamy_corona_2010
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry gopalswamy_corona_2010
 while executing---line 1822 of file mnras.bst
-Warning--empty institution in heck_extensive_2017
 Warning--empty institution in metoffice_space_2013
 Name 1 in "{SILSO WDC}," has a comma at the end for entry silso_world_data_center_international_1954
 while executing---line 1822 of file mnras.bst
-You've used 180 entries,
+You've used 143 entries,
             2879 wiz_defined-function locations,
-            1979 strings with 62433 characters,
-and the built_in function-call counts, 83216 in all, are:
-= -- 6522
-> -- 6129
-< -- 547
-+ -- 2842
-- -- 847
-* -- 9764
-:= -- 13499
+            1731 strings with 51942 characters,
+and the built_in function-call counts, 65897 in all, are:
+= -- 5188
+> -- 4776
+< -- 446
++ -- 2244
+- -- 639
+* -- 7700
+:= -- 10662
 add.period$ -- 0
-call.type$ -- 180
-change.case$ -- 366
-chr.to.int$ -- 176
-cite$ -- 189
-duplicate$ -- 4157
-empty$ -- 4339
-format.name$ -- 1359
-if$ -- 14289
+call.type$ -- 143
+change.case$ -- 292
+chr.to.int$ -- 139
+cite$ -- 150
+duplicate$ -- 3308
+empty$ -- 3498
+format.name$ -- 1055
+if$ -- 11342
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 169
-newline$ -- 576
-num.names$ -- 1249
-pop$ -- 972
+missing$ -- 138
+newline$ -- 462
+num.names$ -- 985
+pop$ -- 783
 preamble$ -- 1
-purify$ -- 720
+purify$ -- 572
 quote$ -- 0
-skip$ -- 2523
+skip$ -- 2012
 stack$ -- 0
-substring$ -- 4369
-swap$ -- 1891
-text.length$ -- 736
+substring$ -- 3485
+swap$ -- 1470
+text.length$ -- 583
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1593
-warning$ -- 9
-while$ -- 1339
+type$ -- 1260
+warning$ -- 7
+while$ -- 1066
 width$ -- 0
-write$ -- 1859
+write$ -- 1486
 (There were 11 error messages)
