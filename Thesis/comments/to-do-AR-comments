@@ -1,0 +1,67 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+# Introduction
+
+- [] - page : 
+- [] - page :
+- [] - page :
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+# HiSPARC Chapter 1
+
+- [] - page : 
+- [] - page :
+- [] - page :
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+# HiSPARC Chapter 2
+
+- [DONE] - page 50: "The High Voltage (HV) signals from the PMTs are
+split using a passive, equal-split resistive splitter such that half the signal is passed to the HiSPARC electronics box and half the signal is passed through the NIM crate." -- I am splitting the analogue signal! not the HV signal! Change also HV to signal in Fig. 2.3!!
+- [DONE] - page 52: Make sure I'm referring to operating HV 
+- [DONE] - page 54: Refer to Fig 2.4b
+- [DONE] - page : Full coincidences -->  Original coincidences
+- [] - page : Cadence -->  Time interval/Time window
+- [DONE] - page 57: change to "when both coincidences and temperature are regularly available"
+- [DONE] - page 57: change to: "As explained in the previous chapter..."
+- [DONE] - page 58: Remove: "we believe the pressure variation is small
+over this distance."
+- [DONE] - page 62: Check wording on sentence: "Noting the common adage, that correlation does not necessarily imply causation, is important here in this case of weak correlation..."
+- [DONE] - page 63: Change "The weak correlation is a consequence of the rotation of the Earth meaning detectors look in different directions over the co" && add refernece for cosmic ray day-night variation to back up statement
+- [DONE] - page 65: Typo "the the", in: "Figure 2.11 shows a comparison between the the singles of the two stations"
+- [DONE] - page 68: change AS to air shower here
+- [DONE] - page 68: Reference to paper on r-hat factor
+- [DONE] - page 69: typo: "With a count rate of count rate of..."
+- [DONE] - page 73: maybe add in reference for GNMN again??
+- [DONE] - page 73: Add unfortunately at start: "Unfortunately, There were no space weather events from the beginning of HiSPARC station 14008 operation..."
+- [DONE] - page 74: Change wording eier 1--5% or split to or split out to multiple sentence or cluases "with amplitudes of: 1.0%–5.0%, in
+steps of 0.5%, and 7.5% and 10.0%."
+- [DONE] - page 74: typo: "artificial data were crated"
+- [DONE] - page 76: statistically compatible withint 3-sigma and statistically significant within 5-sigma;; instead of "We can be confident of observing a true event if the number of significant measurements exceeds ∼ 33, ∼ 6, and ∼ 2"
+- [DONE] - page 76: 68% credible intervals
+- [DONE] - page 76ish: make it a bit more explicit that I sample the GLE length randomly from distribution.
+- [] - page 76ish: be careful to say when errobars above then we are sensitive!! be careful
+- [DONE] - page 79 (top): replace drops with improves
+- [DONE] - page 80: make it clearer that all stations (in Birmingham) will be triggered by the GLE (back up by the way GNMN works!!)
+- [DONE] - page 82: Fig 2.21 2-stns gets worse? staistical fluctuations
+- [DONE] - page 86: we *DON'T* generally expect...
+- [DONE] - page 88-p1: something like: "this removes the bias towards higher-E CRs that the HiSPARC intends to observe"
+- [DONE] - page 88-p1: remove "which are difficult to correct in the data from the existing HiSPARC stations"
+- [DONE] - page 88-p2: change noise to u/s and "infinitesimal" --> "negligible"
+- [DONE] - page 88-p3: typo "statino" --> station
+- [DONE] - page 88/89-p4: change to: "we reduce the noise and improve the sensitivty to observe GLEs"
+- [] - page :
+- [] - page :
+- [] - page :
+- [] - page :
+- [] - page :
+- [] - page :
+

@@ -4,4 +4,27 @@
 
 # Introduction
 
+- [DONE] - page 2: need to firm up the recovery of poloidal field writing... taking input from two main, competing mechanisms
+- [DONE] - page 7: grab lifetimes refrences from the SMMF paper!!! ensure they match up correctly...
+- [DONE] - page 11: confused about the OR...; what is the OR? (O... Region?) option , ", i.e..."  chosen
+
 - [] - page : 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+# HiSPARC 14008
+
+- [DONE] - page 55: need to take on-board the comment to introduce the raspbery pi earlier up when!
+- [DONE] - page 56: depending on how above goes, add space between figures!
+- [] - page 59: add in some equations on atmospheric corrections method?
+- [DONE] - page 61: mention chance more!
+- [DONE] - page 63: re-plot to show orange lines more clearly???
+- [DONE] - page 65: re-plot to show orange lines more clearly???
+- [DONE] - page 70: maybe remove this bit on the smoothing to remove diurnal variations...? what does it really add?!?!?
+- [DONE] - page 70: re-cast sentence to make it more positive!
+- [] - page 77: comments on the stats test, to discuss with Bill
+		(on this point it's difficult as we didn't really get benefit from 0.1 threshold, so use dthe 0.9 level instead, BUT! what this is saying in there's a 90% chance to see a peak exceeding the threshold by chance in the 48-hr window. It's difficult because we're using this to find small increases in the signal. Two tnings to vary are the p-threshold and N. VArying threshold we can see limits the stuff that we can see, and stops us from seeing anything until around 5-7%. Varying N basically varie sthe SNR to observe something, and keeping reducing N to something on the order of a GLE width would hopefully decrease the number of expected - by chance - observations to something closer to the 0.1 level (noting on 0.1 * 1000 iteratins, expeect ~ 0.1 * 1000 = 100 overall exceeding level), so changing N to get something which is similar to this will be useful as it limits the amount of noise picked up but reduces SNR to allow us to see a low-magnitude GLE)
+
+
+- [] - page :

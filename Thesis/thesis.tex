@@ -109,12 +109,15 @@
 
 %TITLE PAGE
 \input{Title/title_page.tex}
+
 %  Abstract 
 %\input{Chapters/Other/abstract.tex}
 %\addcontentsline{toc}{chapter}{Abstract}
+
 %Acknowledgements
 %\input{Chapters/Other/ackno.tex}
 %\addcontentsline{toc}{chapter}{Acknowledgments}
+
 %  C O N T E N T S ,   T A B L E S  ,   F I G U R E S ,   N O T A T I O N
 \newpage
 \pagestyle{plain}
@@ -158,15 +161,16 @@
 %  C H A P T E R S
 %Blow this joint...
 % Each chapter is in its own file that starts
-\input{Chapters/Intro/intro.tex}
+\glsresetall
+%\input{Chapters/Intro/intro.tex}
 
 %HiSPARC
 \glsresetall
-%\input{Chapters/HiSPARC/HiSPARC.tex}
+\input{Chapters/HiSPARC/HiSPARC.tex}
 
 %HiSPARC 14008
 \glsresetall
-%\input{Chapters/HS_14008/HS_14008.tex}
+\input{Chapters/HS_14008/HS_14008.tex}
 
 %GCR_SSN
 \glsresetall
@@ -180,7 +184,9 @@
 \glsresetall
 %\input{Chapters/r-mode/r-mode.tex}
 
-%\input{Chapters/Conc/conc.tex}
+% C O N C L U S I O N
+\glsresetall
+\input{Chapters/Conc/conc.tex}
 
 
 %  A P P E N D I C E S
@@ -191,8 +197,10 @@
 % No, I have no idea why.
 \glsresetall
 %\include{Appendices/CORSIKA-sims/CORSIKA_sims}
+
 \glsresetall
 %\include{Appendices/HS14008-GLE-sims/HS_GLE_sims}
+
 \glsresetall
 %%%%%\include{Appendices/SMMF-sims/SMMF_sims}
 %\end{singlespace}

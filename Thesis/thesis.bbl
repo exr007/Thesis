@@ -17,52 +17,31 @@
   {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
   mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
-\bibitem[\protect\citeauthoryear{Aab et~al.,}{Aab
-  et~al.}{2017}]{aab_observation_2017}
-Aab A.,  et~al., 2017, \mn@doi [Science] {10.1126/science.aan4338}, 357, 1266
-
-\bibitem[\protect\citeauthoryear{Andriopoulou, Mavromichalaki, Plainaki, Belov
-  \& Eroshenko}{Andriopoulou et~al.}{2011}]{andriopoulou_intense_2011}
-Andriopoulou M.,  Mavromichalaki H.,  Plainaki C.,  Belov A.,   Eroshenko E.,
-  2011, \mn@doi [Sol Phys] {10.1007/s11207-010-9678-1}, 269, 155
-
 \bibitem[\protect\citeauthoryear{Arunbabu et~al.,}{Arunbabu
   et~al.}{2015}]{arunbabu_how_2015}
 Arunbabu K.~P.,  et~al., 2015, \mn@doi [Astronomy and Astrophysics]
   {10.1051/0004-6361/201425115}, 580, A41
 
-\bibitem[\protect\citeauthoryear{Aslam \& Badruddin}{Aslam \&
-  Badruddin}{2012}]{aslam_solar_2012}
-Aslam O. P.~M.,  Badruddin 2012, \mn@doi [Solar Physics]
-  {10.1007/s11207-012-9970-3}, 279, 269
-
-\bibitem[\protect\citeauthoryear{{BIS}}{{BIS}}{2015}]{bis_space_2015}
-{BIS} 2015, Space weather preparedness strategy - {GOV}.{UK}.
- Vol. 2.1, \url
-  {https://www.gov.uk/government/publications/space-weather-preparedness-strategy}
-
-\bibitem[\protect\citeauthoryear{Babcock}{Babcock}{1953}]{babcock_solar_1953}
-Babcock H.~W.,  1953, \mn@doi [The Astrophysical Journal] {10.1086/145767},
-  118, 387
-
-\bibitem[\protect\citeauthoryear{Babcock}{Babcock}{1961}]{babcock_topology_1961}
-Babcock H.~W.,  1961, \mn@doi [The Astrophysical Journal] {10.1086/147060},
-  133, 572
-
-\bibitem[\protect\citeauthoryear{Babcock \& Babcock}{Babcock \&
-  Babcock}{1955}]{babcock_suns_1955}
-Babcock H.~W.,  Babcock H.~D.,  1955, \mn@doi [The Astrophysical Journal]
-  {10.1086/145994}, 121, 349
+\bibitem[\protect\citeauthoryear{Augusto, Navia, de Oliveira, Fauth  \&
+  Nepomuceno}{Augusto et~al.}{2016}]{augusto_signals_2016}
+Augusto C.,  Navia C.,  de Oliveira M.~N.,  Fauth A.,   Nepomuceno A.,  2016,
+  \mn@doi [Publ Astron Soc Jpn Nihon Tenmon Gakkai] {10.1093/pasj/psv111}, 68
 
 \bibitem[\protect\citeauthoryear{Bartels}{Bartels}{2012}]{bartels_hisparc_2012}
 Bartels R.~T.,  2012, Technical report, The {HiSPARC} {Experiment}: {An}
   {Analysis} of the {MPV} and the {Number} of {Events} per {Unit} {Time}.
 University College Utrecht
 
-\bibitem[\protect\citeauthoryear{Beggan, Wild  \& Gibbs}{Beggan
-  et~al.}{2018}]{beggan_ground_2018}
-Beggan C.,  Wild J.,   Gibbs M.,  2018, \mn@doi [A\&G]
-  {10.1093/astrogeo/aty194}, 59, 4.36
+\bibitem[\protect\citeauthoryear{Bartels, Heck  \& Johnston}{Bartels
+  et~al.}{1939}]{bartels_three-hour-range_1939}
+Bartels J.,  Heck N.~H.,   Johnston H.~F.,  1939, \mn@doi [Terrestrial
+  Magnetism and Atmospheric Electricity]
+  {https://doi.org/10.1029/TE044i004p00411}, 44, 411
+
+\bibitem[\protect\citeauthoryear{Basu \& Chaplin}{Basu \&
+  Chaplin}{2017}]{basu_asteroseismic_2017}
+Basu S.,  Chaplin W.~J.,  2017, Asteroseismic Data Analysis: Foundations and
+  Techniques
 
 \bibitem[\protect\citeauthoryear{Belov}{Belov}{2008}]{belov_forbush_2008}
 Belov A.~V.,  2008, \mn@doi [Proceedings of the International Astronomical
@@ -74,6 +53,11 @@ Belov A.~V.,  Eroshenko E.~A.,  Oleneva V.~A.,  Struminsky A.~B.,   Yanke
   V.~G.,  2001, \mn@doi [Advances in Space Research]
   {10.1016/S0273-1177(01)00095-3}, 27, 625
 
+\bibitem[\protect\citeauthoryear{Belov, Eroshenko, Mavromichalaki, Plainaki  \&
+  Yanke}{Belov et~al.}{2005}]{belov_solar_2005}
+Belov A.,  Eroshenko E.,  Mavromichalaki H.,  Plainaki C.,   Yanke V.,  2005,
+  \mn@doi [Annales Geophysicae] {10.5194/angeo-23-2281-2005}, 23, 2281
+
 \bibitem[\protect\citeauthoryear{Belov, Eroshenko, Kryakunova, Kurt  \&
   Yanke}{Belov et~al.}{2010}]{belov_ground_2010}
 Belov A.~V.,  Eroshenko E.~A.,  Kryakunova O.~N.,  Kurt V.~G.,   Yanke V.~G.,
@@ -84,149 +68,98 @@ Belov A.~V.,  Eroshenko E.~A.,  Kryakunova O.~N.,  Kurt V.~G.,   Yanke V.~G.,
 Belov A.,  et~al., 2014, \mn@doi [Solar Physics] {10.1007/s11207-014-0534-6},
   289, 3949
 
-\bibitem[\protect\citeauthoryear{Bruno et~al.,}{Bruno
-  et~al.}{2018}]{bruno_solar_2018}
-Bruno A.,  et~al., 2018, \mn@doi [The Astrophysical Journal]
-  {10.3847/1538-4357/aacc26}, 862, 97
+\bibitem[\protect\citeauthoryear{Berkova, Belov, Eroshenko  \& Yanke}{Berkova
+  et~al.}{2011}]{berkova_temperature_2011}
+Berkova M.~D.,  Belov A.~V.,  Eroshenko E.~A.,   Yanke V.~G.,  2011, \mn@doi
+  [Bull. Russ. Acad. Sci. Phys.] {10.3103/S1062873811060086}, 75, 820
 
-\bibitem[\protect\citeauthoryear{{Cabinet Office}}{{Cabinet
-  Office}}{2017}]{cabinet_office_national_2017}
-{Cabinet Office} 2017, National {Risk} {Register} of {Civil} {Emergencies} -
-  {GOV}.{UK}, 2017 edn.
-\url
-  {https://www.gov.uk/government/publications/national-risk-register-of-civil-emergencies-2017-edition}
+\bibitem[\protect\citeauthoryear{Blackmore, Stukel, Trinczek, Slayman, Wen  \&
+  Wong}{Blackmore et~al.}{2015}]{blackmore_terrestrial_2015}
+Blackmore E.~W.,  Stukel M.,  Trinczek M.,  Slayman C.,  Wen S.,   Wong R.,
+  2015, \mn@doi [IEEE Transactions on Nuclear Science]
+  {10.1109/TNS.2015.2498103}, 62, 2792
 
-\bibitem[\protect\citeauthoryear{Cane}{Cane}{2000}]{cane_coronal_2000}
-Cane H.~V.,  2000, \mn@doi [Space Science Reviews] {10.1023/A:1026532125747},
-  93, 55
+\bibitem[\protect\citeauthoryear{Braun, Engler, Hörandel  \& Milke}{Braun
+  et~al.}{2009}]{braun_forbush_2009}
+Braun I.,  Engler J.,  Hörandel J.~R.,   Milke J.,  2009, \mn@doi [Advances in
+  Space Research] {10.1016/j.asr.2008.07.012}, 43, 480
 
-\bibitem[\protect\citeauthoryear{Canfield}{Canfield}{2001}]{canfield_solar_2001}
-Canfield R.~C.,  2001, in Murdin P.,  ed., , The {Encyclopedia} of {Astronomy}
-  and {Astrophysics}.
-IOP Publishing Ltd, \mn@doi{10.1888/0333750888/2023}, \url
-  {http://eaa.crcpress.com/0333750888/2023}
+\bibitem[\protect\citeauthoryear{CAEN}{CAEN}{2011}]{caen_technical_2011}
+CAEN 2011, User's {Manual} 00103/00:844-5.MUTx/07, Technical {Information}
+  {Manual}: {MOD}. {N844}/{N844P}/{N845} 8-16 {CHANNEL} {LOW} {THRESHOLD}
+  {DISCRIMINATOR}.
+CAEN
 
-\bibitem[\protect\citeauthoryear{Cannon \& {Royal Academy of Engineering (Great
-  Britain)}}{Cannon \& {Royal Academy of Engineering (Great
-  Britain)}}{2013}]{cannon_extreme_2013}
-Cannon P.,  {Royal Academy of Engineering (Great Britain)} 2013, Extreme space
-  weather: impacts on engineered systems and infrastructure : summary report
+\bibitem[\protect\citeauthoryear{Cecchini \& Sioli}{Cecchini \&
+  Sioli}{2000}]{cecchini_cosmic_2000}
+Cecchini S.,  Sioli M.,  2000, arXiv:hep-ex/0002052
 
-\bibitem[\protect\citeauthoryear{Carrington}{Carrington}{1859}]{carrington_description_1859}
-Carrington R.~C.,  1859, \mn@doi [Monthly Notices of the Royal Astronomical
-  Society] {10.1093/mnras/20.1.13}, 20, 13
-
-\bibitem[\protect\citeauthoryear{Carrington}{Carrington}{1863}]{carrington_observations_1863}
-Carrington R.~C.,  1863, Observations of the spots on the sun from {November}
-  9, 1853, to {March} 24, 1861, made at {Redhill}.
-London [etc.] Williams and Norgate, \url
-  {http://archive.org/details/observationsofsp00carr}
-
-\bibitem[\protect\citeauthoryear{Casanovas}{Casanovas}{1997}]{casanovas_early_1997}
-Casanovas J.,  1997, 118, 3
-
-\bibitem[\protect\citeauthoryear{Casas, Vaquero  \& Vazquez}{Casas
-  et~al.}{2006}]{casas_solar_2006}
-Casas R.,  Vaquero J.~M.,   Vazquez M.,  2006, \mn@doi [Solar Physics]
-  {10.1007/s11207-006-0036-2}, 234, 379
-
-\bibitem[\protect\citeauthoryear{Chaplin et~al.,}{Chaplin
-  et~al.}{2019}]{chaplin_sensitivity_2019}
-Chaplin W.~J.,  et~al., 2019, \mn@doi [Monthly Notices of the Royal
-  Astronomical Society: Letters] {10.1093/mnrasl/slz132}, 489, L86
-
-\bibitem[\protect\citeauthoryear{Chapman, McIntosh, Leamon  \& Watkins}{Chapman
-  et~al.}{2020}]{chapman_quantifying_2020}
-Chapman S.~C.,  McIntosh S.~W.,  Leamon R.~J.,   Watkins N.~W.,  2020, \mn@doi
-  [Geophysical Research Letters] {https://doi.org/10.1029/2020GL087795}, 47,
-  e2020GL087795
-
-\bibitem[\protect\citeauthoryear{Charbonneau}{Charbonneau}{2020}]{charbonneau_dynamo_2020}
-Charbonneau P.,  2020, \mn@doi [Living Reviews in Solar Physics]
-  {10.1007/s41116-020-00025-6}, 17, 4
-
-\bibitem[\protect\citeauthoryear{Chilingarian}{Chilingarian}{2003}]{chilingarian_galactic_2003}
-Chilingarian A.,  2003. CERN, Tsakhkadzor, Armenia, pp 63--79, \url
-  {https://cds.cern.ch/record/604025/files/CERN-2005-007.pdf#page=73}
-
-\bibitem[\protect\citeauthoryear{Clark \& Stephenson}{Clark \&
-  Stephenson}{1978}]{clark_interpretation_1978}
-Clark D.~H.,  Stephenson F.~R.,  1978, Quarterly Journal of the Royal
-  Astronomical Society, 19, 387
-
-\bibitem[\protect\citeauthoryear{Clem \& Dorman}{Clem \&
-  Dorman}{2000}]{clem_neutron_2000}
-Clem J.~M.,  Dorman L.~I.,  2000, \mn@doi [Space Science Reviews]
-  {10.1023/A:1026508915269}, 93, 335
-
-\bibitem[\protect\citeauthoryear{Covington}{Covington}{1969}]{covington_solar_1969}
-Covington A.~E.,  1969, Journal of the Royal Astronomical Society of Canada,
-  63, 125
+\bibitem[\protect\citeauthoryear{Corti, Potgieter, Bindi, Consolandi, Light,
+  Palermo  \& Popkow}{Corti et~al.}{2019}]{corti_numerical_2019}
+Corti C.,  Potgieter M.~S.,  Bindi V.,  Consolandi C.,  Light C.,  Palermo M.,
+   Popkow A.,  2019, \mn@doi [ApJ] {10.3847/1538-4357/aafac4}, 871, 253
 
 \bibitem[\protect\citeauthoryear{Cramp}{Cramp}{1996}]{cramp_modelling_1996}
 Cramp J.~L.,  1996, {PhD} {Thesis}, University of Tasmania, Hobart, \url
   {https://core.ac.uk/download/pdf/33327719.pdf}
 
-\bibitem[\protect\citeauthoryear{{Cramp, J. L.}, {Duldig, M. L.}, {Flückiger,
-  E. O.}, {Humble, J. E.}, {Shea, M. A.}  \& {Smart, D. F.}}{{Cramp, J. L.}
-  et~al.}{1997}]{cramp_j._l._october_1997}
-{Cramp, J. L.} {Duldig, M. L.} {Flückiger, E. O.} {Humble, J. E.} {Shea, M.
-  A.}  {Smart, D. F.} 1997, \mn@doi [Journal of Geophysical Research: Space
-  Physics] {10.1029/97JA01947}, 102, 24237
+\bibitem[\protect\citeauthoryear{Danilova, Demina, Ptitsyna  \&
+  Tyasto}{Danilova et~al.}{2019}]{danilova_mapping_2019}
+Danilova O.~A.,  Demina I.~M.,  Ptitsyna N.~G.,   Tyasto M.~I.,  2019, \mn@doi
+  [Geomagnetism and Aeronomy] {10.1134/S0016793219020051}, 59, 147
 
-\bibitem[\protect\citeauthoryear{Dasi-Espuig, Solanki, Krivova, Cameron  \&
-  Peñuela}{Dasi-Espuig et~al.}{2010}]{dasi-espuig_sunspot_2010}
-Dasi-Espuig M.,  Solanki S.~K.,  Krivova N.~A.,  Cameron R.,   Peñuela T.,
-  2010, \mn@doi [Astronomy \& Astrophysics] {10.1051/0004-6361/201014301}, 518,
-  A7
+\bibitem[\protect\citeauthoryear{De~Mendon\c{c}a, Raulin, Echer, Makhmutov  \&
+  Fernandez}{De~Mendon\c{c}a et~al.}{2013}]{de_mendonca_analysis_2013}
+De~Mendon\c{c}a R. R.~S.,  Raulin J.~P.,  Echer E.,  Makhmutov V.~S.,
+  Fernandez G.,  2013, \mn@doi [J. Geophys. Res. Space Physics]
+  {10.1029/2012JA018026}, 118, 1403
 
-\bibitem[\protect\citeauthoryear{Dorman}{Dorman}{2004a}]{dorman_theory_2004}
-Dorman L.~I.,  2004a, in Astrophysics and {Space} {Science} {Library}, Cosmic
+\bibitem[\protect\citeauthoryear{Desorgher}{Desorgher}{2005}]{desorgher_planetocosmics_2005}
+Desorgher L.,  2005, Technical Report PLANETOCOSMICS-SUM, {PLANETOCOSMICS}
+  {Software} {User} {Manual}, \url
+  {http://cosray.unibe.ch/~laurent/planetocosmics/}.
+University of Bern
+
+\bibitem[\protect\citeauthoryear{Desorgher, Flückiger  \& Gurtner}{Desorgher
+  et~al.}{2006}]{desorgher_planetocosmics_2006}
+Desorgher L.,  Flückiger E.~O.,   Gurtner M.,  2006. p.~2361, \url
+  {http://adsabs.harvard.edu/abs/2006cosp...36.2361D}
+
+\bibitem[\protect\citeauthoryear{Dorman}{Dorman}{1972}]{dorman_theory_1972}
+Dorman L.~I.,  1972, Kosm. Luchi, no. 13, pp. 5-66
+
+\bibitem[\protect\citeauthoryear{Dorman}{Dorman}{2004}]{dorman_theory_2004}
+Dorman L.~I.,  2004, in Astrophysics and {Space} {Science} {Library}, Cosmic
   {Rays} in the {Earth}’s {Atmosphere} and {Underground}.
 Springer, Dordrecht, pp 289--330, \mn@doi{10.1007/978-1-4020-2113-8_5}, \url
   {https://link.springer.com/chapter/10.1007/978-1-4020-2113-8_5}
 
-\bibitem[\protect\citeauthoryear{Dorman}{Dorman}{2004b}]{dorman_experimental_2004}
-Dorman L.~I.,  2004b, in Astrophysics and {Space} {Science} {Library}, Cosmic
-  {Rays} in the {Earth}’s {Atmosphere} and {Underground}.
-Springer, Dordrecht, pp 375--386, \mn@doi{10.1007/978-1-4020-2113-8_7}, \url
-  {https://link.springer.com/chapter/10.1007/978-1-4020-2113-8_7}
+\bibitem[\protect\citeauthoryear{Dorman}{Dorman}{2010}]{dorman_cosmic_2010}
+Dorman L.~I.,  2010, \mn@doi [Phys.-Usp.] {10.3367/UFNe.0180.201005g.0519}, 53,
+  496
 
-\bibitem[\protect\citeauthoryear{Duldig et~al.,}{Duldig
-  et~al.}{1993}]{duldig_ground_1993}
-Duldig M.~L.,  et~al., 1993, Proceedings of the Astronomical Society of
-  Australia, 10, 211
-
-\bibitem[\protect\citeauthoryear{{Dumbovi{\'c}}, {Vr{\v{s}}nak},
-  {{\v{C}}alogovi{\'c}}  \& {{\v{Z}}upan}}{{Dumbovi{\'c}}
-  et~al.}{2012}]{dumbovic_cosmic_2012}
-{Dumbovi{\'c}} M.,  {Vr{\v{s}}nak} B.,  {{\v{C}}alogovi{\'c}} J.,
-  {{\v{Z}}upan} R.,  2012, \mn@doi [Astronomy \& Astrophysics]
-  {10.1051/0004-6361/201117710}, 538, A28
+\bibitem[\protect\citeauthoryear{Dubey, Kumar  \& Dubey}{Dubey
+  et~al.}{2016}]{dubey_cosmic_2016}
+Dubey A.,  Kumar S.,   Dubey S.~K.,  2016, \mn@doi [Journal of Physics:
+  Conference Series] {10.1088/1742-6596/755/1/012056}, 755, 012056
 
 \bibitem[\protect\citeauthoryear{{Dumbovi{\'c}}, {Vr{\v{s}}nak}  \&
   {{\v{C}}alogovi{\'c}}}{{Dumbovi{\'c}} et~al.}{2016}]{dumbovic_forbush_2016}
 {Dumbovi{\'c}} M.,  {Vr{\v{s}}nak} B.,   {{\v{C}}alogovi{\'c}} J.,  2016,
   \mn@doi [Sol Phys] {10.1007/s11207-015-0819-4}, 291, 285
 
-\bibitem[\protect\citeauthoryear{Dunai}{Dunai}{2010}]{dunai_cosmic_2010}
-Dunai T.~J.,  2010, in , Cosmogenic {Nuclides}: {Principles}, {Concepts} and
-  {Applications} in the {Earth} {Surface} {Sciences}.
-Cambridge University Press, Cambridge, pp 1--24,
-  \mn@doi{10.1017/CBO9780511804519.003}
-
-\bibitem[\protect\citeauthoryear{ETEnterprises}{ETEnterprises}{2020}]{et_enterprises_data_2020}
-ETEnterprises 2020, Technical Report 9125B, Data {Sheet}: {9125B} {Series},
-  \url
-  {http://et-enterprises.com/products/photomultipliers/product/p9125b-series}.
-ET Enterprises
-
-\bibitem[\protect\citeauthoryear{Fan \& Velthuis}{Fan \&
-  Velthuis}{2018}]{fan_analysis_2018}
-Fan K.-z.,  Velthuis J.,  2018, arXiv:1808.10645 [astro-ph]
+\bibitem[\protect\citeauthoryear{Dyer, Lei, Clucas, Smart  \& Shea}{Dyer
+  et~al.}{2003}]{dyer_calculations_2003}
+Dyer C.~S.,  Lei F.,  Clucas S.~N.,  Smart D.~F.,   Shea M.~A.,  2003, \mn@doi
+  [Advances in Space Research] {10.1016/S0273-1177(03)90374-7}, 32, 81
 
 \bibitem[\protect\citeauthoryear{Fokkema}{Fokkema}{2012}]{fokkema_hisparc_2012}
 Fokkema D. B. R.~A.,  2012, PhD thesis, University of Twente
+
+\bibitem[\protect\citeauthoryear{Fokkema}{Fokkema}{2019}]{fokkema_hisparc_2019}
+Fokkema D. B. R.~A.,  2019, {HiSPARC} station software en hardware documentatie
+  — {HiSPARC} software 6.11 documentation, \url
+  {https://docs.hisparc.nl/station-software/doc/index.html}
 
 \bibitem[\protect\citeauthoryear{Fokkema, de Laat  \& Kooij}{Fokkema
   et~al.}{2012}]{fokkema_sapphire_2012}
@@ -237,133 +170,35 @@ Fokkema D. B. R.~A.,  de Laat A. P. L.~S.,   Kooij T.,  2012, {SAPPHIRE}, \url
 Forbush S.~E.,  1937, \mn@doi [Physical Review] {10.1103/PhysRev.51.1108.3},
   51, 1108
 
-\bibitem[\protect\citeauthoryear{Forbush}{Forbush}{1958}]{forbush_cosmic-ray_1958}
-Forbush S.~E.,  1958, \mn@doi [Journal of Geophysical Research]
-  {10.1029/JZ063i004p00651}, 63, 651
+\bibitem[\protect\citeauthoryear{Gelman \& Rubin}{Gelman \&
+  Rubin}{1992}]{gelman_inference_1992}
+Gelman A.,  Rubin D.~B.,  1992, \mn@doi [Statistical Science]
+  {10.1214/ss/1177011136}, 7, 457
 
-\bibitem[\protect\citeauthoryear{Gaisser, Engel  \& Resconi}{Gaisser
-  et~al.}{2016}]{gaisser_cosmic_2016}
-Gaisser T.~K.,  Engel R.,   Resconi E.,  2016, Cosmic {Rays} and {Particle}
-  {Physics}, 2nd edn.
-Cambridge University Press, \mn@doi{10.1017/CBO9781139192194}
+\bibitem[\protect\citeauthoryear{Groom, Mokhov  \& Striganov}{Groom
+  et~al.}{2001}]{groom_muon_2001}
+Groom D.~E.,  Mokhov N.~V.,   Striganov S.~I.,  2001, \mn@doi [Atomic Data and
+  Nuclear Data Tables] {10.1006/adnd.2001.0861}, 78, 183
 
-\bibitem[\protect\citeauthoryear{García et~al.,}{García
-  et~al.}{1999}]{garcia_integrated_1999}
-García R.~A.,  et~al., 1999, Astronomy and Astrophysics, 346, 626
+\bibitem[\protect\citeauthoryear{Heck \& Pierog}{Heck \&
+  Pierog}{2017}]{heck_extensive_2017}
+Heck D.,  Pierog T.,  2017, Technical Report 7.6400, Extensive {Air} {Shower}
+  {Simulation} with {CORSIKA}: {A} {User}’s {Guide}
 
-\bibitem[\protect\citeauthoryear{Giacalone}{Giacalone}{2010}]{giacalone_energetic_2010}
-Giacalone J.,  2010, in Schrijver C.~J.,  Siscoe G.~L.,  eds, , Heliophysics:
-  {Space} {Storms} and {Radiation}: {Causes} and {Effects}.
-Cambridge University Press, Cambridge, pp 233--262,
-  \mn@doi{10.1017/CBO9781139194532.010}
+\bibitem[\protect\citeauthoryear{Herbst, Kopp  \& Heber}{Herbst
+  et~al.}{2013}]{herbst_influence_2013}
+Herbst K.,  Kopp A.,   Heber B.,  2013, \mn@doi [Annales Geophysicae]
+  {10.5194/angeo-31-1637-2013}, 31, 1637
 
-\bibitem[\protect\citeauthoryear{Gloeckler}{Gloeckler}{2010}]{gloeckler_-situ_2010}
-Gloeckler G.,  2010, in Schrijver C.~J.,  Siscoe G.~L.,  eds, , Heliophysics:
-  {Space} {Storms} and {Radiation}: {Causes} and {Effects}.
-Cambridge University Press, Cambridge, pp 233--262,
-  \mn@doi{10.1017/CBO9781139194532.004}
+\bibitem[\protect\citeauthoryear{Humble, Duldig, Smart  \& Shea}{Humble
+  et~al.}{2012}]{humble_j._e._detection_2012}
+Humble J.~E.,  Duldig M.~L.,  Smart D.~F.,   Shea M.~A.,  2012, \mn@doi
+  [Geophysical Research Letters] {10.1029/91GL00017}, 18, 737
 
-\bibitem[\protect\citeauthoryear{Gnevyshev}{Gnevyshev}{1938}]{gnevyshev_notitle_1938}
-Gnevyshev M.~N.,  1938, Pulkovo Obs. Circ, 24, 37
-
-\bibitem[\protect\citeauthoryear{Gnevyshev}{Gnevyshev}{1963}]{gnevyshev_corona_1963}
-Gnevyshev M.~N.,  1963, Soviet Astronomy, 7, 311
-
-\bibitem[\protect\citeauthoryear{Gnevyshev}{Gnevyshev}{1967}]{gnevyshev_11-years_1967}
-Gnevyshev M.~N.,  1967, \mn@doi [Solar Physics] {10.1007/BF00150306}, 1, 107
-
-\bibitem[\protect\citeauthoryear{Gopalswamy}{Gopalswamy}{2010}]{gopalswamy_corona_2010}
-Gopalswamy N.,  2010, pp 108--130
-
-\bibitem[\protect\citeauthoryear{Gopalswamy, Yashiro, Michalek, Stenborg,
-  Vourlidas, Freeland  \& Howard}{Gopalswamy
-  et~al.}{2009}]{gopalswamy_soholasco_2009}
-Gopalswamy N.,  Yashiro S.,  Michalek G.,  Stenborg G.,  Vourlidas A.,
-  Freeland S.,   Howard R.,  2009, \mn@doi [Earth, Moon, and Planets]
-  {10.1007/s11038-008-9282-7}, 104, 295
-
-\bibitem[\protect\citeauthoryear{Government}{Government}{2020}]{hm_government_national_2020}
-Government H.,  2020, Risk {Register}, National {Risk} {Register}: 2020
-  edition, \url
-  {https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/952959/6.6920_CO_CCS_s_National_Risk_Register_2020_11-1-21-FINAL.pdf}.
-HM Government
-
-\bibitem[\protect\citeauthoryear{Grupen}{Grupen}{2005}]{grupen_astroparticle_2005}
-Grupen C.,  2005, Astroparticle {Physics}.
-Springer-Verlag, Berlin Heidelberg, \mn@doi{10.1007/3-540-27670-X}, \url
-  {https://www.springer.com/gp/book/9783540253129}
-
-\bibitem[\protect\citeauthoryear{Hagenaar}{Hagenaar}{2001}]{hagenaar_ephemeral_2001}
-Hagenaar H.~J.,  2001, \mn@doi [ApJ] {10.1086/321448}, 555, 448
-
-\bibitem[\protect\citeauthoryear{Hale \& Nicholson}{Hale \&
-  Nicholson}{1925}]{hale_law_1925}
-Hale G.~E.,  Nicholson S.~B.,  1925, \mn@doi [The Astrophysical Journal]
-  {10.1086/142933}, 62, 270
-
-\bibitem[\protect\citeauthoryear{Hale, Ellerman, Nicholson  \& Joy}{Hale
-  et~al.}{1919}]{hale_magnetic_1919}
-Hale G.~E.,  Ellerman F.,  Nicholson S.~B.,   Joy A.~H.,  1919, \mn@doi [The
-  Astrophysical Journal] {10.1086/142452}, 49, 153
-
-\bibitem[\protect\citeauthoryear{Harvey}{Harvey}{2001}]{harvey_solar_2001}
-Harvey K.,  2001, in , The {Encyclopedia} of {Astronomy} and {Astrophysics}.
-IOP Publishing Ltd, \mn@doi{10.1888/0333750888/2275}, \url
-  {http://eaa.crcpress.com/0333750888/2275}
-
-\bibitem[\protect\citeauthoryear{Harvey \& Martin}{Harvey \&
-  Martin}{1973}]{harvey_ephemeral_1973}
-Harvey K.~L.,  Martin S.~F.,  1973, \mn@doi [Solar Physics]
-  {10.1007/BF00154951}, 32, 389
-
-\bibitem[\protect\citeauthoryear{Harvey \& Zwaan}{Harvey \&
-  Zwaan}{1993}]{harvey_properties_1993}
-Harvey K.~L.,  Zwaan C.,  1993, \mn@doi [Solar Physics] {10.1007/BF00675537},
-  148, 85
-
-\bibitem[\protect\citeauthoryear{Hathaway}{Hathaway}{2015}]{hathaway_solar_2015}
-Hathaway D.~H.,  2015, \mn@doi [Living Rev. Sol. Phys.] {10.1007/lrsp-2015-4},
-  12, 4
-
-\bibitem[\protect\citeauthoryear{Hathaway \& Upton}{Hathaway \&
-  Upton}{2017}]{hathaway_solar_2017}
-Hathaway D.~H.,  Upton L.~A.,  2017, Solar {Cycle} {Science}, \url
-  {http://solarcyclescience.com/index.html}
-
-\bibitem[\protect\citeauthoryear{Homeier \& Wei}{Homeier \&
-  Wei}{2013}]{homeier_solar_2013}
-Homeier N.,  Wei L.,  2013, Technical report, Solar {Storm} {Risk} to the
-  {North} {American} {Electric} {Grid}, \url
-  {https://www.lloyds.com/news-and-risk-insight/risk-reports/library/natural-environment/solar-storm}.
-Lloyd's
-
-\bibitem[\protect\citeauthoryear{Howard}{Howard}{2001}]{howard_sunspot_2001}
-Howard R.~F.,  2001, in , The {Encyclopedia} of {Astronomy} and {Astrophysics}.
-IOP Publishing Ltd, \mn@doi{10.1888/0333750888/2297}, \url
-  {http://eaa.crcpress.com/0333750888/2297}
-
-\bibitem[\protect\citeauthoryear{Kang, Jang, Kim, Kang, Kim, Kim, Park  \&
-  Yi}{Kang et~al.}{2012}]{kang_characteristics_2012}
-Kang J.,  Jang D.~Y.,  Kim Y.,  Kang B.~H.,  Kim Y.-K.,  Kim J.,  Park H.,   Yi
-  Y.,  2012, \mn@doi [Journal of the Korean Physical Society]
-  {10.3938/jkps.61.720}, 61, 720
-
-\bibitem[\protect\citeauthoryear{Keller, Schüssler, V\"ogler  \&
-  Zakharov}{Keller et~al.}{2004}]{keller_origin_2004}
-Keller C.~U.,  Schüssler M.,  V\"ogler A.,   Zakharov V.,  2004, \mn@doi [ApJ]
-  {10.1086/421553}, 607, L59
-
-\bibitem[\protect\citeauthoryear{Kiepenheuer}{Kiepenheuer}{1968}]{kiepenheuer_structure_1968}
-Kiepenheuer K.~O.,  ed. 1968, Structure and {Development} of {Solar} {Active}
-  {Regions}.
-International {Astronomical} {Union} {Symposia}, Springer Netherlands,
-  \mn@doi{10.1007/978-94-011-6815-1}, \url
-  {https://www.springer.com/gp/book/9789027701220}
-
-\bibitem[\protect\citeauthoryear{Knipp et~al.,}{Knipp
-  et~al.}{2016}]{knipp_may_2016}
-Knipp D.~J.,  et~al., 2016, \mn@doi [Space Weather] {10.1002/2016SW001423}, 14,
-  2016SW001423
+\bibitem[\protect\citeauthoryear{Kudela, Storini, Hofer  \& Belov}{Kudela
+  et~al.}{2000}]{kudela_cosmic_2000}
+Kudela K.,  Storini M.,  Hofer M.~Y.,   Belov A.,  2000, \mn@doi [Space Science
+  Reviews] {10.1023/A:1026540327564}, 93, 153
 
 \bibitem[\protect\citeauthoryear{Kuwabara et~al.,}{Kuwabara
   et~al.}{2006a}]{kuwabara_real-time_2006}
@@ -375,79 +210,55 @@ Kuwabara T.,  et~al., 2006a, \mn@doi [Space Weather] {10.1029/2005SW000204}, 4,
 Kuwabara T.,  Bieber J.~W.,  Clem J.,  Evenson P.,   Pyle R.,  2006b, \mn@doi
   [Space Weather] {10.1029/2006SW000223}, 4, S10001
 
-\bibitem[\protect\citeauthoryear{LISIRD}{LISIRD}{2019}]{lisird_solar_2019}
-LISIRD 2019, Solar {Radio} {Flux} at 10.7cm, {Time} {Series}, \url
-  {https://lasp.colorado.edu/lisird/data/penticton_radio_flux/}
+\bibitem[\protect\citeauthoryear{LeCroy}{LeCroy}{1996}]{lecroy_lecroy_1996}
+LeCroy 1996, {LeCroy} {Research} {Systems} {Model} {365AL}, {Model} 465, and
+  {Technical} {Data}: {Model} 622 {Logic} {Units}, \url
+  {https://teledynelecroy.com/lrs/dsheets/365al.htm}
 
-\bibitem[\protect\citeauthoryear{Leamon, McIntosh  \& Marsh}{Leamon
-  et~al.}{2018}]{leamon_termination_2018}
-Leamon R.~J.,  McIntosh S.~W.,   Marsh D.~R.,  2018, arXiv e-prints, 1812,
-  arXiv:1812.02692
-
-\bibitem[\protect\citeauthoryear{Leamon, McIntosh, Chapman  \& Watkins}{Leamon
-  et~al.}{2020}]{leamon_timing_2020}
-Leamon R.~J.,  McIntosh S.~W.,  Chapman S.~C.,   Watkins N.~W.,  2020, \mn@doi
-  [Solar Physics] {10.1007/s11207-020-1595-3}, 295, 36
-
-\bibitem[\protect\citeauthoryear{{Lee}}{{Lee}}{1858}]{lee_cyril_1858}
-{Lee} 1858, \mn@doi [Monthly Notices of the Royal Astronomical Society]
-  {10.1093/mnras/19.1.1}, 19, 1
+\bibitem[\protect\citeauthoryear{Lei, Clucas, Dyer  \& Truscott}{Lei
+  et~al.}{2004}]{lei_atmospheric_2004}
+Lei F.,  Clucas S.,  Dyer C.,   Truscott P.,  2004, \mn@doi [IEEE Transactions
+  on Nuclear Science] {10.1109/TNS.2004.839131}, 51, 3442
 
 \bibitem[\protect\citeauthoryear{Lingri, Mavromichalaki, Belov, Eroshenko,
   Yanke, Abunin  \& Abunina}{Lingri et~al.}{2016}]{lingri_forbush_2016}
 Lingri D.,  Mavromichalaki H.,  Belov A.,  Eroshenko E.,  Yanke V.,  Abunin A.,
     Abunina M.,  2016, arXiv:1612.08900 [astro-ph]
 
-\bibitem[\protect\citeauthoryear{Lockwood}{Lockwood}{1971}]{lockwood_forbush_1971}
-Lockwood J.~A.,  1971, \mn@doi [Space Science Reviews] {10.1007/BF00173346},
-  12, 658
+\bibitem[\protect\citeauthoryear{Lista}{Lista}{2016}]{lista_statistical_2016}
+Lista L.,  2016, Statistical {Methods} for {Data} {Analysis} in {Particle}
+  {Physics}.
+Lecture {Notes} in {Physics}, Springer International Publishing,
+  \mn@doi{10.1007/978-3-319-20176-4}, \url
+  {https://www.springer.com/gp/book/9783319201764}
 
-\bibitem[\protect\citeauthoryear{Lockwood, Stamper  \& Wild}{Lockwood
-  et~al.}{1999}]{lockwood_doubling_1999}
-Lockwood M.,  Stamper R.,   Wild M.~N.,  1999, \mn@doi [Nature]
-  {10.1038/20867}, 399, 437
-
-\bibitem[\protect\citeauthoryear{Luminet}{Luminet}{2017}]{luminet_reception_2017}
-Luminet J.-P.,  2017, arXiv:1701.02930 [physics]
-
-\bibitem[\protect\citeauthoryear{Martin}{Martin}{1988}]{martin_identification_1988}
-Martin S.~F.,  1988, \mn@doi [Solar Physics] {10.1007/BF00147246}, 117, 243
-
-\bibitem[\protect\citeauthoryear{Martin \& Harvey}{Martin \&
-  Harvey}{1979}]{martin_ephemeral_1979}
-Martin S.~F.,  Harvey K.~L.,  1979, \mn@doi [Solar Physics]
-  {10.1007/BF00151118}, 64, 93
-
-\bibitem[\protect\citeauthoryear{Maunder}{Maunder}{1903}]{maunder_spoerers_1903}
-Maunder E.~W.,  1903, The Observatory, 26, 329
-
-\bibitem[\protect\citeauthoryear{Maunder}{Maunder}{1904}]{maunder_note_1904}
-Maunder E.~W.,  1904, \mn@doi [Mon Not R Astron Soc] {10.1093/mnras/64.8.747},
-  64, 747
+\bibitem[\protect\citeauthoryear{McCracken, Rao  \& Shea}{McCracken
+  et~al.}{1962}]{mccracken_trajectories_1962}
+McCracken K.~G.,  Rao U.~R.,   Shea M.~A.,  1962, Technical Report NYO-2670,
+  {THE} {TRAJECTORIES} {OF} {COSMIC} {RAYS} {IN} {A} {HIGH} {DEGREE}
+  {SIMULATION} {OF} {THE} {GEOMAGNETIC} {FIELD}. {Technical} {Report} {No}. 77,
+  \url {https://www.osti.gov/biblio/4784046}.
+Massachusetts Inst. of Tech., Cambridge. Lab. for Nuclear Science
 
 \bibitem[\protect\citeauthoryear{McCracken, Moraal  \& Shea}{McCracken
   et~al.}{2012}]{mccracken_high-energy_2012}
 McCracken K.~G.,  Moraal H.,   Shea M.~A.,  2012, \mn@doi [ApJ]
   {10.1088/0004-637X/761/2/101}, 761, 101
 
-\bibitem[\protect\citeauthoryear{McIntosh et~al.,}{McIntosh
-  et~al.}{2014}]{mcintosh_deciphering_2014}
-McIntosh S.~W.,  et~al., 2014, \mn@doi [ApJ] {10.1088/0004-637X/792/1/12}, 792,
-  12
-
-\bibitem[\protect\citeauthoryear{McIntosh, Leamon, Egeland, Dikpati, Fan  \&
-  Rempel}{McIntosh et~al.}{2019}]{mcintosh_what_2019}
-McIntosh S.~W.,  Leamon R.~J.,  Egeland R.,  Dikpati M.,  Fan Y.,   Rempel M.,
-  2019, \mn@doi [Sol Phys] {10.1007/s11207-019-1474-y}, 294, 88
-
 \bibitem[\protect\citeauthoryear{McIntosh, Chapman, Leamon, Egeland  \&
   Watkins}{McIntosh et~al.}{2020}]{mcintosh_overlapping_2020}
 McIntosh S.~W.,  Chapman S.,  Leamon R.~J.,  Egeland R.,   Watkins N.~W.,
   2020, \mn@doi [Solar Physics] {10.1007/s11207-020-01723-y}, 295, 163
 
-\bibitem[\protect\citeauthoryear{MetOffice}{MetOffice}{2013}]{metoffice_space_2013}
-MetOffice 2013, Technical Report 13/0402, Space {Weather}, \url
-  {https://www.metoffice.gov.uk/binaries/content/assets/mohippo/pdf/public-sector/emergencies/space-weather/space_weather_datasheet_final.pdf}
+\bibitem[\protect\citeauthoryear{Mendon\c{c}a et~al.,}{Mendon\c{c}a
+  et~al.}{2016}]{mendoncca_temperature_2016}
+Mendon\c{c}a R. R. S.~d.,  et~al., 2016, \mn@doi [ApJ]
+  {10.3847/0004-637X/830/2/88}, 830, 88
+
+\bibitem[\protect\citeauthoryear{Mishev \& Usoskin}{Mishev \&
+  Usoskin}{2020}]{mishev_current_2020}
+Mishev A.,  Usoskin I.,  2020, \mn@doi [Journal of Space Weather and Space
+  Climate] {10.1051/swsc/2020020}, 10, 17
 
 \bibitem[\protect\citeauthoryear{Mishev, Usoskin, Raukunen, Paassilta,
   Valtonen, Kocharov  \& Vainio}{Mishev et~al.}{2018}]{mishev_first_2018}
@@ -455,54 +266,62 @@ Mishev A.~L.,  Usoskin I.~G.,  Raukunen O.,  Paassilta M.,  Valtonen E.,
   Kocharov L.~G.,   Vainio R.,  2018, \mn@doi [Solar Physics]
   {10.1007/s11207-018-1354-x}, 293
 
-\bibitem[\protect\citeauthoryear{NOAA}{NOAA}{2018}]{noaa_noaa_2018}
-NOAA 2018, {NOAA} {Space} {Weather} {Predictions} {Center}, \url
-  {https://www.swpc.noaa.gov/}
+\bibitem[\protect\citeauthoryear{Mishra \& Mishra}{Mishra \&
+  Mishra}{2007}]{mishra_study_2007}
+Mishra R.~K.,  Mishra R.~A.,  2007, \mn@doi [Pramana]
+  {10.1007/s12043-007-0044-2}, 68, 407
 
-\bibitem[\protect\citeauthoryear{Nature}{Nature}{1871}]{nature_observations_1871}
-Nature 1871, Observations {Upon} {Magnetic} {Storms} in {Higher} {Latitudes},
-  \mn@doi{10.1038/004441a0}, \url {https://www.nature.com/articles/004441a0}
+\bibitem[\protect\citeauthoryear{Mishra \& Mishra}{Mishra \&
+  Mishra}{2008}]{mishra_cosmic_2008}
+Mishra R.~K.,  Mishra R.~A.,  2008, Rom. Journ. Phys., 53, 925
 
-\bibitem[\protect\citeauthoryear{Norton \& Gallagher}{Norton \&
-  Gallagher}{2009}]{norton_solar-cycle_2009}
-Norton A.~A.,  Gallagher J.~C.,  2009, \mn@doi [Solar Physics]
-  {10.1007/s11207-009-9479-6}, 261, 193
+\bibitem[\protect\citeauthoryear{Montanus}{Montanus}{2017}]{montanus_observability_2017}
+Montanus H.,  2017, PhD thesis, University of Amsterdam, \url
+  {https://www.nikhef.nl/pub/services/biblio/theses_pdf/}
+
+\bibitem[\protect\citeauthoryear{{NMDB}}{{NMDB}}{2018}]{nmdb_nmdb_nodate}
+{NMDB} 2018, {NMDB} {Event} {Search} {Tool} ({NEST}), \url
+  {http://www.nmdb.eu/nest/}
 
 \bibitem[\protect\citeauthoryear{Owens \& Forsyth}{Owens \&
   Forsyth}{2013}]{owens_heliospheric_2013}
 Owens M.~J.,  Forsyth R.~J.,  2013, \mn@doi [Living Rev. Sol. Phys.]
   {10.12942/lrsp-2013-5}, 10, 5
 
-\bibitem[\protect\citeauthoryear{Parker}{Parker}{1958}]{parker_dynamics_1958}
-Parker E.~N.,  1958, \mn@doi [The Astrophysical Journal] {10.1086/146579}, 128,
-  664
+\bibitem[\protect\citeauthoryear{Parker}{Parker}{1964}]{parker_theory_1964}
+Parker E.~N.,  1964, \mn@doi [Planetary and Space Science]
+  {10.1016/0032-0633(64)90054-6}, 12, 735
 
-\bibitem[\protect\citeauthoryear{Parker}{Parker}{1965}]{parker_passage_1965}
-Parker E.~N.,  1965, \mn@doi [Planetary and Space Science]
-  {10.1016/0032-0633(65)90131-5}, 13, 9
+\bibitem[\protect\citeauthoryear{{Particle Data Group} et~al.,}{{Particle Data
+  Group} et~al.}{2020}]{particle_data_group_review_2020}
+{Particle Data Group} et~al., 2020, \mn@doi [Progress of Theoretical and
+  Experimental Physics] {10.1093/ptep/ptaa104}, 2020
 
-\bibitem[\protect\citeauthoryear{Parker \& Jokipii}{Parker \&
-  Jokipii}{1976}]{parker_spiral_1976}
-Parker G.~D.,  Jokipii J.~R.,  1976, \mn@doi [Geophysical Research Letters]
-  {https://doi.org/10.1029/GL003i009p00561}, 3, 561
+\bibitem[\protect\citeauthoryear{Paschalis, Mavromichalaki, Yanke, Belov,
+  Eroshenko, Gerontidou  \& Koutroumpi}{Paschalis
+  et~al.}{2013}]{paschalis_online_2013}
+Paschalis P.,  Mavromichalaki H.,  Yanke V.,  Belov A.,  Eroshenko E.,
+  Gerontidou M.,   Koutroumpi I.,  2013, \mn@doi [New Astronomy]
+  {10.1016/j.newast.2012.08.003}, 19, 10
 
-\bibitem[\protect\citeauthoryear{Pillet, Lites  \& Skumanich}{Pillet
-  et~al.}{1997}]{pillet_active_1997}
-Pillet V.~M.,  Lites B.~W.,   Skumanich A.,  1997, \mn@doi [ApJ]
-  {10.1086/303478}, 474, 810
+\bibitem[\protect\citeauthoryear{Pereira, Vasconcellos  \& Hadjimichef}{Pereira
+  et~al.}{2020}]{pereira_ground_2020}
+Pereira E.~G.,  Vasconcellos C. A.~Z.,   Hadjimichef D.,  2020,
+  arXiv:2011.06480 [hep-ex, physics:hep-ph]
+
+\bibitem[\protect\citeauthoryear{Pesnell}{Pesnell}{2020}]{pesnell_lessons_2020}
+Pesnell W.~D.,  2020, \mn@doi [Journal of Space Weather and Space Climate]
+  {10.1051/swsc/2020060}, 10, 60
+
+\bibitem[\protect\citeauthoryear{Plainaki, Mavromichalaki, Belov, Eroshenko  \&
+  Yanke}{Plainaki et~al.}{2009}]{plainaki_neutron_2009}
+Plainaki C.,  Mavromichalaki H.,  Belov A.,  Eroshenko E.,   Yanke V.,  2009,
+  \mn@doi [Advances in Space Research] {10.1016/j.asr.2008.09.007}, 43, 518
 
 \bibitem[\protect\citeauthoryear{Poluianov \& Usoskin}{Poluianov \&
   Usoskin}{2017}]{poluianov_revisited_2017}
 Poluianov S.,  Usoskin I.~G.,  2017, in Proceedings of {Science}. Bexco, Busan,
   Korea, \url {https://pos.sissa.it/301/#session-3145}
-
-\bibitem[\protect\citeauthoryear{Poluianov, Usoskin, Mishev, Shea  \&
-  Smart}{Poluianov et~al.}{2017}]{poluianov_gle_2017}
-Poluianov S.~V.,  Usoskin I.~G.,  Mishev A.~L.,  Shea M.~A.,   Smart D.~F.,
-  2017, \mn@doi [Sol Phys] {10.1007/s11207-017-1202-4}, 292, 176
-
-\bibitem[\protect\citeauthoryear{Riley}{Riley}{2012}]{riley_probability_2012}
-Riley P.,  2012, \mn@doi [Space Weather] {10.1029/2011SW000734}, 10
 
 \bibitem[\protect\citeauthoryear{Rockenbach et~al.,}{Rockenbach
   et~al.}{2014}]{rockenbach_global_2014}
@@ -514,128 +333,59 @@ Rockenbach M.,  et~al., 2014, \mn@doi [Space Sci Rev]
 Ross E.,  Chaplin W.~J.,  2019, \mn@doi [Sol Phys] {10.1007/s11207-019-1397-7},
   294, 8
 
-\bibitem[\protect\citeauthoryear{Ross, Chaplin, Hale, Howe, Elsworth, Davies
-  \& Nielsen}{Ross et~al.}{2021}]{ross_lifetimes_2021}
-Ross E.,  Chaplin W.~J.,  Hale S.~J.,  Howe R.,  Elsworth Y.~P.,  Davies G.~R.,
-    Nielsen M.~B.,  2021, \mn@doi [Monthly Notices of the Royal Astronomical
-  Society] {10.1093/mnras/stab405}
+\bibitem[\protect\citeauthoryear{Salvatier, Wiecki  \& Fonnesbeck}{Salvatier
+  et~al.}{2016}]{salvatier_probabilistic_2016}
+Salvatier J.,  Wiecki T.~V.,   Fonnesbeck C.,  2016, \mn@doi [PeerJ Comput.
+  Sci.] {10.7717/peerj-cs.55}, 2, e55
 
-\bibitem[\protect\citeauthoryear{Russell et~al.,}{Russell
-  et~al.}{2013}]{russell_very_2013}
-Russell C.~T.,  et~al., 2013, \mn@doi [ApJ] {10.1088/0004-637X/770/1/38}, 770,
-  38
+\bibitem[\protect\citeauthoryear{Savi\'{c}, Maleti\'{c}, Jokovi\'{c},
+  Veselinovi\'{c}, Banjanac, Udovi\u{c}i\'{c}  \& Dragi\'{c}}{Savi\'{c}
+  et~al.}{2015}]{savic_pressure_2015}
+Savi\'{c} M.,  Maleti\'{c} D.,  Jokovi\'{c} D.,  Veselinovi\'{c} N.,  Banjanac
+  R.,  Udovi\u{c}i\'{c} V.,   Dragi\'{c} A.,  2015, \mn@doi [J. Phys.: Conf.
+  Ser.] {10.1088/1742-6596/632/1/012059}, 632, 012059
 
-\bibitem[\protect\citeauthoryear{{SILSO WDC}}{{SILSO
-  WDC}}{1954}]{silso_world_data_center_international_1954}
-{SILSO WDC} 1954, International Sunspot Number Monthly Bulletin and online
-  catalogue
-
-\bibitem[\protect\citeauthoryear{Scherrer, Wilcox, Kotov, Severnyj, Severny  \&
-  Howard}{Scherrer et~al.}{1977a}]{scherrer_mean_1977}
-Scherrer P.~H.,  Wilcox J.~M.,  Kotov V.,  Severnyj A.~B.,  Severny A.~B.,
-  Howard R.,  1977a, Solar Physics, 52, 3
-
-\bibitem[\protect\citeauthoryear{Scherrer, Wilcox, Svalgaard, Duvall, Dittmer
-  \& Gustafson}{Scherrer et~al.}{1977b}]{scherrer_mean_1977-1}
-Scherrer P.~H.,  Wilcox J.~M.,  Svalgaard L.,  Duvall Jr. T.~L.,  Dittmer
-  P.~H.,   Gustafson E.~K.,  1977b, \mn@doi [Solar Physics]
-  {10.1007/BF00159925}, 54, 353
-
-\bibitem[\protect\citeauthoryear{Schrijver \& Siscoe}{Schrijver \&
-  Siscoe}{2010}]{schrijver_heliophysics_2010}
-Schrijver C.~J.,  Siscoe G.~L.,  eds, 2010, Heliophysics: {Space} {Storms} and
-  {Radiation}: {Causes} and {Effects}.
-Cambridge University Press, Cambridge, \mn@doi{10.1017/CBO9781139194532}, \url
-  {https://www.cambridge.org/core/books/heliophysics-space-storms-and-radiation-causes-and-effects/608857F4EEE1C0BF61F26ACD19BA59DE}
-
-\bibitem[\protect\citeauthoryear{Schrijver \& Zwaan}{Schrijver \&
-  Zwaan}{2008}]{schrijver_solar_2008}
-Schrijver C.~J.,  Zwaan C.,  2008, Solar and {Stellar} {Magnetic} {Activity}.
-Cambridge University Press
-
-\bibitem[\protect\citeauthoryear{Schwabe}{Schwabe}{1844}]{schwabe_sonnenbeobachtungen_1844}
-Schwabe H.,  1844, \mn@doi [Astronomische Nachrichten]
-  {10.1002/asna.18440211505}, 21, 233
+\bibitem[\protect\citeauthoryear{Schwenn}{Schwenn}{2006}]{schwenn_space_2006}
+Schwenn R.,  2006, \mn@doi [Living Reviews in Solar Physics]
+  {10.12942/lrsp-2006-2}, 3, 2
 
 \bibitem[\protect\citeauthoryear{Shea \& Smart}{Shea \&
   Smart}{1982}]{shea_possible_1982}
 Shea M.~A.,  Smart D.~F.,  1982, \mn@doi [Space Science Reviews]
   {10.1007/BF00225188}, 32, 251
 
-\bibitem[\protect\citeauthoryear{Sheeley}{Sheeley}{2005}]{sheeley_surface_2005}
-Sheeley N.~R.,  2005, \mn@doi [Living Reviews in Solar Physics]
-  {10.12942/lrsp-2005-5}, 2, 5
-
-\bibitem[\protect\citeauthoryear{Simpson}{Simpson}{1948}]{simpson_latitude_1948}
-Simpson J.~A.,  1948, \mn@doi [Phys. Rev.] {10.1103/PhysRev.73.1389}, 73, 1389
-
-\bibitem[\protect\citeauthoryear{Simpson, Fonger  \& Treiman}{Simpson
-  et~al.}{1953}]{simpson_cosmic_1953}
-Simpson J.~A.,  Fonger W.,   Treiman S.~B.,  1953, \mn@doi [Phys. Rev.]
-  {10.1103/PhysRev.90.934}, 90, 934
-
-\bibitem[\protect\citeauthoryear{Solanki}{Solanki}{2003}]{solanki_sunspots_2003}
-Solanki S.~K.,  2003, \mn@doi [The Astronomy and Astrophysics Review]
-  {10.1007/s00159-003-0018-4}, 11, 153
-
-\bibitem[\protect\citeauthoryear{Solanki, Schüssler  \& Fligge}{Solanki
-  et~al.}{2000}]{solanki_evolution_2000}
-Solanki S.~K.,  Schüssler M.,   Fligge M.,  2000, \mn@doi [Nature]
-  {10.1038/35044027}, 408, 445
-
-\bibitem[\protect\citeauthoryear{Solanki, Schüssler  \& Fligge}{Solanki
-  et~al.}{2002}]{solanki_secular_2002}
-Solanki S.~K.,  Schüssler M.,   Fligge M.,  2002, \mn@doi [A\&A]
-  {10.1051/0004-6361:20011790}, 383, 706
-
-\bibitem[\protect\citeauthoryear{Solov’ev, Parfinenko, Efremov, Kirichek  \&
-  Korolkova}{Solov’ev et~al.}{2019}]{solovev_structure_2019}
-Solov’ev A.~A.,  Parfinenko L.~D.,  Efremov V.~I.,  Kirichek E.~A.,
-  Korolkova O.~A.,  2019, \mn@doi [Astrophysics and Space Science]
-  {10.1007/s10509-019-3710-1}, 364, 222
-
-\bibitem[\protect\citeauthoryear{Spruit}{Spruit}{1976}]{spruit_pressure_1976}
-Spruit H.~C.,  1976, \mn@doi [Solar Physics] {10.1007/BF00155292}, 50, 269
-
-\bibitem[\protect\citeauthoryear{Stoker, Dorman  \& Clem}{Stoker
-  et~al.}{2000}]{stoker_neutron_2000}
-Stoker P.~H.,  Dorman L.~I.,   Clem J.~M.,  2000, \mn@doi [Space Science
-  Reviews] {10.1023/A:1026560932107}, 93, 361
+\bibitem[\protect\citeauthoryear{Shea, Smart  \& McCracken}{Shea
+  et~al.}{1965}]{shea_study_1965}
+Shea M.~A.,  Smart D.~F.,   McCracken K.~G.,  1965, \mn@doi [J. Geophys. Res.]
+  {10.1029/JZ070i017p04117}, 70, 4117
 
 \bibitem[\protect\citeauthoryear{Strauss, Ogunjobi, Moraal, McCracken  \&
   Caballero-Lopez}{Strauss et~al.}{2017}]{strauss_pulse_2017}
 Strauss R.~D.,  Ogunjobi O.,  Moraal H.,  McCracken K.~G.,   Caballero-Lopez
   R.~A.,  2017, \mn@doi [Solar Physics] {10.1007/s11207-017-1086-3}, 292, 51
 
-\bibitem[\protect\citeauthoryear{Svalgaard, Wilcox, Scherrer  \&
-  Howard}{Svalgaard et~al.}{1975}]{svalgaard_suns_1975}
-Svalgaard L.,  Wilcox J.~M.,  Scherrer P.~H.,   Howard R.,  1975, \mn@doi [Sol
-  Phys] {10.1007/BF00152219}, 45, 83
+\bibitem[\protect\citeauthoryear{Th\'{e}bault et~al.,}{Th\'{e}bault
+  et~al.}{2015}]{thebault_international_2015}
+Th\'{e}bault E.,  et~al., 2015, \mn@doi [Earth, Planets and Space]
+  {10.1186/s40623-015-0228-9}, 67, 79
 
-\bibitem[\protect\citeauthoryear{Tapping}{Tapping}{2013}]{tapping_107_2013}
-Tapping K.~F.,  2013, \mn@doi [Space Weather]
-  {https://doi.org/10.1002/swe.20064}, 11, 394
+\bibitem[\protect\citeauthoryear{Thomas, Owens, Lockwood  \& Owen}{Thomas
+  et~al.}{2017}]{thomas_decadal_2017}
+Thomas S.,  Owens M.,  Lockwood M.,   Owen C.,  2017, \mn@doi [Ann. Geophys.]
+  {10.5194/angeo-35-825-2017}, 35, 825
 
-\bibitem[\protect\citeauthoryear{Tapping \& Charrois}{Tapping \&
-  Charrois}{1994}]{tapping_limits_1994}
-Tapping K.~F.,  Charrois D.~P.,  1994, \mn@doi [Solar Physics]
-  {10.1007/BF00712892}, 150, 305
+\bibitem[\protect\citeauthoryear{Timashkov et~al.,}{Timashkov
+  et~al.}{2008}]{timashkov_ground_2008}
+Timashkov D.~A.,  et~al., 2008, \mn@doi [Astroparticle Physics]
+  {10.1016/j.astropartphys.2008.07.008}, 30, 117
 
-\bibitem[\protect\citeauthoryear{Tapping \& DeTracey}{Tapping \&
-  DeTracey}{1990}]{tapping_origin_1990}
-Tapping K.~F.,  DeTracey B.,  1990, \mn@doi [Solar Physics]
-  {10.1007/BF00152171}, 127, 321
+\bibitem[\protect\citeauthoryear{Tsyganenko}{Tsyganenko}{1989}]{tsyganenko_magnetospheric_1989}
+Tsyganenko N.~A.,  1989, \mn@doi [Planetary and Space Science]
+  {10.1016/0032-0633(89)90066-4}, 37, 5
 
-\bibitem[\protect\citeauthoryear{Thomas, Owens  \& Lockwood}{Thomas
-  et~al.}{2014}]{thomas_22-year_2014}
-Thomas S.~R.,  Owens M.~J.,   Lockwood M.,  2014, \mn@doi [Sol Phys]
-  {10.1007/s11207-013-0341-5}, 289, 407
-
-\bibitem[\protect\citeauthoryear{Usoskin, Kananen, Mursula, Tanskanen  \&
-  Kovaltsov}{Usoskin et~al.}{1998}]{usoskin_correlative_1998}
-Usoskin I.~G.,  Kananen H.,  Mursula K.,  Tanskanen P.,   Kovaltsov G.~A.,
-  1998, \mn@doi [Journal of Geophysical Research: Space Physics]
-  {10.1029/97JA03782}, 103, 9567
+\bibitem[\protect\citeauthoryear{Tsyganenko}{Tsyganenko}{2013}]{tsyganenko_data-based_2013}
+Tsyganenko N.~A.,  2013, \mn@doi [Annales Geophysicae]
+  {https://doi.org/10.5194/angeo-31-1745-2013}, 31, 1745
 
 \bibitem[\protect\citeauthoryear{Usoskin, Braun, Gladysheva, H\"orandel,
   Jämsén, Kovaltsov  \& Starodubtsev}{Usoskin
@@ -651,51 +401,14 @@ Usoskin I.,  Ibragimov A.,  Shea M.~A.,   Smart D.,  2016, in Proceedings of
   Sissa Medialab, The Hague, The Netherlands, p.~054,
   \mn@doi{10.22323/1.236.0054}, \url {https://pos.sissa.it/236/054}
 
-\bibitem[\protect\citeauthoryear{Van~Allen}{Van~Allen}{2000}]{van_allen_modulation_2000}
-Van~Allen J.~A.,  2000, \mn@doi [Geophysical Research Letters]
-  {10.1029/2000GL003792}, 27, 2453
-
-\bibitem[\protect\citeauthoryear{Vieira \& Solanki}{Vieira \&
-  Solanki}{2010}]{vieira_evolution_2010}
-Vieira L. E.~A.,  Solanki S.~K.,  2010, \mn@doi [A\&A]
-  {10.1051/0004-6361/200913276}, 509, A100
-
-\bibitem[\protect\citeauthoryear{Viljanen}{Viljanen}{2011}]{viljanen_european_2011}
-Viljanen A.,  2011, \mn@doi [Space Weather] {10.1029/2011SW000680}, 9, 07007
-
-\bibitem[\protect\citeauthoryear{Waldmeier}{Waldmeier}{1955}]{waldmeier_ergebnisse_1955}
-Waldmeier M.,  1955, \mn@doi [Quarterly Journal of the Royal Meteorological
-  Society] {https://doi.org/10.1002/qj.49708235128}, 82, 118
-
 \bibitem[\protect\citeauthoryear{Wawrzynczak \& Alania}{Wawrzynczak \&
   Alania}{2010}]{wawrzynczak_modeling_2010}
 Wawrzynczak A.,  Alania M.~V.,  2010, \mn@doi [Advances in Space Research]
   {10.1016/j.asr.2009.09.005}, 45, 622
 
-\bibitem[\protect\citeauthoryear{Webb \& Howard}{Webb \&
-  Howard}{1994}]{webb_solar_1994}
-Webb D.~F.,  Howard R.~A.,  1994, \mn@doi [Journal of Geophysical Research:
-  Space Physics] {https://doi.org/10.1029/93JA02742}, 99, 4201
-
-\bibitem[\protect\citeauthoryear{Wolf}{Wolf}{1859}]{wolf_extract_1859}
-Wolf R.,  1859, \mn@doi [Monthly Notices of the Royal Astronomical Society]
-  {10.1093/mnras/19.3.85}, 19, 85
-
-\bibitem[\protect\citeauthoryear{Wolf}{Wolf}{1861}]{wolf_abstract_1861}
-Wolf R.,  1861, \mn@doi [Monthly Notices of the Royal Astronomical Society]
-  {10.1093/mnras/21.3.77}, 21, 77
-
-\bibitem[\protect\citeauthoryear{Yashiro, Gopalswamy, Michalek, Cyr, Plunkett,
-  Rich  \& Howard}{Yashiro et~al.}{2004}]{yashiro_catalog_2004}
-Yashiro S.,  Gopalswamy N.,  Michalek G.,  Cyr O. C.~S.,  Plunkett S.~P.,  Rich
-  N.~B.,   Howard R.~A.,  2004, \mn@doi [Journal of Geophysical Research: Space
-  Physics] {https://doi.org/10.1029/2003JA010282}, 109
-
-\bibitem[\protect\citeauthoryear{{Zyla, P. A. (Particle Data Group)}
-  et~al.,}{{Zyla, P. A. (Particle Data Group)}
-  et~al.}{2020}]{particle_data_group_review_2020}
-{Zyla, P. A. (Particle Data Group)} et~al., 2020, \mn@doi [Progress of
-  Theoretical and Experimental Physics] {10.1093/ptep/ptaa104}, 2020
+\bibitem[\protect\citeauthoryear{eFoam}{eFoam}{2017}]{efoam_sf38_2017}
+eFoam 2017, {SF38} {High} {Foam} {Datasheet}, \url
+  {https://www.efoam.co.uk/docs/SF38.pdf}
 
 \bibitem[\protect\citeauthoryear{van Dam, van Eijk  \& Steijger}{van Dam
   et~al.}{2020a}]{van_dam_probing_2020}
@@ -710,11 +423,6 @@ van Dam K.,  van Eijk B.,  Fokkema D. B. R.~A.,  van Holten J.~W.,  de Laat A.
   \mn@doi [Nuclear Instruments and Methods in Physics Research Section A:
   Accelerators, Spectrometers, Detectors and Associated Equipment]
   {10.1016/j.nima.2020.163577}, 959, 163577
-
-\bibitem[\protect\citeauthoryear{van Driel-Gesztelyi \& Green}{van
-  Driel-Gesztelyi \& Green}{2015}]{van_driel-gesztelyi_evolution_2015}
-van Driel-Gesztelyi L.,  Green L.~M.,  2015, \mn@doi [Living Rev. Sol. Phys.]
-  {10.1007/lrsp-2015-1}, 12, 1
 
 \makeatother
 \end{thebibliography}

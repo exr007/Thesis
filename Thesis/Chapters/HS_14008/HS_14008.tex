@@ -11,13 +11,13 @@
 
 
 
-It was shown in Chapter~\ref{chap:HiSPARC}, using data acquired from the \gls{hisparc} network, that it was not clearly capable of observing space weather events. In part, we showed that this was due to the low-magnitude of the increase in muon flux during such events, but it was because of the current configuration's bias towards higher energy \glspl{cr}, and finally because the detectors are rather sensitive to variations in the terrestrial conditions.
+It was shown in Chapter~\ref{chap:HiSPARC}, using data acquired from the \gls{hisparc} network, that it was not adequate for observing space weather events. In part, we showed that this was due to the low-magnitude of the increase in the expected muon flux during such events. Also relevant was the current configuration's bias towards higher energy \glspl{cr} and the sensitivity of the detectors to variations in the terrestrial conditions.
 
 To some extent, it was possible to eliminate the variation in \glspl{cr} due to meteorological variations in the \gls{hisparc} data; however it was shown to be not always so efficient, as different detectors in the \gls{hisparc} network displayed different responses to pressure and temperature variation. In addition we showed that the relationship between atmospheric temperature and \gls{cr} count was non-trivial, unlike the counterpart correction for pressure.
 
-Thermal fluctuations in the atmosphere clearly induce thermal noise in the \glspl{pmt} and although the temperature inside the \gls{hisparc} roof boxes have not been measured, it is suspected that the \glspl{pmt} can get quite hot, in particular when the roof boxes are in direct sunlight. We reported in Chapter~\ref{chap:HiSPARC} that the singles data represented our best possibility of observing lower--energy \glspl{pcr}; however, these data are most susceptible to the induced thermal noise as the temperature of the \gls{pmt} changes. Without measuring this temperature directly, a complete correction of this effect in the existing \gls{hisparc} data was not possible.
+Thermal fluctuations in the atmosphere clearly induce thermal noise in the \glspl{pmt} and although the temperature inside the \gls{hisparc} roof boxes has not been measured, it is suspected that the \glspl{pmt} can get quite hot, in particular when the roof boxes are in direct sunlight. We reported in Chapter~\ref{chap:HiSPARC} that the singles data represented our best possibility of observing lower-energy \glspl{pcr}; however, these data are most susceptible to the induced thermal noise as the temperature of the \gls{pmt} changes. Without measuring this temperature directly, a complete correction of this effect in the existing \gls{hisparc} data was not possible.
 
-In this chapter we explored the option of designing an alternate configuration of \gls{hisparc} station such to minimise these limiting effects. An instance of thermal noise in a single \gls{pmt} will be random, and uncorrelated with an instance of thermal noise in another \gls{pmt}. To exploit this, it was possible to stack two detectors on top of each other to measure a single muon which traverses both scintillators, hence inducing signals in both \glspl{pmt}.
+In this chapter we devised and tested an alternative configuration of \gls{hisparc} station to minimise these limiting effects. An instance of thermal noise in a single \gls{pmt} will be random, and uncorrelated with an instance of thermal noise in another \gls{pmt}. To exploit this, we stacked two detectors on top of each other to measure a single muon which traverses both scintillators, hence inducing signals in both \glspl{pmt}.
 
 
 
@@ -26,7 +26,7 @@ In this chapter we explored the option of designing an alternate configuration o
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Aims}\label{sec:HS_14008_aims}
 
-The aim of creating a new \gls{hisparc} station was to test whether an alternative configuration of a \gls{hisparc} station could minimise atmospheric variations in the data, and to standardise a configuration that allowed for the observation of space weather events.
+The principle aim of building a new \gls{hisparc} station was to investigate whether an alternative configuration of a \gls{hisparc} station could minimise atmospheric variations in the data. In addition, we aimed to demonstrate a configuration that allowed for the observation of space weather events.
 
 We aimed to set up a new detector, perform the relevant atmospheric corrections, where necessary, and review the noise properties of the detector. Furthermore, we also aimed to perform simulations of \glspl{gle} of varying physical properties to understand what magnitude of \gls{gle} could be observed with the new set-up. This would help us to understand how likely it was to observe the any space weather events with the alternative \gls{hisparc} configuration.
 
@@ -40,7 +40,7 @@ We aimed to set up a new detector, perform the relevant atmospheric corrections,
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Configuration}
 
-The configuration of \gls{hisparc} station 14008 is shown in Figure \ref{fig:14008_config}; the station is composed of two detectors stacked on top of each other, both inside one roof box. This configuration is advantageous, over the single scintillator, single \gls{pmt}, \gls{hisparc} set-up, as it allows the recording of single muons which traverses both scintillators. 
+The configuration of \gls{hisparc} station 14008 is shown in Figure \ref{fig:14008_config}; the configuration is composed of two detectors stacked on top of each other, both inside one roof box. This configuration is advantageous, over the single scintillator, single \gls{pmt}, \gls{hisparc} set-up, as it allows the recording of single muons which traverse both scintillators. 
 
 
 \begin{figure}[ht!]
@@ -50,9 +50,9 @@ The configuration of \gls{hisparc} station 14008 is shown in Figure \ref{fig:140
 	\label{fig:14008_config}
 \end{figure}
 
-We showed in Chapter~\ref{chap:HiSPARC} that the existing \gls{hisparc} design requiring coincident triggers between detectors spaced tens of metres apart biased the observations to higher \gls{pcr} energies and single muons from lower energy \glspl{pcr} could not be counted. Previously, we could only count single muons in the singles rates, but we have shown that the data was inconsistent between stations and it was difficult to disentangle the effects of temperature, \gls{pmt} noise, and the diurnal effect in the data. This stacked--configuration design reduces the energy bias in the events data, as it no longer requires the large footprint \glspl{as} to trigger multiple detectors, and provides a signal with fewer sources of noise than the singles rates, as it relies on the coincidence of two \glspl{pmt} therefore minimising thermal fluctuations.
+We showed in Chapter~\ref{chap:HiSPARC} that the existing \gls{hisparc} design requiring coincident triggers between detectors spaced tens of metres apart biased the observations to higher \gls{pcr} energies and single muons from lower energy \glspl{pcr} could not be counted. Previously, we could only count single muons in the singles rates, but we have shown that the data were inconsistent between stations and it was difficult to disentangle the effects of temperature, \gls{pmt} noise, and the diurnal effect in the data. This stacked-configuration design reduces the energy bias in the events data, as it no longer requires the large footprint \glspl{as} to trigger multiple detectors, and provides a signal with fewer sources of noise than the singles rates, as it relies on the coincidence of two \glspl{pmt} therefore minimising thermal fluctuations.
 
-To protect the scintillators and \glspl{pmt}, we sandwiched a layer of high density ($\rho = 38-40$~kg~m$^{-3}$, \citet{efoam_sf38_2017}) foam, of thickness, $\Delta x = 50$~mm, between the scintillators, as can be in Figure~\ref{fig:14008_detectors}. Upon the completed assembly of the detectors, they were placed within the roof box on the roof of the Poynting Physics building on the campus of University of Birmingham.
+To protect the scintillators and \glspl{pmt}, we sandwiched a layer of high density ($\rho = 38-40$~kg~m$^{-3}$, \citet{efoam_sf38_2017}) foam, of thickness $\Delta x = 50$~mm, between the scintillators, as can be in Figure~\ref{fig:14008_detectors}. Upon the completed assembly of the detectors, they were placed within the roof box on the roof of the Poynting Physics building on the University of Birmingham campus.
 
 
 \begin{figure}[ht!]
@@ -70,7 +70,7 @@ To protect the scintillators and \glspl{pmt}, we sandwiched a layer of high dens
 \end{figure}
 
 
-Propagating charged particles lose energy in matter. Derived from the Bethe-Bloch formula, we can estimate the amount of energy lost by a particle in a material given by:
+Propagating charged particles lose energy in matter. Derived from the Bethe-Bloch formula, we can estimate the amount of energy lost by a particle in a material as:
 
 \begin{equation}
 \Delta E = \Delta x \, S \, \rho \, \cos(\theta) \, ,
@@ -81,29 +81,30 @@ where $\Delta x$ is the thickness of the material, $S$ is the stopping power of 
 
 Each of the plastic scintillators has a thickness of $\Delta x \, = \, 2.0$~cm, and density, $\rho \, = \, 1.03$~g~cm$^{-3}$ \citep{montanus_observability_2017}. The stopping power of the scintillator for a minimum ionising particle is $S \sim 2$~MeV~g$^{-1}$~cm$^{2}$ \citep{fokkema_hisparc_2012, montanus_observability_2017}. The energy loss of a vertically incident muon in a single detector is therefore $\Delta E \sim 4$~MeV. \cite{van_dam_hisparc_2020} states the most probable energy loss of a vertically incident muon in a single scintillator is $3.51$~MeV.
 
-Assuming a similar stopping power as above for the foam \citep{groom_muon_2001, montanus_observability_2017}, the muons will lose an additional $\sim 0.4$~MeV. In the complete configuration as a muon traverses two scintillators and the foam, the estimated lower limit on the energy loss by muons in the detector is $\sim 7.42$~MeV. This new lower limit does not significantly change the values of the predicted \gls{gle} magnitudes in Section~\ref{sec:MAIRE_flux}.
+Assuming a similar stopping power as above for the foam \citep{groom_muon_2001, montanus_observability_2017}, the muons will lose an additional $\sim 0.4$~MeV. In the complete configuration as a muon traverses two scintillators and the foam, the estimated lower limit on the energy loss by muons in the detector is $\sim 7.4$~MeV. This new lower limit does not significantly change the values of the predicted \gls{gle} magnitudes in Section~\ref{sec:MAIRE_flux}.
 
-The standard \gls{hisparc} station set-up is such that the \glspl{pmt} are connected to the \gls{hisparc} electronics box for data acquisition. In the standard \gls{hisparc} station configuration, the trigger rate of events is $\sim 1$~Hz. In this stacked configuration the trigger rate is significantly higher, $\sim 70$~Hz; hence the data produced is the equivalent of approximately half of the existing \gls{hisparc} network. The \gls{hisparc} servers could not cope with such a large quantity of data, therefore we had to reduce the data acquired by the \gls{hisparc} box; however, we did not want to lose the full count rate of the stacked detectors. To acquire the data in this set-up, we used a \gls{nim} crate, as shown in Figure~\ref{fig:14008_NIM}.
+The standard \gls{hisparc} station set-up is such that the \glspl{pmt} are connected to the \gls{hisparc} electronics box for data acquisition. In the standard \gls{hisparc} station configuration, the trigger rate of events is $\sim 1$~Hz. In this stacked configuration the trigger rate is significantly higher, $\sim 70$~Hz; hence the data produced is the equivalent of approximately half of the existing \gls{hisparc} network. The \gls{hisparc} servers could not cope with such a large quantity of data, therefore we had to reduce the data acquired by the \gls{hisparc} box; however, we did not want to lose the original count rate of the stacked detectors. To acquire the data in this set-up, we used a \gls{nim} crate, as shown in Figure~\ref{fig:14008_NIM}, and a Raspberry Pi was used to store the data, which is discussed in Section~\ref{sec:HS14008_data_acqusition}.
 
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\columnwidth]{14008_nim_config.png}
-	\caption{Schematic diagram of the HiSPARC 14008 station NIM crate configuration. Black-outlined boxes indicate the NIM crate modules, while red-outlined boxes depict HiSPARC hardware modules. Black arrows depict a NIM signal; green arrows show a TTL signal; blue arrows depict a HV signal. The PMTs from the detectors are split and half of the signal interfaces directly with the HiSPARC electronics box and half the signal is passed through the NIM crate for processing.}
+	\caption{Schematic diagram of the HiSPARC 14008 station NIM crate configuration. Black-outlined boxes indicate the NIM crate modules, while red-outlined boxes depict HiSPARC hardware modules. Black arrows depict a NIM signal; green arrows show a TTL signal; blue arrows depict the PMT signal. The PMT signals are split and half of the signal interfaces directly with the HiSPARC electronics box and half the signal is passed through the NIM crate for processing.}
 	\label{fig:14008_NIM}
 \end{figure}
 
-The data acquisition is discussed in Section~\ref{sec:HS14008_data_acqusition}, but here we discuss the configuration of the \gls{nim} crate set-up. The \gls{hv} signals from the \glspl{pmt} are split using a passive, equal-split resistive splitter such that half the signal is passed to the \gls{hisparc} electronics box and half the signal is passed through the \gls{nim} crate. The signal which is passed through the \gls{nim} crate goes first into a discriminator module (CAEN model N845) to only record signals that have an amplitude greater than the trigger threshold. Due to the equal-balance resistive splitter the \gls{hv} signal is reduced in amplitude by a factor of 2; we used a discriminator threshold of $-35$~mV, i.e. half of the \gls{hisparc} high threshold.
+The data acquisition is discussed in Section~\ref{sec:HS14008_data_acqusition}, but here we discuss the configuration of the \gls{nim} crate set-up. The signals from the \glspl{pmt} are split using a passive, equal-split resistive splitter such that half the signal is passed to the \gls{hisparc} electronics box and half the signal is passed through the \gls{nim} crate. The signal which is passed through the \gls{nim} crate goes first into a discriminator module (CAEN model N845) to only record signals that have an amplitude greater than the trigger threshold. Due to the equal-balance resistive splitter the \gls{pmt} signal is reduced in amplitude by a factor of 2; we used a discriminator threshold of $-35$~mV, i.e. half of the \gls{hisparc} high threshold.
 
-The discriminator outputs two \gls{nim} signals which are connected to the first coincidence module (LeCroy model 622). This records every coincidence between the two \glspl{pmt} and the output from this module is directed to a \gls{nim} quad counter/timer module (ORTEC model 974). One channel of the \gls{nim} counter records the full coincidence counts from the first coincidence module.
+The discriminator outputs two \gls{nim} signals which are connected to the first coincidence module (LeCroy model 622). This records every coincidence between the two \glspl{pmt} and the output from this module is directed to a \gls{nim} quad counter/timer module (ORTEC model 974). One channel of the \gls{nim} counter records the original coincidence counts from the first coincidence module.
 
-A second terminal in the coincidence module was used to record a reduced count rate. This used a pulse timer (CAEN model 2255B) to create a gate signal with a duty cycle of $\sim 1\%$ (gate width = $45.0 \, \upmu\mathrm{s}$; period = $4.86$~ms). The coincidence between the full coincidence signal and the pulse timer gate ensures that the full count rate is reduced by a factor of $\sim 100$. This was a sufficient reduction in the data for the \gls{hisparc} servers to cope with. One output from this coincidence module is passed to the \gls{nim} counter, where it counts the reduced coincidences. The second output from the coincidence module is directed through a \gls{nim}-to-\gls{ttl} convertor and the output from this is used as an external trigger signal to trigger the acquisition of data by the \gls{hisparc} electronics box. This trigger was used to acquire the counts directly from the \glspl{pmt} in the normal \gls{hisparc} manner, but with a reduced frequency by a factor of $\sim100$.
+A second terminal in the coincidence module was used to record a reduced count rate. This used a pulse timer (CAEN model 2255B) to create a gate signal with a duty cycle of $\sim 1\%$ (gate width = $45.0 \, \upmu\mathrm{s}$; period = $4.86$~ms). The coincidence between the original coincidence signal and the pulse timer gate ensures that the original count rate is reduced by a factor of $\sim 100$. This was a sufficient reduction in the data for the \gls{hisparc} servers to cope with. One output from this coincidence module is passed to the \gls{nim} counter, where it counts the reduced coincidences. The second output from the coincidence module is directed through a \gls{nim}-to-\gls{ttl} convertor and the output from this is used as an external trigger signal to trigger the acquisition of data by the \gls{hisparc} electronics box. This trigger was used to acquire the counts directly from the \glspl{pmt} in the normal \gls{hisparc} manner, but with a reduced frequency by a factor of $\sim100$.
 
-The use of these \gls{nim} modules introduce delays in the signal. Each of the \gls{nim} modules introduces a \gls{nim}--standard, typical input-output delay of $\sim 9.5$~ns \citep{lecroy_lecroy_1996, caen_technical_2011}. The introduced delays between the \gls{pmt} output, to being registered at different end--points, due to \gls{nim} modules and cables are listed in Table~\ref{tab:HS_14008_delays}.
+The use of these \gls{nim} modules introduces delays in the signal. Each of the \gls{nim} modules introduces a \gls{nim}-standard, typical input-output delay of $\sim 9.5$~ns \citep{lecroy_lecroy_1996, caen_technical_2011}. In Table~\ref{tab:HS_14008_delays} we outline the delays that are introduced from the outputs of the \glspl{pmt}, to being registered at different end-points.
 
+\vspace{1em}
 
 \begin{table}[ht!]
 	\begin{center}
-		\caption{Delays in the signals through different paths in the NIM set--up. The paths all start from the output of the PMTs, and are either direct or pass though the NIM crate before reaching their final end interface, therefore the path column is formatted as: start -- direct/NIM path -- end.}
+		\caption{Delays in the signals through different paths in the NIM set-up. The paths all start from the output of the PMTs, and are either direct or pass though the NIM crate before reaching their final end interface, therefore the path column is formatted as: start -- direct/NIM path -- end.}
 		\label{tab:HS_14008_delays}
 		\begin{tabular}{l c }
 			\hline 
@@ -134,19 +135,19 @@ The use of these \gls{nim} modules introduce delays in the signal. Each of the \
 %	\end{center}
 %\end{table}
 
-From Table~\ref{tab:HS_14008_delays} we see there is a delay of $\sim36$~ns between the direct signal to the \gls{hisparc} electronics box and the external trigger from the \gls{nim} crate. There is also a $\sim8$~ns delay in between the full count and the reduced count. However, the delays introduced into the system are not actually a problem for counting muons with the \gls{hisparc} electronics box or the \gls{nim} counter. In the case of the \gls{hisparc} electronics box this is due to the low muon count rate and the wide pre- and post-trigger windows of the \gls{hisparc} data acquisition software. \citet{fokkema_hisparc_2012} shows the \gls{hisparc} data acquisition software uses pre-trigger ($1\,\upmu\mathrm{s}$), coincidence ($1.5\,\upmu\mathrm{s}$) and post-trigger ($3.5\,\upmu\mathrm{s}$) windows. This means that the station is sufficient to measure signals with delays of tens of nanoseconds, as they will be captured within the $1\,\upmu\mathrm{s}$ pre-trigger window and thus counted. Using the \gls{nim} counter, as is discussed in Section~\ref{sec:HS14008_data_acqusition}, we measure all counts on a cadence of 10--seconds, therefore a delay of $\sim8$~ns does not impede our ability to count the same events during the cadence.
+From Table~\ref{tab:HS_14008_delays} we see there is a delay of $\sim36$~ns between the direct signal to the \gls{hisparc} electronics box and the external trigger from the \gls{nim} crate. There is also an $\sim8$~ns delay in between the full count and the reduced count. However, the delays introduced into the system are not actually a problem for counting muons with the \gls{hisparc} electronics box or the \gls{nim} counter. In the case of the \gls{hisparc} electronics box this is due to the low muon count rate and the wide pre- and post-trigger windows of the \gls{hisparc} data acquisition software. The \gls{hisparc} data acquisition software uses pre-trigger ($1\,\upmu\mathrm{s}$), coincidence ($1.5\,\upmu\mathrm{s}$) and post-trigger ($3.5\,\upmu\mathrm{s}$) windows \citep{fokkema_hisparc_2012}. This means that the station is capable of measuring signals with delays of tens of nanoseconds, as they will be captured within the $1\,\upmu\mathrm{s}$ pre-trigger window and thus counted. Using the \gls{nim} counter, as discussed in Section~\ref{sec:HS14008_data_acqusition}, we measure all counts on a cadence of 10-seconds, therefore a delay of $\sim8$~ns does not impede our ability to count the same events during the cadence.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Calibration}
 
-When setting up the HiSPARC station, it was required to set several operating parameters for the detectors and the HiSPARC electronics box. One such setting was the \gls{pmt} operating voltage. Each of the detector \glspl{pmt} needs to be powered with a high enough operating voltage such to provide an amplified signal, but not too high such as to over-amplify the noise.
+When setting up the HiSPARC station, it was required to set several operating parameters for the detectors and the HiSPARC electronics box. One such setting was the \gls{pmt} operating \gls{hv}. Each of the detector \glspl{pmt} needs to be powered with a high enough operating voltage to provide an amplified signal, but not too high such as to over-amplify the noise.
 
 In general, the \glspl{pmt} have an advised operating voltage of around 700~V \citep{fokkema_hisparc_2019}; however, best practise is to operate the \gls{pmt} at the plateau region, whereby the counts/voltage no longer increases. As can be seen from Figure~\ref{fig:PMT_cal}, neither of the \glspl{pmt} have clear plateau regions, hence there was no obvious \gls{pmt} set point.
 
 The HiSPARC installation manual does, however, suggest to tune the \gls{pmt} voltages such that the singles rates for each detector meet the following criteria: singles rate of 100--130~Hz for signal above the high trigger threshold, and singles rate of $<$400~Hz for signal above the low trigger threshold \citep{fokkema_hisparc_2019}.
 
-In order to calibrate the \glspl{pmt} to the correct level, we measured the singles rates above the high and low thresholds as a function of \gls{pmt} operating voltage, as is shown in Figure~\ref{fig:PMT_cal}. The voltage calibration plot shows drastically the different performances one can get from different \glspl{pmt}, therefore it was necessary to treat each \gls{pmt} individually when calibrating.
+In order to calibrate the \glspl{pmt} to the correct level, we measured the singles rates above the high and low thresholds as a function of \gls{pmt} operating voltage, as is shown in Figure~\ref{fig:PMT_cal}. The \gls{hv} calibration plot shows the different performances one can get from different \glspl{pmt}, therefore it was necessary to treat each \gls{pmt} individually when calibrating.
 
 \begin{figure}[ht!]
 	\centering
@@ -165,7 +166,7 @@ Initially the station was set-up supplying \gls{pmt}1 and \gls{pmt}2 $\sim725$~V
 
 In Chapter~\ref{chap:HiSPARC}, we suspected that the singles count rates were affected by the temperature of the \gls{pmt} within the \gls{hisparc} roof-boxes. Some of the existing \gls{hisparc} stations monitored local atmospheric temperature, however none measured the temperature of the \gls{pmt} inside the roof box. When building this new \gls{hisparc} station, a temperature sensor was placed into the roof box which allowed us to monitor the temperature of the \gls{pmt} more accurately. %; therefore the temperature of the PMT itself is unknown, and thus we cannot account for the thermal noise
 
-Figure~\ref{fig:temperature_sensor_circuit} shows the circuit diagram for the temperature sensor. We used the DS18B20 temperature sensor with the one-wire telemetry protocol, which used a single wire to transmit the temperature readings to the microcontroller; the microcontroller used was a Raspberry Pi 4 (see Section~\ref{sec:HS14008_data_acqusition}). Three wires were used for the operation of the DS18B20: constant current voltage, ground, and data. The temperature was read on a 10--second cadence and recorded in degrees Celsius with a precision of $0.001^{\circ}$~C. 
+Figure~\ref{fig:temperature_sensor_circuit} shows the circuit diagram for the temperature sensor and Figure~\ref{fig:temperature_sensor_in_box} shows the sensor inside the roof box. We used the DS18B20 temperature sensor with the one-wire telemetry protocol, which used a single wire to transmit the temperature readings to the microcontroller; the microcontroller used was a Raspberry Pi 4 (see Section~\ref{sec:HS14008_data_acqusition}). Three wires were used for the operation of the DS18B20: constant current voltage, ground, and data. The temperature was read on a 10-second cadence and recorded in degrees Celsius with a precision of $0.001^{\circ}$~C. 
 
 \begin{figure}[htb!]
 	\centering
@@ -178,22 +179,22 @@ Figure~\ref{fig:temperature_sensor_circuit} shows the circuit diagram for the te
 		\includegraphics[width=0.55\columnwidth]{temperture_sensor_rescaled.jpg}
 		\label{fig:temperature_sensor_in_box}} \\
 	
-	\caption{(a) Schematic diagram of the DS18B20 temperature sensor circuit, whereby the voltage, ground, and GPIO interfaces connect directly into pins of the Raspberry Pi board. (b) Shows the temperature sensor within the roof box, located by the PMTs. The temperature sensor is soldered into the circuit board seen in the top-middle of the image.}
+	\caption{(a) Schematic diagram of the DS18B20 temperature sensor circuit, whereby the voltage drain (VDD), ground (GND), and data (DQ) pins connect directly to the voltage supply (+V), ground, and input/output (GPIO) pins of the Raspberry Pi board. (b) Shows the temperature sensor within the roof box, located by the PMTs. The temperature sensor is soldered into the circuit board seen in the top-middle of the image.}
+	\vspace{2em}
 	\label{fig:temperature_sensor}
 \end{figure}
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Data Acquisition}
 \label{sec:HS14008_data_acqusition}
 
-The new \gls{hisparc} station uses two methods of data acquisition. The singles data and reduced coincidences data (events) are acquired using the typical \gls{hisparc} data acquisition software, but the full coincidences, reduced coincidences, and the temperature data are all acquired by a Raspberry Pi 4. This was done as it allowed us to store the full coincidences data without overloading the \gls{hisparc} servers. A schematic diagram showing the interfaces between the Raspberry Pi and the other hardware is shown in Figure~\ref{fig:14008_RP4}.
+The new \gls{hisparc} station uses two methods of data acquisition. The singles data and reduced coincidences data (events) are acquired using the typical \gls{hisparc} data acquisition software, but the original coincidences, reduced coincidences, and the temperature data are all acquired by a Raspberry Pi 4. This was done as it allowed us to store the original coincidences data without overloading the \gls{hisparc} servers. A schematic diagram showing the interfaces between the Raspberry Pi and the other hardware is shown in Figure~\ref{fig:14008_RP4}.
 
 \begin{figure}[ht!]
 	\center
 	\includegraphics[width=0.8\columnwidth]{14008_data_acq_config.png}
-	\caption{Schematic diagram of the HiSPARC station 14008 data acquisition interfaces. Black arrows depict a 5~V signal; green arrows show ground interfaces; blue arrows depict the 1-wire signal output from the temperature sensor.}
+	\caption{Schematic diagram of the HiSPARC station 14008 data acquisition interfaces. Black arrows depict a 5~V signal; green arrows show ground connection; blue arrows depict the 1-wire signal output from the temperature sensor.}
 	\label{fig:14008_RP4}
 \end{figure}
 
@@ -201,6 +202,8 @@ The new \gls{hisparc} station uses two methods of data acquisition. The singles 
 The Raspberry Pi 4 was used to control the data acquisition by running continuous Python scripts; one for \gls{cr} counts and another for the temperature data. The scripts configured the hardware and output the coincidences data from the \gls{nim} counter and the temperature data from the DS18B20 sensor to local files on the Raspberry Pi. Both the coincidences and temperature data are recorded on a 10 second cadence.
 
 The Python scripts were written such that each new day generates a separate file for the coincidences data and temperature data. Within the coincidence files there are no headers and the data begins from line 1. The files contain four columns and the data stored in each column is listed in Table~\ref{tab:HS_14008_coincidences_data}.
+
+\vspace{1em}
 
 \begin{table}[ht!]
 	\begin{center}
@@ -225,6 +228,8 @@ The \gls{nim} counter records the cumulative coincidences count, therefore the r
 
 Within the temperature files, there are also no headers and the data begins from line 1. The columns in the data files are outlined in Table~\ref{tab:HS_14008_temperature_data}.
 
+\vspace{1em}
+
 \begin{table}[ht!]
 	\begin{center}
 		\caption{Variables stored in the temperature files of the HiSPARC 14008 instrument.}
@@ -242,23 +247,23 @@ Within the temperature files, there are also no headers and the data begins from
 \end{table}
 
 
-The coincidences and temperature data are stored locally, but they are also stored on the University of Birmingham particle physics servers as a back-up\footnote{Disk location: /disk/moose/general/epesv001/datadisk/147.188.46.117\_hisparc\_pi/}. Access to the data is not necessarily open-to-all, and to request access, one should contact the System Administrator for the Particle Physics Group Computing Facilities.
+The coincidences and temperature data are stored locally, but they are also stored on the University of Birmingham Particle Physics servers as a back-up\footnote{Disk location: /disk/moose/general/epesv001/datadisk/147.188.46.117\_hisparc\_pi/}. Access to the data is not necessarily open-to-all, and to request access, one should contact the System Administrator for the Particle Physics Group Computing Facilities.
 
 The reduced coincidences data are also acquired using the \gls{hisparc} data acquisition software and are stored on the \gls{hisparc} servers. The \gls{hisparc} servers record this data as `events' and the data can be accessed using the methods described in Section~\ref{sec:HS_data}.
 
 
 %[What is the width of the signals generated by the NIM crate? Is it more or less than the approx. 25ns FWHM of the pulses..? Then relate that to: "The pulse width, Tw, is important only insofar as it determines the maximum rate of pulses that may be represented by the pulse train, since pulses which occur more frequently than 1/Tw cannot be resolved"...]
 
-Data acquisition for station 14008 first began in March 2019. At this early stage of development data was only acquired using the \gls{hisparc} servers and not the \gls{nim} crate. In these early stages the data are unreliable, so it is not recommended to use this data. The use of the \gls{nim} crate started in mid-September 2019, but it wasn't until mid-January 2020 that the temperature data was first acquired. The availability of data was interrupted during early months of 2020 due to the COVID-19 pandemic affecting our ability to perform crucial work on the station. It is therefore recommended to only use data after August 2020, when they are available for both coincidences and temperature, are regularly available, and were acquired in the configuration described above.
+Data acquisition for station 14008 first began in March 2019. At this early stage of development, data were only acquired using the \gls{hisparc} servers and not the \gls{nim} crate. The use of the \gls{nim} crate started in mid-September 2019, but it was not until mid-January 2020 that the temperature data were first acquired. The availability of data was interrupted during early months of 2020 due to the COVID-19 pandemic affecting our ability to perform crucial work on the station. It is therefore recommended to only use data after August 2020, when both coincidences and temperature data are regularly available.%, are regularly available.
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Monitoring Pressure}
 
-As with the previous chapter, it was necessary to account for the barometric effect on the muon count rate, for both the singles data and coincidences data. To monitor the pressure, a nearby meteorological station was used, which is part of the \gls{midas} database, and acquired from the \gls{stfc} and \gls{nerc} \gls{ceda} archive.
+As explained in the previous chapter, it was necessary to account for the barometric effect on the muon count rate, for both the singles data and coincidences data. To monitor the pressure, a nearby meteorological station was used, which is part of the \gls{midas} database, and acquired from the \gls{stfc} and \gls{nerc} \gls{ceda} archive.
 
-The \gls{midas} station used is the nearest pressure monitor to the \gls{hisparc} and provides a robust measure of the local atmospheric pressure. The station is located in Coleshill, Warwickshire (ID: 19187), nearby Birmingham International Airport, $\sim 20$~km from the \gls{hisparc} detectors; we believe the pressure variation is small over this distance. The pressure is measured at the \gls{midas} station level and a correction for altitude is not applied. 
+The \gls{midas} station used is the nearest pressure monitor to the \gls{hisparc} and provides a robust measure of the local atmospheric pressure. The station is located in Coleshill, Warwickshire (ID: 19187), nearby Birmingham International Airport, $\sim 20$~km from the \gls{hisparc} detectors. The pressure is measured at the \gls{midas} station level and a correction for altitude should be small. 
 
 The pressure data are recorded on a 1-hour cadence in units of hPa, with a precision of 0.1~hPa. The time variation of pressure is slow; hence, we linearly interpolated the data to provide a 1-minute sample.
 
@@ -269,19 +274,27 @@ The pressure data are recorded on a 1-hour cadence in units of hPa, with a preci
 
 \subsection{Atmospheric Corrections}
 
-After considerate review of the methods for temperature correction, the method discussed and used in Chapter~\ref{chap:HiSPARC} was used here, i.e. using a linear relationship between \glspl{cr} and temperature; however, the method was tweaked slightly. The steps for correcting for the effect of temperature were:
+After considerate review of the methods for temperature correction, the method discussed and used in Chapter~\ref{chap:HiSPARC} was used here, i.e. using a linear relationship between \glspl{cr} and temperature:
+
+\begin{equation}
+\mathrm{ln} \left( \frac{N}{N_0} \right) = - \alpha \, \Delta T \, ,
+\label{eq:tempcorr_14008}
+\end{equation}
+%
+where $N_0$ may be considered as the mean count rate over the given time-period of observations and $\Delta T = T - T_0$ is the deviation in temperature from the average ($T_0$) in the given time-period. However, the method was tweaked slightly. The steps for correcting for the effect of temperature were:
 
 \begin{itemize}
-	\item{To remove any long--term temperature trends over a month of data, the \gls{cr} and temperature data were smoothed using a 24-hr moving mean. Using the linear relationship between \glspl{cr} and temperature (defined by equation~(\ref{eq:presscorr3}), changing pressure to temperature) the long--term temperature relationship was fit and was removed from the data.}
+	\item{To remove any long-term temperature trends over a month of data, the \gls{cr} and temperature data were smoothed using a 24-hr moving mean. Using the linear relationship between the smoothed \glspl{cr} and temperature (defined by equation~(\ref{eq:tempcorr_14008}), where the $N$ and $T$ are the smoothed data), the long-term temperature relationship was fitted and corrected in the data.}
 
-	\item{After removing the long--term temperature relationship, for each day the temperature correction was applied again to remove the daily variations. During the fit to the data the values of $N_0$ and $T_0$ used were the de-trended, 24-hr smoothed data.}
+	\item{After removing the long-term temperature relationship, for each day the temperature correction was applied again to remove the daily variations (i.e. using equation~(\ref{eq:tempcorr_14008}), where the $N$ denotes the de-trended \gls{cr} data and $T$ denotes the raw temperature data and the the de-trended \gls{cr} and raw temperature data were smoothed again using a 24-hr moving mean for $N_0$ and $T_0$). The temperature relationship was fitted and corrected in the data, day-by-day.}
 \end{itemize}
 
-This was done, as during the initial temperature corrections, it was found that without removing the long--term temperature relationship there was still some long--term covariance between the temperature and the \gls{cr} count. In addition, without using the de-trended, 24-hr smoothed data as the value for the values of $N_0$ and $T_0$, we found that after the corrections, there existed jumps between days; this method ensured that there was a smooth transition in the corrected data between days.
+
+The above procedure was adopted because during the initial temperature corrections, it was found that without removing the long-term temperature relationship there was still some long-term covariance between the temperature and the \gls{cr} count. In addition, we found that the previous correction procedure induced jumps in the data between days; this method of using smoothed data as the values of $N_0$ and $T_0$ ensured that there was a smooth transition in the corrected data between days.
 
 Using the theory outlined in Section~\ref{sec:HS_P_corr} we were able to perform the barometric correction of the singles data and coincidences data, whereby a linear fit was made using the model defined by equation~(\ref{eq:presscorr3}). Similarly, the barometric correction was performed over durations of 1-month at a time.
 
-For reasons discussed in Section~\ref{sec:HS_14008_atmospheric_correction} the temperature correction was, in practise, only applied to the singles data. When correcting the atmospheric effects on the singles data, the temperature correction process was performed first and was followed by the pressure correction process.
+For reasons discussed in Section~\ref{sec:HS_14008_atmospheric_correction} the temperature correction was, in practice, only applied to the singles data. When correcting the atmospheric effects on the singles data, the temperature correction was performed first and was followed by the pressure correction.
 
 
 
@@ -294,7 +307,7 @@ P(k; \, \lambda) = \frac{\lambda^k \, e^{-\lambda}}{k!} \, ,
 \label{eq:poisson_PDF}
 \end{equation}
 %
-where $k$ is the number of events, which is always an integer, and $\lambda$ is the mean value of the number of events per interval, i.e. the expected number \citep{lista_statistical_2016}. Under the Poisson distribution, the mean and the variance are both equal to $\lambda$. For a large value of $\lambda$, the Poisson distribution can be approximated with a Gaussian distribution having mean, $\lambda$, and standard deviation, $\sqrt{\lambda}$ \citep{lista_statistical_2016}.
+where $k$ is the number of events, which is always an integer, and $\lambda$ is the mean value of the number of events per interval, i.e. the expected number \citep{lista_statistical_2016}. Under the Poisson distribution, the mean and the variance are both equal to $\lambda$. For a large value of $\lambda$, the Poisson distribution can be approximated by a Gaussian distribution having mean, $\lambda$, and standard deviation, $\sqrt{\lambda}$ \citep{lista_statistical_2016}.
 
 The Poisson distribution is also additive such that if two variables, $n_1$ and $n_2$, follow Poisson distributions, with mean values $\lambda_1$ and $\lambda_2$, respectively, then the sum also follows a Poisson distribution:
 
@@ -307,42 +320,44 @@ P(n; \, \lambda_1, \lambda_2) = P(n; \, \lambda_1 + \lambda_2) \, ,
 %
 where $n = n_1 + n_2$ \citep{lista_statistical_2016}.
 
-Using this information, it was possible to use a sampling algorithm to determine the mean level and noise of the \gls{hisparc} 14008 station's data. With this knowledge artificial data was created, to simulate the detector's response to space weather events as a further study of the capabilities of the new station configuration. 
+Using this information, it was possible to use a sampling algorithm to determine the mean level and noise of the \gls{hisparc} 14008 station's data. With this knowledge artificial data were created, to simulate the detector's response to space weather events as a further study of the capabilities of the new station configuration. 
 
-To test the station's performance artificial data was generated using the method discussed in Appendix~\ref{app:GLE_sims}, to simulate the mean count rate and noise properties of the station. It was possible to inject \glspl{gle} into the artificial data with differing properties, to determine the likelihood of observing such events.
+To test the station's performance artificial data were generated using the method discussed in Appendix~\ref{app:GLE_sims}, to simulate the mean count rate and noise properties of the station. It was possible to inject \glspl{gle} into the artificial data with differing properties, to determine the likelihood of observing such events.
 
-During the analysis of simulated data, we used a series of statistical tests to determine whether we could observe the injected \glspl{gle}. We can use the fact that count data follow a Poisson distribution to compute the probability of statistically significant spikes in the data. The Poisson cumulative distribution function is given by:
+During the analysis of simulated data, we used a series of statistical tests to determine whether we could observe the injected \glspl{gle}. We used the fact that count data obey a Poisson distribution to compute the probability of statistically significant spikes in the data. The Poisson cumulative distribution function is given by:
 
 \begin{equation}
-F(k; \, \lambda) = \sum_{i=0}^{k}  \frac{\lambda^i \, e^{-\lambda}}{i!} \, ,
+F(k; \, \lambda) = \sum_{i=0}^{k}  \frac{\lambda^i \, e^{-\lambda}}{i!} \, .
 \label{eq:poisson_CDF}
 \end{equation}
 
 
-Using this expression, the probability that a cadence observes $k$ or more events, given the mean level, $\lambda$, is therefore given by: 
+Using this expression, the probability that a time interval observes $k$ or more events, by chance, given the mean level, $\lambda$, is therefore given by: 
 
 \begin{equation}
 p(k) = 1 \, - \, F(k-1; \, \lambda) \, .
 \label{eq:poisson_SF}
 \end{equation}
 
-If $k\gg\lambda$ then $p(k)\to0$. The probability that we fail to observe a cadence with $k$ or more events is: $1 \, - \, p(k)$; thus the probability of failing to observe any cadence with $k$ or more events in $N$-cadences is $[1 \, - \, p(k)]^N$. Therefore the probability to find at least one event at or above $k$ in N-cadences is:
+If $k\gg\lambda$ then $p(k)\to0$. The probability that we fail to observe a cadence with $k$ or more events is: $1 \, - \, p(k)$; thus the probability of failing to observe any time interval with $k$ or more events in $N$-cadences is $[1 \, - \, p(k)]^N$. Therefore the probability to find at least one event at or above $k$ in N-cadences, by chance, is:
 
 \begin{equation}
 p_N = 1\, - \, [1 \, - \, p(k)]^N \, ,
 \label{eq:poisson_p_N}
 \end{equation}
 %
-where a low value for $p_N$ indicates that the observed event is considered statistically significant.
+where a low value for $p_N$ indicates that the observed event is very unlikely to happen by chance alone, and therefore a potential detection.
 
-This can be generalised using the cumulative binomial distribution \citep{basu_asteroseismic_2017}. The probability of finding at least $r$ occurrences in $N$-cadences at or above $k$, given the mean level, $\lambda$, is given by equation~(\ref{eq:poisson_binom_CDF}), which is equal to equation~(\ref{eq:poisson_p_N}) when $r=1$,
+This can be generalised using the cumulative binomial distribution \citep{basu_asteroseismic_2017}. The probability of finding at least $r$ occurrences in $N$-cadences, by chance, at or above $k$, given the mean level, $\lambda$, is given by equation~(\ref{eq:poisson_binom_CDF}), which is equal to equation~(\ref{eq:poisson_p_N}) when $r=1$,
 
 \begin{equation}
 p[r; p(k), N] = \sum_{r=r}^{N} \binom{N}{r} \, p(k)^r \, [1 \, - \, p(k)]^{N-r} \, .
 \label{eq:poisson_binom_CDF}
 \end{equation}
 
-By applying equation~(\ref{eq:poisson_binom_CDF}) to the data, we were able to test whether there were any significant events. Again, a low value for $p[r; p(\lambda), N]$ indicates that the event is statistically significant.
+By applying equation~(\ref{eq:poisson_binom_CDF}) to the data, we were able to test whether there were any significant events against a certain probability threshold. Again, a low value for $p[r; p(\lambda), N]$ indicates that the event is very unlikely to happen by chance alone, and therefore a potential detection. The chosen probability threshold during all tests was 10\%, as this represents a 10\% chance to observe an excessive measurement as a statistical fluctuation.
+
+The choice of $N$ in this binomial test varies the required measurement threshold \citep{basu_asteroseismic_2017}. In the tests performed we chose a value of $N=720$ (i.e. $\sim2$~hours for measurements with a 10-send cadence). This value of $N$ was chosen as it is approximately the average \gls{fwhm} for \glspl{gle} \citep{strauss_pulse_2017}. In a 48-hour window, observing with a cadence of 10-seconds, we have $n=17280$ total points; however, using $N=720$ gives $n/N\approx24$ independent time-windows to test. On average, we would therefore expect to measure approximately $0.1 \times 24 \simeq 2.4$ points exceeding the threshold due to statistical fluctuations. These represent unwanted, false-positive detections, but allow us to judge whether there is any potential significance in a given data set, depending on how the number of excessive measurements compares to this level.
 
 
 Another frequentist test that was used makes use of the assumption that the Poisson distribution tends towards a Gaussian distribution when the mean value is sufficiently large. An excess in counts, compared to the mean value, can be quantified as:
@@ -363,7 +378,8 @@ Z = \frac{s}{\sigma} \, ,
 %
 where $\sigma$ is the expected standard deviation, which for a Poisson distribution is $\sqrt{\lambda}$. In this work we used both $Z = 3$ and $Z = 5$ significance levels to determine the existence of excess signals.
 
-As a further test we also analysed re-sampled versions of the artificial data. This allowed us to reduce the Poisson noise, with the ambition of reducing the noise such to allow us to observe lower amplitude space weather events. We also ran the statistics tests on 1-minute and 5-minutes averages of the artificial data. The statistics tests were run under the same underlying principals, however instead of using the Poisson cumulative distribution in equation~(\ref{eq:poisson_SF}), we instead used the Gaussian cumulative distribution for the averaged data with mean, $\mu = \lambda$, and standard deviation, $\sigma = \sqrt{\lambda/n}$, where $n$ represents the number of data points used in the average. Similarly, using the Gaussian distribution with mean, $\mu = \lambda$, and  standard deviation, $\sigma = \sqrt{\lambda/n}$, in equation~(\ref{eq:poisson_significance}).
+%As a further test we also analysed re-sampled versions of the artificial data. This allowed us to reduce the Poisson noise, with the ambition of reducing the noise such to allow us to observe lower amplitude space weather events. 
+We also ran the statistics tests on 1-minute and 5-minutes averages of the artificial data. The statistics tests were run with the same underlying principles; however, instead of using the Poisson cumulative distribution in equation~(\ref{eq:poisson_SF}), we instead used the Gaussian cumulative distribution for the averaged data with mean, $\mu = \lambda$, and standard deviation, $\sigma = \sqrt{\lambda/n}$, where $n$ represents the number of data points used in the average. %Similarly, using the Gaussian distribution with mean, $\mu = \lambda$, and  standard deviation, $\sigma = \sqrt{\lambda/n}$, in equation~(\ref{eq:poisson_significance}).
 
 
 
@@ -375,7 +391,7 @@ As a further test we also analysed re-sampled versions of the artificial data. T
 
 \subsection{Temperature Correction}\label{sec:HS_14008_T_corr}
 
-Using the method outlined in Section~\ref{sec:HS_14008_methods} we applied the temperature correction. The temperature correction was first applied between the coincidences data and the temperature measured inside the roof box. The typical relationship between the data is shown for a single day in Figure~\ref{fig:14008_coincidences_v_T_corr}.
+Using the method outlined in Section~\ref{sec:HS_14008_methods} we applied the temperature correction. The temperature correction was first applied between the coincidences data and the temperature measured inside the roof box. The typical relationship between the data and the temperature is shown for a single day in Figure~\ref{fig:14008_coincidences_v_T_corr}.
 
 \begin{figure}[ht!]
 	\centering
@@ -387,12 +403,12 @@ Using the method outlined in Section~\ref{sec:HS_14008_methods} we applied the t
 		\includegraphics[width=0.48\columnwidth]{fit_coincidences_v_T.pdf}
 		\label{fig:HS_14008_coincidences_alpha}} \\
 	
-	\caption{The relationship between the full coincidences data and the temperature within the roof box over a single day. (a) Shows the comparison between coincidences data (blue) and temperature data (orange); (b) shows the correlation between the coincidences counts and temperature, and the fitted line to calculate the correction coefficient.}
+	\caption{The relationship between the original coincidences data and the temperature within the roof box over a single day. (a) Shows the comparison between coincidences data (orange) and temperature data (blue); (b) shows the correlation between the coincidences counts and temperature, and the fitted line to calculate the correction coefficient.}
 	\label{fig:14008_coincidences_v_T_corr}
 \end{figure}
 
-We see from Figure~\ref{fig:14008_coincidences_v_T_corr} that there is a weak correlation between the temperature within the roof box and the \gls{cr} counts. Noting the common adage, that correlation does not necessarily imply causation, is important here in this case of weak correlation. We believe that the relationship between the coincidences and the temperature in the roof box is likely not causal. For this relationship to be causal, we require the increase in temperature of the \glspl{pmt} to cause an increase in count rate in the coincidences. We show later in Section~\ref{sec:HS_14008_observations} that the \gls{pmt} thermal noise, which has a strong diurnal component, does not bleed through into the noise on the coincidences data. We believe the weak correlation is a consequence of the rotation of the Earth meaning detectors look in
-different directions over the course of a day with a rise in temperature and \gls{cr} counts at local noon. There is an increase in temperature around local noon as the Sun is overhead of the station, and the variation in the \gls{cr} anisotropy in the interplanetary causes a diurnal variation which is maximal when the detector is aligned with the Sun. We concluded that it was therefore not necessary to correct the coincidences data for the effects of temperature.
+We see from Figure~\ref{fig:14008_coincidences_v_T_corr} that there is a weak correlation between the temperature within the roof box and the \gls{cr} counts. Noting the common adage: correlation does not necessarily imply causation, we do not expect that the relationship between the coincidences and the temperature is causal. For this relationship to be causal, we require the increase in temperature of the \glspl{pmt} to cause an increase in count rate in the coincidences. We show later in Section~\ref{sec:HS_14008_observations} that the \gls{pmt} thermal noise, which has a strong diurnal component, does not bleed through into the noise on the coincidences data. The weak correlation is a consequence of the rotation of the Earth meaning detectors look in
+different directions over the course of a day with a rise in temperature and \gls{cr} counts at local noon \citep{parker_theory_1964, mishra_study_2007, mishra_cosmic_2008}. There is an increase in temperature around local noon as the Sun is overhead of the station, and the variation in the \gls{cr} anisotropy in the interplanetary space causes a diurnal variation which is maximal when the detector is aligned with the Sun. We concluded that it was therefore not necessary to correct the coincidences data for the effects of temperature.
 
 
 It was necessary to correct the singles data for the effects of temperature; this was one of the main reasons for introducing the measure of temperature within the roof box. One can see the relationship between the singles rates and the temperature in Figure~\ref{fig:HS_14008_temperature_vs_CR}.
@@ -400,12 +416,12 @@ It was necessary to correct the singles data for the effects of temperature; thi
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=0.7\columnwidth]{HS_14008_CR_v_T_sept2020.pdf}
-	\caption{The relationship between the full singles data (blue and orange lines) and the temperature within the roof box (black line).}
+	\caption{The relationship between the singles data (blue and orange lines) and the temperature within the roof box (black line).}
 	\label{fig:HS_14008_temperature_vs_CR}
 \end{figure}
 
 
-Figure~\ref{fig:HS_14008_temperature_vs_CR} shows a strong relationship between the temperature inside the roof box (i.e. effectively the temperature of the \glspl{pmt}) and the singles count rates. As expected, the \glspl{pmt} were sensitive to thermal variations, which induced thermal noise, and here we can see this is well--demonstrated. We showed in Chapter~\ref{chap:HiSPARC} that the atmospheric temperature was useful for correcting for the temperature variations in the singles rates, but not completely effective. The reason was because the temperature within the roof box is not the same as the atmospheric temperature. The typical relationship between the singles data and temperature of the \gls{pmt} is shown for a single day in Figure~\ref{fig:14008_CR_V_T_corr}.
+Figure~\ref{fig:HS_14008_temperature_vs_CR} shows a strong relationship between the temperature inside the roof box (i.e. effectively the temperature of the \glspl{pmt}) and the singles count rates. As expected, the \glspl{pmt} were sensitive to thermal variations, which induced thermal noise, and here we can see this is well-demonstrated. We showed in Chapter~\ref{chap:HiSPARC} that the atmospheric temperature was useful for correcting for the temperature variations in the singles rates, but not completely effective. The reason was because the temperature within the roof box is not the same as the atmospheric temperature. The typical relationship between the singles data and temperature of the \gls{pmt} is shown for a single day in Figure~\ref{fig:14008_CR_V_T_corr}.
 
 \begin{figure}[ht!]
 	\centering
@@ -417,28 +433,28 @@ Figure~\ref{fig:HS_14008_temperature_vs_CR} shows a strong relationship between 
 		\includegraphics[width=0.48\columnwidth]{fit_CR_v_T.pdf}
 		\label{fig:HS_14008_alpha}} \\
 	
-	\caption{The relationship between the singles data and the temperature within the roof box over a single day. (a) Shows the comparison between singles data (blue) and temperature data (orange); (b) shows the correlation between the singles counts and temperature, and the fitted line to calculate the correction coefficient.}
+	\caption{The relationship between the singles data and the temperature within the roof box over a single day. (a) Shows the comparison between singles data (orange) and temperature data (blue); (b) shows the correlation between the singles counts and temperature, and the fitted line to calculate the correction coefficient.}
 	\label{fig:14008_CR_V_T_corr}
 \end{figure}
 
-The relationship between the singles data and the temperature inside the roof box is much stronger than the relationship between the atmospheric temperature and singles data, which was shown in Chapter~\ref{chap:HiSPARC}. The temperature correction was applied using the linear fit between the singles data and the temperature inside the roof box. For comparison, and to show the success of this method at removing the temperature variation in the singles data, the raw and corrected singles data are shown in together in Figure~\ref{fig:HS_14008_corrected_singles}. 
+The relationship between the singles data and the temperature inside the roof box is much stronger than the relationship between the atmospheric temperature and singles data, which was shown in Chapter~\ref{chap:HiSPARC}. The temperature correction was applied using the linear fit between the singles data and the temperature inside the roof box. For comparison, and to show the success of this method at removing the temperature variation in the singles data, an example of the raw and corrected singles data are shown in together in Figure~\ref{fig:HS_14008_corrected_singles}. 
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[width=0.7\columnwidth]{raw_vs_corrected_singles.pdf}
-	\caption{The singles data before (orange line) and after (blue line) the temperature correction process. The hourly resampled data are over--plotted to highlight the main variation in the data.}
+	\includegraphics[width=0.6\columnwidth]{raw_vs_corrected_singles.pdf}
+	\caption{The singles data before (orange line) and after (blue line) the temperature correction process. The hourly resampled data are over-plotted to highlight the main variation in the data.}
 	\label{fig:HS_14008_corrected_singles}
 \end{figure}
 
-In Figure~\ref{fig:HS_14008_corrected_singles} we see that the large, diurnal excursions are adequately removed from the singles data after this correction method. This method of temperature correction was routinely applied to the singles data. However, the corrected data was not stored on the \gls{hisparc} servers.
+In Figure~\ref{fig:HS_14008_corrected_singles} we see that the large, diurnal excursions are adequately removed from the singles data after this correction. This method of temperature correction was routinely applied to the singles data. %However, the corrected data were not stored on the \gls{hisparc} servers.
 
 
-An additional benefit of the temperature monitor in the box of station 14008 was that it was also suitable for providing an estimate of the temperature inside the roof-boxes of the detectors that make up \gls{hisparc} station 14001; hence the temperatures of those \glspl{pmt}. Both station 14001 and station 14008 are located on the roof of Poynting physics building at University of Birmingham, therefore they are exposed to the same meteorological conditions and it is likely that the temperature inside one box is similar to the temperature inside each box. Figure~\ref{fig:HS_14008_14001_vs_T} shows a comparison between the the singles of the two stations, and the temperature within the box of station 14008.
+An additional benefit of the temperature monitor in the box of station 14008 was that it was also suitable for providing an estimate of the temperature inside the roof-boxes of the detectors that make up \gls{hisparc} station 14001; hence the temperatures of those \glspl{pmt}. Both station 14001 and station 14008 are located on the roof of Poynting physics building at University of Birmingham, therefore they are exposed to the same meteorological conditions and it is likely that the temperature inside one box is similar to the temperature inside each box. Figure~\ref{fig:HS_14008_14001_vs_T} shows a comparison between the singles of the two stations, and the temperature within the box of station 14008.
 
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[width=0.9\columnwidth]{HS_14008_vs_14001_and_temp.pdf}
+	\includegraphics[width=0.8\columnwidth]{HS_14008_vs_14001_and_temp.pdf}
 	\caption{Comparison between HiSPARC station 14001 singles data and the singles data and temperature measured by station 14008. Black line: the temperature within the roof box of station 14008; dashed, blue line: HiSPARC station 14008 singles data; solid, orange, green, red, and purple lines: HiSPARC station 14001 singles data.}
 	\label{fig:HS_14008_14001_vs_T}
 \end{figure}
@@ -465,9 +481,10 @@ Using the method outlined in Section~\ref{sec:HS_14008_methods} we were able to 
 		\includegraphics[width=0.48\columnwidth]{fit_CR_v_P.pdf}
 		\label{fig:HS_14008_beta}} \\
 	
-	\caption{The relationship between the smoothed, full coincidences data and the atmospheric pressure. (a) Shows the comparison between coincidences data (blue) and pressure data (orange), both with a 12-hour box-bar smoothing applied, to highlight the relationship; (b) shows the correlation between the coincidences counts and pressure, (blue points) and the fitted line (orange) to calculate the correction coefficient.}
+	\caption{The relationship between the smoothed, original coincidences data and the atmospheric pressure. (a) Shows the comparison between coincidences data (orange) and pressure data (blue), both with a 12-hour box-bar smoothing applied, to highlight the relationship; (b) shows the correlation between the coincidences counts and pressure and the fitted line to calculate the correction coefficient.}
 	\label{fig:14008_CR_V_P_corr}
 \end{figure}
+
 
 
 As expected, Figure~\ref{fig:14008_CR_V_P_corr} shows the strong negative correlation between \gls{cr} counts and atmospheric pressure. We were able to fit the linear model to the observed data, and the negative barometric coefficient was used to correct the data. For comparison, and to show the success of this method at removing the pressure variation, the raw and corrected coincidences data are shown in Figure~\ref{fig:HS_14008_corrected_coincidences}. It is clear from Figure~\ref{fig:HS_14008_corrected_coincidences} that the large excursions are adequately removed from the data after the correction.
@@ -476,12 +493,12 @@ As expected, Figure~\ref{fig:14008_CR_V_P_corr} shows the strong negative correl
 \begin{figure}[htbp!]
 	\centering
 	\includegraphics[width=0.7\columnwidth]{raw_vs_corrected_coincidences.pdf}
-	\caption{Showing the coincidences data before (orange line) and after (blue line) the barometric correction. The hourly resampled data are over--plotted to highlight the main variation in the data.}
+	\caption{Showing the coincidences data before (orange line) and after (blue line) the barometric correction. The hourly resampled data are over-plotted to highlight the main variation in the data.}
 	\label{fig:HS_14008_corrected_coincidences}
 \end{figure}
 
 
-This method of barometric correction was routinely applied to coincidences data and singles data, to remove the barometric effect from the data acquired in this configuration. However, this data was not stored on the Raspberry Pi or local servers.
+This method of barometric correction was routinely applied to coincidences data and singles data, to remove the barometric effect from the data acquired in this configuration. %However, these data were not stored on the Raspberry Pi or local servers.
 
 
 
@@ -492,7 +509,7 @@ This method of barometric correction was routinely applied to coincidences data 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Observations}\label{sec:HS_14008_observations}
 
-From the \gls{corsika} \gls{as} simulations performed in Chapter~\ref{chap:HiSPARC}, we predicted a ground level muon rate passing through a single \gls{hisparc} detector of $\sim 85 \, \upmu/\mathrm{s}$ (for non-vertical, i.e. $70^\circ$ acceptance cone simulations), and $160 \, \upmu/\mathrm{s}$ (for vertical simulations). These rates were comparable to the generally accepted, average ground level muon flux on the order of $\sim 70 \, \mathrm{m}^{-2}\,\mathrm{s}^{-1}\,\mathrm{sr}^{-1}$ \citep{cecchini_cosmic_2000, blackmore_terrestrial_2015, pereira_ground_2020, particle_data_group_review_2020}.
+From the \gls{corsika} air shower simulations performed in Chapter~\ref{chap:HiSPARC}, we predicted an approximate ground level muon rate passing through a single \gls{hisparc} detector of $\sim 85 \, \upmu/\mathrm{s}$ (for non-vertical, i.e. $70^\circ$ acceptance cone simulations), and $160 \, \upmu/\mathrm{s}$ (for vertical simulations). These rates were comparable to the generally accepted, average ground level muon flux on the order of $\sim 70 \, \mathrm{m}^{-2}\,\mathrm{s}^{-1}\,\mathrm{sr}^{-1}$ \citep{cecchini_cosmic_2000, blackmore_terrestrial_2015, pereira_ground_2020, particle_data_group_review_2020}.
 
 %(do this by integrating under curve, using 70-degree half-angle cone for solid angle, and area of 0.5m2)
 % i.e. in python doing doing:
@@ -502,17 +519,18 @@ From the \gls{corsika} \gls{as} simulations performed in Chapter~\ref{chap:HiSPA
 % area = 0.5
 % rate_v = v*sr*area
 
-In Figure~\ref{fig:corrected_coinciences} we show the corrected, full coincidence data for a typical day. In this plot we can see the diurnal effect. The diurnal effect measured here induced a variation in the \gls{cr} count between $\sim1-2~\%$, which is larger than the $\sim0.5~\%$ diurnal variation, discussed in the literature \citep{mishra_study_2007, mishra_cosmic_2008, dubey_cosmic_2016, thomas_decadal_2017}, but is significantly lower than the variation observed in the \gls{hisparc} events and singles data in Chapter~\ref{chap:HiSPARC}. For any given epoch, the diurnal effect can be removed, if necessary, by de-trending the data with a 12- or 24-hour box-car smoothing, which is also shown in Figure~\ref{fig:corrected_coinciences}.
+In Figure~\ref{fig:corrected_coinciences} we show the corrected, original coincidence data for a typical day. In this plot we can see the diurnal effect. The diurnal effect measured here induced a variation in the \gls{cr} count between $\sim1-2~\%$, which is larger than the $\sim0.5~\%$ diurnal variation, discussed in the literature \citep{mishra_study_2007, mishra_cosmic_2008, dubey_cosmic_2016, thomas_decadal_2017}, but is significantly lower than the variation observed in the standard \gls{hisparc} events and singles data in Chapter~\ref{chap:HiSPARC}. For any given epoch, the diurnal effect can be removed, if necessary, by subtracting a smoothed time series.%, which is also shown in Figure~\ref{fig:corrected_coinciences}.
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[width=\columnwidth]{many_day_diurnal_effect_timeseries.pdf}
-	\caption{Time series of coincidences data, corrected for atmospheric pressure. The blue line shows the corrected data displaying the diurnal variation with a peaks at around midday. The orange line shows the corrected coincidences de-trended using a 12-hour smoothing window, to remove the diurnal effect.}
+	%\includegraphics[width=\columnwidth]{many_day_diurnal_effect_timeseries.pdf}
+	\includegraphics[width=\columnwidth]{diurnal_timeseries.pdf}
+	\caption{Time series of coincidences data, corrected for atmospheric pressure. The blue line shows the corrected data displaying the diurnal variation with peaks at around midday. The orange line shows the data smoothed using a 6-hour box-car.}
 	\label{fig:corrected_coinciences}
 \end{figure}
 
 
-As the counts follow a Poisson distribution we sampled the data using the {\verb pymc3 } \gls{nuts} extension to a \gls{hmc} sampling algorithm \citep{salvatier_probabilistic_2016} with a Poisson distribution likelihood function. This allowed us to determine the mean count rate. Convergence was interrogated using the $\widehat{R}$ diagnostic factor using the criteria that chains did not converge if $\widehat{R} > 1.01$. 
+As the counts follow a Poisson distribution we sampled the data using the {\verb pymc3 } \gls{nuts} extension to a \gls{hmc} sampling algorithm \citep{salvatier_probabilistic_2016} with a Poisson distribution likelihood function. This allowed us to determine the mean count rate. Convergence was interrogated using the Gelman-Rubin $\widehat{R}$ diagnostic factor \citep{gelman_inference_1992} using the criteria that chains did not converge if $\widehat{R} > 1.01$. 
 
 %The distribution of the random coincidences is shown in Figure~\ref{fig:poisson_coinciences_dist}.
 %
@@ -525,10 +543,10 @@ As the counts follow a Poisson distribution we sampled the data using the {\verb
 %\end{figure}
 
 
-The median value of the posterior distribution for the mean value of the Poisson distribution of these coincidence data was $4797\pm2$~counts/min, where the uncertainties represent the $68~\%$ credible intervals either side of the median. We therefore have a count rate of $\sim80~\upmu/\mathrm{s}$ in this stacked detector configuration. This is lower than the estimates predicted in the simulations in Chapter~\ref{chap:HiSPARC}, but is close to the predicted values for the non-vertical simulations, which represent a good approximation to the true muon flux at ground level. With a count rate of count rate of $\sim80~\upmu/\mathrm{s}$, the Poisson noise is a rate of $\sim9~\upmu/\mathrm{s}$, which represents $\sim11~\%$ of the signal.
+The median value of the posterior distribution for the mean value of the Poisson distribution of these coincidence data was $4797\pm2$~counts/min, where the uncertainties represent the $68~\%$ credible intervals either side of the median. We therefore have a count rate of $\sim80~\upmu/\mathrm{s}$ in this stacked detector configuration. This agrees remarkably well with the predicted value from the non-vertical simulations in Chapter~\ref{chap:HiSPARC}, which represents a good approximation of the true muon flux at ground level. With a count rate of $\sim80~\upmu/\mathrm{s}$, the Poisson noise is a rate of $\sim9~\upmu/\mathrm{s}$, which represents $\sim11~\%$ of the signal.
 
 
-These observations have used the full coincidences data, to determine the mean count rate. These data are stored only locally, but we also acquire the reduced count rates which is stored locally and separately on the \gls{hisparc} servers. The reduced coincidences data sent to the \gls{hisparc} servers use the \gls{nim} gate signal as a trigger which reduces the count rate by a factor of $\sim 100$. The data stored locally are acquired slightly differently. As discussed in Section~\ref{sec:HS14008_data_acqusition}, the reduced counts (stored locally by the Python script) use the \gls{nim} counter to measure the rate of the external trigger signal (i.e. coincidences between the \gls{nim} gate signal, and the coincidences between the two \glspl{pmt}). The \gls{hisparc} events data use the trigger to read the events directly from the \glspl{pmt}. Due to the delays in the signal in the \gls{nim} crate configuration, we investigated both data sets to ensure that they did not differ. In Figure~\ref{fig:reduced_coincidences} we show a comparison between the reduced coincidences data stored locally and those recorded as events data in the \gls{hisparc} server.
+These observations have used the original coincidences data, to determine the mean count rate. These data are stored only locally, but we also acquire the reduced count rates which are stored locally and separately on the \gls{hisparc} servers. The reduced coincidences data sent to the \gls{hisparc} servers use the \gls{nim} gate signal as a trigger which reduces the count rate by a factor of $\sim 100$. The data stored locally are acquired slightly differently. As discussed in Section~\ref{sec:HS14008_data_acqusition}, the reduced counts (stored locally by the Python script) use the \gls{nim} counter to measure the rate of the external trigger signal (i.e. coincidences between the \gls{nim} gate signal, and the coincidences between the two \glspl{pmt}). The \gls{hisparc} events data use the trigger to read the events directly from the \glspl{pmt}. Due to the delays in the signal in the \gls{nim} crate configuration, we investigated both data sets to ensure that they did not differ. In Figure~\ref{fig:reduced_coincidences} we show a comparison between the reduced coincidences data stored locally and those recorded as events data in the \gls{hisparc} server.
 
 %\begin{figure}[ht!]
 %	\centering
@@ -543,20 +561,20 @@ These observations have used the full coincidences data, to determine the mean c
 		\includegraphics[width=0.52\columnwidth]{reduced_events_vs_coinc.pdf}
 		\label{fig:rc1}}
 	%\qquad
-	\subfloat[Distribution of full:reduced coincicdences ratio]{
+	\subfloat[Distribution of the ratio of original-to-reduced coincidences]{
 		\includegraphics[width=0.44\columnwidth]{coinc_reduction_factor.pdf}
 		\label{fig:rc2}} \\
 	
-	\caption{(a) Comparison of the reduced coincidences stored locally (orange) and as events data in the HiSPARC server (blue). (b) Distribution of the ratio of the full and reduced coincidence rates.}
+	\caption{(a) Comparison of the reduced coincidences stored locally (orange) and as events data in the HiSPARC server (blue). (b) Distribution of the ratio of the original and reduced coincidence rates.}
 	\label{fig:reduced_coincidences}
 \end{figure}
 
-The mean value of the Poisson distribution of reduced coincidences data is $\sim~44$~counts/min ($\sim 0.73 \, \upmu/\mathrm{s}$), which is a reduction by a factor of $\sim 110$ from the full coincidences data. We can see from Figure~\ref{fig:reduced_coincidences} that both the data stored locally (reduced coincidences) and the data sent to the \gls{hisparc} server (events) are in agreement, with only the realisation of the noise being different between the data. The \gls{hisparc} data acquisition software features a pre-trigger window (duration: $1 \, \upmu\mathrm{s}$), coincidence window (duration: $1.5 \, \upmu\mathrm{s}$), and a post-trigger window (duration: $3.5 \, \upmu\mathrm{s}$). The duration of these coincidence windows means that any delay on the order of $\sim 10$~ns is small and does not effect the ability of the data acquisition software to record the data from the external trigger. This verifies that the locally stored reduced coincidences data and the events data stored in the \gls{hisparc} sever are measuring the same signal, with a count rate of count rate of $\sim 0.73 \, \upmu/\mathrm{s}$.
+The mean value of the Poisson distribution of reduced coincidences data is $\sim~44$~counts/min ($\sim 0.73 \, \upmu/\mathrm{s}$), which is a reduction by a factor of $\sim 110$ from the original coincidences data. We can see from Figure~\ref{fig:reduced_coincidences} that both the data stored locally (reduced coincidences) and the data sent to the \gls{hisparc} server (events) are in agreement, with only the realisation of the noise being different between the data. The \gls{hisparc} data acquisition software features a pre-trigger window (duration: $1 \, \upmu\mathrm{s}$), coincidence window (duration: $1.5 \, \upmu\mathrm{s}$), and a post-trigger window (duration: $3.5 \, \upmu\mathrm{s}$). The duration of these coincidence windows means that any delay on the order of $\sim 10$~ns is small and does not affect the ability of the data acquisition software to record the data from the external trigger. This verifies that the locally stored reduced coincidences data and the events data stored in the \gls{hisparc} server are measuring the same signal, with a count rate of count rate of $\sim 0.73 \, \upmu/\mathrm{s}$.
 
 
-To understand the noise properties of this new configuration we investigated the random noise which is induced by random, spurious counts between both \glspl{pmt} and do not coincide with the passage of a muon. This was achieved by adding a delay in the signal between the two \glspl{pmt}, to ensure any coincident triggers were not due to true coincidences from the passage of a muon. By adding additional cables to the output from one \gls{pmt}, a delay of $\sim 120$~ns was added between the two signals. The \gls{fwhm} of a typical pulse from the \glspl{pmt} is $\sim$~25~ns, and the total duration from beginning-to-end is on the order of 100~ns \citep{van_dam_hisparc_2020}, therefore the $\sim 120$~ns delay was sufficient to remove true coincidences from the observations.
+To understand the noise properties of this new configuration we investigated the random noise which is induced by random, spurious counts between both \glspl{pmt} which do not coincide with the passage of a muon. This was achieved by adding a delay in the signal between the two \glspl{pmt}, to ensure any coincident triggers were not due to true coincidences from the passage of a muon. By adding additional cables to the output from one \gls{pmt}, a delay of $\sim 120$~ns was added between the two signals. The \gls{fwhm} of a typical pulse from the \glspl{pmt} is $\sim$~25~ns, and the total duration from beginning-to-end is on the order of 100~ns \citep{van_dam_hisparc_2020}, therefore the $\sim 120$~ns delay was sufficient to remove true coincidences from the observations.
 
-The delay was added between the two PMTs for around a week and the time series of the coincidences are shown in Figure~\ref{fig:random_coinciences}. We can see that the noise is nominally $\sim 1$~count/minute.
+The delay was added between the two PMTs for around a week and the time series of the coincidences is shown in Figure~\ref{fig:random_coinciences}. We can see that the noise is nominally $\sim 1$~count/minute.
 
 \begin{figure}[ht!]
 	\centering
@@ -565,7 +583,7 @@ The delay was added between the two PMTs for around a week and the time series o
 	\label{fig:random_coinciences}
 \end{figure}
 
-We know the noise must follow a Poisson distribution, therefore we aimed to quantify the mean value of the spurious noise. The noise was sampled to determine the mean of the Poisson distribution using the {\verb pymc3 } \gls{nuts} extension to a \gls{hmc} sampling algorithm \citep{salvatier_probabilistic_2016}. Convergence was interrogated using the $\widehat{R}$ diagnostic factor using the criteria that chains did not converge if $\widehat{R} > 1.01$. The distribution of the random coincidences is shown in Figure~\ref{fig:random_coinciences_dist}.
+We know the noise must follow a Poisson distribution, therefore we aimed to quantify the mean value of the spurious noise. The noise was sampled to determine the mean of the Poisson distribution using the {\verb pymc3 } \gls{nuts} extension to a \gls{hmc} sampling algorithm \citep{salvatier_probabilistic_2016}. Convergence was interrogated using the Gelman-Rubin $\widehat{R}$ diagnostic \citep{gelman_inference_1992} factor using the criteria that chains did not converge if $\widehat{R} > 1.01$. The distribution of the random coincidences is shown in Figure~\ref{fig:random_coinciences_dist}.
 
 \begin{figure}[ht!]
 	\centering
@@ -574,9 +592,9 @@ We know the noise must follow a Poisson distribution, therefore we aimed to quan
 	\label{fig:random_coinciences_dist}
 \end{figure}
 
-The median value of the posterior distribution for the mean value of the Poisson distribution of random coincidence is $0.259 \pm 0.006$~counts/min, where the uncertainties represent the $68 \%$ credible intervals either side of the median. This represents a small noise; under this Poisson likelihood function the probability of no noise is $\sim 77 \%$, 1~count/minute is $\sim 20 \%$, and over 2~counts/minute is $< 3 \%$.
+The median value of the sampled posterior of the mean value of the Poisson distribution of random coincidence is $0.259 \pm 0.006$~counts/min, where the uncertainties represent the $68 \%$ credible intervals either side of the median. This represents a low level of noise; under this Poisson likelihood function the probability of no noise is $\sim 77 \%$, 1~count/minute is $\sim 20 \%$, and over 2~counts/minute is $< 3 \%$.
 
-It is also important to note that in Figure~\ref{fig:random_coinciences}, there is no diurnal signal in the signal. This shows that as the \gls{pmt} thermal noise increases around midday, which we see manifesting in the singles data, the increased thermal noise does not manifest in the spurious coincidences between both \glspl{pmt}. This is important as it highlights that in this stacked detector configuration we have maximised our ability to observe single muons whilst reducing the effects of diurnal, thermally induced noise, which motivated not correcting for the weak correlation between the temperature of the \glspl{pmt} and the coincidences data.
+It is also important to note that in Figure~\ref{fig:random_coinciences}, there is no obvious diurnal pattern in the signal. This shows that as the \gls{pmt} thermal noise increases around midday, which we see manifesting in the singles data, the increased thermal noise does not manifest in the spurious coincidences between both \glspl{pmt}. This is important as it highlights that in this stacked detector configuration we have maximised our ability to observe single muons whilst reducing the effects of diurnal, thermally induced noise, which motivated not correcting for the weak correlation between the temperature of the \glspl{pmt} and the coincidences data.
 
 
 
@@ -584,9 +602,9 @@ It is also important to note that in Figure~\ref{fig:random_coinciences}, there 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Comparison with Neutron Monitors}\label{sec:HS_14008_vs_Kiel}
 
-It is useful to compare the data from this new \gls{hisparc} station to an existing \gls{nm} detector, as this can highlight whether any confirmed space weather events using the \gls{gnmn} have been observed with this new instrument. There were no space weather events from the beginning of \gls{hisparc} station 14008 operation to the time of writing; however, we still show a comparison to a nearby \gls{nm} station.
+It is useful to compare the data from this new \gls{hisparc} station to an existing \gls{nm} detector in the \gls{gnmn} \citep{mishev_current_2020}. Unfortunately, there were no space weather events from the beginning of \gls{hisparc} station 14008 operation to the time of writing; however, we still show a comparison to a nearby \gls{nm} station. %as this can highlight whether any confirmed space weather events using the \gls{gnmn} have been observed with this new instrument.
 
-The Kiel \gls{nm} station, in Germany, used in Chapter~\ref{chap:HiSPARC} had suffered difficulties with data consistency during this epoch, therefore another station was used in the analysis here. We chose to analyse the \gls{nm} count rate at, Dourbes, which is located in Belgium and is the nearest \gls{nm} to the \gls{hisparc} network, at $\sim 525$~km away from station 14008 in Birmingham. The properties of the Dourbes station are: $R_C$=3.18~GV, Altitude=225~m, Latitude=$50.10^{\circ}$N, Longitude=$4.59^{\circ}$E \citep{nmdb_nmdb_nodate}. In Figure~\ref{fig:14008_vs_DRBS}, a comparison is shown between the corrected \gls{hisparc} coincidences data and the Dourbes \gls{nm} station during November 2020.
+The Kiel \gls{nm} station, in Germany, used in Chapter~\ref{chap:HiSPARC} had suffered difficulties with data consistency during this epoch, therefore another station was used in the analysis here. We chose to analyse the \gls{nm} count rate at Dourbes, which is located in Belgium and is the nearest \gls{nm} to the \gls{hisparc} network, at $\sim 525$~km away from station 14008 in Birmingham. The properties of the Dourbes station are: $R_C$=3.18~GV, Altitude=225~m, Latitude=$50.10^{\circ}$N, Longitude=$4.59^{\circ}$E \citep{nmdb_nmdb_nodate}. In Figure~\ref{fig:14008_vs_DRBS}, a comparison is shown between the corrected \gls{hisparc} coincidences data and the Dourbes \gls{nm} station during November 2020.
 
 \begin{figure}[ht!]
 	\centering
@@ -604,52 +622,63 @@ The Kiel \gls{nm} station, in Germany, used in Chapter~\ref{chap:HiSPARC} had su
 \end{figure}
 
 
-The plots in Figure~\ref{fig:14008_vs_DRBS} show a good visual agreement between the two detectors. Despite a good visual agreement, the Pearson correlation coefficient was $\rho \sim 0.08$, highlighting that there was no correlation between the two stations, at the 2-minute level. When resampling the data to 1-hour and 1-day the correlation increased to $\rho \sim 0.38$ and $\rho \sim 0.41$, respectively. This showed a weak, low frequency correlation between the two stations. This weak correlation showed the two stations monitor approximately the same background \gls{cr} signal, which is relatively flat as the solar activity is low, therefore contributions from \glspl{scr} is low. At the 2-minute level, the near--zero correlation demonstrates that the variations in the two signals are dominated by noise and there was no covarying signal.
+The plots in Figure~\ref{fig:14008_vs_DRBS} show a good visual agreement between the two detectors. Despite a good visual agreement, the Pearson correlation coefficient was $\rho \sim 0.08$, highlighting that there was no correlation between the two stations, at the 2-minute level. When resampling the data to 1-hour and 1-day the correlation increased to $\rho \sim 0.38$ and $\rho \sim 0.41$, respectively. This showed a weak, low frequency correlation between the two stations. This weak correlation showed the two stations monitor approximately the same background \gls{cr} signal, which is relatively flat as the solar activity is low, therefore contributions from \glspl{scr} are low. At the 2-minute level, the near-zero correlation demonstrates that the variations in the two signals are dominated by noise and there was no covarying signal.
 
-This comparative analysis should be continually monitored, and particularly used as a reference when any space weather events are recorded with the \gls{gnmn}. As it is the closest \gls{nm} to the \gls{hisparc} 14008 detector in Birmingham, it is useful to continue using the Dourbes \gls{nm} station, but also to incorporate the use of data from the Kiel \gls{nm} station, when issues with data quality are resolved. Near the maximum of Solar Cycle 25, expected 2023 -- 2026, and likely to arrive in 2025 \citep{mcintosh_overlapping_2020, pesnell_lessons_2020}, we would expect the correlation to grow as the number of \glspl{sep} increases. It is therefore important that this configuration of \gls{hisparc} detector is maintained until at least 2026, to ensure a complete study is performed when solar activity and space weather activity is high.
+This comparative analysis should be continually monitored, and particularly used as a reference when any space weather events are recorded with the \gls{gnmn}. As it is the closest \gls{nm} to the \gls{hisparc} 14008 detector in Birmingham, it is useful to continue using the Dourbes \gls{nm} station, but also to incorporate the use of data from the Kiel \gls{nm} station, when issues with data quality are resolved. Near the maximum of Solar Cycle 25, expected 2023--2026, and likely to arrive in 2025 \citep{mcintosh_overlapping_2020, pesnell_lessons_2020}, we would expect the correlation to grow as the number of \glspl{sep} increases. It is therefore important that this configuration of \gls{hisparc} detector is maintained until at least 2026, to ensure a complete study is performed when solar activity and space weather activity is high.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Single Station Space Weather Uses}\label{sec:HS_14008_single_sims}
 
-Simulations of artificial data were performed to determine the magnitude of \glspl{gle} that may be observed in this new detector configuration, as described in Section~\ref{sec:HS_14008_method_obs}. As we have shown, the \gls{hisparc} 14008 station has a background, mean count rate, $\lambda\sim80~\upmu/\mathrm{s}$, and a noise of $\sigma\sim0.26~\upmu/\mathrm{min}$. These were used as inputs to the simulations, where \glspl{gle} were simulated with amplitudes of: $1.0\%$--$5.0\%$, in steps of $0.5\%$, and  $7.5\%$ and $10.0\%$. The artificial data were crated using the method in Appendix~\ref{app:GLE_sims} and the statistics tests performed on the resultant data.
+Simulations of artificial data were performed to determine the magnitude of \glspl{gle} that may be observed in this new detector configuration, as described in Section~\ref{sec:HS_14008_method_obs}. We have shown the \gls{hisparc} 14008 station has a background, mean count rate, $\lambda\sim80~\upmu/\mathrm{s}$, and a noise of $\sigma\sim0.26~\upmu/\mathrm{min}$ (i.e. $\sim0.004~\upmu/\mathrm{s}$). These were used as inputs to the simulations, where \glspl{gle} were simulated with amplitudes of: $1.0\%$--$5.0\%$, in intervals of $0.5\%$. In addition, we simulated \glspl{gle} with amplitudes of: $7.5\%$ and $10.0\%$. The artificial data were created using the method in Appendix~\ref{app:GLE_sims} and the statistics tests performed on the resultant data.
 
-Running several iterations, it was possible to analyse the statistics of the resultant data for each amplitude of \gls{gle}, compared to the background signal/mean count rate of the detector, without a \gls{gle} signal. An example of the output from the statistical tests on a single iteration is shown in Figure~\ref{fig:simulated_data_stats}, for a $10 \%$ \gls{gle} magnitude and a table showing the average number of statistically significant measurements for a simulation without an injected \gls{gle} is shown in Table~\ref{tab:HS_14008_sims_zeros}.
+Running several iterations, it was possible to analyse the statistics for each amplitude of \gls{gle}, compared to the background signal/mean count rate of the detector, without a \gls{gle}. An example of the output from the statistical tests on a single iteration is shown in Figure~\ref{fig:simulated_data_stats}, for a $10 \%$ \gls{gle} magnitude. Table~\ref{tab:HS_14008_sims_zeros} shows the average number of measurements exceeding the various thresholds for simulations without any injected \glspl{gle}.
 
 
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=0.9\columnwidth]{simulated_data_stats.pdf}
-	\caption{Single realisation of a simulation with a $10\%$ \gls{gle} magnitude. Top panel shows the raw, artificial data from the simulation, with a 10-second cadence. Middle panel shows the number of measurements exceeding the $Z=3$ and $Z=5$ thresholds. The $Z=3$ and $Z=5$ thresholds are depicted as dotted and dashed lines, respectively. Bottom panel shows the number of points exceeding the $p = 10 \%$ threshold in the binomial test, where a low probability value indicates a high statistical significance. The dashed line shows the $p = 10 \%$ threshold.}
+	\caption{Single realisation of a simulation with a $10\%$ \gls{gle} magnitude. Top panel shows the raw, artificial data from the simulation, with a 10-second cadence. Middle panel shows the number of measurements exceeding the $Z=3$ and $Z=5$ thresholds. The $Z=3$ and $Z=5$ thresholds are depicted as dotted and dashed lines, respectively. Bottom panel shows the number of points exceeding the $p = 10 \%$ threshold in the binomial test, where a low probability value indicates a high chance the measurement is not statistical fluctuation. The dashed line shows the $p = 10 \%$ threshold.}
 	\label{fig:simulated_data_stats}
 \end{figure}
 
-In the artificial data, we used the number of statistically significant measurements to warn whether there existed a possible event in the data, and closer inspection of the statistics tests verified or excluded the existence of a true event. For example, in Figure~\ref{fig:simulated_data_stats}, there were 139 points exceeding the $10 \%$ binomial limit, and 456 and 8 point above the $Z=3$ and $Z=5$ limits, respectively. This indicated the existence of an event in the data. On closer inspection it was clear from the grouping of the number of points exceeding each of the thresholds where the event occurred, at $\sim4-5$~hours.
-
+\vspace{1em}
 
 \begin{table}[ht!]
 	\begin{center}
-		\caption{Average number of statistically significant measurements in the artificial data with no injected GLEs. The values are for each of the three statistical tests: binomial, $Z=3$, and $Z=5$, for the raw data and averaging over 1-minute and 5-minutes.}
+		\caption{Median number of excessive measurements in the artificial data with no injected GLEs. The values were acquired from 1000 iterations of simulated data, performing each of the three statistical tests: binomial, $Z=3$, and $Z=5$, for the 10-s cadence data and averaging over 1-minute and 5-minutes. All uncertainties correspond to the 68\% credible intervals either side of the median.}
 		\label{tab:HS_14008_sims_zeros}
 		\begin{tabular}{c c c c}
 			\hline 
-			{} & \multicolumn{3}{c}{\bf No. significant measurements} \\ 
+			{} & \multicolumn{3}{c}{\bf No. excessive measurements} \\ 
 			{\bf Data cadence} & {\bf Binomial} & {\bf $\mathbf{Z=3}$} & {\bf $\mathbf{Z=5}$}  \\ 
 			\hline 
 			10-second & $2^{+2}_{-1}$ & $27^{+6}_{-5}$ & $0 \pm 0$ \\ 
-			1-minute & $2^{+1}_{-2}$ & $4 \pm 2$ & $0 \pm 0$ \\ 
-			5-minute & $1 \pm 1$ & $1 \pm 1$ & $0 \pm 0$ \\ 
+			1-minute & $0^{+1}_{-0}$ & $4 \pm 2$ & $0 \pm 0$ \\ 
+			5-minute & $0 \pm 0$ & $1 \pm 1$ & $0 \pm 0$ \\ 
 			\hline 
 		\end{tabular} 
 	\end{center}
 \end{table}
+%
+%10-second & $2^{+2}_{-1}$ & $27^{+6}_{-5}$ & $0 \pm 0$ \\ 
+%1-minute & $2^{+1}_{-2}$ & $4 \pm 2$ & $0 \pm 0$ \\ 
+%5-minute & $1 \pm 1$ & $1 \pm 1$ & $0 \pm 0$ \\ 
+%
+\vspace{1em}
 
-The results in Table~\ref{tab:HS_14008_sims_zeros} provide the expected number of statistically significant fluctuations in the noise for each test method applied to the raw and resampled data. For a particular two day observation, we can say that any epoch with statistically significant peaks in excess of these values can be treated as statistically significant, and likely that there was a space weather event. We expect that any measurements which exceed the $Z=5$ should clearly be treated as a significant event claim, as within two days of artificial background data, we observed no random fluctuations in the noise exceeding this level. In addition, we see that there is a large difference in the number of measurements exceeding the $Z=3$ threshold between the raw, 10-s data to 5-minute averaged data. We can be confident of observing a true event if the number of significant measurements exceeds $\sim 33$, $\sim 6$, and $\sim 2$, for the raw data, 1-minute averaged data, and 5-minute averaged data, respectively. Finally, in the case of the binomial test, the average number of statistically significant fluctuations in the noise exceeding the $10 \%$ threshold is in the range $\sim 2-4$ in two days of data. We expect that the binomial method is a good measure of the existence of a true event, due to the consistency of the sensitivity, regardless of averaging over the data. 
+Table~\ref{tab:HS_14008_sims_zeros} shows what one sees (on average) by chance, with no \glspl{gle} present. In the case of the binomial test on the raw, 10-second cadence data, we found there was a 10\% chance of observing $2^{+2}_{-1}$ or more measurements over the threshold, by chance, when using N=720 points in equation~(\ref{eq:poisson_binom_CDF}) (i.e. $\sim2$~hours). In Section~\ref{sec:HS_14008_method_obs}, we showed, on average, we would expect to measure approximately 2.4 points exceeding the threshold due to statistical fluctuations, in a 48-hour period; therefore the value in Table~\ref{tab:HS_14008_sims_zeros} agrees with the expected number. In the event of a \gls{gle}, we could claim a significant observation suing the binomial threshold if we observed over $\sim12$ measurements (i.e. over 5-$\sigma$ from the median). In particular, with the binomial test, we expect measurements of a \gls{gle} to give several excessive points close together, at the time of the \gls{gle}, and not scattered over the 48-hour period. %This value of $N$ was chosen as it is approximately the average \gls{fwhm} for \glspl{gle} \citep{strauss_pulse_2017}. In a 48-hour window, observing with a cadence of 10-seconds, we have $n=17280$ total points; however, using $N=720$ gives $n/N\approx24$ independent time-windows to test. 
+
+These results therefore allow us to judge whether there is any potential significance in a given data set, depending on how the number of measurements exceeding the thresholds compares to the values in Table~\ref{tab:HS_14008_sims_zeros}. For example, in Figure~\ref{fig:simulated_data_stats}, there were 43 points exceeding the $10 \%$ binomial limit, and 154 and 3 points above the $Z=3$ and $Z=5$ limits, respectively. This indicated the existence of significance in the data, in which a \gls{gle} was injected with a magnitude of 10\%. On closer inspection one can see the grouping of the number of points exceeding each of the thresholds where the event occurred, at $\sim5$~hours. 
+
+%With artificial data, we used the values in Table~\ref{tab:HS_14008_sims_zeros} to determine whether there existed a possible event in the data, and closer inspection of the statistics tests verified or excluded the existence of a true event. We ran several iterations of these tests to build up a picture of the \gls{gle} magnitudes we could expect to observe.
+
+With artificial data, over a given two-day period, we can say that any epoch with a number of excessive points greater than these values can be treated as statistically of interest. We expect that any measurements which exceed the $Z=5$ threshold should clearly be treated as a significant event claim, as within two days of artificial background data, we observed no random fluctuations in the noise exceeding this level. In addition, we see that there is a large difference in the number of measurements exceeding the $Z=3$ threshold between the raw, 10-s data to 5-minute averaged data. We can be confident of claiming a statistically compatible or significant event if the number of excessive measurements exceeds 3- or 5-$\sigma$. %Finally, in the case of the binomial test, the average number of statistically significant fluctuations in the noise exceeding the $10 \%$ threshold is in the range $\sim 2-4$ in two days of data.
+
+%The results in Table~\ref{tab:HS_14008_sims_zeros} provide the expected number of statistically significant fluctuations in the noise for each test method applied to the raw and resampled data. For a particular two day observation, we can say that any epoch with statistically significant peaks in excess of these values can be treated as statistically significant, and likely that there was a space weather event. We expect that any measurements which exceed the $Z=5$ should clearly be treated as a significant event claim, as within two days of artificial background data, we observed no random fluctuations in the noise exceeding this level. In addition, we see that there is a large difference in the number of measurements exceeding the $Z=3$ threshold between the raw, 10-s data to 5-minute averaged data. We can be confident of observing a true event if the number of significant measurements exceeds $\sim 33$, $\sim 6$, and $\sim 2$, for the raw data, 1-minute averaged data, and 5-minute averaged data, respectively. Finally, in the case of the binomial test, the average number of statistically significant fluctuations in the noise exceeding the $10 \%$ threshold is in the range $\sim 2-4$ in two days of data. We expect that the binomial method is a good measure of the existence of a true event, due to the consistency of the sensitivity, regardless of averaging over the data. 
 
 
-For each \gls{gle} magnitude we ran 1000 iterations of the simulations and were able to average over the number of statistically significant events observed for a given \gls{gle} magnitude. This was done for the raw, 10-s cadence data and further simulations were performed for 1-minute averaging and 5-minute averaging, independently.
-
-To summarise the results of all the simulations, Figure~\ref{fig:single_HS14008_sims} shows the average number of cadences with statistically significant measurements against the simulated \gls{gle} magnitude for the 10-s cadence observations, 1-minute and 5-minute averages. The horizontal, dashed lines show the median number of random significant observations, i.e. without an injected \gls{gle}, and the horizontal, dotted lines represent the $68 \%$ credible intervals either side of the median. Each point shows the median number of statistically significant observations for different \gls{gle} magnitudes, with error bars representing the $68 \%$ credible intervals either side of the median.
+For each \gls{gle} magnitude we ran 1000 iterations of the simulations and were able to average over the number of excessive measurements for a given \gls{gle} magnitude. In each simulation, the rise and decay times of the \glspl{gle} were randomly sampled (see Appendix~\ref{app:GLE_sims}). This was done for the raw, 10-s cadence data and further simulations were performed for 1-minute averaging and 5-minute averaging. To summarise the results of all the simulations, Figure~\ref{fig:single_HS14008_sims} shows the average number of cadences with excessive measurements against the simulated \gls{gle} magnitude for the 10-s cadence observations, 1-minute and 5-minute averages. The horizontal, dashed lines show the median number of points due to statistical fluctuations, i.e. without an injected \gls{gle}, and the horizontal, dotted lines represent the $68 \%$ credible intervals either side of the median. Each point shows the median number of excessive observations for different \gls{gle} magnitudes, also with error bars representing the $68 \%$ credible intervals either side of the median.
 
 
 \begin{figure}[!htbp!]
@@ -666,53 +695,59 @@ To summarise the results of all the simulations, Figure~\ref{fig:single_HS14008_
 		\includegraphics[width=0.48\columnwidth]{HS_14008_sims_plot_5rebin.pdf}
 		\label{fig:single_sims_5min_rebin}} \\
 	
-	\caption{Summary plots showing the number of statistically significant measurements using the binomial- and Z-tests on the simulations of artificial data with varying magnitudes of GLEs injected. (a) Shows the results for the 10-s cadence data; (b) 1-minute averaged data; (c) 5-minute averaged data. In each plot, the top panel shows the number of significant points exceeding the binomial $p = 10 \%$ threshold, the middle panel shows the number of points exceeding the Z=3 threshold, and the bottom panel shows the number of points exceeding the Z=5 threshold. In each panel the dashed, horizontal lines show the median values of the tests without an injected GLE, and the horizontal, dotted lines represent the $68 \%$ credible intervals either side of the median. For each simulated GLE magnitude the point represents the median values and the error bars represent the $68 \%$ credible intervals either side of the median.}
+	\caption{Summary plots showing the number of excessive measurements using the binomial- and Z-tests on the simulations of artificial data with varying magnitudes of GLEs injected. (a) Shows the results for the 10-s cadence data; (b) 1-minute averaged data; (c) 5-minute averaged data. In each plot, the top panel shows the number of significant points exceeding the binomial $p = 10 \%$ threshold, the middle panel shows the number of points exceeding the Z=3 threshold, and the bottom panel shows the number of points exceeding the Z=5 threshold. In each panel the dashed, horizontal lines show the median values of the tests without an injected GLE, and the horizontal, dotted lines represent the $68 \%$ credible intervals either side of the median. For each simulated GLE magnitude the point represents the median values and the error bars represent the $68 \%$ credible intervals either side of the median.}
 	\label{fig:single_HS14008_sims}
 \end{figure}
 
-We see from Figure~\ref{fig:single_HS14008_sims} that in the case where no averaging of data was performed, using the $Z=3$ significance level, we expect to be able to differentiate the increase in the number of significant measurements for a \gls{gle} with magnitude of $>3.0-3.5~\%$. Or using the binomial measure of significance, we expect to be able to differentiate the increase in the number of significant measurements for a \gls{gle} with magnitude of $>4.5-5.0~\%$. To be able to see the results clearly, we only show the results for \gls{gle} magnitudes of up to $5~\%$, and in Figure~\ref{fig:single_sims_0min_rebin}, we see using the $Z=5$ significance level, there are no significant observations for magnitudes $\leq5~\%$. In the full analysis, we investigated up to $10~\%$, and determined that at the $Z=5$ significance level we can differentiate the increase in the number of significant events for \gls{gle} magnitude of $\geq7.5~\%$. These limiting magnitudes are larger than typical magnitudes of \glspl{gle} predicted in Section~\ref{sec:MAIRE_flux}, hence shows that despite reducing non-\gls{cr} variations in the data, we are only capable of detecting the largest \glspl{gle} in the raw data acquired in this configuration.
+We see from Figure~\ref{fig:single_HS14008_sims} that in the case where no averaging of data was performed, using the $Z=3$ significance level, we begin to be able to differentiate the increase in the number of excessive measurements from simply statistical fluctuations for a \gls{gle} with magnitude of $>3.0-3.5~\%$. However, we cannot claim to have observe a statistically significant event at the $5\sigma$ level for a \gls{gle} with magnitude of $\lesssim4.0-4.5~\%$. Using the binomial test, we expect to be able to differentiate the increase in the number of significant measurements for a \gls{gle} with magnitude of $>4.5-5.0~\%$. To be able to see the results clearly, we only show the results for \gls{gle} magnitudes of up to $5~\%$, and in Figure~\ref{fig:single_sims_0min_rebin}, we see using the $Z=5$ significance level, there are no excessive measurements. In the full analysis, we investigated up to $10~\%$, and determined that at the $Z=5$ significance level we can differentiate the increase in the number of excessive events for \gls{gle} magnitude of $\geq7.5~\%$. These limiting magnitudes are larger than typical magnitudes of \glspl{gle} predicted in Section~\ref{sec:MAIRE_flux}, hence showing that despite reducing non-\gls{cr} variations in the data, we are only capable of detecting the largest \glspl{gle} in the raw data acquired in this configuration.
 
-When averaging the data over 1-minute and 5-minute intervals, the detectable \gls{gle} magnitude at the $Z=3$ significance level drops to $2.0-2.5~\%$ and $\sim1.5~\%$, respectively. Similarly, at the $Z=5$ significance level this drops to $4.5~\%$ and $2.5-3.0~\%$, respectively. Finally, using the binomial measure of significance at the $p=10~\%$ level, we expect to be able to differentiate the increase in the number of significant measurements for a \gls{gle} with magnitude of $2.0-2.5~\%$ and $\sim1.5~\%$, respectively.
+When averaging the data over 1-minute and 5-minute intervals, our ability to detect lower-magnitude \glspl{gle} improves. We can differentiate \glspl{gle} from statistical fluctuations for magnitudes of $2.0-2.5~\%$ and $\sim1.5~\%$, for 1-minute and 5-minute averaging, respectively. Similarly, at the $Z=5$ significance level this drops to $4.5-5.0~\%$ and $2.5-3.0~\%$, respectively. Finally, using the binomial test, we expect to be able to differentiate the increase in the number of excessive measurements for a \gls{gle} with magnitude of $\sim2.5~\%$ and $\sim1.5~\%$, respectively.
 
-We also note that with an increasing \gls{gle} magnitude we observe a larger spread in the average number of statistically significant points. This arises due to the random sampling of \gls{gle} properties, i.e. the rise and decay times. A \gls{gle} with a longer decay time will result in a higher number of statistically significant measurements, compared to a \gls{gle} with a shorter decay time. This effect can amplified when the magnitude of the \gls{gle} increases as the signal is more statistically significant. Therefore we see an increase in the confidence intervals for larger \gls{gle} magnitudes in Figure~\ref{fig:single_HS14008_sims}.
+We also note that with an increasing \gls{gle} magnitude we observe a larger spread in the average number of excessive points. This arises due to the random sampling of \gls{gle} properties, i.e. randomly sampling the the rise and decay times. A \gls{gle} with a longer decay time generally results in a higher number of excessive points, compared to a \gls{gle} with a shorter decay time. This effect can be amplified when the magnitude of the \gls{gle} increases as the signal is more statistically significant. Therefore we see an increase in the confidence intervals for larger \gls{gle} magnitudes in Figure~\ref{fig:single_HS14008_sims}.
 
 
 This shows that through averaging the data, we expect, with a single detector, that we should be able to detect a \gls{gle} which induces an increase in the muon count rate on the order of $1.5-2~\%$. Weighing the benefits of the increased sensitivity against the timescales observable, we recommend making use of the 1-minute averaged data rather than 5-minutes, as the durations of some space weather events can be short-lived, which makes it advantageous to not to average over an ephemeral signal; however, there is added benefit in also analysing the 5-minute averaged data, so a combination of all would be useful. In particular, the interactive \gls{gle} database tends to show data averaged over 5-minutes \citep{usoskin_database_2016}.
 
-Overall, based on the values predicted in Section~\ref{sec:MAIRE_flux}, we believe that it would have been possible to observe the increase in the muon count rate due to \gls{gle} 42, 43, and 45 with this new configuration. We have shown with the raw data we should be able to differentiate a \gls{gle} with magnitude $>3~\%$ (i.e. \gls{gle} 42) and when averaging the data into 5-minute bins, we expect to be able to observe \glspl{gle} with magnitudes $> 1.5 \%$  (i.e. \gls{gle} 43 and 45). 
+Overall, based on the values predicted in Section~\ref{sec:MAIRE_flux}, we believe that it would have been possible to observe the increase in the muon count rate due to \gls{gle} 42, 43, and 45 with this new configuration. We have shown with the raw data we should be able to differentiate a \gls{gle} with magnitude $>3.0-3.5~\%$ (i.e. \gls{gle} 42) and when averaging the data into 5-minute bins, we expect to be able to observe \glspl{gle} with magnitudes $> 1.5 \%$  (i.e. \gls{gle} 43 and 45). 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Multiple Station Space Weather Uses}\label{sec:HS_14008_multi_sims}
 
 
-Many ground-based \gls{cr} detectors typically exist as part of a network, which work together to increase their combined sensitivity. With an increasing number of stations in a network, observing the same events, the combined sensitivity increases by a factor of $\sqrt{N}$, where $N$ is the number of stations in the network, due to the reduction in the Gaussian noise. Although, of course, this is limited by the physical limitations of the detectors. However, it is also possible to use other methods to increase the sensitivity of the network and claim observations.
+Many ground-based \gls{cr} detectors typically exist as part of a network, which work together to increase their combined sensitivity. With an increasing number of stations in a network, observing the same events, the combined sensitivity increases by a factor of $\sqrt{N}$, where $N$ is the number of stations in the network, due to the reduction in the Gaussian noise (although, of course, this is limited by the physical limitations of the detectors). However, it is also possible to use other methods to increase the sensitivity of the network and claim observations.
 
-In this section we again use simulations of artificial data (see Appendix~\ref{app:GLE_sims} for details) to determine the magnitude of \glspl{gle} that may be observed with a network of detectors using this configuration. One overarching assumption in this multi-station analysis was that the detectors were all geographically close, such that the delay between the signals measured by individual detectors were minimal. This is for instance, assuming that we upgrade the \gls{hisparc} stations closest to the University of Birmingham. There are another five operational stations in Birmingham which are located within a radius of $<6$~km from this new configuration, and a sixth station within a radius of $\sim15$~km from University of Birmingham. With the exception of the existing University of Birmingham station 14001, which is a 4-detector station, each of the other stations in the Birmingham node have 2-detectors. This means that there are in total an additional 14 individual detectors in the Birmingham node which could be modified into this new configuration.
+In this section we again use simulations of artificial data (see Appendix~\ref{app:GLE_sims} for details) to determine the magnitude of \glspl{gle} that may be observed with a network of detectors using this configuration. One overarching assumption in this multi-station analysis was that the detectors are all geographically close, such that all the stations are triggered by the \gls{gle} at the same time, or the delay between the signals measured by individual detectors is negligible. We know this assumption is acceptable, based on the coincidental triggering of stations located across the world in the \gls{gnmn} \citep{mishev_current_2020}. This is, for instance, assuming that we upgrade the \gls{hisparc} stations closest to the University of Birmingham. There are another five operational stations in Birmingham which are located within a radius of $<6$~km from this new configuration, and a sixth station within a radius of $\sim15$~km from University of Birmingham. With the exception of the existing University of Birmingham station 14001, which is a 4-detector station, each of the other stations in the Birmingham node have 2-detectors. This means that there are in total an additional 14 individual detectors in the Birmingham node which could be modified into this new configuration.
 
-For each \gls{gle} magnitude we ran 1000 iterations of the simulations and were able to average over the number of statistically significant events observed for a given \gls{gle} magnitude. The \glspl{gle} were simulated with amplitudes of: $1.0\%$, $2.0\%$, $3.0\%$, $4.0\%$, and $5.0\%$; the start times, rise and decay times were all randomly sampled. This was done for 2-, 5-, and 10-stations. In each case we were able to perform the statistics tests on the mean of the data from all stations simulated. Table~\ref{tab:HS_14008_multi_sims_zeros} shows the average number of statistically significant measurements simulations without an injected \gls{gle}.
+For each \gls{gle} magnitude we ran 1000 iterations of the simulations and were able to average over the number of excessive measurements for a given \gls{gle} magnitude. The \glspl{gle} were simulated with amplitudes of: $1.0\%$--$5.0\%$; the start times, rise and decay times were all randomly sampled. This was done for 2-, 5-, and 10-stations. In each case we were able to perform the statistics tests on the mean of the data from all stations simulated. Table~\ref{tab:HS_14008_multi_sims_zeros} shows the average number of measurements exceeding the various thresholds for simulations without an injected \gls{gle}.
 
+\vspace{1em}
 
 \begin{table}[ht!]
 	\begin{center}
-		\caption{Average number of statistically significant measurements in the mean of the artificial data for multiple stations, with no injected GLEs. The values are for each of the three statistical tests: binomial, $Z=3$, and $Z=5$, for tests with 1, 2, 5, and 10 stations.}
+		\caption{Median number of excessive measurements in the mean of the artificial data for multiple stations, with no injected GLEs. The values were acquired from 1000 iterations of simulated data, performing each of the three statistical tests: binomial, $Z=3$, and $Z=5$, with 1, 2, 5, and 10 stations. All uncertainties correspond to the 68\% credible intervals either side of the median.}
 		\label{tab:HS_14008_multi_sims_zeros}
 		\begin{tabular}{c c c c}
 			\hline 
-			{} & \multicolumn{3}{c}{\bf No. significant measurements} \\ 
+			{} & \multicolumn{3}{c}{\bf No. excessive measurements} \\ 
 			{\bf No. stations} & {\bf Binomial} & {\bf $\mathbf{Z=3}$} & {\bf $\mathbf{Z=5}$}  \\ 
 			\hline 
 			1 & $ 2^{+2}_{-1} $ & $ 27^{+6}_{-5} $ & $ 0 \pm 0 $ \\ 
-			2 & $ 2^{+3}_{-1} $ & $ 26^{+22}_{-14} $ & $ 0 \pm 0 $ \\ 
-			5 & $ 2^{+4}_{-2} $ & $ 25^{+23}_{-15} $ & $ 0 \pm 0 $ \\ 
-			10 & $ 2^{+3}_{-2} $ & $ 25^{+32}_{-16} $ & $ 0 \pm 0 $ \\ 
+			2 & $ 3^{+3}_{-2} $ & $ 26^{+26}_{-13} $ & $ 0 \pm 0 $ \\ 
+			5 & $ 2^{+4}_{-2} $ & $ 24^{+30}_{-14} $ & $ 0 \pm 0 $ \\ 
+			10 & $ 2^{+3}_{-2} $ & $ 24^{+32}_{-15} $ & $ 0 \pm 0 $ \\ 
 			\hline 
 		\end{tabular} 
 	\end{center}
 \end{table}
+%
+%1 & $ 2^{+2}_{-1} $ & $ 27^{+6}_{-5} $ & $ 0 \pm 0 $ \\ 
+%2 & $ 2^{+3}_{-1} $ & $ 26^{+22}_{-14} $ & $ 0 \pm 0 $ \\ 
+%5 & $ 2^{+4}_{-2} $ & $ 25^{+23}_{-15} $ & $ 0 \pm 0 $ \\ 
+%10 & $ 2^{+3}_{-2} $ & $ 25^{+32}_{-16} $ & $ 0 \pm 0 $ \\ 
+%
 
-
-To summarise the results of all the simulations, Figure~\ref{fig:multi_HS14008_sims} shows the average number of statistically significant measurements against the simulated \gls{gle} magnitude for the 10-s cadence observations, for 2, 5, and 10 stations. The horizontal, dashed lines shows the median number of random significant observations, i.e. the data in Table~\ref{tab:HS_14008_multi_sims_zeros}; the horizontal, dotted lines represent the $68 \%$ credible intervals either side of the median. Each point shows the median number of statistically significant observations for different \gls{gle} magnitudes, with error bars representing the $68 \%$ credible intervals either side of the median.
+To summarise the results of all the simulations, Figure~\ref{fig:multi_HS14008_sims} shows the average number of excessive measurements against the simulated \gls{gle} magnitude for the 10-s cadence observations, for 1, 2, 5, and 10 stations. The horizontal, dashed lines shows the median number of statistical fluctuations, i.e. the data in Table~\ref{tab:HS_14008_multi_sims_zeros}; the horizontal, dotted lines represent the $68 \%$ credible intervals either side of the median. Each point shows the median number of excessive measurements for different \gls{gle} magnitudes, with error bars representing the $68 \%$ credible intervals either side of the median.
 
 
 \begin{figure}[!htbp!]
@@ -733,19 +768,17 @@ To summarise the results of all the simulations, Figure~\ref{fig:multi_HS14008_s
 		\includegraphics[width=0.48\columnwidth]{HS_14008_sims_plot_10stn.pdf}
 		\label{fig:multi_sims_10stn}} \\
 	
-	\caption{Summary plots showing the number of statistically significant measurements using the binomial- and Z-tests on the simulations of artificial data with varying magnitudes of GLEs injected. (a) Shows the results for a single station; (b) 2 stations; (c) 5 stations; (d) 10 stations . In each plot, the top panel shows the number of significant points exceeding the binomial $p = 10 \%$ threshold, the middle panel shows the number of points exceeding the Z=3 threshold, and the bottom panel shows the number of points exceeding the Z=5 threshold. In each panel the dashed, horizontal lines show the median values of the tests without an injected GLE, and the horizontal, dotted lines represent the $68 \%$ credible intervals either side of the median. For each simulated GLE magnitude the point represents the median values and the error bars represent the $68 \%$ credible intervals either side of the median.}
+	\caption{Summary plots showing the number of excessive measurements using the binomial- and Z-tests on the simulations of artificial data with varying magnitudes of GLEs injected. (a) Shows the results for a single station; (b) 2 stations; (c) 5 stations; (d) 10 stations. In each plot, the top panel shows the number of excessive points exceeding the binomial $p = 10 \%$ threshold, the middle panel shows the number of points exceeding the Z=3 threshold, and the bottom panel shows the number of points exceeding the Z=5 threshold. In each panel the dashed, horizontal lines show the median values of the tests without an injected GLE, and the horizontal, dotted lines represent the $68 \%$ credible intervals either side of the median. For each simulated GLE magnitude the point represents the median values and the error bars represent the $68 \%$ credible intervals either side of the median.}
 	\label{fig:multi_HS14008_sims}
 \end{figure}
 
-We see from Figure~\ref{fig:multi_HS14008_sims} that our ability to differentiate the number of significant measurements for a \gls{gle} improves with the number of stations used. For a single station, using the binomial $10 \%$ threshold, we expect to be able to differentiate the increase in the number of significant measurements for a \gls{gle} with magnitude of $> 4.5 - 5.0 \%$. Increasing the number of stations to 2, 5, and 10 lowers the observable \gls{gle} magnitude to $> 3.0 - 4.0 \%$, $\sim 3.0 \%$, and $\sim 2.0 - 3.0 \%$, respectively.
+We see from Figure~\ref{fig:multi_HS14008_sims} that our ability to differentiate the number of excessive measurements for a \gls{gle} improves with a larger number of stations used. For a single station, using the binomial $10 \%$ threshold, we expect to be able to differentiate the increase in the number of excessive measurements for a \gls{gle} with magnitude of $> 4.5 - 5.0 \%$. Increasing the number of stations to 5 and 10 lowers the observable \gls{gle} magnitude to $\sim 3.0 - 4.0 \%$ and $\sim 2.0 - 3.0 \%$, respectively. In the case of combining 2 stations, we do not see an improvement due to an exasperation of statistical fluctuations. This shows a greater number of stations is necessary.
 
-For a single station above the $Z=3$ significance level, we expect to be able to differentiate the increase in the number of significant measurements for a \gls{gle} with magnitude of $\sim 3.0 - 4.0 \%$; however, increasing the number of stations to 2, 5, and 10 did not have a significant impact on our ability to ability to observe lower magnitude events. The performance remained similar for 2 and 5 stations, and only lowered to $\sim 2.0 - 3.0 \%$ for 10 stations.
+For a single station above the $Z=3$ significance level, we have shown we are able to differentiate the increase in the number of excessive measurements for a \gls{gle} with magnitude of $\sim 3.0 - 4.0 \%$; however, increasing the number of stations to 2, 5, and 10 did not improve our ability to ability to observe lower magnitude events. Finally, we see using the $Z=5$ significance level, there were no significant observations for magnitudes $\leq 5\%$ when only using a single station. In the multiple station analysis, we see that for 2, 5, and 10 stations this improved and the observable \gls{gle} magnitude reduced to $\sim 5.0 \%$, $\sim 4.0 - 5.0 \%$, and $\sim 3.0 - 4.0 \%$, respectively. 
 
-Finally, we see using the $Z=5$ significance level, there were no significant observations for magnitudes $\leq 5\%$ when only using a single station. In the multiple station analysis, we see that for 2, 5, and 10 stations this improved and the observable \gls{gle} magnitude reduced to $\sim 5.0 \%$, $\sim 4.0 - 5.0 \%$, and $\sim 3.0 - 4.0 \%$, respectively. 
+Despite improving the sensitivity with an increasing number of stations, these limiting magnitudes are larger than typical increase in muon count rate due to \glspl{gle} that were shown in Section~\ref{sec:MAIRE_flux}. This again shows that despite reducing non-\gls{cr} variations in the data, we are only capable of detecting the largest \glspl{gle} in the raw data acquired in this configuration when directly interrogating the data.
 
-Despite improving the sensitivity with an increasing number of stations, these limiting magnitudes are larger than typical magnitudes of \glspl{gle} predicted in Section~\ref{sec:MAIRE_flux}. This again shows that despite reducing non-\gls{cr} variations in the data, we are only capable of detecting the largest \glspl{gle} in the raw data acquired in this configuration when directly interrogating the data.
-
-As in Section~\ref{sec:HS_14008_single_sims}, we again observe that increasing \gls{gle} magnitude increases the spread in the average number of statistically significant points. This again arises due to the random sampling of \gls{gle} properties, i.e. the rise and decay times, in the simulations leading to an increase in the confidence intervals for larger \gls{gle} magnitudes in Figure~\ref{fig:multi_HS14008_sims}.
+As in Section~\ref{sec:HS_14008_single_sims}, we again observe that increasing \gls{gle} magnitude increases the spread in the average number of excessive points. This again arises due to the random sampling of \gls{gle} properties, i.e. the rise and decay times, in the simulations leading to an increase in the confidence intervals for larger \gls{gle} magnitudes in Figure~\ref{fig:multi_HS14008_sims}.
 
 
 In addition to this analysis, we performed cross-correlation analyses between the stations simulated. This also relied on the assumption that the signal registered at each station has minimal delay, such that the peak of the \gls{ccf} is at a time shift of zero. This analysis was performed for simulations of 2-, 5-, and 10-stations, with varying lengths of the \gls{gle} decay, and a fixed rise time of $\sim 30$~minutes based on the findings from \citet{strauss_pulse_2017}. The resultant \gls{ccf} plots are shown in Figure~\ref{fig:HS_14008_2pc_sim_CCFs}, for a $2 \%$ magnitude \gls{gle}. The individual realisations of the \glspl{ccf}, from combinations of pairs of stations, are plotted as black lines, while the red line shows the mean of the realisations.
@@ -773,9 +806,9 @@ This analysis was repeated for simulations of a $1~\%$ \gls{gle}, to investigate
 \end{figure}
 
 
-With a $1~\%$ \gls{gle} magnitude it becomes even harder to determine the zero--hour peak. For the simulations with a decay time of 1~hour in Figure~\ref{fig:HS_14008_1pc_sim_CCFs}, it is difficult to determine any peak near zero-hour time shift for the case with 2 and 5 stations and it becomes only slightly visible when increasing to 10 stations. On the other hand, for a decay time of 7.5~hours we can clearly see the \gls{ccf} shape with a peak at zero hours in all cases, i.e. using 2-, 5-, and 10- stations, but we know the average \gls{gle} decay time is closer to 2~hours \citep{strauss_pulse_2017}. At the 2.5~hour decay scale we see the peak in both the 5- and 10-station \glspl{ccf} is observable. Figure~\ref{fig:HS_14008_1pc_sim_CCFs} therefore shows us that at the $1~\%$ \gls{gle} scale, we should sensibly increase the network to 5- or 10-stations to ensure the best chance of observing the cross-correlation in the mean \gls{ccf}.
+With a $1~\%$ \gls{gle} magnitude it becomes even harder to determine the zero-hour peak. For the simulations with a decay time of 1~hour in Figure~\ref{fig:HS_14008_1pc_sim_CCFs}, it is difficult to determine any peak near zero-hour time shift for the case with 2 and 5 stations and it becomes only slightly visible when increasing to 10 stations. On the other hand, for a decay time of 7.5~hours we can clearly see the \gls{ccf} shape with a peak at zero hours in all cases, i.e. using 2-, 5-, and 10- stations, but we know the average \gls{gle} decay time is closer to 2~hours \citep{strauss_pulse_2017}. At the 2.5~hour decay scale we see the peak in both the 5- and 10-station \glspl{ccf} is observable. Figure~\ref{fig:HS_14008_1pc_sim_CCFs} therefore shows us that at the $1~\%$ \gls{gle} scale, we should sensibly increase the network to 5- or 10-stations to ensure the best chance of observing the cross-correlation in the mean \gls{ccf}.
 
-We generally expect to observe \glspl{gle} using the \gls{hisparc} \glspl{md} with magnitudes on the order of, or less than, $\sim 1 \%$, based on the results shown in Section~\ref{sec:MAIRE_flux}. In addition, the average decay time of \glspl{gle}, as measured by \citet{strauss_pulse_2017}, is $1.8^{+1.9}_{-1.3}$~hours. We therefore recommend here that any upgrades to form a network should ideally use 10 stations and no fewer than 5 stations, in order to be able to resolve the cross-correlation between the stations.
+We generally expect the magnitude of the increase of muons due to \glspl{gle} is on the order of, or less than, $\sim 1 \%$, based on the results shown in Section~\ref{sec:MAIRE_flux}. We have shown that we don't expect to observe \glspl{gle} with a single \gls{hisparc} \gls{md}.  We therefore recommend here that any upgrades to form a network should ideally use 10 stations and no fewer than 5 stations, in order to be able to resolve the cross-correlation between the stations. % In addition, the average decay time of \glspl{gle}, as measured by \citet{strauss_pulse_2017}, is $1.8^{+1.9}_{-1.3}$~hours.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -784,11 +817,11 @@ We generally expect to observe \glspl{gle} using the \gls{hisparc} \glspl{md} wi
 
 In this chapter we have presented a new \gls{hisparc} station configuration and investigated its performance for use monitoring space weather events. We have outlined the set-up of the new station, from the configuration of the scintillators, calibration of the \glspl{pmt}, processing of the \gls{pmt} signals using a series of \gls{nim} modules, and the acquisition of data using a Raspberry Pi. We have also outlined how we acquire atmospheric pressure data and the temperature measured within the roof box. Both measurements were used to correct for effects on the acquired \gls{cr} data.
 
-The station was configured to collect two types of coincidence data: (i) the full coincidence counts between the two \glspl{pmt}; (ii) a reduced coincidence count, which is between the full coincidences and a gate signal. The reduced count rate was necessary to not overload the \gls{hisparc} servers.
+The station was configured to collect two types of coincidence data: (i) the full coincidence counts between the two \glspl{pmt}; (ii) a reduced coincidence count, which is between the original coincidences and a gate signal. The reduced count rate was necessary to not overload the \gls{hisparc} servers.
 
 The removal of the atmospheric effects was routinely performed on the acquired singles and coincidences data. We showed for the coincidences data it was only necessary to correct for the effects of pressure. The configuration of the station uses the coincident signal from two separate \glspl{pmt} and we showed there was only a weak correlation with temperature which was likely due to the diurnal \gls{cr} anisotropy rather than temperature. This was further supported in our investigation of the spurious counts, when investigating the noise in the coincidences data, which did not show a diurnal signal. The temperature correction was however still necessary for singles data and we demonstrated the success of this method. In both data it was necessary to correct for atmospheric pressure, which we showed was successful when using pressure data measured  $\sim 20$~km from this \gls{hisparc} station.
 
-After atmospheric corrections we analysed the coincidences data by using a Poisson likelihood function to determine the posterior distribution for the mean of the count rate. In addition, it was demonstrated by adding a large delay between the two \glspl{pmt} that we were able to quantify the noise (spurious counts) in the coincidences data, caused by random coincidences between the two \glspl{pmt}. As discussed above, this noise did not show any diurnal variation, meaning the diurnal temperature effects in the singles data did not bleed through into the coincidences data. Through the analysis of the full and reduced coincidences data, we were able to quantify the reduction factor, which was as expected from the duty cycle of the gate signal and we showed that there is agreement between the reduced data stored locally and that stored on the \gls{hisparc} servers, with only differences being realisations of the Poisson noise.
+After atmospheric corrections we analysed the coincidences data by using a Poisson likelihood function to determine the posterior distribution for the mean of the count rate. In addition, it was demonstrated by adding a large delay between the two \glspl{pmt} that we were able to quantify the noise (spurious counts) in the coincidences data, caused by random coincidences between the two \glspl{pmt}. As discussed above, this noise did not show any diurnal variation, meaning the diurnal temperature effects in the singles data did not bleed through into the coincidences data. Through the analysis of the original and reduced coincidences data, we were able to quantify the reduction factor, which was as expected from the duty cycle of the gate signal and we showed that there is agreement between the reduced data stored locally and that stored on the \gls{hisparc} servers, with only differences being realisations of the Poisson noise.
 
 A further study was conducted to understand the magnitudes of \glspl{gle} that should be observable with this new configuration. This used simulation of artificial data and we were able to perform statistical tests, comparing the number of statistically significant measurements in 2~days of data with \glspl{gle} of varying magnitude. We showed this method was suitable for claiming observations of \glspl{gle} and showed that through averaging the data over 1- and 5-minutes, we can reduce noise to observe lower \gls{gle} magnitudes.
 
@@ -798,15 +831,15 @@ Expanding on this, we also performed analyses using artificial data with multipl
 We leave the reader with the following points:
 
 \begin{enumerate}
-	\item{A new configuration of \gls{hisparc} detector has been created which is more relevant for space weather applications as it removes the bias towards higher energy \glspl{pcr} that the existing \gls{hisparc} network suffers from, and it also reduces the atmosphere induced diurnal effects, which are difficult to correct in the data from the existing \gls{hisparc} stations.}
+	\item{A new configuration of \gls{hisparc} detector has been implemented, which is more relevant for space weather applications, as it removes the bias towards higher energy \glspl{pcr} that the \gls{hisparc} experiment intends to observe. It also reduces the atmosphere induced diurnal effects.}%, which are difficult to correct in the data from the existing \gls{hisparc} stations.}
 
-	\item{The mean count rate in this configuration is $\sim80~\upmu/\mathrm{s}$ and the noise from spurious counts is of about $0.26 \pm 0.01$~counts/min. This noise is small and infinitesimal compared to the Poisson noise of $\sim9~\upmu/\mathrm{s}$, which represents $\sim11~\%$ of the signal. The reduced coincidences data has a count rate which is lower by a factor of approximately 110, and the reduced counts data has been shown to be in agreement for the data stored locally and that stored in the \gls{hisparc} servers.}
+	\item{The mean count rate in this configuration is $\sim80~\upmu/\mathrm{s}$ and the noise from spurious counts is of about $0.0043\pm0.0002~\upmu/\mathrm{s}$. This noise is small and negligible compared to the Poisson noise of $\sim9~\upmu/\mathrm{s}$, which represents $\sim11~\%$ of the signal. The reduced coincidences data has a count rate which is lower by a factor of approximately 110, and the reduced counts data has been shown to be in agreement for the data stored locally and that stored in the \gls{hisparc} servers.}
 	
-	\item{There exists a good visual agreement between the data monitored by this statino and a local \gls{nm} station, Dourbes, in Belgium. The data from this station and from the Dourbes \gls{nm} station should be continually compared to monitor this relationship, as it will be instrumental when or if a space weather event occurs in the next Solar Cycle.}
+	\item{There exists a good visual agreement between the data monitored by this station and a local \gls{nm} station, Dourbes, in Belgium. The data from this station and from the Dourbes \gls{nm} station should be continually compared to monitor this relationship, as it will be instrumental when or if a space weather event occurs in the next Solar Cycle.}
 	
-	\item{Simulations of artificial data demonstrated that with the raw, 10-s cadence observations we should expect to be able to detect \glspl{gle} with this configuration with a magnitude of $>3~\%$ (i.e. similar to that predicted for \gls{gle} 42). Through averaging the data into 1- or 5-minute bins, we reduce the noise and expect to be able to observe \glspl{gle} with magnitudes $> 1.5 \%$. This is in line with some of the predicted \gls{gle} magnitudes from Chapter~\ref{chap:HiSPARC}.}
+	\item{Simulations of artificial data demonstrated that with the raw, 10-s cadence observations we should expect to be able to detect \glspl{gle} with this configuration with a magnitude of $\gtrsim3~\%$ (i.e. similar to that predicted for \gls{gle} 42). Through averaging the data into 1- or 5-minute bins, we reduce the noise and improve the sensitivity to observe \glspl{gle} with magnitudes $\gtrsim1.5 \%$. This is in line with some of the predicted \gls{gle} magnitudes from Chapter~\ref{chap:HiSPARC}.}
 	
-	\item{Through simulating the performance of a network of detectors in this configuration we showed that we can increase the sensitivity of this configuration to observe \glspl{gle} on the order of, or less than, $\sim 1 \%$, but note that there is a strong dependence on decay time. We recommend that any upgrades to form a network should ideally use 10 stations and no fewer than 5 stations.}
+	\item{Through simulating the performance of a network of detectors in this configuration we showed that we can improve the sensitivity, to observe \glspl{gle} on the order of $\sim 1 \%$, through analysing the cross-correlation of nearby stations. However, we note that there is a strong dependence on decay time of the \glspl{gle}. We recommend that any upgrades to form a network should ideally use 10 stations and no fewer than 5 stations.}
 	
 	\item{It is important that this configuration of \gls{hisparc} detector is maintained until at least 2026, to ensure a complete study is performed to at least the maximum of Solar Cycle 25.}
 \end{enumerate}

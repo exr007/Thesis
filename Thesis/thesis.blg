@@ -5,78 +5,47 @@ The style file: mnras.bst
 Database file #1: library.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Name 1 in "{SILSO WDC}," has a comma at the end for entry silso_world_data_center_international_1954
-while executing---line 1706 of file mnras.bst
-Name 1 in "{SILSO WDC}," has a comma at the end for entry silso_world_data_center_international_1954
-while executing---line 1706 of file mnras.bst
-Name 1 in "{SILSO WDC}," has a comma at the end for entry silso_world_data_center_international_1954
-while executing---line 1706 of file mnras.bst
-`series' is a missing field, not a string, for entry bis_space_2015
-while executing---line 1822 of file mnras.bst
-"" is a string literal, not an integer, for entry bis_space_2015
-while executing---line 1822 of file mnras.bst
-`series' is a missing field, not a string, for entry bis_space_2015
-while executing---line 1822 of file mnras.bst
-Warning--empty publisher in bis_space_2015
-Warning--empty publisher in cabinet_office_national_2017
-Warning--empty publisher in cannon_extreme_2013
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry casanovas_early_1997
-while executing---line 1822 of file mnras.bst
-Warning--empty journal in casanovas_early_1997
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry casanovas_early_1997
-while executing---line 1822 of file mnras.bst
-Warning--empty booktitle in chilingarian_galactic_2003
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry gopalswamy_corona_2010
-while executing---line 1822 of file mnras.bst
-Warning--empty journal in gopalswamy_corona_2010
-"ArXiv e-prints" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry gopalswamy_corona_2010
-while executing---line 1822 of file mnras.bst
-Warning--empty institution in metoffice_space_2013
-Name 1 in "{SILSO WDC}," has a comma at the end for entry silso_world_data_center_international_1954
-while executing---line 1822 of file mnras.bst
-You've used 143 entries,
+Warning--empty booktitle in desorgher_planetocosmics_2006
+Warning--empty institution in heck_extensive_2017
+You've used 80 entries,
             2879 wiz_defined-function locations,
-            1731 strings with 51942 characters,
-and the built_in function-call counts, 65897 in all, are:
-= -- 5188
-> -- 4776
-< -- 446
-+ -- 2244
-- -- 639
-* -- 7700
-:= -- 10662
+            1301 strings with 32297 characters,
+and the built_in function-call counts, 37352 in all, are:
+= -- 2810
+> -- 2949
+< -- 217
++ -- 1334
+- -- 444
+* -- 4464
+:= -- 6128
 add.period$ -- 0
-call.type$ -- 143
-change.case$ -- 292
-chr.to.int$ -- 139
-cite$ -- 150
-duplicate$ -- 3308
-empty$ -- 3498
-format.name$ -- 1055
-if$ -- 11342
-int.to.chr$ -- 5
+call.type$ -- 80
+change.case$ -- 162
+chr.to.int$ -- 78
+cite$ -- 82
+duplicate$ -- 1842
+empty$ -- 1856
+format.name$ -- 668
+if$ -- 6326
+int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 138
-newline$ -- 462
-num.names$ -- 985
-pop$ -- 783
+missing$ -- 68
+newline$ -- 259
+num.names$ -- 566
+pop$ -- 428
 preamble$ -- 1
-purify$ -- 572
+purify$ -- 320
 quote$ -- 0
-skip$ -- 2012
+skip$ -- 1104
 stack$ -- 0
-substring$ -- 3485
-swap$ -- 1470
-text.length$ -- 583
+substring$ -- 1811
+swap$ -- 901
+text.length$ -- 327
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1260
-warning$ -- 7
-while$ -- 1066
+type$ -- 717
+warning$ -- 2
+while$ -- 579
 width$ -- 0
-write$ -- 1486
-(There were 11 error messages)
+write$ -- 826
+(There were 2 warnings)
