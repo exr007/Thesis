@@ -1,49 +1,50 @@
-\BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 1
-\BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 2
-\BOOKMARK [0][-]{chapter*.5}{List of Abbreviations}{}% 3
-\BOOKMARK [0][-]{chapter.1}{HiSPARC as a Space Weather Detector}{}% 4
-\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.2}{Aims}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.3}{HiSPARC Data}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.4}{Station Properties}{chapter.1}% 8
-\BOOKMARK [2][-]{subsection.1.4.1}{Cut-Off Rigidity}{section.1.4}% 9
-\BOOKMARK [2][-]{subsection.1.4.2}{Asymptotic Viewing Directions}{section.1.4}% 10
-\BOOKMARK [1][-]{section.1.5}{HiSPARC Observations}{chapter.1}% 11
-\BOOKMARK [2][-]{subsection.1.5.1}{Observations of Ground Level Enhancements}{section.1.5}% 12
-\BOOKMARK [2][-]{subsection.1.5.2}{Observations of Forbush Decreases}{section.1.5}% 13
-\BOOKMARK [1][-]{section.1.6}{Atmospheric Corrections of HiSPARC Data}{chapter.1}% 14
-\BOOKMARK [2][-]{subsection.1.6.1}{Motivation}{section.1.6}% 15
-\BOOKMARK [2][-]{subsection.1.6.2}{Barometric Correction}{section.1.6}% 16
-\BOOKMARK [2][-]{subsection.1.6.3}{Temperature Correction}{section.1.6}% 17
-\BOOKMARK [1][-]{section.1.7}{HiSPARC Observations After Atmospheric Corrections}{chapter.1}% 18
-\BOOKMARK [2][-]{subsection.1.7.1}{Observations of Ground Level Enhancements}{section.1.7}% 19
-\BOOKMARK [2][-]{subsection.1.7.2}{Observations of Forbush Decreases}{section.1.7}% 20
-\BOOKMARK [1][-]{section.1.8}{Air Shower Simulations}{chapter.1}% 21
-\BOOKMARK [2][-]{subsection.1.8.1}{Motivation}{section.1.8}% 22
-\BOOKMARK [2][-]{subsection.1.8.2}{Air Shower Footprints}{section.1.8}% 23
-\BOOKMARK [2][-]{subsection.1.8.3}{Muon Flux}{section.1.8}% 24
-\BOOKMARK [2][-]{subsection.1.8.4}{Muon Flux From MAIRE}{section.1.8}% 25
-\BOOKMARK [1][-]{section.1.9}{Conclusion}{chapter.1}% 26
-\BOOKMARK [0][-]{chapter.2}{HiSPARC Station 14008}{}% 27
-\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 28
-\BOOKMARK [1][-]{section.2.2}{Aims}{chapter.2}% 29
-\BOOKMARK [1][-]{section.2.3}{HiSPARC Station 14008 Set-up}{chapter.2}% 30
-\BOOKMARK [2][-]{subsection.2.3.1}{Configuration}{section.2.3}% 31
-\BOOKMARK [2][-]{subsection.2.3.2}{Calibration}{section.2.3}% 32
-\BOOKMARK [2][-]{subsection.2.3.3}{Monitoring Temperature}{section.2.3}% 33
-\BOOKMARK [2][-]{subsection.2.3.4}{Data Acquisition}{section.2.3}% 34
-\BOOKMARK [2][-]{subsection.2.3.5}{Monitoring Pressure}{section.2.3}% 35
-\BOOKMARK [1][-]{section.2.4}{Methodology}{chapter.2}% 36
-\BOOKMARK [2][-]{subsection.2.4.1}{Atmospheric Corrections}{section.2.4}% 37
-\BOOKMARK [2][-]{subsection.2.4.2}{Observations}{section.2.4}% 38
-\BOOKMARK [1][-]{section.2.5}{Atmospheric Corrections}{chapter.2}% 39
-\BOOKMARK [2][-]{subsection.2.5.1}{Temperature Correction}{section.2.5}% 40
-\BOOKMARK [2][-]{subsection.2.5.2}{Barometric Correction}{section.2.5}% 41
-\BOOKMARK [1][-]{section.2.6}{Results}{chapter.2}% 42
-\BOOKMARK [2][-]{subsection.2.6.1}{Observations}{section.2.6}% 43
-\BOOKMARK [2][-]{subsection.2.6.2}{Comparison with Neutron Monitors}{section.2.6}% 44
-\BOOKMARK [2][-]{subsection.2.6.3}{Single Station Space Weather Uses}{section.2.6}% 45
-\BOOKMARK [2][-]{subsection.2.6.4}{Multiple Station Space Weather Uses}{section.2.6}% 46
-\BOOKMARK [1][-]{section.2.7}{Conclusions}{chapter.2}% 47
-\BOOKMARK [0][-]{chapter.3}{Conclusions and Future Prospects}{}% 48
-\BOOKMARK [0][-]{chapter.3}{Bibliography}{}% 49
+\BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.3}{List of Figures}{}% 2
+\BOOKMARK [0][-]{chapter*.4}{List of Tables}{}% 3
+\BOOKMARK [0][-]{chapter*.6}{List of Abbreviations}{}% 4
+\BOOKMARK [0][-]{chapter.1}{HiSPARC as a Space Weather Detector}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Aims}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.3}{HiSPARC Data}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.4}{Station Properties}{chapter.1}% 9
+\BOOKMARK [2][-]{subsection.1.4.1}{Cut-Off Rigidity}{section.1.4}% 10
+\BOOKMARK [2][-]{subsection.1.4.2}{Asymptotic Viewing Directions}{section.1.4}% 11
+\BOOKMARK [1][-]{section.1.5}{HiSPARC Observations}{chapter.1}% 12
+\BOOKMARK [2][-]{subsection.1.5.1}{Observations of Ground Level Enhancements}{section.1.5}% 13
+\BOOKMARK [2][-]{subsection.1.5.2}{Observations of Forbush Decreases}{section.1.5}% 14
+\BOOKMARK [1][-]{section.1.6}{Atmospheric Corrections of HiSPARC Data}{chapter.1}% 15
+\BOOKMARK [2][-]{subsection.1.6.1}{Motivation}{section.1.6}% 16
+\BOOKMARK [2][-]{subsection.1.6.2}{Barometric Correction}{section.1.6}% 17
+\BOOKMARK [2][-]{subsection.1.6.3}{Temperature Correction}{section.1.6}% 18
+\BOOKMARK [1][-]{section.1.7}{HiSPARC Observations After Atmospheric Corrections}{chapter.1}% 19
+\BOOKMARK [2][-]{subsection.1.7.1}{Observations of Ground Level Enhancements}{section.1.7}% 20
+\BOOKMARK [2][-]{subsection.1.7.2}{Observations of Forbush Decreases}{section.1.7}% 21
+\BOOKMARK [1][-]{section.1.8}{Air Shower Simulations}{chapter.1}% 22
+\BOOKMARK [2][-]{subsection.1.8.1}{Motivation}{section.1.8}% 23
+\BOOKMARK [2][-]{subsection.1.8.2}{Air Shower Footprints}{section.1.8}% 24
+\BOOKMARK [2][-]{subsection.1.8.3}{Muon Flux}{section.1.8}% 25
+\BOOKMARK [2][-]{subsection.1.8.4}{Muon Flux From MAIRE}{section.1.8}% 26
+\BOOKMARK [1][-]{section.1.9}{Conclusion}{chapter.1}% 27
+\BOOKMARK [0][-]{chapter.2}{HiSPARC Station 14008}{}% 28
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 29
+\BOOKMARK [1][-]{section.2.2}{Aims}{chapter.2}% 30
+\BOOKMARK [1][-]{section.2.3}{HiSPARC Station 14008 Set-up}{chapter.2}% 31
+\BOOKMARK [2][-]{subsection.2.3.1}{Configuration}{section.2.3}% 32
+\BOOKMARK [2][-]{subsection.2.3.2}{Calibration}{section.2.3}% 33
+\BOOKMARK [2][-]{subsection.2.3.3}{Monitoring Temperature}{section.2.3}% 34
+\BOOKMARK [2][-]{subsection.2.3.4}{Data Acquisition}{section.2.3}% 35
+\BOOKMARK [2][-]{subsection.2.3.5}{Monitoring Pressure}{section.2.3}% 36
+\BOOKMARK [1][-]{section.2.4}{Methodology}{chapter.2}% 37
+\BOOKMARK [2][-]{subsection.2.4.1}{Atmospheric Corrections}{section.2.4}% 38
+\BOOKMARK [2][-]{subsection.2.4.2}{Observations}{section.2.4}% 39
+\BOOKMARK [1][-]{section.2.5}{Atmospheric Corrections}{chapter.2}% 40
+\BOOKMARK [2][-]{subsection.2.5.1}{Temperature Correction}{section.2.5}% 41
+\BOOKMARK [2][-]{subsection.2.5.2}{Barometric Correction}{section.2.5}% 42
+\BOOKMARK [1][-]{section.2.6}{Results}{chapter.2}% 43
+\BOOKMARK [2][-]{subsection.2.6.1}{Observations}{section.2.6}% 44
+\BOOKMARK [2][-]{subsection.2.6.2}{Comparison with Neutron Monitors}{section.2.6}% 45
+\BOOKMARK [2][-]{subsection.2.6.3}{Single Station Space Weather Uses}{section.2.6}% 46
+\BOOKMARK [2][-]{subsection.2.6.4}{Multiple Station Space Weather Uses}{section.2.6}% 47
+\BOOKMARK [1][-]{section.2.7}{Conclusions}{chapter.2}% 48
+\BOOKMARK [0][-]{chapter.3}{Conclusions and Future Prospects}{}% 49
+\BOOKMARK [0][-]{chapter.3}{Bibliography}{}% 50

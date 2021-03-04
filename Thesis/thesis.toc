@@ -1,7 +1,8 @@
+\contentsline {chapter}{Abstract}{i}{chapter*.1}
 \thispagestyle {plain}
-\contentsline {chapter}{List of Figures}{ix}{chapter*.2}
-\contentsline {chapter}{List of Tables}{xi}{chapter*.3}
-\contentsline {chapter}{List of Abbreviations}{xiv}{chapter*.5}
+\contentsline {chapter}{List of Figures}{x}{chapter*.3}
+\contentsline {chapter}{List of Tables}{xii}{chapter*.4}
+\contentsline {chapter}{List of Abbreviations}{xv}{chapter*.6}
 \contentsline {chapter}{\numberline {1}HiSPARC as a Space Weather Detector}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Aims}{7}{section.1.2}
