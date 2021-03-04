@@ -39,7 +39,7 @@
 \contentsline {subsection}{\numberline {2.4.2}Observations}{62}{subsection.2.4.2}
 \contentsline {section}{\numberline {2.5}Atmospheric Corrections}{65}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Temperature Correction}{65}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Barometric Correction}{69}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.2}Barometric Correction}{70}{subsection.2.5.2}
 \contentsline {section}{\numberline {2.6}Results}{71}{section.2.6}
 \contentsline {subsection}{\numberline {2.6.1}Observations}{71}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2.6.2}Comparison with Neutron Monitors}{76}{subsection.2.6.2}
