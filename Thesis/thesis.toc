@@ -1,8 +1,8 @@
-\contentsline {chapter}{Abstract}{i}{chapter*.1}
+\contentsline {chapter}{Abstract}{ii}{chapter*.1}
 \thispagestyle {plain}
-\contentsline {chapter}{List of Figures}{x}{chapter*.3}
-\contentsline {chapter}{List of Tables}{xii}{chapter*.4}
-\contentsline {chapter}{List of Abbreviations}{xv}{chapter*.6}
+\contentsline {chapter}{List of Figures}{xi}{chapter*.3}
+\contentsline {chapter}{List of Tables}{xiii}{chapter*.4}
+\contentsline {chapter}{List of Abbreviations}{xvi}{chapter*.6}
 \contentsline {chapter}{\numberline {1}HiSPARC as a Space Weather Detector}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Aims}{7}{section.1.2}
@@ -38,14 +38,14 @@
 \contentsline {section}{\numberline {2.4}Methodology}{61}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Atmospheric Corrections}{61}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Observations}{62}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Atmospheric Corrections}{65}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Temperature Correction}{65}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Barometric Correction}{70}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.5}Atmospheric Corrections}{66}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Temperature Correction}{66}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Barometric Correction}{69}{subsection.2.5.2}
 \contentsline {section}{\numberline {2.6}Results}{71}{section.2.6}
 \contentsline {subsection}{\numberline {2.6.1}Observations}{71}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2.6.2}Comparison with Neutron Monitors}{76}{subsection.2.6.2}
 \contentsline {subsection}{\numberline {2.6.3}Single Station Space Weather Uses}{78}{subsection.2.6.3}
-\contentsline {subsection}{\numberline {2.6.4}Multiple Station Space Weather Uses}{83}{subsection.2.6.4}
+\contentsline {subsection}{\numberline {2.6.4}Multiple Station Space Weather Uses}{84}{subsection.2.6.4}
 \contentsline {section}{\numberline {2.7}Conclusions}{90}{section.2.7}
 \contentsline {chapter}{\numberline {3}Conclusions and Future Prospects}{94}{chapter.3}
 \contentsline {chapter}{Bibliography}{102}{chapter.3}
