@@ -81,7 +81,7 @@ where $\Delta x$ is the thickness of the material, $S$ is the stopping power of 
 
 Each of the plastic scintillators has a thickness of $\Delta x \, = \, 2.0$~cm, and density, $\rho \, = \, 1.03$~g~cm$^{-3}$ \citep{montanus_observability_2017}. The stopping power of the scintillator for a minimum ionising particle is $S \sim 2$~MeV~g$^{-1}$~cm$^{2}$ \citep{fokkema_hisparc_2012, montanus_observability_2017}. The energy loss of a vertically incident muon in a single detector is therefore $\Delta E \sim 4$~MeV. \cite{van_dam_hisparc_2020} states the most probable energy loss of a vertically incident muon in a single scintillator is $3.51$~MeV.
 
-Assuming a similar stopping power as above for the foam \citep{groom_muon_2001, montanus_observability_2017}, the muons will lose an additional $\sim 0.4$~MeV. In the complete configuration as a muon traverses two scintillators and the foam, the estimated lower limit on the energy loss by muons in the detector is $\sim 7.4$~MeV. This new lower limit does not significantly change the values of the predicted \gls{gle} magnitudes in Section~\ref{sec:MAIRE_flux}.
+Assuming a similar stopping power as above for the foam \citep{groom_muon_2001, montanus_observability_2017}, the muons will lose an additional $\sim 0.4$~MeV. In the complete configuration, as a muon traverses two scintillators and the foam, the estimated lower limit on the energy loss by muons in the detector is $\sim 7.4$~MeV. This new lower limit does not significantly change the values of the predicted \gls{gle} magnitudes in Section~\ref{sec:MAIRE_flux}.
 
 The standard \gls{hisparc} station set-up is such that the \glspl{pmt} are connected to the \gls{hisparc} electronics box for data acquisition. In the standard \gls{hisparc} station configuration, the trigger rate of events is $\sim 1$~Hz. In this stacked configuration the trigger rate is significantly higher, $\sim 80$~Hz; hence the data produced is the equivalent of approximately half of the existing \gls{hisparc} network. The \gls{hisparc} servers could not cope with such a large quantity of data, therefore we had to reduce the data acquired by the \gls{hisparc} box; however, we did not want to lose the original count rate of the stacked detectors. To acquire the data in this set-up, we used a \gls{nim} crate, as shown in Figure~\ref{fig:14008_NIM}, and a Raspberry Pi was used to store the data, which is discussed in Section~\ref{sec:HS14008_data_acqusition}.
 
@@ -92,7 +92,7 @@ The standard \gls{hisparc} station set-up is such that the \glspl{pmt} are conne
 	\label{fig:14008_NIM}
 \end{figure}
 
-The data acquisition is discussed in Section~\ref{sec:HS14008_data_acqusition}, but here we discuss the configuration of the \gls{nim} crate set-up. The signals from the \glspl{pmt} are split using a passive, equal-split resistive splitter such that half the signal is passed to the \gls{hisparc} electronics box and half the signal is passed through the \gls{nim} crate. The signal which is passed through the \gls{nim} crate goes first into a discriminator module (CAEN model N845) to only record signals that have an amplitude greater than the trigger threshold. Due to the equal-balance resistive splitter the \gls{pmt} signal is reduced in amplitude by a factor of 2; we used a discriminator threshold of $-35$~mV, i.e. half of the \gls{hisparc} high threshold.
+The data acquisition is discussed in Section~\ref{sec:HS14008_data_acqusition}, but here we discuss the configuration of the \gls{nim} crate set-up. The analogue signals from the \glspl{pmt} are split using a passive, equal-split resistive splitter such that half the signal is passed to the \gls{hisparc} electronics box and half the signal is passed through the \gls{nim} crate. The analogue signal which is passed through the \gls{nim} crate goes first into a discriminator module (CAEN model N845) to only record signals that have an amplitude greater than the trigger threshold. Due to the equal-balance resistive splitter the \gls{pmt} signal is reduced in amplitude by a factor of 2; we used a discriminator threshold of $-35$~mV, i.e. half of the \gls{hisparc} high threshold.
 % SPLITTER: Zin = Z0 = R +(R+Z0)/2 --> R1 = Z0/3
 
 The discriminator outputs two \gls{nim} signals which are connected to the first coincidence module (LeCroy model 622). This records every coincidence between the two \glspl{pmt} and the output from this module is directed to a \gls{nim} quad counter/timer module (ORTEC model 974). One channel of the \gls{nim} counter records the original coincidence counts from the first coincidence module.
@@ -287,7 +287,7 @@ where $N$ is a single measurement; $N_0$ may be considered as the mean count rat
 \begin{itemize}
 	\item{To remove any long-term temperature trends over a month of data, the \gls{cr} and temperature data were smoothed using a 24-hr moving mean. Using the linear relationship between the smoothed \glspl{cr} and temperature (defined by equation~(\ref{eq:tempcorr_14008}), where the $N$ and $T$ are the smoothed data), the long-term temperature relationship was fitted and corrected in the data.}
 
-	\item{After correcting for the long-term temperature relationship, for each day the temperature correction was applied again to remove the daily variations (i.e. using equation~(\ref{eq:tempcorr_14008}), where the $N$ denotes the de-trended \gls{cr} data and $T$ denotes the raw temperature data and the the de-trended \gls{cr} and raw temperature data were smoothed again using a 24-hr moving mean for $N_0$ and $T_0$). The temperature relationship was fitted and corrected in the data, day-by-day.}
+	\item{After correcting for the long-term temperature relationship, for each day the temperature correction was applied again to remove the daily variations (i.e. using equation~(\ref{eq:tempcorr_14008}), where the $N$ denotes the de-trended \gls{cr} data and $T$ denotes the raw temperature data and the de-trended \gls{cr} and raw temperature data were smoothed again using a 24-hr moving mean for $N_0$ and $T_0$). The temperature relationship was fitted and corrected in the data, day-by-day.}
 \end{itemize}
 
 
@@ -321,7 +321,7 @@ P(n; \, \lambda_1, \lambda_2) = P(n; \, \lambda_1 + \lambda_2) \, ,
 %
 where $n = n_1 + n_2$ \citep{lista_statistical_2016}.
 
-Using this information, it was possible to use a sampling algorithm to determine the mean level and noise of the \gls{hisparc} 14008 station's data. With this knowledge artificial data were created, to simulate the detector's response to space weather events as a further study of the capabilities of the new station configuration. 
+Using this information, it was possible to use a Monte Carlo sampling algorithm to determine the mean level and noise of the \gls{hisparc} 14008 station's data. With this knowledge artificial data were created, to simulate the detector's response to space weather events as a further study of the capabilities of the new station configuration. 
 
 To test the station's performance artificial data were generated using the method discussed in Appendix~\ref{app:GLE_sims}, to simulate the mean count rate and noise properties of the station. It was possible to inject \glspl{gle} into the artificial data with differing properties, to determine the likelihood of observing such events.
 
@@ -340,7 +340,7 @@ p(k) = 1 \, - \, F(k-1; \, \lambda) \, .
 \label{eq:poisson_SF}
 \end{equation}
 
-If $k\gg\lambda$ then $p(k)\to0$. The probability that we fail to observe a cadence with $k$ or more events is: $1 \, - \, p(k)$; thus the probability of failing to observe any time interval with $k$ or more events in $N$-cadences is $[1 \, - \, p(k)]^N$. Therefore the probability to find at least one event at or above $k$ in N-cadences, by chance, is:
+If $k\gg\lambda$ then $p(k)\to0$. The probability that we fail to observe a cadence with $k$ or more events is: $1 \, - \, p(k)$; thus the probability of failing to observe any time interval with $k$ or more events in $N$-cadences is $[1 \, - \, p(k)]^N$. Therefore, the probability to find at least one event at or above $k$ in N-cadences, by chance, is:
 
 \begin{equation}
 p_N = 1\, - \, [1 \, - \, p(k)]^N \, ,
@@ -460,7 +460,7 @@ An additional benefit of the temperature monitor in the box of station 14008 was
 	\label{fig:HS_14008_14001_vs_T}
 \end{figure}
 
-In Figure~\ref{fig:HS_14008_14001_vs_T} we see a good agreement between the singles acquired by both stations. Therefore it is possible to also use this temperature data to correct for the effects of thermal fluctuations in the singles rates of \gls{hisparc} station 14001.
+In Figure~\ref{fig:HS_14008_14001_vs_T} we see a good agreement between the singles acquired by both stations. Therefore, it is possible to also use this temperature data to correct for the effects of thermal fluctuations in the singles rates of \gls{hisparc} station 14001.
 
 
 
@@ -704,7 +704,7 @@ We see from Figure~\ref{fig:single_HS14008_sims} that in the case where no avera
 
 When averaging the data over 1-minute and 5-minute intervals, our ability to detect lower-magnitude \glspl{gle} improved. We can differentiate \glspl{gle} from statistical fluctuations for magnitudes of $2.0-2.5~\%$ and $\sim1.5~\%$, for 1-minute and 5-minute averaging, respectively. Similarly, at the $Z=5$ significance level this improved to $4.5-5.0~\%$ and $2.5-3.0~\%$, respectively. Finally, using the binomial test, we expect to be able to differentiate the increase in the number of excessive measurements for a \gls{gle} with magnitude of $\sim2.5~\%$ and $\sim1.5~\%$, respectively.
 
-We also note that with an increasing \gls{gle} magnitude we observe a larger spread in the average number of excessive points. This arises due to the random sampling of \gls{gle} properties, i.e. randomly sampling the rise and decay times. A \gls{gle} with a longer decay time generally results in a higher number of excessive points, compared to a \gls{gle} with a shorter decay time. This effect can be amplified when the magnitude of the \gls{gle} increases as the signal is more statistically significant. Therefore we see an increase in the confidence intervals for larger \gls{gle} magnitudes in Figure~\ref{fig:single_HS14008_sims}.
+We also note that with an increasing \gls{gle} magnitude we observe a larger spread in the average number of excessive points. This arises due to the random sampling of \gls{gle} properties, i.e. randomly sampling the rise and decay times. A \gls{gle} with a longer decay time generally results in a higher number of excessive points, compared to a \gls{gle} with a shorter decay time. This effect can be amplified when the magnitude of the \gls{gle} increases as the signal is more statistically significant. Therefore, we see an increase in the confidence intervals for larger \gls{gle} magnitudes in Figure~\ref{fig:single_HS14008_sims}.
 
 
 This shows that through averaging the data, we expect, with a single detector, that we should be able to detect a \gls{gle} which induces an increase in the muon count rate on the order of $1.5-2~\%$. Weighing the benefits of the increased sensitivity against the timescales observable, we recommend making use of the 1-minute averaged data rather than 5-minutes, as the durations of some space weather events can be short-lived, which makes it advantageous to not to average over an ephemeral signal; however, there is added benefit in also analysing the 5-minute averaged data, so a combination of all would be useful. In particular, the interactive \gls{gle} database tends to show data averaged over 5-minutes \citep{usoskin_database_2016}.
@@ -809,7 +809,7 @@ This analysis was repeated for simulations of a $1~\%$ \gls{gle}, to investigate
 
 With a $1~\%$ \gls{gle} magnitude it becomes even harder to determine the zero-hour peak. For the simulations with a decay time of 1~hour in Figure~\ref{fig:HS_14008_1pc_sim_CCFs}, it is difficult to determine any peak near zero-hour time shift for the case with 2 and 5 stations and it becomes only slightly visible when increasing to 10 stations. On the other hand, for a decay time of 7.5~hours we can clearly see the \gls{ccf} shape with a peak at zero hours in all cases, i.e. using 2-, 5-, and 10- stations, but we know the average \gls{gle} decay time is closer to 2~hours \citep{strauss_pulse_2017}. At the 2.5~hour decay scale we see the peak in both the 5- and 10-station \glspl{ccf} is observable. Figure~\ref{fig:HS_14008_1pc_sim_CCFs} therefore shows us that at the $1~\%$ \gls{gle} scale, we should sensibly increase the network to 5- or 10-stations to ensure the best chance of observing the cross-correlation in the mean \gls{ccf}.
 
-We generally expect the magnitude of the increase of muons due to \glspl{gle} is on the order of, or less than, $\sim 1 \%$, based on the results shown in Section~\ref{sec:MAIRE_flux}. We have shown that we don't expect to observe \glspl{gle} with a single \gls{hisparc} \gls{md}.  We therefore recommend here that any upgrades to form a network should ideally use 10 stations and no fewer than 5 stations, in order to be able to resolve the cross-correlation between the stations. % In addition, the average decay time of \glspl{gle}, as measured by \citet{strauss_pulse_2017}, is $1.8^{+1.9}_{-1.3}$~hours.
+We generally expect the magnitude of the muon increase due to \glspl{gle} is on the order of or less than $\sim 1 \%$, based on the results shown in Section~\ref{sec:MAIRE_flux}. We have shown that we do not expect to observe \glspl{gle} with a single \gls{hisparc} \gls{md}.  We therefore recommend here that any upgrades to form a network should ideally use 10 stations and no fewer than 5 stations, in order to be able to resolve the cross-correlation between the stations. % In addition, the average decay time of \glspl{gle}, as measured by \citet{strauss_pulse_2017}, is $1.8^{+1.9}_{-1.3}$~hours.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -838,7 +838,7 @@ We leave the reader with the following points:
 	
 	\item{There exists a good visual agreement between the data monitored by this station and a local \gls{nm} station, Dourbes, in Belgium. The data from this station and from the Dourbes \gls{nm} station should be continually compared to monitor this relationship, as it will be instrumental when or if a space weather event occurs in the next Solar Cycle.}
 	
-	\item{Simulations of artificial data demonstrated that with the raw, 10-s cadence observations we should expect to be able to detect \glspl{gle} with this configuration with a magnitude of $\gtrsim3~\%$ (i.e. similar to that predicted for \gls{gle} 42). Through averaging the data into 1- or 5-minute bins, we reduce the noise and improve the sensitivity to observe \glspl{gle} with magnitudes $\gtrsim1.5 \%$. This is in line with some of the predicted \gls{gle} magnitudes from Chapter~\ref{chap:HiSPARC}.}
+	\item{Simulations of artificial data demonstrated that with the raw, 10-s cadence observations we should expect to be able to detect \glspl{gle} with this configuration with a magnitude of $\gtrsim3-4~\%$. Through averaging the data into 1- or 5-minute bins, we reduce the noise and improve the sensitivity to observe \glspl{gle} with magnitudes $\gtrsim1.5-2.0 \%$. This is in line with some of the predicted \gls{gle} magnitudes from Chapter~\ref{chap:HiSPARC}.}
 	
 	\item{Through simulating the performance of a network of detectors in this configuration we showed that we can improve the sensitivity, to observe \glspl{gle} on the order of $\sim 1 \%$, through analysing the cross-correlation of nearby stations. However, we note that there is a strong dependence on decay time of the \glspl{gle}. We recommend that any upgrades to form a network should ideally use 10 stations and no fewer than 5 stations.}
 	

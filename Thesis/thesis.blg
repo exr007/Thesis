@@ -1,8 +1,10 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: Appendices/CORSIKA-sims/CORSIKA_sims.aux
+A level-1 auxiliary file: Appendices/HS14008-GLE-sims/HS_GLE_sims.aux
 The style file: mnras.bst
-Reallocated field_info (elt_size=4) to 10427 items from 5000.
+Reallocated field_info (elt_size=4) to 12236 items from 5000.
 Database file #1: library.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -31,6 +33,7 @@ Warning--empty journal in casanovas_early_1997
 while executing---line 1822 of file mnras.bst
 Warning--empty booktitle in chilingarian_galactic_2003
 Warning--empty booktitle in desorgher_planetocosmics_2006
+Warning--empty booktitle in elsworth_performance_1995
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry gopalswamy_corona_2010
 while executing---line 1822 of file mnras.bst
@@ -42,45 +45,52 @@ Warning--empty institution in heck_extensive_2017
 Warning--empty institution in metoffice_space_2013
 Name 1 in "{SILSO WDC}," has a comma at the end for entry silso_world_data_center_international_2020
 while executing---line 1822 of file mnras.bst
-You've used 201 entries,
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry shea_solar_1990
+while executing---line 1822 of file mnras.bst
+Warning--empty journal in shea_solar_1990
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry shea_solar_1990
+while executing---line 1822 of file mnras.bst
+You've used 268 entries,
             2879 wiz_defined-function locations,
-            2111 strings with 67757 characters,
-and the built_in function-call counts, 92908 in all, are:
-= -- 7211
-> -- 6940
-< -- 615
-+ -- 3221
-- -- 969
-* -- 10921
-:= -- 15131
+            2550 strings with 85386 characters,
+and the built_in function-call counts, 124966 in all, are:
+= -- 9757
+> -- 9425
+< -- 806
++ -- 4290
+- -- 1369
+* -- 14746
+:= -- 20351
 add.period$ -- 0
-call.type$ -- 201
-change.case$ -- 408
-chr.to.int$ -- 197
-cite$ -- 210
-duplicate$ -- 4628
-empty$ -- 4812
-format.name$ -- 1543
-if$ -- 15897
-int.to.chr$ -- 5
+call.type$ -- 268
+change.case$ -- 542
+chr.to.int$ -- 262
+cite$ -- 279
+duplicate$ -- 6151
+empty$ -- 6317
+format.name$ -- 2145
+if$ -- 21408
+int.to.chr$ -- 7
 int.to.str$ -- 0
-missing$ -- 188
-newline$ -- 640
-num.names$ -- 1401
-pop$ -- 1081
+missing$ -- 251
+newline$ -- 844
+num.names$ -- 1889
+pop$ -- 1378
 preamble$ -- 1
-purify$ -- 804
+purify$ -- 1072
 quote$ -- 0
-skip$ -- 2808
+skip$ -- 3744
 stack$ -- 0
-substring$ -- 4783
-swap$ -- 2121
-text.length$ -- 820
+substring$ -- 6532
+swap$ -- 2900
+text.length$ -- 1091
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1779
-warning$ -- 9
-while$ -- 1493
+type$ -- 2379
+warning$ -- 11
+while$ -- 2005
 width$ -- 0
-write$ -- 2071
-(There were 11 error messages)
+write$ -- 2746
+(There were 13 error messages)
