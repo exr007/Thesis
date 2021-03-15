@@ -7,11 +7,11 @@
 
 Rossby waves, as first derived by \citet{rossby_relation_1939}, have recently been discovered in the Sun through observations of near-surface flows by the \gls{sdo/hmi} \citep{loptien_global-scale_2018, liang_time-distance_2019}.
 
-Standing Rossby waves, or $r$ modes, are toroidal modes of oscillation of a rotating, fluid body for which the dominant restoring force against the pressure gradients is the Coriolis force \citep{lanza_sectoral_2019, hathaway_hydrodynamic_2020}. Rossby waves are associated with an undulation of a flow resulting in a pattern of radial vorticity of alternating sign. They are understood to form in the high atmosphere on Earth, heavily influencing global weather. For the Sun we observe that Rossby waves propagate in the retrograde direction, in the Carrington reference frame.
+Standing Rossby waves, or $r$ modes, are toroidal modes of oscillation of a rotating, fluid body for which the dominant restoring force against the pressure gradients is the Coriolis force \citep{lanza_sectoral_2019, hathaway_hydrodynamic_2021}. Rossby waves are associated with an undulation of a flow resulting in a pattern of radial vorticity of alternating sign. They are understood to form in the high atmosphere on Earth, heavily influencing global weather. For the Sun we observe that Rossby waves propagate in the retrograde direction, in the Carrington reference frame.
 
 Recently, \citet{loptien_global-scale_2018} provided an unambiguous detection of sectoral solar $r$ modes by tracking the horizontal flows of granules in the solar photosphere during a 6-year period, using observations by \gls{sdo/hmi}. Following this study \citet{liang_time-distance_2019} confirmed the detection of solar $r$ modes with time-distance helioseismology to measure deeper, subsurface flows in the meridional direction along the solar equator using both \gls{soho/mdi} and \gls{sdo/hmi} data, covering 21 years. In addition, \citet{hanasoge_detection_2019} were also able to show the detection of solar $r$ modes using a normal-mode coupling technique on 2 years of \gls{sdo/hmi} data. In both of the observation conducted by \citet{loptien_global-scale_2018} and \citet{liang_time-distance_2019}, the average lifetime of the $r$ modes were on the order of several months, and even greater than a year for specific modes.
 
-By monitoring the proper motions of solar super-granules using a local correlation tracking method \citet{hathaway_hydrodynamic_2020} also report observing low latitude Rossby waves in full-disc Doppler images obtained by \gls{sdo/hmi}, extending the measurements of Rossby waves to greater depths in the solar atmosphere, by an order of magnitude. The $r$ modes observed using the super granules have lifetimes which are only slightly longer than the Carrington rotation period, hence in slight disagreement with \citet{loptien_global-scale_2018} and \citet{liang_time-distance_2019}, which \citet{hathaway_hydrodynamic_2020} claim may be due the waves getting in and out of phase with each other as the low wave number waves propagate faster than the higher wave number waves. As these observations are at low latitudes, it is possible that they are linked to active magnetic regions and hence could be manifested in other sources of magnetic data.
+By monitoring the proper motions of solar super-granules using a local correlation tracking method \citet{hathaway_hydrodynamic_2021} also report observing low latitude Rossby waves in full-disc Doppler images obtained by \gls{sdo/hmi}, extending the measurements of Rossby waves to greater depths in the solar atmosphere, by an order of magnitude. The $r$ modes observed using the super granules have lifetimes which are only slightly longer than the Carrington rotation period, hence in slight disagreement with \citet{loptien_global-scale_2018} and \citet{liang_time-distance_2019}, which \citet{hathaway_hydrodynamic_2021} claim may be due the waves getting in and out of phase with each other as the low wave number waves propagate faster than the higher wave number waves. As these observations are at low latitudes, it is possible that they are linked to active magnetic regions and hence could be manifested in other sources of magnetic data.
 
 Here we present the search for evidence of a magnetic signature of the global $r$ modes using over 20~years of \gls{bison} observations of the \gls{los} \gls{smmf} (for details on the \gls{smmf} and \gls{bison}, see \citet{chaplin_studies_2003} and references within).
 
@@ -56,7 +56,7 @@ We can divide through by the model to give a residual spectrum, in which we have
 The detailed theory of the effect of $r$ modes on observational data was re-visited recently by \citet{lanza_sectoral_2019} in light of the solar observations, in an effort to determine the effect of the $r$ modes on radial velocity detections of exoplanets.
 
 They showed that under the assumption of a slow, uniformly rotating sphere (with angular velocity, $\Omega$, where $\Omega^2 << GMR^{-3}$), the frequencies of global $r$ modes in the Carrington rotating frame is well approximated by:
-
+%
 \begin{equation}
 \nu_{carr} = - \frac{2m\Omega}{l(l + 1)} \, ,
 \label{eq:dispersion_rel}
@@ -65,7 +65,7 @@ They showed that under the assumption of a slow, uniformly rotating sphere (with
 where $l > 0$ is the angular degree and $m$ is the azimuthal order \citep{loptien_global-scale_2018, lanza_sectoral_2019}:
 
 In an inertial frame the observed $r$ mode frequencies will be \citep{lanza_sectoral_2019}:
-
+%
 \begin{equation}
 \nu_{\mathrm{in}}(l,m) \approx m\Omega - \frac{2m\Omega}{l(l + 1)}  = m\Omega \left(1 - \frac{2}{l(l + 1)}\right) \, ,
 \label{eq:r-mode}
@@ -73,14 +73,14 @@ In an inertial frame the observed $r$ mode frequencies will be \citep{lanza_sect
 %
 where $\Omega$ is the mean sidereal rotation rate, and $l$ and $m$ are the angular and azimuthal degree, respectively. Sectoral Rossby waves are obtained by setting $l=m$ in this equation. A consequence is that they propagate with a retrograde phase velocity as $\nu / m = -2 \Omega/[m(m + 1)] < 0$.
 
-An Earth-based observer, orbiting the Sun, shall expect to observe frequencies adjusted by the orbital frequency, $\nu_\oplus \, \approx \, 31.7$nHz, given by equation~(\ref{eq:r-mode_obs}):
-
+An Earth-based observer, orbiting the Sun, shall expect to observe frequencies adjusted by the orbital frequency, $\nu_\oplus \, \approx \, 31.7$nHz, given by:
+%
 \begin{equation}
 \nu_{\mathrm{obs}}(l,m) = \nu_{\mathrm{in}}(l,m) - m\nu_{\oplus} \, .
 \label{eq:r-mode_obs}
 \end{equation}
 
-In addition, due to the tilt of the ecliptic with respect to the solar equatorial plane (the solar $B_0$ angle), the visibility of the modes will vary on a timescale of 1 year, meaning we expect to actually observe split peaks at frequencies of $\nu_{\mathrm{obs}}(l,m) \pm \nu_{\oplus}$ \citep{lanza_sectoral_2019}.
+In addition, due to the tilt of the ecliptic with respect to the solar equatorial plane (the solar B$_0$ angle), the visibility of the modes will vary on a timescale of 1 year, meaning we expect to actually observe split peaks at frequencies of $\nu_{\mathrm{obs}}(l,m) \pm \nu_{\oplus}$ \citep{lanza_sectoral_2019}.
 
 Based on this theory, we can predict the frequencies at which to search for $r$ modes. These frequencies are summarised in Table~\ref{tab:r-modes}, along with the frequencies observed in other studies. %compare the observed sectoral $r$ modes with those predicted. These frequencies are summarised in Table~\ref{tab:r-modes}.
 
@@ -88,7 +88,7 @@ Based on this theory, we can predict the frequencies at which to search for $r$ 
 
 \begin{table}[ht!]
 	\begin{center}
-		\caption{Predicted$^+$ and observed$^\circ$ $r$ mode frequencies for combinations of $l$ and $m$. Predicted frequencies and conversions of observations to different frames of reference use equation~(\ref{eq:dispersion_rel}), equation~(\ref{eq:r-mode}), and equation~(\ref{eq:r-mode_obs}), with $\Omega = 453.1$~nHz. The predicted splitting for the $B_0$ angle variation is also provided. The key for the source column is: LPT for \citet{loptien_global-scale_2018}, LNG for \citet{liang_time-distance_2019}, and LZA for \citet{lanza_sectoral_2019}.}\label{tab:r-modes}
+		\caption{Predicted$^+$ and observed$^\circ$ $r$ mode frequencies for combinations of $l$ and $m$. Predicted frequencies and conversions of observations to different frames of reference use equation~(\ref{eq:dispersion_rel}), equation~(\ref{eq:r-mode}), and equation~(\ref{eq:r-mode_obs}), with $\Omega = 453.1$~nHz. The predicted splitting for the B$_0$ angle variation is also provided. The key for the source column is: LPT for \citet{loptien_global-scale_2018}, LNG for \citet{liang_time-distance_2019}, and LZA for \citet{lanza_sectoral_2019}.}\label{tab:r-modes}
 		\begin{tabular}{c c c c c c }
 			\hline 
 			{\bf Frequency } & {\bf Source} & {\boldmath$l=m=2$} & {\boldmath$l=m=3$} & {\boldmath$l=m=4$} & {\boldmath$l=m=5$}  \\ 
@@ -144,13 +144,13 @@ There appear to be resolved peaks in the vicinity of the $l=m=2$ $r$ mode and pe
 In order to investigate the presence of Rossby wave modes in the power spectrum of the \gls{bison} \gls{smmf}, statistical significance tests were employed using a false-alarm approach, to test the probability of finding prominent narrow-band power in the residual spectrum.
 
 We assume negative exponential statistics (i.e. $\chi^2$ 2-degrees of freedom distribution), and that the bins in the power spectrum are uncorrelated. This was tested using artificial data created with the same window function as the BiSON observations, and we showed that this assumption was suitable. We then calculated the false alarm probability, or probability to observe power purely by chance in a given frequency bin, $\nu$, that is greater than or equal to a given threshold. The probability to observe power in a given frequency bin, $\nu$, that is greater than or equal to $P(\nu)$ is:
-
+%
 \begin{equation}
 p[P(\nu)] = \frac{1}{P_{lim}(\nu)} \mathrm{exp}\left(-\frac{P(\nu)}{P_{lim}(\nu)}\right) \; \mathrm{or; } \; p[P(\nu)] = \frac{1}{\langle P(\nu) \rangle} \mathrm{exp}\left(-\frac{P(\nu)}{\langle P(\nu) \rangle}\right) \, ,
 \label{eq:p_power_prob}
 \end{equation}
 %
-where $P_{lim}(\nu)$ is the limit spectrum or $\langle P(\nu) \rangle$ is a well-fitting model/estimate to the spectrum. Considering a relative power approach (i.e. considering the power relative to the mean level or model of the \gls{psd}), equation~(\ref{eq:p_power_prob}) may be written more concisely as:
+where $P_{lim}(\nu)$ is the limit spectrum or $\langle P(\nu) \rangle$ is a well-fitting model/estimate of the spectrum. Considering a relative power approach (i.e. considering the power relative to the mean level or model of the \gls{psd}), equation~(\ref{eq:p_power_prob}) may be written more concisely as:
 %
 \begin{equation}
 p(s_{\nu}) = e^{(-s_{\nu})} \, ,
@@ -166,8 +166,8 @@ s_{\nu} = P(\nu)/\langle P(\nu) \rangle \, ,
 %
 and $\langle P(\nu) \rangle$ is reduced to 1 when we compare the power relative to the power spectrum residuals.
 
-In reality, we used the $\chi^2$ cumulative distribution function to compute the probability of power, which is given by equation~(\ref{eq:chi2_CDF}), where $k$ is the number of degrees of freedom, $\gamma(s,t)$ is the lower incomplete gamma function and $P(s,t)$ is the regularized gamma function: 
-
+In reality, we used the $\chi^2$ cumulative distribution function to compute the probability of power, which is given by equation~(\ref{eq:chi2_CDF}), where $k$ is the number of degrees of freedom, $\gamma(s,t)$ is the lower incomplete gamma function and $P(s,t)$ is the regularised gamma function: 
+%
 \begin{equation}
 F(x; \, k) = \frac{\gamma (\frac{k}{2}, \, \frac{x}{2})}{\Gamma(\frac{k}{2})} = P\left(\frac{k}{2}, \, \frac{x}{2}\right) \, .
 \label{eq:chi2_CDF}
@@ -175,16 +175,16 @@ F(x; \, k) = \frac{\gamma (\frac{k}{2}, \, \frac{x}{2})}{\Gamma(\frac{k}{2})} = 
 
 
 Using these expressions, we can rewrite the equation for $P(s_{\nu})$ as given by equation~(\ref{eq:chi2_prob_concise}): 
-
+%
 \begin{equation}
 p(s_{\nu}) = 1 \, - \, F(2s_{\nu}; \, k) =1 \, - \, P\left(\frac{k}{2}, \, s_{\nu}\right) \, .
 \label{eq:chi2_prob_concise}
 \end{equation}
 
-This formulation provided the capability to compute the probability of statistically significant peaks in the residuals for re-binned data, for when data is binned over $n$-bins, the statistics becomes $\chi^{2}$ with $2n$ degrees of freedom \citep{appourchaux_detecting_2004}.
+This formulation provided the capability to compute the probability of statistically significant peaks in the residuals for re-binned data, for when data is binned over $n$-bins, the statistics becomes $\chi^{2}$ with $2n$ degrees-of-freedom \citep{appourchaux_detecting_2004}.
 
 The probability that a bin has power at or above the level $s_{\nu}$ is therefore given by equation~(\ref{eq:p_power_prob_concise}), or more generally by equation~(\ref{eq:chi2_prob_concise}), hence the probability that we fail to find a bin with power at or above the level $s_{\nu}$ is $1 \, - \, p(s_{\nu})$; thus the probability of failing to find a bin with power at or above $s_{\nu}$ in $N$-bins in the spectrum is $[1 \, - \, p(s_{\nu})]^N$. Therefore the probability to find at least one bin with power at or above $s_{\nu}$ in $N$-bins in the spectrum is:
-
+%
 \begin{equation}
 p_N = 1\, - \, [1 \, - \, p(s_{\nu})]^N \, ,
 \label{eq:p_N}
@@ -193,7 +193,7 @@ p_N = 1\, - \, [1 \, - \, p(s_{\nu})]^N \, ,
 where a low value for $p_N$ indicates that the spike in power in that bin is unlikely to be a statistical fluctuation, and therefore is considered a statistically significant spike.
 
 This can be generalised using the cumulative binomial distribution. The probability of finding at least $r$ spikes in $N$-bins at or above the relative power level $s_{\nu}$ is given by equation~(\ref{eq:binom_CDF}), which is equal to equation~(\ref{eq:p_N}) when $r=1$,
-
+%
 \begin{equation}
 p[r; p(s_\nu), N] = 1 - Pr(X < s_{\nu}) = \sum_{r=r}^{N} \binom{N}{r} \, p(s_{\nu})^r \, [1 \, - \, p(s_{\nu})]^{N-r} \, .
 \label{eq:binom_CDF}
@@ -217,7 +217,7 @@ By applying equation~(\ref{eq:binom_CDF}) to the residuals of in the power spect
 In the location of any suspected $r$ modes in the residual spectrum, we can model the profile of the peak by using a Lorentzian distribution using the form expressed by:
 
 \begin{equation}
-P(\nu) = \frac{2A^2/(\pi \Gamma)}{1 + (2(\nu - \nu_0)/\Gamma)^2} \, .
+P(\nu) = \frac{2A^2/(\pi \Gamma)}{1 + (2(\nu - \nu_0)/\Gamma)^2} \, ,
 \label{eq:lorentzian}
 \end{equation}
 %
@@ -225,7 +225,7 @@ where $A$ is the \gls{rms} amplitude of the signal, $\Gamma$ is the line-width o
 
 Parameter estimation was performed in a Bayesian manner using a \gls{mcmc} fitting routine. The likelihood function used was the $\chi^2$ 2 degrees-of-freedom \citep{handberg_bayesian_2011, davies_low-frequency_2014}. The prior information on each of the parameters used during the \gls{mcmc} is discussed below, in Section~\ref{sec:r-mode_results}.
 
-Modelling was performed using the {\verb pymc3 } \gls{nuts} extension to a \gls{hmc} sampling algorithm \citep{salvatier_probabilistic_2016}. Convergence was interrogated using the $\widehat{R}$ diagnostic factor using the criteria that chains did not converge if $\widehat{R} > 1.01$.
+Modelling was performed using the {\verb pymc3 } \gls{nuts} extension to a \gls{hmc} sampling algorithm \citep{salvatier_probabilistic_2016}. Convergence was interrogated using the Gelman-Rubin $\widehat{R}$ diagnostic factor \citep{gelman_inference_1992}, using the criteria that chains did not converge if $\widehat{R} > 1.01$.
 
 
 
@@ -243,7 +243,7 @@ The residual spectrum was shown in Figure~\ref{fig:residuals}, highlighting loca
 %	\caption{Residual power spectrum of the BiSON SMMF. Over plotted in the dark blue curve is the model of the main SMMF signal which was divided out from the raw spectrum. Also over plotted as vertical solid lines are the expected locations of the 4 lowest-frequency sectoral $r$ modes and the dashed lines, the locations of the B$_0$ variation frequency splitting. Dashed lines represent $\pm 31.7$~nHz (i.e. representing the frequencies of splitting due to the variation in the B$_0$ angle.)}  \label{fig:residuals}
 %\end{figure}
 
-The statistics tests were performed on the residual spectrum for various re-binning factors, $n$. The plots summarising the statistics tests are shown in Fig.~\ref{fig:BiSON_new_symm_stats} for re-binning factors of $n\,=\,$1, 2, 5, and 10.
+The statistics tests were performed on the residual spectrum for various re-binning factors, $n$. The plots summarising the statistics tests are shown in Figure~\ref{fig:BiSON_new_symm_stats} for re-binning factors of $n\,=\,$1, 2, 5, and 10.
 
 \begin{figure}[!ht]
 	\centering
@@ -265,13 +265,13 @@ The statistics tests were performed on the residual spectrum for various re-binn
 		\includegraphics[width=0.38\columnwidth]{full_stats_BiSON_symm_n10.pdf}
 		\label{fig:BiSON_new_symm_stats_n10}}
 	
-	\caption{Realisations of the statistics tests on the BiSON data for different re-binning factors (n). The panels of each sub figure are: (top) the full PSD and fit, (second panel) the full and re-binned residuals, (third panel) the probability of statistical noise in each bin, (bottom) distribution of the residuals compared to a $\chi^2$ $2n$-DOF.}
+	\caption{Realisations of the statistics tests on the BiSON data for different re-binning factors (n). The panels of each sub figure are: (top) the full PSD and fit, (second panel) the full and re-binned residuals, (third panel) the probability of statistical noise in each bin, (bottom) distribution of the residuals, blue, compared to a $\chi^2$ $2n$-DOF, orange.}
 	\label{fig:BiSON_new_symm_stats}
 \end{figure}
 
 
 These tests suggest that the feature around 0.5~$\upmu$Hz may be a signal related to $r$ modes. This peak is particularly interesting despite the other potentially significant peaks near 0.75~$\upmu$Hz. The peaks near 0.75~$\upmu$Hz sit on top of the main rotational harmonics, and there is not a predicted $r$ mode at those frequencies. The peak at 0.5~$\upmu$Hz does not sit on top of the main rotational harmonics and its location is roughly correct for the $l=m=2$ mode. Furthermore, this peak consistently has a low \gls{fa} probability. %The other low \gls{fa} probability features tend to be associated with the residuals from the main harmonics of the \gls{smmf} signal, and are the result of a slight failing of the main model of the power spectrum.
-In Figure~\ref{fig:BiSON_new_symm_stats_n2}, there is compelling evidence to suggest that this feature is significant, in particular, as the peak is well--resolved in the second panel. In order to solidify this conjecture, we aimed to fit a model to the residuals around this peak in order to confirm whether the properties of the peak resembled those suggested by \citet{loptien_global-scale_2018}, \citet{liang_time-distance_2019}, and \citet{lanza_sectoral_2019}.
+In Figure~\ref{fig:BiSON_new_symm_stats_n2}, there is compelling evidence to suggest that this feature is significant, in particular, as the peak is well-resolved in the second panel. In order to solidify this conjecture, we aimed to fit a model to the residuals around this peak in order to confirm whether the properties of the peak resembled those suggested by \citet{loptien_global-scale_2018}, \citet{liang_time-distance_2019}, and \citet{lanza_sectoral_2019}.
 
 
 \subsection{Modelling {\it r} mode Profiles}
@@ -324,7 +324,7 @@ The results of the fit are given in Table~\ref{tab:rmode_fit_params} and the fit
 
 The median of the posterior distribution on the width parameter suggests an $e$-folding lifetime ($1/(\pi \Gamma)$) of around $710^{+670}_{-380}$~days ($\sim 1.9^{+1.8}_{-1.0}$~years), which follows the order of magnitude of the lifetime predicted and observed for low-$m$ Rossby modes. The lowest $r$ mode observed, $l=m=3$, was shown to exhibit a lifetime of over a year ($\sim 1.4$ years) by \citet{liang_time-distance_2019}. The $l=m=4$ were observed by both \citet{loptien_global-scale_2018} and \citet{liang_time-distance_2019} to have a lifetime of $\sim 0.6$ years and $\sim 0.3$ years, respectively. There seems to be a slight increasing trend in the mode lifetimes observed by \citet{loptien_global-scale_2018} and \citet{liang_time-distance_2019}, of longer lifetimes for lower $m$; therefore, the long lifetime found here for the mode is entirely reasonable for the $l=m=2$ mode and in-line with current observations.
 
-The median value of the \gls{rms} amplitude of the peak was measured to be $27.1_{-5.9}^{+7.9}$~mG, which equates to a radial velocity amplitude of $\sim 7.8_{-1.7}^{+2.3}~\mathrm{cm}^{-1}$. \citet{lanza_sectoral_2019} state that the maximum RV amplitude of the $l=m=2$ mode is $\sim 24.5~\mathrm{cm}^{-1}$, meaning our observed peak is around a third of the maximum RV amplitude one might have expected to observe. This is however an upper limit given by \citet{lanza_sectoral_2019}, and therefore the lower amplitude in the model should not be concerning.
+The median value of the \gls{rms} amplitude of the peak was measured to be $27.1_{-5.9}^{+7.9}$~mG, which equates to a \gls{rv} amplitude of $\sim 7.8_{-1.7}^{+2.3}~\mathrm{cm}\,\mathrm{s}^{-1}$. \citet{lanza_sectoral_2019} state that the maximum \gls{rv} amplitude of the $l=m=2$ mode is $\sim 24.5~\mathrm{cm}^{-1}$, meaning our observed peak is around a third of the maximum \gls{rv} amplitude one might have expected to observe. This is however an upper limit given by \citet{lanza_sectoral_2019}, and therefore the lower amplitude in the model should not be concerning.
 
 In particular, however, we can see that the background is $\sim 0~\mathrm{G}^2\,\mathrm{Hz}^{-1}$, which is expected. Due to the agreement between the central frequency of the fit to the $l=m=2$ mode, the agreement in the order of magnitude of the $e$-folding lifetime, and the amplitude of the mode residing below the upper limit suggested by \citet{lanza_sectoral_2019}, there is evidence to suggest that this peak, which has shown to be significant through the false-alarm statistics tests, could be the $l=m=2$ sectoral $r$ mode, observed in the \gls{bison} \gls{smmf} data. We will cross-check this by further investigation using simulated data and, more directly, by comparison to other sources of \gls{smmf} observations, to determine whether the signal is present there too.
 
@@ -355,7 +355,7 @@ We needed to therefore understand whether the \gls{smmf} observations have a hem
 	\caption{Mode displacement schematic for an $l=m=2$ $r$ mode \citep{strohmayer_neutron_2014}}  \label{fig:l2m2}
 \end{figure}
 
-To investigate the splitting of the mode, a simple model was produced whereby a sinusoidal function (with a period of $\sim$25 days) was modulated by either a cosine or rectified cosine function (with a period of 1 year). In the former, using the cosine modulation, this represents observing the sign of the flow varying with the B$_0$ modulation. Conversely in the latter simulation, this instead represents a variation of the amplitude, and it does not change the sign. It should be noted that the investigation of the mode splitting relies upon the assumption that the magnetic $r$ mode signal has similar characteristics to the observed \gls{smmf} signal. Figure~\ref{fig:modulation} shows the time series of the two cases to more clearly show their difference. The power spectrum of each case was then computed and these are shown in Figure~\ref{fig:modulation_PSDs} to demonstrate the differences between the modes produced.
+To investigate the splitting of the mode, a simple model was produced whereby a sinusoidal function (with a period of $\sim$25 days) was modulated by either a cosine or rectified cosine function (with a period of 1 year). In the former, using the cosine modulation, this represents observing the sign of the flow varying with the B$_0$ modulation, i.e. dubbed velocity modulation. Conversely in the latter simulation, this instead represents a variation of the amplitude, and it does not change the sign. It should be noted that the investigation of the mode splitting relies upon the assumption that the magnetic $r$ mode signal has similar characteristics to the observed \gls{smmf} signal, i.e. dubbed amplitude modulation. Figure~\ref{fig:modulation} shows the time series of the two cases to more clearly show their difference. The power spectrum of each case was then computed and these are shown in Figure~\ref{fig:modulation_PSDs} to demonstrate the differences between the modes produced.
 
 \begin{figure}[!ht]
 	\centering
@@ -381,9 +381,9 @@ We investigated how the two hemispheres of the Sun contribute to the \gls{smmf} 
 \begin{figure}[!ht]
 	\centering
 	\subfloat[2011]
-	{\includegraphics[width=0.47\columnwidth]{HMI_MF_2011_rescaled.png}} 
+	{\includegraphics[width=0.75\columnwidth]{HMI_MF_2011_rescaled.png}} 
 	\qquad
-	\subfloat[2014]{\includegraphics[width=0.47\columnwidth]{HMI_MF_2014_rescaled.png}}
+	\subfloat[2014]{\includegraphics[width=0.75\columnwidth]{HMI_MF_2014_rescaled.png}}
 	\caption{SDO/HMI SMMF split into hemispheres and compared to other SMMF sources during (a) 2011, and (b) 2014. The top panel in each figure shows the north (N), south (S), and total disc-averaged mean magnetic field, for both the full solar disc and from pixels within 99\% of solar radius. The bottom panels show a comparison between the SMMF, as observed BiSON, WSO, and SDO/HMI (full disc and the 99\% disc).}  \label{fig:HMI_MF}
 \end{figure}
 
@@ -410,7 +410,7 @@ Figure~\ref{fig:comparing_SMMF_PSDs} shows the comparison of the \gls{wso} and \
 
 This provides concerning evidence that we may not, in fact, have observed the $l=2=m$ $r$ mode in the \gls{bison} power spectrum, and perhaps instead we have a persistent noise source in the \gls{bison} \gls{smmf}.
 
-However compelling the results are, suggesting that we may have observed the $l=2=m$ $r$ mode in the \gls{bison} power spectrum, it is impossible to ignore that it is not present in two other sources of \gls{smmf} observations -- of which one of these telescopes is responsible for providing the recent observations of $r$ modes documented in the literature (\gls{sdo/hmi}). Owing to this, we cannot conclude that we have observed the $l=2=m$ $r$ mode in the \gls{bison} power spectrum. We recommend that searching for $r$ modes in the power spectra of the \gls{smmf} observations should be revisited in a few years, or say a solar cycle's time, when the frequency resolution in each power spectrum has increased significantly, to provide a more insightful follow-up study.
+However compelling the results are, suggesting that we may have observed the $l=2=m$ $r$ mode in the \gls{bison} power spectrum, it was impossible to ignore that it was not present in two other sources of \gls{smmf} observations -- of which one of these telescopes was responsible for providing the recent observations of $r$ modes documented in the literature (\gls{sdo/hmi}). Owing to this, we cannot conclude that we have observed the $l=2=m$ $r$ mode in the \gls{bison} power spectrum. We recommend that searching for $r$ modes in the power spectra of the \gls{smmf} observations should be revisited in a few years, or say a solar cycle's time, when the frequency resolution in each power spectrum has increased significantly, to provide a more insightful follow-up study.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

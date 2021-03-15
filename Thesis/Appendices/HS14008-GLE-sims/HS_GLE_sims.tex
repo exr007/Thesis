@@ -19,7 +19,7 @@ There were several variables that allowed us to change the physics of the simula
 \end{itemize}
 
 Using these variables, the mathematical form of the model was expressed by:
-
+%
 \begin{equation}
     y(t) =  \sigma \, + \, \lambda \, (1 + A) \, . 
 \begin{cases}
@@ -31,7 +31,7 @@ Using these variables, the mathematical form of the model was expressed by:
 \end{cases} \, ,
 \label{eq:GLE_model}
 \end{equation}
-
+%
 where $t$ is the time in the range from 0 -- $T_d$ in 10-second intervals, to be representative of the real \gls{hisparc} station 14008 data.
 
 An example time series of a single \gls{gle} is shown in Figure~\ref{fig:simulated_HS14008_GLE_data}. This shows both the model used to generate the simulated data (black line), as well as the background level and noise with and without the \gls{gle} injected, blue and orange lines, respectively.
@@ -55,7 +55,7 @@ The simulated data were generated using a Python script. A flowchart describing 
 	\label{fig:gle_flowchart}
 \end{figure}
 
-The simulations required the user to input the number of iterations, $N$, to run. For each iteration, the time of the \gls{gle} peak, $t_0$, was drawn from a uniform distribution between 0 and $T_d$. Rise and decay times were drawn from uniform distributions, $\mathcal{U}(0, 75)$~minutes and $\mathcal{U}(15, 500)$~minutes, based on the findings on the shape of \gls{gle} signals \citep{strauss_pulse_2017}. In addition we also ensured $\tau_d > 3.5 \, \tau_r$, \citep{strauss_pulse_2017}.
+The simulations required the user to input the number of iterations, $N$, to run. For each iteration, the time of the \gls{gle} peak, $t_0$, was drawn from a uniform distribution between 0 and $T_d$. Rise and decay times were drawn from uniform distributions, $\mathcal{U}(0, 75)$~minutes and $\mathcal{U}(15, 500)$~minutes, based on the findings on the shape of \gls{gle} signals \citep{strauss_pulse_2017}. In addition we also ensured $\tau_d \gtrsim 3.5 \, \tau_r$, \citep{strauss_pulse_2017}.
 
 With these properties drawn, and the user inputting the background level ($\lambda$), noise-level ($\sigma$), and percentage increase of the \gls{gle} ($A$), each individual \gls{gle} was simulated according to equation~(\ref{eq:GLE_model}). After the creation of the simulated data, statistical tests were performed to determine whether the \gls{gle} is observed.
 

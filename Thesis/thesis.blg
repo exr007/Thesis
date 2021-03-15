@@ -4,7 +4,7 @@ The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: Appendices/CORSIKA-sims/CORSIKA_sims.aux
 A level-1 auxiliary file: Appendices/HS14008-GLE-sims/HS_GLE_sims.aux
 The style file: mnras.bst
-Reallocated field_info (elt_size=4) to 12236 items from 5000.
+Reallocated field_info (elt_size=4) to 12263 items from 5000.
 Database file #1: library.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -52,45 +52,45 @@ Warning--empty journal in shea_solar_1990
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry shea_solar_1990
 while executing---line 1822 of file mnras.bst
-You've used 268 entries,
+You've used 269 entries,
             2879 wiz_defined-function locations,
-            2550 strings with 85386 characters,
-and the built_in function-call counts, 124966 in all, are:
-= -- 9757
-> -- 9425
-< -- 806
-+ -- 4290
-- -- 1369
-* -- 14746
-:= -- 20351
+            2562 strings with 85744 characters,
+and the built_in function-call counts, 124889 in all, are:
+= -- 9695
+> -- 9439
+< -- 812
++ -- 4301
+- -- 1367
+* -- 14747
+:= -- 20360
 add.period$ -- 0
-call.type$ -- 268
-change.case$ -- 542
-chr.to.int$ -- 262
-cite$ -- 279
-duplicate$ -- 6151
-empty$ -- 6317
+call.type$ -- 269
+change.case$ -- 544
+chr.to.int$ -- 263
+cite$ -- 280
+duplicate$ -- 6170
+empty$ -- 6339
 format.name$ -- 2145
-if$ -- 21408
+if$ -- 21370
 int.to.chr$ -- 7
 int.to.str$ -- 0
-missing$ -- 251
-newline$ -- 844
-num.names$ -- 1889
-pop$ -- 1378
+missing$ -- 252
+newline$ -- 847
+num.names$ -- 1893
+pop$ -- 1380
 preamble$ -- 1
-purify$ -- 1072
+purify$ -- 1076
 quote$ -- 0
-skip$ -- 3744
+skip$ -- 3760
 stack$ -- 0
-substring$ -- 6532
-swap$ -- 2900
-text.length$ -- 1091
+substring$ -- 6411
+swap$ -- 2898
+text.length$ -- 1095
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2379
+type$ -- 2388
 warning$ -- 11
-while$ -- 2005
+while$ -- 2013
 width$ -- 0
-write$ -- 2746
+write$ -- 2756
 (There were 13 error messages)

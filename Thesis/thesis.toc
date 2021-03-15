@@ -55,7 +55,7 @@
 \contentsline {subsection}{\numberline {3.3.5}Monitoring Pressure}{107}{subsection.3.3.5}
 \contentsline {section}{\numberline {3.4}Methodology}{108}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Atmospheric Corrections}{108}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Observations}{109}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.2}Observation Statistics}{109}{subsection.3.4.2}
 \contentsline {section}{\numberline {3.5}Atmospheric Corrections}{113}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Temperature Correction}{113}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}Barometric Correction}{116}{subsection.3.5.2}
@@ -94,23 +94,23 @@
 \contentsline {section}{\numberline {5.6}Discussion}{192}{section.5.6}
 \contentsline {subsection}{\numberline {5.6.1}Testing the Effects of Differential Rotation and Active Region Migration}{192}{subsection.5.6.1}
 \contentsline {subsection}{\numberline {5.6.2}Further Morphology of the SMMF using SDO/HMI Data}{196}{subsection.5.6.2}
-\contentsline {section}{\numberline {5.7}Conclusion}{198}{section.5.7}
-\contentsline {chapter}{\numberline {6}Rossby Modes in the Solar Mean Magnetic Field}{202}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{202}{section.6.1}
-\contentsline {section}{\numberline {6.2}Theory}{204}{section.6.2}
-\contentsline {section}{\numberline {6.3}Methodology}{206}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Testing the Residual Spectrum}{206}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Modelling {\it r} mode Profiles}{209}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Results}{210}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Testing the Residual Spectrum}{210}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Modelling {\it r} mode Profiles}{212}{subsection.6.4.2}
-\contentsline {section}{\numberline {6.5}Discussion}{214}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Manifestation of Rossby Waves in the Power Spectrum}{214}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Rossby Modes in Other Sources of SMMF Data}{219}{subsection.6.5.2}
-\contentsline {section}{\numberline {6.6}Conclusion}{220}{section.6.6}
-\contentsline {chapter}{\numberline {7}Conclusions and Future Prospects}{223}{chapter.7}
-\contentsline {chapter}{\numberline {A}Simulations of Cosmic Ray Air Showers using CORSIKA}{231}{appendix.A}
-\contentsline {chapter}{\numberline {B}Simulations of the Ground Level Enhancements for the Analysis of HiSPARC Station 14008}{235}{appendix.B}
-\contentsline {section}{\numberline {B.1}Model}{235}{section.B.1}
-\contentsline {section}{\numberline {B.2}Configuration of the Simulations}{237}{section.B.2}
-\contentsline {chapter}{Bibliography}{239}{figure.caption.132}
+\contentsline {section}{\numberline {5.7}Conclusion}{199}{section.5.7}
+\contentsline {chapter}{\numberline {6}Rossby Modes in the Solar Mean Magnetic Field}{203}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{203}{section.6.1}
+\contentsline {section}{\numberline {6.2}Theory}{205}{section.6.2}
+\contentsline {section}{\numberline {6.3}Methodology}{207}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Testing the Residual Spectrum}{207}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Modelling {\it r} mode Profiles}{210}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Results}{211}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Testing the Residual Spectrum}{211}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Modelling {\it r} mode Profiles}{213}{subsection.6.4.2}
+\contentsline {section}{\numberline {6.5}Discussion}{215}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Manifestation of Rossby Waves in the Power Spectrum}{215}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Rossby Modes in Other Sources of SMMF Data}{220}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}Conclusion}{221}{section.6.6}
+\contentsline {chapter}{\numberline {7}Conclusions and Future Prospects}{224}{chapter.7}
+\contentsline {chapter}{\numberline {A}Simulations of Cosmic Ray Air Showers using CORSIKA}{232}{appendix.A}
+\contentsline {chapter}{\numberline {B}Simulations of the Ground Level Enhancements for the Analysis of HiSPARC Station 14008}{236}{appendix.B}
+\contentsline {section}{\numberline {B.1}Model}{236}{section.B.1}
+\contentsline {section}{\numberline {B.2}Configuration of the Simulations}{238}{section.B.2}
+\contentsline {chapter}{Bibliography}{240}{figure.caption.132}

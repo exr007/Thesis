@@ -141,6 +141,10 @@ Belov A.,  Eroshenko E.,  Yanke V.,  Oleneva V.,  Abunin A.,  Abunina M.,
 Berkova M.~D.,  Belov A.~V.,  Eroshenko E.~A.,   Yanke V.~G.,  2011, \mn@doi
   [Bull. Russ. Acad. Sci. Phys.] {10.3103/S1062873811060086}, 75, 820
 
+\bibitem[\protect\citeauthoryear{Bethe}{Bethe}{1932}]{bethe_bremsformel_1932}
+Bethe H.,  1932, \mn@doi [Zeitschrift für Physik] {10.1007/BF01342532}, 76,
+  293
+
 \bibitem[\protect\citeauthoryear{Blackmore, Stukel, Trinczek, Slayman, Wen  \&
   Wong}{Blackmore et~al.}{2015}]{blackmore_terrestrial_2015}
 Blackmore E.~W.,  Stukel M.,  Trinczek M.,  Slayman C.,  Wen S.,   Wong R.,
@@ -585,8 +589,9 @@ Hathaway D.~H.,  Upton L.~A.,  2017, Solar {Cycle} {Science}, \url
   {http://solarcyclescience.com/index.html}
 
 \bibitem[\protect\citeauthoryear{Hathaway \& Upton}{Hathaway \&
-  Upton}{2020}]{hathaway_hydrodynamic_2020}
-Hathaway D.~H.,  Upton L.~A.,  2020, arXiv e-prints, 2006, arXiv:2006.06084
+  Upton}{2021}]{hathaway_hydrodynamic_2021}
+Hathaway D.~H.,  Upton L.~A.,  2021, \mn@doi [The Astrophysical Journal]
+  {10.3847/1538-4357/abcbfa}, 908, 160
 
 \bibitem[\protect\citeauthoryear{Heck \& Pierog}{Heck \&
   Pierog}{2017}]{heck_extensive_2017}
@@ -708,11 +713,6 @@ LeCroy 1996, {LeCroy} {Research} {Systems} {Model} {365AL}, {Model} 465, and
   {Technical} {Data}: {Model} 622 {Logic} {Units}, \url
   {https://teledynelecroy.com/lrs/dsheets/365al.htm}
 
-\bibitem[\protect\citeauthoryear{Leamon, McIntosh  \& Marsh}{Leamon
-  et~al.}{2018}]{leamon_termination_2018}
-Leamon R.~J.,  McIntosh S.~W.,   Marsh D.~R.,  2018, arXiv e-prints, 1812,
-  arXiv:1812.02692
-
 \bibitem[\protect\citeauthoryear{Leamon, McIntosh, Chapman  \& Watkins}{Leamon
   et~al.}{2020}]{leamon_timing_2020}
 Leamon R.~J.,  McIntosh S.~W.,  Chapman S.~C.,   Watkins N.~W.,  2020, \mn@doi
@@ -776,7 +776,7 @@ Lovell J.~L.,  Duldig M.~L.,   Humble J.~E.,  1998, \mn@doi [Journal of
   103, 23733
 
 \bibitem[\protect\citeauthoryear{Luminet}{Luminet}{2017}]{luminet_reception_2017}
-Luminet J.-P.,  2017, arXiv:1701.02930 [physics]
+Luminet J.-P.,  2017, {International Review of Science}
 
 \bibitem[\protect\citeauthoryear{Lund, Chaplin, Hale, Davies, Elsworth  \&
   Howe}{Lund et~al.}{2017}]{lund_spatial_2017}
@@ -948,9 +948,9 @@ Paschalis P.,  Mavromichalaki H.,  Yanke V.,  Belov A.,  Eroshenko E.,
   {10.1016/j.newast.2012.08.003}, 19, 10
 
 \bibitem[\protect\citeauthoryear{Pereira, Vasconcellos  \& Hadjimichef}{Pereira
-  et~al.}{2020}]{pereira_ground_2020}
-Pereira E.~G.,  Vasconcellos C. A.~Z.,   Hadjimichef D.,  2020,
-  arXiv:2011.06480 [hep-ex, physics:hep-ph]
+  et~al.}{2021}]{pereira_ground-level_2021}
+Pereira E.~G.,  Vasconcellos C.~A.,   Hadjimichef D.,  2021, \mn@doi
+  [Astronomische Nachrichten] {https://doi.org/10.1002/asna.202113940}
 
 \bibitem[\protect\citeauthoryear{Pesnell}{Pesnell}{2020}]{pesnell_lessons_2020}
 Pesnell W.~D.,  2020, \mn@doi [Journal of Space Weather and Space Climate]
@@ -1312,6 +1312,10 @@ Xie J.~L.,  Shi X.~J.,   Xu J.~C.,  2017, \mn@doi [The Astronomical Journal]
 Yashiro S.,  Gopalswamy N.,  Michalek G.,  Cyr O. C.~S.,  Plunkett S.~P.,  Rich
   N.~B.,   Howard R.~A.,  2004, \mn@doi [Journal of Geophysical Research: Space
   Physics] {https://doi.org/10.1029/2003JA010282}, 109
+
+\bibitem[\protect\citeauthoryear{Ziegler}{Ziegler}{1999}]{ziegler_stopping_1999}
+Ziegler J.~F.,  1999, \mn@doi [Journal of Applied Physics] {10.1063/1.369844},
+  85, 1249
 
 \bibitem[\protect\citeauthoryear{Zwaan}{Zwaan}{1981}]{zwaan_solar_1981}
 Zwaan C.,  1981, NASA Special Publication, 450
