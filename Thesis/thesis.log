@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.30)  15 MAR 2021 11:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.30)  16 MAR 2021 08:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2702,7 +2702,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 220.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C3C349BD76C1DA6E2C3A456DA950DD12;8282.
+(rerunfilecheck)             Checksum: 0572BA65126557B3C6DA11BF33621237;8282.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 220.
  ) 
 Here is how much of TeX's memory you used:
@@ -2737,7 +2737,7 @@ sfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 tt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
 .pfb>
-Output written on thesis.pdf (281 pages, 14452570 bytes).
+Output written on thesis.pdf (281 pages, 14452573 bytes).
 PDF statistics:
  12800 PDF objects out of 12825 (max. 8388607)
  8253 compressed objects within 83 object streams
