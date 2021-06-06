@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: Appendices/CORSIKA-sims/CORSIKA_sims.aux
@@ -54,37 +54,37 @@ Warning--empty journal in shea_solar_1990
 while executing---line 1822 of file mnras.bst
 You've used 269 entries,
             2879 wiz_defined-function locations,
-            2562 strings with 85744 characters,
-and the built_in function-call counts, 124889 in all, are:
-= -- 9695
-> -- 9439
+            2562 strings with 85693 characters,
+and the built_in function-call counts, 124829 in all, are:
+= -- 9691
+> -- 9431
 < -- 812
-+ -- 4301
-- -- 1367
-* -- 14747
-:= -- 20360
++ -- 4299
+- -- 1365
+* -- 14739
+:= -- 20354
 add.period$ -- 0
 call.type$ -- 269
 change.case$ -- 544
 chr.to.int$ -- 263
 cite$ -- 280
-duplicate$ -- 6170
+duplicate$ -- 6168
 empty$ -- 6339
-format.name$ -- 2145
-if$ -- 21370
+format.name$ -- 2139
+if$ -- 21358
 int.to.chr$ -- 7
 int.to.str$ -- 0
 missing$ -- 252
 newline$ -- 847
-num.names$ -- 1893
-pop$ -- 1380
+num.names$ -- 1891
+pop$ -- 1382
 preamble$ -- 1
 purify$ -- 1076
 quote$ -- 0
-skip$ -- 3760
+skip$ -- 3758
 stack$ -- 0
 substring$ -- 6411
-swap$ -- 2898
+swap$ -- 2890
 text.length$ -- 1095
 text.prefix$ -- 0
 top$ -- 0
