@@ -113,4 +113,4 @@
 \contentsline {chapter}{\numberline {B}Simulations of the Ground Level Enhancements for the Analysis of HiSPARC Station 14008}{237}{appendix.B}
 \contentsline {section}{\numberline {B.1}Model}{237}{section.B.1}
 \contentsline {section}{\numberline {B.2}Configuration of the Simulations}{239}{section.B.2}
-\contentsline {chapter}{Bibliography}{241}{figure.caption.133}
+\contentsline {chapter}{Bibliography}{241}{figure.caption.134}

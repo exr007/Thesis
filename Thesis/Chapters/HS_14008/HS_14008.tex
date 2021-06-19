@@ -81,7 +81,7 @@ where $\Delta x$ is the thickness of the material, $S$ is the stopping power of 
 
 Each of the plastic scintillators has a thickness of $\Delta x \, = \, 2.0$~cm, and density, $\rho \, = \, 1.03$~g~cm$^{-3}$ \citep{montanus_observability_2017}. The stopping power of the scintillator for a minimum ionising particle is $S \sim 2$~MeV~g$^{-1}$~cm$^{2}$ \citep{fokkema_hisparc_2012, montanus_observability_2017}. The energy loss of a vertically incident muon in a single detector is therefore $\Delta E \sim 4$~MeV. \cite{van_dam_hisparc_2020} states the most probable energy loss of a vertically incident muon in a single scintillator is approximately $3.51$~MeV.
 
-Assuming a similar stopping power as above for the foam \citep{groom_muon_2001, montanus_observability_2017}, the muons will lose an additional $\sim 0.4$~MeV. In the complete configuration, as a muon traverses two scintillators and the foam, the estimated lower limit on the energy loss by muons in the detector is $\sim 7.4$~MeV. This new lower limit does not significantly change the values of the predicted \gls{gle} magnitudes in Section~\ref{sec:MAIRE_flux}.
+Assuming a similar stopping power as above for the foam \citep{groom_muon_2001, montanus_observability_2017}, the muons will lose an additional $\sim$0.4~MeV. In the complete configuration, as a muon traverses two scintillators and the foam, the estimated lower limit on the energy loss by muons in the detector is $\sim$7.4~MeV. This new lower limit does not significantly change the values of the predicted \gls{gle} magnitudes in Section~\ref{sec:MAIRE_flux}.
 
 The standard \gls{hisparc} station set-up is such that the \glspl{pmt} are connected to the \gls{hisparc} electronics box for data acquisition. In the standard \gls{hisparc} station configuration, the trigger rate of events is $\sim$1~Hz. In this stacked configuration the trigger rate is significantly higher, $\sim$80~Hz; hence the data produced is the equivalent of approximately half of the existing \gls{hisparc} network. The \gls{hisparc} servers could not cope with such a large quantity of data, therefore we had to reduce the data acquired by the \gls{hisparc} box; however, we did not want to lose the original count rate of the stacked detectors. To acquire the data in this set-up, we used a \gls{nim} crate, as shown in Figure~\ref{fig:14008_NIM}, and a Raspberry Pi was used to store the data, which is discussed in Section~\ref{sec:HS14008_data_acqusition}.
 
@@ -97,7 +97,7 @@ The data acquisition is discussed in Section~\ref{sec:HS14008_data_acqusition}, 
 
 The discriminator outputs two \gls{nim} signals which are connected to the first coincidence module (LeCroy model 622). This records every coincidence between the two \glspl{pmt} and the output from this module is directed to a \gls{nim} quad counter/timer module (ORTEC model 974). One channel of the \gls{nim} counter records the original coincidence counts from the first coincidence module.
 
-A second terminal in the coincidence module was used to record a reduced count rate. This used a pulse timer (CAEN model 2255B) to create a gate signal with a duty cycle of $\sim 1\%$ (gate width = $45.0 \, \upmu\mathrm{s}$; period = $4.86$~ms). The coincidence between the original coincidence signal and the pulse timer gate ensures that the original count rate is reduced by a factor of $\sim$100. This was a sufficient reduction in the data for the \gls{hisparc} servers to cope with. One output from this coincidence module is passed to the \gls{nim} counter, where it counts the reduced coincidences. The second output from the coincidence module is directed through a \gls{nim}-to-\gls{ttl} converter and the output from this is used as an external trigger signal for the acquisition of data by the \gls{hisparc} electronics box. This trigger was used to acquire the counts directly from the \glspl{pmt} in the normal \gls{hisparc} manner.%, but with a reduced frequency by a factor of $\sim100$.
+A second terminal in the coincidence module was used to record a reduced count rate. This used a pulse timer (CAEN model 2255B) to create a gate signal with a duty cycle of $\sim$$1\%$ (gate width = $45.0 \, \upmu\mathrm{s}$; period = $4.86$~ms). The coincidence between the original coincidence signal and the pulse timer gate ensures that the original count rate is reduced by a factor of $\sim$100. This was a sufficient reduction in the data for the \gls{hisparc} servers to cope with. One output from this coincidence module is passed to the \gls{nim} counter, where it counts the reduced coincidences. The second output from the coincidence module is directed through a \gls{nim}-to-\gls{ttl} converter and the output from this is used as an external trigger signal for the acquisition of data by the \gls{hisparc} electronics box. This trigger was used to acquire the counts directly from the \glspl{pmt} in the normal \gls{hisparc} manner.%, but with a reduced frequency by a factor of $\sim100$.
 
 The use of these \gls{nim} modules introduces delays in the signal. Each of the \gls{nim} modules introduces a \gls{nim}-standard, typical input-output delay of $\sim$9.5~ns \citep{lecroy_lecroy_1996, caen_technical_2011}. In Table~\ref{tab:HS_14008_delays} we outline the delays that are introduced from the outputs of the \glspl{pmt} to being registered at different end-points.
 
@@ -136,7 +136,7 @@ The use of these \gls{nim} modules introduces delays in the signal. Each of the 
 %	\end{center}
 %\end{table}
 
-From Table~\ref{tab:HS_14008_delays} we see there is a delay of $\sim36$~ns between the direct signal to the \gls{hisparc} electronics box and the external trigger from the \gls{nim} crate. There is also an $\sim8$~ns delay in between the full count and the reduced count. However, the delays introduced into the system are not actually a problem for counting muons with the \gls{hisparc} electronics box or the \gls{nim} counter. In the case of the \gls{hisparc} electronics box the effect of the delays is mitigated by the low muon count rate and the wide pre- and post-trigger windows of the \gls{hisparc} data acquisition software (discussed in Section~\ref{sec:intro_HS_DAQ}). The \gls{hisparc} data acquisition software uses pre-trigger ($1\,\upmu\mathrm{s}$), coincidence ($1.5\,\upmu\mathrm{s}$) and post-trigger ($3.5\,\upmu\mathrm{s}$) windows \citep{fokkema_hisparc_2012}. This means that the signals coming from our \gls{nim} setup, with a maximum delay of less than 60~ns, will be easily captured within the $1\,\upmu\mathrm{s}$ pre-trigger window and thus counted. Using the \gls{nim} counter, as discussed in Section~\ref{sec:HS14008_data_acqusition}, we measure all counts in time intervals of 10-seconds, therefore a delay of $\sim$8~ns does not impede our ability to count the events during the cadences.
+From Table~\ref{tab:HS_14008_delays} we see there is a delay of $\sim$36~ns between the direct signal to the \gls{hisparc} electronics box and the external trigger from the \gls{nim} crate. There is also an $\sim$8~ns delay in between the full count and the reduced count. However, the delays introduced into the system are not actually a problem for counting muons with the \gls{hisparc} electronics box or the \gls{nim} counter. In the case of the \gls{hisparc} electronics box the effect of the delays is mitigated by the low muon count rate and the wide pre- and post-trigger windows of the \gls{hisparc} data acquisition software (discussed in Section~\ref{sec:intro_HS_DAQ}). The \gls{hisparc} data acquisition software uses pre-trigger ($1\,\upmu\mathrm{s}$), coincidence ($1.5\,\upmu\mathrm{s}$) and post-trigger ($3.5\,\upmu\mathrm{s}$) windows \citep{fokkema_hisparc_2012}. This means that the signals coming from our \gls{nim} setup, with a maximum delay of less than 60~ns, will be easily captured within the $1\,\upmu\mathrm{s}$ pre-trigger window and thus counted. Using the \gls{nim} counter, as discussed in Section~\ref{sec:HS14008_data_acqusition}, we measure all counts in time intervals of 10-seconds, therefore a delay of $\sim$8~ns does not impede our ability to count the events during the cadences.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -358,7 +358,7 @@ p[r; p(k), N] = \sum_{r=r}^{N} \binom{N}{r} \, p(k)^r \, [1 \, - \, p(k)]^{N-r} 
 
 By applying equation~(\ref{eq:poisson_binom_CDF}) to the data, we were able to test whether there were any significant events against a certain probability threshold. Again, a low value for $p[r; p(\lambda), N]$ indicates that the event is very unlikely to happen by chance alone, and therefore a potential detection. The chosen probability threshold during all tests was 10\%, i.e., this corresponds to a 10\% chance of observing an excessive measurement as a statistical fluctuation.
 
-The choice of $N$ in this binomial test varies the required measurement threshold \citep{basu_asteroseismic_2017}. In the tests performed we chose a value of $N=720$ (i.e. $\sim2$~hours for measurements with a 10-second cadence). This value of $N$ was chosen as it is approximately the average \gls{fwhm} for \glspl{gle} \citep{strauss_pulse_2017}. In a 48-hour window, observing with a cadence of 10-seconds, we have $n=17280$ total points; however, using $N=720$ gives $n/N\approx24$ independent time-windows to test. On average, we would therefore expect to measure approximately $0.1 \times 24 \simeq 2.4$ points exceeding the threshold due to statistical fluctuations. These represent unwanted, false-positive detections, but allow us to judge whether there is any potential significance in a given data set, depending on how the number of excessive measurements compares to this level. Furthermore, a space weather event, such as a \gls{gle} will produce excess events clustered in time; whilst false-alarm events will be randomly distributed.
+The choice of $N$ in this binomial test varies the required measurement threshold \citep{basu_asteroseismic_2017}. In the tests performed we chose a value of $N=720$ (i.e. $\sim$2~hours for measurements with a 10-second cadence). This value of $N$ was chosen as it is approximately the average \gls{fwhm} for \glspl{gle} \citep{strauss_pulse_2017}. In a 48-hour window, observing with a cadence of 10-seconds, we have $n=17280$ total points; however, using $N=720$ gives $n/N\approx24$ independent time-windows to test. On average, we would therefore expect to measure approximately $0.1 \times 24 \simeq 2.4$ points exceeding the threshold due to statistical fluctuations. These represent unwanted, false-positive detections, but allow us to judge whether there is any potential significance in a given data set, depending on how the number of excessive measurements compares to this level. Furthermore, a space weather event, such as a \gls{gle} will produce excess events clustered in time; whilst false-alarm events will be randomly distributed.
 
 
 Another frequentist test that was used makes use of the fact that the Poisson distribution tends towards a Gaussian distribution when the mean value is sufficiently large. An excess in counts, compared to the mean value, can be quantified as:
@@ -571,12 +571,12 @@ These observations have used the original coincidences data, to determine the me
 	\label{fig:reduced_coincidences}
 \end{figure}
 
-The mean value of the Poisson distribution of reduced coincidences data is $\sim$44~counts/min ($\sim$0.73~$\upmu \, \mathrm{s}^{-1}$), which is a reduction by a factor of $\sim$110 from the original coincidences data. We can see from Figure~\ref{fig:reduced_coincidences} that both the data stored locally (reduced coincidences) and the data sent to the \gls{hisparc} server (events) are in agreement, with only the realisation of the noise being different between the data. The \gls{hisparc} data acquisition software features a pre-trigger window (duration: $1 \, \upmu\mathrm{s}$), coincidence window (duration: $1.5 \, \upmu\mathrm{s}$), and a post-trigger window (duration: $3.5 \, \upmu\mathrm{s}$). The duration of these coincidence windows means that the small delays from the \gls{nim} modules does not affect the ability of the data acquisition software to record the data from the external trigger. This verifies that the locally stored reduced coincidences data and the events data stored in the \gls{hisparc} server are measuring the same signal, with a count rate of count rate of $\sim 0.73~\upmu \, \mathrm{s}^{-1}$.
+The mean value of the Poisson distribution of reduced coincidences data is $\sim$44~counts/min ($\sim$0.73~$\upmu \, \mathrm{s}^{-1}$), which is a reduction by a factor of $\sim$110 from the original coincidences data. We can see from Figure~\ref{fig:reduced_coincidences} that both the data stored locally (reduced coincidences) and the data sent to the \gls{hisparc} server (events) are in agreement, with only the realisation of the noise being different between the data. The \gls{hisparc} data acquisition software features a pre-trigger window (duration: $1 \, \upmu\mathrm{s}$), coincidence window (duration: $1.5 \, \upmu\mathrm{s}$), and a post-trigger window (duration: $3.5 \, \upmu\mathrm{s}$). The duration of these coincidence windows means that the small delays from the \gls{nim} modules does not affect the ability of the data acquisition software to record the data from the external trigger. This verifies that the locally stored reduced coincidences data and the events data stored in the \gls{hisparc} server are measuring the same signal, with a count rate of count rate of $\sim$$0.73~\upmu \, \mathrm{s}^{-1}$.
 
 
 To understand the noise properties of this new configuration we investigated the random noise which is induced by random, spurious counts between both \glspl{pmt} which do not coincide with the passage of a muon. This was achieved by adding a delay in the signal between the two \glspl{pmt}, to ensure any coincident triggers were not due to true coincidences from the passage of a muon. By adding additional cables to the output from one \gls{pmt}, a delay of $\sim$120~ns was added between the two signals. The \gls{fwhm} of a typical pulse from the \glspl{pmt} is $\sim$25~ns, and the total duration from beginning-to-end is on the order of 100~ns \citep{van_dam_hisparc_2020}, therefore the $\sim$120~ns delay was sufficient to remove true coincidences from the observations.
 
-The delay was added between the two PMTs for around a week and the time series of the coincidences is shown in Figure~\ref{fig:random_coinciences}. We can see that the noise is nominally $\sim 1$~count/minute.
+The delay was added between the two PMTs for around a week and the time series of the coincidences is shown in Figure~\ref{fig:random_coinciences}. We can see that the noise is nominally $\sim$1~count/minute.
 
 \begin{figure}[ht!]
 	\centering
@@ -594,7 +594,7 @@ We know the noise must follow a Poisson distribution, therefore we aimed to quan
 	\label{fig:random_coinciences_dist}
 \end{figure}
 
-The median value of the sampled posterior of the mean value of the Poisson distribution of random coincidence is $0.259 \pm 0.006$~counts/min, where the uncertainties represent the $68 \%$ credible intervals either side of the median. This represents a low level of noise; under this Poisson likelihood function the probability of no noise is $\sim 77 \%$, 1~count/minute is $\sim 20 \%$, and over 2~counts/minute is $< 3 \%$.
+The median value of the sampled posterior of the mean value of the Poisson distribution of random coincidence is $0.259 \pm 0.006$~counts/min, where the uncertainties represent the $68 \%$ credible intervals either side of the median. This represents a low level of noise; under this Poisson likelihood function the probability of no noise is $\sim$$77 \%$, 1~count/minute is $\sim$$20 \%$, and over 2~counts/minute is $< 3 \%$.
 
 It is also important to note that in Figure~\ref{fig:random_coinciences}, there is no obvious diurnal pattern in the signal. This shows that as the \gls{pmt} thermal noise increases around midday, which we see manifesting in the singles data, the increased thermal noise does not manifest in the spurious coincidences between both \glspl{pmt}. This is important as it highlights that in this stacked detector configuration we have maximised our ability to observe single muons whilst reducing the effects of diurnal, thermally induced noise, which motivated not correcting for the weak correlation between the temperature of the \glspl{pmt} and the coincidences data.
 
@@ -701,9 +701,55 @@ For each \gls{gle} magnitude we ran 1000 iterations of the simulations and were 
 	\label{fig:single_HS14008_sims}
 \end{figure}
 
-We see from Figure~\ref{fig:single_HS14008_sims} that in the case where no averaging of data was performed, using the $Z=3$ significance level, we begin to be able to differentiate the increase in the number of excessive measurements from simply statistical fluctuations for a \gls{gle} with magnitude of $>3.0$--$3.5~\%$. However, in the $Z=3$ test we cannot claim to have observed a statistically significant event (i.e. to $5\sigma$) until a \gls{gle} with magnitude of $\sim$$4.0$--$5.0~\%$. Using the binomial test, we expect to be able to differentiate the increase in the number of significant measurements for a \gls{gle} with magnitude of $>4.5$--$5.0~\%$. To be able to see the results clearly, we only show the results for \gls{gle} magnitudes of up to $5~\%$, and in Figure~\ref{fig:single_sims_0min_rebin}, we see using the $Z=5$ significance level, there are no excessive measurements. In our complete analysis, we investigated \gls{gle} magnitudes up to $10~\%$, and determined that at the $Z=5$ significance level we can differentiate the increase in the number of excessive events for \gls{gle} magnitude of $\geq7.5~\%$. These limiting magnitudes are larger than typical magnitudes of \glspl{gle} predicted in Section~\ref{sec:MAIRE_flux}, hence showing that despite reducing non-\gls{cr} variations in the data, we are only capable of detecting the largest \glspl{gle} in the raw data acquired in this configuration.
+We see from Figure~\ref{fig:single_HS14008_sims} that in the case where no averaging of data was performed, using the $Z=3$ significance level, we begin to be able to differentiate the increase in the number of excessive measurements from simply statistical fluctuations for a \gls{gle} with magnitude of $>3.0$--$3.5~\%$. However, in the $Z=3$ test we cannot claim to have observed a statistically significant event (i.e. to $5\sigma$) until a \gls{gle} with magnitude of $\sim$$4.0$--$5.0~\%$. Using the binomial test, we expect to be able to differentiate the increase in the number of significant measurements for a \gls{gle} with magnitude of $>4.5$--$5.0~\%$. To be able to see the results clearly, we only show the results for \gls{gle} magnitudes of up to $5~\%$, and in Figure~\ref{fig:single_sims_0min_rebin}, we see using the $Z=5$ significance level, there are no excessive measurements. In our complete analysis, we investigated \gls{gle} magnitudes up to $10~\%$, and determined that at the $Z=5$ significance level we can differentiate the increase in the number of excessive events for \gls{gle} magnitude of $\geq7.5~\%$ (see Table~\ref{tab:HS_14008_sims_to_10}). These limiting magnitudes are larger than typical magnitudes of \glspl{gle} predicted in Section~\ref{sec:MAIRE_flux}, hence showing that despite reducing non-\gls{cr} variations in the data, we are only capable of detecting the largest \glspl{gle} in the raw data acquired in this configuration.
 
-When averaging the data over 1-minute and 5-minute intervals, our ability to detect lower-magnitude \glspl{gle} improved. We can differentiate \glspl{gle} from statistical fluctuations for magnitudes of $2.0$--$2.5~\%$ and $\sim1.5~\%$, for 1-minute and 5-minute averaging, respectively. Similarly, at the $Z=5$ significance level this improved to $4.5$--$5.0~\%$ and $2.5$--$3.0~\%$, respectively. Finally, using the binomial test, we expect to be able to differentiate the increase in the number of excessive measurements for a \gls{gle} with magnitude of $\sim2.5~\%$ and $\sim1.5~\%$, respectively.
+
+
+\vspace{1em}
+%
+\begin{table}[ht!]
+	\begin{center}
+		\caption{Median number of excessive measurements in the artificial data for GLEs injected with magnitudes of 0\%, 5\%, 7.5\%, and 10\%, to show the full analysis. The values were acquired from 1000 iterations of simulated data, performing each of the three statistical tests: binomial, $Z=3$, and $Z=5$, for the 10-s cadence data. All uncertainties correspond to the 68\% credible intervals either side of the median.}
+		\label{tab:HS_14008_sims_to_10}
+		\begin{tabular}{c c c c}
+			\hline 
+			{} & \multicolumn{3}{c}{\bf No. excessive measurements} \\ 
+			{\bf GLE Magnitude} & {\bf Binomial} & {\bf $\mathbf{Z=3}$} & {\bf $\mathbf{Z=5}$}  \\ 
+			\hline 
+			0\% & $2^{+2}_{-1}$ & $27^{+6}_{-5}$ & $0 \pm 0$ \\ 
+			5\% & $10^{+5}_{-4}$ & $71^{+25}_{-21}$ & $0 \pm 0$ \\ 
+			7.5\% & $33 \pm 16$ & $155^{+61}_{-63}$ & $1 \pm 1$ \\ 
+			10\% & $96^{+45}_{-46}$ & $310^{+141}_{-137}$ & $5^{+4}_{-3}$ \\ 
+			\hline 
+			
+
+%			{} & \multicolumn{3}{c}{\bf No. excessive measurements} \\ 
+%			{\bf GLE Magnitude} & {\bf 10-second} & {\bf 1-minute} & {\bf 5-minute}  \\ 
+%			\hline 
+%			0 & $2^{+2}_{-1}$ & $0^{+1}_{-0}$ & $0 \pm 0$ \\ 
+%			5 & $10^{+5}_{-4}$ & $33^{+16}_{-18}$ & $44^{+23}_{-24}$ \\ 
+%			7.5 & $33 \pm 16$ & $115^{+58}_{-55}$ & $63^{+37}_{-32}$ \\ 
+%			10 & $96^{+45}_{-46}$ & $199^{+98}_{-96}$ & $78^{+47}_{-39}$ \\ 
+%			\hline 
+%			
+%			0 & $27^{+6}_{-5}$ & $4 \pm 2$ & $1 \pm 1$ \\ 
+%			5 & $71^{+25}_{-21}$ & $83 \pm 40$ & $58^{+32}_{-30}$ \\ 
+%			7.5 & $155^{+61}_{-63}$ & $183^{+94}_{-87}$ & $77^{+46}_{-39}$ \\ 
+%			10 & $310^{+141}_{-137}$ & $265^{+136}_{-129}$ & $91^{+58}_{-47}$ \\ 
+%			\hline 
+%			
+%			0 & $0 \pm 0$  & $0 \pm 0$ & $0 \pm 0$ \\ 
+%			5 & $0 \pm 0$  & $3 \pm 2$ & $28^{+13}_{-15}$ \\ 
+%			7.5 & $1 \pm 1$ & $35 \pm 18$ & $48^{+28}_{-24}$ \\ 
+%			10 & $5^{+4}_{-3}$ & $106^{+50}_{-51}$ & $65^{+36}_{-33}$ \\ 
+			\hline 
+		\end{tabular} 
+	\end{center}
+\end{table}
+%
+\vspace{1em}
+
+When averaging the data over 1-minute and 5-minute intervals, our ability to detect lower-magnitude \glspl{gle} improved. We can differentiate \glspl{gle} from statistical fluctuations for magnitudes of $2.0$--$2.5~\%$ and $\sim$$1.5~\%$, for 1-minute and 5-minute averaging, respectively. Similarly, at the $Z=5$ significance level this improved to $4.5$--$5.0~\%$ and $2.5$--$3.0~\%$, respectively. Finally, using the binomial test, we expect to be able to differentiate the increase in the number of excessive measurements for a \gls{gle} with magnitude of $\sim$$2.5~\%$ and $\sim$$1.5~\%$, respectively.
 
 We also note that with an increasing \gls{gle} magnitude we observe a larger spread in the average number of excessive points. This arises due to the random sampling of \gls{gle} properties, i.e. randomly sampling the rise and decay times. A \gls{gle} with a longer decay time generally results in a higher number of excessive points, compared to a \gls{gle} with a shorter decay time. This effect can be amplified when the magnitude of the \gls{gle} increases as the signal is more statistically significant. Therefore, we see an increase in the confidence intervals for larger \gls{gle} magnitudes in Figure~\ref{fig:single_HS14008_sims}.
 
