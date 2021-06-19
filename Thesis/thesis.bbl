@@ -297,6 +297,11 @@ Clette F.,  Cliver E.~W.,  Lefèvre L.,  Svalgaard L.,  Vaquero J.~M.,
   Leibacher J.~W.,  2016, \mn@doi [Solar Physics] {10.1007/s11207-016-1017-8},
   291, 2479
 
+\bibitem[\protect\citeauthoryear{{Cliver} \& {Svalgaard}}{{Cliver} \&
+  {Svalgaard}}{2004}]{cliver_solar_2004}
+{Cliver} E.~W.,  {Svalgaard} L.,  2004, \mn@doi [\solphys]
+  {10.1007/s11207-005-4980-z}, 224, 407
+
 \bibitem[\protect\citeauthoryear{Corti, Potgieter, Bindi, Consolandi, Light,
   Palermo  \& Popkow}{Corti et~al.}{2019}]{corti_numerical_2019}
 Corti C.,  Potgieter M.~S.,  Bindi V.,  Consolandi C.,  Light C.,  Palermo M.,
@@ -420,6 +425,11 @@ ETEnterprises 2020, Technical Report 9125B, Data {Sheet}: {9125B} {Series},
   {http://et-enterprises.com/products/photomultipliers/product/p9125b-series}.
 ET Enterprises
 
+\bibitem[\protect\citeauthoryear{Eastwood et~al.,}{Eastwood
+  et~al.}{2017}]{eastwood_economic_2017}
+Eastwood J.~P.,  et~al., 2017, \mn@doi [Risk Analysis]
+  {https://doi.org/10.1111/risa.12765}, 37, 206
+
 \bibitem[\protect\citeauthoryear{Elsworth, Howe, Isaak, McLeod, Miller, van~der
   Raay, Wheeler  \& New}{Elsworth et~al.}{1995a}]{elsworth_performance_1995}
 Elsworth Y.,  Howe R.,  Isaak G.~R.,  McLeod C.~P.,  Miller B.~A.,  van~der
@@ -430,6 +440,11 @@ Elsworth Y.,  Howe R.,  Isaak G.~R.,  McLeod C.~P.,  Miller B.~A.,  van~der
   Wheeler}{Elsworth et~al.}{1995b}]{elsworth_techniques_1995}
 Elsworth Y.,  Howe R.,  Isaak G.~R.,  McLeod C.~P.,  Miller B.~A.,  New R.,
   Wheeler S.~J.,  1995b, Astronomy and Astrophysics Supplement Series, 113, 379
+
+\bibitem[\protect\citeauthoryear{Elvidge \& Angling}{Elvidge \&
+  Angling}{2018}]{elvidge_using_2018}
+Elvidge S.,  Angling M.~J.,  2018, \mn@doi [Space Weather]
+  {https://doi.org/10.1002/2017SW001727}, 16, 417
 
 \bibitem[\protect\citeauthoryear{Fan \& Velthuis}{Fan \&
   Velthuis}{2018}]{fan_analysis_2018}
@@ -513,6 +528,17 @@ Gopalswamy N.,  Yashiro S.,  Michalek G.,  Stenborg G.,  Vourlidas A.,
   Freeland S.,   Howard R.,  2009, \mn@doi [Earth, Moon, and Planets]
   {10.1007/s11038-008-9282-7}, 104, 295
 
+\bibitem[\protect\citeauthoryear{Gopalswamy, Xie, Akiyama, M{\"a}kel{\"a}  \&
+  Yashiro}{Gopalswamy et~al.}{2014}]{gopalswamy_major_2014}
+Gopalswamy N.,  Xie H.,  Akiyama S.,  M{\"a}kel{\"a} P.~A.,   Yashiro S.,
+  2014, \mn@doi [Earth, Planets and Space] {10.1186/1880-5981-66-104}, 66, 104
+
+\bibitem[\protect\citeauthoryear{Gopalswamy, Yashiro, Thakur, M{\"a}kel{\"a},
+  Xie  \& Akiyama}{Gopalswamy et~al.}{2016}]{gopalswamy_2012_2016}
+Gopalswamy N.,  Yashiro S.,  Thakur N.,  M{\"a}kel{\"a} P.,  Xie H.,   Akiyama
+  S.,  2016, \mn@doi [The Astrophysical Journal] {10.3847/1538-4357/833/2/216},
+  833, 216
+
 \bibitem[\protect\citeauthoryear{Government}{Government}{2020}]{hm_government_national_2020}
 Government H.,  2020, Risk {Register}, National {Risk} {Register}: 2020
   edition, \url
@@ -556,6 +582,11 @@ Hanasoge S.,  Mandal K.,  2019, \mn@doi [The Astrophysical Journal Letters]
   Campante}{2011}]{handberg_bayesian_2011}
 Handberg R.,  Campante T.~L.,  2011, \mn@doi [Astronomy \& Astrophysics]
   {10.1051/0004-6361/201015451}, 527, A56
+
+\bibitem[\protect\citeauthoryear{Hapgood et~al.,}{Hapgood
+  et~al.}{2021}]{hapgood_development_2021}
+Hapgood M.,  et~al., 2021, \mn@doi [Space Weather]
+  {https://doi.org/10.1029/2020SW002593}, 19, e2020SW002593
 
 \bibitem[\protect\citeauthoryear{Harvey}{Harvey}{2001}]{harvey_solar_2001}
 Harvey K.,  2001, in , The {Encyclopedia} of {Astronomy} and {Astrophysics}.
@@ -627,6 +658,11 @@ Howe R.,  Hill F.,  Komm R.,  Chaplin W.~J.,  Elsworth Y.,  Davies G.~R.,
   et~al.}{2020}]{howe_solar_2020}
 Howe R.,  et~al., 2020, \mn@doi [Mon Not R Astron Soc Lett]
   {10.1093/mnrasl/slaa006}, 493, L49
+
+\bibitem[\protect\citeauthoryear{Hubert \& Aubry}{Hubert \&
+  Aubry}{2021}]{hubert_study_2021}
+Hubert G.,  Aubry S.,  2021, \mn@doi [Space Weather]
+  {https://doi.org/10.1029/2020SW002665}, 19, e2020SW002665
 
 \bibitem[\protect\citeauthoryear{Humble, Duldig, Smart  \& Shea}{Humble
   et~al.}{2012}]{humble_j._e._detection_2012}
@@ -744,6 +780,11 @@ Liang Z.-C.,  Gizon L.,  Birch A.~C.,   Duvall T.~L.,  2019, \mn@doi [A\&A]
 Lingri D.,  Mavromichalaki H.,  Belov A.,  Eroshenko E.,  Yanke V.,  Abunin A.,
     Abunina M.,  2016, arXiv:1612.08900 [astro-ph]
 
+\bibitem[\protect\citeauthoryear{Lingri, Mavromichalaki, Belov, Abunina,
+  Eroshenko  \& Abunin}{Lingri et~al.}{2019}]{lingri_extended_2019}
+Lingri D.,  Mavromichalaki H.,  Belov A.,  Abunina M.,  Eroshenko E.,   Abunin
+  A.,  2019, \mn@doi [Sol Phys] {10.1007/s11207-019-1461-3}, 294, 70
+
 \bibitem[\protect\citeauthoryear{Lista}{Lista}{2016}]{lista_statistical_2016}
 Lista L.,  2016, Statistical {Methods} for {Data} {Analysis} in {Particle}
   {Physics}.
@@ -766,6 +807,14 @@ Lockwood M.,  Stamper R.,   Wild M.~N.,  1999, \mn@doi [Nature]
 L\"optien B.,  Gizon L.,  Birch A.~C.,  Schou J.,  Proxauf B.,  Duvall T.~L.,
   Bogart R.~S.,   Christensen U.~R.,  2018, \mn@doi [Nature Astronomy]
   {10.1038/s41550-018-0460-x}, 2, 568
+
+\bibitem[\protect\citeauthoryear{Love}{Love}{2020}]{love_some_2020}
+Love J.~J.,  2020, \mn@doi [Space Weather]
+  {https://doi.org/10.1029/2019SW002255}, 18, e2019SW002255
+
+\bibitem[\protect\citeauthoryear{Love}{Love}{2021}]{love_extreme-event_2021}
+Love J.~J.,  2021, \mn@doi [Space Weather]
+  {https://doi.org/10.1029/2020SW002579}, 19, e2020SW002579
 
 \bibitem[\protect\citeauthoryear{Lovell, Duldig  \& Humble}{Lovell
   et~al.}{1998}]{lovell_extended_1998}
@@ -837,6 +886,11 @@ Mendon\c{c}a R. R. S.~d.,  et~al., 2016, \mn@doi [ApJ]
 \bibitem[\protect\citeauthoryear{MetOffice}{MetOffice}{2013}]{metoffice_space_2013}
 MetOffice 2013, Technical Report 13/0402, Space {Weather}, \url
   {https://www.metoffice.gov.uk/binaries/content/assets/mohippo/pdf/public-sector/emergencies/space-weather/space_weather_datasheet_final.pdf}
+
+\bibitem[\protect\citeauthoryear{Mishev \& Usoskin}{Mishev \&
+  Usoskin}{2018}]{mishev_assessment_2018}
+Mishev A.~L.,  Usoskin I.~G.,  2018, \mn@doi [Space Weather]
+  {10.1029/2018SW001946}
 
 \bibitem[\protect\citeauthoryear{Mishev \& Usoskin}{Mishev \&
   Usoskin}{2020}]{mishev_current_2020}

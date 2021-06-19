@@ -13,104 +13,104 @@
 \contentsline {subsection}{\numberline {1.2.2}Impacts of Space Weather}{15}{subsection.1.2.2}
 \contentsline {section}{\numberline {1.3}Cosmic Rays}{19}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Background}{19}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Cosmic Rays in the Atmosphere}{21}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.2}Cosmic Rays in the Atmosphere}{22}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}Cosmic Ray Detectors}{24}{subsection.1.3.3}
 \contentsline {subsection}{\numberline {1.3.4}Cosmic Ray Observations of Solar Activity and Space Weather}{27}{subsection.1.3.4}
-\contentsline {section}{\numberline {1.4}The HiSPARC Experiment}{34}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Background}{34}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}HiSPARC Detector and Station Configuration}{35}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.4}The HiSPARC Experiment}{35}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Background}{35}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}HiSPARC Detector and Station Configuration}{36}{subsection.1.4.2}
 \contentsline {subsection}{\numberline {1.4.3}HiSPARC Data Acquisition}{40}{subsection.1.4.3}
-\contentsline {section}{\numberline {1.5}Thesis Structure}{44}{section.1.5}
-\contentsline {chapter}{\numberline {2}HiSPARC as a Space Weather Detector}{46}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{46}{section.2.1}
-\contentsline {section}{\numberline {2.2}Aims}{51}{section.2.2}
-\contentsline {section}{\numberline {2.3}HiSPARC Data}{53}{section.2.3}
-\contentsline {section}{\numberline {2.4}Station Properties}{55}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Cut-Off Rigidity}{55}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Asymptotic Viewing Directions}{59}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}HiSPARC Observations}{61}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Observations of Ground Level Enhancements}{61}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Observations of Forbush Decreases}{64}{subsection.2.5.2}
-\contentsline {section}{\numberline {2.6}Atmospheric Corrections of HiSPARC Data}{68}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Motivation}{68}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Barometric Correction}{68}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}Temperature Correction}{71}{subsection.2.6.3}
-\contentsline {section}{\numberline {2.7}HiSPARC Observations After Atmospheric Corrections}{74}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Observations of Ground Level Enhancements}{74}{subsection.2.7.1}
-\contentsline {subsection}{\numberline {2.7.2}Observations of Forbush Decreases}{76}{subsection.2.7.2}
-\contentsline {section}{\numberline {2.8}Air Shower Simulations}{78}{section.2.8}
-\contentsline {subsection}{\numberline {2.8.1}Motivation}{78}{subsection.2.8.1}
-\contentsline {subsection}{\numberline {2.8.2}Air Shower Footprints}{79}{subsection.2.8.2}
-\contentsline {subsection}{\numberline {2.8.3}Muon Flux}{81}{subsection.2.8.3}
-\contentsline {subsection}{\numberline {2.8.4}Muon Flux From MAIRE}{83}{subsection.2.8.4}
-\contentsline {section}{\numberline {2.9}Conclusion}{91}{section.2.9}
-\contentsline {chapter}{\numberline {3}HiSPARC Station 14008}{95}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{95}{section.3.1}
-\contentsline {section}{\numberline {3.2}Aims}{96}{section.3.2}
-\contentsline {section}{\numberline {3.3}HiSPARC Station 14008 Set-Up}{96}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Configuration}{96}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Calibration}{101}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Monitoring Temperature}{103}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Data Acquisition}{103}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Monitoring Pressure}{106}{subsection.3.3.5}
-\contentsline {section}{\numberline {3.4}Methodology}{107}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Atmospheric Corrections}{107}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Observation Statistics}{108}{subsection.3.4.2}
-\contentsline {section}{\numberline {3.5}Atmospheric Corrections}{112}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Temperature Correction}{112}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Barometric Correction}{115}{subsection.3.5.2}
-\contentsline {section}{\numberline {3.6}Results}{117}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Observations}{117}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Comparison with Neutron Monitors}{122}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}Single Station Space Weather Uses}{124}{subsection.3.6.3}
-\contentsline {subsection}{\numberline {3.6.4}Multiple Station Space Weather Uses}{130}{subsection.3.6.4}
-\contentsline {section}{\numberline {3.7}Conclusions}{136}{section.3.7}
-\contentsline {chapter}{\numberline {4}Galactic Cosmic Ray Behaviour During Solar Cycle 24}{140}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{140}{section.4.1}
-\contentsline {section}{\numberline {4.2}Data}{145}{section.4.2}
-\contentsline {section}{\numberline {4.3}Time-Lag Analysis}{147}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Method}{147}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Results}{147}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Hysteresis Effect Analysis}{152}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Method}{152}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Results}{153}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Conclusions}{158}{section.4.5}
-\contentsline {section}{\numberline {4.6}Comparison with HiSPARC}{159}{section.4.6}
-\contentsline {chapter}{\numberline {5}A Frequency Domain Investigation on the Morphology of the Solar Mean Magnetic Field}{162}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{162}{section.5.1}
-\contentsline {section}{\numberline {5.2}Aims}{166}{section.5.2}
-\contentsline {section}{\numberline {5.3}Data}{167}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Summary of the Data Set}{167}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Obtaining the SMMF from BiSON}{168}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Methodology}{171}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Identifying Features in the SMMF Power Spectrum}{171}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Parametrisation of the SMMF Power Spectrum}{174}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Modelling the SMMF Power Spectrum}{176}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Comparison with the WSO SMMF}{177}{subsection.5.4.4}
-\contentsline {section}{\numberline {5.5}Results}{178}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Investigation of the Window Function}{178}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Modelling the BiSON Power Spectrum}{183}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Comparison to the WSO Power Spectrum}{187}{subsection.5.5.3}
-\contentsline {section}{\numberline {5.6}Discussion}{191}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Testing the Effects of Differential Rotation and Active Region Migration}{191}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Further Morphology of the SMMF using SDO/HMI Data}{195}{subsection.5.6.2}
-\contentsline {section}{\numberline {5.7}Conclusion}{198}{section.5.7}
-\contentsline {chapter}{\numberline {6}Rossby Modes in the Solar Mean Magnetic Field}{202}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{202}{section.6.1}
-\contentsline {section}{\numberline {6.2}Theory}{204}{section.6.2}
-\contentsline {section}{\numberline {6.3}Methodology}{206}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Testing the Residual Spectrum}{206}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Modelling {\it r} mode Profiles}{209}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Results}{210}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Testing the Residual Spectrum}{210}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Modelling {\it r} mode Profiles}{212}{subsection.6.4.2}
-\contentsline {section}{\numberline {6.5}Discussion}{214}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Manifestation of Rossby Waves in the Power Spectrum}{214}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Rossby Modes in Other Sources of SMMF Data}{219}{subsection.6.5.2}
-\contentsline {section}{\numberline {6.6}Conclusion}{220}{section.6.6}
-\contentsline {chapter}{\numberline {7}Conclusions and Future Prospects}{223}{chapter.7}
-\contentsline {chapter}{\numberline {A}Simulations of Cosmic Ray Air Showers using CORSIKA}{231}{appendix.A}
-\contentsline {chapter}{\numberline {B}Simulations of the Ground Level Enhancements for the Analysis of HiSPARC Station 14008}{235}{appendix.B}
-\contentsline {section}{\numberline {B.1}Model}{235}{section.B.1}
-\contentsline {section}{\numberline {B.2}Configuration of the Simulations}{237}{section.B.2}
-\contentsline {chapter}{Bibliography}{239}{figure.caption.132}
+\contentsline {section}{\numberline {1.5}Thesis Structure}{45}{section.1.5}
+\contentsline {chapter}{\numberline {2}HiSPARC as a Space Weather Detector}{47}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{47}{section.2.1}
+\contentsline {section}{\numberline {2.2}Aims}{52}{section.2.2}
+\contentsline {section}{\numberline {2.3}HiSPARC Data}{54}{section.2.3}
+\contentsline {section}{\numberline {2.4}Station Properties}{57}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Cut-Off Rigidity}{57}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Asymptotic Viewing Directions}{60}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}HiSPARC Observations}{62}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Observations of Ground Level Enhancements}{62}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Observations of Forbush Decreases}{65}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Atmospheric Corrections of HiSPARC Data}{69}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Motivation}{69}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Barometric Correction}{69}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Temperature Correction}{73}{subsection.2.6.3}
+\contentsline {section}{\numberline {2.7}HiSPARC Observations After Atmospheric Corrections}{76}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Observations of Ground Level Enhancements}{76}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Observations of Forbush Decreases}{78}{subsection.2.7.2}
+\contentsline {section}{\numberline {2.8}Air Shower Simulations}{80}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Motivation}{80}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}Air Shower Footprints}{81}{subsection.2.8.2}
+\contentsline {subsection}{\numberline {2.8.3}Muon Flux}{82}{subsection.2.8.3}
+\contentsline {subsection}{\numberline {2.8.4}Muon Flux From MAIRE}{85}{subsection.2.8.4}
+\contentsline {section}{\numberline {2.9}Conclusion}{93}{section.2.9}
+\contentsline {chapter}{\numberline {3}HiSPARC Station 14008}{97}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{97}{section.3.1}
+\contentsline {section}{\numberline {3.2}Aims}{98}{section.3.2}
+\contentsline {section}{\numberline {3.3}HiSPARC Station 14008 Set-Up}{98}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Configuration}{98}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Calibration}{103}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Monitoring Temperature}{105}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Data Acquisition}{105}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Monitoring Pressure}{108}{subsection.3.3.5}
+\contentsline {section}{\numberline {3.4}Methodology}{109}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Atmospheric Corrections}{109}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Observation Statistics}{110}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Atmospheric Corrections}{114}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Temperature Correction}{114}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Barometric Correction}{117}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}Results}{119}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Observations}{119}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Comparison with Neutron Monitors}{124}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Single Station Space Weather Uses}{126}{subsection.3.6.3}
+\contentsline {subsection}{\numberline {3.6.4}Multiple Station Space Weather Uses}{132}{subsection.3.6.4}
+\contentsline {section}{\numberline {3.7}Conclusions}{138}{section.3.7}
+\contentsline {chapter}{\numberline {4}Galactic Cosmic Ray Behaviour During Solar Cycle 24}{142}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{142}{section.4.1}
+\contentsline {section}{\numberline {4.2}Data}{147}{section.4.2}
+\contentsline {section}{\numberline {4.3}Time-Lag Analysis}{149}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Method}{149}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Results}{149}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Hysteresis Effect Analysis}{154}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Method}{154}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Results}{155}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Conclusions}{160}{section.4.5}
+\contentsline {section}{\numberline {4.6}Comparison with HiSPARC}{161}{section.4.6}
+\contentsline {chapter}{\numberline {5}A Frequency Domain Investigation on the Morphology of the Solar Mean Magnetic Field}{164}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{164}{section.5.1}
+\contentsline {section}{\numberline {5.2}Aims}{169}{section.5.2}
+\contentsline {section}{\numberline {5.3}Data}{169}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Summary of the Data Set}{169}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Obtaining the SMMF from BiSON}{171}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Methodology}{174}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Identifying Features in the SMMF Power Spectrum}{174}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Parametrisation of the SMMF Power Spectrum}{177}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Modelling the SMMF Power Spectrum}{179}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Comparison with the WSO SMMF}{180}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.5}Results}{181}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Investigation of the Window Function}{181}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Modelling the BiSON Power Spectrum}{186}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Comparison to the WSO Power Spectrum}{190}{subsection.5.5.3}
+\contentsline {section}{\numberline {5.6}Discussion}{194}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Testing the Effects of Differential Rotation and Active Region Migration}{194}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Further Morphology of the SMMF using SDO/HMI Data}{198}{subsection.5.6.2}
+\contentsline {section}{\numberline {5.7}Conclusion}{199}{section.5.7}
+\contentsline {chapter}{\numberline {6}Rossby Modes in the Solar Mean Magnetic Field}{204}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{204}{section.6.1}
+\contentsline {section}{\numberline {6.2}Theory}{206}{section.6.2}
+\contentsline {section}{\numberline {6.3}Methodology}{208}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Testing the Residual Spectrum}{208}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Modelling {\it r} mode Profiles}{211}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Results}{212}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Testing the Residual Spectrum}{212}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Modelling {\it r} mode Profiles}{214}{subsection.6.4.2}
+\contentsline {section}{\numberline {6.5}Discussion}{216}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Manifestation of Rossby Waves in the Power Spectrum}{216}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Rossby Modes in Other Sources of SMMF Data}{221}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}Conclusion}{222}{section.6.6}
+\contentsline {chapter}{\numberline {7}Conclusions and Future Prospects}{225}{chapter.7}
+\contentsline {chapter}{\numberline {A}Simulations of Cosmic Ray Air Showers using CORSIKA}{233}{appendix.A}
+\contentsline {chapter}{\numberline {B}Simulations of the Ground Level Enhancements for the Analysis of HiSPARC Station 14008}{237}{appendix.B}
+\contentsline {section}{\numberline {B.1}Model}{237}{section.B.1}
+\contentsline {section}{\numberline {B.2}Configuration of the Simulations}{239}{section.B.2}
+\contentsline {chapter}{Bibliography}{241}{figure.caption.133}

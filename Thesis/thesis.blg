@@ -4,7 +4,7 @@ The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: Appendices/CORSIKA-sims/CORSIKA_sims.aux
 A level-1 auxiliary file: Appendices/HS14008-GLE-sims/HS_GLE_sims.aux
 The style file: mnras.bst
-Reallocated field_info (elt_size=4) to 12263 items from 5000.
+Reallocated field_info (elt_size=4) to 12560 items from 5000.
 Database file #1: library.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -52,45 +52,45 @@ Warning--empty journal in shea_solar_1990
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry shea_solar_1990
 while executing---line 1822 of file mnras.bst
-You've used 269 entries,
+You've used 280 entries,
             2879 wiz_defined-function locations,
-            2562 strings with 85693 characters,
-and the built_in function-call counts, 124829 in all, are:
-= -- 9691
-> -- 9431
-< -- 812
-+ -- 4299
-- -- 1365
-* -- 14739
-:= -- 20354
+            2639 strings with 89609 characters,
+and the built_in function-call counts, 130544 in all, are:
+= -- 10256
+> -- 9798
+< -- 842
++ -- 4458
+- -- 1419
+* -- 15426
+:= -- 21229
 add.period$ -- 0
-call.type$ -- 269
-change.case$ -- 544
-chr.to.int$ -- 263
-cite$ -- 280
-duplicate$ -- 6168
-empty$ -- 6339
-format.name$ -- 2139
-if$ -- 21358
+call.type$ -- 280
+change.case$ -- 566
+chr.to.int$ -- 274
+cite$ -- 291
+duplicate$ -- 6412
+empty$ -- 6580
+format.name$ -- 2235
+if$ -- 22378
 int.to.chr$ -- 7
 int.to.str$ -- 0
-missing$ -- 252
-newline$ -- 847
-num.names$ -- 1891
-pop$ -- 1382
+missing$ -- 263
+newline$ -- 880
+num.names$ -- 1967
+pop$ -- 1422
 preamble$ -- 1
-purify$ -- 1076
+purify$ -- 1120
 quote$ -- 0
-skip$ -- 3758
+skip$ -- 3914
 stack$ -- 0
-substring$ -- 6411
-swap$ -- 2890
-text.length$ -- 1095
+substring$ -- 6921
+swap$ -- 3008
+text.length$ -- 1139
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2388
+type$ -- 2487
 warning$ -- 11
-while$ -- 2013
+while$ -- 2095
 width$ -- 0
-write$ -- 2756
+write$ -- 2865
 (There were 13 error messages)
